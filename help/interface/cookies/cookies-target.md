@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics,Target,Social
 title: Doelcookies
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
 
 ---
 
@@ -44,7 +44,7 @@ U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van h
   </tr> 
   <tr> 
    <td colname="col1"> <p>Duur van cookie </p> </td> 
-   <td colname="col2"> <p>Het cookie blijft twee weken na de laatste aanmelding in de browser van de bezoeker staan. U kunt de duur van het cookie niet wijzigen. </p> </td> 
+   <td colname="col2"> <p>Het cookie blijft twee jaar na de laatste aanmelding in de browser van de bezoeker staan. U kunt de duur van het cookie niet wijzigen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
