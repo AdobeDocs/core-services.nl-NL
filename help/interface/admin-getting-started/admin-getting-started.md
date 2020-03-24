@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gebruikers en producten van Experience Cloud beheren
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 # Gebruikers en producten van Experience Cloud beheren {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
 Leer hoe u zich aanmeldt bij de beheerconsole, gebruikersmachtigingen en productprofielen voor Experience Cloud beheert en browserondersteuning.
+
+<!-- Beginning April 16, 2020, new organizations created in the Admin Console will block Adobe ID (type 1) identity types. Starting 16 Apr 2020 , newly created orgs will block the addition of Adobe ID/Type1 accounts.Migration for Orgs that have CCE/DX overlapping contracts will happen starting on  26 Apr 2020 (Gov't & Commercial Orgs) (~600 Orgs) Majority of EC customers will be migrated after July 2020. (~15k Orgs)https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
 
 >[!IMPORTANT]
 >
@@ -33,7 +35,7 @@ Beheerders beheren gebruikers niet meer in oplossingen. Gebruiker- en productbeh
 1. Ga naar [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Typ uw [Adobe-id of Enterprise-id](https://helpx.adobe.com/enterprise/help/identity.html) en wachtwoord.
 
-Of klik in het menu Experience Cloud ( ![](assets/menu-icon.png)) op **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
+U kunt ook in het menu Experience Cloud ( ![](assets/menu-icon.png)) op **[!UICONTROL Beheer]** > **[!UICONTROL Admin Console]** starten klikken.
 
 **Gerelateerde help**
 
@@ -61,7 +63,7 @@ De gebruikers- en productmachtigingen van Analytics beheren in de beheerconsole.
 
 Er is een hulpprogramma voor het migreren van gebruikers-id&#39;s voor Analytics-beheerders beschikbaar waarmee u gebruikersaccounts kunt migreren van Analytics User Management naar de [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-De accountmigratie wordt in fasen uitgevoerd naar klanten. Adobe brengt u op de hoogte en helpt u wanneer het uw tijd is om bestaande gebruikersaccounts te migreren van **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** naar de beheerconsole.
+De accountmigratie wordt in fasen uitgevoerd naar klanten. Adobe geeft een melding en helpt u wanneer het uw tijd is om bestaande gebruikersaccounts te migreren van **[!UICONTROL Admin Tools]** > **[!UICONTROL Gebruikersbeheer]** naar de beheerconsole.
 
 Na de migratie melden gebruikers zich aan met hun Adobe-id (of Enterprise-id) en verifiëren ze zich op [Experience Cloud-oplossingen en -services op ExperienceCloud.adobe.com](https://experiencecloud.adobe.com). Als gebruikers proberen zich aan te melden via oude logins ([!DNL my.omniture.com] en [!DNL sc.omniture.com]), worden ze doorgestuurd naar [!DNL experiencecloud.adobe.com].
 
@@ -110,10 +112,10 @@ Maak een productprofiel en wijs dit toe aan een machtigingengroep.
 
 Wanneer u een gebruiker naar een organisatie uitnodigt, kunt u de gebruiker toegang geven tot producten en productprofielen. U kunt beperkte administratieve toestemmingen aan een gebruiker ook delegeren. Op dezelfde manier kunt u gebruikersgroepen creëren, dan de groep toevoegen aan een productprofiel om toegang toe te laten.
 
-1. Klik in de [beheerconsole](https://adminconsole.adobe.com/enterprise/)op **[!UICONTROL Products]**.
-1. Klik op **[!UICONTROL New Profile]**.
-1. Configureer de profieldetails en klik vervolgens op **[!UICONTROL Next]**.
-1. Klik op **[!UICONTROL Done]**.
+1. Klik in de [beheerconsole](https://adminconsole.adobe.com/enterprise/)op **[!UICONTROL Producten]**.
+1. Klik op **[!UICONTROL Nieuw profiel]**.
+1. Configureer de profieldetails en klik op **[!UICONTROL Volgende]**.
+1. Klik op **[!UICONTROL Gereed]**.
 
 Meer hulp is beschikbaar op:
 
@@ -125,10 +127,10 @@ Meer hulp is beschikbaar op:
 
 Wijs Analytics de toestemmingen van de rapporttoegang (rapportreeksen, metriek, dimensies, etc.) aan een productprofiel toe.
 
-U kunt bijvoorbeeld een productprofiel maken dat meerdere analyseprogramma&#39;s ( [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics]en [!UICONTROL Report Builder]) bevat, met toestemming voor specifieke metriek en dimensies (inclusief eVars) en mogelijkheden zoals het maken van segmenten of berekende metriek.
+Bijvoorbeeld, kunt u een productprofiel tot stand brengen dat veelvoudige hulpmiddelen van de Analyse (de Werkruimte [!UICONTROL van de]Analyse, [!UICONTROL Rapporten &amp; Analyse], en de Bouwer [!UICONTROL van het]Rapport), met toestemming aan specifieke metriek en dimensies (met inbegrip van eVars), en mogelijkheden zoals segment of berekende metrieke verwezenlijking bevat.
 
-1. Meld u aan bij de [beheerconsole](https://adminconsole.adobe.com/enterprise)en klik op **[!UICONTROL Products]** (of klik op de naam van het product).
-1. Klik in het productprofiel op **[!UICONTROL Permissions]** (alleen beschikbaar voor beheerders).
+1. Meld u aan bij de [beheerconsole](https://adminconsole.adobe.com/enterprise)en klik vervolgens op **[!UICONTROL Producten]** (of klik op uw productnaam).
+1. Klik in het productprofiel op **[!UICONTROL Machtigingen]** (alleen beschikbaar voor beheerders).
 1. De profielmachtigingen configureren:
 
 | Element | Beschrijving |
@@ -151,10 +153,10 @@ U kunt bijvoorbeeld:
 
 Door deze rollen te gebruiken, kunt u beheer aan anderen gelijktijdig delegeren zonder meer vermogen te verstrekken dan zij nodig hebben.
 
-1. Klik in de beheerconsole op **[!UICONTROL Users]** de naam van de gebruiker.
-1. Klik op **[!UICONTROL Edit admin rights]**.
+1. Klik in de beheerconsole op **[!UICONTROL Gebruikers]** en klik vervolgens op de naam van de gebruiker.
+1. Klik op **[!UICONTROL Beheerdersrechten]** bewerken.
 1. Configureer de beheerdersrechten van de gebruiker.
-1. Klik **[!UICONTROL Next]** om de instellingen te bekijken en klik vervolgens op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Volgende]** om de instellingen te controleren en klik vervolgens op **[!UICONTROL Opslaan]**.
 
 ## Ondersteunde browsers en systeemvereisten {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
