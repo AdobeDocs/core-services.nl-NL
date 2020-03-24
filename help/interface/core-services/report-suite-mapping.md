@@ -5,7 +5,7 @@ seo-title: Kaart rapportsuites aan een organisatie
 title: Kaart rapportsuites aan een organisatie
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -27,29 +27,29 @@ Organisaties worden grijs weergegeven als u geen beheerdersmachtigingen voor Ana
 
 ## Een rapportsuite toewijzen aan een organisatie {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Klik op **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**
+1. Klik op **[!UICONTROL Experience Cloud]** > **[!UICONTROL Beheer]** > **[!UICONTROL Reeks toewijzen rapporteren]**
 
-1. Om de login bedrijven te zien die toegang tot elke rapportreeks hebben, klik **[!UICONTROL Visible to Login Companies]**.
+1. Om de login bedrijven te zien die toegang tot elke rapportreeks hebben, klik **[!UICONTROL Zichtbaar aan Login Bedrijven]**.
 
    Deze mening is bedoeld om u te helpen een geïnformeerde beslissing over de afbeelding nemen.
 
-1. Klik drop-down in de **[!UICONTROL Mapped Organization]** kolom naast een rapportreeks en selecteer de organisatie waaraan u wilt in kaart brengen.
+1. Klik de drop-down in de **[!UICONTROL Toegewezen kolom van de Organisatie]** naast een rapportreeks en selecteer de organisatie waaraan u wilt in kaart brengen.
 
    Zie de volgende sectie voor tips over het selecteren van een Experience Cloud-organisatie.
 
 ## Meerdere rapportsuites toewijzen aan een organisatie {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Klik op **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**.
+1. Klik op **[!UICONTROL Experience Cloud]** > **[!UICONTROL Beheer]** > **[!UICONTROL Reeks toewijzen]** rapporteren.
 
 1. Selecteer de rapportsuites die u wilt in kaart brengen.
 
    ![](assets/rs-mapping-multiple.png)
 
-1. Selecteer de organisatie (Outdoor Inc, in dit voorbeeld), dan klik **[!UICONTROL Select]**.
+1. Selecteer de organisatie (Outdoor Inc, in dit voorbeeld), dan klik **[!UICONTROL Uitgezocht]**.
 
    Zie de volgende sectie voor tips over het selecteren van een Experience Cloud-organisatie.
 
-1. Klik op **[!UICONTROL Save Mapping]**.
+1. Klik op Toewijzing **[!UICONTROL opslaan]**.
 
 ## Tips voor het selecteren van een Experience Cloud Organization {#mapping-tips}
 
@@ -64,19 +64,22 @@ Als de dienst van identiteitskaart van de Bezoeker nog niet op de plaatsen wordt
 **Waarom worden sommige organisaties gegraveerd?**
 
 Dit wijst erop dat u niet genoeg voorrechten hebt om aan de grayed-uit rapportreeks in kaart te brengen. Bekijk het volgende voorbeeld:
-![](assets/rs-mapping.png) In dit diagram geeft de blauwe sleutel beheerdersrechten aan. De grijze lijnen geven de zichtbaarheid aan.
+
+![](assets/rs-mapping.png)
+
+In dit diagram geeft de blauwe sleutel beheerdersrechten aan. De grijze lijnen geven de zichtbaarheid aan.
 
 Deze gebruiker heeft toegang tot twee Experience Cloud-organisaties. Hij heeft het volgende gedaan:
 
-* Koppelde zijn beheerdersaccount in het chapek Analytics-aanmeldingsbedrijf aan zijn Chapek Corp Experience Cloud-account.
-* Koppelde zijn niet-beheerdersaccount in het inlognaam van Dohan Analytics aan zijn Chapek Corp Experience Cloud-account.
+* Koppelde zijn beheerdersaccount in het [!UICONTROL chapek] Analytics-aanmeldingsbedrijf aan zijn [!UICONTROL Chapek] Corp Experience Cloud-organisatieaccount.
+* Koppelde zijn niet-beheerdersaccount in het [!UICONTROL doohan] Analytics-aanmeldingsbedrijf aan zijn [!UICONTROL Chapek] Corp Experience Cloud-organisatieaccount.
 * Koppelde zijn niet-beheerdersaccount in de inlognaam nigel Analytics aan zijn Nigel Inc Experience Cloud org-account.
 
 De volgende punten geven een overzicht van de toewijzingsacties die deze gebruiker kan en kan uitvoeren met betrekking tot deze rapportsuites:
 
-* Chapek-prod rapportsuite kan worden toegewezen aan Chapek Corp org omdat deze gebruiker beheerder is van een gekoppeld Analytics-aanmeldingsbedrijf (chapek) en zijn account is gekoppeld aan deze org.
-* Nigel-prod rapportenreeks kan niet door deze gebruiker worden verbonden aangezien hij geen beheerder in om het even welk login bedrijf is waaraan deze rapportreeks zichtbaar is.
-* De Doohan-prod rapportsuite kan worden toegewezen aan Chapek Corp, aangezien deze gebruiker een beheerder is van een aanmeldbedrijf (chapek) dat is gekoppeld aan de Experience Cloud org (houd er rekening mee dat hij geen beheerder is van het Dell Analytics-aanmeldingsbedrijf). Het is belangrijk om te weten dat de doohan-prod rapportsuite ook in aanmerking komt om te worden toegewezen aan de Nigel Inc Experience Cloud org, ook al kan deze gebruiker die toewijzing niet uitvoeren. In dit geval worden beide Experience Cloud-organen weergegeven in de lijst, maar is Nigel Inc grijs. Voordat de kaart wordt toegewezen, moet deze gebruiker overleg plegen met een beheerder van het nigel-aanmeldingsbedrijf om te bepalen welke org de beste kandidaat is voor mapping. De UI toont een Mogelijke waarschuwing van het Conflict als u een organisatie selecteert is dit verschillend dan de organisatie waaronder de rapportreeks oorspronkelijk werd gecreeerd.
+* [!UICONTROL Chapek-prod] rapportsuite kan worden toegewezen aan [!UICONTROL Chapek] Corp org omdat deze gebruiker beheerder is van een gekoppeld Analytics-aanmeldingsbedrijf ([!UICONTROL chapek]) en zijn account is gekoppeld aan deze org.
+* [!UICONTROL Nigel-prod] rapportenreeks kan niet door deze gebruiker worden verbonden aangezien hij geen beheerder in om het even welk login bedrijf is waaraan deze rapportreeks zichtbaar is.
+* [!UICONTROL De Doohan-prod] rapportsuite kan worden toegewezen aan [!UICONTROL Chapek Corp] , aangezien deze gebruiker een beheerder is van een aanmeldingsbedrijf ([!UICONTROL chapek]) dat is gekoppeld aan de Experience Cloud org (houd er rekening mee dat hij geen beheerder is van het aanmeldingsbedrijf van Dohan Analytics). Het is belangrijk om te weten dat de [!UICONTROL doohan-prod] rapportenreeks ook in aanmerking komt om aan de Nigel Inc Experience Cloud org in kaart te worden gebracht, ook al kan deze gebruiker die afbeelding niet uitvoeren. In dit geval worden beide Experience Cloud-organisaties weergegeven in de lijst, maar [!UICONTROL Nigel Inc] wordt grijs weergegeven. Voordat de kaart wordt toegewezen, moet deze gebruiker overleg plegen met een beheerder van het nigel-aanmeldingsbedrijf om te bepalen welke org de beste kandidaat is voor mapping. De UI toont een Mogelijke waarschuwing van het Conflict als u een organisatie selecteert is dit verschillend dan de organisatie waaronder de rapportreeks oorspronkelijk werd gecreeerd.
 
 ## Veelgestelde vragen {#section_099E485805994C929FF9C9F75219BEE1}
 
@@ -100,7 +103,7 @@ Dit is een melding om u te helpen bij het nemen van een geïnformeerde beslissin
 
 Toegewezen rapportsuites worden in een niet-bewerkbare indeling weergegeven. Neem contact op met de klantenservice als u een toewijzing wilt wijzigen.
 
-**Wat gebeurt er als ik alleen de Org ID ken voor mijn Experience Cloud-organisatie? Hoe zoek ik de naam van mijn Org ID op?**
+**Wat gebeurt er als ik alleen de Org ID ken voor mijn Experience Cloud-organisatie? Hoe zoek ik de naam voor mijn Org ID op?**
 
 U kunt de naam van uw organisatie vinden in [Organisaties en Accountinstellingen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
