@@ -8,7 +8,7 @@ title: Eerste cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -88,6 +88,7 @@ De specialist FPC voorziet u van gevormde hostnames en welke CNAMEs zij moeten w
 Zolang de implementatiecode niet wordt gewijzigd, heeft deze stap geen invloed op de gegevensverzameling en kan deze op elk moment na het bijwerken van de implementatiecode worden uitgevoerd.
 
 >[!NOpmerking:]
+>
 >De dienst van identiteitskaart van de Bezoeker van de Wolk van de Ervaring verleent een alternatief aan het vormen van een CNAME om eerderangs koekjes toe te laten, maar wegens recente veranderingen van Apple ITP, wordt het nog geadviseerd om een CNAME toe te wijzen zelfs wanneer het gebruiken van de Dienst van identiteitskaart van de Ervaring Cloud
 
 ## Hostnaam doorsturen valideren {#validate}
@@ -100,7 +101,9 @@ Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, kunt u de 
 
 `https://sstats.adobe.com/_check`
 
-**Opmerking:** Er verschijnt een beveiligingswaarschuwing als een certificaat niet is geïnstalleerd.
+>[!NOpmerking:]
+>
+>Er verschijnt een beveiligingswaarschuwing als een certificaat niet is geïnstalleerd.
 
 ### Valideren met [!DNL curl]
 
