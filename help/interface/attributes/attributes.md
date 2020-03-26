@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Klantkenmerken
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: d27bbed21f472b6fee275d58a67203895922aee0
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -59,4 +59,4 @@ Bijvoorbeeld:
 | Oplossing | Voordelen en gebruiksscenario&#39;s |
 |--- |--- |
 | Adobe Analytics | Marketers en analisten kunnen het volgende begrijpen:<ul><li>De online campagnes die het meest effectief zijn met uw klanten op goudniveau.</li><li>De producten die klanten op het niveau van goud naar tegenover producten zoeken die platina-vlakke klanten naar zoeken.</li><li>Of het herontwerp van uw site een positief effect heeft op de conversietarieven voor oudere klanten.</li><li>Welke producten klanten met een lage levenwaarde doen neigen aan onderzoek op mijn plaats.</li></ul> |
-| Adobe-doel | Met kenmerkgegevens kunnen doelgebruikers:<ul><li>Speciale kortingen en aanbiedingen voor leden van loyaliteitsclubs weergeven.</li><li>U kunt duurdere producten aanbevelen aan uw luxe klanten.</li><li>Voor klanten die al e-mailberichten ontvangen, een upsellatieaanbieding weergeven in de ruimte die normaal gesproken is gereserveerd voor e-mailhandtekeningen</li></ul> |
+| Adobe-doel | Met kenmerkgegevens kunnen gebruikers van Adobe Target:<ul><li>Speciale kortingen en aanbiedingen voor leden van loyaliteitsclubs weergeven.</li><li>U kunt duurdere producten aanbevelen aan uw luxe klanten.</li><li>Voor klanten die al e-mailberichten ontvangen, een upsellatieaanbieding weergeven in de ruimte die normaal gesproken is gereserveerd voor e-mailhandtekeningen</li></ul> |
