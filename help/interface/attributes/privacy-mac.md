@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Privacyoverwegingen - klantkenmerken
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -36,7 +36,7 @@ Adobe beseft dat dit soort marketing- en reclamebesluiten gevolgen kan hebben vo
 
 **Aanbevolen procedures**
 
-Wanneer u PII uploadt naar Adobe Analytics of Target, raadt Adobe de klant aan om PII te hashen voordat deze naar Adobe wordt geüpload. Onderbroken informatie kan nog steeds worden gebruikt voor analyse en marketing. Ter herinnering, Adobe verbiedt adverteerders gevoelige persoonlijke gegevens naar Adobe Analytics en Target te verzenden, zoals medische gegevens, informatie over financiële accounts en informatie over minderjarigen.
+Wanneer u PII uploadt naar Adobe Analytics of Adobe Target, raadt Adobe de klant aan om PII te hashen voordat deze naar Adobe wordt geüpload. Onderbroken informatie kan nog steeds worden gebruikt voor analyse en marketing. Ter herinnering, Adobe verbiedt adverteerders gevoelige persoonlijke gegevens naar Adobe Analytics en Adobe Target te verzenden, zoals medische gegevens, informatie over financiële accounts en informatie over minderjarigen.
 
 Adobe raadt zijn adverteerders aan zorgvuldig na te denken welke informatie geschikt is voor marketingdoeleinden en onder welke omstandigheden de adverteerder toestemming heeft om dergelijke informatie te gebruiken.
 
