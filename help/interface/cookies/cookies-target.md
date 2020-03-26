@@ -7,20 +7,20 @@ solution: Marketing Cloud,Analytics,Target,Social
 title: Doelcookies
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# Doelcookies{#target-cookies}
+# Adobe Target Cookies{#target-cookies}
 
-Doel gebruikt cookies om websitebeheerders de mogelijkheid te bieden te testen welke online-inhoud en -aanbiedingen voor bezoekers relevanter zijn.
+Adobe Target gebruikt cookies om websitebeheerders de mogelijkheid te bieden te testen welke online inhoud en aanbiedingen voor bezoekers relevanter zijn.
 
 U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van het cookie. Vraag uw accountvertegenwoordiger wanneer u de cookie-instellingen wijzigt.
 
 >[!NOTE]
 >
->Doelgebruikers kunnen ook aangepaste cookies van derden maken.
+>Gebruikers van Adobe Target kunnen ook aangepaste cookies van derden maken.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -40,7 +40,7 @@ U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van h
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serverdomein </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, die de cliëntcode voor uw rekening van het Doel gebruiken. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, met de clientcode voor uw Adobe Target-account. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Duur van cookie </p> </td> 
@@ -53,7 +53,7 @@ U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van h
 >
 >Als om het even welk van uw domeinnamen een landcode, zoals omvatten, werk met uw Diensten van de Cliënt om uw te vormen [!DNL mycompany.co.uk][!DNL mbox.js] om dit te steunen.
 
-Het cookie houdt een aantal waarden bij om te beheren hoe uw bezoekers de campagnes van het Doel ervaren:
+Het cookie houdt een aantal waarden bij om te beheren hoe uw bezoekers Adobe Target-campagnes ervaren:
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
