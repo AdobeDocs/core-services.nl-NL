@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gebruikers en producten van Experience Cloud beheren
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -86,14 +86,14 @@ Na de migratie melden gebruikers zich aan met hun Adobe-id (of Enterprise-id) en
 
 [Migratie van gebruikers-id voor analyse](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Doel - productprofielen versus werkruimten {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - productprofielen versus werkruimten {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-In Doel is een werkruimte een productprofiel. Het laat een organisatie een specifieke reeks gebruikers aan een specifieke reeks eigenschappen toewijzen. In veel opzichten is een werkruimte vergelijkbaar met een rapportsuite in Adobe Analytics.
+In Adobe Target is een werkruimte een productprofiel. Het laat een organisatie een specifieke reeks gebruikers aan een specifieke reeks eigenschappen toewijzen. In veel opzichten is een werkruimte vergelijkbaar met een rapportsuite in Adobe Analytics.
 
 Zie:
 * [Machtigingen voor zakelijke gebruikers](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Producten en profielen beheren](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Video: [Hoe te om de Werkruimten van het Doel in de Console van Adobe te vormen Admin](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Video: [Hoe te om de Werkruimten van het Doel van Adobe in de Console van Adobe te vormen Admin](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campagne - productprofielen, huurders en veiligheidsgroepen {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -135,8 +135,8 @@ Wanneer u een gebruiker naar een organisatie uitnodigt, kunt u de gebruiker toeg
 Meer hulp is beschikbaar op:
 
 * [Producten en profielen beheren](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [De Toestemmingen](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) van de Gebruiker van de onderneming in de Hulp van het Doel voor meer informatie.
-* Video: [Hoe te om de Werkruimten van het Doel in de Console van Adobe te vormen Admin](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Machtigingen](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) van gebruikers voor bedrijven in Adobe Target Help voor meer informatie.
+* Video: [Hoe te om de Werkruimten van het Doel van Adobe in de Console van Adobe te vormen Admin](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Toestemmingen van de toegang van Analytics aan een productprofiel toewijzen {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -152,7 +152,7 @@ Bijvoorbeeld, kunt u een productprofiel tot stand brengen dat veelvoudige hulpmi
 |--- |--- |
 | Rapportageopties | Schakel machtigingen in voor specifieke rapportsuites. |
 | Metrisch | Laat toestemmingen voor verkeer, omzetting, douanegebeurtenissen, oplossingsgebeurtenissen, bewuste inhoud toe, etc. |
-| Afmetingen | Pas gebruikerstoegang op een korrelig niveau, met inbegrip van eVars, verkeersrapporten, oplossingsrapporten, en het kleven rapporten aan. |
+| Afmetingen | Pas gebruikerstoegang op een korrelig niveau, met inbegrip van eVars, verkeersrapporten, oplossingsrapporten, en wegrapporten aan. |
 | Rapportsuite-gereedschappen | Schakel gebruikersmachtigingen in voor webservices, rapportbeheer, tools en rapporten en dashboarditems. |
 | Analysegereedschappen | Laat gebruikerstoestemmingen voor Algemene punten (het factureren, logboeken, enz.), het Beheer van het Bedrijf, Hulpmiddelen, de Toegang van de Dienst van het Web, de Bouwer van het Rapport, en de integratie van de Verbindingen van Gegevens toe. De bedrijfsinstellingen van de categorie Admin Console aanpassen zijn verplaatst naar Analytics Tools. |
 
@@ -177,7 +177,7 @@ Door deze rollen te gebruiken, kunt u beheer aan anderen gelijktijdig delegeren 
 
 Ondersteunde browsers in de Experience Cloud.
 
-Tot de volgende browsers behoren browsers die via Experience Cloud worden ondersteund:
+Tot de browsers die door Experience Cloud worden ondersteund behoren:
 
 * [!DNL Microsoft Edge] (Microsoft heeft de ondersteuning [voor Internet Explorer 8, 9 en 10](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) beëindigd. Adobe lost de problemen die zijn gemeld voor deze specifieke versies van Internet Explorer dan ook niet op.)
 * [!DNL Google Chrome]
@@ -185,7 +185,7 @@ Tot de volgende browsers behoren browsers die via Experience Cloud worden onders
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Opmerking:** Hoewel de interface Experience Cloud deze browsers ondersteunt, wordt mogelijk niet elke browser ondersteund door afzonderlijke oplossingen. ( [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) biedt bijvoorbeeld geen ondersteuning [!DNL Opera]en [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) biedt geen ondersteuning voor [!DNL Safari].)
+**Opmerking:** Hoewel de interface Experience Cloud deze browsers ondersteunt, wordt mogelijk niet elke browser ondersteund door afzonderlijke oplossingen. ( [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) biedt bijvoorbeeld geen ondersteuning [!DNL Opera]en [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) biedt geen ondersteuning voor [!DNL Safari].)
 
 **Oplossing en productvereisten**
 
