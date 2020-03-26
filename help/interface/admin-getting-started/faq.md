@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Veelgestelde vragen
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -24,7 +24,7 @@ Als uw implementatie niet voor de kerndiensten is voorzien, zie [Uw oplossingen 
 1. [Implementeer de Experience Cloud ID-service met gebruik van Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (of de nieuwe [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
 1. [Het Rapport van de kaartGeschikt aan een Ervaring Cloud Organisatie](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Alleen Analytics) Moderniseer uw Analytics AppMeasurement-code](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
-1. [(Alleen doel) De Adobe-doelimplementatie moderniseren](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
+1. [(Alleen Adobe-doel) De Adobe-doelimplementatie moderniseren](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Verifieer de Implementatie van de Diensten van de Kern](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Gebruikers en producten beheren](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Basisservices gebruiken](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
