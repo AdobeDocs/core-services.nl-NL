@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gegevensbestand en gegevensbronnen voor klantkenmerken
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -81,7 +81,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kolom Klant-id </p> </td> 
-   <td colname="col2"> <p> De eerste kolom moet een unieke klant-id zijn. De gebruikte id moet overeenkomen met de id die wordt doorgegeven aan de Experience Cloud ID Service. </p> <p>Voor Analytics wordt de id opgeslagen in een prop of eVar. </p> <p>Voor Target, de waarde setCustomerID. (Zie <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Target - synchroniseren van de klant-id </a>) </p> <p> Deze klant-id is de unieke id die uw CRM gebruikt voor elke persoon in uw database. De resterende kolommen zijn attributen die uit uw CRM komen. U bepaalt hoeveel kenmerken u wilt uploaden. </p> <p>U kunt goed leesbare namen aanbevelen voor de kolomkoppen, maar deze zijn niet vereist. Wanneer u het schema na het uploaden valideert, kunt u vriendelijke namen toewijzen aan de geüploade rijen en kolommen. </p> <p> <b>Informatie over Customer ID's</b> </p> <p>Een onderneming gebruikt doorgaans een klant-id van een CRM-systeem. Deze id wordt ingesteld met de <span class="codeph"> </span> aanroep van setCustomerID's wanneer een persoon zich aanmeldt. Deze id wordt ook gebruikt als de sleutel in het CRM-bestand dat naar de Experience Cloud wordt geüpload. Een <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> alias-id </a> is een vriendelijke naam voor een gegevensopslag in Audience Manager, waar de aliasgegevens worden opgeslagen. Het systeem verzendt aliassen naar deze gegevensopslag (via setCustomerIDs). Het CRM-bestand wordt toegepast op de gegevens in die gegevensopslag. </p> <p>Voor <span class="codeph"> setCustomerIDs- </span> informatie, zie <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Klant IDs en de Staat van de Authentificatie </a>. </p> </td> 
+   <td colname="col2"> <p> De eerste kolom moet een unieke klant-id zijn. De gebruikte id moet overeenkomen met de id die wordt doorgegeven aan de Experience Cloud ID Service. </p> <p>Voor Analytics wordt de id opgeslagen in een prop of eVar. </p> <p>Voor Target, de waarde setCustomerID. (Zie <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - de klant-id synchroniseren </a>) </p> <p> Deze klant-id is de unieke id die uw CRM gebruikt voor elke persoon in uw database. De resterende kolommen zijn attributen die uit uw CRM komen. U bepaalt hoeveel kenmerken u wilt uploaden. </p> <p>U kunt goed leesbare namen aanbevelen voor de kolomkoppen, maar deze zijn niet vereist. Wanneer u het schema na het uploaden valideert, kunt u vriendelijke namen toewijzen aan de geüploade rijen en kolommen. </p> <p> <b>Informatie over Customer ID's</b> </p> <p>Een onderneming gebruikt doorgaans een klant-id van een CRM-systeem. Deze id wordt ingesteld met de <span class="codeph"> </span> aanroep van setCustomerID's wanneer een persoon zich aanmeldt. Deze id wordt ook gebruikt als de sleutel in het CRM-bestand dat naar de Experience Cloud wordt geüpload. Een <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> alias-id </a> is een vriendelijke naam voor een gegevensopslag in Audience Manager, waar de aliasgegevens worden opgeslagen. Het systeem verzendt aliassen naar deze gegevensopslag (via setCustomerIDs). Het CRM-bestand wordt toegepast op de gegevens in die gegevensopslag. </p> <p>Voor <span class="codeph"> setCustomerIDs- </span> informatie, zie <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Klant IDs en de Staat van de Authentificatie </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Volgende koppen en kolommen </p> </td> 
@@ -93,8 +93,8 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analysestandaard</b>: 3 totaal </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 per rapportsuite </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Doelstandaard:</b> 5 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Doelpremie:</b> 200 </li> 
+      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe Target-standaard:</b> 5 </li> 
+      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe Target Premium:</b> 200 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -162,6 +162,6 @@ Visitor.setCustomerIDs({
 
 (Zie ID&#39;s van [klanten en verificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) voor meer informatie.)
 
-In het **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
+In de **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personen]** > **[!UICONTROL Klantkenmerken]**:
 
 Maak twee bronnen voor klantkenmerken met behulp van unieke alias-id&#39;s die overeenkomen met de bovenstaande id&#39;s van de klant. Het gebruiken van deze methode staat zelfde verwijzingsID toe om naar veelvoudige bronnen van de klantenattributen te worden verzonden
