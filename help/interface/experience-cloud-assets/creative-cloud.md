@@ -7,14 +7,14 @@ solution: Experience Cloud
 title: Ervaring Cloud-mappen en -middelen delen met Creative Cloud
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
 # Ervaring Cloud-mappen en -middelen delen met Creative Cloud
 
-Mappen en middelen delen tussen de Experience Cloud en Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Sociaal en Doel. De gedeelde map moet afkomstig zijn van de Experience Cloud.
+Mappen en middelen delen tussen de Experience Cloud en Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Adobe Social en Adobe Target. De gedeelde map moet afkomstig zijn van de Experience Cloud.
 
 ## Voordelen van delen {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
@@ -28,6 +28,6 @@ Creative Cloud-gebruikers kunnen alleen toegang krijgen tot middelen als ze zijn
 
 ## Middelen delen via Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
-Wanneer u activiteiten maakt in [!DNL Adobe Target], kunt u een gedeeld afbeeldingselement gebruiken wanneer u afbeeldingen in de [!UICONTROL Offers Library]afbeelding verwisselt.
+Wanneer u activiteiten maakt in [!DNL Adobe Target], kunt u een gedeeld afbeeldingselement gebruiken bij het wisselen van afbeeldingen in de [!UICONTROL Offertenbibliotheek].
 
 Zie [Bibliotheek](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) van Aanbiedingen in [!DNL Target] Hulp.
