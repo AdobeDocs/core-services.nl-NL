@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: DNS-prefetch gebruiken met verschillende oplossingen en services
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -21,7 +21,7 @@ Browsers gebruiken DNS prefetch om domeinnamen automatisch op te lossen die op e
 
 ## DNS-prefetch en Adobe Experience Cloud-oplossingen {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS-prefetch werkt automatisch met statische, ingesloten koppelingen op een pagina. Dit betekent ook dat automatische DNS-prefetch niet werkt met verschillende [!UICONTROL Experience Cloud] oplossingen en services omdat:
+DNS-prefetch werkt automatisch met statische, ingesloten koppelingen op een pagina. Dit betekent ook dat automatische DNS-prefetch niet werkt met verschillende oplossingen en services van de [!UICONTROL Experience Cloud] omdat:
 
 * Elke oplossing of de dienst van de Wolk van de Ervaring produceert dynamisch DNS vraag aangezien de pagina laadt.
 * Browser kan domeinnamen aan IP adres niet oplossen alvorens deze vraag wordt gemaakt.
@@ -48,7 +48,7 @@ De volgende voorbeelden tonen u hoe te om DNS prefetch vraag aan verschillende [
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
 
 
-* **Doel:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
+* **[!DNL Target]:**`<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
 >[!MORE_LIKE_THIS]
 >
