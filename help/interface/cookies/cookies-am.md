@@ -7,7 +7,7 @@ solution: Marketing Cloud,Audience Manager
 title: Auditiebeheer cookies
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,7 +39,7 @@ Publiek Manager baseert zich op een paar eenvoudige koekjes om verschillende fun
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">Levensduur: Het <span class="wintitle"> demdex- </span> cookie heeft een time-to-live (TTL) interval van 180 dagen. De TTL wordt teruggesteld aan 180 dagen op elke gebruikersinteractie met een partnerwebsite. Het cookie verloopt als een gebruiker niet binnen het TTL-interval terug naar uw site komt. </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met een <span class="codeph"> Niet doel- </span> tekenreeks als een gebruiker de gegevensverzameling uitschakelt. In dit geval wordt de cookie-TTL ingesteld op 10 jaar. </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met de tekenreeks <span class="codeph"> Niet Adobe Target </span> als een gebruiker de gegevensverzameling uitschakelt. In dit geval wordt de cookie-TTL ingesteld op 10 jaar. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ Publiek Manager baseert zich op een paar eenvoudige koekjes om verschillende fun
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">Levensduur: Het <span class="wintitle"> dextp- </span> cookie heeft een time-to-live (TTL) interval van 180 dagen. </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met een <span class="codeph"> Niet doel- </span> tekenreeks als een gebruiker de gegevensverzameling uitschakelt. In dit geval wordt de cookie-TTL ingesteld op 10 jaar. </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met de tekenreeks <span class="codeph"> Niet Adobe Target </span> als een gebruiker de gegevensverzameling uitschakelt. In dit geval wordt de cookie-TTL ingesteld op 10 jaar. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -140,7 +140,7 @@ De volgende tabel bevat een lijst met en definieert de elementen in een cookie o
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">Levensduur: Het <span class="wintitle"> dst- </span> cookie heeft een time-to-live (TTL) interval van 180 dagen. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met een <span class="codeph"> Niet doel- </span> tekenreeks als een gebruiker de gegevensverzameling uitschakelt. </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met de tekenreeks <span class="codeph"> Niet Adobe Target </span> als een gebruiker de gegevensverzameling uitschakelt. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
