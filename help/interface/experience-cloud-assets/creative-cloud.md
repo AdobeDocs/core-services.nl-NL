@@ -1,13 +1,13 @@
 ---
-description: Mappen en middelen delen tussen de Experience Cloud en Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Sociaal en Doel. De gedeelde map moet afkomstig zijn van de Experience Cloud.
+description: Mappen en middelen delen tussen de Experience Cloud en Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Adobe Social en Adobe Target. De gedeelde map moet afkomstig zijn van de Experience Cloud.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Mappen en middelen delen tussen de Experience Cloud en Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Sociaal en Doel. De gedeelde map moet afkomstig zijn van de Experience Cloud.
+seo-description: Mappen en middelen delen tussen de Experience Cloud en Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Adobe Social en Adobe Target. De gedeelde map moet afkomstig zijn van de Experience Cloud.
 seo-title: Ervaring Cloud-mappen en -middelen delen met Creative Cloud
 solution: Experience Cloud
 title: Ervaring Cloud-mappen en -middelen delen met Creative Cloud
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
