@@ -3,11 +3,11 @@ description: Verwijder gebruikers die alle cookies op mobiele en desktopbrowsers
 keywords: cookies;privacy
 seo-description: Verwijder gebruikers die alle cookies op mobiele en desktopbrowsers hebben geblokkeerd. Deze privacy-instelling sluit gebruikers uit die zich afmelden voor het verzamelen van analysegegevens.
 seo-title: Privacy-instellingen voor browsercookies inschakelen
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
 title: Privacy-instellingen voor browsercookies inschakelen
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 688272e19e9d1828d070889bf8689cab7ed2c9c1
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -18,9 +18,9 @@ U kunt gebruikers verwijderen die alle cookies op mobiele en desktopbrowsers heb
 
 **Privacy-instellingen voor browsercookies inschakelen**
 
-1. Ga naar **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]**.
-1. Klik op **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Privacy Settings]**.
-1. Inschakelen **[!UICONTROL Privacy Settings]** (voor bureaublad of mobiel).
+1. Navigeer naar **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]**.
+1. Klik op **[!UICONTROL Instellingen]** bewerken > **[!UICONTROL Algemeen]** > **[!UICONTROL Privacy-instellingen]**.
+1. Schakel **[!UICONTROL Privacy-instellingen]** in (voor desktops of mobiele apparaten).
 
 >[!IMPORTANT]
 >
