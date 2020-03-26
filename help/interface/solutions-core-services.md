@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Nieuwe cloudnamen in Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -73,9 +73,9 @@ Zie ook:
 Adobe Target kan worden geïntegreerd met Analytics en andere Experience Cloud-kernservices. Nuttige aan de slag-onderwerpen:
 
 * [Doel instellen](https://docs.adobe.com/content/help/en/target/using/administer/administrating-target.html)
-* [Hoe Target werkt](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
+* [De werking van Adobe Target](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
 * [Eerste stappen van beheerder](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
-* [Analyses gebruiken als rapportagebron voor doel](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [Analyses gebruiken als rapportbron voor Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
 ![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
 
@@ -113,10 +113,10 @@ Adobe Primetime is een tv-platform met meerdere schermen dat omroepen helpt aant
 |--- |--- |
 | [Activering](activation/activation.md) | Tagbeheersystemen (Experience Platform Launch en Dynamic Tag Management).<br>Met behulp van triggers kunt u in Adobe Campaign realtime actie ondernemen op basis van inzichten van Adobe Analytics. |
 | [Beheer](admin-getting-started/admin-getting-started.md) | Beheer gebruikers- en productrechten voor al uw Adobe-wolken en -oplossingen. |
-| [Activa](experience-cloud-assets/experience-cloud-assets.md) | U kunt eenvoudig al uw digitale middelen opslaan, synchroniseren en delen op een centrale locatie, zodat u tijd bespaart en een consistentere klantervaring hebt. |
-| [Starten](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Starten is de volgende generatie mogelijkheden voor tagbeheer van Adobe. De lancering geeft klanten een eenvoudige manier om alle analytische, marketing, en reclame markeringen noodzakelijk om relevante klantenervaringen op te stellen en te beheren. |
-| [Reisorkest](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. [!UICONTROL Journey Orchestration] is een toepassingsservice die is geïntegreerd met het Experience Platform. |
-| [Locatieservice](https://docs.adobe.com/content/help/en/places/using/home.html) | De dienst van de Plaats van het Platform van de Vestiging van Adobe (de Dienst van de Plaats) is een geolocatieservice die mobiele apps met plaatsbewustzijn toelaat om de locatiecontext te begrijpen door rijke en gemakkelijk-aan-gebruiksSDK interfaces te gebruiken vergezeld van een flexibele gegevensbestand van belangenpunten (POIs). |
+| [Assets](experience-cloud-assets/experience-cloud-assets.md) | U kunt eenvoudig al uw digitale middelen opslaan, synchroniseren en delen op een centrale locatie, zodat u tijd bespaart en een consistentere klantervaring hebt. |
+| [Introductie van Experience Platform](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] is de volgende generatie mogelijkheden voor tagbeheer van Adobe. [!UICONTROL De lancering] van het Platform van de ervaring geeft klanten een eenvoudige manier om alle analyses, marketing, en reclame markeringen te opstellen en te beheren noodzakelijk om relevante klantenervaringen te drijven. |
+| [Reisorkest](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. [!UICONTROL Reisorchestratie] is een toepassingsservice die is geïntegreerd met het Experience Platform. |
+| [Locatieservice](https://docs.adobe.com/content/help/en/places/using/home.html) | De Adobe [!UICONTROL Experience Platform Location Service] (Locatieservice) is een geo-locatieservice waarmee mobiele apps met een herkenbaarheid van de locatie de context van de locatie kunnen begrijpen door rijke en gebruiksvriendelijke SDK-interfaces te gebruiken die vergezeld gaan van een flexibele database van interesses (POI&#39;s). |
 | Aanbiedingen | Het Beheer van de aanbieding verstrekt verwezenlijking, beheer, en besluit over alle kanalen in de Cloud van de Ervaring. |
 | [Exchange](exchange.md) | U kunt extensies voor Digital Marketing zoeken, zoeken, selecteren, betalen en downloaden via apps. |
 | [Mobiele services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services biedt u mobiele marketingmogelijkheden voor mobiele toepassingen vanuit de Experience Cloud, waarmee u de betrokkenheid van gebruikers met uw mobiele toepassingen kunt begrijpen en verbeteren. |
