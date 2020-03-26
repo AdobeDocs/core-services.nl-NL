@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 + [Experience Cloud en Core Services productdocumentatie](experience-cloud.md)
 + Over kernservices {#about-core-services}
-   + [Overzicht van kernservices](core-services-landing.md)
+   + [[!UICONTROL Overzicht van] kernservices](core-services-landing.md)
    + [Laat uw oplossingen voor de kerndiensten toe](core-services/core-services.md)
    + [Kaart rapportsuites aan een organisatie](core-services/report-suite-mapping.md)
    + [Nieuwe cloudnamen in Experience Cloud](solutions-core-services.md)
@@ -23,15 +23,15 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Eerste cookies in Experience Cloud](cookies/cookies-first-party.md)
    + [Analysecookies](cookies/cookies-analytics.md)
    + [Cookies in Publiek Manager](cookies/cookies-am.md)
-   + [Cookies gegevensconnectors](cookies/cookies-dc.md)
-   + [Gegevens Workbench-cookies](cookies/cookies-insight.md)
+   + [[!UICONTROL Cookies gegevensconnectors]](cookies/cookies-dc.md)
+   + [[!UICONTROL Cookies in Data Workbench]](cookies/cookies-insight.md)
    + [Geniet van cookies in de cloud](cookies/cookies-mc.md)
    + [Cloud-cookies voor advertenties](cookies/cookies-advertising-cloud.md)
-   + [Scene7 cookies](cookies/cookies-s7.md)
-   + [Cookies zoeken en promoten](cookies/cookies-snp.md)
-   + [Doelcookies](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
+   + [[!DNL Zoeken en promoveren] cookies](cookies/cookies-snp.md)
+   + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Privacy-instellingen voor browsercookies inschakelen](cookies/browser-cookie-settings.md)
-   + [Hoe de veranderingen in de Steun van de Koekjesindustrie van de Derde Klanten beïnvloeden](cookies/cookies-thirdparty.md)
+   + [Hoe wijzigingen in de Cookie-ondersteuning van derden van invloed zijn op klanten](cookies/cookies-thirdparty.md)
 + Gebruiker- en productbeheer {#manage-users-and-products}
    + [Gebruikers en producten van de Experience Cloud beheren (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Gebruikersgegevens van de cloud weergeven (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
