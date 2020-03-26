@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Laat uw oplossingen voor de kerndiensten toe
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
@@ -199,7 +199,7 @@ Profiteer van de volgende kernfuncties van de service.
 
 ![](assets/menu-audiences-shell.png)
 
-### [!UICONTROL Personen] > [!UICONTROl Klantkenmerken]
+### [!UICONTROL Personen] > [!UICONTROL Klantkenmerken]
 
 Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Wolk van de Ervaring uploaden. Gebruik na het uploaden de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
