@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -17,9 +17,6 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 De Exchange Marketplace is één doel waar u extensies voor Digital Marketing kunt zoeken, selecteren, betalen en downloaden via apps. Toepassingen omvatten gegevensconnectors, aangepaste configuraties voor het kernproduct van Adobe, toepassingen van derden en rapporten.
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Help]** > **[!UICONTROL Exchange]**
-
-<!-- <p>https://wiki.corp.adobe.com/display/marketingcloud/Marketing+Cloud+Exchange </p> 
-<p>https://wiki.corp.adobe.com/display/marketingcloud/Marketplace+Implementation#MarketplaceImplementation-Anonymousvsauthenticatedexperience </p> -->
 
 * SDK&#39;s downloaden, documentatie lezen en toepassingen ter controle naar Digital Marketing verzenden.
 
