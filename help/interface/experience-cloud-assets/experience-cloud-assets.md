@@ -1,21 +1,20 @@
 ---
 description: Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u kunt delen voor alle oplossingen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een Photoshop-bestand, dia's in een PowerPoint-bestand, pagina's in een PDF, bestanden in een ZIP).
 seo-description: Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u kunt delen voor alle oplossingen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een Photoshop-bestand, dia's in een PowerPoint-bestand, pagina's in een PDF, bestanden in een ZIP).
-seo-title: Activa
+seo-title: Assets
 solution: Experience Cloud
-title: Activa
+title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# Activa
+# Assets
 
-Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u kunt delen voor alle oplossingen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een Photoshop-bestand, dia&#39;s in een PowerPoint-bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
+Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u kunt delen voor alle oplossingen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop] bestand, dia&#39;s in een [!DNL PowerPoint] bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
 
-<!-- asset.xml -->
 De diensten van activa omvatten:
 
 * Asset storage, management interface, embedded selection interface (toegankelijk via oplossingen).
@@ -28,7 +27,7 @@ Het gebruik van middelen verbetert de consistentie en de naleving van het merk, 
 * **[!DNL Media Optimizer]**: Eenheden ontwikkelen op verschillende kanalen en campagnes
 * **[!DNL Campaign]**: Plaats elementen in e-mailbulletins en campagnes.
 
-In kunt [!UICONTROL Experience Cloud Assets]u:
+In [!UICONTROL Experience Cloud Assets]kunt u:
 
 * [Navigeren naar Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [De werkbalk openen](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
@@ -46,7 +45,7 @@ In kunt [!UICONTROL Experience Cloud Assets]u:
 
 ## De werkbalk openen {#section_EC2E401D225148818F3753248556BE6B}
 
-Navigeer naar een element (of elementenmap) en klik op **[!UICONTROL Select]**.
+Navigeer naar een element (of elementenmap) en klik op **[!UICONTROL Selecteren]**.
 
 De werkbalk biedt snel toegang tot functies, zoals Zoeken, Tijdlijn, Uitvoeringen, Bewerken, Annoteren en Downloaden.
 
@@ -70,13 +69,13 @@ U kunt zoeken op trefwoord, bestandstype, grootte, laatst gewijzigd, publicaties
 
 ## Elementen notities aanbrengen {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Klik **[!UICONTROL Annotate]** door cirkels of pijlen op een afbeelding te tekenen en het element van annotatie te voorzien voor revisie door collega&#39;s.
+Klik op **[!UICONTROL Annoteren]** door cirkels of pijlen op een afbeelding te tekenen en het element van annotatie te voorzien voor revisie door collega&#39;s.
 
 ![](assets/assets-annotate.png)
 
 ## Elementen op volledig scherm weergeven en zoomen {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Klik op **[!UICONTROL Views]** > **[!UICONTROL Image]** om de volledige elementafbeelding weer te geven en zoomen in te schakelen.
+Klik op **[!UICONTROL Weergaven]** > **[!UICONTROL Afbeelding]** om de volledige elementafbeelding weer te geven en zoomen in te schakelen.
 
 ![](assets/asset-zoom.png)
 
@@ -84,7 +83,7 @@ Klik op **[!UICONTROL Views]** > **[!UICONTROL Image]** om de volledige elementa
 
 U kunt kiezen tussen de kaartweergave met eigenschappen, de lijstweergave en de kolomweergave, zodat u uw elementen gemakkelijker kunt vinden.
 
-Klik op **[!UICONTROL Views]** > **[!UICONTROL Properties]** om de eigenschappen van een element weer te geven:
+Klik op **[!UICONTROL Weergaven]** > **[!UICONTROL Eigenschappen]** om de eigenschappen van een element weer te geven:
 
 ![](assets/asset-properties.png)
 
@@ -92,6 +91,6 @@ Klik op **[!UICONTROL Views]** > **[!UICONTROL Properties]** om de eigenschappen
 
 Zie het aantal gebruikers, de gebruikte opslagruimte en het totale aantal middelen.
 
-Klik op **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+Klik op **[!UICONTROL Gereedschappen]** > **[!UICONTROL Rapporten]** > **[!UICONTROL Gebruiksrapport]**
 
 ![](assets/assets-usage-report.png)
