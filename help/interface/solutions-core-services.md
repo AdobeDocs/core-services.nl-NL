@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Nieuwe cloudnamen in Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -105,19 +105,6 @@ Adobe Primetime is een tv-platform met meerdere schermen dat omroepen helpt aant
 
 ## Wat zijn de kerndiensten? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
-[De diensten](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) van de kern omvatten eigenschappen die productimplementatie vereenvoudigen en dwars-oplossing werkschema&#39;s, zoals publiekssegmentatie, het uploaden van klantenattributen, en samenwerkingshulpmiddelen toelaten.
+[De diensten](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) van de kern omvatten eigenschappen die productimplementatie vereenvoudigen en dwars-oplossing werkschema&#39;s, zoals publiekssegmentatie, het uploaden van klantenattributen, en samenwerkingshulpmiddelen toelaten.
 
 ![](assets/core-services.png)
-
-| Kernservice | Beschrijving |
-|--- |--- |
-| [Activering](activation/activation.md) | Tagbeheersystemen (Experience Platform Launch en Dynamic Tag Management).<br>Met behulp van triggers kunt u in Adobe Campaign realtime actie ondernemen op basis van inzichten van Adobe Analytics. |
-| [Beheer](admin-getting-started/admin-getting-started.md) | Beheer gebruikers- en productrechten voor al uw Adobe-wolken en -oplossingen. |
-| [Assets](experience-cloud-assets/experience-cloud-assets.md) | U kunt eenvoudig al uw digitale middelen opslaan, synchroniseren en delen op een centrale locatie, zodat u tijd bespaart en een consistentere klantervaring hebt. |
-| [Introductie van Experience Platform](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] is de volgende generatie mogelijkheden voor tagbeheer van Adobe. [!UICONTROL De lancering] van het Platform van de ervaring geeft klanten een eenvoudige manier om alle analyses, marketing, en reclame markeringen te opstellen en te beheren noodzakelijk om relevante klantenervaringen te drijven. |
-| [Reisorkest](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. [!UICONTROL Reisorchestratie] is een toepassingsservice die is geïntegreerd met het Experience Platform. |
-| [Locatieservice](https://docs.adobe.com/content/help/en/places/using/home.html) | De Adobe [!UICONTROL Experience Platform Location Service] (Locatieservice) is een geo-locatieservice waarmee mobiele apps met een herkenbaarheid van de locatie de context van de locatie kunnen begrijpen door rijke en gebruiksvriendelijke SDK-interfaces te gebruiken die vergezeld gaan van een flexibele database van interesses (POI&#39;s). |
-| Aanbiedingen | Het Beheer van de aanbieding verstrekt verwezenlijking, beheer, en besluit over alle kanalen in de Cloud van de Ervaring. |
-| [Exchange](exchange.md) | U kunt extensies voor Digital Marketing zoeken, zoeken, selecteren, betalen en downloaden via apps. |
-| [Mobiele services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services biedt u mobiele marketingmogelijkheden voor mobiele toepassingen vanuit de Experience Cloud, waarmee u de betrokkenheid van gebruikers met uw mobiele toepassingen kunt begrijpen en verbeteren. |
-| Mensen | Maak een uitgebreide weergave van individuele klanten door Adobe- en niet-Adobe-gegevens aan te sluiten in uw Experience Cloud-oplossingen. Bepaal wat voor hen het belangrijkst is aangezien zij over aanrakingspunten interactie hebben. Bekende consumenten herkennen wanneer ze vanaf onbekende apparaten komen. Zelfs groepeer gebruikers in publiek voor gerichte marketing inspanningen.<br>[Soorten publiek](audience-library/audience-library.md) - Categoriseer verschillende soorten klanten in publiek, dan deel die publiek over de oplossingen van de Wolk van de Marketing.<br>[Kenmerken](attributes/attributes.md) van de klant - verrijking van het publiek waarmee u de consumenteninformatie kunt verbinden die u buiten de Marketing Cloud hebt verzameld.<br>[Apparaatgrafiek](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Werk samen met de populairste merken ter wereld om een bekende consument te herkennen achter een onbekend apparaat. (In bètaversie, alleen voor leden van de Marketing Cloud Device Co-op.) |
