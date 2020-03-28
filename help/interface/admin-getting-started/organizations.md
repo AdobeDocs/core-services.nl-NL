@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Organisaties en accountkoppelingen
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 translation-type: tm+mt
-source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,13 +16,11 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 Meer informatie over het beheren van organisaties en het koppelen van oplossingsaccounts aan Experience Cloud.
 
-<!-- accounts-experience-cloud.xml -->
-
 ## Uw organisatie identificeren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
 Een *organisatie* is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en enige aanmelding in de Cloud van de Ervaring te controleren. De organisatie werkt als een aanmeldingsbedrijf dat alle producten en oplossingen van de Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben.
 
-Mogelijk moet u ook uw organisatie-id vinden voor ondersteuningsdoeleinden. Met het **[!UICONTROL Organization]** menu kunt u controleren of u zich in de juiste organisatie bevindt of kunt schakelen tussen organisaties.
+Mogelijk moet u ook uw organisatie-id vinden voor ondersteuningsdoeleinden. Met het menu **[!UICONTROL Organisatie]** kunt u controleren of u zich in de juiste organisatie bevindt of tussen organisaties schakelt.
 
 ![Stap resultaat](assets/organization-switch.png)
 
@@ -30,7 +28,7 @@ Mogelijk moet u ook uw organisatie-id vinden voor ondersteuningsdoeleinden. Met 
 
 De **organisatie-id** is de id die is gekoppeld aan uw geleverde Experience Cloud-bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg.
 
-Navigeer naar de bestemmingspagina van Experience Cloud of klik ( ![](assets/menu-icon.png)) en klik vervolgens op **[!UICONTROL Administration]**. U vindt de organisatie-id onder aan de [!UICONTROL Getting Started with the Experience Cloud] pagina of op de [!UICONTROL Administration] pagina.
+Als u uw organisatie-id wilt weergeven, navigeert u naar de bestemmingspagina van Experience Cloud of klikt u op ( ![](assets/menu-icon.png)) en klikt u op **[!UICONTROL Beheer]**. U vindt de organisatie-id onder aan de pagina [!UICONTROL Aan de slag met de pagina Experience Cloud] of de pagina [!UICONTROL Beheer] .
 
 ![](assets/administration-page.png)
 
@@ -50,13 +48,13 @@ Experience Cloud-beheerders verlenen doorgaans toegang tot oplossingen en servic
    ![](assets/analytics-link-accounts.png)
 
    Dit type bericht wordt weergegeven als u deel uitmaakt van de desbetreffende groep (en toestemming hebt voor de oplossing) maar uw accountgegevens nog niet aan uw Adobe-id hebt gekoppeld.
-1. Klik **[!UICONTROL Link Account]** en geef uw gegevens op.
+1. Klik op **[!UICONTROL Koppelingsaccount]** en geef uw gegevens op.
 
 ## Een standaardorganisatie en -openingspagina opgeven {#concept_6A191B42A9874A9780882903BA18F071}
 
 U kunt een standaardorganisatie en openingspagina opgeven die u wilt gebruiken wanneer u zich aanmeldt.
 
-Klik in uw profiel op **[!UICONTROL Edit Profile]**.
+Klik in uw profiel op Profiel **[!UICONTROL bewerken]**.
 
 ![](assets/edit-profile.png)
 
