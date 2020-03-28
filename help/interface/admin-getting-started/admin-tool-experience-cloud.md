@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 'Gebruikers van de cloud en gebruikersgegevens weergeven '
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -76,7 +76,7 @@ In deze sectie wordt een overzicht van de gebruikersaccount weergegeven, waarond
 
 ## Overzicht van oplossingen
 
-In deze sectie wordt een overzicht weergegeven van de oplossingen van Experience Cloud waartoe de gebruiker toegang heeft. Omvat, indien van toepassing, de administratieve rol van het product
+In deze sectie wordt een overzicht weergegeven van de oplossingen van Experience Cloud waartoe de gebruiker toegang heeft. Bevat, indien van toepassing, de administratieve rol van het product.
 
 ## Lijst met gedetailleerde producttoegang
 
