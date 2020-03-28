@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gegevensbestand en gegevensbronnen voor klantkenmerken
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -20,10 +20,7 @@ U zult toegang tot CRM of gelijkaardige gegevens van uw onderneming nodig hebben
 
 Kenmerken van klanten zijn ontworpen om enkele bestanden per dag af te handelen. Om de kwestie te verlichten van het hebben van een groot aantal kleine dossiers vertragend verwerking, worden de dossiers die binnen 30 minuten van een vorige partij van de zelfde organisatie worden verzonden verpletterd aan een laag-prioritaire rij.
 
-<!-- <p>Articulate difference between this and SAINT. </p> -->
-
 ## Toegestane bestandstypen en vereisten voor naamgeving {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
-
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
  <thead> 
@@ -48,16 +45,11 @@ Kenmerken van klanten zijn ontworpen om enkele bestanden per dag af te handelen.
  </tbody> 
 </table>
 
-
 ## Vereisten voor de kenmerkgegevensbestanden {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
-
-
 
 **Voorbeeld-CSV**
 
 Het CSV-bestand moet de volgende indeling hebben:
-
-Voorbeeld-CSV:
 
 ![](assets/cvs.png)
 
@@ -142,7 +134,6 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
  </tbody> 
 </table>
 
-
 ## Meerdere gegevensbronnen gebruiken {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de klantenattributen, is er een vertraging rond één uur alvorens IDs met de nieuwe gegevensbron begint te synchroniseren.
@@ -164,4 +155,4 @@ Visitor.setCustomerIDs({
 
 In de **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personen]** > **[!UICONTROL Klantkenmerken]**:
 
-Maak twee bronnen voor klantkenmerken met behulp van unieke alias-id&#39;s die overeenkomen met de bovenstaande id&#39;s van de klant. Het gebruiken van deze methode staat zelfde verwijzingsID toe om naar veelvoudige bronnen van de klantenattributen te worden verzonden
+Maak twee bronnen voor klantkenmerken met behulp van unieke alias-id&#39;s die overeenkomen met de bovenstaande id&#39;s van de klant. Met deze methode kan dezelfde referentie-id naar meerdere bronnen voor klantkenmerken worden verzonden.
