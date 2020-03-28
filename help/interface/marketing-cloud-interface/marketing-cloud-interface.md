@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Nieuwe functies in de Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -50,6 +50,7 @@ Nieuwe functies en oplossingen in de [!DNL Adobe Experience Cloud] interface.
 | Functie | Beschrijving |
 |--- |--- |
 | Nieuwe openingspagina voor beheer | Wanneer u zich aanmeldt bij de Experience Cloud en naar de pagina Administration navigeert, is er een nieuwe intuïtieve interface beschikbaar waarmee u snel toegang krijgt tot uw Experience Cloud-oplossingen en Core Services. |
+
 **Oplossingen**
 
 * Oplossing voor een probleem waarbij het uploaden van de afbeelding is mislukt als gevolg van een Scene7-update. (CORE-12746)
