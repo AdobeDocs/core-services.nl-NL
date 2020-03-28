@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Een bron voor klantkenmerken maken en het gegevensbestand uploaden
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -82,7 +82,6 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Clo
    ![Stap resultaat](assets/04_crs_usecase.png)
 1. Configureer de volgende velden op de pagina Bron [!UICONTROL kenmerk klant] bewerken:
 
-
    * **[!UICONTROL Naam:]** Een vriendelijke naam voor de bron van het gegevenskenmerk. Kenmerknamen mogen bijvoorbeeld geen spaties bevatten. [!DNL Adobe Target] Wanneer een kenmerk met een spatie wordt doorgegeven, wordt dit [!DNL Target] genegeerd. Andere tekens worden niet ondersteund: `< , >, ', "`.
 
    * **[!UICONTROL Omschrijving:]** (Optioneel) Een beschrijving van de bron van het gegevenskenmerk.
@@ -97,18 +96,15 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Clo
 
          Bijvoorbeeld *&quot;crm_id&quot;* in:
 
-
          ```
          "crm_id":"67312378756723456"
          ```
-
 
       * **iOS:** De alias-id komt overeen met *&quot;idType&quot;* in [bezoekerSyncIdentifiers:IDs](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Bijvoorbeeld:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
-
 
       * **Android:** De alias-id komt overeen met *&quot;idType&quot;* in [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
@@ -119,15 +115,12 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Clo
          Zie Meerdere gegevensbronnen [](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) benutten voor aanvullende informatie over gegevensverwerking met betrekking tot het veld Alias-id en de id&#39;s van de klant.
    * **[!UICONTROL Bestand uploaden:]** U kunt het `.csv` gegevensbestand slepen en neerzetten, of de gegevens uploaden via FTP. (Voor het gebruik van FTP is ook een `.fin` bestand vereist.) Zie De gegevens [uploaden via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-
       >[!IMPORTANT]
       >
       >Er zijn specifieke gegevensbestandsvereisten. Zie [Gegevensbestandsvereisten](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) voor meer informatie.
 
 
       Nadat u het bestand hebt geüpload, worden de tabelgegevens weergegeven onder de kop [!UICONTROL Bestand uploaden] op deze pagina. U kunt het schema valideren, abonnementen configureren of de FTP instellen.
-
-
 
       **Afbeelding voor uploaden bestand**
 
@@ -138,13 +131,6 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Clo
    * **[!UICONTROL Door de klant opgegeven id&#39;s Aliased aan Experience Cloud Visitor ID&#39;s:]** Hiermee geeft u weer hoeveel id&#39;s zijn aliased voor Experience Cloud Visitor-id&#39;s.
 
    * **[!UICONTROL Door de klant opgegeven id&#39;s met hoge aliasaantallen:]** Geeft het aantal door de klant geleverde id&#39;s weer met 500 of meer Aliased Experience Cloud Visitor-id&#39;s. Deze door de klant opgegeven id&#39;s vertegenwoordigen hoogstwaarschijnlijk geen personen, maar een soort gedeelde aanmelding. Het systeem verdeelt de attributen verbonden aan deze IDs aan 500 meest recente aliased Ervaring Cloud Bezoeker IDs, tot het aliasaantal 10.000 bereikt. Op dat moment maakt het systeem de door de klant opgegeven id ongeldig en worden de bijbehorende kenmerken niet meer gedistribueerd.
-
-
-
-
-
-
-
 
 
 
@@ -159,7 +145,6 @@ Zie [(Optioneel) Het schema bijwerken (kenmerken verwijderen)](../attributes/t-c
 ## (Optioneel) Werk het schema bij (verwijder kenmerken) {#task_6568898BB7C44A42ABFB86532B89063C}
 
 Hoe te om attributen te schrappen en attributen in het schema te vervangen.
-
 
 1. Verwijder op de pagina Bron [!UICONTROL van kenmerk Klant] bewerken het abonnement **[!UICONTROL Doel]** of **[!UICONTROL Analytics]** (onder Abonnementen configureren).
 1. [Upload een nieuw gegevensbestand met bijgewerkte gebieden](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8).
@@ -183,7 +168,7 @@ Met de gegevens die nu beschikbaar zijn in oplossingen zoals
 Adobe Analytics
 </keyword>kunt u de gegevens rapporteren, analyseren en de juiste actie ondernemen in uw marketingcampagnes.
 
-In het volgende voorbeeld wordt een [!DNL Analytics] segment weergegeven op basis van de geüploade kenmerken. In dit segment ziet u Photoshop Lightroom-abonnees van wie het meest gelanceerde product Photoshop is.
+In het volgende voorbeeld wordt een [!DNL Analytics] segment weergegeven op basis van de geüploade kenmerken. Dit segment toont [!DNL Photoshop Lightroom] abonnees van wie het meest-gelanceerde product Photoshop is.
 
 ![](assets/08_crs_usecase.png)
 
@@ -193,7 +178,7 @@ Zie Rapport [Klantkenmerken](https://docs.adobe.com/help/en/analytics/components
 
 ## Klantkenmerken gebruiken in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-In Doel kunt u een klantkenmerk selecteren in de sectie Bezoekersprofiel wanneer u een publiek maakt. Alle klantkenmerken hebben het voorvoegsel [!DNL crs.] in de lijst. U kunt deze kenmerken desgewenst combineren met andere gegevenskenmerken om een publiek te maken.
+In [!DNL Target], kunt u een klantenattribuut van de sectie van het Profiel [!UICONTROL van de] Bezoeker selecteren wanneer het creëren van een publiek. Alle klantkenmerken hebben het voorvoegsel [!DNL crs.] in de lijst. U kunt deze kenmerken desgewenst combineren met andere gegevenskenmerken om een publiek te maken.
 
 ![](assets/crs-add-attribute-target.png)
 
