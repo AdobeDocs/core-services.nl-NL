@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ## Overzicht van triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-*Triggers* laten u toe om, zeer belangrijk consumentengedrag te identificeren te bepalen en te controleren, en dan dwars-oplossing mededeling te produceren om bezoekers opnieuw in dienst te nemen. U kunt triggers gebruiken in realtime beslissingen en personalisatie.
+*Met triggers* kunt u belangrijke vormen van consumentengedrag identificeren, definiëren en controleren en vervolgens communicatie tussen oplossingen genereren om bezoekers opnieuw aan te trekken. U kunt triggers gebruiken in realtime beslissingen en personalisatie.
 
 * Snel opnieuw op de markt brengen voor winkels met winkelwagentjes of winkels met winkels met winkels met winkels en winkels met verwijderde producten configureren
 * Incomplete formulieren en toepassingen
@@ -24,7 +24,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ![](assets/trigger-abandonment-2.png)
 
-**Typen triggers**
+### Typen triggers
 
 Over het algemeen kan het 15 tot 90 minuten duren voordat een marketingcampagne wordt gestart. Dit hangt van de implementatie van gegevensinzameling, lading op de pijpleiding, douaneconfiguratie van de bepaalde trekker, en het werkschema in de Campagne van Adobe af.
 
@@ -36,18 +36,16 @@ Over het algemeen kan het 15 tot 90 minuten duren voordat een marketingcampagne 
 
 Maak een activeringstrigger en configureer de voorwaarden voor de trigger- en eigenschapscoring. U kunt bijvoorbeeld de criteria voor de regels van een trigger tijdens een bezoek opgeven, zoals maateenheden zoals Kart Abandon of afmetingen zoals de productnaam. Wanneer aan de regels wordt voldaan, loopt de trekker.
 
-<!-- t_create-trigger.xml -->
-
 >[!NOTE]
 >
 >Er bestaat momenteel een technische limiet van 100 triggers.
 
-1. Klik in de Experience Cloud op ![](assets/menu-icon.png)en klik op **[!UICONTROL Activation]**.
-1. Zoek de [!UICONTROL Triggers] kaart en klik op **[!UICONTROL Launch]**.
+1. Klik in de Experience Cloud ![](assets/menu-icon.png)op **[!UICONTROL Activering]**.
+1. Zoek de [!UICONTROL Triggerkaart] en klik op **[!UICONTROL Starten]**.
 
    ![Stap resultaat](assets/activation-triggers.png)
 
-1. Klik **[!UICONTROL New Trigger]** en geef vervolgens het type trigger op:
+1. Klik op **[!UICONTROL Nieuwe trigger]** en geef het type trigger op:
 
    ![Stap resultaat](assets/add-trigger.png)
 
@@ -62,30 +60,30 @@ Maak een activeringstrigger en configureer de voorwaarden voor de trigger- en ei
    | Container | In containers kunt u regels, voorwaarden of filters instellen en opslaan die een trigger definiëren. Als u wilt dat gebeurtenissen tegelijkertijd plaatsvinden, plaatst u ze in dezelfde container. Met andere woorden, elke container verwerkt onafhankelijk op raakniveau.  Bijvoorbeeld, als u twee containers hebt die door de exploitant worden aangesloten van En, kunt u de regels verwachten om te kwalificeren wanneer twee klappen aan de vereisten voldoen. |
    | Nieuwe sessie starten na | Maak een trigger voor het starten en beëindigen van de sessie. |
 
-1. (Optioneel) In hechtenistriggers kunt u [Propensiteitscores](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)toepassen.
+1. (Optioneel) In [!UICONTROL Omheiningstriggers]kunt u [Eigenschapscores](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)toepassen.
 
    ![Stap resultaat](assets/propensity-scoring.png)
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Opslaan]**.
 1. Gebruik triggers voor [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
 
 ### Voorbeeld triggers
 
-**Trigger voor weglating van winkelwagentje**
+Voorbeelden van Experience Cloud-triggers:
+
+#### Trigger voor weglating van winkelwagentje
 
 De volgende pagina bevat bijvoorbeeld regels die u kunt gebruiken voor een trigger voor het afbreken van winkelwagentjes, op basis van producten die tijdens een bezoek worden weergegeven.
 
 ![](assets/abandonment-trigger.png)
 
-**Referrer Trigger**
+#### Referrer Trigger
 
-De volgende trigger wordt geactiveerd wanneer een treffer wordt geleverd met het product van Men&#39;s Boots en referentie van Facebook. Om de twee criteria ( *producten* en *referentie*) in dezelfde hit te kunnen beoordelen, moeten ze aan dezelfde recipiënt worden toegevoegd.
+De volgende trigger wordt geactiveerd wanneer een hit wordt geleverd bij het product van Men&#39;s Boots en referentie van Facebook. Om de twee criteria (*producten* en *referentie*) in dezelfde hit te kunnen beoordelen, moeten ze aan dezelfde container worden toegevoegd.
 
 ![](assets/fb-boots-promo.png)
 
 ## Score volheid {#concept_A506150674AD45DB98D3CC07E560D334}
-
-<!-- propensity-scoring.xml -->
 
 Begrijp de neiging van klanten terug te keren na het verlaten van een winkelwagentje. Propensiteitsscoring is ingebouwd in Experience Cloud-triggers en is beschikbaar voor Abandenvironment-triggers.
 
@@ -99,7 +97,7 @@ U kunt:
 * Identificeer de juiste kar-verlaten klanten en kaart hun activiteit aan het juiste bericht.
 * Verhoog de omzet door te weten welke klanten zullen en niet zullen terugkeren.
 
-## De waarde van de waardestijging {#section_CA99874A25434CC0BF01D0DA61608889}
+### De waarde van de waardestijging {#section_CA99874A25434CC0BF01D0DA61608889}
 
 U kunt gegevensdetectie uitvoeren om verborgen gedragingen of patronen in uw gegevens te identificeren. Specifiek, helpt het bezit van de dichtheid die u clusters van gelijkaardige klanten identificeert gebruikend meer geconcentreerde en objectieve middelen eerder dan eenvoudige segmentatie of het filtreren. Bovendien laat het bezit u opstelling het voorspelbare mogelijkheden scoren om gedrag voor de hoge-waardeklant van uw bedrijf te identificeren.
 
