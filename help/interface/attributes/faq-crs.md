@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Veelgestelde vragen, beperkingen en aanbevolen procedures
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -18,11 +18,11 @@ Veelgestelde vragen en best practices voor klantkenmerken in Analytics en Target
 
 ## Aanbevolen werkwijzen en beperkingen {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
-Richtlijnen en beperkingen bij het gebruik van klantkenmerken.
+Richtlijnen en beperkingen bij het gebruik van [!UICONTROL klantkenmerken].
 
 | Probleem | Beschrijving |
 |--- |--- |
-| Abonnementsbeperkingen voor kenmerk van klant | Wanneer u een upgrade uitvoert naar de Analytics Premium, duurt het 24 uur voordat er aanvullende kenmerken beschikbaar zijn. U kunt een Max fout zien van het Abonnement van Attributen die tijdens deze vertraging wordt uitgegeven. |
+| [!UICONTROL Abonnementsbeperkingen voor] klantkenmerken | Wanneer u een upgrade uitvoert naar de Analytics Premium, duurt het 24 uur voordat er aanvullende kenmerken beschikbaar zijn. U kunt een Max fout zien van het Abonnement van Attributen die tijdens deze vertraging wordt uitgegeven. |
 | Meerdere aanmeldingen op hetzelfde apparaat | Als u klantkenmerken gebruikt om klantprofielen te uploaden naar een gegevensbron, raadt Adobe gebruikers aan hetzelfde apparaat niet te delen (hetzelfde is de Cloud-id voor zelfde ervaring). Dit kan ertoe leiden dat de ECID-service, die op het apparaat aanwezig blijft, meerdere gebruikers onder dezelfde Experience Cloud-id koppelt, wat onverwachte resultaten oplevert [!DNL Target]. **Opmerking:** Voor mobiele apparaten is de ECID blijvend nadat de mobiele toepassing is geïnstalleerd en moet u de toepassing opnieuw installeren om een nieuwe ECID te genereren. Voor het Web, wordt een nieuwe ECID geproduceerd nadat het browser koekje wordt ontruimd. |
 | Maximale uploadfrequentie per dag | Adobe raadt u aan de klantkenmerken slechts eenmaal per dag bij te werken. U moet ten minste 24 uur wachten om een ander bestand met klantprofielgegevens te uploaden voor dezelfde set profielen. |
 | Custom Analytics ID (`s.visitorID`) | Het instellen van een klant-id met behulp van `s.visitorID` is een manier om gebruikers in Analytics te identificeren. Integraties waarin analysegegevens worden geëxporteerd of geïmporteerd met behulp van de ID-service, werken echter niet wanneer een bezoeker wordt geïdentificeerd met behulp van `s.visitorID.`<br>This include, but is not limited to, shared publiek, Analytics for Adobe Target (A4T), and Customer Attributes.<br>Voor deze integraties wordt het instellen van een aangepaste Analytics-id niet ondersteund. |
@@ -43,5 +43,5 @@ Richtlijnen en beperkingen bij het gebruik van klantkenmerken.
 | **(Alleen Adobe Target)** Hoe kunnen de kenmerken van de klant worden vergeleken met de API voor bulkprofielen van Adobe Target? | Met de API voor het bulkprofiel kunnen Adobe Target-profielen rechtstreeks via de API worden bijgewerkt, voor een afzonderlijk profiel of in bulk. Het vermogen is gelijkaardig aan klantenattributen, met de volgende zeer belangrijke verschillen:<ul><li>De profiel-API is een REST API-aanroep en de klantkenmerken gebruiken FTP.</li><li>De profiel-API van Adobe Target verzendt alleen gegevens naar Adobe Target in plaats van naar de volledige Experience Cloud.</li><li>De attributen van de klant verstrekken een eenvoudige interface om deze externe gegevens tot stand te brengen en te beheren.</li></ul> |
 | **(Alleen Adobe Target)** Verlengt het uploaden van gegevens van klantkenmerken naar Adobe Target de levensduur van het profiel van de Adobe Target-bezoeker? | Ja. Zie Levensduur [bezoekersprofiel](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html) in Adobe Target Help. |
 | **(Alleen Adobe Target)** Kan ik mij richten op de gegevens die direct nadat de bezoeker door de klant-id is geïdentificeerd, in de klantkenmerken zijn geüpload? | Ja. Bij de serveraanroep van Adobe Target, die de id van een externe box bevat, zijn alle kenmerkgegevens van de klant beschikbaar. |
-| **(Alleen Adobe Target)** Wat vertegenwoordigt de kolom **[!UICONTROL Synchronisatiestatus]** voor bestanden die zijn geüpload naar de kenmerkbron van de klant? | Het aantal records dat door Adobe Target is gepubliceerd en gesynchroniseerd, kan worden weergegeven door op het pictogram Synchronisatiestatus te klikken op een specifiek kenmerkbestand. `Sync %` is een realtime-metrische waarde die het percentage aangeeft van de profielen die zijn gesynchroniseerd in Adobe Target.<br> **Opmerking:** Het kan tot 24 uur duren voordat kenmerken worden gesynchroniseerd met Adobe Target. |
+| **(Alleen Adobe Target)** Wat vertegenwoordigt de kolom **[!UICONTROL Synchronisatiestatus]** voor bestanden die zijn geüpload in de kenmerkbron van de klant? | Het aantal records dat door Adobe Target is gepubliceerd en gesynchroniseerd, kan worden weergegeven door op het pictogram Synchronisatiestatus te klikken op een specifiek kenmerkbestand. `Sync %` is een realtime-metrische waarde die het percentage aangeeft van de profielen die zijn gesynchroniseerd in Adobe Target.<br> **Opmerking:** Het kan tot 24 uur duren voordat kenmerken worden gesynchroniseerd met Adobe Target. |
 | Wat vertegenwoordigen de gegevens van het dossierupload in de Bron van Attributen van de Klant? | U kunt de status controleren van kenmerken die naar Klantkenmerken zijn geüpload met behulp van de volgende metingen: <ul><li>Records:  Aantal records in het kenmerkbestand.</li><li>**Nieuwe records:** Aantal nieuwe records in het kenmerkbestand.</li> <li>**Bijgewerkte records:** Aantal records in dat al bestaat in Klantkenmerken met bijgewerkte waarden in het bestand.</li><li>**Alle gegevens (records):** Het totale aantal records dat is geüpload naar Customer Attributes.</li></ul> |
