@@ -5,9 +5,9 @@ seo-description: Leer hoe u zich aanmeldt bij de beheerconsole, gebruikersmachti
 seo-title: Gebruikers en producten van Experience Cloud beheren
 solution: Experience Cloud
 title: Gebruikers en producten van Experience Cloud beheren
-uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
+index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -26,11 +26,11 @@ Meer informatie over de nieuwste functies in Experience Cloud-gebruikersbeheer.
 
 <!-- ### Business ID type
 
-Adobe is now introducing a new identity type: **Business ID**. This identity type, improves the control of user and product management, and content, while increasing the flexibility of Experience Cloud and Creative Cloud storage usage among your team. With the introduction of this new identity type, Adobe is migrating all Adobe IDs (owned by the individual) used for business to the new Business IDs (owned by the organization).
+Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management while increasing the flexibility of Creative Cloud storage usage among your team (if applicable). Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs (owned by your organization).
 
-If you're an existing Creative Cloud for enterprise or teams customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you're a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID. 
+If you're an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you're a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID. 
 
-Beginning May 89, 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
+Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
 
 What to do
 
@@ -45,7 +45,7 @@ Beheerders kunnen een sorteerbare en filterbare lijst weergeven met alle gebruik
 
 Beheerders beheren gebruikers niet meer in oplossingen. Gebruiker- en productbeheer voor Experience Cloud vindt nu plaats in de beheerconsole.
 
-**Aanmelden bij de beheerconsole**
+Aanmelden bij de beheerconsole:
 
 1. Ga naar [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Typ uw [Adobe-id of Enterprise-id](https://helpx.adobe.com/enterprise/help/identity.html) en wachtwoord.
@@ -117,7 +117,7 @@ Zie [Gebruikers en Toestemmingen](https://docs.adobe.com/content/help/en/dtm/usi
 
 ## Auditiebeheer {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-Maak gebruikers van Audience Manager en wijs deze toe aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen en AlgoModel) weergeven.
+Maak gebruikers van Audience Manager en wijs deze toe aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen en [!DNL AlgoModel]) weergeven.
 
 Zie [Beheer](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) in de Help van Audience Manager.
 
@@ -177,8 +177,6 @@ Door deze rollen te gebruiken, kunt u beheer aan anderen gelijktijdig delegeren 
 
 Ondersteunde browsers in de Experience Cloud.
 
-Tot de browsers die door Experience Cloud worden ondersteund behoren:
-
 * [!DNL Microsoft Edge] (Microsoft heeft de ondersteuning [voor Internet Explorer 8, 9 en 10](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) beëindigd. Adobe lost de problemen die zijn gemeld voor deze specifieke versies van Internet Explorer dan ook niet op.)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
@@ -187,7 +185,7 @@ Tot de browsers die door Experience Cloud worden ondersteund behoren:
 
 **Opmerking:** Hoewel de interface Experience Cloud deze browsers ondersteunt, wordt mogelijk niet elke browser ondersteund door afzonderlijke oplossingen. ( [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) biedt bijvoorbeeld geen ondersteuning [!DNL Opera]en [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) biedt geen ondersteuning voor [!DNL Safari].)
 
-**Oplossing en productvereisten**
+### Oplossing en productvereisten
 
 * [Analyse](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
