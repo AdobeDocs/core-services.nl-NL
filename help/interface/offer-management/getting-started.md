@@ -8,14 +8,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Adobe Offertebeheer {#section_07CBD4C01F4049A5A19781737D2DCD35}
 
-[!UICONTROL Offer Management] biedt aanmaak, beheer en besluitvorming via alle kanalen in de Experience Cloud. Het dient als centrale aanbiedingscatalogus waar u toelatingsregels en veelvoudige stukken van inhoud met elk aanbiedingsvoorwerp kunt associëren _._ U kunt die aanbiedingen over kanalen en plaatsen publiceren, en de beste aanbieding voor elke klant bij elke interactie dienen. Met deze functies kunt u uw klanten voortdurend het beste aanbod bieden op een consistente en gecoördineerde manier.
+[!UICONTROL Het Beheer] van de aanbieding verstrekt verwezenlijking, beheer, en besluit over alle kanalen in de Cloud van de Ervaring. Het dient als centrale aanbiedingscatalogus waar u toelatingsregels en veelvoudige stukken van inhoud met elk aanbiedingsvoorwerp kunt associëren _._ U kunt die aanbiedingen over kanalen en plaatsen publiceren, en de beste aanbieding voor elke klant bij elke interactie dienen. Met deze functies kunt u uw klanten voortdurend het beste aanbod bieden op een consistente en gecoördineerde manier.
 
 De voordelen omvatten:
 
@@ -32,11 +32,11 @@ Leer hoe u toegang krijgt tot het beheer van aanbiedingen.
 
    Een Experience Cloud-organisatie moet beschikken over een exemplaar van de Campagnestandaard. Adobe kan ook een functie in Campagne inschakelen waarmee u aanbiedingsactiviteiten binnen e-mails kunt maken.
 
-1. Klik in het navigatiemenu Experience Cloud op de oplossingenkiezer en klik vervolgens op **[!UICONTROL Offers]**.
+1. Klik in het navigatiemenu Experience Cloud op de oplossingenkiezer en klik vervolgens op **[!UICONTROL Aanbiedingen]**.
 
    ![](assets/access-offers.png)
 
-   Klik op het **[!UICONTROL Offers]** pictogram in een e-mailsjabloon als u aanbiedingen wilt openen in Campagnestandaard.
+   Klik op het pictogram **[!UICONTROL Aanbiedingen]** in een e-mailsjabloon voor toegang tot voorstellen in de campagnestandaard.
 
    ![](assets/campaign-add-offer.png)
 
@@ -44,7 +44,7 @@ Leer hoe u toegang krijgt tot het beheer van aanbiedingen.
 
 ## Gebruikers en machtigingen {#concept_81F0ABB07ACC49E099EDCD87AA0436E1}
 
-Beheerders kunnen gebruikers toevoegen aan [!UICONTROL Offer Management] de beheerconsole. Er wordt een e-mailuitnodiging verzonden naar de nieuwe gebruiker met instructies voor toegang tot het product. Wanneer een gebruiker is toegevoegd, kunt u zijn machtigingen aanpassen en deze toegang geven tot verschillende functies. [!UICONTROL Offer Management]
+Beheerders kunnen gebruikers toevoegen aan [!UICONTROL Aanbiedingsbeheer] in de beheerconsole. Er wordt een e-mailuitnodiging verzonden naar de nieuwe gebruiker met instructies voor toegang tot het product. Zodra een gebruiker wordt toegevoegd, kunt u hun toestemmingen aanpassen, die hen toegang tot verschillende functionaliteiten door het Beheer [!UICONTROL van de]Aanbieding geven.
 
 Raadpleeg de documentatie [van de](https://helpx.adobe.com/enterprise/help/aedash.html)HelpX-beheerconsole voor meer informatie over de beheerconsole.
 
@@ -52,7 +52,7 @@ In Campagne, hebben de standaardgebruikers automatisch het recht om aanbiedingsa
 
 >[!NOTE]
 >
->Voor bèta zijn er geen machtigingen. Elke gebruiker die aan aanbiedingen is toegevoegd, heeft volledige toegang tot alle functionaliteit binnen [!UICONTROL Offer Management].
+>Voor bèta zijn er geen machtigingen. Elke gebruiker die aan Aanbiedingen is toegevoegd, heeft volledige toegang tot alle functionaliteit in [!UICONTROL Aanbiedingsbeheer].
 
 ## Een productprofiel maken voor Offertebeheer
 
@@ -60,21 +60,21 @@ Een productprofiel is een set machtigingen die kan worden gecombineerd om een ge
 
 1. Navigeer naar de Adobe [Admin Console](https://adminconsole.adobe.com/).
 
-1. Klik op uw procedure (**[!UICONTROL Offers]** bijvoorbeeld).
+1. Klik op uw procedure (bijvoorbeeld **[!UICONTROL aanbiedingen]**).
 
-1. Klik op de [!UICONTROL Product Pofiles] pagina **[!UICONTROL New Profile]**.
+1. Klik op de pagina [!UICONTROL Productprofielen] op **[!UICONTROL Nieuw profiel]**.
 
-1. Typ een naam en beschrijving voor het productprofiel en klik vervolgens op **[!UICONTROL Done]**.
+1. Typ een naam en beschrijving voor het productprofiel en klik op **[!UICONTROL Gereed]**.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Opslaan]**.
 
 ### Machtigingen - definities
 
-Een beschrijving van de [!UICONTROL Offer Management] machtigingen die beschikbaar zijn voor productprofielen in het [!UICONTROL Admin Console]dialoogvenster.
+Een beschrijving van de [!UICONTROL bevoegdheden voor het beheer] van aanbiedingen die beschikbaar zijn voor productprofielen in de [!UICONTROL beheerconsole].
 
 | Element | Beschrijving |
 |--- |--- |
-| Aanbiedingen maken en bewerken | Biedt gebruikers toegang tot aanbiedingen maken en bewerken in [!UICONTROL Offer Management]. Als een gebruiker over deze machtiging beschikt maar niet over de machtiging _Goedkeuren, kan de gebruiker alleen een aanbieding maken en deze ter goedkeuring verzenden_ . Het mag pas in een aanbiedingsactiviteit worden gebruikt nadat het is goedgekeurd. |
+| Aanbiedingen maken en bewerken | Biedt gebruikers toegang tot het maken en bewerken van aanbiedingen in [!UICONTROL Aanbiedingsbeheer]. Als een gebruiker over deze machtiging beschikt maar niet over de machtiging _Goedkeuren, kan de gebruiker alleen een aanbieding maken en deze ter goedkeuring verzenden_ . Het mag pas in een aanbiedingsactiviteit worden gebruikt nadat het is goedgekeurd. |
 | Aanbiedingen verwijderen | Biedt gebruikers toegang tot aanbiedingen voor verwijderen. |
 | Aanbiedingen goedkeuren | Biedt gebruikers de mogelijkheid een voorstel goed te keuren. De gebruikers met deze toestemming zullen een bericht zien wanneer het programma openen aan het Beheer van de Aanbieding als om het even welke aanbiedingen goedkeuring vereisen. Als een gebruiker zowel deze machtiging heeft als de machtiging voor het _maken en bewerken van aanbiedingen_ , kan hij voorstellen maken en goedkeuren in één workflow. |
 | Aanbiedingen archiveren | Biedt gebruikers de mogelijkheid om een aanbieding te archiveren. |
