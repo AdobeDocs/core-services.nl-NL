@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Help bij Experience Cloud en core services
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -33,7 +33,7 @@ Deze pagina biedt zelfhulp, ondersteuning en technische en productdocumentatie v
 * [Overzicht](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) van Core Services (blog)
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Soorten publiek](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
-* [Activa](experience-cloud-assets/experience-cloud-assets.md)
+* [Assets](experience-cloud-assets/experience-cloud-assets.md)
 * [Klantkenmerken](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
 * [Apparaatcoop](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [Dynamisch tagbeheer](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
