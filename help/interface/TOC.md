@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -12,8 +12,8 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 # Gebruikershandleiding voor Core Services {#interface}
 
 + [Experience Cloud en Core Services productdocumentatie](experience-cloud.md)
-+ Over kernservices {#about-core-services}
-   + [[!UICONTROL Overzicht van] kernservices](core-services-landing.md)
++ Kernservices in Experience Cloud {#about-core-services}
+   + [Overzicht van kernservices](core-services-landing.md)
    + [Laat uw oplossingen voor de kerndiensten toe](core-services/core-services.md)
    + [Kaart rapportsuites aan een organisatie](core-services/report-suite-mapping.md)
    + [Nieuwe cloudnamen in Experience Cloud](solutions-core-services.md)
@@ -33,7 +33,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
    + [Privacy-instellingen voor browsercookies inschakelen](cookies/browser-cookie-settings.md)
    + [Hoe wijzigingen in de Cookie-ondersteuning van derden van invloed zijn op klanten](cookies/cookies-thirdparty.md)
 + Gebruiker- en productbeheer {#manage-users-and-products}
-   + [Gebruikers en producten van de Experience Cloud beheren (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Ervaring beheren Gebruikers-id en -producten in de cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Gebruikersgegevens van de cloud weergeven (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Veelgestelde vragen](admin-getting-started/faq.md)
    + [Aanmelden en uw profielinstellingen beheren](admin-getting-started/getting-started-experience-cloud.md)
