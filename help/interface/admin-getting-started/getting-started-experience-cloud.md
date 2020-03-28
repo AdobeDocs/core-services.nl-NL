@@ -1,26 +1,20 @@
 ---
 description: Leer hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: Leer hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
 seo-title: Aanmelden en uw profielinstellingen beheren
-solution: Marketing Cloud
-title: Aanmelden en uw profielinstellingen beheren
+solution: Experience Cloud
+title: Aanmelden en de instellingen van uw Experience Cloud-profiel beheren
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# Aanmelden en uw profielinstellingen beheren
+# Aanmelden en de instellingen van uw Experience Cloud-profiel beheren
 
-Door u aan te melden bij de Experience Cloud (in plaats van u aan te melden bij één oplossing) kunt u zich aanmelden bij alle oplossingen en services die u hebt. Leer hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+Door u aan te melden bij de Experience Cloud (in plaats van u aan te melden bij één oplossing) kunt u zich aanmelden bij alle oplossingen en services die u hebt. In deze Help wordt beschreven hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
 
 >[!IMPORTANT]
 >
