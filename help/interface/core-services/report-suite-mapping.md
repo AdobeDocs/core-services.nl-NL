@@ -5,7 +5,7 @@ seo-title: Kaart rapportsuites aan een organisatie
 title: Kaart rapportsuites aan een organisatie
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -19,7 +19,7 @@ De diensten van de Wolk van de ervaring (zoals de Dienst van identiteitskaart va
 * Stelt een Experience Cloud-organisatie in als de primaire organisatie voor de rapportsuite.
 * Hiermee wordt niet gewijzigd wie toegang heeft tot een rapportsuite (de toegang wordt nog steeds bepaald door de Adobe Analytics-aanmeldingsaccount voor elke gebruiker)
 
-**Vereisten**
+## Vereisten
 
 U moet een beheerder van Analytics van een login bedrijf zijn dat toegang tot de rapportreeks heeft u wilt in kaart brengen. Bovendien moet deze account zijn [gekoppeld aan een Experience Cloud-organisatie](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) om de rapportreeksen aan die organisatie toe te wijzen.
 
@@ -55,13 +55,13 @@ Organisaties worden grijs weergegeven als u geen beheerdersmachtigingen voor Ana
 
 Deze sectie bevat tips voor het selecteren van de Experience Cloud-organisatie waaraan u een rapportsuite moet toewijzen.
 
-**Welke organisatie moet ik kiezen?**
+### Welke organisatie moet ik kiezen?
 
 Als de Experience Cloud ID Service momenteel wordt geïmplementeerd in de rapportsuite, moet u ervoor zorgen dat de organisatie die u selecteert in het hulpprogramma voor het toewijzen van de rapportsuite dezelfde organisatie is als die is opgegeven in het [!DNL visitorAPI.js] bestand op uw site. U kunt de instructies in de [Test gebruiken en de dienst](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) van identiteitskaart van de Wolk verifiëren van de Ervaring om org identiteitskaart te vinden die door de dienst van identiteitskaart van de Bezoeker wordt gebruikt.
 
 Als de dienst van identiteitskaart van de Bezoeker nog niet op de plaatsen wordt opgesteld die gegevens voor de rapportreeks verzamelen, als u de dienst van identiteitskaart van de Bezoeker van de Wolk van de Ervaring in de toekomst opstelt, zult u moeten verzekeren uw plaatsing de organisatie aanpast u in het hulpmiddel van de Afbeelding van de Reeks van het Rapport koos.
 
-**Waarom worden sommige organisaties gegraveerd?**
+### Waarom worden sommige organisaties gegraveerd?
 
 Dit wijst erop dat u niet genoeg voorrechten hebt om aan de grayed-uit rapportreeks in kaart te brengen. Bekijk het volgende voorbeeld:
 
@@ -81,32 +81,32 @@ De volgende punten geven een overzicht van de toewijzingsacties die deze gebruik
 * [!UICONTROL Nigel-prod] rapportenreeks kan niet door deze gebruiker worden verbonden aangezien hij geen beheerder in om het even welk login bedrijf is waaraan deze rapportreeks zichtbaar is.
 * [!UICONTROL De Doohan-prod] rapportsuite kan worden toegewezen aan [!UICONTROL Chapek Corp] , aangezien deze gebruiker een beheerder is van een aanmeldingsbedrijf ([!UICONTROL chapek]) dat is gekoppeld aan de Experience Cloud org (houd er rekening mee dat hij geen beheerder is van het aanmeldingsbedrijf van Dohan Analytics). Het is belangrijk om te weten dat de [!UICONTROL doohan-prod] rapportenreeks ook in aanmerking komt om aan de Nigel Inc Experience Cloud org in kaart te worden gebracht, ook al kan deze gebruiker die afbeelding niet uitvoeren. In dit geval worden beide Experience Cloud-organisaties weergegeven in de lijst, maar [!UICONTROL Nigel Inc] wordt grijs weergegeven. Voordat de kaart wordt toegewezen, moet deze gebruiker overleg plegen met een beheerder van het nigel-aanmeldingsbedrijf om te bepalen welke org de beste kandidaat is voor mapping. De UI toont een Mogelijke waarschuwing van het Conflict als u een organisatie selecteert is dit verschillend dan de organisatie waaronder de rapportreeks oorspronkelijk werd gecreeerd.
 
-## Veelgestelde vragen {#section_099E485805994C929FF9C9F75219BEE1}
+## Frequently Asked Questions {#section_099E485805994C929FF9C9F75219BEE1}
 
-**Waarom zie ik niet al mijn rapportsuites?**
+### Waarom zie ik niet al mijn rapportsuites?
 
 Sommige van uw rapportsuites zouden onder een verschillend login bedrijf kunnen zichtbaar zijn. U kunt het huidige login bedrijf veranderen gebruikend drop-down bij de bovenkant van het scherm.
 
-**Wat gebeurt er als ik sommige organisaties die in de vervolgkeuzelijst voor een van mijn rapportensuites zijn vermeld, niet herken?**
+### Wat gebeurt er als ik sommige organisaties die in de vervolgkeuzelijst voor een van mijn rapportensuites zijn vermeld, niet herken?
 
-In de lijst worden alle *mogelijke *organisaties weergegeven waaraan uw rapportsuite kan worden toegewezen, zelfs als u geen toestemming hebt om aan al die rapportsuites toe te wijzen. Als u niet zeker weet of de rapportsuite moet worden toegewezen aan een van de grijstinten-uitrapportsuites in de lijst, raadpleegt u een beheerder van de Experience Cloud in uw organisatie om de beste keuze te bepalen.
+In de lijst staan alle *mogelijke* organisaties waaraan uw rapportsuite kan worden toegewezen, ook al hebt u geen toestemming om al deze rapportageopets in kaart te brengen. Als u niet zeker weet of de rapportsuite moet worden toegewezen aan een van de grijstinten-uitrapportsuites in de lijst, raadpleegt u een beheerder van de Experience Cloud in uw organisatie om de beste keuze te bepalen.
 
-**Wat gebeurt er als ik sommige van de aanmeldingsbedrijven die worden vermeld voor een rapportsuite in de kolom &quot;Zichtbaar voor aanmeldingspartners&quot;, niet herken?**
+### Wat gebeurt er als ik sommige van de aanmeldingsbedrijven die worden vermeld voor een rapportsuite in de kolom &quot;Zichtbaar voor aanmeldingspartners&quot;, niet herken?
 
 Op een gegeven moment werd deze rapportsuite gedeeld met een ander aanmeldingsbedrijf dat deel kan uitmaken van een andere Experience Cloud-organisatie.
 
-**Wat is deze &quot;Mogelijke Conflict&quot;fout over de rapportreeks die door een andere organisatie wordt geproduceerd? Waarom is dat belangrijk?**
+### Wat is deze &quot;Mogelijke Conflict&quot;fout over de rapportreeks die door een andere organisatie wordt geproduceerd? Waarom is dat belangrijk?
 
 Dit is een melding om u te helpen bij het nemen van een geïnformeerde beslissing over de toewijzing van uw rapportsuite. Wij willen u erop wijzen dat de rapportreeks oorspronkelijk onder een verschillende organisatie in het leven werd geroepen voor het geval dat die organisatie voor deze rapportreeks geschikter zou kunnen zijn.
 
-**Hoe weet ik of een rapportenpakket in kaart is gebracht?**
+### Hoe weet ik of een rapportenpakket in kaart is gebracht?
 
 Toegewezen rapportsuites worden in een niet-bewerkbare indeling weergegeven. Neem contact op met de klantenservice als u een toewijzing wilt wijzigen.
 
-**Wat gebeurt er als ik alleen de Org ID ken voor mijn Experience Cloud-organisatie? Hoe zoek ik de naam voor mijn Org ID op?**
+### Wat gebeurt er als ik alleen de Org ID ken voor mijn Experience Cloud-organisatie? Hoe zoek ik de naam van mijn Org ID op?
 
 U kunt de naam van uw organisatie vinden in [Organisaties en Accountinstellingen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
-**Ik zie een datum in de kolom &quot;Datum van toewijzing&quot;. Wie heeft dat in kaart gebracht?**
+### Ik zie een datum in de kolom &quot;Datum van toewijzing&quot;. Wie heeft dat in kaart gebracht?
 
 U kunt het Logboek van de Verandering van de Reeks van het Rapport in de interface van Analytics raadplegen om gebruiker te controleren - identiteitskaart die de verandering aanbracht. Zoek naar de gebeurtenis &quot;Suite gekoppeld aan IMS-organisatie&quot;.
