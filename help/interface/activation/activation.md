@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Activering
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
 
 ---
 
@@ -24,7 +24,7 @@ Zie Launch [van het Platform van de Ervaring](https://docs.adobe.com/content/hel
 
 ## Dynamisch tagbeheer {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-Als u Dynamic Tag Management wilt starten, klikt u op een aanvraag **[!UICONTROL Activation]** en verzendt u deze naar het Adobe-inrichtingsteam. U moet uw aanmeldingsgegevens binnen een tot twee werkdagen ontvangen.
+Als u Dynamic Tag Management wilt starten, klikt u op **[!UICONTROL Activering]** en verzendt u een aanvraag naar het Adobe-inrichtingsteam. U moet uw aanmeldingsgegevens binnen een tot twee werkdagen ontvangen.
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -44,7 +44,7 @@ Als u Dynamic Tag Management wilt starten, klikt u op een aanvraag **[!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamische productdocumentatie voor tagbeheer </a> </p> </td> 
-   <td colname="col2"> <p>Meer informatie over het implementeren van Experience Cloud-oplossingen met Dynamic Tag Management. </p> </td> 
+   <td colname="col2"> <p>Meer informatie over het implementeren van Experience Cloud-oplossingen met Dynamic Tag Management. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -58,20 +58,20 @@ Als u hulp bij het uitvoeren van dynamisch markeringsbeheer wilt aanmoedigen wij
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Taak </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
+   <th colname="col1" class="entry"> Taak </th>
+   <th colname="col2" class="entry"> Beschrijving </th>
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> Experience Cloud-triggers maken </a> </p> </td> 
-   <td colname="col2"> <p> Stapsgewijze instructies voor het maken van Experience Cloud-triggers met behulp van Adobe Analytics-gegevens. </p> <p>Experience Cloud Triggers zijn beschikbaar voor gebruik in Adobe Campaign. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p> Stapsgewijze instructies voor het maken van Experience Cloud-triggers met behulp van Adobe Analytics-gegevens. </p> <p>Experience Cloud Triggers zijn beschikbaar voor gebruik in Adobe Campaign. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p>Triggers gebruiken in Adobe-campagne </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introduceert een integratie met de nieuwe triggerservice. Met deze service kunnen zakelijke gebruikers eenvoudig triggers definiëren op basis van onlinegedragsgegevens die zijn vastgelegd in Adobe Analytics. Zodra de trigger is gedefinieerd, is deze beschikbaar in Adobe Campaign voor ondersteuning van marketingberichten die de betrokkenheid en conversies stimuleren. Met deze nieuwe out-of-the-box-functie kunnen marketers op het juiste moment opnieuw marketingberichten activeren op basis van online gebeurtenissen zoals het verlaten van winkelwagentjes, paginaweergaven, gecontroleerde video's enzovoort. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introduceert een integratie met de nieuwe triggerservice. Met deze service kunnen zakelijke gebruikers eenvoudig triggers definiëren op basis van onlinegedragsgegevens die zijn vastgelegd in Adobe Analytics. Zodra de trigger is gedefinieerd, is deze beschikbaar in Adobe Campaign voor ondersteuning van marketingberichten die de betrokkenheid en conversies stimuleren. Met deze nieuwe out-of-the-box-functie kunnen marketers op het juiste moment opnieuw marketingberichten activeren op basis van online gebeurtenissen zoals het verlaten van winkelwagentjes, paginaweergaven, gecontroleerde video's enzovoort. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 
