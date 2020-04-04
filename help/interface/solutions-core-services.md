@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Nieuwe cloudnamen in Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
+source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ---
 
@@ -21,7 +21,7 @@ Leer over de recentste branding updates voor de wolken, hoe te om de interface t
 
 De nieuwste cloudnamen en de oplossingen in elke cloud:
 
-![](assets/experience_cloud_appicon_32.png) Cloud [beleven](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
+[Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
 
 Vervangt *Marketing Cloud* als de bovenliggende cloud voor alle oplossingen en services voor digitale ervaringen van Adobe.
 
@@ -29,7 +29,7 @@ Vervangt *Marketing Cloud* als de bovenliggende cloud voor alle oplossingen en s
 >
 >U kunt verwijzingen naar *Marketing Cloud* in zijn vorige, bredere context blijven zien tot alle oplossingsinterfaces opnieuw zijn gebrandd naar *Enterprise Cloud.*
 
-![](assets/marketingcloud_32.png) [Marketing Cloud](https://www.adobe.com/marketing-cloud.html)
+[Marketing Cloud](https://www.adobe.com/marketing-cloud.html)
 
 Bevat de volgende oplossingen:
 
@@ -39,14 +39,14 @@ Bevat de volgende oplossingen:
 * Adobe Primetime
 * Adobe Social
 
-![](assets/analyticscloud_appicon_32.png) Cloud [Analytics](https://www.adobe.com/data-analytics-cloud.html)
+[Analytics Cloud](https://www.adobe.com/data-analytics-cloud.html)
 
 Bevat de volgende oplossingen:
 
 * Adobe Analytics
 * Adobe Audience Manager
 
-![](assets/advertisingcloud_appicon_32.png) Cloud [voor advertenties](https://www.adobe.com/advertising-cloud.html)
+[Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
 
 Inclusief Media Optimizer en TubeMogul.
 
@@ -54,7 +54,7 @@ Inclusief Media Optimizer en TubeMogul.
 
 De volgende informatie beschrijft kort de oplossingen en verstrekt verbindingen aan hulp. [U kunt ook caserecepten](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) gebruiken om u te helpen met workflows voor digitale marketing.
 
-![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+[Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 
 Aan de slag met Analytics:
 
@@ -68,7 +68,7 @@ Zie ook:
 * [Welke analytische producten moet ik gebruiken?](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html)
 * [Analyse van productvergelijking en vereisten](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)
 
-![](assets/mc_target_32.png) [Adobe-doel](https://docs.adobe.com/content/help/en/target/using/target-home.html)
+[Adobe-doel](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 Adobe Target kan worden geïntegreerd met Analytics en andere Experience Cloud-kernservices. Nuttige aan de slag-onderwerpen:
 
@@ -77,29 +77,25 @@ Adobe Target kan worden geïntegreerd met Analytics en andere Experience Cloud-k
 * [Eerste stappen van beheerder](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
 * [Analyses gebruiken als rapportbron voor Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
-![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
-
-Sociaal biedt een gehoste, op abonnementen gebaseerde oplossing om u te helpen uw doelstellingen op het gebied van sociale media te bereiken en uw strategie en prestaties te verbeteren. U kunt sociale marketing beheren met een uitgebreid platform dat sociaal luisteren, publiceren en analyseert toelaat.
-
-![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
+[Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
 
 Als oplossing voor inhoudsbeheer kunt u met Adobe Experience Manager eenvoudig uw middelen en inhoud beheren voor websites, mobiele apps, gemeenschappen en formulieren.
 
 Zie [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) voor hulp.
 
-![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
+[Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 Als platform voor gegevensbeheer kunt u met Adobe Audience Manager unieke publieksprofielen maken, zodat u op elk kanaal de meest waardevolle klantsegmenten kunt detecteren en als doel kunt instellen.
 
-![](assets/mc_optimize_32.png) Adobe Advertising Cloud [](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
+[Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
 
 Adobe Advertising Cloud is een programmatische oplossing voor advertenties. Het helpt u de beste mengeling van advertentiekanalen vinden en voorspellen die op uw begroting wordt gebaseerd, dan automatiseert de levering van inhoud direct aan uw publiek.
 
-![](assets/mc_campaign_32.png) [Adobe-campagne](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
+[Adobe-campagne](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
 
 Met Adobe Campaign kunt u campagnes plannen, leveren en meten op al uw online en offline kanalen. Het helpt uw productiviteit te verhogen en relevante ervaringen aan uw klanten te leveren.
 
-![](assets/primetime_app_32.png) [Adobe Primetime](https://help.adobe.com/en_US/primetime/)
+[Adobe Primetime](https://help.adobe.com/en_US/primetime/)
 
 Adobe Primetime is een tv-platform met meerdere schermen dat omroepen helpt aantrekkelijke tv- en filmervaringen te creëren die voor elk publiek op maat zijn gemaakt.
 
