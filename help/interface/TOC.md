@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: Core Services User Guide
+user-guide-title: Gebruikershandleiding voor Core Services
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
 
 # Gebruikershandleiding voor Core Services {#interface}
 
-+ [Experience Cloud en Core Services productdocumentatie](experience-cloud.md)
++ [Experience Cloud en core services productdocumentatie](experience-cloud.md)
 + Kernservices in Experience Cloud {#about-core-services}
    + [Overzicht van kernservices](core-services-landing.md)
    + [Laat uw oplossingen voor de kerndiensten toe](core-services/core-services.md)
