@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Help bij Experience Cloud en core services
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -28,9 +28,8 @@ Deze pagina biedt zelfhulp, ondersteuning en technische en productdocumentatie v
 * [Blog](https://theblog.adobe.com/customer-experience/) van Customer Experience Cloud lezen
 * [Klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) - Contact opnemen met de klantenservice van Adobe
 
-## Productdocumentatie voor kernservices
+## Productdocumentatie van het platform
 
-* [Overzicht](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) van Core Services (blog)
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Soorten publiek](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
@@ -49,7 +48,7 @@ Deze pagina biedt zelfhulp, ondersteuning en technische en productdocumentatie v
 * [Laat uw oplossingen voor de kerndiensten toe](core-services/core-services.md)
 * [Veelgestelde vragen](admin-getting-started/admin-getting-started.md)
 * [Organisaties en accountkoppelingen](admin-getting-started/organizations.md)
-* [Integraties](marketing-cloud-integrations.md)
+* [Integrations](marketing-cloud-integrations.md)
 * [Adobe Target integreren met de Experience Cloud](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 * [Overzicht van privacy en beveiliging in de cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Profielbeheer in Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
