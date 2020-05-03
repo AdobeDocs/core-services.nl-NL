@@ -1,24 +1,24 @@
 ---
-description: Leer meer over de beschikbare oplossing en kernservicesintegratie in de Adobe Experience Cloud.
+description: Meer informatie over de integratie van beschikbare oplossingen in de Adobe Experience Cloud.
 keywords: integrations
-seo-description: Leer meer over de beschikbare oplossing en kernservicesintegratie in de Adobe Experience Cloud.
+seo-description: Meer informatie over de integratie van beschikbare oplossingen in de Adobe Experience Cloud.
 seo-title: Integratie van de cloud beleven
 solution: Experience Cloud
 title: Integratie van de cloud beleven
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # Integratie van de cloud beleven
 
-Adobe Experience Cloud is een uitgebreide reeks van best-in-class, geïntegreerde oplossingen die zijn gebaseerd op een gemeenschappelijk gegevensplatform met een gemeenschappelijke reeks krachtige kernservices.
+Adobe Experience Cloud is een uitgebreide reeks van best-in-class, geïntegreerde oplossingen die zijn gebaseerd op een gemeenschappelijk gegevensplatform met een veelgebruikte reeks krachtige functies.
 
-## Core Services - Laat uw oplossingen toe voor kernservices {#section_A3D024994DA3492F8435CFCC4EF035C2}
+## Uw Experience Cloud-toepassingen inschakelen voor platformservices {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
-Help: [Laat uw Oplossingen voor de Diensten van de Kern toe](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Help: [Uw toepassingen inschakelen voor Platform Services](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 Beschrijft hoe te:
 
@@ -37,7 +37,7 @@ Oplossingen of services:
 
 ## Experience Cloud ID Service {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-Help: Cloud-id-service [beleven](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+Help: [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
 De id-service biedt een universele, permanente id die uw bezoekers identificeert voor alle oplossingen in de Experience Cloud. Deze kan de code voor het genereren van id&#39;s vervangen voor services zoals Analytics, Audience Manager, Adobe Target, videohartslag en andere Experience Cloud-oplossingen of -functies.
 
@@ -55,7 +55,7 @@ Maak en beheer een publiek in de Experience Cloud Audience Library. De soorten p
 
 * Nieuwe in het [!DNL Experience Cloud]dialoogvenster.
 * Van [!DNL Analytics] segmenten die worden gepubliceerd naar het [!DNL Experience Cloud]scherm.
-* Van [!DNL Audience Manager].
+* From [!DNL Audience Manager].
 
 **Toepasselijke oplossingen of services**
 
@@ -65,18 +65,18 @@ Maak en beheer een publiek in de Experience Cloud Audience Library. De soorten p
 
 ## Customer Attributes {#section_6A9EA6847F654F129381869E5016626C}
 
-Help: Kenmerken [klant](attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
+Help: [Klantkenmerken](attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
 Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Wolk van de Ervaring uploaden. Gebruik na het uploaden de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
 **Toepasselijke oplossingen of services**
 
-* Adobe Analytics: Rapport [klantkenmerken](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
+* Adobe Analytics: [Rapport met klantkenmerken](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
 * Adobe-doel: Adobe Target- [abonnement](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) op klantkenmerken configureren
 
 ## Beleef Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
-Help: Ervaring met Cloud-mappen [delen met Creative Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
+Help: [Cloud-mappen delen met Creative Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
 
 Mappen en middelen delen tussen de Experience Cloud en Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals [!DNL Social] en [!DNL Target].
 
@@ -89,7 +89,7 @@ Mappen en middelen delen tussen de Experience Cloud en Creative Cloud. Samenwerk
 
 ## Analyse - AEM Assets Reporting in Analytics {#section_0A16AE14F128470AA02EFC6457BDCE75}
 
-Help: Rapportage van [AEM-elementen in Analytics](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
+Help: [AEM Assets Reporting in Analytics](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
 
 Laat Analytics toe om impressies te verzamelen en op Activa te klikken die bij de Inzichten van Activa van AEM worden gediend.
 
@@ -100,7 +100,7 @@ Laat Analytics toe om impressies te verzamelen en op Activa te klikken die bij d
 
 ## Integraties van Audience Manager {#section_8FEFE1746E26416EB7E73095BBAD5345}
 
-[Auditiebeheer](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
+[Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
 
 Werken met gegevens van Experience Cloud-oplossingen of andere externe systemen in Audience Manager.
 
@@ -112,7 +112,7 @@ Werken met gegevens van Experience Cloud-oplossingen of andere externe systemen 
 
 ## Activering {#section_A23510A2D57842F6BAD043650C06DE42}
 
-Help: Aan de [slag](https://docs.adobelaunch.com/getting-started)
+Help: [Aan de slag](https://docs.adobelaunch.com/getting-started)
 
 Gebruik de Experience Cloud-activeringsoplossingen om uw Experience Cloud-oplossingen in te stellen en er fouten in op te sporen.
 
@@ -124,7 +124,7 @@ Met de Adobe Experience Cloud Debugger-extensie kunt u fouten opsporen die zijn 
 **Toepasselijke oplossingen of services**
 
 * [Analyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
-* [Auditiebeheer](https://docs.adobe.com/content/help/en/dtm/using/tools/audiencemgmt.html)
+* [Audience Manager](https://docs.adobe.com/content/help/en/dtm/using/tools/audiencemgmt.html)
 * [Media optimaliseren](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)
 * [Adobe-doel](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)
 * [MAC ID Service](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html)
@@ -132,18 +132,18 @@ Met de Adobe Experience Cloud Debugger-extensie kunt u fouten opsporen die zijn 
 
 ## Adobe-doel {#section_739716AB6022424CBC38724CDED10701}
 
-Help: Adobe Target [integreren met de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+Help: [Adobe Target integreren met de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 
 Integreer Adobe Target met Adobe Analytics en andere Experience Cloud-oplossingen om het gebruik van dezelfde gegevens, soorten publiek, kenmerken en meetgegevens in beide oplossingen mogelijk te maken.
 
 **Toepasselijke oplossingen of services**
 
 * Klantkenmerken: Adobe Target- [abonnement](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) op klantkenmerken configureren
-* Cloud-publiek beleven: Cloud Audience Library [beleven](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
-* Analyse: [Adobe Analytics als rapportbron voor Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
-* Dynamisch tagbeheer: Aanbevolen [procedures voor het implementeren van Adobe Target met DTM](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
-* Audience Manager: Adobe [Doelgegevensintegratie met Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* Campagne: Adobe-doel [integreren met campagne](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* Cloud-publiek beleven: [Experience Cloud Audience Library](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* Analyse: [Adobe Analytics as the Reporting Source for Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* Dynamisch tagbeheer: [Aanbevolen procedures voor het implementeren van Adobe Target met DTM](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* Audience Manager: [Adobe Target Data Integration with Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Campagne: [Adobe Target integreren met campagne](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
 ## Integratie van Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
@@ -157,7 +157,7 @@ AEM integreren met andere oplossingen en services van derden.
 * [Analyse met externe providers](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/external-providers.html)
 * [Experience Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud.html)
 * [Creative Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/creative-cloud.html)
-* [Auditiebeheer](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/audiencemanager.html)
+* [Audience Manager](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/audiencemanager.html)
 * [Campagne](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign.html)
 * [Dynamisch tagbeheer](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/dtm.html)
 * [Scene7](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7.html)
@@ -167,7 +167,7 @@ AEM integreren met andere oplossingen en services van derden.
 
 ## Experience Manager - Elementen {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
-Help: Integratie van AEM-middelen [configureren met Experience Cloud en Creative Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/configure-assets-cc-integration.html)
+Help: [Integratie van AEM-middelen configureren met Experience Cloud en Creative Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/configure-assets-cc-integration.html)
 
 Synchroniseer uw middelen in Adobe Experience Manager (AEM)-middelen met Adobe Creative Cloud en andersom. U kunt uw middelen met de Wolk van de Ervaring ook synchroniseren en vice versa. U kunt deze synchronisatie instellen via Experience Cloud.
 
@@ -187,7 +187,7 @@ Help (aanmelden vereist): [Integratie met Adobe Experience Cloud Solutions en Co
 
 **Dynamisch tagbeheer:** Met Dynamic Tag Manager kunt [u conversietags](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)die zijn gebaseerd op pixels en op het optimaliseren van media, maken voor uw zoek-, sociale en weergave- en landingspagina&#39;s. (U kunt tags voor Media Optimizer ook rechtstreeks in Media Optimizer maken.)
 
-**Cloud-publiek beleven:** (Adverteerders met weergavebeheer) U kunt al uw [Adobe Experience Cloud-publiek](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) gebruiken als doelversie voor uw advertenties. U kunt automatisch soorten publiek gebruiken die u in Adobe Experience Cloud hebt gemaakt en publiek van Analytics dat u naar Adobe Experience Cloud hebt gepubliceerd. U kunt soorten publiek gebruiken vanuit Audience Manager wanneer de Media Optimizer-account zo is geconfigureerd dat dit is toegestaan. Neem contact op met uw accountmanager voor meer informatie over de toegang tot Adobe Experience Cloud en de bijbehorende kernservice Profielen en Soorten publiek, en over de eerste installatie tussen Media Optimizer en het Adobe Experience Cloud-publiek. **Opmerking:** Als u ook Adobe Target gebruikt, zijn alle soorten publiek die u naar Adobe Experience Cloud hebt gepubliceerd, ook beschikbaar voor activiteiten in Adobe Target.
+**Cloud-publiek beleven:** (Adverteerders met weergavebeheer) U kunt al uw [Adobe Experience Cloud-publiek](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) gebruiken als doelversie voor uw advertenties. U kunt automatisch soorten publiek gebruiken die u in Adobe Experience Cloud hebt gemaakt en publiek van Analytics dat u naar Adobe Experience Cloud hebt gepubliceerd. U kunt soorten publiek gebruiken vanuit Audience Manager wanneer de Media Optimizer-account zo is geconfigureerd dat dit is toegestaan. Neem contact op met uw accountmanager voor meer informatie over toegang tot Adobe Experience Cloud en profielen en soorten publiek en over de eerste setup tussen Media Optimizer en Adobe Experience Cloud-publiek. **Opmerking:** Als u ook Adobe Target gebruikt, zijn alle soorten publiek die u naar Adobe Experience Cloud hebt gepubliceerd, ook beschikbaar voor activiteiten in Adobe Target.
 
 **Experience Cloud Assets:** (Adverteerders met weergavebeheer) U kunt al uw Adobe Experience Cloud-middelen gebruiken als de creatieve elementen voor uw weergaveadvertenties met de weergave Nieuwe weergave bèta. U moet via Adobe Experience Cloud [zijn](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)aangemeld bij Media Optimizer om toegang te krijgen tot uw Adobe Experience Cloud-middelen. Neem contact op met uw accountmanager voor informatie over toegang tot Adobe Experience Cloud.
 
