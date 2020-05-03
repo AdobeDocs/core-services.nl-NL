@@ -1,13 +1,13 @@
 ---
-description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor kernde diensteigenschappen zoals klantenattributen en publiek.
+description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals klantenattributen en publiek.
 keywords: core services;customer attributes
-seo-description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor kernde diensteigenschappen zoals klantenattributen en publiek.
+seo-description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals klantenattributen en publiek.
 seo-title: Ervaar uw Cloud-oplossingen voor kernservices
 solution: Experience Cloud
 title: Laat uw oplossingen voor de kerndiensten toe
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -76,7 +76,7 @@ Zie [Accounts koppelen in de Experience Cloud](../admin-getting-started/organiza
 
 In de volgende secties wordt beschreven hoe u uw implementatie kunt moderniseren. Door uw implementatie te moderniseren, zijn de basisservices in de Experience Cloud beschikbaar.
 
-## Stap 2. Implementeer de [!UICONTROL Experience Cloud ID-service] met [!UICONTROL Experience Platform Launch]of [!UICONTROL Dynamic Tag Management]{#section_3C9F6DF37C654D939625BB4D485E4354}
+## Stap 2. Implementeer de [!UICONTROL Experience Cloud ID-service] met [!UICONTROL Experience Platform Launch]of [!UICONTROL Dynamic Tag Management] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 De [!UICONTROL Experience Cloud ID Service] biedt een gemeenschappelijke id voor integratie tussen oplossingen. Het verstrekt dwars-domein bezoekersidentificatie en een weg voor dwars-apparaat/browser richtend en verpersoonlijking die op de gegevens van CRM wordt gebaseerd die via de Attributen [!UICONTROL van de]Klant worden geupload.
 
@@ -195,7 +195,7 @@ Gebruikers die aan de groep [!UICONTROL Klantkenmerken] worden toegevoegd, zien 
 
 ## Stap 8. Basisservices gebruiken {#section_960C06093623462E8EA247B3E97274A1}
 
-Profiteer van de volgende kernfuncties van de service.
+Profiteer van de volgende functies.
 
 ![](assets/menu-audiences-shell.png)
 
