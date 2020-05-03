@@ -1,19 +1,19 @@
 ---
-description: Leer meer over het beheer van gebruikers en producten in Adobe Experience Cloud, de People core service (publiek en klantkenmerken), Journey Orchestration, Offers, Places, 45 Experience Platform Launch en Mobile Services.
-seo-description: Leer meer over het beheer van gebruikers en producten in Adobe Experience Cloud, de People core service (publiek en klantkenmerken), aanbiedingen, Experience Platform Launch en Mobile Services.
+description: Leer meer over het beheer van gebruikers en producten in Adobe Experience Cloud, Personen (publiek en klantkenmerken), Journey Orchestration, Aanbiedingen, Plaatsen, Experience Platform Launch en Mobiele services.
+seo-description: Leer meer over het beheer van gebruikers en producten in Adobe Experience Cloud, de Personen (publiek en klantkenmerken), Aanbiedingen, Experience Platform Launch en Mobiele services.
 seo-title: Ervaar de basisdiensten van de Wolk en gebruikersbeheer
 solution: Experience Cloud
 title: Over Experience Cloud Core-services
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
-# Over Experience Cloud Core-services {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Info over Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Tot de Adobe Experience Cloud-kernservices behoren de People core-service (publiek en klantkenmerken), Aanbiedingen, Experience Platform Launch en Mobiele services. In Experience Cloud hebt u ook toegang tot Help over gebruikers- en productbeheer.
+Tot de Adobe Experience Cloud-services behoren [!UICONTROL Personen] (publiek en klantkenmerken), Aanbiedingen, Experience Platform Launch en Mobiele services. In Experience Cloud hebt u ook toegang tot Help over gebruikers- en productbeheer.
 
 Klik op het menu **[!UICONTROL Experience Platform]** om toegang te krijgen tot deze services in de Experience Cloud ![](assets/menu-icon.png).
 
@@ -29,7 +29,7 @@ In deze Help worden de volgende producten en services beschreven:
 | [Beheer](admin-getting-started/admin-getting-started.md) | Beheer gebruikers- en productrechten voor al uw Adobe-wolken en -oplossingen. |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | U kunt eenvoudig al uw digitale middelen opslaan, synchroniseren en delen op een centrale locatie, zodat u tijd bespaart en een consistentere klantervaring hebt. |
 | [Introductie van Experience Platform](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] is de volgende generatie mogelijkheden voor tagbeheer van Adobe. [!UICONTROL De lancering] van het Platform van de ervaring geeft klanten een eenvoudige manier om alle analyses, marketing, en reclame markeringen te opstellen en te beheren noodzakelijk om relevante klantenervaringen te drijven. |
-| [Reisorkest](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. [!UICONTROL Reisorchestratie] is een toepassingsservice die is geïntegreerd met het Experience Platform. |
+| [Journey Orchestration](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. [!UICONTROL Reisorchestratie] is een toepassingsservice die is geïntegreerd met het Experience Platform. |
 | [Locatieservice](https://docs.adobe.com/content/help/en/places/using/home.html) | De Adobe [!UICONTROL Experience Platform Location Service] (Locatieservice) is een geo-locatieservice waarmee mobiele apps met een herkenbaarheid van de locatie de context van de locatie kunnen begrijpen door rijke en gebruiksvriendelijke SDK-interfaces te gebruiken die vergezeld gaan van een flexibele database van interesses (POI&#39;s). |
 | [Aanbiedingen](offer-management/getting-started.md) | Maak, beheer en maak beslissingen via alle kanalen in de Experience Cloud. [!UICONTROL Het Beheer] van de aanbieding dient als centrale aanbiedingscatalogus waar u toelatingsregels en veelvoudige stukken van inhoud met elke aanbieding &quot;voorwerp&quot;kunt associëren, die aanbiedingen over kanalen en plaatsen publiceren, en de beste aanbieding voor elke klant bij elke interactie dienen. |
 | [Exchange](exchange.md) | U kunt extensies voor Digital Marketing zoeken, zoeken, selecteren, betalen en downloaden via apps. |
