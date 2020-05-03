@@ -5,7 +5,7 @@ seo-title: Kaart rapportsuites aan een organisatie
 title: Kaart rapportsuites aan een organisatie
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 Leer hoe u een of meerdere rapportreeksen aan een organisatie toewijst.
 
-De diensten van de Wolk van de ervaring (zoals de Dienst van identiteitskaart van de Ervaring Cloud en de de kerndienst van Mensen) worden geassocieerd met een organisatie in plaats van een individuele rapportreeks. Om ervoor te zorgen dat deze services correct werken, moet elke analytische rapportensuite aan een organisatie worden toegewezen. Het toewijzingsproces:
+Experience Cloud-services (zoals Experience Cloud ID-service en [!UICONTROL Personen]) zijn gekoppeld aan een organisatie in plaats van een afzonderlijke rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke analytische rapportensuite aan een organisatie worden toegewezen. Het toewijzingsproces:
 
 * Stelt een Experience Cloud-organisatie in als de primaire organisatie voor de rapportsuite.
 * Hiermee wordt niet gewijzigd wie toegang heeft tot een rapportsuite (de toegang wordt nog steeds bepaald door de Adobe Analytics-aanmeldingsaccount voor elke gebruiker)
