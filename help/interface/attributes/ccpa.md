@@ -2,46 +2,46 @@
 title: Customer Attributes Support for California Consumer Privacy Act
 description: Customer Attributes Support for California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 2e8c8aee39546a345e72cda2dad08ad866cd90f9
+source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 
-# Customer Attributes Support for California Consumer Privacy Act
+# Klantenkenmerk ondersteuning voor de California Consumer Privacy Act
 
+Op deze pagina wordt de [!UICONTROL customer attributes'] ondersteuning voor de California Consumer Privacy Act (CCPA) beschreven.
 
 >[!IMPORTANT]
 >
->De inhoud van dit document is geen juridisch advies en is niet bedoeld ter vervanging van juridisch advies. Raadpleeg uw juridische adviseur voor advies over de California Consumer Privacy Act.
+>De inhoud van dit document is geen juridisch advies en is niet bedoeld ter vervanging van juridisch advies. Raadpleeg uw juridisch adviseur voor advies over de (CCPA).
 
-De California Consumer Privacy Act (CCPA) is de nieuwe privacywet van Californië, die op 1 januari 2020 van kracht is. CCPA verleent de inwoners van Californië nieuwe rechten met betrekking tot hun persoonlijke informatie en legt gegevensbeschermingstaken op aan bepaalde entiteiten die zaken in Californië leiden. De CCPA verleent consumenten het recht om hun persoonlijke gegevens te raadplegen en te verwijderen, alsmede het recht om af te zien van bepaalde activiteiten die als &quot;verkoop&quot; van persoonlijke gegevens aan derden worden aangemerkt.
+De CCPA is de nieuwe privacywet van Californië, die 1 januari 2020 van kracht is. CCPA verleent de inwoners van Californië nieuwe rechten met betrekking tot hun persoonlijke informatie en legt gegevensbeschermingstaken op aan bepaalde entiteiten die zaken in Californië leiden. De CCPA verleent consumenten het recht om hun persoonlijke gegevens te raadplegen en te verwijderen, alsmede het recht om af te zien van bepaalde activiteiten die als &quot;verkoop&quot; van persoonlijke gegevens aan derden worden aangemerkt.
 
 Als bedrijf bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
 Als prepressbureau biedt Adobe Experience Cloud ondersteuning voor uw bedrijf om te voldoen aan de verplichtingen in het kader van de CCPA die van toepassing zijn op het gebruik van producten en services van Experience Cloud, waaronder het beheren van verzoeken om toegang tot en verwijdering van persoonlijke gegevens.
 
-In dit document wordt beschreven hoe Customer Attributes de toegang tot en het verwijderen van CCPA-gegevens van de betrokkenen ondersteunt met behulp van de API van de privacyservice van het Adobe Experience Platform en de gebruikersinterface van de Privacy Service.
+In dit document wordt beschreven hoe de toegangsrechten en verwijderingsrechten voor CCPA-gegevens van de betrokkenen worden [!UICONTROL customer attributes] ondersteund met de API en gebruikersinterface van de Adobe Experience Platform Privacy Service.
 
 Ga naar het [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html)voor meer informatie over de Adobe-privacyservices voor CCPA.
 
-## Vereiste installatie om verzoeken om klantkenmerken te verzenden
+## Vereiste installatie voor het verzenden van aanvragen voor [!UICONTROL customer attributes]
 
-Om verzoeken om tot gegevens voor de Attributen van de Klant toegang te hebben en te schrappen, zult u moeten:
+Als u verzoeken wilt indienen om gegevens te openen en te verwijderen voor [!UICONTROL customer attributes], moet u:
 
 1. Vermeld het volgende:
 
-* IMS Org ID
-* Alias-id van CRS-gegevensbron waarop u wilt reageren
-* CRM-id van het profiel waarop u wilt reageren
+   * IMS Org ID
+   * Alias-id van CRS-gegevensbron waarop u wilt reageren
+   * CRM-id van het profiel waarop u wilt reageren
+   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne Adobe-systeembeheerder de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
 
-Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne Adobe-systeembeheerder de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
+1. In [!UICONTROL Privacy Service], kunt u verzoeken van de Toegang en van de Schrapping naar klantenattributen voorleggen, en de status van bestaande verzoeken controleren.
 
-2. Gebruik de gebruikersinterface van de privacyservice om toegang te verzenden en verzoeken te verwijderen naar Customer Attributes en om de status van bestaande aanvragen te controleren.
-
-## Vereiste veldwaarden in JSON-verzoeken wegens klantkenmerken
+## Vereiste veldwaarden in [!UICONTROL customer attributes] JSON-verzoeken
 
 &quot;bedrijfcontext&quot;:
 
@@ -98,7 +98,7 @@ Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt t
 }
 ```
 
-## Gegevensvelden die worden geretourneerd voor toegangsaanvragen
+## Gegevensvelden die worden geretourneerd voor toegangsverzoeken
 
 ```
 attributes:
