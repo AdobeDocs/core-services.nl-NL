@@ -2,44 +2,44 @@
 title: Klantkenmerken Ondersteuning voor algemene gegevensbeschermingsverordening
 description: Klantkenmerken Ondersteuning voor algemene gegevensbeschermingsverordening
 translation-type: tm+mt
-source-git-commit: 3a86aed0794c3e35cc028e5bfde5dafcb2285fc8
+source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 
-# Klantkenmerken Ondersteuning voor algemene gegevensbeschermingsverordening
+# Klantenkenmerkondersteuning voor algemene gegevensbeschermingsverordening
 
+Op deze pagina wordt beschreven hoe klantkenmerken algemene gegevensbeschermingsverordening (GDPR) ondersteunen.
 
 >[!IMPORTANT]
 >
->De inhoud van dit document is geen juridisch advies en is niet bedoeld ter vervanging van juridisch advies. Raadpleeg uw juridisch adviseur voor advies over de algemene verordening inzake gegevensbescherming.
+>De inhoud van dit document is geen juridisch advies of is bedoeld ter vervanging van juridisch advies. Raadpleeg uw juridisch adviseur voor advies over de GDPR.
 
-De [algemene gegevensbeschermingsverordening](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html) (GDPR), die op 25 mei 2018 van kracht is, geeft alle personen (betrokkenen) binnen de grenzen van de Europese Unie (EU) controle op hun persoonsgegevens en vereenvoudigt het regelgevingskader voor het internationale bedrijfsleven. Deze wet is van toepassing op alle ondernemingen (voor de verwerking van persoonsgegevens verantwoordelijke personen) die goederen of diensten aanbieden, het gedrag van personen binnen de grenzen van de EU volgen of persoonsgegevens verzamelen op het tijdstip waarop hun persoonsgegevens worden verwerkt, ongeacht de bedrijfslocatie van de voor de verwerking verantwoordelijke.
+De [algemene gegevensbeschermingsverordening](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html), die op 25 mei 2018 van kracht is, geeft alle personen (betrokkenen) binnen de grenzen van de Europese Unie (EU) controle op hun persoonsgegevens. Het vereenvoudigt ook de regelgeving voor het internationale bedrijfsleven. Deze wet is van toepassing op alle ondernemingen (voor de verwerking van persoonsgegevens verantwoordelijke personen) die goederen of diensten aanbieden, het gedrag van personen binnen de grenzen van de EU volgen of persoonsgegevens verzamelen op het tijdstip waarop hun persoonsgegevens worden verwerkt, ongeacht de bedrijfslocatie van de voor de verwerking verantwoordelijke.
 
 Adobe Experience Cloud fungeert als gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
-In dit document wordt beschreven hoe Customer Attributes de toegang tot en het verwijderen van GDPR-gegevens van de betrokkenen ondersteunt met behulp van de API en de gebruikersinterface van de privacyservice van het Adobe Experience Platform Privacy Service.
+In dit document wordt beschreven hoe [!UICONTROL customer attributes] ondersteuning wordt geboden voor toegang tot en verwijdering van GDPR-gegevens van de betrokkenen via de API van de privacyservice van het Adobe Experience Platform en de gebruikersinterface van de Privacy Service.
 
 Raadpleeg [GDPR en Uw bedrijf](https://www.adobe.com/privacy/general-data-protection-regulation.html)voor meer informatie over wat GDPR voor uw bedrijf betekent.
 
-## Vereiste installatie om verzoeken om klantkenmerken te verzenden
+## Vereiste Opstelling om verzoeken te verzenden [!UICONTROL customer attributes]
 
-Om verzoeken om tot gegevens voor de Attributen van de Klant toegang te hebben en te schrappen, zult u moeten:
+Als u verzoeken wilt indienen om gegevens te openen en te verwijderen voor [!UICONTROL customer attributes], moet u:
 
 1. Vermeld het volgende:
 
-* IMS Org ID
-* Alias-id van CRS-gegevensbron waarop u wilt reageren
-* CRM-id van het profiel waarop u wilt reageren
+   * IMS Org ID
+   * Alias-id van CRS-gegevensbron waarop u wilt reageren
+   * CRM-id van het profiel waarop u wilt reageren
+   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne Adobe-systeembeheerder de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
 
-Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne Adobe-systeembeheerder de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
+1. In [!UICONTROL Privacy Service], kunt u verzoeken van de Toegang en van de Schrapping naar klantenattributen voorleggen, en de status van bestaande verzoeken controleren.
 
-2. Gebruik de gebruikersinterface van de privacyservice om toegang te verzenden en verzoeken te verwijderen naar Customer Attributes en om de status van bestaande aanvragen te controleren.
-
-## Vereiste veldwaarden in JSON-verzoeken wegens klantkenmerken
+## Vereiste veldwaarden in [!UICONTROL customer attributes] JSON-verzoeken
 
 &quot;bedrijfcontext&quot;:
 
@@ -96,7 +96,7 @@ Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt t
 }
 ```
 
-## Gegevensvelden die worden geretourneerd voor toegangsaanvragen
+## Gegevensvelden die worden geretourneerd voor toegangsverzoeken
 
 ```
 attributes:
