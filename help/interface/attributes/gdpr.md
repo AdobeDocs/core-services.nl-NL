@@ -2,7 +2,7 @@
 title: Klantkenmerken Ondersteuning voor algemene gegevensbeschermingsverordening
 description: Klantkenmerken Ondersteuning voor algemene gegevensbeschermingsverordening
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Klantenkenmerkondersteuning voor algemene gegevensbeschermingsverordening
 
-Op deze pagina wordt beschreven hoe klantkenmerken algemene gegevensbeschermingsverordening (GDPR) ondersteunen.
+Op deze pagina wordt beschreven hoe Customer Attributes General Data Protection Regulation (GDPR) ondersteunt.
 
 >[!IMPORTANT]
 >
@@ -22,13 +22,13 @@ De [algemene gegevensbeschermingsverordening](https://www.adobe.com/privacy/gene
 
 Adobe Experience Cloud fungeert als gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
-In dit document wordt beschreven hoe [!UICONTROL customer attributes] ondersteuning wordt geboden voor toegang tot en verwijdering van GDPR-gegevens van de betrokkenen via de API van de privacyservice van het Adobe Experience Platform en de gebruikersinterface van de Privacy Service.
+In dit document wordt beschreven hoe [!UICONTROL Customer Attributes] ondersteuning wordt geboden voor toegang tot en verwijdering van GDPR-gegevens van de betrokkenen via de API van de privacyservice van het Adobe Experience Platform en de gebruikersinterface van de Privacy Service.
 
 Raadpleeg [GDPR en Uw bedrijf](https://www.adobe.com/privacy/general-data-protection-regulation.html)voor meer informatie over wat GDPR voor uw bedrijf betekent.
 
-## Vereiste Opstelling om verzoeken te verzenden [!UICONTROL customer attributes]
+## Vereiste Opstelling om verzoeken te verzenden [!UICONTROL Customer Attributes]
 
-Als u verzoeken wilt indienen om gegevens te openen en te verwijderen voor [!UICONTROL customer attributes], moet u:
+Als u verzoeken wilt indienen om gegevens te openen en te verwijderen voor [!UICONTROL Customer Attributes], moet u:
 
 1. Vermeld het volgende:
 
@@ -37,9 +37,9 @@ Als u verzoeken wilt indienen om gegevens te openen en te verwijderen voor [!UIC
    * CRM-id van het profiel waarop u wilt reageren
    Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne Adobe-systeembeheerder de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
 
-1. In [!UICONTROL Privacy Service], kunt u verzoeken van de Toegang en van de Schrapping naar klantenattributen voorleggen, en de status van bestaande verzoeken controleren.
+1. In [!UICONTROL Privacy Service], kunt u verzoeken van de Toegang en van de Schrapping voorleggen aan de Attributen van de Klant, en de status van bestaande verzoeken controleren.
 
-## Vereiste veldwaarden in [!UICONTROL customer attributes] JSON-verzoeken
+## Vereiste veldwaarden in [!UICONTROL Customer Attributes] JSON-verzoeken
 
 &quot;bedrijfcontext&quot;:
 
