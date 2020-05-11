@@ -1,20 +1,23 @@
 ---
-description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals klantenattributen en publiek.
-keywords: core services;customer attributes
-seo-description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals klantenattributen en publiek.
+description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals de Attributen en het publiek van de Klant.
+keywords: core services;Customer Attributes
+seo-description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals de Attributen en het publiek van de Klant.
 seo-title: Ervaar uw Cloud-oplossingen voor kernservices
 solution: Experience Cloud
 title: Laat uw oplossingen voor de kerndiensten toe
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '2273'
+ht-degree: 0%
 
 ---
 
 
 # Laat uw oplossingen voor de kerndiensten toe
 
-Voor bestaande klanten, leer hoe te om uw oplossingsimplementaties te moderniseren en de Wolk van de Ervaring uit te voeren zodat u eigenschappen zoals klantenattributen en publiek kunt gebruiken. Hiervoor gaat u als volgt te werk:
+Voor bestaande klanten leert u hoe u de implementaties van uw oplossing kunt moderniseren en de Experience Cloud kunt implementeren zodat u functies zoals Klantenkenmerken en publiek kunt gebruiken. Hiervoor gaat u als volgt te werk:
 
 1. [Word beheerder van de Experience Cloud](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [De Experience Cloud ID Service implementeren](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -40,16 +43,16 @@ Wat u moet doen om lid te worden van de Experience Cloud:
 
 ![](assets/step2_icon.png) Moderniseer uw implementatie en krijg provisioned een beheerder.
 
-1. Voer de onderstaande stappen uit in [De [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)implementeren.
+1. Voer de onderstaande stappen uit bij [Implementeren van de [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
 1. Neem contact op met uw accountmanager en start het inrichtingsproces voor de Experience Cloud.
 
-![](assets/step3_icon.png) Gebruikers en producten beheren in de [!UICONTROL beheerconsole].
+![](assets/step3_icon.png) Gebruikers en producten in de [!UICONTROL Admin Console]website beheren.
 
 ### Beheerdersaanmelding
 
 Als u een beheerder bent, kunt u zich aanmelden op [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
 
-De koppeling **[!UICONTROL Beheer]** wordt weergegeven in de navigatie in het menu Experience Cloud.
+De **[!UICONTROL Administration]** koppeling wordt weergegeven in de navigatie in het menu Experience Cloud.
 
 Zie [Experience Cloud voor hulp en productbeheer](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) .
 
@@ -64,7 +67,7 @@ Als u zich wilt aanmelden bij de Experience Cloud, moeten uw gebruikers:
 
 ![](assets/step4_icon.png) Optioneel: Bestaande gebruikersaccounts koppelen.
 
-U hebt waarschijnlijk gebruikers die al lid zijn van oplossingsgroepen, zoals een groep Analytics die u eerder hebt beheerd in [!UICONTROL Analytics] > [!UICONTROL Admin Tools].
+Het meest waarschijnlijk, hebt u gebruikers die reeds lid van oplossingsgroepen, zoals een groep van Analytics zijn die u eerder binnen [!UICONTROL Analytics] > [!UICONTROL Admin Tools]beheerde.
 
 Wanneer u deze groepen toewijst aan Experience Cloud Enterprise-groepen, moeten deze gebruikers hun gegevens van de oplossingsaccount handmatig koppelen aan hun Adobe-id.
 
@@ -76,19 +79,19 @@ Zie [Accounts koppelen in de Experience Cloud](../admin-getting-started/organiza
 
 In de volgende secties wordt beschreven hoe u uw implementatie kunt moderniseren. Door uw implementatie te moderniseren, zijn de basisservices in de Experience Cloud beschikbaar.
 
-## Stap 2. Implementeer de [!UICONTROL Experience Cloud ID-service] met [!UICONTROL Experience Platform Launch]of [!UICONTROL Dynamic Tag Management] {#section_3C9F6DF37C654D939625BB4D485E4354}
+## Stap 2. Voer het [!UICONTROL Experience Cloud ID Service] gebruiken uit [!UICONTROL Experience Platform Launch], of [!UICONTROL Dynamic Tag Management] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-De [!UICONTROL Experience Cloud ID Service] biedt een gemeenschappelijke id voor integratie tussen oplossingen. Het verstrekt dwars-domein bezoekersidentificatie en een weg voor dwars-apparaat/browser richtend en verpersoonlijking die op de gegevens van CRM wordt gebaseerd die via de Attributen [!UICONTROL van de]Klant worden geupload.
+Het [!UICONTROL Experience Cloud ID Service] verstrekt een gemeenschappelijke identiteitskaart voor dwars-oplossing integratie. Het verstrekt de identificatie van de dwars-domeinbezoeker en een weg voor dwars-apparaat/browser richtend en verpersoonlijking die op de gegevens van CRM wordt gebaseerd die via [!UICONTROL Customer Attributes]worden geupload.
 
-De eenvoudigste methode voor het inschakelen van Experience Cloud core-services is het automatisch activeren voor Analytics en Adobe Target via de [Experience Cloud ID Service-extensie](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) in [!UICONTROL Experience Platform Launch], of via het ECID-hulpprogramma in [!UICONTROL Dynamic Tag Management]. (Introductie van het Experience Platform wordt ten zeerste aanbevolen.)
+De eenvoudigste methode voor het inschakelen van Experience Cloud core-services is het automatisch activeren voor Analytics en Adobe Target via de [Experience Cloud ID Service-extensie](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) in [!UICONTROL Experience Platform Launch]of via de ECID-tool in [!UICONTROL Dynamic Tag Management]. (Introductie van het Experience Platform wordt ten zeerste aanbevolen.)
 
 ![](assets/menu-activation-shell.png)
 
 Ga [hier](https://docs.adobe.com/content/help/en/id-service/using/home.html)voor de volledige Experience Cloud ID Service (voorheen, bezoekersidentiteitskaart).
 
-**Gebruikt u geen[!UICONTROL Experience Platform Launch]of[!UICONTROL Dynamic Tag Management]?**
+**Niet gebruiken[!UICONTROL Experience Platform Launch]of[!UICONTROL Dynamic Tag Management]?**
 
-Als u geen [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management]gebruikt, implementeert u de id-service handmatig via de JavaScript-implementatie ([!DNL VisitorAPI.js]):
+Als u de id-service niet gebruikt [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management]handmatig implementeert via de JavaScript-implementatie ([!DNL VisitorAPI.js]), gaat u als volgt te werk:
 
 | Taak | Beschrijving |
 | -----------| ---------- |  
@@ -117,13 +120,13 @@ Raadpleeg de sectie *Experience Cloud ID Service* voor syntaxisvoorbeelden over 
 
 ### Kenmerken inschakelen voor historische gegevens
 
-Kenmerkgegevens van de klant worden beschikbaar gesteld nadat bezoekers zich hebben aangemeld. Als u de nieuwste Experience Cloud ID Service nog niet hebt geïmplementeerd en als u van oudsher id&#39;s van klanten in een Pro- of eVar hebt bijgehouden, kunt u een proces aanvragen dat historische logins naar de Experience Cloud verzendt. Met dit proces kunt u direct beginnen met het gebruik van klantkenmerken.
+Kenmerkgegevens van de klant worden beschikbaar gesteld nadat bezoekers zich hebben aangemeld. Als u de nieuwste Experience Cloud ID Service nog niet hebt geïmplementeerd en als u van oudsher id&#39;s van klanten in een Pro- of eVar hebt bijgehouden, kunt u een proces aanvragen dat historische logins naar de Experience Cloud verzendt. Met dit proces kunt u direct beginnen met het gebruik van Customer Attributes.
 
 Neem contact op met de klantenservice om historische gegevens in te schakelen.
 
 ## Stap 3. Rapportsuites toewijzen aan een Experience Cloud-organisatie {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
-Experience Cloud-services (zoals Experience Cloud ID Service en de [!UICONTROL People-service]) zijn gekoppeld aan een Experience Cloud-organisatie in plaats van een afzonderlijke Analytics-rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke serie Analytics-rapporten worden toegewezen aan een Experience Cloud-organisatie.
+Experience Cloud-services (zoals Experience Cloud ID Service en de [!UICONTROL People service]) zijn gekoppeld aan een Experience Cloud-organisatie in plaats van een individuele Analytics-rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke serie Analytics-rapporten worden toegewezen aan een Experience Cloud-organisatie.
 
 Zie [het rapportreeksen van de Kaart aan een organisatie](report-suite-mapping.md).
 
@@ -133,17 +136,17 @@ Controleer of u regionale gegevensverzameling (RDC) gebruikt. Als uw gegevensver
 
 U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScript-bibliotheken bij te werken, inclusief de API voor bezoekers. De eenvoudige manier om dit te verwezenlijken is een [!DNL Adobe Analytics] hulpmiddel in Dynamisch Beheer van de Markering toe te voegen, die *`Automatic`* als configuratiemethode specificeert.
 
-Klik in [!UICONTROL Dynamisch tagbeheer]op **[!UICONTROL <Web Property Name>]**>**[!UICONTROL  Overzicht ]**>**[!UICONTROL  Een gereedschap ]**toevoegen >**[!UICONTROL  Adobe Analytics ]**. Zie[Adobe Analytics Settings](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)in Dynamic Tag Management voor informatie over de implementatie.
+Klik [!UICONTROL Dynamic Tag Management]op **[!UICONTROL <Web Property Name>]**>**[!UICONTROL Overview]**>**[!UICONTROL Add a Tool]**>**[!UICONTROL Adobe Analytics]**. Zie[Adobe Analytics Settings](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)in Dynamic Tag Management voor informatie over de implementatie.
 
 ## Stap 5. (Adobe Target) Werk uw Adobe Target-implementatie bij {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* U wordt aangeraden een [Adobe Target-extensie](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) toe te voegen in [!UICONTROL Experience Platform Launch], zodat de bibliotheek automatisch wordt opgehaald. U kunt ook de [Experience Cloud ID Service-extensie](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) voor Adobe Target (en andere oplossingen) instellen met [!UICONTROL Experience Platform Launch]. Adobe Target kan alleen de kernservices gebruiken als de [!UICONTROL Experience Cloud ID Service] -update **is vereist** . (Als u [!UICONTROL Dynamisch tagbeheer]gebruikt, voegt u een [Adobe-doelprogramma](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)toe. U kunt ook [!UICONTROL Dynamic Tag Management] gebruiken om de Experience Cloud ID Service voor Adobe Target te implementeren.)
-* Als u geen [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management]gebruikt, [werkt u de bibliotheek](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) van de box handmatig bij.
+* U wordt aangeraden een [Adobe Target-extensie](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) toe te voegen in [!UICONTROL Experience Platform Launch]een bibliotheek die automatisch wordt opgehaald. U kunt ook de [Experience Cloud ID Service-extensie](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) voor Adobe Target (en andere oplossingen) instellen met [!UICONTROL Experience Platform Launch]. Adobe Target [!UICONTROL Experience Cloud ID Service] kan alleen de kernservices gebruiken als de **update is geïnstalleerd** . (Als u [!UICONTROL Dynamic Tag Management]dit doet, voegt u een [Adobe-doelprogramma](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)toe. U kunt ook de Experience Cloud ID Service voor Adobe Target gebruiken.) [!UICONTROL Dynamic Tag Management]
+* Als u niet gebruikt [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management], [werk uw mbox bibliotheek](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) manueel bij.
 * U kunt toegang aanvragen om Adobe Analytics te gebruiken als bron voor [!DNL Adobe Target]rapportage. [!DNL Target] en de [!DNL Analytics] gegevens worden gecombineerd op de zelfde servervraag tijdens verwerking zodat de bezoekers tussen de twee oplossingen worden aangesloten. Zie [Analytics voor Target Implementation](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html).
 
    >[!IMPORTANT]
    >
-   >Alle klanten van Analytics zijn reeds provisioned voor de kerndiensten zoals klantenattributen. Als u geen klant van de Analyse bent, contacteer de Zorg van de Klant om te verzoeken om levering.
+   >Alle klanten van Analytics zijn reeds provisioned voor de kerndiensten zoals de Attributen van de Klant. Als u geen klant van de Analyse bent, contacteer de Zorg van de Klant om te verzoeken om levering.
 
 ## Stap 6. Verifieer de belangrijkste de dienstenimplementatie {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
@@ -191,7 +194,7 @@ Zie [Experience Cloud voor gebruikers- en productbeheer](../admin-getting-starte
  </note> </p> 
  -->
 
-Gebruikers die aan de groep [!UICONTROL Klantkenmerken] worden toegevoegd, zien de menuoptie [!UICONTROL Klantkenmerken] links van de interface Experience Cloud.
+Gebruikers die aan de [!UICONTROL Customer Attributes] groep worden toegevoegd, zien het [!UICONTROL Customer Attributes] menu-item links in de interface van Experience Cloud.
 
 ## Stap 8. Basisservices gebruiken {#section_960C06093623462E8EA247B3E97274A1}
 
@@ -199,13 +202,13 @@ Profiteer van de volgende functies.
 
 ![](assets/menu-audiences-shell.png)
 
-### [!UICONTROL Personen] > [!UICONTROL Klantkenmerken]
+### [!UICONTROL People] > [!UICONTROL Customer Attributes]
 
 Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Wolk van de Ervaring uploaden. Gebruik na het uploaden de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
 Zie [Klantkenmerken](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-### [!UICONTROL Personen] > [!UICONTROL Audience Library]
+### [!UICONTROL People] > [!UICONTROL Audience Library]
 
 Experience Cloud [!UICONTROL Audiences] is de interface waarmee u publiek kunt maken, bestaande soorten publiek kunt combineren om een samengesteld publiek te maken en alle gedeelde soorten publiek kunt bekijken.
 
@@ -213,9 +216,9 @@ Zie [Soorten publiek](../audience-library/audience-library.md#topic_679810123CAA
 
 ## Gegevensopslag en openbaarmaking van privacy
 
-Als u real-time profielen voor het publiek en andere kernservices binnen Adobe benut, [!DNL Experience Cloud]kan het gebruik van deze services van invloed zijn op het datacenter (en het land) waar uw gegevens zich bevinden. Met name omdat Adobe Audience Manager de kernservices van Adobe [!DNL Experience Cloud] gebruikt, moeten gegevens die in de [!UICONTROL People] -service worden gebruikt, zich in de servers van Audience Manager in de Verenigde Staten bevinden.
+Als u real-time profielen voor het publiek en andere kernservices binnen Adobe benut, [!DNL Experience Cloud]kan het gebruik van deze services van invloed zijn op het datacenter (en het land) waar uw gegevens zich bevinden. In het bijzonder, omdat de kernservices van Adobe Audience Manager [!DNL Experience Cloud] gebruikmaken van Adobe Audience Manager, moeten de gegevens die in de [!UICONTROL People] service worden gebruikt zich bevinden in de servers van Audience Manager in de Verenigde Staten.
 
-Als u gebruik maakt van de kernservices die via de [!UICONTROL People] -service beschikbaar worden gesteld, kunt u het volgende doen:
+Als u gebruik maakt van de kernservices die via de [!UICONTROL People] service beschikbaar worden gesteld, kunt u het volgende doen:
 
 * [!DNL Analytics] sleutel/waardeparen (eigenschappen, eVars, lijstvariabelen, enzovoort). Door gebrek, omvatten de logboeklijnen IP adres, met inbegrip van het laatste octet van IP (veronderstellend dat het IP adres niet door IP verduisteringsmontages binnen Adobe [!DNL Analytics]) werd gewijzigd.
 * Traits en segmenten waarvoor bezoekers in aanmerking komen op basis van regels die zijn ingesteld in Audience Manager.
