@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Aanmelden en de instellingen van uw Experience Cloud-profiel beheren
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '950'
+ht-degree: 2%
 
 ---
 
@@ -24,12 +27,12 @@ Door u aan te melden bij de Experience Cloud (in plaats van u aan te melden bij 
 
 Meld u aan en controleer of u zich in de juiste [organisatie](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)bevindt.
 
-1. Klik op het keuzemenu Experience Cloud ( ![](assets/menu-icon.png)) en klik vervolgens op **[!UICONTROL Beheer]**.
+1. Klik op het keuzemenu Experience Cloud ( ![](assets/menu-icon.png)) en klik vervolgens op **[!UICONTROL Administration]**.
 
    ![](assets/admin-link.png)
 
-   Als de koppeling **[!UICONTROL Beheer]** niet wordt weergegeven, bent u geen beheerder van de Experience Cloud voor de weergegeven [organisatie](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (Adobe Corp, in dit voorbeeld). Neem contact op met de klantenservice of een bestaande Experience Cloud-beheerder in uw bedrijf voor hulp bij het worden als beheerder.
-1. Klik op **[!UICONTROL Beheer]**.
+   Als de **[!UICONTROL Administration]** koppeling niet wordt weergegeven, bent u geen beheerder van de Experience Cloud voor de weergegeven [organisatie](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (Adobe Corp, in dit voorbeeld). Neem contact op met de klantenservice of een bestaande Experience Cloud-beheerder in uw bedrijf voor hulp bij het worden als beheerder.
+1. Klik op **[!UICONTROL Administration]**.
 
    ![](assets/admin-landing.png)
 1. Klik op een van de volgende koppelingen om door te gaan:
@@ -37,7 +40,7 @@ Meld u aan en controleer of u zich in de juiste [organisatie](../admin-getting-s
 | Element | Beschrijving |
 |--- |--- |
 | [Basisbeginselen van beheerconsole](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | In deze video ziet u de eerste stappen die u moet uitvoeren om aan de slag te gaan met de Experience Cloud-oplossingen. |
-| [Identiteit instellen](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Definieer en stel een identiteitssysteem in waarmee uw eindgebruikers worden geverifieerd. |
+| [Identiteit instellen](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html) | Definieer en stel een identiteitssysteem in waarmee uw eindgebruikers worden geverifieerd. |
 | [Gebruikersbeheer](https://helpx.adobe.com/enterprise/using/users.html) | Leer hoe u zich aanmeldt bij de beheerconsole en gebruikersmachtigingen en productprofielen voor Experience Cloud beheert. |
 | [Admin Console starten](../admin-getting-started/admin-getting-started.md) | De beheerconsole is de centrale locatie voor het beheer van uw Adobe-gebruikers en productrechten in uw hele organisatie.<br>U kunt zich ook aanmelden bij de beheerconsole via een [directe koppeling](https://adminconsole.adobe.com). |
 | [Creative Cloud-gebruikers beheren](../experience-cloud-assets/t-admin-add-cc-user.md) | Met Experience Cloud Assets kunnen marketers mappen delen, synchroniseren en samenwerken met ontwerpers en andere creatieve middelen met Creative Cloud. U kunt de Creative Cloud-gebruikers beheren die zijn goedgekeurd voor samenwerking met uw organisatie hier. |
@@ -53,7 +56,7 @@ Help voor gebruikers zonder beheerdersrechten die zich aanmelden bij de Experien
 
 
 1. Ga naar de [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
-1. Klik op **[!UICONTROL Aanmelden met Adobe-id]**.
+1. Klik op **[!UICONTROL Sign In With Adobe ID]**.
 
    Uw Experience Cloud-beheerder kan u helpen het type account (Adobe-id of Enterprise-id) te bepalen.
 
@@ -70,16 +73,16 @@ U kunt persoonlijke gegevens bewerken en een standaardorganisatie [](../admin-ge
 1. Meld u aan bij Experience Cloud en klik op het pictogram voor uw profiel.
 
    ![](assets/edit-profile.png)
-1. Klik op Profiel **[!UICONTROL bewerken]**.
+1. Klik op **[!UICONTROL Edit Profile]**.
 
    ![](assets/default-organization.png)
-1. Ga door met het configureren en bewerken van persoonlijke gegevens en klik op Wijzigingen **** opslaan.
+1. Ga door met het configureren en bewerken van persoonlijke gegevens en klik op **[!UICONTROL Save Changes]**.
 
 ## Meldingen inschakelen {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-U ontvangt een melding (via e-mail of in-product) over updates van het systeem, onderhoudsberichten, publicaties, aantekeningen en gedeelde middelen. U kunt ook de producten en oplossingen opgeven waarvoor u meldingen wilt, inclusief de uploadstatus voor klantkenmerken.
+U ontvangt een melding (via e-mail of in-product) over updates van het systeem, onderhoudsberichten, publicaties, aantekeningen en gedeelde middelen. U kunt ook de producten en oplossingen opgeven waarvoor u meldingen wilt ontvangen, inclusief de uploadstatus voor Klantkenmerken.
 
-Als u naar meldingen wilt navigeren, klikt u op het pictogram **[!UICONTROL Meldingen]** ![](assets/notifications-icon.png)en vervolgens op het pictogram **[!UICONTROL Instellingen]** ![](assets/icon_edit_board.png).
+Als u naar meldingen wilt navigeren, klikt u op het **[!UICONTROL Notifications]** pictogram ![](assets/notifications-icon.png)en vervolgens op het **[!UICONTROL Settings]** pictogram ![](assets/icon_edit_board.png).
 
 U kunt de vertoning van Meldingen sorteren op de berichttypes die voor u belangrijk zijn, en onderzoek naar berichten. U kunt ook:
 
@@ -118,14 +121,14 @@ U kunt uw Experience Cloud-profiel bewerken, een standaardorganisatie en een ope
 1. Klik in het menu Experience Cloud op de profielfoto.
 
    ![](assets/edit-profile.png)
-1. Klik op Profiel **[!UICONTROL bewerken]**.
+1. Klik op **[!UICONTROL Edit Profile]**.
 
    Vul de velden en opties onder Persoonlijke gegevens in op de pagina Profiel en wachtwoorden.
 
 ## Uw wachtwoord herstellen {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navigeer naar de aanmeldingspagina van de oplossing.
-1. Klik op **[!UICONTROL Wachtwoord]** vergeten.
+1. Klik op **[!UICONTROL Forgot Password]**.
 
    Als u het wachtwoord voor een oplossing opnieuw instelt, worden problemen met de koppeling van wachtwoorden voor Experience Cloud opgelost.
 
