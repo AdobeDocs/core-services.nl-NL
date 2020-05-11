@@ -1,20 +1,23 @@
 ---
 description: Overzicht en voorwaarden voor het uploaden van klantkenmerken naar de Experience Cloud.
-keywords: core services;customer attributes
+keywords: core services;Customer Attributes
 seo-description: Overzicht en voorwaarden voor het uploaden van klantkenmerken naar de Experience Cloud.
 seo-title: Klantkenmerken
 solution: Experience Cloud
 title: Klantkenmerken
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
 
 # Klantkenmerken
 
-Ga naar [!UICONTROL >] Personen **[!DNL Experience Platform]** > Kenmerken **[!UICONTROL klant om de]** klantkenmerken **[!UICONTROL te zoeken]**
+Ga naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Wolk van de Ervaring uploaden. Gebruik na het uploaden de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
@@ -22,15 +25,15 @@ Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relati
 
 ## Vereisten voor het uploaden van klantkenmerken {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **Oplossing ingeschakeld:** [Laat uw oplossingen voor de kerndiensten](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)toe.
+* **Oplossing ingeschakeld:** [Laat uw oplossingen voor de diensten](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)van het Platform van de Ervaring toe.
 
 * **Groepslidmaatschap:** Om klantkenmerkgegevens te uploaden, moeten de gebruikers lid van de groep [van Attributen van de](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)Klant zijn. U moet ook deel uitmaken van een groep Adobe Analytics of een groep Adobe Target.
 
-   Om te weten of uw bedrijf toegang tot klantenattributen heeft, zou uw [!DNL Experience Cloud] beheerder in het [!DNL Experience Cloud]moeten registreren. Ga naar **[!UICONTROL Beheer]** > **[!UICONTROL Admin Console]** starten > **[!UICONTROL Groepen]**. Als *Klantkenmerken* worden weergegeven als een van de groepen, kunt u beginnen.
+   Om te weten of uw bedrijf toegang tot de Attributen van de Klant heeft, zou uw [!DNL Experience Cloud] beheerder zich in de [!DNL Experience Cloud]. moeten aanmelden. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. Als *Klantkenmerken* worden weergegeven als een van de groepen, kunt u beginnen.
 
-   Gebruikers die aan de groep Kenmerken van klant worden toegevoegd, zien de menuoptie [!UICONTROL Klantenkenmerken] links in de interface van Experience Cloud.
+   Gebruikers die aan de groep Klantkenmerken zijn toegevoegd, zien het [!UICONTROL Customer Attributes] menu-item links in de interface van Experience Cloud.
 
-* **Voor klantkenmerken is Adobe Target** [!DNL at.js] (elke versie) of [!DNL mbox.js] versie 58 of hoger vereist.
+* **Voor Klantkenmerken is Adobe Target** [!DNL at.js] (elke versie) of [!DNL mbox.js] versie 58 of hoger vereist.
 
    Zie [hoe te om bij.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) of [Implementatie](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)Mbox.js op te stellen.
 
@@ -42,7 +45,7 @@ De volgende afbeelding is een voorbeeld van een gegevensbestand met abonneegegev
 
 ![](assets/01_crs_usecase.png)
 
-Nadat u het gegevensbestand hebt gemaakt, kunt u het uploaden naar de bron van klantkenmerken die u maakt in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Klantkenmerken]**.
+Nadat u het gegevensbestand hebt gemaakt, kunt u het uploaden naar de bron van klantkenmerken die u maakt in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
 
 Zie [Klantkenmerkgegevens](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) uploaden om deze workflow te leren.
 
