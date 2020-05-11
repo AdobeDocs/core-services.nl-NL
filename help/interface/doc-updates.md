@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Documentatie-updates - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +33,7 @@ Toegevoegd hoe te om een klantenattribuut te schrappen. Zie [(Optioneel) Het sch
 
 **Bijgewerkt: 08-06-2018**
 
-Bijgewerkt [Over gegevensbestand en gegevensbronnen voor klantenattributen](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) met informatie over het uploaden van veelvoudige dossiers.
+Bijgewerkt [Over gegevensbestand en gegevensbronnen voor Kenmerken](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) van de Klant met informatie over het uploaden van veelvoudige dossiers.
 
 **Bijgewerkt: 06-06-2018**
 
