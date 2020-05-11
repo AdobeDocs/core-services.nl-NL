@@ -8,7 +8,10 @@ title: Upgrade uitvoeren naar Analytics Premium en Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 0%
 
 ---
 
@@ -81,7 +84,7 @@ Alle software die op locatie wordt uitgevoerd, moet worden gedeactiveerd. Dit ge
 
 De de Cloud en kerndiensten van de ervaring zijn beschikbaar aan gebruikers van de Norm van de Analyse en van de Premie, op voorwaarde dat u de implementatie die in [Aan de slag wordt beschreven hebt gevolgd - laat uw oplossingen voor de kerndiensten](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)toe. (Dat proces helpt u uw implementatie te moderniseren, en laat u toe om en beheerder in de Wolk van de Ervaring te worden.)
 
-Nadat u zich hebt aangemeld bij de Experience Cloud, kunt u zich aanmelden via de Experience Cloud op [!DNL experiencecloud.adobe.com] en beginnen met het gebruik van de basisservices (inclusief klantkenmerken, publiek en analytische gegevens voor de mobiele app).
+Nadat u zich hebt aangemeld bij de Experience Cloud, kunt u zich aanmelden via de Experience Cloud op [!DNL experiencecloud.adobe.com] en beginnen met het gebruik van de kernservices (inclusief klantkenmerken, soorten publiek en analytische gegevens voor de mobiele app).
 
 ### Gebruikers en groepen beheren
 
