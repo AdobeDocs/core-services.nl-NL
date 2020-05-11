@@ -1,18 +1,21 @@
 ---
 description: Overwegingen en aanbevolen procedures voor het uploaden en gebruiken van persoonlijk identificeerbare informatie (PII) in de Adobe Experience Cloud.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Overwegingen en aanbevolen procedures voor het uploaden en gebruiken van persoonlijk identificeerbare informatie (PII) in de Adobe Experience Cloud.
-seo-title: Privacyoverwegingen - klantkenmerken
+seo-title: Privacyoverwegingen - Klantkenmerken
 solution: Experience Cloud
-title: Privacyoverwegingen - klantkenmerken
+title: Privacyoverwegingen - Klantkenmerken
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 0%
 
 ---
 
 
-# Privacyoverwegingen - klantkenmerken
+# Privacyoverwegingen - Klantkenmerken
 
 Overwegingen en aanbevolen procedures voor het uploaden en gebruiken van persoonlijk identificeerbare informatie (PII) in de Adobe Experience Cloud.
 
