@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Een bron voor klantkenmerken maken en het gegevensbestand uploaden
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -28,23 +28,18 @@ Maak de bron van het klantkenmerk (CSV- en FIN-bestanden) en upload de gegevens.
 1. [Het schema valideren](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [Abonnementen configureren en kenmerkbron activeren](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
-
 Nadat de gegevensbron actief is, kunt u:
 
 * [Klantkenmerken gebruiken in Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
 * [Klantkenmerken gebruiken in Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
-
-
 >[!IMPORTANT]
 >
->Om toegang te krijgen tot deze functie, moeten gebruikers worden toegewezen aan het productprofiel Klantkenmerken (Klantkenmerken - Standaardtoegang). ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Gebruikers die aan de groep Klantkenmerken zijn toegevoegd, zien het [!UICONTROL Customer Attributes] menu-item in [!UICONTROL Audiences], links van de Experience Cloud-interface.
+>Om toegang te krijgen tot deze functie, moeten gebruikers worden toegewezen aan het productprofiel Klantkenmerken (Klantkenmerken - Standaardtoegang). Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Als *Klantkenmerken* als een van de [!UICONTROL Product Profiles]kenmerken worden weergegeven, kunt u beginnen. Gebruikers die aan de groep Klantkenmerken zijn toegevoegd, zien het [!UICONTROL Customer Attributes] menu links in de interface Experience Cloud.
 >
->Het groepslidmaatschap van de oplossing wordt ook vereist.
+>Om de eigenschap van de Attributen van de Klant te gebruiken, moeten de gebruikers tot oplossing-vlakke groepen (Analytics of [!DNL Target]) ook behoren.
 
-Gebruikers die de functie Kenmerken klant willen gebruiken, moeten in gebruikersbeheer tot de groep Kenmerken van Adobe behoren en tot groepen op oplossingsniveau (Analytics of [!DNL Target]).
-
-Zie [Gebruikers en groepen](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## Een gegevensbestand maken {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -52,12 +47,9 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 
 1. Maak een `.csv`.
 
-
    >[!NOTE]
    >
    >Later in dit proces, zult u slepen-en-dalings het `.csv` om het dossier te uploaden. Als u echter [uploadt via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B), hebt u ook een `.fin` bestand nodig met dezelfde naam als de `.csv`.
-
-
 
    Voorbeeld bedrijfsklantenbestand:
 
@@ -68,7 +60,7 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 
 ## De kenmerkbron maken en het gegevensbestand uploaden {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Voer deze stappen uit op de pagina Nieuwe kenmerkbron voor klanten maken in de Experience Cloud.
+Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Cloud van de Ervaring uit.
 
 >[!IMPORTANT]
 >
