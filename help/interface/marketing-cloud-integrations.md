@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Integratie van de cloud beleven
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +54,7 @@ De id-service biedt een universele, permanente id die uw bezoekers identificeert
 
 Help: [Soorten publiek](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Maak en beheer een publiek in de Experience Cloud Audience Library. De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worden afgeleid, zoals:
+Soorten publiek maken en beheren in de Experience Cloud Audience Library. De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worden afgeleid, zoals:
 
 * Nieuwe in het [!DNL Experience Cloud]dialoogvenster.
 * Van [!DNL Analytics] segmenten die worden gepubliceerd naar het [!DNL Experience Cloud]scherm.
@@ -187,7 +190,7 @@ Help (aanmelden vereist): [Integratie met Adobe Experience Cloud Solutions en Co
 
 **Dynamisch tagbeheer:** Met Dynamic Tag Manager kunt [u conversietags](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)die zijn gebaseerd op pixels en op het optimaliseren van media, maken voor uw zoek-, sociale en weergave- en landingspagina&#39;s. (U kunt tags voor Media Optimizer ook rechtstreeks in Media Optimizer maken.)
 
-**Cloud-publiek beleven:** (Adverteerders met weergavebeheer) U kunt al uw [Adobe Experience Cloud-publiek](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) gebruiken als doelversie voor uw advertenties. U kunt automatisch soorten publiek gebruiken die u in Adobe Experience Cloud hebt gemaakt en publiek van Analytics dat u naar Adobe Experience Cloud hebt gepubliceerd. U kunt soorten publiek gebruiken vanuit Audience Manager wanneer de Media Optimizer-account zo is geconfigureerd dat dit is toegestaan. Neem contact op met uw accountmanager voor meer informatie over toegang tot Adobe Experience Cloud en profielen en soorten publiek en over de eerste setup tussen Media Optimizer en Adobe Experience Cloud-publiek. **Opmerking:** Als u ook Adobe Target gebruikt, zijn alle soorten publiek die u naar Adobe Experience Cloud hebt gepubliceerd, ook beschikbaar voor activiteiten in Adobe Target.
+**Cloud-publiek beleven:** (Adverteerders met weergavebeheer) U kunt al uw [Adobe Experience Cloud-publiek](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) gebruiken als doelversie voor uw advertenties. U kunt automatisch soorten publiek gebruiken die u in Adobe Experience Cloud en Soorten publiek van Analytics hebt gemaakt en die u naar Adobe Experience Cloud hebt gepubliceerd, en u kunt Soorten publiek van Audience Manager gebruiken wanneer het account Media Optimizer zo is geconfigureerd dat dit is toegestaan. Neem contact op met uw accountmanager voor meer informatie over toegang tot Adobe Experience Cloud en profielen en soorten publiek en over de eerste setup tussen Media Optimizer en Adobe Experience Cloud-publiek. **Opmerking:** Als u ook Adobe Target gebruikt, zijn de soorten publiek die u naar Adobe Experience Cloud hebt gepubliceerd ook beschikbaar voor activiteiten in Adobe Target.
 
 **Experience Cloud Assets:** (Adverteerders met weergavebeheer) U kunt al uw Adobe Experience Cloud-middelen gebruiken als de creatieve elementen voor uw weergaveadvertenties met de weergave Nieuwe weergave bèta. U moet via Adobe Experience Cloud [zijn](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)aangemeld bij Media Optimizer om toegang te krijgen tot uw Adobe Experience Cloud-middelen. Neem contact op met uw accountmanager voor informatie over toegang tot Adobe Experience Cloud.
 
