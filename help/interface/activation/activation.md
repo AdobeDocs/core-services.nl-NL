@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Activering
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
 
 Activering omvat het nieuwste product voor tagbeheer, Experience Platform Launch, Dynamic Tag Management (DTM) en Triggers.
 
-## Introductie van Experience Platform {#section_05DF74E9EAC94518A155095C65F54568}
+## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
 Implementeer en beheer de analytische, marketing- en advertentietags die nodig zijn om de relevante ervaringen van klanten te verbeteren.
 
@@ -24,7 +27,7 @@ Zie Launch [van het Platform van de Ervaring](https://docs.adobe.com/content/hel
 
 ## Dynamisch tagbeheer {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-Als u Dynamic Tag Management wilt starten, klikt u op **[!UICONTROL Activering]** en verzendt u een aanvraag naar het Adobe-inrichtingsteam. U moet uw aanmeldingsgegevens binnen een tot twee werkdagen ontvangen.
+Als u Dynamic Tag Management wilt starten, klikt u op een aanvraag **[!UICONTROL Activation]** en verzendt u deze naar het Adobe-inrichtingsteam. U moet uw aanmeldingsgegevens binnen een tot twee werkdagen ontvangen.
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
