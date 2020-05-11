@@ -1,13 +1,16 @@
 ---
 description: Als u niet uploadt via slepen en neerzetten, kunt u klantkenmerkgegevens uploaden via FTP naar de Experience Cloud.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Als u niet uploadt via slepen en neerzetten, kunt u klantkenmerkgegevens uploaden via FTP naar de Experience Cloud.
 seo-title: Optioneel - Het gegevensbestand uploaden via FTP
 solution: Experience Cloud
 title: Optioneel - Het gegevensbestand uploaden via FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ U kunt de gegevens uploaden nadat u een bron voor klantkenmerken en een FTP-acco
 >
 >Controleer de [gegevensbestandsvereisten voor het uploaden van klantkenmerken](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) voordat u het bestand uploadt.
 
-Het uploaden van bestanden naar de kenmerken van de klant FTP-site kan worden uitgevoerd via FTP of SFTP.
+Het uploaden van bestanden naar de FTP-site met klantkenmerken kan worden uitgevoerd via FTP of SFTP.
 
 * U hebt een client nodig die SFTP-verbindingen ondersteunt.
 * U kunt verbinding maken met SFTP via gebruikersnaam/wachtwoord of zonder wachtwoord, zoals [hier](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)wordt beschreven.
