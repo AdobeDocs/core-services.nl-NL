@@ -1,13 +1,16 @@
 ---
 description: Gegevensbestandsvereisten en meerdere gegevensbronnen voor het uploaden van klantkenmerken naar de Experience Cloud.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Gegevensbestandsvereisten en meerdere gegevensbronnen voor het uploaden van klantkenmerken naar de Experience Cloud.
 seo-title: Gegevensbestand en gegevensbronnen voor klantkenmerken
 solution: Experience Cloud
 title: Gegevensbestand en gegevensbronnen voor klantkenmerken
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1213'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +39,7 @@ Kenmerken van klanten zijn ontworpen om enkele bestanden per dag af te handelen.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>(Vereist) Het <span class="filepath"> .fin- </span> bestand geeft aan dat u klaar bent met het uploaden van gegevens. De naam van het <span class="filepath"> .fin- </span> bestand moet overeenkomen met de naam van het <span class="filepath"> .csv- </span> bestand. </p> <p>Adobe raadt u aan een leeg tekstbestand met de <span class="filepath"> extensie .fin te maken </span> . Een leeg bestand bespaart ruimte en uploadt tijd. </p> <p> <p>Opmerking:  De naam van een <span class="filepath"> .fin- </span> bestand mag niet worden gewijzigd nadat het is geüpload. Het <span class="filepath"> .fin- </span> bestand moet afzonderlijk worden geüpload en kan geen hernoemd, eerder geüpload bestand zijn. </p> </p> <p>Nadat u het <span class="filepath"> .fin- </span> dossier in de klantenattributen FTP uploadt, wint het systeem snel (binnen één minuut) gegevens terug. Dit verschilt van andere op FTP gebaseerde systemen van Adobe, die gegevens minder vaak (ongeveer één keer per uur) opvangen. </p> <p>Het <span class="filepath"> .fin- </span> bestand is niet vereist wanneer u de uploadmethode voor slepen en neerzetten gebruikt. </p> </td> 
+   <td colname="col2"> <p>(Vereist) Het <span class="filepath"> .fin- </span> bestand geeft aan dat u klaar bent met het uploaden van gegevens. De naam van het <span class="filepath"> .fin- </span> bestand moet overeenkomen met de naam van het <span class="filepath"> .csv- </span> bestand. </p> <p>Adobe raadt u aan een leeg tekstbestand met de <span class="filepath"> extensie .fin te maken </span> . Een leeg bestand bespaart ruimte en uploadt tijd. </p> <p> <p>Opmerking:  De naam van een <span class="filepath"> .fin- </span> bestand mag niet worden gewijzigd nadat het is geüpload. Het <span class="filepath"> .fin- </span> bestand moet afzonderlijk worden geüpload en kan geen hernoemd, eerder geüpload bestand zijn. </p> </p> <p>Nadat u het <span class="filepath"> .fin- </span> bestand in de FTP van de Attributen van de Klant uploadt, wint het systeem snel (binnen één minuut) gegevens terug. Dit verschilt van andere op FTP gebaseerde systemen van Adobe, die gegevens minder vaak (ongeveer één keer per uur) opvangen. </p> <p>Het <span class="filepath"> .fin- </span> bestand is niet vereist wanneer u de uploadmethode voor slepen en neerzetten gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz </span> of <span class="filepath"> .zip </span> </p> </td> 
@@ -77,7 +80,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Volgende koppen en kolommen </p> </td> 
-   <td colname="col2"> <p>De volgende kopballen zouden de naam van elk attribuut moeten vertegenwoordigen. </p> <p> Deze kolommen zouden klantenattributen moeten bevatten die uit CRM komen. </p> </td> 
+   <td colname="col2"> <p>De volgende kopballen zouden de naam van elk attribuut moeten vertegenwoordigen. </p> <p> Deze kolommen zouden de Attributen van de Klant moeten bevatten die uit CRM komen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kenmerklimieten </p> </td> 
@@ -125,7 +128,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historische gegevens </p> </td> 
-   <td colname="col2"> <p> Kenmerken van de klant zijn gekoppeld aan het onderliggende bezoekersprofiel in Analytics. De kenmerken van de klant zijn dan ook gekoppeld aan de bezoeker gedurende de gehele levensduur van dat bezoekersprofiel in Analytics. Dit omvat gedrag dat voorkwam alvorens de klant voor het eerst het programma opende. </p> <p> Als u de backfill methode van het gegevenspakhuis gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op analytische identiteitskaart (HULP) gebaseerd is. Als u de Experience Cloud ID Service gebruikt, zijn de gegevens gekoppeld aan een post_visid_high/low die is gebaseerd op Experience Cloud ID (MID). </p> </td> 
+   <td colname="col2"> <p> Kenmerken van de klant zijn gekoppeld aan het onderliggende bezoekersprofiel in Analytics. De klantkenmerken zijn daarom gekoppeld aan de bezoeker gedurende de gehele levensduur van dat bezoekersprofiel in Analytics. Dit omvat gedrag dat voorkwam alvorens de klant voor het eerst het programma opende. </p> <p> Als u de backfill methode van het gegevenspakhuis gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op analytische identiteitskaart (HULP) gebaseerd is. Als u de Experience Cloud ID Service gebruikt, zijn de gegevens gekoppeld aan een post_visid_high/low die is gebaseerd op Experience Cloud ID (MID). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gegevensfeeds </p> </td> 
@@ -153,6 +156,6 @@ Visitor.setCustomerIDs({
 
 (Zie ID&#39;s van [klanten en verificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) voor meer informatie.)
 
-In de **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personen]** > **[!UICONTROL Klantkenmerken]**:
+In het **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-Maak twee bronnen voor klantkenmerken met behulp van unieke alias-id&#39;s die overeenkomen met de bovenstaande id&#39;s van de klant. Met deze methode kan dezelfde referentie-id naar meerdere bronnen voor klantkenmerken worden verzonden.
+Maak twee bronnen voor klantkenmerken met behulp van unieke alias-id&#39;s die overeenkomen met de bovenstaande klant-id&#39;s. Met deze methode kan dezelfde referentie-id naar meerdere bronnen voor klantkenmerken worden verzonden.
