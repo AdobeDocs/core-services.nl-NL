@@ -4,7 +4,10 @@ user-guide-title: Gebruikershandleiding voor de cloud-interface
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 2%
 
 ---
 
@@ -23,8 +26,8 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [Eerste cookies in Experience Cloud](cookies/cookies-first-party.md)
    + [Analysecookies](cookies/cookies-analytics.md)
    + [Cookies in Publiek Manager](cookies/cookies-am.md)
-   + [[!UICONTROL Cookies gegevensconnectors]](cookies/cookies-dc.md)
-   + [[!UICONTROL Cookies in Data Workbench]](cookies/cookies-insight.md)
+   + [[!UICONTROL Data Connectors] cookies](cookies/cookies-dc.md)
+   + [[!UICONTROL Data Workbench] cookies](cookies/cookies-insight.md)
    + [Geniet van cookies in de cloud](cookies/cookies-mc.md)
    + [Cloud-cookies voor advertenties](cookies/cookies-advertising-cloud.md)
    + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
@@ -67,7 +70,7 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [Het schema valideren](attributes/validate-schema.md)
    + [Abonnementen configureren](attributes/subscription.md)
    + [Het schema bijwerken](attributes/t-update-schema.md)
-   + [Privacyoverwegingen - klantkenmerken](attributes/privacy-mac.md)
+   + [Privacyoverwegingen - Klantkenmerken](attributes/privacy-mac.md)
 + Aanbiedingsbeheer {#offer-management}
    + [Aan de slag met Offertebeheer](offer-management/getting-started.md)
    + [Workflow Aanbiedingsbeheer](offer-management/offer-management-workflow.md)
