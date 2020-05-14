@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Opmerkingen bij de cumulatieve release
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
-source-wordcount: '3756'
+source-wordcount: '3875'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,22 @@ Functies, opmerkingen bij releases en bekende problemen voor de Experience Cloud
 Zie [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)voor een lijst met documentatie-updates.
 
 Zie Opmerkingen bij de release [Experience Cloud voor opmerkingen bij](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)de release.
+
+## April - 2020
+
+* De pagina Experience Cloud [!UICONTROL Feed] is afgeschaft. (EXC-8505)
+* De aanmeldingspagina van Experience Cloud is bijgewerkt met nieuwe brandingselementen. (EXC-10747)
+
+## februari - 2020
+
+| Functie | Beschrijving |
+| -----------| ---------- |
+| Beheer - Gebruikersgegevens weergeven | Beheerders kunnen een sorteerbare en filterbare lijst met alle Experience Cloud-gebruikers en hun gegevens weergeven in het nieuwe Admin Tool. De details van de gebruiker omvatten de het producttoegang van een gebruiker, rollen, en laatste betreden informatie. Zie [Experience Cloud Admin Tool](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) voor meer informatie. |
+
+**Oplossingen**
+
+* **Klantkenmerken:** Gebruikersinterface voor kenmerken van klanten geeft nu aanvullende statussen weer van profielen die zijn gesynchroniseerd in Doel. (MCUI-10231)
+* **Triggers Core-service:** Door gebrek aan gebruik is de &#39;Likelity score to Return in 30 dagen&#39; bij het maken van een trigger voor het type Abandenvironment verwijderd. (MCUI-10056)
 
 ## Januari - 2020
 
