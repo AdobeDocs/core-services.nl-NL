@@ -4,9 +4,9 @@ user-guide-title: Gebruikershandleiding voor de cloud-interface
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '385'
 ht-degree: 2%
 
 ---
@@ -70,6 +70,8 @@ ht-degree: 2%
    + [Het schema valideren](attributes/validate-schema.md)
    + [Abonnementen configureren](attributes/subscription.md)
    + [Het schema bijwerken](attributes/t-update-schema.md)
+   + [Steun voor algemene gegevensbeschermingsverordening](attributes/gdpr.md)
+   + [Ondersteuning voor de California Consumer Privacy Act](attributes/ccpa.md)
    + [Privacyoverwegingen - Klantkenmerken](attributes/privacy-mac.md)
 + Aanbiedingsbeheer {#offer-management}
    + [Aan de slag met Offertebeheer](offer-management/getting-started.md)
