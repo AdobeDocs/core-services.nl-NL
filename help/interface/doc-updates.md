@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Documentatie-updates - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,17 @@ ht-degree: 0%
 # Documentatie-updates - Experience Cloud
 
 Informatie over updates van de Experience Cloud-productdocumentatie.
+
+**Bijgewerkt: 19-05-2020**
+
+Vervangen documentatie van het Beheer van de Aanbieding.
+
+**Bijgewerkt: 15-05-2020**
+
+De volgende pagina&#39;s toegevoegd:
+
+* [Steun voor algemene gegevensbeschermingsverordening](attributes/gdpr.md)
+* [Ondersteuning voor de California Consumer Privacy Act](attributes/ccpa.md)
 
 **Bijgewerkt: 10-03-2020**
 
