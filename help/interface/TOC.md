@@ -4,10 +4,10 @@ user-guide-title: Gebruikershandleiding voor de cloud-interface
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 2%
+source-wordcount: '371'
+ht-degree: 9%
 
 ---
 
@@ -73,13 +73,6 @@ ht-degree: 2%
    + [Steun voor algemene gegevensbeschermingsverordening](attributes/gdpr.md)
    + [Ondersteuning voor de California Consumer Privacy Act](attributes/ccpa.md)
    + [Privacyoverwegingen - Klantkenmerken](attributes/privacy-mac.md)
-+ Aanbiedingsbeheer {#offer-management}
-   + [Aan de slag met Offertebeheer](offer-management/getting-started.md)
-   + [Workflow Aanbiedingsbeheer](offer-management/offer-management-workflow.md)
-   + [Aanbiedingen](offer-management/offers.md)
-   + [Labels](offer-management/labels.md)
-   + [Plaatsen](offer-management/placements.md)
-   + [Campagne](offer-management/campaign.md)
 + Opmerkingen bij de release voor Experience Cloud {#release-notes}
    + [Nieuwe functies in de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [Opmerkingen bij de cumulatieve release](marketing-cloud-interface/release-notes.md)
