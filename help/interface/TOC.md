@@ -1,10 +1,11 @@
 ---
 audience: end-user
 user-guide-title: Gebruikershandleiding voor de cloud-interface
+user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
+source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 9%
@@ -74,7 +75,7 @@ ht-degree: 9%
    + [Ondersteuning voor de California Consumer Privacy Act](attributes/ccpa.md)
    + [Privacyoverwegingen - Klantkenmerken](attributes/privacy-mac.md)
 + Opmerkingen bij de release voor Experience Cloud {#release-notes}
-   + [Nieuwe functies in de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+   + [Nieuwe functies in de Experience Cloud](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html)
    + [Opmerkingen bij de cumulatieve release](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [Mobiele services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
