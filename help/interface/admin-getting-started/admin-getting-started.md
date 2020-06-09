@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Gebruikers en producten van Experience Cloud beheren
 index: true
 translation-type: tm+mt
-source-git-commit: a4a0760f838178b3c4caebf89e389da8a7ff4627
+source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 4%
+source-wordcount: '1428'
+ht-degree: 5%
 
 ---
 
@@ -71,7 +71,7 @@ Bijvoorbeeld in Analytics, kunt u een inzameling van rapporteringshulpmiddelen, 
 
 [Beperkte beheerrechten delegeren](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
 
-## Analytics {#section_97DE101F92CD494AB073893680992F1A}
+## Analyse {#section_97DE101F92CD494AB073893680992F1A}
 
 De gebruikers- en productmachtigingen van Analytics beheren in de beheerconsole.
 
@@ -116,7 +116,7 @@ Zie [Gebruikersbeheer](https://docs.adobelaunch.com/launch-reference/administrat
 
 Adobe Enterprise-klanten worden in de Adobe Admin Console vertegenwoordigd als IMS-organisaties. Dit is het portaal dat Adobe-klanten gebruiken om hun productrechten voor hun gebruikers en groepen te beheren. AEM-klanten kunnen de Adobe Admin Console gebruiken om hun productrechten en IMS-verificatie als cloudservice naar AEM te beheren.
 
-See [IMS Support for AEM as a Cloud Service](https://youtu.be/EuUAVLZMdDA).
+See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
 ## Dynamisch tagbeheer {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -160,8 +160,8 @@ U kunt bijvoorbeeld een productprofiel maken dat meerdere analyseprogramma&#39;s
 | Element | Beschrijving |
 |--- |--- |
 | Rapportageopties | Schakel machtigingen in voor specifieke rapportsuites. |
-| Metrisch | Laat toestemmingen voor verkeer, omzetting, douanegebeurtenissen, oplossingsgebeurtenissen, bewuste inhoud toe, etc. |
-| Afmetingen | Pas gebruikerstoegang op een korrelig niveau, met inbegrip van eVars, verkeersrapporten, oplossingsrapporten, en wegrapporten aan. |
+| Cijfers | Laat toestemmingen voor verkeer, omzetting, douanegebeurtenissen, oplossingsgebeurtenissen, bewuste inhoud toe, etc. |
+| Dimensies | Pas gebruikerstoegang op een korrelig niveau, met inbegrip van eVars, verkeersrapporten, oplossingsrapporten, en wegrapporten aan. |
 | Rapportsuite-gereedschappen | Schakel gebruikersmachtigingen in voor webservices, rapportbeheer, tools en rapporten en dashboarditems. |
 | Analysegereedschappen | Laat gebruikerstoestemmingen voor Algemene punten (het factureren, logboeken, enz.), het Beheer van het Bedrijf, Hulpmiddelen, de Toegang van de Dienst van het Web, de Bouwer van het Rapport, en de integratie van de Verbindingen van Gegevens toe. De bedrijfsinstellingen van de categorie Admin Console aanpassen zijn verplaatst naar Analytics Tools. |
 
@@ -192,10 +192,10 @@ Ondersteunde browsers in de Experience Cloud.
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Opmerking:** Hoewel de interface Experience Cloud deze browsers ondersteunt, wordt mogelijk niet elke browser ondersteund door afzonderlijke oplossingen. (For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
+**Opmerking:** Hoewel de interface Experience Cloud deze browsers ondersteunt, wordt mogelijk niet elke browser ondersteund door afzonderlijke oplossingen. (For example, [Analytics](https://docs.adobe.com/content/help/nl-NL/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/nl-NL/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 ### Oplossing en productvereisten
 
-* [Analyse](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analyse](https://docs.adobe.com/content/help/nl-NL/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe-doel](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/nl-NL/target/using/implement-target/before-implement/supported-browsers.html)
