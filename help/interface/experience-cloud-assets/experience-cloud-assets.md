@@ -7,6 +7,9 @@ title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Het gebruik van middelen verbetert de consistentie en de naleving van het merk, 
 * **[!DNL Media Optimizer]**: Eenheden ontwikkelen op verschillende kanalen en campagnes
 * **[!DNL Campaign]**: Plaats elementen in e-mailbulletins en campagnes.
 
-In [!UICONTROL Experience Cloud Assets]kunt u:
+In kunt [!UICONTROL Experience Cloud Assets]u:
 
 * [Navigeren naar Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [De werkbalk openen](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
@@ -45,7 +48,7 @@ In [!UICONTROL Experience Cloud Assets]kunt u:
 
 ## De werkbalk openen {#section_EC2E401D225148818F3753248556BE6B}
 
-Navigeer naar een element (of elementenmap) en klik op **[!UICONTROL Selecteren]**.
+Navigeer naar een element (of elementenmap) en klik op **[!UICONTROL Select]**.
 
 De werkbalk biedt snel toegang tot functies, zoals Zoeken, Tijdlijn, Uitvoeringen, Bewerken, Annoteren en Downloaden.
 
@@ -69,13 +72,13 @@ U kunt zoeken op trefwoord, bestandstype, grootte, laatst gewijzigd, publicaties
 
 ## Elementen notities aanbrengen {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Klik op **[!UICONTROL Annoteren]** door cirkels of pijlen op een afbeelding te tekenen en het element van annotatie te voorzien voor revisie door collega&#39;s.
+Klik **[!UICONTROL Annotate]** door cirkels of pijlen op een afbeelding te tekenen en het element van annotatie te voorzien voor revisie door collega&#39;s.
 
 ![](assets/assets-annotate.png)
 
 ## Elementen op volledig scherm weergeven en zoomen {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Klik op **[!UICONTROL Weergaven]** > **[!UICONTROL Afbeelding]** om de volledige elementafbeelding weer te geven en zoomen in te schakelen.
+Klik op **[!UICONTROL Views]** > **[!UICONTROL Image]** om de volledige elementafbeelding weer te geven en zoomen in te schakelen.
 
 ![](assets/asset-zoom.png)
 
@@ -83,7 +86,7 @@ Klik op **[!UICONTROL Weergaven]** > **[!UICONTROL Afbeelding]** om de volledige
 
 U kunt kiezen tussen de kaartweergave met eigenschappen, de lijstweergave en de kolomweergave, zodat u uw elementen gemakkelijker kunt vinden.
 
-Klik op **[!UICONTROL Weergaven]** > **[!UICONTROL Eigenschappen]** om de eigenschappen van een element weer te geven:
+Klik op **[!UICONTROL Views]** > **[!UICONTROL Properties]** om de eigenschappen van een element weer te geven:
 
 ![](assets/asset-properties.png)
 
@@ -91,6 +94,6 @@ Klik op **[!UICONTROL Weergaven]** > **[!UICONTROL Eigenschappen]** om de eigens
 
 Zie het aantal gebruikers, de gebruikte opslagruimte en het totale aantal middelen.
 
-Klik op **[!UICONTROL Gereedschappen]** > **[!UICONTROL Rapporten]** > **[!UICONTROL Gebruiksrapport]**
+Klik op **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![](assets/assets-usage-report.png)
