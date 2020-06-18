@@ -7,7 +7,10 @@ solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Hoe de veranderingen in de Steun van de Koekjesindustrie van de Derde Klanten beïnvloeden
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 0%
 
 ---
 
@@ -21,11 +24,11 @@ In de volgende lijst ziet u hoe de cookie-ondersteuning van derden de huidige im
 ## Adobe Analytics en Adobe Target
 
 * Klanten met een [first-party implementatie](/help/interface/cookies/cookies-first-party.md) blijven grotendeels onaangetast.
-* De klanten die geen implementatie van de eerste partij gebruiken kunnen de Dienst [van identiteitskaart van het Platform van de](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) Ervaring uitvoeren om het koekje van identiteitskaart als eerstepartijkoekje zonder een implementatie van de eerste partij op te slaan.
+* De klanten die geen implementatie van de eerste partij gebruiken kunnen de Dienst [van identiteitskaart van het](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) Experience Platform uitvoeren om het koekje van identiteitskaart als eerstepartijkoekje zonder een implementatie van de eerste partij op te slaan.
 
 ## Adobe Experience Manager
 
-* Omdat Adobe Experience Manager volledig binnen het domein van de klant werkt, is er minimale interactie met cookies van derden en is deze dus minimaal en geen invloed.
+* Omdat Adobe Experience Manager volledig binnen het domein van de klant werkt, is er minimale interactie met derdekoekjes en zo minimaal aan geen effect.
 
 ## Adobe Social
 
@@ -35,7 +38,7 @@ In de volgende lijst ziet u hoe de cookie-ondersteuning van derden de huidige im
 
 * Zoeken:
 
-   * Waar zoeken is geoptimaliseerd op basis van Adobe Analytics-gegevens, wordt de zoekopdracht op dezelfde manier uitgevoerd als Adobe Analytics.
+   * Waar zoeken is geoptimaliseerd op basis van Adobe Analytics-gegevens, heeft de zoekopdracht op dezelfde manier gevolgen als Adobe Analytics.
    * Het verzamelen van conversiegegevens moet onaangetast blijven.
 
 * Weergave:
