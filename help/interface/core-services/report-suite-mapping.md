@@ -5,15 +5,19 @@ seo-title: Kaart rapportsuites aan een organisatie
 title: Kaart rapportsuites aan een organisatie
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1167'
 ht-degree: 1%
 
 ---
 
 
 # Kaart rapportsuites aan een organisatie {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
+
+>[!NOTE]
+>
+>De functie voor het toewijzen van rapportsuite wordt in november 2020 vervangen. Wijs eventuele uitstekende rapportsuites in >Preparaat voor dit in kaart. Neem met vragen contact op met de klantenservice.
 
 Leer hoe u een of meerdere rapportreeksen aan een organisatie toewijst.
 
@@ -62,7 +66,7 @@ Deze sectie bevat tips waarmee u de Experience Cloud-organisatie kunt selecteren
 
 ### Welke organisatie moet ik kiezen?
 
-Als de Experience Cloud-id-service momenteel wordt geïmplementeerd in de rapportsuite, moet u ervoor zorgen dat de organisatie die u selecteert in het hulpprogramma voor het toewijzen van de rapportsuite dezelfde organisatie is als die is opgegeven in het [!DNL visitorAPI.js] bestand op uw site. U kunt de instructies in de [Test gebruiken en de Dienst](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) van identiteitskaart van Experience Cloud verifiëren om org identiteitskaart te vinden die door de dienst van identiteitskaart van de Bezoeker wordt gebruikt.
+Als de Experience Cloud ID-service momenteel wordt geïmplementeerd in de rapportsuite, moet u ervoor zorgen dat de organisatie die u selecteert in het hulpprogramma voor het toewijzen van de rapportsuite dezelfde organisatie is als die is opgegeven in het [!DNL visitorAPI.js] bestand op uw site. U kunt de instructies in de [Test gebruiken en de Dienst](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) van identiteitskaart van Experience Cloud verifiëren om org identiteitskaart te vinden die door de dienst van identiteitskaart van de Bezoeker wordt gebruikt.
 
 Als de dienst van identiteitskaart van de Bezoeker nog niet op de plaatsen wordt opgesteld die gegevens voor de rapportreeks verzamelen, als u de dienst van identiteitskaart van de Bezoeker van Experience Cloud in de toekomst opstelt, zult u moeten verzekeren uw plaatsing de organisatie aanpast u in het hulpmiddel van de Afbeelding van de Reeks van het Rapport koos.
 
@@ -108,7 +112,7 @@ Dit is een melding om u te helpen bij het nemen van een geïnformeerde beslissin
 
 Toegewezen rapportsuites worden in een niet-bewerkbare indeling weergegeven. Neem contact op met de klantenservice als u een toewijzing wilt wijzigen.
 
-### Wat als ik alleen de Org ID ken voor mijn Experience Cloud-organisatie? Hoe zoek ik de naam voor mijn Org ID op?
+### Wat als ik alleen de Org ID ken voor mijn Experience Cloud-organisatie? Hoe zoek ik de naam van mijn Org ID op?
 
 U kunt de naam van uw organisatie vinden in [Organisaties en Accountinstellingen](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/organizations.html).
 
