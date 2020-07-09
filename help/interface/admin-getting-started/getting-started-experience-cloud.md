@@ -4,20 +4,20 @@ keywords: core services, sign in to Experience Cloud
 seo-description: Leer hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
 seo-title: Aanmelden en uw profielinstellingen beheren
 solution: Experience Cloud
-title: Aanmelden en de instellingen van uw Experience Cloud-profiel beheren
+title: Aanmelden en uw Experience Cloud-profielinstellingen beheren
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '944'
 ht-degree: 2%
 
 ---
 
 
-# Aanmelden en de instellingen van uw Experience Cloud-profiel beheren
+# Aanmelden en uw Experience Cloud-profielinstellingen beheren
 
-Door u aan te melden bij de Experience Cloud (in plaats van u aan te melden bij één oplossing) kunt u zich aanmelden bij alle oplossingen en services die u hebt. In deze Help wordt beschreven hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
+Aanmelden bij de Experience Cloud (in plaats van zich aan te melden bij één oplossing) maakt één aanmelding mogelijk voor alle oplossingen en services die u bezit. In deze Help wordt beschreven hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
 
 >[!IMPORTANT]
 >
@@ -27,38 +27,35 @@ Door u aan te melden bij de Experience Cloud (in plaats van u aan te melden bij 
 
 Meld u aan en controleer of u zich in de juiste [organisatie](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)bevindt.
 
-1. Klik op het keuzemenu Experience Cloud ( ![](assets/menu-icon.png)) en klik vervolgens op **[!UICONTROL Administration]**.
+1. Klik op het menu Experience Cloud ( ![](assets/menu-icon.png)) en klik vervolgens op **[!UICONTROL Administration]**.
 
-   ![](assets/admin-link.png)
-
-   Als de **[!UICONTROL Administration]** koppeling niet wordt weergegeven, bent u geen beheerder van de Experience Cloud voor de weergegeven [organisatie](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (Adobe Corp, in dit voorbeeld). Neem contact op met de klantenservice of een bestaande Experience Cloud-beheerder in uw bedrijf voor hulp bij het worden als beheerder.
+   Als de **[!UICONTROL Administration]** verbinding niet wordt getoond, bent u geen beheerder van Experience Cloud voor de getoonde [organisatie](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Neem contact op met de klantenservice of een bestaande Experience Cloud-beheerder in uw bedrijf voor hulp bij het worden van een beheerder.
 1. Klik op **[!UICONTROL Administration]**.
 
-   ![](assets/admin-landing.png)
 1. Klik op een van de volgende koppelingen om door te gaan:
 
 | Element | Beschrijving |
 |--- |--- |
-| [Basisbeginselen van beheerconsole](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | In deze video ziet u de eerste stappen die u moet uitvoeren om aan de slag te gaan met de Experience Cloud-oplossingen. |
+| [Grondbeginselen van Admin Console](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Meer informatie over de eerste stappen die u moet uitvoeren om aan de slag te gaan met Experience Cloud-oplossingen. |
 | [Identiteit instellen](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html) | Definieer en stel een identiteitssysteem in waarmee uw eindgebruikers worden geverifieerd. |
-| [Gebruikersbeheer](https://helpx.adobe.com/enterprise/using/users.html) | Leer hoe u zich aanmeldt bij de beheerconsole en gebruikersmachtigingen en productprofielen voor Experience Cloud beheert. |
-| [Admin Console starten](../admin-getting-started/admin-getting-started.md) | De beheerconsole is de centrale locatie voor het beheer van uw Adobe-gebruikers en productrechten in uw hele organisatie.<br>U kunt zich ook aanmelden bij de beheerconsole via een [directe koppeling](https://adminconsole.adobe.com). |
-| [Creative Cloud-gebruikers beheren](../experience-cloud-assets/t-admin-add-cc-user.md) | Met Experience Cloud Assets kunnen marketers mappen delen, synchroniseren en samenwerken met ontwerpers en andere creatieve middelen met Creative Cloud. U kunt de Creative Cloud-gebruikers beheren die zijn goedgekeurd voor samenwerking met uw organisatie hier. |
-| [Uw rapportsets toewijzen](../core-services/core-services.md) | (Alleen Analytics) Experience Cloud core-services zijn gekoppeld aan een organisatie in plaats van aan een afzonderlijke rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke analytische rapportensuite aan een organisatie worden toegewezen. (Deze taak maakt deel uit van een breder werkschema om Analytics voor de kerndiensten [](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)toe te laten). |
-| [Organisatie-id](../admin-getting-started/organizations.md) | De *organisatie-id* staat onder aan de pagina Beheer. Deze id is de id die is gekoppeld aan uw geleverde Experience Cloud-bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg. |
+| [Gebruikersbeheer](https://helpx.adobe.com/enterprise/using/users.html) | Leer hoe u zich aanmeldt bij de Admin Console en de gebruikersrechten en productprofielen van Experience Cloud beheert. |
+| [Admin Console starten](../admin-getting-started/admin-getting-started.md) | De Admin Console is de centrale locatie voor het beheer van uw Adobe-gebruikers en productrechten in uw hele organisatie.<br>U kunt zich ook aanmelden bij de Admin Console via een [directe koppeling](https://adminconsole.adobe.com). |
+| [Creative Cloud-gebruikers beheren](../experience-cloud-assets/t-admin-add-cc-user.md) | Met Experience Cloud Assets kunnen marketers mappen delen, synchroniseren en samenwerken aan ontwerpers en andere creatieve middelen met Creative Cloud. U kunt de Creative Cloud-gebruikers beheren die zijn goedgekeurd voor samenwerking met uw organisatie hier. |
+| [Uw rapportsets toewijzen](../core-services/core-services.md) | (Alleen Analytics) Experience Cloud-kernservices zijn gekoppeld aan een organisatie in plaats van aan een afzonderlijke rapportensuite. Om ervoor te zorgen dat deze services correct werken, moet elke Analytics-rapportensuite aan een organisatie worden toegewezen. (Deze taak maakt deel uit van een bredere workflow om Analytics [in te schakelen voor kernservices](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
+| [Organisatie-id](../admin-getting-started/organizations.md) | De *organisatie-id* staat onder aan de pagina Beheer. Deze id is de id die is gekoppeld aan uw Experience Cloud-bedrijf dat u hebt ingericht. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg. |
 
 ## Aanmelden bij de Experience Cloud (gebruikers) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
 Help voor gebruikers zonder beheerdersrechten die zich aanmelden bij de Experience Cloud.
 
 
-1. Controleer met de beheerder of uw [organisatie](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) is ingericht in de Experience Cloud.
+1. Controleer bij de beheerder of uw [organisatie](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) in de Experience Cloud is ingericht.
 
 
 1. Ga naar de [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
 1. Klik op **[!UICONTROL Sign In With Adobe ID]**.
 
-   Uw Experience Cloud-beheerder kan u helpen het type account (Adobe-id of Enterprise-id) te bepalen.
+   Uw Experience Cloud-beheerder kan u helpen het type account (Adobe ID of Enterprise ID) te bepalen.
 
 1. Klik op het selectiepictogram op de bestemmingspagina ![](assets/menu-icon.png) om het keuzemenu te openen.
 
@@ -68,9 +65,9 @@ Help voor gebruikers zonder beheerdersrechten die zich aanmelden bij de Experien
 
 ## Standaardinstellingen voor persoonlijke accounts configureren {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
-U kunt persoonlijke gegevens bewerken en een standaardorganisatie [](../admin-getting-started/admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) en -bestemmingspagina opgeven die u wilt weergeven nadat u zich hebt aangemeld bij de Experience Cloud.
+U kunt persoonlijke gegevens bewerken en een standaardorganisatie [](../admin-getting-started/admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) en -bestemmingspagina opgeven die na aanmelding bij de Experience Cloud moet worden weergegeven.
 
-1. Meld u aan bij Experience Cloud en klik op het pictogram voor uw profiel.
+1. Meld u aan bij de Experience Cloud en klik op het profielpictogram.
 
    ![](assets/edit-profile.png)
 1. Klik op **[!UICONTROL Edit Profile]**.
@@ -114,11 +111,11 @@ U kunt de vertoning van Meldingen sorteren op de berichttypes die voor u belangr
 
 ## Profielen en wachtwoorden beheren {#task_7B89F4F38E5A4C4EB0FF842953856382}
 
-U kunt uw Experience Cloud-profiel bewerken, een standaardorganisatie en een openingspagina opgeven en meer.
+U kunt uw Experience Cloud-profiel bewerken, een standaardorganisatie en een openingspagina opgeven, enzovoort.
 
-1. [Meld u aan bij Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
+1. [Meld u aan bij de Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
 
-1. Klik in het menu Experience Cloud op de profielfoto.
+1. Klik in het menu Experience Cloud op de profielafbeelding.
 
    ![](assets/edit-profile.png)
 1. Klik op **[!UICONTROL Edit Profile]**.
@@ -130,13 +127,13 @@ U kunt uw Experience Cloud-profiel bewerken, een standaardorganisatie en een ope
 1. Navigeer naar de aanmeldingspagina van de oplossing.
 1. Klik op **[!UICONTROL Forgot Password]**.
 
-   Als u het wachtwoord voor een oplossing opnieuw instelt, worden problemen met de koppeling van wachtwoorden voor Experience Cloud opgelost.
+   Als u het wachtwoord voor een oplossing opnieuw instelt, worden problemen met het koppelen van wachtwoorden voor Experience Cloud opgelost.
 
-   Voor gebruikers van Adobe Analytics navigeert u naar [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
+   Blader voor Adobe Analytics-gebruikers naar [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
 ## Vorm oplossing aanmelding gebruikend een directe verbinding {#concept_8BE493A08786469B88B210E13F78FF2F}
 
-U kunt zich ook aanmelden bij een specifieke pagina in een oplossing met verificatie via de Experience Cloud Interface.
+Naar keuze, kunt u binnen aan een specifieke pagina in een oplossing ondertekenen, gebruikend authentificatie die door de Interface van Experience Cloud wordt verstrekt.
 
 ### URL-sjabloon
 
