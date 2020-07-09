@@ -8,7 +8,10 @@ title: Eerste cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 0%
 
 ---
 
@@ -17,14 +20,14 @@ source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 Analytics gebruikt cookies om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies. Deze onschadelijke cookies, die afkomstig zijn uit een domein dat wordt gehost door Adobe, worden cookies van derden genoemd.
 
-Veel browsers en anti-spywaretoepassingen zijn ontworpen om cookies van derden af te wijzen en te verwijderen, inclusief de cookies die worden gebruikt in de gegevensverzameling Analytics. Ter ondersteuning van het bijhouden van de interactie tussen uw bezoekers en uw website, kunt u cookies van de eerste fabrikant implementeren.
+Veel browsers en antispywaretoepassingen zijn ontworpen om cookies van derden af te wijzen en te verwijderen, inclusief de cookies die worden gebruikt in Analytics-gegevensverzameling. Ter ondersteuning van het bijhouden van de interactie tussen uw bezoekers en uw website, kunt u cookies van de eerste fabrikant implementeren.
 
 Er zijn twee opties beschikbaar voor het implementeren van cookies van de eerste fabrikant:
 
-* The Experience Platform ID Service. De id-service kan het cookie in de context van de eerste partij instellen met JavaScript.
+* De Experience Platform-id-service. De id-service kan het cookie in de context van de eerste partij instellen met JavaScript.
 * DNS-vermeldingen op de DNS-server van uw bedrijf om een CNAME-alias te configureren voor een door Adobe gehost domein. Houd er rekening mee dat diverse Adobe-producten het gebruik van een CNAME ondersteunen, maar dat de CNAME in alle gevallen wordt gebruikt om een vertrouwd primair eindpunt voor een bepaalde klant te maken en eigendom is van die klant. Als die klant veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar aangezien dit derdekoekjes voor alle domeinen buiten het domein van CNAME vereist, werkt het niet wanneer derdekoekjes worden geblokkeerd en zo niet geadviseerd. Adobe CNAMEs wordt nooit gebruikt om een individu of een apparaat over domeinen te volgen die door verschillende klanten worden bezeten.
 
-Zelfs wanneer de eerste optie wordt gebruikt met de Experience Cloud ID Service, zal de ITP van Apple de cookies van de eerste partij van korte duur maken, zodat deze het beste samen met de tweede optie wordt gebruikt.
+Zelfs als de eerste optie wordt gebruikt met de Experience Cloud ID Service, zal de ITP van Apple de cookies van de eerste partij van korte duur maken, zodat deze het beste samen met de tweede optie kunnen worden gebruikt.
 
 Als uw site beveiligde pagina&#39;s heeft via het HTTPS-protocol, kunt u voor de tweede optie met een CNAME een SSL-certificaat aanvragen om cookies van de eerste fabrikant te implementeren. Adobe raadt u ten zeerste aan HTTPS uitsluitend te gebruiken voor gegevensverzameling, aangezien de ondersteuning voor HTTP-verzameling in de tweede helft van 2020 afneemt.
 
@@ -36,7 +39,7 @@ Met uw toestemming, zullen wij met onze CA werken om een nieuw SSL certificaat v
 
 Het door Adobe beheerde certificaatprogramma is het aanbevolen proces voor de implementatie van een nieuw SSL-certificaat van de eerste partij voor cookies van de eerste partij.
 
-Met het Adobe Managed Certificate-programma kunt u zonder extra kosten een nieuw SSL-certificaat van de eerste partij voor cookies van de eerste partij implementeren. Als u momenteel over uw eigen door de klant beheerde SSL-certificaat beschikt, kunt u met de klantenservice van Adobe communiceren over de migratie naar het door Adobe beheerde certificaatprogramma.
+Met het Adobe Managed Certificate-programma kunt u zonder extra kosten een nieuw SSL-certificaat van de eerste partij voor cookies van de eerste partij implementeren (voor uw eerste 100 CNAME&#39;s). Als u momenteel over uw eigen door de klant beheerde SSL-certificaat beschikt, kunt u met de klantenservice van Adobe communiceren over de migratie naar het door Adobe beheerde certificaatprogramma.
 
 ### Implementeren
 
@@ -69,7 +72,7 @@ SSL-certificaten verlopen elk jaar. Dit houdt in dat Adobe jaarlijks een nieuw c
 | Vraag | Antwoord |
 |---|---|
 | **Is dit proces veilig?** | Ja, het Adobe Managed-programma is veiliger dan onze oude methode, omdat geen enkel certificaat of een persoonlijke sleutel buiten Adobe en de certificeringsinstantie die het certificaat uitgeeft, wordt gewijzigd. |
-| **Hoe kan Adobe een certificaat voor ons domein aanschaffen?** | Het certificaat kan alleen worden aangeschaft als u de opgegeven hostnaam (bijvoorbeeld metrics.voorbeeld.com) naar een hostnaam in Adobe-eigendom hebt gestuurd. Hierdoor wordt deze hostnaam in feite gedelegeerd aan Adobe en kan Adobe het certificaat namens u aanschaffen. |
+| **Hoe kan Adobe een certificaat voor ons domein aanschaffen?** | Het certificaat kan alleen worden aangeschaft als u de opgegeven hostnaam (bijvoorbeeld `smetrics.example.com`) hebt toegewezen aan een hostnaam in Adobe-eigendom. Hierdoor wordt deze hostnaam in feite gedelegeerd aan Adobe en kan Adobe het certificaat namens u aanschaffen. |
 | **Mag ik vragen dat het certificaat wordt ingetrokken?** | Ja, als eigenaar van het domein hebt u het recht om te vragen dat het certificaat is ingetrokken. U hoeft alleen een ticket te openen met de klantenservice om dit te laten voltooien. |
 | **Gebruikt dit certificaat SHA-2-versleuteling?** | Ja, Adobe werkt met DigiCert voor het uitgeven van een SHA-2-certificaat. |
 | **Betekent dit extra kosten?** | Nee, Adobe biedt deze service zonder extra kosten aan alle huidige klanten van Adobe Digital Experience. |
@@ -89,7 +92,7 @@ Zolang de implementatiecode niet wordt gewijzigd, heeft deze stap geen invloed o
 
 >[!NOpmerking:]
 >
->De dienst van identiteitskaart van de Bezoeker van de Wolk van de Ervaring verleent een alternatief aan het vormen van een CNAME om eerderangs koekjes toe te laten, maar wegens recente veranderingen van Apple ITP, wordt het nog geadviseerd om een CNAME toe te wijzen zelfs wanneer het gebruiken van de Dienst van identiteitskaart van de Ervaring Cloud
+>De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt een alternatief aan het vormen van een CNAME om eerderekookies toe te laten, maar wegens recente veranderingen van Apple ITP, wordt het nog geadviseerd om een NAAM toe te wijzen zelfs wanneer het gebruiken van de Dienst van identiteitskaart van Experience Cloud.
 
 ## Hostnaam doorsturen valideren {#validate}
 
@@ -110,12 +113,14 @@ Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, kunt u de 
 Adobe raadt u aan [!DNL [curl](https://curl.haxx.se/)] vanaf de opdrachtregel te gebruiken. ([!DNL Windows] gebruikers kunnen installeren [!DNL curl] vanaf: <https://curl.haxx.se/windows/>)
 
 Als u een CNAME hebt maar geen certificaat is geïnstalleerd, voert u het volgende uit:
-`curl -k https://sstats.adobe.com/_check`Reactie: `SUCCESS`
+`curl -k https://sstats.adobe.com/_check`
+Reactie: `SUCCESS`
 
 (De `-k` waarde schakelt de beveiligingswaarschuwing uit.)
 
 Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, voert u het volgende uit:
-`curl https://sstats.adobe.com/_check`Reactie: `SUCCESS`
+`curl https://sstats.adobe.com/_check`
+Reactie: `SUCCESS`
 
 ### Valideren met [!DNL nslookup]
 
@@ -154,6 +159,6 @@ Nadat u hebt geverifieerd dat uw hostnaam of hostnamen reageren op en doorsturen
 
 1. Als u naar eersteklas koekjes van een reeds lang bestaande implementatie, of het veranderen in een verschillende eerste-partijinzameling hostname beweegt, adviseren wij migrerende bezoekers van het vorige domein aan het nieuwe domein.
 
-Zie [Bezoekersmigratie](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) in de handleiding voor analysetoepassing.
+Zie [Bezoekersmigratie](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) in de Analytics Implementation Guide.
 
-Nadat u het JavaScript-bestand hebt geüpload, wordt alles geconfigureerd voor de verzameling van cookie van de eerste partij. Wij adviseren dat u Analytics het melden voor de volgende verscheidene uren controleert om ervoor te zorgen dat de gegevensinzameling zoals normaal verdergaat. Als dit niet het geval is, controleert u of alle bovenstaande stappen zijn uitgevoerd en laat een van de ondersteunde gebruikers van uw organisatie contact opnemen met de klantenservice.
+Nadat u het JavaScript-bestand hebt geüpload, wordt alles geconfigureerd voor de verzameling van cookie van de eerste partij. We raden u aan de Analytics-rapportage de komende uren te controleren om ervoor te zorgen dat de gegevensverzameling op de normale wijze wordt voortgezet. Als dit niet het geval is, controleert u of alle bovenstaande stappen zijn uitgevoerd en laat een van de ondersteunde gebruikers van uw organisatie contact opnemen met de klantenservice.
