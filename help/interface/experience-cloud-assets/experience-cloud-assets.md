@@ -1,12 +1,12 @@
 ---
-description: Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u kunt delen voor alle oplossingen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een Photoshop-bestand, dia's in een PowerPoint-bestand, pagina's in een PDF, bestanden in een ZIP).
-seo-description: Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u kunt delen voor alle oplossingen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een Photoshop-bestand, dia's in een PowerPoint-bestand, pagina's in een PDF, bestanden in een ZIP).
+description: Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een Photoshop-bestand, dia's in een PowerPoint-bestand, pagina's in een PDF, bestanden in een ZIP).
+seo-description: Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een Photoshop-bestand, dia's in een PowerPoint-bestand, pagina's in een PDF, bestanden in een ZIP).
 seo-title: Assets
 solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 # Assets
 
-Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u kunt delen voor alle oplossingen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop] bestand, dia&#39;s in een [!DNL PowerPoint] bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
+Experience Cloud Assets biedt één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop] bestand, dia&#39;s in een [!DNL PowerPoint] bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
 
 De diensten van activa omvatten:
 
 * Asset storage, management interface, embedded selection interface (toegankelijk via oplossingen).
-* Integraties met Creative Cloud, Experience Cloud-samenwerking en Experience Cloud-oplossingen.
+* Integraties met Creative Cloud-, Experience Cloud-samenwerking- en Experience Cloud-oplossingen.
 
 Het gebruik van middelen verbetert de consistentie en de naleving van het merk, en versnelt de tijd aan markt. U kunt workflows stroomlijnen in oplossingen:
 
@@ -32,7 +32,7 @@ Het gebruik van middelen verbetert de consistentie en de naleving van het merk, 
 
 In kunt [!UICONTROL Experience Cloud Assets]u:
 
-* [Navigeren naar Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
+* [Navigeren naar Experience Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [De werkbalk openen](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
 * [Elementen bewerken](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Zoeken naar elementen](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
@@ -40,9 +40,9 @@ In kunt [!UICONTROL Experience Cloud Assets]u:
 * [Op volledig scherm weergeven en zoomen](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [Elementeigenschappen weergeven](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Gebruiksrapporten uitvoeren](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
-* [Delen van middelen via Experience Manager](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
+* [Delen van bedrijfsmiddelen met Experience Manager](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
-## Navigeren naar Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
+## Navigeren naar Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
 ![](assets/asset-nav.png)
 
