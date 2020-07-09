@@ -5,7 +5,7 @@ seo-title: Kaart rapportsuites aan een organisatie
 title: Kaart rapportsuites aan een organisatie
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 1%
@@ -17,11 +17,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->De functie voor het toewijzen van rapportsuite wordt in november 2020 vervangen. Wijs eventuele uitstekende rapportsuites in >Preparaat voor dit in kaart. Neem met vragen contact op met de klantenservice.
+>De functie voor het toewijzen van rapportsuite wordt in november 2020 vervangen. Wijs eventuele uitstekende rapportensuites ter voorbereiding hiervan toe. Neem met vragen contact op met de klantenservice.
 
 Leer hoe u een of meerdere rapportreeksen aan een organisatie toewijst.
-
-<!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
 Experience Cloud-services (zoals Experience Cloud ID Service en [!UICONTROL People]) zijn gekoppeld aan een organisatie in plaats van aan een afzonderlijke rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke Analytics-rapportensuite aan een organisatie worden toegewezen. Het toewijzingsproces:
 
