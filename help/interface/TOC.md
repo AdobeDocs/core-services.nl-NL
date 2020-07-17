@@ -5,15 +5,15 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 9%
+source-wordcount: '352'
+ht-degree: 12%
 
 ---
 
 
-# Gebruikershandleiding voor Core Services {#interface}
+# Help bij Experience Cloud-interface {#interface}
 
 + [Experience Cloud en productdocumentatie](experience-cloud.md)
 + Kerndiensten in Experience Cloud {#about-core-services}
@@ -32,7 +32,7 @@ ht-degree: 9%
    + [Experience Cloud cookies](cookies/cookies-mc.md)
    + [Advertising Cloud cookies](cookies/cookies-advertising-cloud.md)
    + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
-   + [[!DNL Zoeken en promoveren] cookies](cookies/cookies-snp.md)
+   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
    + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Privacy-instellingen voor browsercookies inschakelen](cookies/browser-cookie-settings.md)
    + [Hoe wijzigingen in de Cookie-ondersteuning van derden van invloed zijn op klanten](cookies/cookies-thirdparty.md)
@@ -46,7 +46,7 @@ ht-degree: 9%
 + Experience Cloud-activering {#activation}
    + [Overzicht van activering](activation/activation.md)
    + [Gebruikershandleiding starten](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [Handleiding voor dynamische tagbeheer](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Handleiding voor dynamische tagbeheer](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud-middelen {#assets}
    + [Overzicht van Experience Cloud-middelen](experience-cloud-assets/experience-cloud-assets.md)
