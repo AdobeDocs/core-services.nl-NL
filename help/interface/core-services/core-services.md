@@ -2,31 +2,33 @@
 description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals de Attributen en het publiek van de Klant.
 keywords: core services;Customer Attributes
 seo-description: Implementeer de Experience Cloud en word beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals de Attributen en het publiek van de Klant.
-seo-title: Experience Cloud-oplossingen inschakelen voor kernservices
+seo-title: Experience Cloud-oplossingen inschakelen voor klantkenmerken en publiek
 solution: Experience Cloud
 title: Laat uw oplossingen voor de kerndiensten toe
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2312'
 ht-degree: 2%
 
 ---
 
 
-# Laat uw oplossingen voor de kerndiensten toe
+# Uw implementatie voor services voor meerdere oplossingen inschakelen
 
-Voor bestaande klanten leert u hoe u de implementatie van uw oplossing kunt moderniseren en de Experience Cloud kunt implementeren, zodat u functies zoals Klantenkenmerken en publiek kunt gebruiken. Hiervoor gaat u als volgt te werk:
+Als u onlangs Experience Cloud met Experience Platform Launch hebt geïmplementeerd, bent u al ingesteld op Klantkenmerken en Experience Cloud-soorten publiek. U kunt gebruikers en producten in de Admin Console ook beheren.
+
+Voor bestaande klanten, kunt u uw oplossingsimplementaties moeten moderniseren en Experience Cloud uitvoeren. Op deze manier kunt u Klantenkenmerken en publieksfuncties in Adobe Analytics, Audience Manager en Adobe Target benutten. Hiervoor gaat u als volgt te werk:
 
 1. [Deelnemen aan de Experience Cloud en beheerder worden](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [De Experience Cloud ID Service implementeren](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [Rapportesuites toewijzen aan een Experience Cloud-organisatie](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Uw Analytics AppMeasurement-code bijwerken](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Adobe Target-implementatie bijwerken](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [Verifieer de belangrijkste de dienstenimplementatie](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [De implementatie controleren](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Gebruikers en producten beheren](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [Basisservices gebruiken](#section_960C06093623462E8EA247B3E97274A1)
+1. [Begin met het delen van kenmerk- en publieksgegevens](#section_960C06093623462E8EA247B3E97274A1)
 
 ## Stap 1. Deelnemen aan de Experience Cloud en beheerder worden {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -187,7 +189,7 @@ Zie [Experience Cloud-gebruikers- en productbeheer](../admin-getting-started/adm
 
 Gebruikers die aan de [!UICONTROL Customer Attributes] groep worden toegevoegd, zien het [!UICONTROL Customer Attributes] menu-item links in de Experience Cloud-interface.
 
-## Stap 8. Basisservices gebruiken {#section_960C06093623462E8EA247B3E97274A1}
+## Stap 8. Begin met het delen van kenmerk- en publieksgegevens {#section_960C06093623462E8EA247B3E97274A1}
 
 Profiteer van de volgende functies.
 
