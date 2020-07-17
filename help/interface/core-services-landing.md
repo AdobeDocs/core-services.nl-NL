@@ -6,9 +6,9 @@ solution: Experience Cloud
 title: Over Experience Cloud Core-services
 index: true
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '495'
 ht-degree: 6%
 
 ---
@@ -16,13 +16,15 @@ ht-degree: 6%
 
 # Informatie over Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Tot de Adobe Experience Cloud-services behoren [!UICONTROL People] (soorten publiek en klantkenmerken), aanbiedingen, Experience Platform Launch en mobiele services. In Experience Cloud kunt u ook hulp vinden bij gebruikers- en productbeheer.
+Tot de Adobe Experience Cloud-services behoren de [!UICONTROL People] (soorten publiek en klantkenmerken), het Experience Platform Launch en de mobiele services. Voor hulp kunt u ook terecht bij Experience Cloud-gebruikers- en productbeheer.
 
 Klik op de knop **[!UICONTROL Application Selector]** ![](assets/menu-icon.png)als u deze services wilt openen in de Experience Cloud.
 
 ![](assets/platform-core-services.png)
 
-Adobe Experience Platform centraliseert en standaardisert gegevens en inhoud in uw hele bedrijf. Productdocumentatie voor [!UICONTROL Experience Platform] ontwikkelaars vindt u op [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>[!NOTE]
+>
+>De productdocumentatie voor Experience Platform vindt u [hier](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html). De technische documentatie voor [!UICONTROL Experience Platform] ontwikkelaars vindt u op [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
 
 In deze Help worden de volgende producten en services beschreven:
 
