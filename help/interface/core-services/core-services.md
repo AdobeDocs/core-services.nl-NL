@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Laat uw oplossingen voor de kerndiensten toe
 index: true
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2266'
 ht-degree: 2%
 
 ---
@@ -146,7 +146,7 @@ Klik [!UICONTROL Dynamic Tag Management]op **[!UICONTROL <Web Property Name>]**>
    >
    >Alle Analytics-klanten zijn al ingericht voor kernservices zoals Customer Attributes. Als u geen Analytics-klant bent, neemt u contact op met de klantenservice om een aanvraag voor provisioning in te dienen.
 
-## Stap 6. Verifieer de belangrijkste de dienstenimplementatie {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## Stap 6. De implementatie controleren {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 Ga als volgt te werk om ervoor te zorgen dat de Experience Cloud ID Service correct op uw site wordt geïmplementeerd.
 
