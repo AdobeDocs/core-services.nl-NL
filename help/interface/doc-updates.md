@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Documentatie-updates - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 # Documentatie-updates - Experience Cloud
 
-Informatie over updates van de Experience Cloud-productdocumentatie.
+Informatie over updates van de productdocumentatie van Experience Cloud.
+
+**Bijgewerkt: 19-08-2020**
+
+Bijgewerkte de gebruikersdetails van de [Mening Experience Cloud (Hulpmiddel Admin)](admin-getting-started/admin-tool-experience-cloud.md) met de informatie van het Beleid.
 
 **Bijgewerkt: 19-05-2020**
 
@@ -36,7 +40,7 @@ Bijgewerkt [Bevestig hostname door:sturen](cookies/cookies-first-party.md#valida
 
 **Bijgewerkt: 20-02-2020**
 
-Toegevoegde [weergavedetails voor gebruikers in de cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
+Toegevoegde [gebruikersgegevens van Experience Cloud weergeven (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Bijgewerkt: 05-09-2018**
 
@@ -68,7 +72,7 @@ De definitie van Raw-analysegegevens is bijgewerkt in [Een publiek](audience-lib
 
 **Bijgewerkt: 23-02-2017**
 
-Extra [Experience Cloud-triggers](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
+Added [Experience Cloud Triggers](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
 
 **Bijgewerkt: 01-02-2017**
 
@@ -76,11 +80,11 @@ Toegevoegde [rapportenreekstoewijzing](core-services/core-services.md#concept_ap
 
 **Bijgewerkt: 09-05-2016**
 
-Toegevoegde [Experience Cloud Integrations](marketing-cloud-integrations.md#concept_9E6D3E37D1E3452E8CCCFA92AF034F90), een complete documentatie over integratie.
+Toegevoegde [Experience Cloud Integrations](marketing-cloud-integrations.md#concept_9E6D3E37D1E3452E8CCCFA92AF034F90), een ronde-up van integratiedocumentatie.
 
 **Bijgewerkt: 11-02-2016**
 
-Toegevoegde [Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0).
+Toegevoegde [Experience Cloud-elementen](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0).
 
 **Bijgewerkt: 02-03-2015**
 
@@ -88,11 +92,11 @@ Toegevoegde [Laat uw oplossingen voor de kerndiensten toe](core-services/core-se
 
 **Bijgewerkt: 15-01-2015**
 
-Gebruikers met de extra cloud kunnen nu mappen delen naar Creative Cloud en elementen en opmerkingen synchroniseren over de twee Clouds. Zie [Delen](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)van middelen.
+Gebruikers met toegevoegde Experience Cloud kunnen nu mappen delen naar de Creative Cloud en elementen en opmerkingen synchroniseren over de twee wolken. Zie [Delen](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)van middelen.
 
 **Bijgewerkt: 17-07-2014**
 
-Veelgestelde vragen over de [Experience Cloud](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91) voor beheerders toegevoegd.
+Veelgestelde vragen over [Experience Cloud toegevoegd](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91) voor beheerders.
 
 **Bijgewerkt: 22-05-2014**
 
@@ -102,7 +106,7 @@ Zie [Soorten publiek](audience-library/audience-library.md#topic_679810123CAA4E0
 
 **Bijgewerkt: 22-05-2014**
 
-Bijgewerkte gebruikers en producten [van Experience Cloud](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) beheren voor informatie over beheerder worden in de Experience Cloud.
+De bijgewerkte gebruikers en de producten [van](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) Beheer Experience Cloud voor informatie over het worden van een beheerder in de Experience Cloud.
 
 **Bijgewerkt: 22-05-2014**
 
