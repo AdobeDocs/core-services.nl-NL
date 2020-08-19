@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: 'Gebruikers van Experience Cloud en gebruikersgegevens weergeven '
 index: true
 translation-type: tm+mt
-source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1202'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,17 @@ ht-degree: 1%
 
 # Gebruikers en beleidsregels voor Experience Cloud weergeven in het beheerprogramma
 
-Beheerders kunnen een sorteerbare en filterbare lijst met alle gebruikers en beleidsregels van de Experience Cloud weergeven met gegevens in het hulpmiddel Admin. De details van de gebruiker omvatten de het producttoegang van een gebruiker, rollen, en laatste betreden informatie. De details van het beleid omvatten gebruiker van een beleid (productprofiel), groep, ontwikkelaar, integratie en admin lijst, evenals gedetailleerde toestemming en middelinformatie voor het beleid. (**Opmerking:** Gebruiker- en productbeheer is geconfigureerd in de [Admin Console](admin-getting-started.md).)
+Beheerders kunnen een sorteerbare en filterbare lijst met alle gebruikers en beleidsregels van de Experience Cloud weergeven met gegevens in het hulpmiddel Admin. De details van de gebruiker omvatten de het producttoegang van een gebruiker, rollen, en laatste betreden informatie. De details van het beleid omvatten gebruiker van een beleid (productprofiel), groep, ontwikkelaar, integratie en admin lijst, evenals gedetailleerde toestemming en middelinformatie voor het beleid.
+
+>[!NOTE]
+>
+>Gebruiker- en productbeheer wordt geconfigureerd in de [Admin Console](admin-getting-started.md).
 
 1. Aanmelden bij `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. Klik in het startpunt van de Experience Cloud op **[!UICONTROL Admin Tool.]**
+1. Onder [!UICONTROL Quick Access]klikt u op **[!UICONTROL Admin Tool.]**
 
    (U kunt _home_ ook vervangen door _admin in de URL van de homepage._)
 
@@ -65,7 +69,7 @@ Klik op het e-mailbericht van de gebruiker om de gegevens van de gebruiker op de
 
 Een gedetailleerde mening van elke gebruiker toont belangrijke details over de de oplossingstoegang van de gebruiker, admin en productrollen, en laatste betreden informatie.
 
-## Info over Sectie
+## Info
 
 In deze sectie wordt een overzicht van de gebruikersaccount weergegeven, waaronder:
 
@@ -81,7 +85,7 @@ In deze sectie wordt een overzicht van de gebruikersaccount weergegeven, waarond
 
 In deze sectie wordt een overzicht weergegeven van de Experience Cloud-oplossingen waartoe de gebruiker toegang heeft. Bevat, indien van toepassing, de administratieve rol van het product.
 
-## Lijst met gedetailleerde producttoegang
+## Gedetailleerde lijst met producttoegang
 
 In deze sectie wordt een volledige lijst weergegeven met alle productprofielen die zijn toegewezen aan de gebruiker.
 
@@ -96,6 +100,8 @@ In deze sectie wordt een volledige lijst weergegeven met alle productprofielen d
 ## Pagina Beleid
 
 Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw organisatie weergegeven. Het verstrekt informatie over producten, instanties, gebruikers, en ontwikkelaars. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de lijst met beleidsregels.
+
+![](assets/admin-tool-policies.png)
 
 | Element | Beschrijving |
 |---|---|
@@ -122,7 +128,14 @@ U kunt de kolommen zoeken, sorteren of filteren om de lijst met beleidsregels aa
 
 Klik op de naam van het productprofiel op de [!UICONTROL Policies] pagina om de details van een beleid weer te geven.
 
-Een gedetailleerde weergave van elk productprofiel geeft belangrijke details weer over de onderwerpen van het productprofiel (gebruikers, groepen, enz.) en de machtigingen en bronnen die door het productprofiel worden ingeschakeld.  Details van het productprofiel kunnen worden geëxporteerd naar CSV-bestanden.  Met deze [!UICONTROL Export CSV] optie worden twee CSV-bestanden gemaakt: Onderwerpdetails (Gebruikers, Gebruikersgroepen, Ontwikkelaars, Integraties, Beheerders) en de punten van Toestemmingen en van Middelen.
+![](assets/admin-tool-policy-detail.png)
+
+Een gedetailleerde weergave van elk productprofiel geeft belangrijke details weer over de onderwerpen van het productprofiel (gebruikers, groepen, enzovoort). Ook worden machtigingen en bronnen weergegeven die door het productprofiel zijn ingeschakeld.
+
+Details van het productprofiel kunnen worden geëxporteerd naar CSV-bestanden. De [!UICONTROL Export CSV] optie produceert twee CSV-bestanden:
+
+* Onderwerpdetails (gebruikers, gebruikersgroepen, ontwikkelaars, integratie, beheerders)
+* Machtigingen en middelen
 
 ## Samenvattingssectie
 
@@ -135,8 +148,7 @@ In deze sectie wordt een samenvatting van het productprofiel weergegeven, waaron
 * Bijbehorende producten
 * Instantie
 
-
-## Gedetailleerde onderwerplijst
+## Gedetailleerde onderwerpenlijst
 
 Deze sectie toont een volledige lijst van alle gebruikers, gebruikersgroepen, ontwikkelaars, integraties, en beheerders die aan het productprofiel worden toegewezen.
 
@@ -148,7 +160,6 @@ Deze sectie toont een volledige lijst van alle gebruikers, gebruikersgroepen, on
 | [!UICONTROL Integrations] | Lijst met integraties die aan het productprofiel zijn gekoppeld. |
 | [!UICONTROL Administrators] | Lijst met beheerders die zijn gekoppeld aan het productprofiel. |
 
-## Gedetailleerde machtigings- en bronnenlijsten
+## Gedetailleerde lijsten met machtigingen en bronnen
 
-In deze sectie wordt een volledige lijst weergegeven met rechten en bronnen die beschikbaar zijn voor het productprofiel. Machtigingen en bronnen die in het productprofiel zijn opgenomen, zijn gemarkeerd met een ✔.  De lijsten met machtigingen en bronnen zijn ingedeeld in tabbladen en kolommen voor een betere weergave.  Tabs en kolommen geven de lijst met secties weer die van toepassing zijn op het huidige product.
-
+In deze sectie wordt een volledige lijst weergegeven met rechten en bronnen die beschikbaar zijn voor het productprofiel. Machtigingen en bronnen die in het productprofiel zijn opgenomen, zijn gemarkeerd met een ✔. De lijsten met machtigingen en bronnen zijn ingedeeld in tabbladen en kolommen voor een betere weergave. Tabs en kolommen geven de lijst met secties weer die van toepassing zijn op het huidige product.
