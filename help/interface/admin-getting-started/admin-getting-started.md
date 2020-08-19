@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gebruikers en producten van Experience Cloud beheren
 index: true
 translation-type: tm+mt
-source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 6%
@@ -71,7 +71,7 @@ Bijvoorbeeld in Analytics, kunt u een inzameling van rapporteringshulpmiddelen, 
 
 [Beperkte beheerrechten delegeren](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
 
-## Analytics {#section_97DE101F92CD494AB073893680992F1A}
+## Analytics{#section_97DE101F92CD494AB073893680992F1A} 
 
 De gebruikers- en productmachtigingen voor Analytics beheren in de Admin Console.
 
@@ -94,6 +94,7 @@ Na de migratie melden gebruikers zich aan met hun Adobe ID (of Enterprise ID) en
 In Adobe Target is een werkruimte een productprofiel. Het laat een organisatie een specifieke reeks gebruikers aan een specifieke reeks eigenschappen toewijzen. In veel opzichten is een werkruimte vergelijkbaar met een rapportsuite in Adobe Analytics.
 
 Zie:
+
 * [Machtigingen voor zakelijke gebruikers](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Producten en profielen beheren](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * Video: [Adobe Target-werkruimten configureren in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
@@ -196,6 +197,6 @@ Ondersteunde browsers in de Experience Cloud.
 
 ### Oplossing en productvereisten
 
-* [Analytics](https://docs.adobe.com/content/help/nl-NL/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/nl-NL/analytics/admin/sys-reqs.html) 
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/nl-NL/target/using/implement-target/before-implement/supported-browsers.html)
