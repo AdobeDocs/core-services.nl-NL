@@ -8,7 +8,7 @@ title: Eerste cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
+source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Met het Adobe Managed Certificate-programma kunt u zonder extra kosten een nieuw
 
 Hieronder wordt beschreven hoe u een nieuw SSL-certificaat van de eerste partij voor cookies van de eerste partij implementeert:
 
-1. Vul het aanvraagformulier [voor cookies van de](/help/interface/cookies/assets/FPC_Request_Form.xlsx) eerste partij in en open een ticket met de klantenservice waarin u wordt gevraagd cookies van de eerste partij in te stellen op het door Adobe beheerde programma. Elk veld wordt in het document met voorbeelden beschreven.
+1. Vul het aanvraagformulier [voor cookies van de](/help/interface/cookies/assets/FPC_Request_Form.xlsx) eerste partij in en open een ticket met de klantenservice met het verzoek cookies van de eerste partij in te stellen op het door Adobe beheerde programma. Elk veld wordt in het document met voorbeelden beschreven.
 
 1. CNAME-records maken (zie onderstaande instructies).
 
@@ -110,7 +110,7 @@ Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, kunt u de 
 
 ### Valideren met [!DNL curl]
 
-Adobe raadt u aan [!DNL [krullen](https://curl.haxx.se/)] vanaf de opdrachtregel te gebruiken. ([!DNL Windows] gebruikers kunnen installeren [!DNL curl] vanaf: <https://curl.haxx.se/windows/>)
+Adobe raadt u aan [[!DNL curl]](https://curl.haxx.se/) te gebruiken vanaf de opdrachtregel. ([!DNL Windows] gebruikers kunnen installeren [!DNL curl] vanaf: <https://curl.haxx.se/windows/>)
 
 Als u een CNAME hebt maar geen certificaat is geïnstalleerd, voert u het volgende uit:
 `curl -k https://sstats.adobe.com/_check`
