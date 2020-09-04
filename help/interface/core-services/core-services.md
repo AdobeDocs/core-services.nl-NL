@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Laat uw oplossingen voor de kerndiensten toe
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
 source-wordcount: '2312'
 ht-degree: 2%
@@ -126,7 +126,7 @@ Neem contact op met de klantenservice om historische gegevens in te schakelen.
 
 ## Stap 3. Rapportsuites toewijzen aan een Experience Cloud-organisatie {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
-De diensten van Experience Cloud (zoals de Dienst van Experience Cloud ID en [!UICONTROL People service]) worden geassocieerd met een organisatie van Experience Cloud in plaats van een individuele het rapportreeks van Analytics. Om ervoor te zorgen dat deze diensten correct werken, moet elke het rapportreeks van Analytics aan een organisatie van Experience Cloud worden in kaart gebracht.
+De diensten van Experience Cloud (zoals de Dienst van Experience Cloud ID en [!UICONTROL People service]) worden geassocieerd met een organisatie van Experience Cloud in plaats van een individuele het rapportreeks van Analytics. Om ervoor te zorgen dat deze diensten correct werken, moet elke het rapportreeks van Analytics aan een organisatie van de Experience Cloud worden in kaart gebracht.
 
 See [Map report suites to an organization](report-suite-mapping.md).
 
@@ -136,7 +136,7 @@ Controleer of u regionale gegevensverzameling (RDC) gebruikt. Als uw gegevensver
 
 U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScript-bibliotheken bij te werken, inclusief de API voor bezoekers. De eenvoudige manier om dit te verwezenlijken is een [!DNL Adobe Analytics] hulpmiddel in Dynamisch Beheer van de Markering toe te voegen, die *`Automatic`* als configuratiemethode specificeert.
 
-Klik [!UICONTROL Dynamic Tag Management]op **[!UICONTROL <Web Property Name>]**>**[!UICONTROL Overview]**>**[!UICONTROL Add a Tool]**>**[!UICONTROL Adobe Analytics]**. Zie[Adobe Analytics Settings](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)in Dynamic Tag Management voor informatie over de implementatie.
+Klik [!UICONTROL Dynamic Tag Management]in **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Zie [Adobe Analytics Settings](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) in Dynamic Tag Management voor informatie over de implementatie.
 
 ## Stap 5. (Adobe Target) De Adobe Target-implementatie bijwerken {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
