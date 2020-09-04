@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Een bron voor klantkenmerken maken en het gegevensbestand uploaden
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
 source-wordcount: '1121'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Nadat de gegevensbron actief is, kunt u:
 
 >[!IMPORTANT]
 >
->Om toegang te krijgen tot deze functie, moeten gebruikers worden toegewezen aan het productprofiel Klantkenmerken (Klantkenmerken - Standaardtoegang). Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Als *Klantkenmerken* als een van de [!UICONTROL Product Profiles]kenmerken worden weergegeven, kunt u beginnen. Gebruikers die aan de groep Klantkenmerken zijn toegevoegd, zien het [!UICONTROL Customer Attributes] menu links in de interface Experience Cloud.
+>Om toegang te krijgen tot deze functie, moeten gebruikers worden toegewezen aan het productprofiel Klantkenmerken (Klantkenmerken - Standaardtoegang. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Als *Klantkenmerken* als een van de [!UICONTROL Product Profiles]kenmerken worden weergegeven, kunt u beginnen. De gebruikers die aan de groep van Attributen van de Klant worden toegevoegd zullen het [!UICONTROL Customer Attributes] menu op de linkerkant van de interface van de Experience Cloud zien.
 >
 >Om de eigenschap van de Attributen van de Klant te gebruiken, moeten de gebruikers tot oplossing-vlakke groepen (Analytics of [!DNL Target]) ook behoren.
 
@@ -45,7 +45,7 @@ See [Manage Experience Cloud users and products](../admin-getting-started/admin-
 
 Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen abonneegegevens voor producten bevatten, waaronder id&#39;s van leden, producten met de naam, de meest gestarte producten enzovoort.
 
-1. Maak een `.csv`.
+1. Create a `.csv`.
 
    >[!NOTE]
    >
@@ -60,32 +60,32 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 
 ## De kenmerkbron maken en het gegevensbestand uploaden {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Cloud van de Ervaring uit.
+Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Experience Cloud uit.
 
 >[!IMPORTANT]
 >
->Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de klantenattributen, is er een vertraging van maximaal één uur alvorens IDs begint synchroniserend met de nieuwe gegevensbron. U moet administratieve rechten in de Manager van de Publiek hebben om de bronnen van de klantenattributen tot stand te brengen of te wijzigen. Neem contact op met de klantenservice of het advies van de Audience Manager om beheerrechten te verkrijgen.
+>Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de klantenattributen, is er een vertraging van maximaal één uur alvorens IDs begint synchroniserend met de nieuwe gegevensbron. U moet administratieve rechten in Audience Manager hebben om de bronnen van de klantenattributen tot stand te brengen of te wijzigen. Neem contact op met de klantenservice of de Audience Manager voor advies om beheerrechten te verkrijgen.
 
 1. Klik in het [!DNL Experience Cloud]deelvenster op het ![](assets/menu-icon.png) pictogram Menu.
 1. Klik onder **[!DNL Experience Platform]** op **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
-   Op de [!UICONTROL Customer Attributes] pagina kunt u bestaande bronnen met kenmerkgegevens beheren en bewerken.
+   Op de [!UICONTROL Customer Attributes] pagina kunt u bestaande bronnen van kenmerkgegevens beheren en bewerken.
 
-   ![Stap resultaat](assets/03_crs_usecase.png)
+   ![Stap Resultaat](assets/03_crs_usecase.png)
 1. Klik op **[!UICONTROL New]**.
 
-   ![Stap resultaat](assets/04_crs_usecase.png)
+   ![Stap Resultaat](assets/04_crs_usecase.png)
 1. Configureer op de [!UICONTROL Edit Customer Attribute Source] pagina de volgende velden:
 
    * **[!UICONTROL Name:]** Een vriendelijke naam voor de bron van het gegevenskenmerk. Kenmerknamen mogen bijvoorbeeld geen spaties bevatten. [!DNL Adobe Target] Wanneer een kenmerk met een spatie wordt doorgegeven, wordt dit [!DNL Target] genegeerd. Andere tekens worden niet ondersteund: `< , >, ', "`.
 
    * **[!UICONTROL Description:]** (Optioneel) Een beschrijving van de bron van het gegevenskenmerk.
 
-   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de klanteneigenschap, zoals een specifiek systeem van CRM. Een unieke id die wordt gebruikt in de broncode van het kenmerk Klant. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die wordt ingevoerd in het veld Alias-id voor een bron van klantkenmerken in de gebruikersinterface van de Experience Cloud moet overeenkomen met de waarden die worden doorgegeven vanuit de implementatie (via dynamisch tagbeheer of JavaScript van de Mobile SDK.)
+   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de klanteneigenschap, zoals een specifiek systeem van CRM. Een unieke id die wordt gebruikt in de broncode van het kenmerk Klant. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die is ingevoerd in het veld Alias-id voor een bron van klantkenmerken in de gebruikersinterface van Experience Cloud moet overeenkomen met de waarden die worden doorgegeven vanuit de implementatie (via dynamisch tagbeheer of JavaScript van de mobiele SDK.)
 
       De alias-id komt overeen met bepaalde gebieden waar u extra waarden voor de klant-id instelt. Bijvoorbeeld:
 
-      * **Dynamisch tagbeheer:** De Alias-id komt overeen met de waarde voor *Integratiecode* onder [!UICONTROL Customer Settings], in het [Experience Cloud ID-hulpprogramma](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) .
+      * **Dynamisch tagbeheer:** Alias ID beantwoordt aan de waarde van de Code *van de* Integratie onder [!UICONTROL Customer Settings], in het hulpmiddel van de Dienst [van](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) Experience Cloud ID.
 
       * **Bezoeker-API:** De Alias-id komt overeen met de extra [klant-id&#39;s](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) die u aan elke bezoeker kunt koppelen.
 
@@ -95,13 +95,13 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Clo
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** De alias-id komt overeen met *&quot;idType&quot;* in [bezoekerSyncIdentifiers:IDs](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+      * **iOS:** De alias-id komt overeen met *&quot;idType&quot;* in [bezoekerSyncIdentifiers:IDs](https://docs.adobe.com/content/help/nl-NL/mobile-services/ios/overview.html).
 
          Bijvoorbeeld:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** De alias-id komt overeen met *&quot;idType&quot;* in [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
+      * **Android:** De alias-id komt overeen met *&quot;idType&quot;* in [syncIdentifiers](https://docs.adobe.com/content/help/nl-NL/mobile-services/android/overview.html).
 
          Bijvoorbeeld:
 
@@ -123,9 +123,9 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Clo
 
    * **[!UICONTROL Unique Customer ID:]** Hiermee geeft u weer hoeveel unieke id&#39;s u naar deze kenmerkbron hebt geüpload.
 
-   * **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Hiermee geeft u weer hoeveel id&#39;s zijn aliased voor Experience Cloud Visitor-id&#39;s.
+   * **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Hiermee wordt weergegeven hoeveel id&#39;s zijn aliased aan Experience Cloud-bezoeker-id&#39;s.
 
-   * **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Geeft het aantal door de klant geleverde id&#39;s weer met 500 of meer Aliased Experience Cloud Visitor-id&#39;s. Deze door de klant opgegeven id&#39;s vertegenwoordigen hoogstwaarschijnlijk geen personen, maar een soort gedeelde aanmelding. Het systeem verdeelt de attributen verbonden aan deze IDs aan 500 meest recente aliased Ervaring Cloud Bezoeker IDs, tot het aliasaantal 10.000 bereikt. Op dat moment maakt het systeem de door de klant opgegeven id ongeldig en worden de bijbehorende kenmerken niet meer gedistribueerd.
+   * **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Geeft het aantal door de klant opgegeven id&#39;s weer met 500 of meer aliased Experience Cloud Bezoeker-id&#39;s. Deze door de klant opgegeven id&#39;s vertegenwoordigen hoogstwaarschijnlijk geen personen, maar een soort gedeelde aanmelding. Het systeem verdeelt de attributen verbonden aan deze IDs aan 500 meest recente aliased Experience Cloud Bezoeker IDs, tot de aliastelling 10.000 bereikt. Op dat moment maakt het systeem de door de klant opgegeven id ongeldig en worden de bijbehorende kenmerken niet meer gedistribueerd.
 
 
 
@@ -146,7 +146,7 @@ Hoe te om attributen te schrappen en attributen in het schema te vervangen.
 
 ## Abonnementen configureren en kenmerkbron activeren {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-Als u een abonnement configureert, wordt de gegevensstroom ingesteld tussen de Experience Cloud en de oplossingen. Door de kenmerkbron te activeren, kunnen de gegevens naar ingetekende oplossingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
+Als u een abonnement configureert, wordt de gegevensstroom tussen de Experience Cloud en de oplossingen ingesteld. Door de kenmerkbron te activeren, kunnen de gegevens naar ingetekende oplossingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
 
 Zie Abonnementen [configureren](../attributes/subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -154,20 +154,17 @@ Zie Abonnementen [configureren](../attributes/subscription.md#concept_ECA3C44FA6
 
 Zoek op de pagina [!UICONTROL Create New [or Edit] Customer Attribute Source] de [!UICONTROL Activate] kop en klik op **[!UICONTROL Active]**.
 
-![Stap resultaat](assets/activate_attribute_source.png)
+![Stap Resultaat](assets/activate_attribute_source.png)
 
 ## Klantkenmerken gebruiken in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Met de gegevens die nu beschikbaar zijn in oplossingen zoals
-<keyword>
-Adobe Analytics
-</keyword>kunt u de gegevens rapporteren, analyseren en de juiste actie ondernemen in uw marketingcampagnes.
+Met de gegevens die nu beschikbaar zijn in oplossingen als Adobe Analytics, kunt u de gegevens rapporteren, analyseren en de juiste actie ondernemen in uw marketingcampagnes.
 
-In het volgende voorbeeld wordt een [!DNL Analytics] segment weergegeven op basis van de geüploade kenmerken. Dit segment toont [!DNL Photoshop Lightroom] abonnees van wie het meest-gelanceerde product Photoshop is.
+In het volgende voorbeeld wordt een [!DNL Analytics] segment weergegeven op basis van de geüploade kenmerken. Dit segment toont [!DNL Photoshop Lightroom] abonnees van wie het meest gestarte product Photoshop is.
 
 ![](assets/08_crs_usecase.png)
 
-Wanneer u een segment publiceert naar de Experience Cloud, wordt het beschikbaar in Experience Cloud Audiences en Audience Manager.
+Wanneer u een segment aan de Experience Cloud publiceert, wordt het beschikbaar in het Publiek van de Experience Cloud en Audience Manager.
 
 Zie Rapport [Klantkenmerken](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in Analytics Help voor meer informatie.
 
