@@ -1,15 +1,15 @@
 ---
-description: Als u niet uploadt via slepen en neerzetten, kunt u klantkenmerkgegevens uploaden via FTP naar de Experience Cloud.
+description: Als u niet uploadt met slepen en neerzetten, kunt u klantkenmerkgegevens via FTP uploaden naar de Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Als u niet uploadt via slepen en neerzetten, kunt u klantkenmerkgegevens uploaden via FTP naar de Experience Cloud.
+seo-description: Als u niet uploadt met slepen en neerzetten, kunt u klantkenmerkgegevens via FTP uploaden naar de Experience Cloud.
 seo-title: Optioneel - Het gegevensbestand uploaden via FTP
 solution: Experience Cloud
 title: Optioneel - Het gegevensbestand uploaden via FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Optioneel - Het gegevensbestand uploaden via FTP
 
-Als u niet uploadt via slepen en neerzetten, kunt u klantkenmerkgegevens uploaden via FTP naar de Experience Cloud.
+Als u niet uploadt met slepen en neerzetten, kunt u klantkenmerkgegevens via FTP uploaden naar de Experience Cloud.
 
-U kunt de gegevens uploaden nadat u een bron voor klantkenmerken en een FTP-account hebt gemaakt in de Experience Cloud. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten een `.csv` indeling hebben, met een tweede `.fin` bestand dat aangeeft dat het uploaden is voltooid.
+U kunt de gegevens uploaden nadat u een bron voor klantkenmerken en een FTP-account in de Experience Cloud hebt gemaakt. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten een `.csv` indeling hebben, met een tweede `.fin` bestand dat aangeeft dat het uploaden is voltooid.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Het uploaden van bestanden naar de FTP-site met klantkenmerken kan worden uitgev
 
 1. [Een bron voor klantkenmerken maken en het gegevensbestand uploaden...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   Controleer of u bent aangemeld bij uw FTP-site op [!DNL ftp.adobe.com/<sftpname>].
+   Controleer of u bent aangemeld bij uw FTP-site op `ftp.adobe.com/<sftpname>`.
 
 1. Klik op **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
