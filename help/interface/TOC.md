@@ -1,12 +1,12 @@
 ---
 audience: end-user
-user-guide-title: Handboek Experience Cloud Interface
+user-guide-title: Experience Cloud Interface Guide
 breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 12%
@@ -58,8 +58,8 @@ ht-degree: 12%
    + [Middelen uploaden naar een gedeelde map vanaf het bureaublad Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Vereisten voor het delen van elementbestanden](experience-cloud-assets/assets-file-reqs.md)
    + [Gedrag van gedeelde mappen](experience-cloud-assets/asset-behavior.md)
-+ Soorten publiek in Experience Cloud {#audiences}
-   + [Overzicht van soorten publiek](audience-library/audience-library.md)
++ Experience Cloud Audiences {#audiences}
+   + [Overzicht van publiek Experience Cloud](audience-library/audience-library.md)
    + [Een doelgroep maken](audience-library/t-audience-create.md)
    + [Een publiekssegment Analytics publiceren](audience-library/t-publish-audience-segment.md)
 + Klantkenmerken in Experience Cloud {#customer-attributes}
