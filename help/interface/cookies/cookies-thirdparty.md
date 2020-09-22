@@ -1,23 +1,23 @@
 ---
-description: Aangezien de ondersteuning voor cookies van derden steeds beperkter is geworden in verschillende browsers, werkt Adobe aan nieuwe oplossingen die de vereisten van klanten zorgvuldig afstemmen op het recht van de consument op privacy in de Adobe Experience Cloud-oplossingen.
+description: Aangezien de ondersteuning voor cookies van derden steeds beperkter is geworden in verschillende browsers, heeft Adobe gewerkt aan nieuwe oplossingen die de vereisten van de klant zorgvuldig afstemmen op het recht van de consument op privacy in alle Adobe Experience Cloud-oplossingen.
 keywords: cookies;privacy
-seo-description: Aangezien de ondersteuning voor cookies van derden steeds beperkter is geworden in verschillende browsers, werkt Adobe aan nieuwe oplossingen die de vereisten van klanten zorgvuldig afstemmen op het recht van de consument op privacy in de Adobe Experience Cloud-oplossingen.
+seo-description: Aangezien de ondersteuning voor cookies van derden steeds beperkter is geworden in verschillende browsers, heeft Adobe gewerkt aan nieuwe oplossingen die de vereisten van de klant zorgvuldig afstemmen op het recht van de consument op privacy in alle Adobe Experience Cloud-oplossingen.
 seo-title: Hoe de veranderingen in de Steun van de Koekjesindustrie van de Derde Klanten beïnvloeden
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Hoe de veranderingen in de Steun van de Koekjesindustrie van de Derde Klanten beïnvloeden
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 # Hoe de veranderingen in derdekoekjessteun klanten beïnvloeden{#how-changes-to-third-party-cookie-support-impacts-customers}
 
-Aangezien de ondersteuning voor cookies van derden steeds beperkter is geworden in verschillende browsers, werkt Adobe aan nieuwe oplossingen die de vereisten van klanten zorgvuldig afstemmen op het recht van de consument op privacy in de Adobe Experience Cloud-oplossingen.
+Aangezien de ondersteuning voor cookies van derden steeds beperkter is geworden in verschillende browsers, heeft Adobe gewerkt aan nieuwe oplossingen die de vereisten van de klant zorgvuldig afstemmen op het recht van de consument op privacy in alle Adobe Experience Cloud-oplossingen.
 
 In de volgende lijst ziet u hoe de cookie-ondersteuning van derden de huidige implementaties van de Adobe Experience Cloud-oplossingen beïnvloedt:
 
@@ -28,7 +28,7 @@ In de volgende lijst ziet u hoe de cookie-ondersteuning van derden de huidige im
 
 ## Adobe Experience Manager
 
-* Omdat Adobe Experience Manager volledig binnen het domein van de klant werkt, is er minimale interactie met derdekoekjes en zo minimaal aan geen effect.
+* Omdat Adobe Experience Manager volledig binnen het domein van de klant werkt, is er minimale interactie met derdekoekjes en zo minimaal tot geen effect.
 
 ## Adobe Social
 
