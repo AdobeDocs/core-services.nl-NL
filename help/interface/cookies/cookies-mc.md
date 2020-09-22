@@ -1,20 +1,23 @@
 ---
-description: Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt gebruikt in Experience Cloud Solutions.
+description: Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt gebruikt in de verschillende Experience Cloud-oplossingen.
 keywords: cookies;privacy
-seo-description: Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt gebruikt in Experience Cloud Solutions.
-seo-title: Ervaar Cloud Cookies
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
-title: Ervaar Cloud Cookies
+seo-description: Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt gebruikt in de verschillende Experience Cloud-oplossingen.
+seo-title: Experience Cloud Cookies
+solution: Experience Cloud,Analytics,Target
+title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 7%
 
 ---
 
 
-# Ervaar Cloud Cookies{#experience-cloud-cookies}
+# Experience Cloud Cookies{#experience-cloud-cookies}
 
-Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt gebruikt in Experience Cloud Solutions.
+Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt gebruikt in de verschillende Experience Cloud-oplossingen.
 
 **Naam cookie: s_ecid**
 
@@ -28,7 +31,7 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p> Bevat een kopie van de Experience Cloud ID (ECID) of MID. MID wordt opgeslagen in een sleutelwaardepaar dat deze syntaxis volgt, s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Bevat een kopie van de Experience Cloud-id (ECID) of MID. MID wordt opgeslagen in een sleutelwaardepaar dat deze syntaxis volgt, s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Verlopen </p> </td> 
@@ -51,9 +54,9 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt
 
 **Naam cookie: AMCV_##@AdobeOrg**
 
-De id-service [van het](https://docs.adobe.com/content/help/en/id-service/using/home.html) ervaringsplatform gebruikt JavaScript om een unieke bezoekersidentiteitskaart op te slaan in een `AMCV_###@AdobeOrg` cookie op het domein van de huidige website, waar `###` een willekeurige tekenreeks wordt weergegeven, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+De [Experience Platform-id-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) gebruikt JavaScript om een unieke bezoeker-id op te slaan in een `AMCV_###@AdobeOrg` cookie op het domein van de huidige website, waarbij `###` een willekeurige tekenreeks wordt weergegeven, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Zie ook [Cookies en de Dienst](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)van identiteitskaart.
+Zie ook [Cookies en de Dienst](https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html)van identiteitskaart.
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
