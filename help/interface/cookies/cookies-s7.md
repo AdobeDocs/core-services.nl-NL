@@ -1,27 +1,30 @@
 ---
-description: Scene7 gebruikt koekjes om nuttige informatie op te slaan die aan levering dynamische media aan browser kan worden gebruikt.
+description: Scene7 gebruikt cookies om nuttige informatie op te slaan die kan worden gebruikt om dynamische media naar de browser te verzenden.
 keywords: cookies;privacy
-seo-description: Scene7 gebruikt koekjes om nuttige informatie op te slaan die aan levering dynamische media aan browser kan worden gebruikt.
+seo-description: Scene7 gebruikt cookies om nuttige informatie op te slaan die kan worden gebruikt om dynamische media naar de browser te verzenden.
 seo-title: Scene7 Cookies
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Scene7 Cookies
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 0%
 
 ---
 
 
 # Scene7 Cookies{#scene-cookies}
 
-Scene7 gebruikt koekjes om nuttige informatie op te slaan die aan levering dynamische media aan browser kan worden gebruikt.
+Scene7 gebruikt cookies om nuttige informatie op te slaan die kan worden gebruikt om dynamische media naar de browser te verzenden.
 
-Scene7 slaat plaatselijk informatie voor sommige oudere AS2 op flits gebaseerde kijkers op.
+Scene7 slaat informatie lokaal op voor sommige oudere, op AS2 Flash gebaseerde viewers.
 
 Voor AS2-viewers, cookies:
 
 * De sessiestatus van een gebruiker bijhouden, zoals de huidige pagina en de weergegeven afbeelding, het huidige zoomniveau enzovoort.
-* Bepaal hoe lang het sinds de vorige zitting van de gebruiker is geweest. De viewer gebruikt deze informatie om te beslissen of een vorige sessie moet worden voortgezet of dat een nieuwe sessie moet worden gestart. Deze informatie wordt ook verzonden naar de servers Scene7, maar dat wordt niet gebruikt.
+* Bepaal hoe lang het sinds de vorige zitting van de gebruiker is geweest. De viewer gebruikt deze informatie om te beslissen of een vorige sessie moet worden voortgezet of dat een nieuwe sessie moet worden gestart. Deze informatie wordt ook naar de Scene7-servers verzonden, maar dat wordt niet gebruikt.
 
 Voor AS2 Flash eCatalog-viewer, cookies:
 
@@ -35,7 +38,7 @@ De nieuwere AS3-viewers implementeren sessieresistentie niet.
 | Kenmerk | Beschrijving |
 |---|---|
 | Opgeslagen informatie | Stelt het sessiecookie in. AuthFilter ingebed in IPS ImageServer (IS, IR, en ook SWFs/skins en videocontexten) gebruikt het koekje voor toegangsvergunning. Indien aanwezig, staat het HTTP- verzoeken toe om door te gaan. Anders wordt onbevoegd geretourneerd. |
-| Verlopen | Dit cookie is een sessiecookie. De huidige zittingsafloop wordt geplaatst aan 45 minuten in Scene7 IPS [!DNL web.xml]. |
+| Verlopen | Dit cookie is een sessiecookie. De huidige sessievervaldatum wordt ingesteld op 45 minuten in Scene7 IPS [!DNL web.xml]. |
 
 **Naam cookie: s7js.flyout.InfoMessage.displayed`assetId`.state**
 
