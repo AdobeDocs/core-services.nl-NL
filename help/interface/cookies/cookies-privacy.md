@@ -1,28 +1,31 @@
 ---
-description: De privacy van klanten en gegevensbeveiliging blijven de belangrijkste prioriteiten van Adobe. Adobe neemt deel aan meerdere privacyorganisaties en werkt samen met privacyregulatoren en zelfreguleringsbeginselen (zoals het Digital Advertising Alliance AdChoices-programma) om klanten informatie te bieden over hoe hun informatie wordt gebruikt en over het gebruik ervan.
+description: Het handhaven van klantenprivacy en gegevensveiligheid zijn hoogste prioriteiten bij Adobe. Adobe neemt deel aan meerdere privacyorganisaties en werkt samen met privacytoezichthouders en zelfreguleringsbeginselen (zoals het Digital Advertising Alliance AdChoices-programma) om klanten informatie te geven over hoe hun informatie wordt gebruikt en over het gebruik ervan.
 keywords: cookies;privacy
-seo-description: De privacy van klanten en gegevensbeveiliging blijven de belangrijkste prioriteiten van Adobe. Adobe neemt deel aan meerdere privacyorganisaties en werkt samen met privacyregulatoren en zelfreguleringsbeginselen (zoals het Digital Advertising Alliance AdChoices-programma) om klanten informatie te bieden over hoe hun informatie wordt gebruikt en over het gebruik ervan.
+seo-description: Het handhaven van klantenprivacy en gegevensveiligheid zijn hoogste prioriteiten bij Adobe. Adobe neemt deel aan meerdere privacyorganisaties en werkt samen met privacytoezichthouders en zelfreguleringsbeginselen (zoals het Digital Advertising Alliance AdChoices-programma) om klanten informatie te geven over hoe hun informatie wordt gebruikt en over het gebruik ervan.
 seo-title: Informatie over cookies en privacy
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Informatie over cookies en privacy
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 0%
 
 ---
 
 
 # Informatie over cookies en privacy{#about-cookies-and-privacy}
 
-De privacy van klanten en gegevensbeveiliging blijven de belangrijkste prioriteiten van Adobe. Adobe neemt deel aan meerdere privacyorganisaties en werkt samen met privacyregulatoren en zelfreguleringsbeginselen (zoals het Digital Advertising Alliance AdChoices-programma) om klanten informatie te bieden over hoe hun informatie wordt gebruikt en over het gebruik ervan.
+Het handhaven van klantenprivacy en gegevensveiligheid zijn hoogste prioriteiten bij Adobe. Adobe neemt deel aan meerdere privacyorganisaties en werkt samen met privacytoezichthouders en zelfreguleringsbeginselen (zoals het Digital Advertising Alliance AdChoices-programma) om klanten informatie te geven over hoe hun informatie wordt gebruikt en over het gebruik ervan.
 
-De meeste cookies die zijn ingesteld door Experience Cloud bevatten geen persoonlijk identificeerbare informatie. Deze cookies en bijbehorende gegevens zijn beveiligd en worden alleen gebruikt voor bedrijfsrapporten en voor relevante inhoud en advertenties. De gegevens zijn niet beschikbaar voor derden of andere Adobe-klanten, tenzij deze worden gebruikt in geaggregeerde brancherapporten. Zo worden bijvoorbeeld geaggregeerde en anonieme gegevens [!DNL Digital Marketing Insight Report] geanalyseerd in de detailhandel.
+De meeste cookies die door Experience Cloud-producten worden ingesteld, bevatten geen persoonlijk identificeerbare informatie. Deze cookies en bijbehorende gegevens zijn beveiligd en worden alleen gebruikt voor bedrijfsrapporten en voor relevante inhoud en advertenties. De gegevens zijn niet beschikbaar voor derden of andere klanten van de Adobe, tenzij ze in geaggregeerde industrieverslagen worden gebruikt. Zo worden bijvoorbeeld geaggregeerde en anonieme gegevens [!DNL Digital Marketing Insight Report] geanalyseerd in de detailhandel.
 
-Adobe voegt geen informatie op browserniveau samen tussen bedrijven. Om de privacy en veiligheid van de gegevens van klanten te beschermen, bieden sommige diensten binnen de Cloud van de Ervaring bedrijven de capaciteit om een afzonderlijke reeks koekjes voor elke gevolgde plaats te gebruiken. Sommige van de aanbiedingen van de Reeks bieden klanten ook de capaciteit om hun eigen domeinnaam als eigenaar van het koekje te gebruiken. Met deze methode wordt een extra laag met privacy en beveiliging gemaakt, omdat de Experience Cloud-cookies *als eerste cookies* van de leverancier worden gemaakt die permanent bij de website van het bedrijf horen.
+Adobe voegt geen browser-vlakke informatie over bedrijven samen. Om de privacy en veiligheid van de gegevens van klanten te beschermen, bieden sommige diensten binnen de Experience Cloud bedrijven de capaciteit om een afzonderlijke reeks koekjes voor elke gevolgde plaats te gebruiken. Sommige van de aanbiedingen van de Reeks bieden klanten ook de capaciteit om hun eigen domeinnaam als eigenaar van het koekje te gebruiken. Deze praktijk leidt tot een extra laag van privacy en veiligheid, aangezien het de koekjes van de Experience Cloud maakt *eerste partij*, blijvend die tot de plaats van het bedrijf behoren.
 
 Cookies kunnen alleen de gegevens opslaan en verstrekken die eerder in de cookies zijn opgeslagen. Ze kunnen geen code uitvoeren of toegang krijgen tot andere informatie die op de computer is opgeslagen. Bovendien beperken webbrowsers de toegang tot cookiegegevens. Browsers voeren een beveiligingsbeleid voor cookies in dat alle gegevens van cookies alleen beschikbaar maakt voor de website die de informatie oorspronkelijk heeft ingesteld.
 
-Gegevens in cookies die zijn ingesteld op de website Adobe.com kunnen bijvoorbeeld niet worden bekeken door andere websites dan Adobe.com.
+Gegevens in cookies die zijn ingesteld vanaf de website Adobe.com kunnen bijvoorbeeld niet worden bekeken door andere websites dan Adobe.com.
 
 In het volgende diagram wordt het gebruik van cookies voor een standaardafbeeldingsaanvraag geïllustreerd:
 
