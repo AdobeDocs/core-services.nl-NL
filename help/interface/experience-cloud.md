@@ -7,9 +7,9 @@ solution: Adobe Experience Cloud
 title: Help bij Experience Cloud- en kernservices
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ De Experience Cloud is een geïntegreerde Adobe van digitale marketingoplossinge
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Deze handleiding bevat productdocumentatie voor gebruikers- en productbeheer in Experience Cloud, evenals klantkenmerken en Experience Cloud-publiek (Audience Library). De artikelen in deze handleiding omvatten:
+De Adobe Experience Cloud Administration Guide biedt hulp bij het beheer van Experience Cloud-gebruikers en -producten, de Audience Library, Customer Attributes en Experience Cloud-middelen. De artikelen in deze handleiding omvatten:
 
 * [[!UICONTROL Audience Library]](audience-library/audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes/attributes.md)
