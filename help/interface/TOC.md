@@ -1,22 +1,22 @@
 ---
-audience: end-user
-user-guide-title: Experience Cloud Interface Guide
-breadcrumb-title: Interface Guide
-user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and user and product management.
+audience: admin
+user-guide-title: Experience Cloud-beheer, publiek en klantkenmerken
+breadcrumb-title: Experience Cloud Administration Guide
+user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: dc1c43ddd5cf0328257cb559ac9706cfd004e631
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '362'
+ht-degree: 12%
 
 ---
 
 
-# Experience Cloud Interface Guide {#interface}
+# Experience Cloud-beheer, publiek en klantkenmerken {#interface}
 
-+ [Experience Cloud Interface Guide](experience-cloud.md)
++ [Experience Cloud Admin, Soorten publiek, en de Attributen van de Klant](experience-cloud.md)
 + Toepassingsdiensten in Experience Cloud {#about-core-services}
    + [Overzicht van toepassingsservices](core-services-landing.md)
    + [Uw implementatie voor services voor meerdere oplossingen inschakelen](core-services/core-services.md)
