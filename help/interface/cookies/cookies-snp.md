@@ -1,20 +1,23 @@
 ---
-description: Zoeken en promoten gebruikt cookies om de zoekintentie van bezoekers te begrijpen en hierop te anticiperen.
+description: Search&Promote gebruikt cookies om de zoekintentie van bezoekers te begrijpen en hierop te anticiperen.
 keywords: cookies;privacy
-seo-description: Zoeken en promoten gebruikt cookies om de zoekintentie van bezoekers te begrijpen en hierop te anticiperen.
+seo-description: Search&Promote gebruikt cookies om de zoekintentie van bezoekers te begrijpen en hierop te anticiperen.
 seo-title: Cookies zoeken en promoten
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Cookies zoeken en promoten
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 1%
 
 ---
 
 
 # Cookies zoeken en promoten{#search-and-promote-cookies}
 
-Zoeken en promoten gebruikt cookies om de zoekintentie van bezoekers te begrijpen en hierop te anticiperen.
+Search&amp;Promote gebruikt cookies om de zoekintentie van bezoekers te begrijpen en hierop te anticiperen.
 
 ## Naam cookie: vsrecentsearch {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -32,7 +35,7 @@ Zoeken en promoten gebruikt cookies om de zoekintentie van bezoekers te begrijpe
   </tr> 
   <tr> 
    <td colname="col1"> <p> Verlopen </p> </td> 
-   <td colname="col2"> <p>Configureerbaar in Zoeken&amp;Promoten (<span class="uicontrol"> Ontwerp</span> &gt; <span class="uicontrol"> Navigatie</span> &gt; <span class="uicontrol"> Recente zoekopdrachten</span>). U kunt de volgende opties voor het verlopen van cookies selecteren: </p> <p> 
+   <td colname="col2"> <p>Configureerbaar in Search&amp;Promote (<span class="uicontrol"> Ontwerp</span> &gt; <span class="uicontrol"> Navigatie</span> &gt; <span class="uicontrol"> Recente zoekopdrachten</span>). U kunt de volgende opties voor het verlopen van cookies selecteren: </p> <p> 
      <ul id="ul_28F564A6337D497699D5247F755981B8"> 
       <li id="li_6478BB5AF82341F787F92D03E277DBBB">Einde van sessie </li> 
       <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3 uur </li> 
