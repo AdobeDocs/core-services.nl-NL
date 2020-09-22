@@ -1,16 +1,16 @@
 ---
-description: Experience Cloud-triggers configureren.
+description: Hoe te om Experience Cloud Triggers te vormen.
 keywords: integrations;Triggers
-seo-description: Experience Cloud-triggers configureren.
+seo-description: Hoe te om Experience Cloud Triggers te vormen.
 seo-title: Triggers
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ Over het algemeen kan het 15 tot 90 minuten duren voordat een marketingcampagne 
 * **Handeling:** U kunt bijvoorbeeld triggers maken om na aanmelding voor nieuwsbrieven, e-mailabonnementen of aanvragen voor creditcards (bevestigingen) te activeren. Als u een detailhandelaar bent, kunt u een trekker voor een bezoeker tot stand brengen die zich voor een loyaliteitsprogramma ondertekent. In media en vermaak, creeer trekkers voor bezoekers die op een bepaalde show letten, en misschien wilt u met een onderzoek antwoorden.
 * **Begin en einde sessie:** Maak een trigger voor het starten en beëindigen van de sessie.
 
-## Een Experience Cloud-trigger maken {#task_821F37183AC045E5AC8EED20317598FE}
+## Create an Experience Cloud trigger {#task_821F37183AC045E5AC8EED20317598FE}
 
 Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbeeld de criteria voor de regels van een trigger tijdens een bezoek opgeven, zoals maateenheden zoals Kart Abandon of afmetingen zoals de productnaam. Wanneer aan de regels wordt voldaan, loopt de trekker.
 
@@ -43,7 +43,7 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
 >
 >Er bestaat momenteel een technische limiet van 100 triggers.
 
-1. Klik in de Experience Cloud ![](assets/menu-icon.png)en klik vervolgens op **[!UICONTROL Launch]**.
+1. Klik in de Experience Cloud op ![](assets/menu-icon.png)en klik vervolgens op **[!UICONTROL Launch]**.
 2. Zoek de [!UICONTROL Triggers] kaart en klik op **[!UICONTROL Manage Triggers]**.
 3. Klik **[!UICONTROL New Trigger]** en geef vervolgens het type trigger op:
 
@@ -55,7 +55,7 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
    |--- |--- |
    | Naam | De vriendelijke naam voor deze trigger. |
    | Beschrijving | De beschrijving van deze trigger, hoe u deze gaat gebruiken enzovoort. |
-   | Rapportsuite | De Analytics- [rapportsuite](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html) die voor deze trigger wordt gebruikt. Deze instelling identificeert de te gebruiken rapportgegevens. |
+   | Rapportsuite | De [rapportsuite](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html) Analytics die voor deze trigger wordt gebruikt. Deze instelling identificeert de te gebruiken rapportgegevens. |
    | Bezoek moet<br>includeVisit mag geen<br>includeTrigger zijn na geen<br>actionInclusief metagegevens | U kunt criteria of gedrag van bezoekers bepalen die u wilt voorkomen, en gedrag dat u niet wilt voorkomen.  De regels voor een eenvoudige activering van een winkelwagentje kunnen bijvoorbeeld als volgt zijn:<ul><li>Het bezoek moet het volgende omvatten:  Kart optellen (metrisch) en bestaat. (U kunt de regel verder verfijnen met een specifieke productweergave of met afmetingen zoals Browsertypen.)</li><li>Bezoek mag niet omvatten:  Afhandeling.</li><li>Trigger na geen actie voor:  10 minuten.</li><li>Inclusief metagegevens: Hiermee kunt u een bepaalde dimensie of variabelen toevoegen die relevant zijn voor het gedrag van een bezoeker. Dit veld kan handig zijn voor Adobe Campaign bij het samenstellen van de juiste e-mail voor opnieuw in de handel brengen.</li></ul><br>U kunt om het even welk, en of logica binnen of tussen containers specificeren, afhankelijk van de criteria u belangrijk voor de regel bepaalt. |
    | Container | In containers kunt u regels, voorwaarden of filters instellen en opslaan die een trigger definiëren. Als u wilt dat gebeurtenissen tegelijkertijd plaatsvinden, plaatst u ze in dezelfde container. Met andere woorden, elke container verwerkt onafhankelijk op raakniveau.  Bijvoorbeeld, als u twee containers hebt die door de exploitant worden aangesloten van En, kunt u de regels verwachten om te kwalificeren wanneer twee klappen aan de vereisten voldoen. |
    | Nieuwe sessie starten na | Maak een trigger voor het starten en beëindigen van de sessie. |
@@ -75,6 +75,6 @@ De volgende pagina bevat bijvoorbeeld regels die u kunt gebruiken voor een trigg
 
 #### Referrer Trigger
 
-De volgende trigger wordt geactiveerd wanneer een treffer wordt geleverd met het product van Men&#39;s Boots en referentie van Facebook. Om de twee criteria (*producten* en *referentie*) in dezelfde hit te kunnen beoordelen, moeten ze aan dezelfde container worden toegevoegd.
+De volgende trigger wordt geactiveerd wanneer een hit wordt geleverd bij het product van Men&#39;s Boots en referentie van Facebook. Om de twee criteria (*producten* en *referentie*) in dezelfde hit te kunnen beoordelen, moeten ze aan dezelfde container worden toegevoegd.
 
 ![](assets/fb-boots-promo.png)
