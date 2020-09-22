@@ -3,24 +3,27 @@ description: Doel gebruikt cookies om websitebeheerders de mogelijkheid te biede
 keywords: cookies;privacy
 seo-description: Doel gebruikt cookies om websitebeheerders de mogelijkheid te bieden te testen welke online-inhoud en -aanbiedingen voor bezoekers relevanter zijn.
 seo-title: Doelcookies
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Doelcookies
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Target Cookies{#target-cookies}
 
-Adobe Target gebruikt cookies om websitebeheerders de mogelijkheid te bieden te testen welke online inhoud en aanbiedingen voor bezoekers relevanter zijn.
+Adobe Target gebruikt cookies om websitebeheerders de mogelijkheid te bieden te testen welke online-inhoud en aanbiedingen voor bezoekers relevanter zijn.
 
 U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van het cookie. Vraag uw accountvertegenwoordiger wanneer u de cookie-instellingen wijzigt.
 
 >[!NOTE]
 >
->Gebruikers van Adobe Target kunnen ook aangepaste cookies van derden maken.
+>Adobe Target-gebruikers kunnen ook aangepaste cookies van derden maken.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -40,7 +43,7 @@ U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van h
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serverdomein </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, met de clientcode voor uw Adobe Target-account. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, de clientcode voor uw Adobe Target-account gebruiken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Duur van cookie </p> </td> 
@@ -53,7 +56,7 @@ U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van h
 >
 >Als om het even welk van uw domeinnamen een landcode, zoals omvatten, werk met uw Diensten van de Cliënt om uw te vormen [!DNL mycompany.co.uk][!DNL mbox.js] om dit te steunen.
 
-Het cookie houdt een aantal waarden bij om te beheren hoe uw bezoekers Adobe Target-campagnes ervaren:
+Het cookie houdt een aantal waarden bij voor het beheren van de manier waarop bezoekers de campagnes van Adobe Target ervaren:
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
