@@ -6,9 +6,9 @@ solution: Experience Cloud
 title: Overzicht van publiek Experience Cloud
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '824'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Overzicht van publiek Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Soorten publiek zijn verzamelingen bezoekers (een lijst met bezoekers-id&#39;s). Adobe beheren de vertaling van bezoekersgegevens in publiekssegmentatie. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan [!DNL Experience Cloud]te delen.
+Soorten publiek zijn verzamelingen bezoekers (een lijst met bezoekers-id&#39;s). Met de Audience Library kunt u de omzetting van bezoekersgegevens in publiekssegmentatie beheren. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan producten en de diensten in te delen [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
