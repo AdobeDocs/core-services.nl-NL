@@ -1,27 +1,27 @@
 ---
-description: Zelfhulp, productdocumentatie en technische documentatie voor de Adobe Experience Cloud. De Experience Cloud is een geïntegreerde Adobe van digitale marketingoplossingen.
-keywords: core services
-seo-description: Deze pagina biedt zelfhulp, productdocumentatie en technische documentatie voor de Experience Cloud.
-seo-title: Adobe Experience Cloud en de hulp van de kerndiensten en productdocumentatie.
-solution: Experience Cloud
-title: Help bij Experience Cloud- en kernservices
+description: Zelfhulp, productdocumentatie en technische documentatie voor de Adobe Experience Cloud. Omvat gebruiker en productbeheer in de Admin Console, toelatend oplossingen voor platformdiensten, en hulp op de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
+keywords: platform services
+seo-description: Hulp over gebruiker en productbeheer in de Admin Console, toelatend oplossingen voor platformdiensten, en hulp op de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
+seo-title: Help bij Adobe Experience Cloud- en platformservices en productdocumentatie.
+solution: Adobe Experience Cloud
+title: Help bij Experience Cloud- en platformservices
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 18%
+source-wordcount: '466'
+ht-degree: 16%
 
 ---
 
 
-# Experience Cloud Interface Guide
+# Experience Cloud-beheer, publiek en klantkenmerken
 
 De Experience Cloud is een geïntegreerde Adobe van digitale marketingoplossingen. Het is ook een intuïtieve interface waarmee u snel toegang hebt tot uw cloudoplossingen en kernservices.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-De Adobe Experience Cloud Administration Guide biedt hulp bij het beheer van Experience Cloud-gebruikers en -producten, de Audience Library, Customer Attributes en Experience Cloud-middelen. De artikelen in deze handleiding omvatten:
+Deze gids verleent toegang tot hulp op gebruiker van Experience Cloud en productbeleid in de Admin Console, toelatend oplossingen voor de platformdiensten. U hebt ook toegang tot de Help-functie in de Audience Library, Customer Attributes, Experience Cloud Assets en meer:
 
 * [[!UICONTROL Audience Library]](audience-library/audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes/attributes.md)
