@@ -1,14 +1,14 @@
 ---
 audience: admin
 user-guide-title: Experience Cloud-beheer, publiek en klantkenmerken
-breadcrumb-title: Experience Cloud Interface Guide
+breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '363'
 ht-degree: 12%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 12%
    + [Middelen uploaden naar een gedeelde map vanaf het bureaublad Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Vereisten voor het delen van elementbestanden](experience-cloud-assets/assets-file-reqs.md)
    + [Gedrag van gedeelde mappen](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud Audiences {#audiences}
++ Experience Cloud Audience Library {#audiences}
    + [Overzicht van publiek Experience Cloud](audience-library/audience-library.md)
    + [Een doelgroep maken](audience-library/t-audience-create.md)
    + [Een publiekssegment Analytics publiceren](audience-library/t-publish-audience-segment.md)
