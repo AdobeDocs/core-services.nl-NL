@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 7%
+source-wordcount: '368'
+ht-degree: 5%
 
 ---
 
@@ -49,6 +49,10 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt
    <td colname="col1"> <p> Grootte </p> </td> 
    <td colname="col2"> <p>45 bytes </p> </td> 
   </tr> 
+  <tr> 
+   <td colname="col1"> <p> SameSite=Lax </p> </td> 
+   <td colname="col2"> <p>Cookies met deze instelling worden alleen verzonden wanneer het domein dat wordt weergegeven in de URL van de browser overeenkomt met het domein van de cookie. Dit is de nieuwe standaardinstelling voor cookies in Chrome.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -85,6 +89,10 @@ Zie ook [Cookies en de Dienst](https://docs.adobe.com/content/help/nl-NL/id-serv
   <tr> 
    <td colname="col1"> <p> Grootte </p> </td> 
    <td colname="col2"> <p> De meeste klanten kunnen verwachten dat deze cookie ongeveer 200 bytes lang is. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Geen waarde toegevoegd. Chrome wordt standaard ingesteld op Lax. </p> </td> 
+   <td colname="col2"> <p> Cookies met deze instelling worden alleen verzonden wanneer het domein dat wordt weergegeven in de URL van de browser overeenkomt met het domein van de cookie. Dit is de nieuwe standaardinstelling voor cookies in Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
