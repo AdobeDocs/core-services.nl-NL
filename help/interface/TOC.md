@@ -1,24 +1,24 @@
 ---
 audience: admin
-user-guide-title: Experience Cloud Application Services en beheer
-breadcrumb-title: Experience Cloud Application Services and Administration
-user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
+user-guide-title: Experience Cloud Services en beheer
+breadcrumb-title: Experience Cloud Services and Administration
+user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '356'
 ht-degree: 12%
 
 ---
 
 
-# Experience Cloud Application Services en beheer {#interface}
+# Experience Cloud Services en beheer {#interface}
 
-+ [Experience Cloud Admin, Soorten publiek, en de Attributen van de Klant](experience-cloud.md)
-+ Toepassingsdiensten in Experience Cloud {#about-core-services}
-   + [Overzicht van toepassingsservices](core-services-landing.md)
++ [Experience Cloud Services en beheer](experience-cloud.md)
++ Experience Cloud {#about-core-services}
+   + [Overzicht van Experience Cloud-services](core-services-landing.md)
    + [Uw implementatie voor services voor meerdere oplossingen inschakelen](core-services/core-services.md)
    + [Kaart rapportsuites aan een organisatie](core-services/report-suite-mapping.md)
    + [Informatie over de nieuwe cloudnamen in Experience Cloud](solutions-core-services.md)
