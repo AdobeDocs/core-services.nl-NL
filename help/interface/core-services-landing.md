@@ -1,15 +1,15 @@
 ---
 description: Meer informatie over gebruikers- en productbeheer in Adobe Experience Cloud, Personen (soorten publiek en klantkenmerken), Journey Orchestration, Aanbiedingen, Plaatsen, Experience Platform Launch en Mobiele services.
 seo-description: Meer informatie over gebruikers- en productbeheer in Adobe Experience Cloud, de Personen (soorten publiek en klantkenmerken), Aanbiedingen, Experience Platform Launch en Mobiele services.
-seo-title: Experience Cloud-kernservices en gebruikersbeheer
+seo-title: Experience Cloud-services en gebruikersbeheer
 solution: Experience Cloud
-title: Over Experience Cloud core-services
+title: Informatie over Experience Cloud-services
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 10%
+source-wordcount: '488'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ In deze Help worden de volgende producten en services beschreven:
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | U kunt eenvoudig al uw digitale middelen opslaan, synchroniseren en delen op een centrale locatie, zodat u tijd bespaart en een consistentere klantervaring hebt. |
 | [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] is de volgende generatie gegevensverzameling en technologie-implementatie voor sites en apps. [!UICONTROL Experience Platform Launch] biedt klanten een eenvoudige manier om alle analytische, marketing- en advertentietags te implementeren en te beheren die nodig zijn om de relevante ervaringen van klanten te verbeteren. |
 | [Journey Orchestration](https://docs.adobe.com/content/help/nl-NL/journeys/using/journey-orchestration-home.html) | Stel real-timegebruiksscenario’s voor orkestratie samen aan de hand van contextuele data die zijn opgeslagen in gebeurtenissen of databronnen. [!UICONTROL Journey Orchestration] is een applicatieservice die is geïntegreerd in het Experience Platform. |
-| [Locatieservice](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Locatieservice) is een geo-locatieservice waarmee mobiele apps met het bewustzijn van de locatie de context van de locatie kunnen begrijpen door gebruik te maken van rijke en gebruiksvriendelijke SDK-interfaces die vergezeld gaan van een flexibele database van belangenbehartigingen (POI&#39;s). |
+| [Locatieservice](https://docs.adobe.com/content/help/nl-NL/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Locatieservice) is een geo-locatieservice waarmee mobiele apps met het bewustzijn van de locatie de context van de locatie kunnen begrijpen door gebruik te maken van rijke en gebruiksvriendelijke SDK-interfaces die vergezeld gaan van een flexibele database van belangenbehartigingen (POI&#39;s). |
 | [Exchange](exchange.md) | U kunt extensies voor Digital Marketing zoeken, zoeken, selecteren, betalen en downloaden via apps. |
 | [Mobiele services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Met Adobe Mobile Services worden mobiele marketingmogelijkheden voor mobiele toepassingen vanuit de hele Experience Cloud samengebracht, zodat u de betrokkenheid van gebruikers met uw mobiele toepassingen begrijpt en verbetert. |
-| Mensen | Creeer een uitvoerige mening van individuele klanten door Adobe en niet-Adobe gegevens in uw oplossingen van Experience Cloud aan te sluiten. Bepaal wat voor hen het belangrijkst is aangezien zij over aanrakingspunten interactie hebben. Bekende consumenten herkennen wanneer ze vanaf onbekende apparaten komen. Zelfs groepeer gebruikers in Publiek voor gerichte marketing inspanningen.<br>[Soorten publiek](audience-library/audience-library.md) - Categoriseer verschillende soorten klanten in Soorten publiek, dan deel die Soorten publiek over de oplossingen van de Marketing Cloud.<br>[Klantkenmerken](attributes/attributes.md) - verrijking van het publiek waarmee u consumenteninformatie die u buiten de Marketing Cloud hebt verzameld, kunt verbinden.<br>[Apparaatgrafiek](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Werk samen met de populairste merken ter wereld om een bekende consument te herkennen achter een onbekend apparaat. (In bèta, alleen voor leden van Marketing Cloud Device Co-op.) |
+| Mensen | Creeer een uitvoerige mening van individuele klanten door Adobe en niet-Adobe gegevens in uw oplossingen van Experience Cloud aan te sluiten. Bepaal wat voor hen het belangrijkst is aangezien zij over aanrakingspunten interactie hebben. Bekende consumenten herkennen wanneer ze vanaf onbekende apparaten komen. Zelfs groepeer gebruikers in Publiek voor gerichte marketing inspanningen.<br>[Soorten publiek](audience-library/audience-library.md) - Categoriseer verschillende soorten klanten in Soorten publiek, dan deel die Soorten publiek over de oplossingen van de Marketing Cloud.<br>[Klantkenmerken](attributes/attributes.md) - verrijking van het publiek waarmee u consumenteninformatie die u buiten de Marketing Cloud hebt verzameld, kunt verbinden.<br>[Apparaatgrafiek](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Werk samen met de populairste merken ter wereld om een bekende consument te herkennen achter een onbekend apparaat. |
