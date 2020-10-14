@@ -1,15 +1,15 @@
 ---
 audience: admin
 user-guide-title: Experience Cloud Services en beheer
-breadcrumb-title: Experience Cloud Services and Administration
-user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
+breadcrumb-title: Experience Cloud Services en beheer
+user-guide-description: De Adobe Experience Cloud Services and Administration Guide biedt hulp bij het beheer van gebruikers en producten in de Experience Cloud, de Audience Library, Customer Attributes, cookies en Experience Cloud-middelen.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 12%
+source-wordcount: '386'
+ht-degree: 11%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 12%
    + [Vereisten voor het delen van elementbestanden](experience-cloud-assets/assets-file-reqs.md)
    + [Gedrag van gedeelde mappen](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud Audience Library {#audiences}
-   + [Overzicht van publiek Experience Cloud](audience-library/audience-library.md)
+   + [Experience Cloud-publiek](audience-library/audience-library.md)
    + [Een doelgroep maken](audience-library/t-audience-create.md)
    + [Een publiekssegment Analytics publiceren](audience-library/t-publish-audience-segment.md)
-+ Klantkenmerken in Experience Cloud {#customer-attributes}
-   + [Overzicht van klantkenmerken](attributes/attributes.md)
++ Kenmerken Experience Cloud-klant {#customer-attributes}
+   + [Customer Attributes-service](attributes/attributes.md)
    + [Veelgestelde vragen, beperkingen en aanbevolen procedures](attributes/faq-crs.md)
    + [Gegevensbestand en gegevensbronnen voor klantkenmerken](attributes/crs-data-file.md)
    + [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](attributes/t-crs-usecase.md)
