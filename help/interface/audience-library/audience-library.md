@@ -1,20 +1,20 @@
 ---
-description: De vertaling van bezoekersgegevens in publiekssegmentatie in de Experience Cloud Audience Library beheren.
-seo-description: De vertaling van bezoekersgegevens in publiekssegmentatie in de Experience Cloud Audience Library beheren.
-seo-title: Overzicht van publiek Experience Cloud
+description: Beheer de vertaling van bezoekersgegevens in publiekssegmentatie in de dienst van het Experience Cloud publiek.
+seo-description: Beheer de vertaling van bezoekersgegevens in publiekssegmentatie in de dienst van het Experience Cloud publiek.
+seo-title: Experience Cloud-publiek
 solution: Experience Cloud
-title: Overzicht van publiek Experience Cloud
+title: 'Experience Cloud publiek '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '822'
 ht-degree: 4%
 
 ---
 
 
-# Overzicht van publiek Experience Cloud {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud Audiences {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 Soorten publiek zijn verzamelingen bezoekers (een lijst met bezoekers-id&#39;s). Met de Audience Library kunt u de omzetting van bezoekersgegevens in publiekssegmentatie beheren. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan producten en de diensten in te delen [!DNL Experience Cloud].
 
