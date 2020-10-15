@@ -71,7 +71,7 @@ Bijvoorbeeld in Analytics, kunt u een inzameling van rapporteringshulpmiddelen, 
 
 [Beperkte beheerrechten delegeren](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
 
-## Analytics{#section_97DE101F92CD494AB073893680992F1A} 
+## Analytics {#section_97DE101F92CD494AB073893680992F1A}
 
 De gebruikers- en productmachtigingen voor Analytics beheren in de Admin Console.
 
@@ -81,7 +81,7 @@ De gebruikers- en productmachtigingen voor Analytics beheren in de Admin Console
 
 Er is een hulpprogramma voor het migreren van gebruikers-id&#39;s voor Analytics-beheerders beschikbaar waarmee u gebruikersaccounts kunt migreren van Analytics User Management naar [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-De accountmigratie wordt in fasen uitgevoerd naar klanten. Adobe geeft een melding en helpt u wanneer het uw tijd is om bestaande gebruikersaccounts van **[!UICONTROL Admin Tools]** > naar de Admin Console te migreren. U kunt dan ook **[!UICONTROL User Management]** het volgende doen.
+De accountmigratie wordt in fasen uitgevoerd aan klanten. Adobe geeft een melding en helpt u wanneer het uw tijd is om bestaande gebruikersaccounts van **[!UICONTROL Admin Tools]** > naar de Admin Console te migreren. U kunt dan ook **[!UICONTROL User Management]** het volgende doen.
 
 Na de migratie melden gebruikers zich aan met hun Adobe ID (of Enterprise ID) en verifiëren ze hun Experience Cloud-oplossingen en -services op [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com). Als gebruikers proberen zich aan te melden via oude logins ([!DNL my.omniture.com] en [!DNL sc.omniture.com]), worden ze doorgestuurd naar [!DNL experiencecloud.adobe.com].
 
@@ -197,6 +197,6 @@ Ondersteunde browsers in de Experience Cloud.
 
 ### Oplossing en productvereisten
 
-* [Analytics](https://docs.adobe.com/content/help/nl-NL/analytics/admin/sys-reqs.html) 
+* [Analytics](https://docs.adobe.com/content/help/nl-NL/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/nl-NL/target/using/implement-target/before-implement/supported-browsers.html)
