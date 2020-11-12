@@ -6,9 +6,9 @@ solution: Experience Cloud
 title: 'Experience Cloud publiek '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '818'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worde
 
 **Real-Time vs. Historische doelgroepen**
 
-Alle doelgroepen, ongeacht waar ze vandaan komen, zijn toegankelijk voor gebruiksgevallen in realtime. Het publiek dat wordt gedeeld van Analytics naar Audience Manager, is echter niet toegankelijk voor realtime-doelen. Het systeem evalueert het publiek op twee manieren:
+Alle doelgroepen, ongeacht waar ze vandaan komen, zijn toegankelijk voor gebruiksgevallen in realtime. Het publiek dat wordt gedeeld van Analytics naar Audience Manager, is echter niet toegankelijk voor realtime doelwitten. Het systeem evalueert het publiek op twee manieren:
 
 * Historische doelgroepen van Analytics worden elke 4 uur geëvalueerd. De totale verwerkings- en deeltijd kan maximaal 8 uur in beslag nemen.  Historische doelgroepen omvatten altijd terugkeerbezoekers.
 * Het publiek in real time wordt afkomstig uit het publiek van de Experience Cloud en geëvalueerd in echt - tijd.
@@ -72,6 +72,6 @@ Het [!DNL Experience Cloud] biedt een bibliotheek voor het maken en beheren van 
 | Nieuw | [Een doelgroep maken](../audience-library/audience-library.md). |
 | Titel en beschrijving | Een kolomkop die het publiek identificeert en beschrijft. |
 | Auteur | De persoon die het publiekssegment creeerde. |
-| Bron | Identificeert waar het publiek is gemaakt.<ul><li>**Analyse:** Een segment dat is gemaakt in rapporten en analyses of ad-hocanalyse en vervolgens [wordt gepubliceerd naar de Experience Cloud](../audience-library/audience-library.md).</li><li>**Experience Cloud:** Een nieuw publiek [gemaakt in het Experience Cloud publiek](../audience-library/audience-library.md).</li><li>**Audience Manager:** Het publiek creeerde Audience Manager toont automatisch in het Publiek van de Experience Cloud.</li></ul> |
+| Bron | Identificeert waar het publiek is gemaakt.<ul><li>**Analyse:** Een segment gemaakt in Adobe Analytics en vervolgens [gepubliceerd naar de Experience Cloud](../audience-library/audience-library.md).</li><li>**Experience Cloud:** Een nieuw publiek [gemaakt in het Experience Cloud publiek](../audience-library/audience-library.md).</li><li>**Audience Manager:** Het publiek creeerde Audience Manager toont automatisch in het Publiek van de Experience Cloud.</li></ul> |
 | Huidige grootte | De huidige publieksgrootte. |
 | Actief | De actieve status van het segment. |
