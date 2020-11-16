@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 'Experience Cloud publiek '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
+source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 4%
@@ -26,7 +26,7 @@ De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worde
 * Van [!DNL Analytics] segmenten gepubliceerd naar [!DNL Experience Cloud]
 * From [!DNL Audience Manager]
 
-**Real-Time vs. Historische doelgroepen**
+**Real-Time versus Historisch publiek**
 
 Alle doelgroepen, ongeacht waar ze vandaan komen, zijn toegankelijk voor gebruiksgevallen in realtime. Het publiek dat wordt gedeeld van Analytics naar Audience Manager, is echter niet toegankelijk voor realtime doelwitten. Het systeem evalueert het publiek op twee manieren:
 
