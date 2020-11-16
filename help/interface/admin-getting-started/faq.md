@@ -1,23 +1,31 @@
 ---
-description: Algemene vragen en antwoorden voor beheerders in de Experience Cloud.
+description: Browserondersteuning, veelgestelde vragen en antwoorden voor beheerders in de Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Algemene vragen en antwoorden voor beheerders in de Experience Cloud.
+seo-description: Browserondersteuning, veelgestelde vragen en antwoorden voor beheerders in de Experience Cloud.
 seo-title: Veelgestelde vragen over de Experience Cloud core diensten.
 solution: Experience Cloud
 title: Veelgestelde vragen
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 3%
+source-wordcount: '780'
+ht-degree: 8%
 
 ---
 
 
 # Veelgestelde vragen over Experience Cloud
 
-Algemene vragen en antwoorden voor beheerders in de Experience Cloud.
+Meer informatie over browserondersteuning en veelgestelde vragen en antwoorden voor beheerders in de Experience Cloud.
+
+## Welke browsers worden ondersteund in Experience Cloud?
+
+* Microsoft Edge (huidige en vorige twee versies)
+* Google Chrome (huidige en vorige twee versies)
+* Mozilla Firefox (huidige en tweede versie)
+* Safari (huidige en vorige twee versies)
+* Opera (huidige en twee lagere versies)
 
 ## Hoe weet ik of mijn oplossingen voor de kerndiensten worden toegelaten?
 
@@ -81,9 +89,9 @@ Zie [Gebruikersaccounts](../admin-getting-started/organizations.md#topic_C31CB83
 
 ## Wat is een organisatie?
 
-Een *organisatie* is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en om enig teken-binnen in de Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en oplossingen van de Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben.
+An *organization* is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. De organisatie functioneert als een aanmeldingsbedrijf dat alle producten en oplossingen van Experience Cloud omvat. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben.
 
-## Waar kan ik mijn IMS Organisatie ID vinden?
+## Waar kan ik mijn IMS-organisatie-id vinden?
 
 Zie [Uw organisatie-id](organizations.md)zoeken.
 
