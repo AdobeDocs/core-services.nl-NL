@@ -1,21 +1,21 @@
 ---
-description: Overzicht en voorwaarden van het uploaden van Customer Attributes naar de Experience Cloud.
-keywords: core services;Customer Attributes
+description: Een overzicht en voorwaarden voor het uploaden van klantkenmerken naar de Adobe Experience Cloud.
+keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 seo-description: Overzicht en voorwaarden van het uploaden van Customer Attributes naar de Experience Cloud.
 seo-title: Experience Cloud Customer Attributes-service
 solution: Experience Cloud
-title: Experience Cloud Customer Attributes-service
+title: Adobe Experience Cloud - Customer Attributes-service
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
 
 
-# Experience Cloud Customer Attributes-service
+# Klantkenmerken in Adobe Experience Cloud
 
 Ga naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
