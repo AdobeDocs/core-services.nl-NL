@@ -1,14 +1,14 @@
 ---
-description: Beheer de vertaling van bezoekersgegevens in publiekssegmentatie in de dienst van het Experience Cloud publiek.
+description: Leer hoe u de vertaling van bezoekersgegevens naar publiekssegmentatie in de Adobe Experience Cloud Audience-service beheert.
 seo-description: Beheer de vertaling van bezoekersgegevens in publiekssegmentatie in de dienst van het Experience Cloud publiek.
 seo-title: Experience Cloud-publiek
 solution: Experience Cloud
-title: 'Experience Cloud publiek '
+title: 'Adobe Experience Cloud-publiek '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
+source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '819'
 ht-degree: 4%
 
 ---
@@ -16,21 +16,21 @@ ht-degree: 4%
 
 # Experience Cloud Audiences {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Soorten publiek zijn verzamelingen bezoekers (een lijst met bezoekers-id&#39;s). Met de Audience Library kunt u de omzetting van bezoekersgegevens in publiekssegmentatie beheren. Als dusdanig, is het creëren van en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten, met de toegevoegde capaciteit om het publiekssegment aan producten en de diensten in te delen [!DNL Experience Cloud].
+Soorten publiek zijn verzamelingen bezoekers (een lijst met bezoekers-id&#39;s). Met de Audience Library kunt u de omzetting van bezoekersgegevens in publiekssegmentatie beheren. Als dusdanig, is het creëren van, en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten. U kunt het publiekssegment aan producten en de diensten in ook delen [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
 De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worden afgeleid, zoals:
 
 * Nieuwe in het dialoogvenster [!DNL Experience Cloud]
-* Van [!DNL Analytics] segmenten gepubliceerd naar [!DNL Experience Cloud]
-* From [!DNL Audience Manager]
+* [!DNL Analytics] segmenten gepubliceerd naar de [!DNL Experience Cloud]
+* [!DNL Audience Manager]
 
 **Real-Time versus Historisch publiek**
 
 Alle doelgroepen, ongeacht waar ze vandaan komen, zijn toegankelijk voor gebruiksgevallen in realtime. Het publiek dat wordt gedeeld van Analytics naar Audience Manager, is echter niet toegankelijk voor realtime doelwitten. Het systeem evalueert het publiek op twee manieren:
 
-* Historische doelgroepen van Analytics worden elke 4 uur geëvalueerd. De totale verwerkings- en deeltijd kan maximaal 8 uur in beslag nemen.  Historische doelgroepen omvatten altijd terugkeerbezoekers.
+* Historische doelgroepen van Analytics worden elke 4 uur geëvalueerd. De totale verwerkings- en deeltijd kan maximaal 8 uur in beslag nemen. Historische doelgroepen omvatten altijd terugkeerbezoekers.
 * Het publiek in real time wordt afkomstig uit het publiek van de Experience Cloud en geëvalueerd in echt - tijd.
 
 ## Hoe oplossingen publiek gebruiken {#concept_01EB9345C5344597BC94A864EDD38EE1}
