@@ -1,20 +1,23 @@
 ---
-description: 'Beheerhulpmiddelen voor het beheer van goedgekeurde Creative Cloud-gebruikers. '
+description: 'Administratieve hulpmiddelen voor het beheer van goedgekeurde Creative Cloud-gebruikers. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 'Beheerhulpmiddelen voor het beheer van goedgekeurde Creative Cloud-gebruikers. '
+seo-description: 'Administratieve hulpmiddelen voor het beheer van goedgekeurde Creative Cloud-gebruikers. '
 seo-title: Creative Cloud-gebruikers beheren
 solution: Experience Cloud
 title: Creative Cloud-gebruikers beheren
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 2%
 
 ---
 
 
 # Creative Cloud-gebruikers beheren
 
-De Experience Cloud biedt beheerhulpmiddelen voor het beheer van goedgekeurde Creative Cloud-gebruikers. Deze gebruikers kunnen op ad-hocbasis worden uitgenodigd voor een campagnemap. Alleen gebruikers die door een beheerder aan de lijst zijn toegevoegd, kunnen worden uitgenodigd voor een campagne. De toegevoegde gebruikers worden weergegeven in de gebruikerslijst die automatisch wordt ingevuld in de Experience Cloud.
+De Experience Cloud biedt beheerhulpmiddelen voor het beheer van goedgekeurde Creative Cloud-gebruikers. Deze gebruikers kunnen op ad-hocbasis worden uitgenodigd voor een campagnemap. Alleen gebruikers die door een beheerder aan de lijst zijn toegevoegd, kunnen worden uitgenodigd voor een campagne. De toegevoegde gebruikers zullen in de auto-volledige gebruikerslijst in de Experience Cloud tonen.
 
 >[!NOTE]
 >
