@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -20,13 +20,13 @@ Op deze pagina wordt de [!UICONTROL Customer Attributes'] ondersteuning voor de 
 
 De CCPA is de nieuwe privacywet van Californië, die 1 januari 2020 van kracht is. CCPA verleent de inwoners van Californië nieuwe rechten met betrekking tot hun persoonlijke informatie en legt gegevensbeschermingstaken op aan bepaalde entiteiten die zaken in Californië leiden. De CCPA verleent consumenten het recht om hun persoonlijke gegevens te raadplegen en te verwijderen, alsmede het recht om af te zien van bepaalde activiteiten die als &quot;verkoop&quot; van persoonlijke gegevens aan derden worden aangemerkt.
 
-Als bedrijf bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
+Als bedrijf, zult u de persoonlijke gegevens bepalen die Adobe Experience Cloud verwerkt en namens u opslaat.
 
-Als prepressbureau biedt Adobe Experience Cloud ondersteuning voor uw bedrijf om te voldoen aan de verplichtingen in het kader van de CCPA die van toepassing zijn op het gebruik van producten en services van Experience Cloud, waaronder het beheren van verzoeken om toegang tot en verwijdering van persoonlijke gegevens.
+Als uw dienstverlener, verleent Adobe Experience Cloud steun voor uw zaken om aan zijn verplichtingen uit hoofde van CCPA te voldoen die op het gebruik van de producten en de diensten van de Experience Cloud van toepassing zijn, met inbegrip van het beheren van verzoeken om toegang tot en schrapping van persoonlijke informatie.
 
-In dit document wordt beschreven hoe de toegangsrechten en verwijderingsrechten voor CCPA-gegevens van de betrokkenen worden [!UICONTROL Customer Attributes] ondersteund met de API en gebruikersinterface van de Adobe Experience Platform Privacy Service.
+In dit document wordt beschreven hoe de toegangsrechten en verwijderingsrechten voor CCPA-gegevens van de betrokkenen met de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service worden [!UICONTROL Customer Attributes] ondersteund.
 
-Ga naar het [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html)voor meer informatie over de Adobe-privacyservices voor CCPA.
+Voor meer informatie over de diensten van de Privacy van de Adobe voor CCPA, zie het Centrum [van de Privacy van de](https://www.adobe.com/privacy/ccpa.html)Adobe.
 
 ## Vereiste installatie voor het verzenden van aanvragen voor [!UICONTROL Customer Attributes]
 
@@ -34,10 +34,11 @@ Als u verzoeken wilt indienen om gegevens te openen en te verwijderen voor [!UIC
 
 1. Vermeld het volgende:
 
-   * IMS Org ID
+   * IMS-organisatie-id
    * Alias-id van CRS-gegevensbron waarop u wilt reageren
    * CRM-id van het profiel waarop u wilt reageren
-   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne Adobe-systeembeheerder de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
+
+   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne beheerder van het Adobe-systeem de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
 
 1. In [!UICONTROL Privacy Service], kunt u verzoeken van de Toegang en van de Schrapping voorleggen aan de Attributen van de Klant, en de status van bestaande verzoeken controleren.
 
@@ -62,7 +63,7 @@ Als u verzoeken wilt indienen om gegevens te openen en te verwijderen voor [!UIC
 
    * &quot;waarde&quot;: &lt;*CRM-id*>
 
-* &quot;include&quot;: **CRS** (het Adobe-product dat van toepassing is op de aanvraag)
+* &quot;include&quot;: **CRS** (het product van de Adobe dat op het verzoek van toepassing is)
 
 * &quot;verordening&quot;: **ccpa** ( de privacyverordening die op het verzoek van toepassing is )
 
