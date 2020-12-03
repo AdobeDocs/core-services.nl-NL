@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ Leer over het beheren van organisaties en het verbinden van oplossingsrekeningen
 
 ## Uw organisatie identificeren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Een *organisatie* is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en om enig teken-binnen in de Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en oplossingen van de Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben.
+An *organization* is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. De organisatie functioneert als een aanmeldingsbedrijf dat alle producten en oplossingen van Experience Cloud omvat. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben.
 
 Mogelijk moet u ook uw organisatie-id vinden voor ondersteuningsdoeleinden. Met het **[!UICONTROL Organization]** menu kunt u controleren of u zich in de juiste organisatie bevindt of kunt schakelen tussen organisaties.
 
