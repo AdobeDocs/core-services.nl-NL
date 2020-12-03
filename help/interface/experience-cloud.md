@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -52,7 +52,7 @@ Verwante hulplijnen voor Experience Cloud zijn:
 
 ## Tutorials
 
-Profiteer van zelfstudiemateriaal en snelle instructies in Experience League:
+Profiteer van zelfstudiemateriaal en snelle zelfstudies in Experience League:
 
 * [Alle zelfstudies in Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
 * [Zelfstudies voor Experience Platforms](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
@@ -63,7 +63,7 @@ Profiteer van zelfstudiemateriaal en snelle instructies in Experience League:
 * [Productdocumentatie voor alle Experience Cloud-oplossingen](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - Blader voor hulp naar Experience Cloud Learn &amp; Support
 * [Opmerkingen bij de release en productupdates](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html) - Nieuwe functies in de Experience Cloud en een abonnement voor updates
 * [Tutorials voor de implementatie van kernservices](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - Ontdek video&#39;s en zelfstudies over kernservices
-* [Experthulp bij de Experience League](https://landing.adobe.com/experience-league/) - Leer met instructies van experts en de gemeenschap
+* [Deskundige hulp bij Experience League](https://landing.adobe.com/experience-league/) - Leren met instructies van experts en de community
 * [Onderwijs en training](https://helpx.adobe.com/nl/learning.html?promoid=KAUDK) - Neem contact op met Adobe om ervoor te zorgen dat u optimaal profiteert van onze producten
 * [Blog](https://theblog.adobe.com/customer-experience/) van Customer Experience - Lees de Experience Cloud-blog
 * [Klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) - Contact opnemen met de Adobe Klantenservice
