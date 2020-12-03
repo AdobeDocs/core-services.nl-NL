@@ -9,7 +9,7 @@ uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1113'
 ht-degree: 2%
 
 ---
@@ -152,7 +152,7 @@ Zie Abonnementen [configureren](../attributes/subscription.md#concept_ECA3C44FA6
 
 **Een kenmerkbron activeren**
 
-Zoek op de pagina [!UICONTROL Create New [or Edit] Customer Attribute Source] de [!UICONTROL Activate] kop en klik op **[!UICONTROL Active]**.
+Zoek op de [!UICONTROL Create New [or Edit] Customer Attribute Source] pagina de [!UICONTROL Activate] kop en klik op **[!UICONTROL Active]**.
 
 ![Stap Resultaat](assets/activate_attribute_source.png)
 
