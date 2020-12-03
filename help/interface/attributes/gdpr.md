@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,11 +20,11 @@ Op deze pagina wordt beschreven hoe Customer Attributes General Data Protection 
 
 De [algemene gegevensbeschermingsverordening](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html), die op 25 mei 2018 van kracht is, geeft alle personen (betrokkenen) binnen de grenzen van de Europese Unie (EU) controle op hun persoonsgegevens. Het vereenvoudigt ook de regelgeving voor het internationale bedrijfsleven. Deze wet is van toepassing op alle ondernemingen (voor de verwerking van persoonsgegevens verantwoordelijke personen) die goederen of diensten aanbieden, het gedrag van personen binnen de grenzen van de EU volgen of persoonsgegevens verzamelen op het tijdstip waarop hun persoonsgegevens worden verwerkt, ongeacht de bedrijfslocatie van de voor de verwerking verantwoordelijke.
 
-Adobe Experience Cloud fungeert als gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
+Adobe Experience Cloud treedt op als een gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
-In dit document wordt beschreven hoe [!UICONTROL Customer Attributes] ondersteuning wordt geboden voor toegang tot en verwijdering van GDPR-gegevens van de betrokkenen via de API van de privacyservice van het Adobe Experience Platform en de gebruikersinterface van de Privacy Service.
+In dit document wordt beschreven hoe toegang tot en verwijdering van GDPR-gegevens door de betrokkenen worden [!UICONTROL Customer Attributes] ondersteund met de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service.
 
-Raadpleeg [GDPR en Uw bedrijf](https://www.adobe.com/privacy/general-data-protection-regulation.html)voor meer informatie over wat GDPR voor uw bedrijf betekent.
+Raadpleeg [GDPR en Uw bedrijf](https://www.adobe.com/nl/privacy/general-data-protection-regulation.html)voor meer informatie over wat GDPR voor uw bedrijf betekent.
 
 ## Vereiste Opstelling om verzoeken te verzenden [!UICONTROL Customer Attributes]
 
@@ -32,10 +32,11 @@ Als u verzoeken wilt indienen om gegevens te openen en te verwijderen voor [!UIC
 
 1. Vermeld het volgende:
 
-   * IMS Org ID
+   * IMS-organisatie-id
    * Alias-id van CRS-gegevensbron waarop u wilt reageren
    * CRM-id van het profiel waarop u wilt reageren
-   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne Adobe-systeembeheerder de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
+
+   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne beheerder van het Adobe-systeem de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
 
 1. In [!UICONTROL Privacy Service], kunt u verzoeken van de Toegang en van de Schrapping voorleggen aan de Attributen van de Klant, en de status van bestaande verzoeken controleren.
 
@@ -60,7 +61,7 @@ Als u verzoeken wilt indienen om gegevens te openen en te verwijderen voor [!UIC
 
    * &quot;waarde&quot;: &lt;*CRM-id*>
 
-* &quot;include&quot;: **CRS** (het Adobe-product dat van toepassing is op de aanvraag)
+* &quot;include&quot;: **CRS** (het product van de Adobe dat op het verzoek van toepassing is)
 
 * &quot;verordening&quot;: **gdpr** ( de privacyverordening die op het verzoek van toepassing is )
 
