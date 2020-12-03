@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
 source-wordcount: '3914'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Zie Opmerkingen bij de release van [Experience Cloud voor opmerkingen over alle 
 
 | Functie | Beschrijving |
 | -----------| ---------- |
-| Beheer - beleidsregels | Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw organisatie weergegeven. Het verstrekt informatie over producten, instanties, gebruikers, en ontwikkelaars. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de lijst met beleidsregels. Zie [Experience Cloud Admin Tool](../admin-getting-started/admin-tool-experience-cloud.md) voor meer informatie. |
+| Beheer - beleidsregels | Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw organisatie weergegeven. Het verstrekt informatie over producten, instanties, gebruikers, en ontwikkelaars. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de lijst met beleidsregels. Zie [Help voor de Experience Cloud-beheertool](../admin-getting-started/admin-tool-experience-cloud.md) voor meer informatie. |
 
 ## April - 2020
 
@@ -38,12 +38,12 @@ Zie Opmerkingen bij de release van [Experience Cloud voor opmerkingen over alle 
 
 | Functie | Beschrijving |
 | -----------| ---------- |
-| Beheer - Gebruikersgegevens weergeven | Beheerders kunnen een sorteerbare en filterbare lijst met alle Experience Cloud-gebruikers en hun gegevens weergeven in het nieuwe Admin-gereedschap. De details van de gebruiker omvatten de het producttoegang van een gebruiker, rollen, en laatste betreden informatie. Zie [Experience Cloud Admin Tool](../admin-getting-started/admin-tool-experience-cloud.md) voor meer informatie. |
+| Beheer - Gebruikersgegevens weergeven | Beheerders kunnen een sorteerbare en filterbare lijst met alle Experience Cloud-gebruikers en hun gegevens weergeven in het nieuwe Admin-gereedschap. De details van de gebruiker omvatten de het producttoegang van een gebruiker, rollen, en laatste betreden informatie. Zie [Help voor de Experience Cloud-beheertool](../admin-getting-started/admin-tool-experience-cloud.md) voor meer informatie. |
 
 **Oplossingen**
 
 * **Klantkenmerken:** Gebruikersinterface voor kenmerken van klanten geeft nu aanvullende statussen weer van profielen die zijn gesynchroniseerd in Doel. (MCUI-10231)
-* **Triggers Core-service:** Door gebrek aan gebruik is de &#39;Likelity score to Return in 30 dagen&#39; bij het maken van een trigger voor het type Abandenvironment verwijderd. (MCUI-10056)
+* **Triggers Core-service:** Door gebrek aan gebruik is de &#39;Likelhood to Return in 30 dagen&#39; bij het maken van een trigger voor het type Abandenvironment verwijderd. (MCUI-10056)
 
 ## Januari - 2020
 
@@ -171,7 +171,7 @@ Als u via de interface **[!UICONTROL Experience Cloud]** **[!UICONTROL Activatio
 
 **Bekend probleem**
 
-Een bekende kwestie veroorzaakt dubbele auto-geproduceerde rekeningen om in Audience Manager worden gecreeerd, en hen automatisch aan de identiteit van de Experience Cloud van een gebruiker te verbinden. Dit probleem doet zich voor als u naar de Audience Manager wilt navigeren voordat u uw accounts koppelt. Adobe raadt u aan uw Audience Manager-accounts aan de Experience Cloud te koppelen voordat u naar de Audience Manager navigeert. (MAC-25640)
+Een bekende kwestie veroorzaakt dubbele auto-geproduceerde rekeningen om in Audience Manager worden gecreeerd, en hen automatisch verbinden aan de identiteit van de Experience Cloud van een gebruiker. Dit probleem doet zich voor als u naar de Audience Manager wilt navigeren voordat u uw accounts koppelt. Adobe raadt u aan uw Audience Manager-accounts aan de Experience Cloud te koppelen voordat u naar de Audience Manager navigeert. (MAC-25640)
 
 ## Release 15.6.1 - June 11 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -479,7 +479,7 @@ Nieuwe functies en oplossingen in de interface voor [!DNL Adobe Experience Cloud
 
 **Bekende problemen**
 
-* Bestanden die zijn verwijderd uit [!DNL Experience Cloud] worden niet verwijderd uit [!DNL Digital Asset Management].
+* Bestanden die uit [!DNL Experience Cloud] zijn verwijderd, worden niet verwijderd uit [!DNL Digital Asset Management].
 * Bij het uploaden van bestanden zijn meer bestandstypen toegestaan dan bij slepen en neerzetten. Upload het bestand met Middelen voor de beste resultaten.
 * De [!DNL Search&Promote] koppeling is niet beschikbaar op de [!UICONTROL Organizations & Product Access] pagina.
 * Filters die worden toegepast op trended-rapporten van [!DNL Analytics] worden niet toegepast op kaarten in de [!DNL Experience Cloud]map.
