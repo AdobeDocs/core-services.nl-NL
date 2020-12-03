@@ -1,20 +1,23 @@
 ---
-description: Bestandstypen en groottebeperkingen zijn toegestaan voor het delen van elementen tussen de Experience Cloud en Creative Cloud.
+description: Bestandstypen en groottebeperkingen zijn toegestaan voor het delen van elementen tussen de Experience Cloud en de Creative Cloud.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Bestandstypen en groottebeperkingen zijn toegestaan voor het delen van elementen tussen de Experience Cloud en Creative Cloud.
+seo-description: Bestandstypen en groottebeperkingen zijn toegestaan voor het delen van elementen tussen de Experience Cloud en de Creative Cloud.
 seo-title: Vereisten voor het delen van elementbestanden
 solution: Experience Cloud
 title: Vereisten voor het delen van elementbestanden
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
 
 # Vereisten voor het delen van elementbestanden
 
-Bestandstypen en groottebeperkingen zijn toegestaan voor het delen van elementen tussen de Experience Cloud en Creative Cloud.
+Bestandstypen en groottebeperkingen zijn toegestaan voor het delen van elementen tussen de Experience Cloud en de Creative Cloud.
 
 ## Bestandstypen die zijn toegestaan voor uploaden {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
