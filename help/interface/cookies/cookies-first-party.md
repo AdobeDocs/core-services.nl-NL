@@ -10,7 +10,7 @@ snippet: y
 translation-type: tm+mt
 source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, kunt u de 
 
 ### Valideren met [!DNL curl]
 
-Adobe raadt u aan [[!DNL curl]](https://curl.haxx.se/) te gebruiken vanaf de opdrachtregel. ([!DNL Windows] gebruikers kunnen installeren [!DNL curl] vanaf: <https://curl.haxx.se/windows/>)
+Adobe raadt u aan [[!DNL curl]](https://curl.haxx.se/) de opdrachtregel te gebruiken. ([!DNL Windows] gebruikers kunnen installeren [!DNL curl] vanaf: <https://curl.haxx.se/windows/>)
 
 Als u een CNAME hebt maar geen certificaat is geïnstalleerd, voert u het volgende uit:
 `curl -k https://sstats.adobe.com/_check`
