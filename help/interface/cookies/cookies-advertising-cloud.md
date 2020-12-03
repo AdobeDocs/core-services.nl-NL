@@ -1,18 +1,21 @@
 ---
-description: De Advertising Cloud gebruikt cookies om gebeurtenissen in verband met advertenties toe te wijzen aan conversiegebeurtenissen en deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
-seo-description: De Advertising Cloud gebruikt cookies om gebeurtenissen in verband met advertenties toe te wijzen aan conversiegebeurtenissen en deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
-seo-title: Cloud-cookies voor advertenties
-title: Cloud-cookies voor advertenties
+description: Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conversie toe te wijzen en om deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
+seo-description: Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conversie toe te wijzen en om deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
+seo-title: Advertising Cloud Cookies
+title: Advertising Cloud Cookies
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 2%
 
 ---
 
 
-# Cloud-cookies voor advertenties{#advertising-cloud-cookies}
+# Advertising Cloud Cookies{#advertising-cloud-cookies}
 
-De Advertising Cloud gebruikt cookies om gebeurtenissen in verband met advertenties toe te wijzen aan conversiegebeurtenissen en deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
+Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conversie toe te wijzen en om deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
 
 ## Naam cookie: _lcc
 
@@ -34,7 +37,7 @@ De Advertising Cloud gebruikt cookies om gebeurtenissen in verband met advertent
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
-   <td colname="col2"> <p>Een cookie van een andere fabrikant die wordt gebruikt om te bepalen of een klikgebeurtenis op een display wordt toegepast en die van toepassing is op een hit van Adobe Analytics </p> </td> 
+   <td colname="col2"> <p>Een cookie van een andere fabrikant die wordt gebruikt om te bepalen of een klikgebeurtenis op een display wordt toegepast en op een Adobe Analytics-hit wordt toegepast </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Locatie </p> </td> 
@@ -59,7 +62,7 @@ De Advertising Cloud gebruikt cookies om gebeurtenissen in verband met advertent
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p>Gecodeerde id's en tijdstempels voor advertentieopdrachten met DSP-tracking voor advertenties </p> </td> 
+   <td colname="col2"> <p>Gecodeerde id's en tijdstempels voor advertentiegroepen met behulp van Advertising Cloud DSP-tracking </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
@@ -100,7 +103,7 @@ De Advertising Cloud gebruikt cookies om gebeurtenissen in verband met advertent
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
-   <td colname="col2"> <p>Een eersteklas cookie die de surfer-id koppelt aan relevante publiekssegmenten en conversies </p> <p> Informatie over het laatste bezoek wordt gebruikt om de laadtijden van de pagina te optimaliseren door onnodige aanvragen naar Adobe-servers te voorkomen. </p> <p>Met informatie over de laatste zoekklik kunt u bepalen of een conversiegebeurtenis het resultaat is van een klik of een doorkijkbewerking (conversie als gevolg van indrukkingen maar zonder klikken). </p> </td> 
+   <td colname="col2"> <p>Een eersteklas cookie die de surfer-id koppelt aan relevante publiekssegmenten en conversies </p> <p> Informatie over het laatste bezoek wordt gebruikt om de laadtijden van de pagina te optimaliseren door onnodige verzoeken aan Adobe-servers te voorkomen. </p> <p>Met informatie over de laatste zoekklik kunt u bepalen of een conversiegebeurtenis het resultaat is van een klik of een doorkijkbewerking (conversie als gevolg van indrukkingen maar zonder klikken). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Locatie </p> </td> 
@@ -135,7 +138,7 @@ De Advertising Cloud gebruikt cookies om gebeurtenissen in verband met advertent
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
-   <td colname="col2"> <p>Een externe, specifieke cookie die de surfer-id voor Advertising Cloud synchroniseert met de partner en de uitwisseling. Het is gecreeerd voor nieuwe surfers en verzendt een synchronisatieverzoek wanneer het is verlopen. </p> </td> 
+   <td colname="col2"> <p>Een derde partij, en uitwisselingsspecifieke koekje dat de Advertising Cloud afwisselings identiteitskaart met de partner en de uitwisseling synchroniseert. Het is gecreeerd voor nieuwe surfers en verzendt een synchronisatieverzoek wanneer het is verlopen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Locatie </p> </td> 
@@ -226,7 +229,7 @@ De Advertising Cloud gebruikt cookies om gebeurtenissen in verband met advertent
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP (Demand Side Platform) ID </p> </td> 
+   <td colname="col2"> <p>Advertising Cloud DSP (Demand Side Platform)-id </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
