@@ -1,6 +1,9 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '329'
+ht-degree: 2%
 
 ---
 # Instructies
@@ -38,9 +41,9 @@ translation-type: tm+mt
    + tweede titel - tweede alternatieve titel.
    + seo-description - alternatieve titel voor SEO-doeleinden.
    + korte titel - (optioneel veld).
-   + Met index - ja/nee - wordt de pagina geïndexeerd door het zoekplatform van Adobe.
+   + index - ja / neen - zal de pagina door Adobe zoekplatform worden geïndexeerd.
    + vertalen - ja / nee - zal deze pagina worden gelokaliseerd .
-   + versie - vooral gebruikt voor AEM en Campagne, om de versie van het product aan te duiden.
+   + versie - hoofdzakelijk gebruikt voor AEM en Campagne, om de versie van het product aan te duiden.
    + private-feature-pack - voornamelijk gebruikt voor AEM.
    + bèta - is dit product in bèta?
    + omleiding - kan worden gebruikt om een verwijzing naar een nieuwe pagina tot stand te brengen als dat wordt vereist.
