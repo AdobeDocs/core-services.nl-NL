@@ -1,7 +1,7 @@
 ---
-description: Overwegingen en aanbevolen procedures voor het uploaden en gebruiken van persoonlijk identificeerbare informatie (PII) in de Adobe Experience Cloud.
+description: Overwegingen en beste praktijken betreffende persoonlijk identificeerbare informatie (PII) die in Adobe Experience Cloud wordt geupload en gebruikt.
 keywords: Customer Attributes;core services
-seo-description: Overwegingen en aanbevolen procedures voor het uploaden en gebruiken van persoonlijk identificeerbare informatie (PII) in de Adobe Experience Cloud.
+seo-description: Overwegingen en beste praktijken betreffende persoonlijk identificeerbare informatie (PII) die in Adobe Experience Cloud wordt geupload en gebruikt.
 seo-title: Privacyoverwegingen - Klantkenmerken
 solution: Experience Cloud
 title: Privacyoverwegingen - Klantkenmerken
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Privacyoverwegingen - Klantkenmerken
 
-Overwegingen en aanbevolen procedures voor het uploaden en gebruiken van persoonlijk identificeerbare informatie (PII) in de Adobe Experience Cloud.
+Overwegingen en beste praktijken betreffende persoonlijk identificeerbare informatie (PII) die in Adobe Experience Cloud wordt geupload en gebruikt.
 
 * Voornaam en achternaam
 * Thuis of ander fysiek adres
@@ -26,22 +26,22 @@ Overwegingen en aanbevolen procedures voor het uploaden en gebruiken van persoon
 * Sociale verzekeringsnummer
 * Andere identificatiecode die fysieke of online contact met een persoon mogelijk maakt. (Varieert op plaats. Verifieer en volg de lokale wetten en regels met betrekking tot privacy en PII voor alle plaatsen waar u zaken doet.)
 
-Adobe biedt tools waarmee adverteerders gedragsinformatie kunnen verzamelen over consumenten die hun sites bezoeken of hun toepassingen gebruiken. Adobe biedt ook tools waarmee adverteerders deze informatie kunnen verbeteren met offline of externe klantgegevens die de adverteerder in andere informatiemanagementsystemen kan hebben.
+Adobe biedt hulpmiddelen waarmee adverteerders gedragsinformatie kunnen verzamelen over consumenten die hun sites bezoeken of hun toepassingen gebruiken. Adobe biedt adverteerders ook de mogelijkheid om deze informatie te verbeteren met offline of externe klantgegevens die de adverteerder binnen andere informatiemanagementsystemen kan hebben.
 
-Een van de redenen waarom adverteerders dit doen, is het verbeteren van de informatie die beschikbaar is wanneer zij op de consument gerichte marketing- en reclamebeslissingen nemen. Met Adobe Analytics en Target kunnen adverteerders alleen persoonlijke identificeerbare gegevens (PII&#39;s), zoals e-mailadressen, uploaden nadat deze zijn gehasht om het contact met de persoon onmogelijk te maken. Onderbroken informatie kan nog steeds worden gebruikt voor analyse en marketing. Ter herinnering, Adobe verbiedt adverteerders gevoelige persoonlijke gegevens naar Adobe te verzenden, zoals medische gegevens, informatie over financiële rekeningen en informatie over minderjarigen.
+Een van de redenen waarom adverteerders dit doen, is het verbeteren van de informatie die beschikbaar is wanneer zij op de consument gerichte marketing- en reclamebeslissingen nemen. Adobe Analytics en Target staan adverteerders toe om persoonlijk identificeerbare informatie (PII), zoals e-mailadressen, pas te uploaden nadat deze is gehasht om het contact met de persoon onmogelijk te maken. Onderbroken informatie kan nog steeds worden gebruikt voor analyse en marketing. Ter herinnering: Adobe verbiedt adverteerders gevoelige persoonlijke informatie aan Adobe te sturen, zoals medische dossiers, informatie over financiële rekeningen en informatie over minderjarigen.
 
-Adobe beseft dat dit soort marketing- en reclamebesluiten gevolgen kan hebben voor de privacy van de consument. Daarom heeft Adobe privacycontroles ontwikkeld om adverteerders te helpen aan de verwachtingen van hun klanten te voldoen. Adobe raadt zijn adverteerders aan zorgvuldig na te denken welke informatie geschikt is voor marketingdoeleinden en onder welke omstandigheden de adverteerder toestemming heeft om dergelijke informatie te gebruiken.
+Adobe beseft dat dit soort marketing- en reclamebesluiten gevolgen kan hebben voor de privacy van de consument, en daarom heeft Adobe privacycontroles ingebouwd om adverteerders te helpen aan de verwachtingen van de consument te voldoen. Adobe raadt zijn adverteerders aan zorgvuldig na te denken over welke informatie geschikt is voor marketingdoeleinden en onder welke omstandigheden de adverteerder toestemming heeft om dergelijke informatie te gebruiken.
 
-## Aanbevolen procedures
+## Best practices
 
-Wanneer u PII uploadt naar Adobe Analytics of Adobe Target, raadt Adobe de klant aan om PII te hashen voordat deze naar Adobe wordt geüpload. Onderbroken informatie kan nog steeds worden gebruikt voor analyse en marketing. Ter herinnering, Adobe verbiedt adverteerders gevoelige persoonlijke gegevens naar Adobe Analytics en Adobe Target te verzenden, zoals medische gegevens, informatie over financiële accounts en informatie over minderjarigen.
+Bij het uploaden van PII naar Adobe Analytics of Adobe Target raadt Adobe aan dat de klant PII hasht voordat deze naar Adobe wordt geüpload. Onderbroken informatie kan nog steeds worden gebruikt voor analyse en marketing. Ter herinnering: Adobe verbiedt adverteerders gevoelige persoonlijke informatie naar Adobe Analytics en Adobe Target te sturen, zoals medische dossiers, informatie over financiële rekeningen en informatie over minderjarigen.
 
-Adobe raadt zijn adverteerders aan zorgvuldig na te denken welke informatie geschikt is voor marketingdoeleinden en onder welke omstandigheden de adverteerder toestemming heeft om dergelijke informatie te gebruiken.
+Adobe raadt zijn adverteerders aan zorgvuldig na te denken over welke informatie geschikt is voor marketingdoeleinden en onder welke omstandigheden de adverteerder toestemming heeft om dergelijke informatie te gebruiken.
 
-Aangezien de privacywetgeving van de consument nog steeds van kracht is, raadt Adobe aan dat adverteerders drie algemene beginselen in acht nemen:
+Aangezien de privacywetgeving van de consument nog steeds in volle gang is, beveelt Adobe aan dat adverteerders drie algemene beginselen in acht nemen:
 
 1. Doe wat u zegt (in uw privacybeleid).
 1. Zeg wat u (in uw privacybeleid) doet.
 1. Verwar je consumenten niet.
 
-Met het oog op deze verwachtingen raadt Adobe aan dat wanneer een adverteerder activiteiten aan PII koppelt, de adverteerder berichten of personalisatie verstrekt die erop wijzen dat de consument voor authentiek wordt verklaard. Een voorbeeld hiervan is het plaatsen van een begroeting in de koptekst van de website. Adobe raadt adverteerders ook aan in hun privacybeleid te beschrijven welk type bladerinformatie ze aan PII koppelen en onder welke omstandigheden ze informatie over bladeren aan PII koppelen. Tot slot raadt Adobe adverteerders ten zeerste aan de keuzemogelijkheden te bekijken die hun consumenten bieden om te begrijpen of en hoe ze de optie voor het posten van niet-geverifieerde profielgegevens kunnen gebruiken.
+Met het oog op deze verwachtingen raadt Adobe aan dat wanneer een adverteerder activiteiten aan PII associeert, de adverteerder berichten of personalisatie verstrekt die erop wijzen dat de consument voor authentiek wordt verklaard. Een voorbeeld hiervan is het plaatsen van een begroeting in de koptekst van de website. Adobe raadt ook aan dat adverteerders in hun privacybeleid beschrijven welk type van het doorbladeren informatie zij met PII associeert en onder welke omstandigheden doorbladerinformatie met PII in verband wordt gebracht. Tot slot beveelt Adobe aan dat adverteerders de keuzemogelijkheden die ze hun consumenten bieden, herzien om te begrijpen of en hoe ze gebruik kunnen maken van niet-geverifieerde profielinformatie na opt-out.
