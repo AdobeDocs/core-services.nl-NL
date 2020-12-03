@@ -8,6 +8,9 @@ title: Gedrag van gedeelde mappen
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Regels voor het gedrag van gedeelde mappen wanneer deze worden verplaatst, verwi
 
 >[!NOTE]
 >
->De mappen en middelen voor gedeelde ervaring in de cloud worden weerspiegeld op het Creative Cloud-bureaublad in een verhouding van 1:1. Als een gebruiker met de Experience Cloud een map wijzigt (delen verwijdert, toevoegt of verwijdert), wordt de actie gespiegeld op het bureaublad en het web van Creative Cloud. Als een map niet wordt gedeeld, worden de map en de middelen daarom van uw lokale computer verwijderd. Nadat het delen is verwijderd, worden de map en de inhoud ervan verplaatst naar de prullenbak op uw lokale computer, waar u ze handmatig op uw computer kunt terugzetten.
+>De gedeelde omslagen en de activa van Experience Cloud worden weerspiegeld aan de Desktop van Creative Cloud in een 1:1 verhouding. Als een Experience Cloud-gebruiker een map wijzigt (delen verwijdert, verwijdert of verwijdert), wordt de actie gespiegeld op het bureaublad en het web van de Creative Cloud. Als een map niet wordt gedeeld, worden de map en de middelen daarom van uw lokale computer verwijderd. Nadat het delen is verwijderd, worden de map en de inhoud ervan verplaatst naar de prullenbak op uw lokale computer, waar u ze handmatig op uw computer kunt terugzetten.
 
 ## Niet-gedeelde map in gedeelde map {#section_A9BAC1A244A246A984AC62660E61E0C0}
 
