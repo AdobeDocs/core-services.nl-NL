@@ -37,15 +37,15 @@ Op de [!UICONTROL Validate Schema] pagina vertegenwoordigt elke rij van het sche
 
 * **[!UICONTROL FTP Setup:]** [Upload de gegevens via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-* **[!UICONTROL ID Lookup:]** Voer een klant-id (CID) van uw computer in `.csv` om de gegevens van Experience Cloud voor de id op te zoeken. Deze functie is handig voor het oplossen van problemen waarom kenmerkgegevens niet worden weergegeven voor een bezoeker:
+* **[!UICONTROL ID Lookup:]** Voer een Customer ID (CID) van je in `.csv` om Experience Cloud-gegevens voor de id op te zoeken. Deze functie is handig voor het oplossen van problemen waarom kenmerkgegevens niet worden weergegeven voor een bezoeker:
 
-   * **[!UICONTROL ECID (Experience Cloud ID):]** Geeft weer als u de nieuwste Experience Cloud ID Service gebruikt. Als u op de MCID-service werkt maar hier geen id&#39;s worden vermeld, heeft de Experience Cloud geen alias voor die CID ontvangen. Dit betekent dat de bezoeker zich niet heeft aangemeld of dat uw implementatie die id niet doorgeeft.
+   * **[!UICONTROL ECID (Experience Cloud ID):]** Toont als u de recentste Dienst van identiteitskaart van Experience Cloud gebruikt. Als u zich op de dienst MCID bevindt maar geen IDs hier vermeld is, heeft de Experience Cloud geen alias voor die CID ontvangen. Dit betekent dat de bezoeker zich niet heeft aangemeld of dat uw implementatie die id niet doorgeeft.
 
-   * **[!UICONTROL CID (Customer ID):]** De kenmerken die aan deze CID zijn gekoppeld. Als u een prop of eVar gebruikt om CID&#39;s (AVID) te uploaden, en u weergegeven kenmerken ziet maar geen AVID, geeft dit aan dat de bezoeker zich niet bij uw site heeft aangemeld.
+   * **[!UICONTROL CID (Customer ID):]** De kenmerken die aan deze CID zijn gekoppeld. Als u een profiel of eVar gebruikt om CID&#39;s (AVID) te uploaden en u kenmerken ziet die worden weergegeven maar geen AVID, geeft dit aan dat de bezoeker zich niet heeft aangemeld bij uw site.
 
-   * **[!UICONTROL AVID (Analytics visitor ID):]** Hier wordt weergegeven of u CID&#39;s uploadt met een proxy of eVar. Als deze id&#39;s worden doorgegeven aan de Experience Cloud, worden alle bezoekers-id&#39;s die zijn gekoppeld aan de ingevoerde CID hier weergegeven.
+   * **[!UICONTROL AVID (Analytics visitor ID):]** Hier wordt weergegeven of u CID&#39;s uploadt met een proxy of eVar. Als deze id&#39;s worden doorgegeven aan de Experience Cloud, worden hier alle bezoekers-id&#39;s weergegeven die zijn gekoppeld aan de ingevoerde CID.
 
-U kunt gegevens ook uploaden via FTP nadat u een bron voor klantkenmerken en een FTP-account hebt gemaakt in de Experience Cloud. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten de .csv-indeling hebben, met een tweede .fin-bestand om aan te geven dat het uploaden is voltooid
+U kunt gegevens ook uploaden via FTP nadat u een bron voor klantkenmerken en een FTP-account in de Experience Cloud hebt gemaakt. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten de .csv-indeling hebben, met een tweede .fin-bestand om aan te geven dat het uploaden is voltooid
 
 De namen die u toepast op tekenreeksen, gehele getallen en getallen worden gebruikt om [!DNL Analytics] metriek te maken. Zie Rapport [Klantkenmerken](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in [!DNL Analytics] Help voor meer informatie.
 
