@@ -34,7 +34,7 @@ Beschrijft hoe te:
 Oplossingen of services:
 
 * Activering - Experience Platform Launch (aanbevolen) of dynamisch tagbeheer
-* Analytics 
+* Analytics
 * Target
 * [Experience Cloud ID-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html)
 
@@ -146,7 +146,7 @@ Integreer Adobe Target met Adobe Analytics en andere Experience Cloud-oplossinge
 * Analyse: [Adobe Analytics als rapportagebron voor Adobe Target](https://docs.adobe.com/content/help/nl-NL/target/using/integrate/a4t/a4t.html)
 * Dynamisch tagbeheer: [Aanbevolen procedures voor het implementeren van Adobe Target met DTM](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
 * Audience Manager: [Adobe Target-gegevensintegratie met Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* Campagne: [Adobe Target integreren met campagne](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* Campagne: [Adobe Target integreren met campagne](https://docs.adobe.com/content/help/nl-NL/target/using/integrate/campaign-and-target.html)
 
 ## Integratie van Experience Managers {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
@@ -156,7 +156,7 @@ AEM integreren met andere oplossingen en services van derden.
 
 **Toepasselijke oplossingen of services**
 
-* [Analytics](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/sitecatalyst.html) 
+* [Analytics](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/sitecatalyst.html)
 * [Analyse met externe providers](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/external-providers.html)
 * [Experience Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud.html)
 * [Creative Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/creative-cloud.html)
