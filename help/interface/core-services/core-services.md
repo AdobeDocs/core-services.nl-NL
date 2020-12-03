@@ -89,7 +89,7 @@ De eenvoudigste methode voor het inschakelen van Experience Cloud core services 
 
 Ga [hier](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html)voor de volledige Experience Cloud ID-service (voorheen bezoekersidentiteitskaart).
 
-**Niet gebruiken[!UICONTROL Experience Platform Launch]of[!UICONTROL Dynamic Tag Management]?**
+**Niet gebruiken [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management]?**
 
 Als u de id-service niet gebruikt [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management]handmatig implementeert via de JavaScript-implementatie ([!DNL VisitorAPI.js]), gaat u als volgt te werk:
 
