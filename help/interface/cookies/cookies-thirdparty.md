@@ -1,15 +1,13 @@
 ---
-description: Aangezien de ondersteuning voor cookies van derden steeds beperkter is geworden in verschillende browsers, heeft Adobe gewerkt aan nieuwe oplossingen die de vereisten van de klant zorgvuldig afstemmen op het recht van de consument op privacy in alle Adobe Experience Cloud-oplossingen.
+description: Leer hoe de ondersteuning voor cookies van derden steeds beperkter is geworden in browsers.
 keywords: cookies;privacy
-seo-description: Aangezien de ondersteuning voor cookies van derden steeds beperkter is geworden in verschillende browsers, heeft Adobe gewerkt aan nieuwe oplossingen die de vereisten van de klant zorgvuldig afstemmen op het recht van de consument op privacy in alle Adobe Experience Cloud-oplossingen.
-seo-title: Hoe de veranderingen in de Steun van de Koekjesindustrie van de Derde Klanten beïnvloeden
 solution: Experience Cloud,Analytics,Target
-title: Hoe de veranderingen in de Steun van de Koekjesindustrie van de Derde Klanten beïnvloeden
+title: Hoe wijzigingen in Cookie-ondersteuning van derden van invloed zijn op klanten | Adobe Experience Cloud
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '298'
 ht-degree: 1%
 
 ---
