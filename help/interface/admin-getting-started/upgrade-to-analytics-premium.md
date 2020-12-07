@@ -1,16 +1,14 @@
 ---
 description: Beheerders kunnen meer weten over de vereisten en wat ze moeten verwachten als ze een upgrade uitvoeren naar Analytics Premium en waar ze hulp kunnen zoeken als beheerder van een Experience Cloud.
-keywords: upgrading
-seo-description: Beheerders kunnen meer weten over de vereisten en wat ze moeten verwachten als ze een upgrade uitvoeren naar Analytics Premium en waar ze hulp kunnen zoeken als beheerder van een Experience Cloud.
-seo-title: Upgrade uitvoeren naar Analytics Premium en de Experience Cloud
-solution: Experience Cloud
-title: Upgrade uitvoeren naar Analytics Premium en de Experience Cloud
+keywords: Adobe Analytics Premium upgrade
+solution: Adobe Experience Cloud
+title: Hoe kan ik upgraden naar de Analytics Premium en de Experience Cloud? | Adobe Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '644'
 ht-degree: 6%
 
 ---
