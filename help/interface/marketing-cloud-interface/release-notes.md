@@ -1,15 +1,13 @@
 ---
 description: Functies, releaseopmerkingen en bekende problemen voor de interface Experience Cloud.
 keywords: core services
-seo-description: Functies, releaseopmerkingen en bekende problemen voor de interface Experience Cloud.
-seo-title: Opmerkingen bij de cumulatieve release
 solution: Experience Cloud
-title: Opmerkingen bij de cumulatieve release
+title: Opmerkingen bij de cumulatieve release | Adobe Experience Cloud
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3903'
 ht-degree: 3%
 
 ---
@@ -171,7 +169,7 @@ Als u via de interface **[!UICONTROL Experience Cloud]** **[!UICONTROL Activatio
 
 **Bekend probleem**
 
-Een bekende kwestie veroorzaakt dubbele auto-geproduceerde rekeningen om in Audience Manager worden gecreeerd, en hen automatisch verbinden aan de identiteit van de Experience Cloud van een gebruiker. Dit probleem doet zich voor als u naar de Audience Manager wilt navigeren voordat u uw accounts koppelt. Adobe raadt u aan uw Audience Manager-accounts aan de Experience Cloud te koppelen voordat u naar de Audience Manager navigeert. (MAC-25640)
+Een bekende kwestie veroorzaakt dubbele auto-geproduceerde rekeningen om in Audience Manager worden gecreeerd, en hen automatisch aan de identiteit van de Experience Cloud van een gebruiker te verbinden. Dit probleem doet zich voor als u naar de Audience Manager wilt navigeren voordat u uw accounts koppelt. Adobe raadt u aan uw Audience Manager-accounts aan de Experience Cloud te koppelen voordat u naar de Audience Manager navigeert. (MAC-25640)
 
 ## Release 15.6.1 - June 11 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
