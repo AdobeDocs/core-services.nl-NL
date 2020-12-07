@@ -1,15 +1,13 @@
 ---
-description: Regels voor het gedrag van gedeelde mappen wanneer deze worden verplaatst, verwijderd en hersteld.
+description: Leer hoe gedeelde mappen zich gedragen wanneer ze worden verplaatst, verwijderd en hersteld in Experience Cloud.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Regels voor het gedrag van gedeelde mappen wanneer deze worden verplaatst, verwijderd en hersteld.
-seo-title: Gedrag van gedeelde mappen
 solution: Experience Cloud
-title: Gedrag van gedeelde mappen
+title: Gedrag van gedeelde mappen | Adobe Experience Cloud
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
