@@ -1,16 +1,14 @@
 ---
-description: Leer hoe te om attributenregels te gebruiken om een publiek tot stand te brengen en een samengesteld publiek in de Experience Cloud te bepalen.
+description: Leer hoe u kenmerkregels gebruikt om een publiek te maken en een samengesteld publiek in Adobe Experience Cloud te definiëren.
 keywords: core services
-seo-description: Leer hoe te om attributenregels te gebruiken om een publiek tot stand te brengen en een samengesteld publiek in de Experience Cloud te bepalen.
-seo-title: Een doelgroep maken
-solution: Experience Cloud
-title: Een doelgroep maken
+solution: Adobe Experience Cloud
+title: Een publiek maken | Adobe Experience Cloud
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 3%
+source-wordcount: '446'
+ht-degree: 2%
 
 ---
 
