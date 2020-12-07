@@ -1,15 +1,13 @@
 ---
-description: Voer de Experience Cloud uit en word een beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals de Attributen en het publiek van de Klant.
+description: Leer hoe u de Adobe Experience Cloud implementeert en beheerder wordt.
 keywords: core services;Customer Attributes
-seo-description: Voer de Experience Cloud uit en word een beheerder. Dit proces moderniseert uw oplossingen voor eigenschappen zoals de Attributen en het publiek van de Klant.
-seo-title: Laat uw Experience Cloud oplossingen voor klantenattributen en publiek toe
 solution: Experience Cloud
-title: Laat uw oplossingen voor de kerndiensten toe
+title: Laat uw oplossingen voor de kerndiensten toe | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2278'
 ht-degree: 2%
 
 ---
