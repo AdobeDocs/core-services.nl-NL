@@ -1,15 +1,13 @@
 ---
-description: Search&Promote gebruikt cookies om de zoekintentie van bezoekers te begrijpen en hierop te anticiperen.
+description: Leer hoe Search&Promote cookies gebruikt om de zoekintentie van bezoekers te begrijpen en te anticiperen.
 keywords: cookies;privacy
-seo-description: Search&Promote gebruikt cookies om de zoekintentie van bezoekers te begrijpen en hierop te anticiperen.
-seo-title: Cookies zoeken en promoten
 solution: Experience Cloud,Analytics,Target
-title: Cookies zoeken en promoten
+title: Cookies zoeken en promoten | Adobe Experience Cloud
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '122'
 ht-degree: 1%
 
 ---
