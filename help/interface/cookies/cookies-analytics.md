@@ -1,15 +1,13 @@
 ---
-description: Adobe Analytics gebruikt cookies om aanvragen van verschillende browsers te onderscheiden en om nuttige informatie op te slaan die een toepassing later kan gebruiken. Zij kunnen ook worden gebruikt om het doorbladeren informatie aan klantenverslagen te associëren.
+description: Meer weten over Adobe Analytics cookies in Adobe Experience Cloud?
 keywords: cookies;privacy
-seo-description: Adobe Analytics gebruikt cookies om aanvragen van verschillende browsers te onderscheiden en om nuttige informatie op te slaan die een toepassing later kan gebruiken. Zij kunnen ook worden gebruikt om het doorbladeren informatie aan klantenverslagen te associëren.
-seo-title: Analysecookies
 solution: Experience Cloud,Analytics,Target
-title: Analysecookies
+title: Adobe Analytics Cookies gebruiken | Adobe Experience Cloud
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: c9d9a69193a877c553db73d230723f1c24dbfed6
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '760'
 ht-degree: 2%
 
 ---
