@@ -1,15 +1,13 @@
 ---
-description: Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende functies uit te voeren. Dit zijn onder andere het toewijzen van id's, het opnemen van gegevensaanroepen, het bijhouden van fouten en het testen om te controleren of cookies kunnen worden ingesteld. In deze sectie worden de verschillende cookies vermeld en beschreven die door de Audience Manager zijn ingesteld.
+description: Meer informatie over Audience Manager cookies in Adobe Experience Cloud.
 keywords: cookies
-seo-description: Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende functies uit te voeren. Dit zijn onder andere het toewijzen van id's, het opnemen van gegevensaanroepen, het bijhouden van fouten en het testen om te controleren of cookies kunnen worden ingesteld. In deze sectie worden de verschillende cookies vermeld en beschreven die door de Audience Manager zijn ingesteld.
-seo-title: Audience Manager Cookies
 solution: Experience Cloud, Audience Manager
-title: Audience Manager Cookies
+title: Audience Manager Cookies | Adobe Experience Cloud
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
