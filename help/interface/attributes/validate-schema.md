@@ -1,15 +1,13 @@
 ---
-description: Met het validatieproces kunt u weergavenamen en beschrijvingen toewijzen aan geüploade kenmerken (tekenreeksen, gehele getallen, getallen, enzovoort). Op basis van deze instellingen wordt een schema gemaakt. Het schema wordt gebruikt om alle toekomstige gegevens te bevestigen die aan deze gegevensbron worden geupload. Met dit toewijzingsproces worden de oorspronkelijke gegevens niet gewijzigd.
-keywords: Customer Attributes;core services
-seo-description: Met het validatieproces kunt u weergavenamen en beschrijvingen toewijzen aan geüploade kenmerken (tekenreeksen, gehele getallen, getallen, enzovoort). Op basis van deze instellingen wordt een schema gemaakt. Het schema wordt gebruikt om alle toekomstige gegevens te bevestigen die aan deze gegevensbron worden geupload. Met dit toewijzingsproces worden de oorspronkelijke gegevens niet gewijzigd.
-seo-title: Het schema valideren
+description: Leer hoe u het klantkenmerkschema in Adobe Experience Cloud kunt valideren.
+keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
-title: Het schema valideren
+title: Hoe te om het schema van de klantenattributen te bevestigen | Adobe Experience Cloud
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
