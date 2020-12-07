@@ -1,15 +1,13 @@
 ---
-description: Gegevensbestandsvereisten en meerdere gegevensbronnen voor het uploaden van klantkenmerken naar de Experience Cloud.
+description: Gegevensbestandsvereisten en meerdere gegevensbronnen voor het uploaden van klantkenmerken naar de Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Gegevensbestandsvereisten en meerdere gegevensbronnen voor het uploaden van klantkenmerken naar de Experience Cloud.
-seo-title: Gegevensbestand en gegevensbronnen voor klantkenmerken
 solution: Experience Cloud
-title: Gegevensbestand en gegevensbronnen voor klantkenmerken
+title: Meer informatie over gegevensbestanden en gegevensbronnen voor klantkenmerken | Adobe Experience Cloud
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
