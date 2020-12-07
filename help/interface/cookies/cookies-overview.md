@@ -1,13 +1,11 @@
 ---
-description: Veel services in de Adobe Experience Cloud gebruiken cookies. Een cookie is een klein stukje gegevens dat door een website aan een webbrowser wordt gepresenteerd. De browser slaat dit stukje gegevens op en retourneert het vervolgens naar de website die het heeft geleverd. Deze handeling wordt uitgevoerd bij elke volgende aanvraag voor pagina's en afbeeldingen.
-seo-description: Veel services in de Adobe Experience Cloud gebruiken cookies. Een cookie is een klein stukje gegevens dat door een website aan een webbrowser wordt gepresenteerd. De browser slaat dit stukje gegevens op en retourneert het vervolgens naar de website die het heeft geleverd. Deze handeling wordt uitgevoerd bij elke volgende aanvraag voor pagina's en afbeeldingen.
-seo-title: In de Experience Cloud gebruikte cookies
-title: In de Experience Cloud gebruikte cookies
+description: Leer hoe oplossingen en services in Adobe Experience Cloud cookies gebruiken.
+title: Hoe cookies worden gebruikt in Experience Cloud | Adobe Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
