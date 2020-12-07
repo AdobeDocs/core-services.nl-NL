@@ -1,15 +1,13 @@
 ---
-description: Scene7 gebruikt cookies om nuttige informatie op te slaan die kan worden gebruikt om dynamische media naar de browser te verzenden.
+description: Hoe Adobe Scene7 cookies gebruikt om nuttige informatie op te slaan die kan worden gebruikt om dynamische media naar de browser te verzenden.
 keywords: cookies;privacy
-seo-description: Scene7 gebruikt cookies om nuttige informatie op te slaan die kan worden gebruikt om dynamische media naar de browser te verzenden.
-seo-title: Scene7 Cookies
 solution: Experience Cloud,Analytics,Target
-title: Scene7 Cookies
+title: Scene7 Cookies | Adobe Experience Cloud
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
