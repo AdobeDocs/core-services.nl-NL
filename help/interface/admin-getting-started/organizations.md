@@ -1,15 +1,13 @@
 ---
 description: Meer informatie over organisaties en het koppelen van oplossingsaccounts aan Experience Cloud.
-keywords: core services
-seo-description: Meer informatie over organisaties en het koppelen van oplossingsaccounts aan Experience Cloud.
-seo-title: Organisaties en accountkoppelingen
-solution: Experience Cloud
-title: Organisaties en accountkoppelingen
+keywords: Adobe Experience Cloud services
+solution: Adobe Experience Cloud
+title: Organisaties en accountkoppelingen | Adobe Experience Cloud
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '375'
 ht-degree: 9%
 
 ---
