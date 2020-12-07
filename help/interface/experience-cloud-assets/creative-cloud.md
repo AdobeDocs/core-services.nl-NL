@@ -1,14 +1,12 @@
 ---
-description: Deel mappen en elementen tussen de Experience Cloud en de Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Adobe Social en Adobe Target. De gedeelde map moet afkomstig zijn van de Experience Cloud.
+description: 'Leer hoe u mappen en elementen deelt tussen Experience Cloud en Creative Cloud. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Deel mappen en elementen tussen de Experience Cloud en de Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Adobe Social en Adobe Target. De gedeelde map moet afkomstig zijn van de Experience Cloud.
-seo-title: Experience Cloud-mappen en -elementen delen met Creative Cloud
 solution: Experience Cloud
-title: Experience Cloud-mappen en -elementen delen met Creative Cloud
+title: Experience Cloud-mappen en -elementen delen met Creative Cloud | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -16,7 +14,7 @@ ht-degree: 0%
 
 # Experience Cloud-mappen en -elementen delen met Creative Cloud
 
-Deel mappen en elementen tussen de Experience Cloud en de Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Adobe Social en Adobe Target. De gedeelde map moet afkomstig zijn van de Experience Cloud.
+Mappen en elementen delen tussen Experience Cloud en Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals Adobe Social en Adobe Target. De gedeelde map moet afkomstig zijn van Experience Cloud.
 
 ## Voordelen van delen {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
