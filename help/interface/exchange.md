@@ -1,16 +1,14 @@
 ---
-description: De Exchange Marketplace is één doel waar u extensies voor Digital Marketing kunt zoeken, selecteren, betalen en downloaden via apps. Apps omvatten gegevensconnectors, aangepaste configuraties aan Adobe-producten, toepassingen van derden en rapporten.
+description: Leer meer over de Exchange Marketplace, één bestemming waar u Digital Marketing-extensies kunt zoeken, zoeken, selecteren, betalen en downloaden via apps.
 keywords: core services
-seo-description: De Exchange Marketplace is één doel waar u extensies voor Digital Marketing kunt zoeken, selecteren, betalen en downloaden via apps. Apps omvatten gegevensconnectors, aangepaste configuraties aan Adobe-producten, toepassingen van derden en rapporten.
-seo-title: Exchange Marketplace
 solution: Experience Cloud
-title: Exchange Marketplace
+title: Exchange Marketplace | Adobe Experience Cloud
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 5%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
