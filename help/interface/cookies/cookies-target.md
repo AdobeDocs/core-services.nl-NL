@@ -1,15 +1,13 @@
 ---
-description: Doel gebruikt cookies om websitebeheerders de mogelijkheid te bieden te testen welke online-inhoud en -aanbiedingen voor bezoekers relevanter zijn.
+description: Leer hoe Adobe Target cookies gebruikt om websitebeheerders de mogelijkheid te bieden te testen welke online inhoud en aanbiedingen voor bezoekers relevanter zijn.
 keywords: cookies;privacy
-seo-description: Doel gebruikt cookies om websitebeheerders de mogelijkheid te bieden te testen welke online-inhoud en -aanbiedingen voor bezoekers relevanter zijn.
-seo-title: Doelcookies
 solution: Experience Cloud,Analytics,Target,Social
-title: Doelcookies
+title: Adobe Target Cookies gebruiken | Adobe Experience Cloud
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '272'
 ht-degree: 1%
 
 ---
