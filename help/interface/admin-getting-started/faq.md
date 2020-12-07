@@ -1,16 +1,14 @@
 ---
-description: Browserondersteuning, veelgestelde vragen en antwoorden voor beheerders in de Experience Cloud.
+description: Meer informatie over browserondersteuning en antwoorden voor beheerders in de Adobe Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Browserondersteuning, veelgestelde vragen en antwoorden voor beheerders in de Experience Cloud.
-seo-title: Veelgestelde vragen over de Experience Cloud core diensten.
-solution: Experience Cloud
-title: Veelgestelde vragen
+solution: Adobe Experience Cloud
+title: Veelgestelde vragen over Experience Cloud | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 8%
+source-wordcount: '770'
+ht-degree: 7%
 
 ---
 
