@@ -1,15 +1,13 @@
 ---
-description: Informatie over updates van de Experience Cloud Help.
+description: Informatie over updates voor Adobe Experience Cloud Help.
 keywords: Experience Cloud services
-seo-description: Informatie over updates van de Experience Cloud Help.
-seo-title: Documentatie-updates - Experience Cloud
 solution: Experience Cloud
-title: Documentatie-updates - Experience Cloud
+title: Documentatie-updates - Experience Cloud | Adobe Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
