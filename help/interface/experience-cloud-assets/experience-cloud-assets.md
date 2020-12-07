@@ -1,20 +1,18 @@
 ---
-description: Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een Photoshop-bestand, dia's in een PowerPoint-bestand, pagina's in een PDF, bestanden in een ZIP).
-seo-description: Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een Photoshop-bestand, dia's in een PowerPoint-bestand, pagina's in een PDF, bestanden in een ZIP).
-seo-title: Assets
+description: Meer weten over Experience Cloud Assets?
 solution: Experience Cloud
-title: Assets
+title: Overzicht van Experience Cloud-middelen | Adobe Experience Cloud
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
 
-# Assets
+# Overzicht van Experience Cloud-middelen
 
 Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop] bestand, dia&#39;s in een [!DNL PowerPoint] bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
 
