@@ -1,16 +1,14 @@
 ---
-description: Zelfhulp, productdocumentatie en technische documentatie voor de Adobe Experience Cloud. Omvat gebruiker en productbeheer in de Admin Console, toelatend oplossingen voor platformdiensten, en hulp op de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
-keywords: platform services
-seo-description: Hulp over gebruiker en productbeheer in de Admin Console, toelatend oplossingen voor platformdiensten, en hulp op de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
-seo-title: Help bij Adobe Experience Cloud- en platformservices en productdocumentatie.
+description: Leer over gebruiker en productbeheer in Adobe Admin Console, laat oplossingen voor de diensten van de Experience Cloud toe, en leer over de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
+keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
-title: Help bij Experience Cloud- en platformservices
+title: Experience Cloud en administratie | Adobe Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 18%
+source-wordcount: '420'
+ht-degree: 20%
 
 ---
 
