@@ -1,15 +1,13 @@
 ---
-description: Creeer de bron van de klantenattributen en upload de gegevens.
+description: Leer hoe u de bron van klantkenmerken maakt en deze uploadt naar de Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Creeer de bron van de klantenattributen en upload de gegevens.
-seo-title: Een bron voor klantkenmerken maken en het gegevensbestand uploaden
 solution: Experience Cloud
-title: Een bron voor klantkenmerken maken en het gegevensbestand uploaden
+title: Een bron voor klantkenmerken maken en het gegevensbestand uploaden | Adobe Experience Cloud
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
