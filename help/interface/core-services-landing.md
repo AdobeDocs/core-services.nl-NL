@@ -3,7 +3,7 @@ description: Meer informatie over gebruikers- en productbeheer in Adobe Experien
 solution: Experience Cloud
 title: Overzicht van Experience Cloud-services | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 13%
@@ -15,7 +15,9 @@ ht-degree: 13%
 
 Adobe Experience Cloud-services omvatten [!UICONTROL People] (soorten publiek en klantkenmerken), Experience Platform Launch en mobiele services. U kunt ook hulp vinden bij gebruikers en productbeheer van Experience Cloud.
 
-U opent deze services in de Experience Cloud door op de knop **[!UICONTROL Application Selector]**![](assets/menu-icon.png) te klikken.
+Als u deze services wilt openen in de Experience Cloud, klikt u op de knop **[!UICONTROL Application Selector]**
+
+![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
