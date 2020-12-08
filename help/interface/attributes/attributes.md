@@ -5,7 +5,7 @@ solution: Experience Cloud
 title: Hoe te om de Attributen van de Klant te gebruiken | Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: efa3c21a7d93cf1f81d0529be18235e833b02769
+source-git-commit: aceb1ddf150795cc76f246f8a54e9740ebed8916
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 ---
 
 
-# Klantkenmerken in Adobe Experience Cloud gebruiken
+# Klantkenmerken gebruiken in Adobe Experience Cloud
 
 De Attributen van de klant in Adobe Experience Cloud laten u toe om uw gevangen ondernemingsgegevens van een gegevensbestand van het het relatiebeheer van de klant (CRM) te uploaden. U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in de Experience Cloud en vervolgens de gegevens in Adobe Analytics en Adobe Target gebruiken.
 
