@@ -1,23 +1,23 @@
 ---
-description: Leer Customer Attributes in de Adobe Experience Cloud.
+description: Leer meer over de Customer Attributes-service in Adobe Experience Cloud en hoe u de gegevens uploadt voor gebruik in Analytic and Target.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: Customer Attributes-service | Adobe Experience Cloud
+title: Hoe te om de Attributen van de Klant te gebruiken | Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: efa3c21a7d93cf1f81d0529be18235e833b02769
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 2%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
 
-# Klantkenmerken in Adobe Experience Cloud
+# Klantkenmerken in Adobe Experience Cloud gebruiken
 
-Ga naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+De Attributen van de klant in Adobe Experience Cloud laten u toe om uw gevangen ondernemingsgegevens van een gegevensbestand van het het relatiebeheer van de klant (CRM) te uploaden. U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in de Experience Cloud en vervolgens de gegevens in Adobe Analytics en Adobe Target gebruiken.
 
-Als u de gegevens van de ondernemingsklant in een gegevensbestand van het klantenrelatiebeheer (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Experience Cloud uploaden. Gebruik na het uploaden de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
+Navigeer naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > om deze functie te zoeken. **[!UICONTROL Customer Attributes]**
 
 ![](assets/custom_reports.png)
 
@@ -31,7 +31,7 @@ Als u de gegevens van de ondernemingsklant in een gegevensbestand van het klante
 
    De gebruikers die aan de Attributen van de Klant worden toegevoegd zullen het [!UICONTROL Customer Attributes] menupunt op de linkerkant van de interface van Experience Cloud zien.
 
-* **Adobe Target** [!DNL at.js] (elke versie) of [!DNL mbox.js] versie 58 of hoger is vereist voor Klantkenmerken.
+* **Adobe Target** `at.js` (elke versie) of `mbox.js` versie 58 of hoger is vereist voor Klantkenmerken.
 
    Zie [hoe te om bij.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) of [Implementatie](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)Mbox.js op te stellen.
 
@@ -47,7 +47,7 @@ Nadat u het gegevensbestand hebt gemaakt, kunt u het uploaden naar de bron van k
 
 Zie [Klantkenmerkgegevens](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) uploaden om deze workflow te leren.
 
-## Gebruiksscenario&#39;s voor oplossing {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Voorbeelden van klantkenmerken in Analytics en Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 Nadat de gegevens in de Experience Cloud verblijven, kunt u het aanpassen en het aan oplossingen voor rapportering, segmentatie, activiteiten, en campagnes delen.
 
