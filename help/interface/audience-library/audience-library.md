@@ -1,14 +1,13 @@
 ---
 description: Leer hoe u de vertaling van bezoekersgegevens naar publiekssegmentatie in de Adobe Experience Cloud Audience-service beheert.
-seo-description: Beheer de vertaling van bezoekersgegevens in publiekssegmentatie in de dienst van het Experience Cloud publiek.
-seo-title: Experience Cloud-publiek
 solution: Experience Cloud
+type: Documentation
 title: 'Adobe Experience Cloud-publiek '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '801'
 ht-degree: 4%
 
 ---
