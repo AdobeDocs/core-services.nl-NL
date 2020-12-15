@@ -1,11 +1,11 @@
 ---
-title: Een publiekssegment Analytics publiceren | Adobe Experience Cloud
+title: 'Een publiekssegment Analytics publiceren '
 description: Een Adobe Analytics-publiekssegment publiceren naar de Experience Cloud en naar Adobe Target voor marketingactiviteiten voor het publiek.
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 14%
+source-wordcount: '65'
+ht-degree: 15%
 
 ---
 
