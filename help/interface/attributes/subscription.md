@@ -2,12 +2,12 @@
 description: Leer over de bronnen van oplossingsgegevens en het vormen abonnementen. De abonnementen laten de gegevensstroom van de klantenattributen tussen de Experience Cloud en oplossingen (Analytics en Doel) toe.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: Hoe te om abonnementen te vormen | Adobe Experience Cloud
+title: 'Hoe te om abonnementen te vormen '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
