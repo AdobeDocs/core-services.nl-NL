@@ -2,11 +2,11 @@
 description: 'Leer hoe u mappen en elementen deelt tussen Experience Cloud en Creative Cloud. '
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
-title: Experience Cloud-mappen en -elementen delen met Creative Cloud | Adobe Experience Cloud
+title: 'Experience Cloud-mappen en -elementen delen met Creative Cloud '
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
