@@ -2,12 +2,12 @@
 description: Leer hoe de ondersteuning voor cookies van derden steeds beperkter is geworden in browsers.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: Hoe wijzigingen in Cookie-ondersteuning van derden van invloed zijn op klanten | Adobe Experience Cloud
+title: 'Hoe wijzigingen in Cookie-ondersteuning van derden van invloed zijn op klanten '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '295'
 ht-degree: 1%
 
 ---
