@@ -2,12 +2,12 @@
 description: Hoe te om een Experience Cloud activaomslag met de gebruikers van Creative Cloud te delen.
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
-title: Een map met Experience Cloud-elementen delen | Adobe Experience Cloud
+title: 'Een map met Experience Cloud-elementen delen '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
