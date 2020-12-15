@@ -2,12 +2,12 @@
 description: Leer hoe u de Adobe Experience Cloud implementeert en beheerder wordt.
 keywords: core services;Customer Attributes
 solution: Experience Cloud
-title: Laat uw oplossingen voor de kerndiensten toe | Adobe Experience Cloud
+title: 'Laat uw oplossingen voor de kerndiensten toe '
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2272'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,7 @@ Als u de id-service niet gebruikt [!UICONTROL Experience Platform Launch] of [!U
 | Taak | Beschrijving |
 | -----------| ---------- |  
 | [Implementeer de Experience Cloud ID-service voor analyse](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html) | Adobe raadt ook aan extra [klant-id&#39;s in te stellen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Deze id&#39;s zijn gekoppeld aan elke bezoeker en maken huidige en toekomstige functionaliteit in Experience Cloud mogelijk. |
-| Werk uw bestaande versie bij [!DNL s_code] naar versie H.27.3 of hoger, of uw bestaande versie [!DNL AppMeasurement.js] naar versie 1.4 of hoger. | Deze bestanden kunnen worden gedownload in [Codebeheer](https://docs.adobe.com/content/help/nl-NL/analytics/admin/admin-tools/code-manager-admin.html) in Analytics Admin Tools.  (De handleiding voor [JavaScript-implementatie](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) is beschikbaar als u meer informatie nodig hebt over [!DNL AppMeasurement.js].) |
+| Werk uw bestaande versie bij [!DNL s_code] naar versie H.27.3 of hoger, of uw bestaande versie [!DNL AppMeasurement.js] naar versie 1.4 of hoger. | Deze bestanden kunnen worden gedownload in [Codebeheer](https://docs.adobe.com/content/help/nl-NL/analytics/admin/admin-tools/code-manager-admin.html) in Analytics Admin Tools. (De handleiding voor [JavaScript-implementatie](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) is beschikbaar als u meer informatie nodig hebt over [!DNL AppMeasurement.js].) |
 | De klant-id voor Analytics synchroniseren | Zie [Analytics - synchroniseert de klant-id](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437) (hieronder). |
 
 ## Analyse en Adobe Target - de klant-id synchroniseren {#section_AD473A6A21C1446498E700363F9A8437}
@@ -212,7 +212,7 @@ Wanneer het hefboomeffect van de kerndiensten die via de [!UICONTROL People] die
 * [!DNL Analytics] sleutel/waardeparen (eigenschappen, eVars, lijstvariabelen, enzovoort). Door gebrek, omvatten de logboeklijnen IP adres, met inbegrip van het laatste octet van IP (veronderstellend dat het IP adres niet door IP verduisteringsmontages binnen Adobe werd gewijzigd). [!DNL Analytics]
 * Treinen en segmenten waarvoor bezoekers in aanmerking komen op basis van in Audience Manager vastgestelde regels.
 * (Optioneel) Een of meer van uw id&#39;s. Afhankelijk van uw implementatie van de id-service, verzendt u mogelijk ook een of meer van uw id&#39;s, zoals CRM-id&#39;s of gehashte e-mailadressen. Als deze gegevens naar Adobe worden verzonden [!DNL Analytics], worden ze overgebracht naar het beheer van het Adobe-publiek. Adobe beveelt aan geen persoonsgegevens aan te leveren aan Adobe [!DNL Analytics]. Gebruik liever een eenrichtingshash om de gegevens te maskeren voordat deze naar Adobe worden verzonden.
-* Segmenten van oorsprong uit [!DNL Analytics] via de back-end segmentdelingsmogelijkheid.
+* Segmenten van oorsprong uit [!DNL Analytics] via de back-end-segmentdelingscapaciteit
 * Het cookie demdex.net wordt ingesteld als cookies van derden niet worden geblokkeerd. Het cookie van de `AMCV_###@AdobeOrg` eerste partij wordt altijd ingesteld met de Experience Cloud ID-service.
 
 Al deze gegevenselementen worden aan Adobe Audience Manager geleverd in de vorm van logbestanden. Audience Manager verwerkt en slaat deze gegevens op in de Verenigde Staten. Audience Manager biedt geen optie om deze gegevens buiten de Verenigde Staten op te slaan of te verwerken.
