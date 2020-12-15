@@ -2,12 +2,12 @@
 description: Verwijder gebruikers die alle cookies op mobiele en desktopbrowsers hebben geblokkeerd. Deze privacy-instelling sluit gebruikers uit die zich afmelden voor het verzamelen van analysegegevens.
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target, Social
-title: Privacy-instellingen voor browsercookies inschakelen | Adobe Experience Cloud
+title: 'Privacy-instellingen voor browsercookies inschakelen '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
