@@ -2,13 +2,13 @@
 description: Leer hoe Adobe Analytics cookies gebruikt om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
-title: Uitleg over het gebruik van cookies van de eerste fabrikant | Adobe Experience Cloud
+title: 'Uitleg over het gebruik van cookies van de eerste fabrikant '
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
