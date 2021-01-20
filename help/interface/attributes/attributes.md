@@ -1,13 +1,13 @@
 ---
-title: Hoe te om Attributen van de Klant te bepalen
+title: Hoe te om de Attributen van de Klant te gebruiken
 description: Meer informatie over de Customer Attributes-service in Adobe Experience Cloud. Ontdek hoe u klantkenmerkgegevens kunt uploaden voor gebruik in Adobe Analytic en Adobe Target.
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 10635b4eda2fff32ef04878178be3ac88fa32756
+source-git-commit: 9c091fc2b5d45b0a396584972fb3ad441444b474
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
