@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Laat uw oplossingen voor de kerndiensten toe '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2271'
 ht-degree: 2%
 
 ---
@@ -32,21 +32,21 @@ Voor bestaande klanten, kunt u uw oplossingsimplementaties moeten moderniseren e
 
 Wat u moet doen om zich bij de Experience Cloud aan te sluiten:
 
-![](assets/step1_icon.png) Zorg ervoor dat u de juiste Adobe Analytics- of Adobe Target-SKU&#39;s hebt.
+1. Zorg ervoor dat u de juiste Adobe Analytics- of Adobe Target-SKU&#39;s hebt.
 
-* **Adobe Analytics:** Standard of Premium (niet de verouderde  [!DNL SiteCatalyst] SKU).
-* **Adobe Target:** Standard of Premium.
+   * **Adobe Analytics:** Standard of Premium (niet de verouderde  [!DNL SiteCatalyst] SKU).
+   * **Adobe Target:** Standard of Premium.
 
->[!NOTE]
->
->Voor [!DNL Target] migreert u naar at.js vanuit [!DNL mbox.js]. Zie [Upgraden vanaf at.js 1. x tot at.js 2. x](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+   >[!NOTE]
+   >
+   >Voor [!DNL Target] migreert u naar at.js vanuit [!DNL mbox.js]. Zie [Upgraden vanaf at.js 1. x tot at.js 2. x](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
-![](assets/step2_icon.png) Moderniseer uw implementatie en krijg provisioned een beheerder.
+1. Moderniseer uw implementatie en krijg provisioned een beheerder.
 
-1. Voer de onderstaande stappen uit in [[!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) implementeren.
-1. Neem contact op met uw accountmanager en start het inrichtingsproces voor de Experience Cloud.
+   * Voer de onderstaande stappen uit in [[!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) implementeren.
+   * Neem contact op met uw accountmanager en start het inrichtingsproces voor de Experience Cloud.
 
-![](assets/step3_icon.png) Gebruikers en producten in de  [!UICONTROL Admin Console]website beheren.
+1. Gebruikers en producten beheren in [!UICONTROL Admin Console].
 
 ### Beheerdersaanmelding
 
@@ -54,18 +54,18 @@ Als u een beheerder bent, kunt u zich aanmelden bij [ExperienceCloud.adobe.com](
 
 De koppeling **[!UICONTROL Administration]** wordt weergegeven in de navigatie in het menu Experience Cloud.
 
-Zie [Experience Cloud gebruiker en producttoediening](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor hulp.
+Zie [Experience Cloud gebruiker en producttoediening](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor meer informatie.
 
 ### Gebruikersaanmelding
 
 Als u zich wilt aanmelden bij de Experience Cloud, moeten uw gebruikers:
 
-1. Heb een Adobe ID (of Enterprise ID voor uw bedrijf).
-1. Meld u aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
-1. Behoort tot een oplossingsgroep die is toegewezen aan een ondernemingsgroep.
-1. Koppel zo nodig hun oplossingsaccounts aan hun Adobe ID (zie hieronder).
+* Heb een Adobe ID (of Enterprise ID voor uw bedrijf).
+* Meld u aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
+* Behoort tot een oplossingsgroep die is toegewezen aan een ondernemingsgroep.
+* Koppel zo nodig hun oplossingsaccounts aan hun Adobe ID (zie hieronder).
 
-![](assets/step4_icon.png) Optioneel: Bestaande gebruikersaccounts koppelen.
+### Optioneel: Bestaande gebruikersaccounts koppelen.
 
 Het meest waarschijnlijk, hebt u gebruikers die reeds lid van oplossingsgroepen, zoals een groep van Analytics zijn die u eerder in [!UICONTROL Analytics] > [!UICONTROL Admin Tools] beheerde.
 
