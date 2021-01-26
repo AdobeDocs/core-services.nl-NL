@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Laat uw oplossingen voor de kerndiensten toe '
 index: true
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2270'
 ht-degree: 2%
 
 ---
@@ -28,33 +28,33 @@ Voor bestaande klanten, kunt u uw oplossingsimplementaties moeten moderniseren e
 1. [Gebruikers en producten beheren](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Begin met het delen van kenmerk- en publieksgegevens](#section_960C06093623462E8EA247B3E97274A1)
 
-## Stap 1. Deelnemen aan de Experience Cloud en beheerder worden {#section_2423F0BD3DF642658103310EE5EA6154}
+## Sluit u aan bij de Experience Cloud en word beheerder {#section_2423F0BD3DF642658103310EE5EA6154}
 
 Wat u moet doen om zich bij de Experience Cloud aan te sluiten:
 
 ![](assets/step1_icon.png) Zorg ervoor dat u de juiste Adobe Analytics- of Adobe Target-SKU&#39;s hebt.
 
-* **Adobe Analytics:** Standaard of Premium (niet de verouderde [!DNL SiteCatalyst] SKU).
-* **Adobe Target:** Standaard of Premium.
+* **Adobe Analytics:** Standard of Premium (niet de verouderde  [!DNL SiteCatalyst] SKU).
+* **Adobe Target:** Standard of Premium.
 
 >[!NOTE]
 >
->Migreer bijvoorbeeld [!DNL Target]naar at.js vanuit [!DNL mbox.js]. Zie [Bijwerken vanaf at.js 1. x tot at.js 2. x](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+>Voor [!DNL Target] migreert u naar at.js vanuit [!DNL mbox.js]. Zie [Upgraden vanaf at.js 1. x tot at.js 2. x](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png) Moderniseer uw implementatie en krijg provisioned een beheerder.
 
-1. Voer de onderstaande stappen uit in [Het [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)dialoogvenster Implementeren.
+1. Voer de onderstaande stappen uit in [[!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) implementeren.
 1. Neem contact op met uw accountmanager en start het inrichtingsproces voor de Experience Cloud.
 
-![](assets/step3_icon.png) Gebruikers en producten in de [!UICONTROL Admin Console]website beheren.
+![](assets/step3_icon.png) Gebruikers en producten in de  [!UICONTROL Admin Console]website beheren.
 
 ### Beheerdersaanmelding
 
-Als u een beheerder bent, kunt u zich aanmelden op [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
+Als u een beheerder bent, kunt u zich aanmelden bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
 
-De **[!UICONTROL Administration]** koppeling wordt weergegeven in de navigatie in het menu Experience Cloud.
+De koppeling **[!UICONTROL Administration]** wordt weergegeven in de navigatie in het menu Experience Cloud.
 
-Zie [Experience Cloud gebruiker en productbeheer](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor hulp.
+Zie [Experience Cloud gebruiker en producttoediening](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor hulp.
 
 ### Gebruikersaanmelding
 
@@ -67,7 +67,7 @@ Als u zich wilt aanmelden bij de Experience Cloud, moeten uw gebruikers:
 
 ![](assets/step4_icon.png) Optioneel: Bestaande gebruikersaccounts koppelen.
 
-Het meest waarschijnlijk, hebt u gebruikers die reeds lid van oplossingsgroepen, zoals een groep van Analytics zijn die u eerder binnen [!UICONTROL Analytics] > [!UICONTROL Admin Tools]beheerde.
+Het meest waarschijnlijk, hebt u gebruikers die reeds lid van oplossingsgroepen, zoals een groep van Analytics zijn die u eerder in [!UICONTROL Analytics] > [!UICONTROL Admin Tools] beheerde.
 
 Wanneer u deze groepen aan de ondernemingsgroepen van Experience Cloud in kaart brengt, moeten die gebruikers hun geloofsbrieven van de oplossingsrekening aan hun Adobe ID manueel verbinden.
 
@@ -79,42 +79,42 @@ Zie [Accounts koppelen in de Experience Cloud](../admin-getting-started/organiza
 
 In de volgende secties wordt beschreven hoe u uw implementatie kunt moderniseren. Door de implementatie te moderniseren, zijn de kernservices in de Experience Cloud mogelijk.
 
-## Stap 2. Voer het [!UICONTROL Experience Cloud ID Service] gebruiken uit [!UICONTROL Experience Platform Launch], of [!UICONTROL Dynamic Tag Management] {#section_3C9F6DF37C654D939625BB4D485E4354}
+## [!UICONTROL Experience Cloud ID Service] {#section_3C9F6DF37C654D939625BB4D485E4354} implementeren
 
-Het [!UICONTROL Experience Cloud ID Service] verstrekt een gemeenschappelijke identiteitskaart voor dwars-oplossing integratie. Het verstrekt de identificatie van de dwars-domeinbezoeker en een weg voor dwars-apparaat/browser richtend en verpersoonlijking die op de gegevens van CRM wordt gebaseerd die via [!UICONTROL Customer Attributes]worden geupload.
+[!UICONTROL Experience Cloud ID Service] verstrekt een gemeenschappelijke identiteitskaart voor dwars-oplossingsintegratie. Het verstrekt de identificatie van de dwars-domeinbezoeker en een weg voor dwars-apparaat/browser richtend en verpersoonlijking die op de gegevens van CRM wordt gebaseerd die via [!UICONTROL Customer Attributes] worden geupload.
 
-De eenvoudigste methode voor het inschakelen van Experience Cloud core services is het automatisch activeren voor Analytics en Adobe Target via de [Experience Cloud ID Service-extensie](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) in [!UICONTROL Experience Platform Launch]of via het ECID-hulpprogramma in [!UICONTROL Dynamic Tag Management]. (Experience Platform Launch wordt sterk aanbevolen.)
+De eenvoudigste methode voor het inschakelen van Experience Cloud core services is het automatisch activeren van Analytics en Adobe Target via de [Experience Cloud ID Service extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref) in [!UICONTROL Experience Platform Launch].
 
-Ga [hier](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html)voor de volledige Experience Cloud ID-service (voorheen bezoekersidentiteitskaart).
+Voor volledige Experience Cloud ID-service (voorheen, bezoekersidentiteitskaart) gaat u [hier](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro).
 
-**Niet gebruiken [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management]?**
+**Gebruikt  [!UICONTROL Experience Platform Launch] of  [!UICONTROL Dynamic Tag Management]?**
 
-Als u de id-service niet gebruikt [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management]handmatig implementeert via de JavaScript-implementatie ([!DNL VisitorAPI.js]), gaat u als volgt te werk:
+Als u [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management] niet gebruikt, voer manueel de dienst van identiteitskaart via de Plaatsing JavaScript ([!DNL VisitorAPI.js]) uit, als volgt:
 
 | Taak | Beschrijving |
 | -----------| ---------- |  
-| [Implementeer de Experience Cloud ID-service voor analyse](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html) | Adobe raadt ook aan extra [klant-id&#39;s in te stellen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Deze id&#39;s zijn gekoppeld aan elke bezoeker en maken huidige en toekomstige functionaliteit in Experience Cloud mogelijk. |
-| Werk uw bestaande versie bij [!DNL s_code] naar versie H.27.3 of hoger, of uw bestaande versie [!DNL AppMeasurement.js] naar versie 1.4 of hoger. | Deze bestanden kunnen worden gedownload in [Codebeheer](https://docs.adobe.com/content/help/nl-NL/analytics/admin/admin-tools/code-manager-admin.html) in Analytics Admin Tools. (De handleiding voor [JavaScript-implementatie](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) is beschikbaar als u meer informatie nodig hebt over [!DNL AppMeasurement.js].) |
-| De klant-id voor Analytics synchroniseren | Zie [Analytics - synchroniseert de klant-id](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437) (hieronder). |
+| [Implementeer de Experience Cloud ID-service voor analyse](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html) | Adobe raadt ook aan extra [klant-id&#39;s](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) in te stellen. Deze id&#39;s zijn gekoppeld aan elke bezoeker en maken huidige en toekomstige functionaliteit in Experience Cloud mogelijk. |
+| Werk uw bestaande [!DNL s_code] aan versie H.27.3 of later, of uw bestaande [!DNL AppMeasurement.js] aan versie 1.4 of later bij. | Deze bestanden kunnen worden gedownload in [Codebeheer](https://docs.adobe.com/content/help/nl-NL/analytics/admin/admin-tools/code-manager-admin.html) in Analytics Admin Tools. (De handleiding [JavaScript-implementatie](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) is beschikbaar als u meer informatie nodig hebt over [!DNL AppMeasurement.js].) |
+| De klant-id voor Analytics synchroniseren | Zie [Analyse - synchroniseren van de klant-id](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437) (hieronder). |
 
-## Analyse en Adobe Target - de klant-id synchroniseren {#section_AD473A6A21C1446498E700363F9A8437}
+### Analyse en Adobe Target - de klant-id synchroniseren {#section_AD473A6A21C1446498E700363F9A8437}
 
-Als deel van vestiging de Dienst van identiteitskaart van de Experience Cloud, adviseert Adobe voor Analytics en [!DNL Target] dat u uw [klant IDs](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) met de Experience Cloud synchroniseert.
+Als onderdeel van het instellen van de Experience Cloud-id-service raadt Adobe u aan om Analytics op te geven en [!DNL Target] om uw [klant-id&#39;s](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) te synchroniseren met de Experience Cloud.
 
-In Adobe Target `mbox3rdpartyid` moet de klant-id worden opgehaald en verzonden naar [!DNL Target]. (Zie [Werken met klantkenmerken](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) in [!DNL Target].)
+In Adobe Target moet de `mbox3rdpartyid` de klant-id ophalen en naar [!DNL Target] verzenden. (Zie [Werken met klantkenmerken](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) in [!DNL Target].)
 
 Wanneer een bezoeker op uw website voor authentiek verklaart, of anders zich identificeert, moet uw implementatie de klantenidentiteitskaart van CRM van die persoon aan de pagina of app blootstellen. Vervolgens kunt u de juiste functieaanroep gebruiken om uw klant-id te synchroniseren met de Experience Cloud. Deze synchronisatie slaat de klant-id van CRM van de bezoeker op in de Experience Cloud en activeert de attributen van die klant voor gebruik in de Experience Cloud.
 
-Bijvoorbeeld, veronderstel dat het Loodje identiteitskaart van de Klant `52mc210tr42` in uw systeem van CRM heeft. Wanneer het Loodje op uw plaats voor authentiek verklaart, moet u deze identiteitskaart op de pagina blootstellen, en identiteitskaart gebruiken om het op één van twee manieren te synchroniseren:
+Bijvoorbeeld, veronderstel dat het Loodje identiteitskaart `52mc210tr42` in uw systeem van CRM heeft. Wanneer het Loodje op uw plaats voor authentiek verklaart, moet u deze identiteitskaart op de pagina blootstellen, en identiteitskaart gebruiken om het op één van twee manieren te synchroniseren:
 
-* Vraag `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})` gebruikend de dienst van identiteitskaart van de Bezoeker. Of
-* Vul de vorm in een *`Customer ID (52mc210tr42)`* propje of eVar.
+* Roep `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})` aan met behulp van de service Bezoeker-id. Of
+* Vul de *`Customer ID (52mc210tr42)`* in een eigenschap of eVar.
 
-De klant-id moet worden ingesteld op elk [!DNL Analytics] servergesprek waarvan de klant-id bekend is.
+De klant-id moet worden ingesteld op elk [!DNL Analytics]-servergesprek waarvan de klant-id bekend is.
 
 ### Mobiele SDK&#39;s
 
-Zie de sectie *Experience Cloud ID Service* voor syntaxisvoorbeelden over het instellen van extra klant-id&#39;s in [Android](https://docs.adobe.com/content/help/nl-NL/mobile-services/android/overview.html) - en [iOS](https://docs.adobe.com/content/help/nl-NL/mobile-services/ios/overview.html) Mobile-toepassingen.
+Zie de sectie *Experience Cloud ID Service* voor syntaxisvoorbeelden over hoe u extra klant-id&#39;s instelt in [Android](https://docs.adobe.com/content/help/nl-NL/mobile-services/android/overview.html) en [iOS](https://docs.adobe.com/content/help/nl-NL/mobile-services/ios/overview.html) Mobiele toepassingen.
 
 ### Kenmerken inschakelen voor historische gegevens
 
@@ -122,44 +122,48 @@ Kenmerkgegevens van de klant worden beschikbaar gesteld nadat bezoekers zich heb
 
 Neem contact op met de klantenservice om historische gegevens in te schakelen.
 
-## Stap 3. Rapportsuites toewijzen aan een Experience Cloud-organisatie {#section_7B08516B01BA421681DF03D0E86CE3BA}
+## Rapportsuites toewijzen aan een Experience Cloud-organisatie {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
-De diensten van Experience Cloud (zoals de Dienst van Experience Cloud ID en [!UICONTROL People service]) worden geassocieerd met een organisatie van Experience Cloud in plaats van een individuele het rapportreeks van Analytics. Om ervoor te zorgen dat deze diensten correct werken, moet elke het rapportreeks van Analytics aan een organisatie van de Experience Cloud worden in kaart gebracht.
+>[!NOTE]
+>
+>De functie voor het toewijzen van rapportsuite is in november 2020 afgekeurd. Neem contact op met de Klantenondersteuning voor alle vragen.
 
-See [Map report suites to an organization](report-suite-mapping.md).
+Experience Cloud-services (zoals Experience Cloud ID-service en [!UICONTROL People service]) zijn gekoppeld aan een Experience Cloud-organisatie in plaats van aan een afzonderlijke Analytics-rapportsuite. Om ervoor te zorgen dat deze diensten correct werken, moet elke het rapportreeks van Analytics aan een organisatie van de Experience Cloud worden in kaart gebracht.
 
-## Stap 4. (Adobe Analytics) Werk uw Analytics AppMeasurement-code bij {#section_1798D9D0F05C47E29816AC4EEB9A0913}
+Zie [Rapportreeksen toewijzen aan een organisatie](report-suite-mapping.md).
 
-Controleer of u regionale gegevensverzameling (RDC) gebruikt. Als uw gegevensverzamelingsdomein is [!DNL omtrdc.net], of als uw CNAME aan in kaart wordt gebracht [!DNL omtrdc.net], bent u op RDC. Zie [Overgang naar de regionale distributiewereld](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html) voor meer informatie. Als u de koekjes van de eerste partij gebruikt, verwijs naar [CNAME en de Dienst](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) van identiteitskaart van Experience Cloud naar informatie over gegevensinzameling CNAMEs en dwars-domein het volgen.
+## Werk uw Analytics AppMeasurement-code {#section_1798D9D0F05C47E29816AC4EEB9A0913} bij
 
-U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScript-bibliotheken bij te werken, inclusief de API voor bezoekers. De eenvoudige manier om dit te verwezenlijken is een [!DNL Adobe Analytics] hulpmiddel in Dynamisch Beheer van de Markering toe te voegen, die *`Automatic`* als configuratiemethode specificeert.
+Als u Analytics gebruikt, verifieer dat u op regionale gegevensinzameling (RDC) bent. Als uw gegevensverzamelingsdomein [!DNL omtrdc.net] is, of als uw CNAME aan [!DNL omtrdc.net] in kaart wordt gebracht, bent u op RDC. Zie [Overschakelen naar RDC](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html) voor meer informatie. Als u de koekjes van de eerste partij gebruikt, verwijs naar [CNAME en de Dienst van identiteitskaart van Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) voor informatie over gegevensinzameling CNAMEs en dwars-domein het volgen.
 
-Klik [!UICONTROL Dynamic Tag Management]in **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Zie [Adobe Analytics Settings](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) in Dynamic Tag Management voor informatie over de implementatie.
+U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScript-bibliotheken bij te werken, inclusief de API voor bezoekers. De eenvoudige manier om dit te verwezenlijken is een [!DNL Adobe Analytics] hulpmiddel in Dynamisch Beheer van de Markering toe te voegen, die *`Automatic`* als configuratiemethode specificeren.
 
-## Stap 5. (Adobe Target) De Adobe Target-implementatie bijwerken {#section_C2F4493C7A36406DAE2266B429A4BD24}
+Klik in [!UICONTROL Dynamic Tag Management] op **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Zie [Adobe Analytics Settings](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) in Dynamic Tag Management voor implementatiegegevens.
 
-* U wordt aangeraden een [Adobe Target-extensie](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) toe te voegen [!UICONTROL Experience Platform Launch]zodat de bibliotheek automatisch wordt opgehaald. U kunt ook de [Experience Cloud ID-serviceextensie](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) voor Adobe Target (en andere oplossingen) instellen [!UICONTROL Experience Platform Launch]. De [!UICONTROL Experience Cloud ID Service] update **is vereist** voor Adobe Target om de kernservices te kunnen gebruiken. (Als u [!UICONTROL Dynamic Tag Management]dit doet, voegt u een [Adobe Target-gereedschap](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)toe. U kunt ook de Experience Cloud ID-service voor Adobe Target gebruiken [!UICONTROL Dynamic Tag Management] om deze service te implementeren.)
-* Als u niet gebruikt [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management], [werk uw mbox bibliotheek](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) manueel bij.
-* Toegang aanvragen om Adobe Analytics te gebruiken als rapportagebron voor [!DNL Adobe Target]. [!DNL Target] en de [!DNL Analytics] gegevens worden gecombineerd op de zelfde servervraag tijdens verwerking zodat de bezoekers tussen de twee oplossingen worden aangesloten. Zie [Analytics voor Target Implementation](https://docs.adobe.com/content/help/nl-NL/target/using/integrate/a4t/a4t.html).
+## Uw Adobe Target-implementatie {#section_C2F4493C7A36406DAE2266B429A4BD24} bijwerken
+
+* U wordt aangeraden een [Adobe Target-extensie](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) toe te voegen in [!UICONTROL Experience Platform Launch], zodat de bibliotheek automatisch wordt opgehaald. U kunt de [Experience Cloud ID Service-extensie ](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) voor Adobe Target (en andere oplossingen) ook instellen met [!UICONTROL Experience Platform Launch]. De [!UICONTROL Experience Cloud ID Service]-update **is vereist** voor Adobe Target om kernservices te kunnen gebruiken. (Als u [!UICONTROL Dynamic Tag Management] gebruikt, voegt u een [Adobe Target-gereedschap](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html) toe. U kunt [!UICONTROL Dynamic Tag Management] ook gebruiken om de Experience Cloud ID-service voor Adobe Target te implementeren.)
+* Als u [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management] niet gebruikt, [werk uw mbox bibliotheek](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) manueel bij.
+* Toegang aanvragen om Adobe Analytics als rapportagebron voor [!DNL Adobe Target] te gebruiken. [!DNL Target] en de  [!DNL Analytics] gegevens worden gecombineerd op de zelfde servervraag tijdens verwerking zodat de bezoekers tussen de twee oplossingen worden aangesloten. Zie [Analytics for Target Implementation](https://docs.adobe.com/content/help/nl-NL/target/using/integrate/a4t/a4t.html).
 
    >[!IMPORTANT]
    >
    >Alle klanten van Analytics zijn reeds provisioned voor de kerndiensten zoals de Attributen van de Klant. Als u geen klant van de Analyse bent, contacteer de Zorg van de Klant om te verzoeken om levering.
 
-## Stap 6. De implementatie controleren {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## De implementatie controleren {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 Gebruik het volgende proces om ervoor te zorgen dat de Experience Cloud-id-service correct op uw site wordt geïmplementeerd.
 
 1. Wis koekjes voor uw plaats zodat kunt u het verzoek aan de Dienst van identiteitskaart van de Experience Cloud zien (het verzoek gebeurt bij het eerste bezoek, dan ongeveer eens per bezoeker per week).
-1. Gebruikend een pakketanalysator of het netwerkpaneel in Webbrowser debugger, zoek een verzoek die naar gaat [!DNL dpm.demdex.net].
-1. Controleer of de reactie een waarde `d_mid` en een waarde bevat, bijvoorbeeld: `_setMarketingCloudFields({"d_mid":"4235...`
-1. Controleer of het verzoek Analytics de `mid` parameter bevat (de Experience Cloud-id). Tijdens de respijtperiode (als deze is ingeschakeld) wordt ook een `aid` parameter weergegeven (de bezoeker-id van Analytics).
+1. Gebruikend een pakketanalyse of het netwerkpaneel in Webbrowser debugger, zoek een verzoek die naar [!DNL dpm.demdex.net] gaat.
+1. Controleer of de reactie `d_mid` en een waarde bevat, bijvoorbeeld: `_setMarketingCloudFields({"d_mid":"4235...`
+1. Verifieer dat het verzoek van de Analyse de `mid` parameter (Experience Cloud ID) bevat. Tijdens de respijtperiode (als deze is ingeschakeld) moet u ook een parameter `aid` (de bezoeker-id van Analytics) zien.
 
 Verwachte reactie met de Experience Cloud-id:
 
 ![](assets/mac_id_response.png)
 
-Aanvraag voor analyseafbeelding met de Experience Cloud-id (ook wel `mid` of _bezoeker-id_ genoemd):
+Analytische afbeeldingsaanvraag met de Experience Cloud-id (ook wel `mid` of _bezoeker-id_ genoemd):
 
 ![](assets/mid.png)
 
@@ -175,54 +179,54 @@ Als de ondersteuningssectie van uw site bijvoorbeeld in een aparte CMS wordt beh
 
 Het implementeren van de Experience Cloud-id-service op sites die meerdere JavaScript-bestanden of andere technologieën (zoals Flash) gebruiken, kan coördinatieproblemen veroorzaken omdat u de Experience Cloud-id-service op alle delen van uw site tegelijk moet inschakelen. Door een respijtperiode in te stellen, kunnen nieuwe bezoekers een Analytics-bezoeker-id blijven ontvangen van de ID-service, zodat bezoekers consistent kunnen worden geïdentificeerd op gedeelten van uw site die niet zijn bijgewerkt voor gebruik van de bezoeker-id-service.
 
-## Stap 7. Manage users and products {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
+## Gebruikers en producten beheren {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
-Als u weer aan de slag bent, navigeert u naar de [Admin Console](https://adminconsole.adobe.com/)waar u gebruikers en productprofielen kunt beheren.
+Als u weer aan de slag bent, navigeert u naar de [Admin Console](https://adminconsole.adobe.com/), waar u gebruikers en productprofielen kunt beheren.
 
 ![](assets/menu-administration-shell.png)
 
-Zie [Experience Cloud gebruikers- en productbeheer](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
+Zie [Experience Cloud gebruiker- en productbeheer](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ### Klantkenmerken
 
-Gebruikers die aan de [!UICONTROL Customer Attributes] groep worden toegevoegd, zien het [!UICONTROL Customer Attributes] menu-item links van de interface Experience Cloud.
+Gebruikers die aan de [!UICONTROL Customer Attributes] groep worden toegevoegd zullen [!UICONTROL Customer Attributes] menupunt op de linkerkant van de interface van Experience Cloud zien.
 
-## Stap 8. Begin met het delen van kenmerk- en publieksgegevens {#section_960C06093623462E8EA247B3E97274A1}
+## Begin delend attribuut en publieksgegevens {#section_960C06093623462E8EA247B3E97274A1}
 
 Profiteer van de volgende functies.
 
 ### [!UICONTROL People] > [!UICONTROL Customer Attributes]
 
-Als u de gegevens van de ondernemingsklant in een gegevensbestand van het klantenrelatiebeheer (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Experience Cloud uploaden. Gebruik na het uploaden de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
+Als u de gegevens van de ondernemingsklant in een gegevensbestand van het klantenrelatiebeheer (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Experience Cloud uploaden. Na uploaden kunt u de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target] gebruiken.
 
 Zie [Klantkenmerken](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-### [!UICONTROL People] > [!UICONTROL Audience Library]
+### [!UICONTROL People] >  [!UICONTROL Audience Library]
 
-Experience Cloud [!UICONTROL Audiences] is de interface waarmee u een publiek kunt maken, bestaande doelgroepen kunt combineren om een samengesteld publiek te maken en alle gedeelde doelgroepen kunt weergeven.
+Experience Cloud [!UICONTROL Audiences] is de interface waarmee u een publiek kunt maken, bestaande soorten publiek kunt combineren om een samengesteld publiek te maken en alle gedeelde soorten publiek kunt bekijken.
 
 Zie [Soorten publiek](../audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
 ## Gegevensopslag en openbaarmaking van privacy
 
-Als u in real time publiek profilering en andere kerndiensten binnen de Adobe gebruikt [!DNL Experience Cloud], zou het gebruik van deze diensten kunnen beïnvloeden welk gegevenscentrum (en land) uw gegevens verblijft. Met name omdat de kerndiensten van de Adobe hefboomwerking Adobe Audience Manager [!DNL Experience Cloud] , gegevens binnen de [!UICONTROL People] dienst binnen de servers van de Audience Manager in de Verenigde Staten moeten verblijven.
+Als u in real time publieksprofilering en andere kerndiensten binnen de Adobe [!DNL Experience Cloud] hefboomt, zou het gebruik van deze diensten kunnen beïnvloeden welk gegevenscentrum (en land) uw gegevens verblijft. Met name omdat de kernservices van de Adobe [!DNL Experience Cloud] Adobe Audience Manager benutten, moeten gegevens die in de [!UICONTROL People]-service worden gebruikt, zich in de Audience Manager servers in de Verenigde Staten bevinden.
 
 Wanneer het hefboomeffect van de kerndiensten die via de [!UICONTROL People] dienst ter beschikking worden gesteld, zijn de soorten gegevens die van andere producten van de Adobe naar publieksbeheer worden verzonden:
 
-* [!DNL Analytics] sleutel/waardeparen (eigenschappen, eVars, lijstvariabelen, enzovoort). Door gebrek, omvatten de logboeklijnen IP adres, met inbegrip van het laatste octet van IP (veronderstellend dat het IP adres niet door IP verduisteringsmontages binnen Adobe werd gewijzigd). [!DNL Analytics]
+* [!DNL Analytics] sleutel/waardeparen (eigenschappen, eVars, lijstvariabelen, enzovoort). Door gebrek, omvatten de logboeklijnen IP adres, met inbegrip van het laatste octet van IP (veronderstellend dat het IP adres niet door IP verduisteringsmontages binnen Adobe [!DNL Analytics] werd gewijzigd).
 * Treinen en segmenten waarvoor bezoekers in aanmerking komen op basis van in Audience Manager vastgestelde regels.
-* (Optioneel) Een of meer van uw id&#39;s. Afhankelijk van uw implementatie van de id-service, verzendt u mogelijk ook een of meer van uw id&#39;s, zoals CRM-id&#39;s of gehashte e-mailadressen. Als deze gegevens naar Adobe worden verzonden [!DNL Analytics], worden ze overgebracht naar het beheer van het Adobe-publiek. Adobe beveelt aan geen persoonsgegevens aan te leveren aan Adobe [!DNL Analytics]. Gebruik liever een eenrichtingshash om de gegevens te maskeren voordat deze naar Adobe worden verzonden.
-* Segmenten van oorsprong uit [!DNL Analytics] via de back-end-segmentdelingscapaciteit
-* Het cookie demdex.net wordt ingesteld als cookies van derden niet worden geblokkeerd. Het cookie van de `AMCV_###@AdobeOrg` eerste partij wordt altijd ingesteld met de Experience Cloud ID-service.
+* (Optioneel) Een of meer van uw id&#39;s. Afhankelijk van uw implementatie van de id-service, verzendt u mogelijk ook een of meer van uw id&#39;s, zoals CRM-id&#39;s of gehashte e-mailadressen. Als deze gegevens naar Adobe [!DNL Analytics] worden verzonden, wordt het overgebracht naar het beheer van het Adobe publiek. Adobe beveelt aan geen persoonsgegevens aan te leveren aan Adobe [!DNL Analytics]. Gebruik liever een eenrichtingshash om de gegevens te maskeren voordat deze naar Adobe worden verzonden.
+* Segmenten van [!DNL Analytics] via de back-end segmentdelingsmogelijkheid
+* Het cookie demdex.net wordt ingesteld als cookies van derden niet worden geblokkeerd. Het cookie `AMCV_###@AdobeOrg` van de eerste partij wordt altijd ingesteld met de Experience Cloud ID-service.
 
 Al deze gegevenselementen worden aan Adobe Audience Manager geleverd in de vorm van logbestanden. Audience Manager verwerkt en slaat deze gegevens op in de Verenigde Staten. Audience Manager biedt geen optie om deze gegevens buiten de Verenigde Staten op te slaan of te verwerken.
 
 ### Cookies en Opt-Outs
 
-Het gebruik van realtime publiekprofilering maakt gebruik van de cookie van de Audience Manager, in aanvulling op de cookies die worden gebruikt voor [!DNL Analytics] en [!DNL Target].
+Bij het gebruik van realtime publiekprofilering wordt gebruik gemaakt van het cookie van de Audience Manager, in aanvulling op de cookies die worden gebruikt voor [!DNL Analytics] en [!DNL Target].
 
 Als u de juiste opt-outmogelijkheid wilt bieden, moeten bezoekers van uw site de Audience Manager opt-out toevoegen aan uw bestaande opt-outproces.
 
-Zie [Adobe Experience Cloud - Adobe opt-Outs](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.html) implementeren voor instructies.
+Zie [Adobe Experience Cloud - Implementatie van Adobe Opt-Outs](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.html) voor instructies.
 
-Zie CNAME&#39;s voor [gegevensverzameling en Domeinoverschrijdende tracering](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) voor het inschakelen van interdomeintracering.
+Zie [CNAME&#39;s voor gegevensverzameling en domeinoverschrijdende tracering](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) voor het inschakelen van interdomeintracering.
