@@ -1,12 +1,12 @@
 ---
-audience: admin
+audience: administrator
 user-guide-title: 'Adobe Experience Cloud Services and Administration '
 breadcrumb-title: Experience Cloud Services en beheer
 user-guide-description: Leer hoe u gebruikers en producten in Adobe Experience Cloud kunt beheren en hoe u de Customer Attributes en Audience Library-services kunt gebruiken. Meer informatie over cookies en Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 # Experience Cloud Services en beheer {#interface}
 
 + [Experience Cloud Services en beheer](experience-cloud.md)
-+ Experience Cloud {#about-core-services}
++ Experience Cloud-services {#about-core-services}
    + [Overzicht van Experience Cloud-services](core-services-landing.md)
    + [Uw implementatie voor services voor meerdere oplossingen inschakelen](core-services/core-services.md)
    + [Kaart rapportsuites aan een organisatie](core-services/report-suite-mapping.md)
@@ -37,7 +37,7 @@ ht-degree: 11%
    + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Privacy-instellingen voor browsercookies inschakelen](cookies/browser-cookie-settings.md)
    + [Hoe wijzigingen in de Cookie-ondersteuning van derden van invloed zijn op klanten](cookies/cookies-thirdparty.md)
-+ User and product management {#manage-users-and-products}
++ Gebruiker- en productbeheer {#manage-users-and-products}
    + [Gebruikers-id en -producten van Experience Cloud beheren (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud-gebruikersgegevens weergeven (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Veelgestelde vragen](admin-getting-started/faq.md)
@@ -58,11 +58,11 @@ ht-degree: 11%
    + [Middelen uploaden naar een gedeelde map vanaf het bureaublad Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Vereisten voor het delen van elementbestanden](experience-cloud-assets/assets-file-reqs.md)
    + [Gedrag van gedeelde mappen](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud Audience Library {#audiences}
++ Experience Cloud Audientiebibliotheek {#audiences}
    + [Experience Cloud-publiek](audience-library/audience-library.md)
    + [Een doelgroep maken](audience-library/t-audience-create.md)
    + [Een publiekssegment Analytics publiceren](audience-library/t-publish-audience-segment.md)
-+ Kenmerken Experience Cloud-klant {#customer-attributes}
++ Experience Cloud Klantkenmerken {#customer-attributes}
    + [Klantkenmerken in Adobe Experience Cloud](attributes/attributes.md)
    + [Veelgestelde vragen, beperkingen en aanbevolen procedures](attributes/faq-crs.md)
    + [Gegevensbestand en gegevensbronnen voor klantkenmerken](attributes/crs-data-file.md)
