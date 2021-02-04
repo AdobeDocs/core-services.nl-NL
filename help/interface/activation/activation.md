@@ -1,15 +1,15 @@
 ---
 description: Activering omvat het nieuwste product voor tagbeheer, Experience Platform Launch genaamd. Dynamic Tag Management (DTM) en Triggers.
-keywords: core services
+keywords: kerndiensten
 seo-description: Activering omvat het nieuwste product voor tagbeheer, Experience Platform Launch genaamd. Dynamic Tag Management (DTM) en Triggers.
 seo-title: Activering
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Activeringsservices in Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 4%
 
 ---
@@ -25,9 +25,9 @@ Implementeer en beheer de analytische, marketing- en advertentietags die nodig z
 
 Zie [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
-## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
+## Dynamisch tagbeheer {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-Als u Dynamic Tag Management wilt starten, klikt u op een aanvraag **[!UICONTROL Activation]** en verzendt u deze naar het Adobe-inrichtingsteam. U moet uw aanmeldingsgegevens binnen een tot twee werkdagen ontvangen.
+Als u Dynamic Tag Management wilt starten, klikt u op **[!UICONTROL Activation]** en verzendt u een aanvraag naar het Adobe-inrichtingsteam. U moet uw aanmeldingsgegevens binnen een tot twee werkdagen ontvangen.
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -38,25 +38,25 @@ Als u Dynamic Tag Management wilt starten, klikt u op een aanvraag **[!UICONTROL
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Adobe Analytics implementeren </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Adobe Analytics implementeren  </a> </p> </td> 
    <td colname="col2"> <p> Stapsgewijze instructies voor het toevoegen van Adobe Analytics met gebruik van Adobe Dynamic Tag Management </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementatiehandleidingen voor Experience Cloud ID-service </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementatiehandleidingen voor Experience Cloud ID-service  </a> </p> </td> 
    <td colname="col2"> <p>De Experience Cloud ID-service maakt kernfunctionaliteit mogelijk voor alle Experience Cloud-oplossingen (inclusief klantkenmerken, het delen van het publiek en triggers). Adobe raadt u ten zeerste aan de id-service te implementeren en deze functies te benutten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html" format="https" scope="external"> Dynamische productdocumentatie voor tagbeheer </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamische productdocumentatie voor tagbeheer  </a> </p> </td> 
    <td colname="col2"> <p>Meer informatie over het implementeren van Experience Cloud-oplossingen met Dynamic Tag Management. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Als u hulp bij het uitvoeren van dynamisch markeringsbeheer wilt aanmoedigen wij u om uw Manager van de Rekening voor informatie over het Adobe Globale dienstenaanbod van de Diensten, of het dienstenaanbod van de implementatiepartner te contacteren. U kunt ook contact met ons opnemen via [@AdobeExpCare](https://twitter.com/AdobeExpCare) met hashtag #DTM.
+Als u hulp bij het uitvoeren van dynamisch markeringsbeheer wilt aanmoedigen wij u om uw Manager van de Rekening voor informatie over het Adobe Globale dienstenaanbod van de Diensten, of het dienstenaanbod van de implementatiepartner te contacteren. U kunt ook contact met ons opnemen via de hashtag #DTM op [@AdobeExpCare](https://twitter.com/AdobeExpCare).
 
 ## Experience Cloud Triggers {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-*De trekkers* laten marketers toe om zeer belangrijk consumentengedrag te bepalen en te controleren, en dan dwars-oplossingsmededeling voor gebruik in besluiten in real time en verpersoonlijking te produceren.
+** Triggersenables marketers om zeer belangrijk consumentengedrag te bepalen en te controleren, en dan dwars-oplossing mededeling voor gebruik in real time besluiten en verpersoonlijking te produceren.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -67,7 +67,7 @@ Als u hulp bij het uitvoeren van dynamisch markeringsbeheer wilt aanmoedigen wij
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> Experience Cloud-triggers maken </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> Experience Cloud-triggers maken  </a> </p> </td> 
    <td colname="col2"> <p> Stapsgewijze instructies voor het maken van Experience Cloud-triggers met behulp van Adobe Analytics-gegevens. </p> <p>Experience Cloud-triggers zijn beschikbaar voor gebruik in Adobe Campaign. </p> </td>
   </tr>
   <tr> 
