@@ -3,10 +3,10 @@ description: Leer hoe u Adobe Ad Cloud-cookies kunt gebruiken om gebeurtenissen 
 title: 'Advertising Cloud Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 3%
+source-wordcount: '538'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
 <table id="table_821F8EBE91F244CBA72B0975B961B908"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Kenmerk </th> 
+   <th colname="col1" class="entry"> Attribute </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
@@ -97,7 +97,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
-   <td colname="col2"> <p>2 jaar </p> </td> 
+   <td colname="col2"> <p>Cookies die zijn ingesteld op 24 februari 2021 of eerder verlopen na 730 dagen. Cookies die zijn ingesteld op 25 februari 2021 of hoger verlopen na 364 dagen.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
