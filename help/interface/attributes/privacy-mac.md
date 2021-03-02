@@ -1,13 +1,17 @@
 ---
-description: Overwegingen en beste praktijken betreffende persoonlijk identificeerbare informatie (PII) die in Adobe Experience Cloud wordt geupload en gebruikt.
-keywords: Customer Attributes;core services
+description: Overwegingen en beste praktijken met betrekking tot persoonlijk identificeerbare informatie (PII) geupload en gebruikt in Experience Cloud.
+keywords: Klantkenmerken;kernservices
 solution: Experience Cloud
 title: 'Privacyoverwegingen voor klantkenmerken '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+feature: Klantkenmerken
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
