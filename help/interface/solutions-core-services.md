@@ -3,18 +3,22 @@ description: Leer over de recentste branding updates voor de wolken, hoe te om d
 seo-description: Leer over de recentste branding updates voor de wolken, hoe te om de interface te navigeren, en waar te om hulp voor oplossingen en kerndiensten te vinden.
 seo-title: Informatie over de nieuwe cloudnamen in Experience Cloud
 solution: Experience Cloud
-title: 'Informatie over de nieuwe cloudnamen in Experience Cloud '
+title: 'Informatie over de namen van wolken in Experience Cloud '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
+feature: Admin Console
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '671'
 ht-degree: 9%
 
 ---
 
 
-# Informatie over de nieuwe cloudnamen in Experience Cloud {#topic_BD726D3A649E4FC49063029E86B70C62}
+# Informatie over de nieuwe wolkennamen in Experience Cloud {#topic_BD726D3A649E4FC49063029E86B70C62}
 
 Leer over de recentste branding updates voor de wolken, hoe te om de interface te navigeren, en waar te om hulp voor oplossingen en kerndiensten te vinden.
 
@@ -26,11 +30,11 @@ De nieuwste cloudnamen en de oplossingen in elke cloud:
 
 [Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&amp;mv=other)
 
-Vervangt de Marketing Cloud *als de bovenliggende cloudnaam voor alle oplossingen en services voor digitale Adobe* .
+Vervangt *Marketing Cloud* als de bovenliggende cloudnaam voor alle digitale oplossingen en services voor Adobe.
 
 >[!NOTE]
 >
->U zou verwijzingen naar *Marketing Cloud* in zijn vorige, bredere context kunnen blijven zien tot alle oplossingsinterfaces aan de Cloud van de *Onderneming worden herbrandd.*
+>U zou verwijzingen naar *Marketing Cloud* in zijn vorige, bredere context kunnen blijven zien tot alle oplossingsinterfaces aan *de Wolk van de Onderneming.* worden herbrandd
 
 [Marketing Cloud](https://www.adobe.com/nl/marketing-cloud.html)
 
@@ -55,14 +59,14 @@ Inclusief Media Optimizer en TubeMogul.
 
 ## Wat zijn de oplossingen? {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
-De volgende informatie beschrijft kort de oplossingen en verstrekt verbindingen aan hulp. [U kunt ook caserecepten](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) gebruiken om u te helpen met workflows voor digitale marketing.
+De volgende informatie beschrijft kort de oplossingen en verstrekt verbindingen aan hulp. [U kunt ook ](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) caserecepten gebruiken om u te helpen met workflows voor digitale marketing.
 
 [Adobe Analytics](https://docs.adobe.com/content/help/nl-NL/analytics/landing/home.html)
 
 Aan de slag met Analytics:
 
-1. Maak uw eerste Analytics-rapportsuite (gegevensopslagruimte) met de stappen die worden beschreven in [Getting Started with Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
-1. Vervolgens implementeert u de analytische code met behulp van [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+1. Maak uw eerste Analytics-rapportsuite (gegevensopslagruimte) aan de hand van de stappen die worden beschreven in [Aan de slag met Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
+1. Vervolgens implementeert u de analytische code met [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
 Experience Platform Launch is de volgende generatie van tagbeheer en biedt u een eenvoudige manier om alle analytische, marketing- en advertentietags te implementeren en te beheren.
 
@@ -84,7 +88,7 @@ Adobe Target kan worden geïntegreerd met Analytics en andere Experience Cloud-k
 
 Als oplossing voor inhoudsbeheer maakt Adobe Experience Manager het eenvoudig om uw middelen en inhoud te beheren voor uw websites, mobiele apps, gemeenschappen en formulieren.
 
-Zie [Adobe Experience Manager 6.5](https://helpx.adobe.com/nl/support/experience-manager/6-5.html) voor hulp.
+Zie [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) voor hulp.
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
@@ -104,6 +108,6 @@ Adobe Primetime is een tv-platform met meerdere schermen dat omroepen helpt aant
 
 ## Wat zijn de kerndiensten? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
-[De diensten](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) van de kern omvatten eigenschappen die productimplementatie vereenvoudigen en dwars-oplossing werkschema&#39;s, zoals publiekssegmentatie, het uploaden van klantenattributen, en samenwerkingshulpmiddelen toelaten.
+[De ](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) diensten van de kern omvatten eigenschappen die productimplementatie vereenvoudigen en dwars-oplossing werkschema&#39;s, zoals publiekssegmentatie, het uploaden van klantenattributen, en samenwerkingshulpmiddelen toelaten.
 
 ![](assets/core-services.png)
