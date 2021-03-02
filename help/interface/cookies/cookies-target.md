@@ -2,13 +2,17 @@
 description: Leer hoe Adobe Target cookies gebruikt om websitebeheerders de mogelijkheid te bieden te testen welke online inhoud en aanbiedingen voor bezoekers relevanter zijn.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target,Social
-title: 'Adobe Target Cookies gebruiken '
+title: 'Adobe Target Cookies '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
+feature: Cookies
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 1%
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +41,7 @@ U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van h
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cookie-domein </p> </td> 
-   <td colname="col2"> <p>De tweede en hoogste niveaus van de domeinen waarvan u de mbox dienen. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: <span class="filepath"> mijnbedrijf.nl</span>. </p> </td> 
+   <td colname="col2"> <p>De tweede en hoogste niveaus van de domeinen waarvan u de mbox dienen. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: <span class="filepath"> mijnbedrijf.com</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serverdomein </p> </td> 
@@ -52,14 +56,14 @@ U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van h
 
 >[!NOTE]
 >
->Als om het even welk van uw domeinnamen een landcode, zoals omvatten, werk met uw Diensten van de Cliënt om uw te vormen [!DNL mycompany.co.uk][!DNL mbox.js] om dit te steunen.
+>Als om het even welk van uw domeinnamen een landcode, zoals [!DNL mycompany.co.uk] omvatten, werk met uw Diensten van de Cliënt om uw [!DNL mbox.js] te vormen om dit te steunen.
 
 Het cookie houdt een aantal waarden bij voor het beheren van de manier waarop bezoekers de campagnes van Adobe Target ervaren:
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Waarde </th> 
+   <th colname="col1" class="entry"> Value </th> 
    <th colname="col2" class="entry"> Definitie </th> 
   </tr> 
  </thead>
@@ -78,7 +82,7 @@ Het cookie houdt een aantal waarden bij voor het beheren van de manier waarop be
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> disable</span> </p> </td> 
-   <td colname="col2"> <p>Stel in of de laadtijd van de bezoeker langer is dan de time-out die in het bestand <span class="filepath"> mbox.js</span> is geconfigureerd. Standaard duurt dit 1 uur. </p> </td> 
+   <td colname="col2"> <p>Stel in of de laadtijd van de bezoeker langer is dan de time-out die is geconfigureerd in het bestand <span class="filepath"> mbox.js</span>. Standaard duurt dit 1 uur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
