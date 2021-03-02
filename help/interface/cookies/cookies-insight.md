@@ -4,22 +4,26 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Data Workbench Cookies '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
+feature: Cookies
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 5%
 
 ---
 
 
-# Data Workbench Cookies{#data-workbench-cookies}
+# Cookies Data Workbench{#data-workbench-cookies}
 
 De werkbank van gegevens gebruikt koekjes om grote volumes van snel evoluerende gegevens in real time te analyseren.
 
 **Naam cookie: v1st**
 
-| Kenmerk | Beschrijving |
+| Attribute | Beschrijving |
 |---|---|
 | Opgeslagen informatie | Unieke tijd-/datumstempel van bezoekersidentiteitskaart |
 | Verlopen | Dit is een permanente cookie |
