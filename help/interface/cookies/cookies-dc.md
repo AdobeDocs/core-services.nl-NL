@@ -4,11 +4,15 @@ keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Cookies gegevensconnectors '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
+feature: Cookies
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 1%
+source-wordcount: '78'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +35,7 @@ Gegevensconnectors gebruiken cookies om adverteerders geoptimaliseerde maatstave
   </tr> 
   <tr> 
    <td colname="col1"> <p>get_started </p> </td> 
-   <td colname="col2"> <p>Hiermee kunnen gegevensconnectors de pagina Aan de <span class="wintitle"> slag</span> weergeven. </p> </td> 
+   <td colname="col2"> <p>Laat gegevensschakelaars weten of om <span class="wintitle"> te tonen Aan de slag</span> pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
