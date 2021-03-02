@@ -4,11 +4,15 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies zoeken en promoten '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
+feature: Cookies
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +26,7 @@ Search&amp;Promote gebruikt cookies om de zoekintentie van bezoekers te begrijpe
 <table id="table_34AA90F2FFB84500A77D8F4C5008D453"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Kenmerk </p> </th> 
+   <th colname="col1" class="entry"> <p>Attribute </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
