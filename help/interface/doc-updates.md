@@ -1,14 +1,18 @@
 ---
 description: Informatie over updates voor Adobe Experience Cloud Help.
-keywords: Experience Cloud services
+keywords: Experience Cloud
 solution: Experience Cloud
-title: 'Documentatie-updates - Experience Cloud '
+title: Documentatie-updates
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
+feature: '"Kenmerken van de klant, Audience Library, Admin Console, Assets"'
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +23,7 @@ Informatie over updates van de productdocumentatie van Experience Cloud.
 
 **Bijgewerkt: 19-08-2020**
 
-Bijgewerkte de gebruikersdetails van de [Mening Experience Cloud (Hulpmiddel Admin)](admin-getting-started/admin-tool-experience-cloud.md) met de informatie van het Beleid.
+Bijgewerkt [Bekijk de gebruikersgegevens van de Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md) met beleidsinformatie.
 
 **Bijgewerkt: 19-05-2020**
 
@@ -34,11 +38,11 @@ De volgende pagina&#39;s toegevoegd:
 
 **Bijgewerkt: 10-03-2020**
 
-Bijgewerkt [Bevestig hostname door:sturen](cookies/cookies-first-party.md#validate) in de sectie van eerste-partijkoekjes.
+Bijgewerkte [Bevestig hostname door:sturen](cookies/cookies-first-party.md#validate) in de sectie van eerderangs.
 
 **Bijgewerkt: 20-02-2020**
 
-Toegevoegde [gebruikersgegevens van Experience Cloud weergeven (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
+Toegevoegde [Gebruikersgegevens van Experience Cloud weergeven (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Bijgewerkt: 05-09-2018**
 
@@ -46,7 +50,7 @@ Toegevoegd hoe te om een klantenattribuut te schrappen. Zie [(Optioneel) Het sch
 
 **Bijgewerkt: 08-06-2018**
 
-Bijgewerkt [Over gegevensbestand en gegevensbronnen voor Kenmerken](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) van de Klant met informatie over het uploaden van veelvoudige dossiers.
+Bijgewerkt [Gegevensbestand en gegevensbronnen voor Klantkenmerken](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) met informatie over het uploaden van meerdere bestanden.
 
 **Bijgewerkt: 06-06-2018**
 
@@ -54,7 +58,7 @@ Algemene updates van inhoud en schermen.
 
 **Bijgewerkt: 06-02-2018**
 
-Updates to [Manage Experience Cloud users and products](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
+Updates voor [Gebruikers en producten van Experience Cloud beheren](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 **Bijgewerkt: 17-01-2018**
 
@@ -66,35 +70,35 @@ Gereviseerde handleiding voor de nieuwste release.
 
 **Bijgewerkt: 15-03-2017**
 
-De definitie van Raw-analysegegevens is bijgewerkt in [Een publiek](audience-library/t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737)maken.
+De definitie van Raw-analysegegevens is bijgewerkt in [Een publiek maken](audience-library/t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737).
 
 **Bijgewerkt: 23-02-2017**
 
-Added [Experience Cloud Triggers](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
+Toegevoegde [Experience Cloud-triggers](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
 
 **Bijgewerkt: 01-02-2017**
 
-Toegevoegde [rapportenreekstoewijzing](core-services/core-services.md#concept_apg_zq2_rw) als stap aan het [toelaten van de kerndiensten](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+Toegevoegde [rapportenreekstoewijzing](core-services/core-services.md#concept_apg_zq2_rw) als stap aan [toelatend kerndiensten](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 **Bijgewerkt: 09-05-2016**
 
-Toegevoegde [Experience Cloud Integrations](marketing-cloud-integrations.md#concept_9E6D3E37D1E3452E8CCCFA92AF034F90), een ronde-up van integratiedocumentatie.
+[Experience Cloud-integratie](marketing-cloud-integrations.md#concept_9E6D3E37D1E3452E8CCCFA92AF034F90) toegevoegd, een vervollediging van integratiedocumentatie.
 
 **Bijgewerkt: 11-02-2016**
 
-Toegevoegde [Experience Cloud-elementen](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0).
+[Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0) toegevoegd.
 
 **Bijgewerkt: 02-03-2015**
 
-Toegevoegde [Laat uw oplossingen voor de kerndiensten toe](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Toegevoegde [Uw oplossingen inschakelen voor kernservices](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **Bijgewerkt: 15-01-2015**
 
-Gebruikers met toegevoegde Experience Cloud kunnen nu mappen delen naar de Creative Cloud en elementen en opmerkingen synchroniseren over de twee wolken. Zie [Delen](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)van middelen.
+Gebruikers met toegevoegde Experience Cloud kunnen nu mappen delen naar de Creative Cloud en elementen en opmerkingen synchroniseren over de twee wolken. Zie [Delen van middelen](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Bijgewerkt: 17-07-2014**
 
-Veelgestelde vragen over [Experience Cloud toegevoegd](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91) voor beheerders.
+[Experience Cloud FAQ](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91) toegevoegd voor beheerders.
 
 **Bijgewerkt: 22-05-2014**
 
@@ -104,8 +108,8 @@ Zie [Soorten publiek](audience-library/audience-library.md#topic_679810123CAA4E0
 
 **Bijgewerkt: 22-05-2014**
 
-De bijgewerkte gebruikers en de producten [van](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) Beheer Experience Cloud voor informatie over het worden van een beheerder in de Experience Cloud.
+Bijgewerkt [Gebruikers en producten van Experience Cloud beheren](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor informatie over het worden van een beheerder in de Experience Cloud.
 
 **Bijgewerkt: 22-05-2014**
 
-Toegevoegde [Exchange Marketplace](exchange.md#concept_E07F16F070544B82B56527A845C41D59).
+Toegevoegd [Exchange Marketplace](exchange.md#concept_E07F16F070544B82B56527A845C41D59).
