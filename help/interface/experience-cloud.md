@@ -1,14 +1,18 @@
 ---
 description: Leer over gebruiker en productbeheer in Adobe Admin Console, laat oplossingen voor de diensten van de Experience Cloud toe, en leer over de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
-keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
+keywords: Adobe Experience Cloud-services, klantkenmerken, publiek, gebruikers- en productbeheer
 solution: Experience Cloud
 title: 'Experience Cloud en administratie '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
+feature: '"Klantkenmerken, Audience Library, Admin Console"'
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 20%
+source-wordcount: '437'
+ht-degree: 19%
 
 ---
 
@@ -24,9 +28,9 @@ Deze gids verleent toegang tot hulp op gebruiker van Experience Cloud en product
 * [[!UICONTROL Audience Library]](audience-library/audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud  [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud cookies](cookies/cookies-privacy.md)
-* [Gebruiker- en productbeheer](admin-getting-started/admin-getting-started.md) (Admin Console)
+* [Gebruiker- en productbeheer](admin-getting-started/admin-getting-started.md)  (Admin Console)
 * [Laat uw oplossingen voor de kerndiensten toe](core-services/core-services.md)
 * [Veelgestelde vragen](admin-getting-started/admin-getting-started.md)
 * [Organisaties en accountkoppelingen](admin-getting-started/organizations.md)
@@ -46,7 +50,7 @@ Verwante hulplijnen voor Experience Cloud zijn:
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
 * [API voor algemene gegevensbeschermingsverordening (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html)
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
 
 ## Tutorials
 
@@ -58,10 +62,10 @@ Profiteer van zelfstudiemateriaal en snelle zelfstudies in Experience League:
 
 ## Opmerkingen bij de release en verwante Experience Cloud Help
 
-* [Productdocumentatie voor alle Experience Cloud-oplossingen](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - Blader voor hulp naar Experience Cloud Learn &amp; Support
-* [Opmerkingen bij de release en productupdates](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html) - Nieuwe functies in de Experience Cloud en een abonnement voor updates
-* [Tutorials voor de implementatie van kernservices](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - Ontdek video&#39;s en zelfstudies over kernservices
-* [Deskundige hulp bij Experience League](https://landing.adobe.com/experience-league/) - Leren met instructies van experts en de community
-* [Onderwijs en training](https://helpx.adobe.com/nl/learning.html?promoid=KAUDK) - Neem contact op met Adobe om ervoor te zorgen dat u optimaal profiteert van onze producten
-* [Blog](https://theblog.adobe.com/customer-experience/) van Customer Experience - Lees de Experience Cloud-blog
-* [Klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) - Contact opnemen met de Adobe Klantenservice
+* [Productdocumentatie voor alle Experience Cloud-oplossingen](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)  - Blader voor hulp naar Experience Cloud Learn &amp; Support
+* [Opmerkingen bij de release en productupdates](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html) : Wat is er nieuw in de Experience Cloud en meld u aan om updates te krijgen
+* [Tutorials voor de implementatie van kernservices](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)  - Ontdek video&#39;s en zelfstudies over kernservices
+* [Deskundige hulp bij Experience League](https://landing.adobe.com/experience-league/)  - Leren met instructies van experts en de community
+* [Onderwijs en training](https://helpx.adobe.com/nl/learning.html?promoid=KAUDK)  - Neem contact op met Adobe om ervoor te zorgen dat u optimaal profiteert van onze producten
+* [Customer Experience Blog](https://theblog.adobe.com/customer-experience/)  - Lees de Experience Cloud-blog
+* [Klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)  - Contact opnemen met de Adobe Klantenservice
