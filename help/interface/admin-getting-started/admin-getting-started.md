@@ -1,12 +1,16 @@
 ---
 description: Ontdek hoe u Adobe Experience Cloud-gebruikersmachtigingen en productprofielen kunt beheren. Meer informatie over aanmelden bij de Adobe Admin Console en browserondersteuning voor Experience Cloud.
 solution: Admin
-title: 'Gebruikers en producten beheren '
+title: 'Gebruiker- en productbeheer '
 index: true
+feature: Admin Console
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1395'
 ht-degree: 5%
 
 ---
