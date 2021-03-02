@@ -2,13 +2,17 @@
 description: Leer hoe Adobe Analytics cookies gebruikt om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
-title: 'Uitleg over het gebruik van cookies van de eerste fabrikant '
+title: '"First-party cookies "'
 index: y
 snippet: y
+feature: Cookies
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -43,23 +47,23 @@ Met het Adobe Managed Certificate-programma kunt u zonder extra kosten een nieuw
 
 Hieronder wordt beschreven hoe u een nieuw SSL-certificaat van de eerste partij voor cookies van de eerste partij implementeert:
 
-1. Vul het aanvraagformulier [voor cookies van de](/help/interface/cookies/assets/FPC_Request_Form.xlsx) eerste partij in en open een ticket met de klantenservice met het verzoek cookies van de eerste partij in te stellen op het door Adobe beheerde programma. Elk veld wordt in het document met voorbeelden beschreven.
+1. Vul het [First-party de verzoekformulier van het koekjesverzoek](/help/interface/cookies/assets/FPC_Request_Form.xlsx) in en open een kaartje met de Zorg van de Klant die om opstelling verzoekt eerste-partijkoekjes op het Adobe Beheerde programma. Elk veld wordt in het document met voorbeelden beschreven.
 
 1. CNAME-records maken (zie onderstaande instructies).
 
    Op het ontvangen van het kaartje, zou een vertegenwoordiger van de klantenzorg u van een paar verslagen van CNAME moeten voorzien. Deze verslagen moeten op DNS server van uw bedrijf worden gevormd alvorens Adobe het certificaat namens u kan kopen. De CNAMES zullen gelijkaardig aan het volgende zijn:
 
-   **Beveiligen** - De hostnaam verwijst bijvoorbeeld `smetrics.example.com` naar: `example.com.ssl.d1.omtrdc.net`.
+   **Beveiligen**  - De hostnaam  `smetrics.example.com` verwijst bijvoorbeeld naar:  `example.com.ssl.d1.omtrdc.net`.
 
-   **Niet-beveiligd** - De hostnaam verwijst bijvoorbeeld `metrics.example.com` naar: `example.com.d1.omtrdc.net`.
+   **Niet-beveiligd**  - De hostnaam  `metrics.example.com` verwijst bijvoorbeeld naar:  `example.com.d1.omtrdc.net`.
 
 1. Als deze CNAMES zijn geïnstalleerd, werkt Adobe samen met DigiCert aan de aanschaf en installatie van een certificaat op Adobe productieservers.
 
-   Als u een bestaande implementatie hebt, kunt u bezoekersmigratie overwegen om uw bestaande bezoekers te onderhouden. Nadat het certificaat live naar de productieomgeving van Adobe is geduwd, kunt u de volgende servervariabelen aan nieuwe hostnames bijwerken. Betekenis: als de site niet veilig is (HTTP), werkt u de `s.trackingServer`. Als de site beveiligd is (HTTPS), werkt u zowel `s.trackingServer` als `s.trackingServerSecure` variabelen bij.
+   Als u een bestaande implementatie hebt, kunt u bezoekersmigratie overwegen om uw bestaande bezoekers te onderhouden. Nadat het certificaat live naar de productieomgeving van Adobe is geduwd, kunt u de volgende servervariabelen aan nieuwe hostnames bijwerken. Betekenis: als de site niet veilig is (HTTP), werkt u `s.trackingServer` bij. Als de site beveiligd is (HTTPS), werkt u zowel `s.trackingServer` als `s.trackingServerSecure` variabelen bij.
 
-1. [Bevestig hostname door:sturen](#validate) (zie hieronder).
+1. [Bevestig hostname door:sturen](#validate)  (zie hieronder).
 
-1. [Implementatiecode](#update) bijwerken (zie hieronder).
+1. [Implementatiecode](#update)  bijwerken (zie hieronder).
 
 ### Onderhoud en verlenging
 
@@ -92,7 +96,7 @@ Zolang de implementatiecode niet wordt gewijzigd, heeft deze stap geen invloed o
 >
 >De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt een alternatief aan het vormen van een NAAM om eerderekookies toe te laten, maar wegens recente veranderingen van Apple ITP, wordt het nog geadviseerd om een NAAM toe te wijzen zelfs wanneer het gebruiken van de Dienst van identiteitskaart van Experience Cloud.
 
-## Hostnaam doorsturen valideren {#validate}
+## Door:sturen van hostnaam valideren {#validate}
 
 De volgende methoden zijn beschikbaar voor validatie:
 
@@ -108,13 +112,13 @@ Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, kunt u de 
 
 ### Valideren met [!DNL curl]
 
-Adobe raadt u aan [[!DNL curl]](https://curl.haxx.se/) de opdrachtregel te gebruiken. ([!DNL Windows] gebruikers kunnen installeren [!DNL curl] vanaf: <https://curl.haxx.se/windows/>)
+Adobe raadt u aan [[!DNL curl]](https://curl.haxx.se/) vanaf de opdrachtregel te gebruiken. ([!DNL Windows] gebruikers kunnen [!DNL curl] installeren van: <https://curl.haxx.se/windows/>)
 
 Als u een CNAME hebt maar geen certificaat is geïnstalleerd, voert u het volgende uit:
 `curl -k https://sstats.adobe.com/_check`
 Reactie: `SUCCESS`
 
-(De `-k` waarde schakelt de beveiligingswaarschuwing uit.)
+(De waarde `-k` schakelt de beveiligingswaarschuwing uit.)
 
 Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, voert u het volgende uit:
 `curl https://sstats.adobe.com/_check`
@@ -122,7 +126,7 @@ Reactie: `SUCCESS`
 
 ### Valideren met [!DNL nslookup]
 
-U kunt `nslookup` de validatie gebruiken. Als `sstats.adobe.com`voorbeeld gebruiken, open een bevelherinnering en type `nslookup sstats.adobe.com`
+U kunt `nslookup` voor bevestiging gebruiken. Als voorbeeld gebruikt `sstats.adobe.com`open een bevelherinnering en type `nslookup sstats.adobe.com`
 
 Als alles goed is ingesteld, ziet u een resultaat dat vergelijkbaar is met:
 
@@ -140,23 +144,23 @@ Name:  adobe.com.ssl.d1.sc.omtrdc.net
 Address: 54.187.216.46
 ```
 
-## Implementatiecode bijwerken {#update}
+## Implementatiecode {#update} bijwerken
 
 Voordat u code op uw site bewerkt om cookies van andere bedrijven te gebruiken, moet u aan de volgende voorwaarden voldoen:
 
-* Vraag een SSL-certificaat aan door de hierboven beschreven stappen in de sectie *Implementeren* van het [Adobe Managed Certificate Program](#adobe-managed-certificate-program)uit te voeren.
+* Vraag een SSL-certificaat aan door de stappen uit te voeren die hierboven zijn beschreven in de sectie *Implementeren* van het [Beheerde certificaatprogramma voor Adobe](#adobe-managed-certificate-program).
 * CNAME-records maken (zie hierboven).
 * Valideer de hostnaam of -namen (zie boven).
 
 Nadat u hebt gecontroleerd uw hostname(en) antwoorden en door:sturen aan de servers van de gegevensinzameling van de Adobe, kunt u uw implementatie veranderen om aan uw eigen server van de gegevensinzameling te richten hostnames.
 
-1. Open uw kern-JavaScript-bestand (`s_code.js/AppMeasurement.js`).
-1. Als u de codeversie wilt bijwerken, vervangt u het volledige `s_code.js/AppMeasurement.js` bestand door de nieuwere versie en vervangt u eventuele plug-ins of aanpassingen. **Of**, als u de code wilt bijwerken slechts relevant aan eerderangs koekjes, bepaal de plaats van s.trackingServer en s.trackingServerSecure (als het gebruiken van SSL) variabelen, en richt hen aan uw nieuwe hostnames van de gegevensinzameling. Mijn site.com gebruiken als voorbeeld:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Open uw kernJavaScript dossier (`s_code.js/AppMeasurement.js`).
+1. Als u de codeversie wilt bijwerken, vervangt u het gehele `s_code.js/AppMeasurement.js`-bestand door de nieuwere versie en vervangt u eventuele plug-ins of aanpassingen. **Of**, als u de code wilt bijwerken slechts relevant aan eerderangs koekjes, bepaal de plaats van s.trackingServer en s.trackingServerSecure (als het gebruiken van SSL) variabelen, en richt hen aan uw nieuwe hostnames van de gegevensinzameling. Het gebruiken van mysite.com als voorbeeld:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Upload het bijgewerkte kern-JavaScript-bestand naar uw site.
 
 1. Als u naar eersteklas koekjes van een reeds lang bestaande implementatie, of het veranderen in een verschillende eerste-partijinzameling hostname beweegt, adviseren wij migrerende bezoekers van het vorige domein aan het nieuwe domein.
 
-Zie [Bezoekersmigratie](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) in de handleiding voor analysetoepassing.
+Zie [Migratie van bezoekers](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) in de handleiding voor analytische implementatie.
 
 Nadat u het JavaScript-bestand hebt geüpload, wordt alles geconfigureerd voor de verzameling van cookie van de eerste partij. Wij adviseren dat u Analytics het melden voor de volgende verscheidene uren controleert om ervoor te zorgen dat de gegevensinzameling zoals normaal verdergaat. Als dit niet het geval is, controleert u of alle bovenstaande stappen zijn uitgevoerd en laat een van de ondersteunde gebruikers van uw organisatie contact opnemen met de klantenservice.
