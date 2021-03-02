@@ -1,12 +1,16 @@
 ---
 description: Meer informatie over Experience Cloud-middelen die u kunt delen voor verschillende oplossingen.
 solution: Experience Cloud
-title: 'Overzicht van Experience Cloud-middelen '
+title: Overzicht van activa
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
+feature: Assets
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
