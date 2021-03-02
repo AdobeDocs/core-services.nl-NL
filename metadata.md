@@ -2,6 +2,7 @@
 cloud: experience-cloud
 product: core-services
 solution: Experience Cloud Services
+feature-set: Experience Cloud Services
 solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
@@ -11,7 +12,7 @@ tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.nl-NL
 translation-type: tm+mt
-source-git-commit: b24f9d86c18715937abccd65bc439a0c70264526
+source-git-commit: d317fe52be9449592e3d027056af8a4f6a3a7599
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 70%
@@ -21,7 +22,7 @@ ht-degree: 70%
 
 # Metagegevens voor intern gebruik
 
-Het bestand metadata.md bevat metagegevens op niveau van de opslagplaats die worden doorgegeven aan TOC.md-bestanden van de gebruikershandleiding in de opslagplaats. Als u de content van metadata.md voor om het even welke gebruikershandleiding wilt veranderen, doet u dit in om het even welk TOC.md-bestand.
+Het bestand metadata.md bevat metagegevens op niveau van de repository die worden doorgegeven aan TOC.md-bestanden van de gebruikershandleiding in de repository. Als u de content van metadata.md voor om het even welke gebruikershandleiding wilt veranderen, doet u dit in om het even welk TOC.md-bestand.
 
 | metadata | wat het doet |
 |--- |--- |
@@ -37,7 +38,7 @@ Het bestand metadata.md bevat metagegevens op niveau van de opslagplaats die wor
 
 In TOC.md-bestand
 
-| metadata | wat het doet |
+| metagegevens | wat het doet |
 |--- |--- |
 | user-guide-title | Gebruikt in artikelkoptekst als koppeling |
 | user-guide-url | Opent helpx-hubpagina |
