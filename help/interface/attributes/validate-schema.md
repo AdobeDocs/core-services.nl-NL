@@ -1,13 +1,17 @@
 ---
 description: Leer hoe u het klantkenmerkschema in Adobe Experience Cloud kunt valideren.
-keywords: Customer Attributes;Experience Cloud services
+keywords: Klantkenmerken;Experience Cloud services
 solution: Experience Cloud
 title: 'Hoe te om het schema van de klantenattributen te bevestigen '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
+feature: Klantkenmerken
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -19,13 +23,13 @@ Met het validatieproces kunt u weergavenamen en beschrijvingen toewijzen aan ge�
 
 >[!NOTE]
 >
->Wanneer u het schema bijwerkt nadat de validatie is uitgevoerd, worden de klantkenmerken verwijderd. Zie Het schema [bijwerken (kenmerken worden ook verwijderd)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+>Wanneer u het schema bijwerkt nadat de validatie is uitgevoerd, worden de klantkenmerken verwijderd. Zie [Het schema bijwerken (schrapt ook attributen)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **[!UICONTROL Customer Attribute Source]** > **[!UICONTROL Create New Customer Attribute Source]** > **[!UICONTROL View/Edit Schema]**
 
 ![](assets/view_edit_schema.png)
 
-Op de [!UICONTROL Validate Schema] pagina vertegenwoordigt elke rij van het schema een kolom van het geüploade CSV-bestand.
+Op de [!UICONTROL Validate Schema] pagina, vertegenwoordigt elke rij van het schema een kolom van het geupload Csv- dossier.
 
 ![](assets/06_crs_usecase.png)
 
@@ -35,7 +39,7 @@ Op de [!UICONTROL Validate Schema] pagina vertegenwoordigt elke rij van het sche
 
 * **[!UICONTROL FTP Setup:]** [Upload de gegevens via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-* **[!UICONTROL ID Lookup:]** Voer een Customer ID (CID) van je in `.csv` om Experience Cloud-gegevens voor de id op te zoeken. Deze functie is handig voor het oplossen van problemen waarom kenmerkgegevens niet worden weergegeven voor een bezoeker:
+* **[!UICONTROL ID Lookup:]** Voer een Customer ID (CID) van je in  `.csv` om Experience Cloud-gegevens voor de id op te zoeken. Deze functie is handig voor het oplossen van problemen waarom kenmerkgegevens niet worden weergegeven voor een bezoeker:
 
    * **[!UICONTROL ECID (Experience Cloud ID):]** Toont als u de recentste Dienst van identiteitskaart van Experience Cloud gebruikt. Als u zich op de dienst MCID bevindt maar geen IDs hier vermeld is, heeft de Experience Cloud geen alias voor die CID ontvangen. Dit betekent dat de bezoeker zich niet heeft aangemeld of dat uw implementatie die id niet doorgeeft.
 
@@ -45,18 +49,18 @@ Op de [!UICONTROL Validate Schema] pagina vertegenwoordigt elke rij van het sche
 
 U kunt gegevens ook uploaden via FTP nadat u een bron voor klantkenmerken en een FTP-account in de Experience Cloud hebt gemaakt. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten de .csv-indeling hebben, met een tweede .fin-bestand om aan te geven dat het uploaden is voltooid
 
-De namen die u toepast op tekenreeksen, gehele getallen en getallen worden gebruikt om [!DNL Analytics] metriek te maken. Zie Rapport [Klantkenmerken](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in [!DNL Analytics] Help voor meer informatie.
+De namen die u op koorden, gehelen, en aantallen toepast worden gebruikt om [!DNL Analytics] metriek tot stand te brengen. Zie [Rapport Klantkenmerken](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in [!DNL Analytics] Help voor meer informatie.
 
-* **[!UICONTROL Attribute:]** Kenmerkgegevens die uit het geüploade `.csv` bestand worden gelezen.
+* **[!UICONTROL Attribute:]** Kenmerkgegevens die uit het geüploade  `.csv` bestand worden gelezen.
 
 * **[!UICONTROL Type:]** Het gegevenstype, zoals:
 
-   * **Tekenreeks:** Een reeks tekens.
+   * **Tekenreeks:** een reeks tekens.
 
-   * **Geheel getal:** Hele getallen.
+   * **Geheel getal:** geheel getal
 
-   * **Getallen:** Kan uit maximaal twee decimalen bestaan.
+   * **Getallen:** kan uit maximaal twee decimalen bestaan.
 
-* **[!UICONTROL Display Name:]** Een vriendelijke naam voor het kenmerk. Bijvoorbeeld, zou u een *klantenleeftijd* van attributen aan *Klant kunnen veranderen Sopend*.
+* **[!UICONTROL Display Name:]** Een vriendelijke naam voor het kenmerk. U kunt bijvoorbeeld een kenmerk *leeftijd van klant* wijzigen in *Klant Since*.
 
 * **[!UICONTROL Description:]** Een vriendelijke beschrijving van het kenmerk.
