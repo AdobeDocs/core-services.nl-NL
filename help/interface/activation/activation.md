@@ -1,15 +1,19 @@
 ---
-description: Activering omvat het nieuwste product voor tagbeheer, Experience Platform Launch genaamd. Dynamic Tag Management (DTM) en Triggers.
+description: Meer informatie over het nieuwste product voor tagbeheer, Experience Platform Launch genaamd.
 keywords: kerndiensten
 seo-description: Activering omvat het nieuwste product voor tagbeheer, Experience Platform Launch genaamd. Dynamic Tag Management (DTM) en Triggers.
 seo-title: Activering
 solution: Experience Cloud Services
 title: Activeringsservices in Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
+feature: Admin Console
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 4%
 
 ---
