@@ -1,14 +1,18 @@
 ---
-description: Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt gebruikt in de verschillende Experience Cloud-oplossingen.
+description: Leer hoe de diensten van identiteitskaart over Oplossingen van Experience Cloud wordt opgeslagen en gebruikt.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud Cookies '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
+feature: Cookies
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 6%
+source-wordcount: '350'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +26,7 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt
 <table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Kenmerk </p> </th> 
+   <th colname="col1" class="entry"> <p>Attribute </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -56,9 +60,9 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt
 
 **Naam cookie: AMCV_##@AdobeOrg**
 
-De [Experience Platform-id-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) gebruikt JavaScript om een unieke bezoeker-id op te slaan in een `AMCV_###@AdobeOrg` cookie op het domein van de huidige website, waarbij `###` een willekeurige tekenreeks wordt weergegeven, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+De [Experience Platform-id-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) gebruikt JavaScript om een unieke bezoeker-id op te slaan in een `AMCV_###@AdobeOrg`-cookie op het domein van de huidige website, waarbij `###` een willekeurige tekenreeks vertegenwoordigt, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Zie ook [Cookies en de Dienst](https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html)van identiteitskaart.
+Zie ook [Cookies en de Dienst van identiteitskaart](https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
