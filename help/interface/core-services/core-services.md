@@ -1,13 +1,17 @@
 ---
-description: Leer hoe u de Adobe Experience Cloud implementeert en beheerder wordt.
+description: '"Moderniseer uw Adobe Analytics- en Adobe Target-oplossingen voor services voor meerdere oplossingen. Leer hoe u begint met het gebruik van Experience Cloud-services."'
 keywords: kernservices;Kenmerken van klanten
 solution: Experience Cloud
-title: 'Laat uw oplossingen voor de kerndiensten toe '
+title: '"Laat uw oplossingen voor de dwars-oplossingsdiensten toe"'
 index: true
+feature: Klantkenmerken
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '2276'
+source-wordcount: '2288'
 ht-degree: 2%
 
 ---
