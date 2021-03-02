@@ -1,13 +1,13 @@
 ---
 description: Leer hoe u de Adobe Experience Cloud implementeert en beheerder wordt.
-keywords: core services;Customer Attributes
+keywords: kernservices;Kenmerken van klanten
 solution: Experience Cloud
 title: 'Laat uw oplossingen voor de kerndiensten toe '
 index: true
 translation-type: tm+mt
-source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2276'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Als u onlangs Experience Cloud gebruikend Experience Platform Launch uitvoerde, bent u reeds opstelling voor de Attributen van de Klant en het publiek van Experience Cloud. U kunt gebruikers en producten in de Admin Console ook beheren.
 
-Voor bestaande klanten, kunt u uw oplossingsimplementaties moeten moderniseren en Experience Cloud uitvoeren. Zo kunt u de kenmerken van de klant en de publieksfuncties in Adobe Analytics, Audience Manager en Adobe Target benutten. Hiervoor gaat u als volgt te werk:
+Voor bestaande klanten, kunt u uw oplossingsimplementaties moeten moderniseren en Experience Cloud uitvoeren. Zo kunt u de kenmerken van de klant en de publieksfuncties in Adobe Analytics, Audience Manager en Adobe Target benutten. Voor deze implementatie gaat u als volgt te werk:
 
 1. [Deelnemen aan de Experience Cloud en beheerder worden](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [De Experience Cloud ID-service implementeren](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -128,7 +128,7 @@ Neem contact op met de klantenservice om historische gegevens in te schakelen.
 >
 >De functie voor het toewijzen van rapportsuite is in november 2020 afgekeurd. Neem contact op met de Klantenondersteuning voor alle vragen.
 
-Experience Cloud-services (zoals Experience Cloud ID-service en [!UICONTROL People service]) zijn gekoppeld aan een Experience Cloud-organisatie in plaats van aan een afzonderlijke Analytics-rapportsuite. Om ervoor te zorgen dat deze diensten correct werken, moet elke het rapportreeks van Analytics aan een organisatie van de Experience Cloud worden in kaart gebracht.
+Experience Cloud-services (zoals Experience Cloud ID-service en [!UICONTROL People service]) zijn gekoppeld aan een Experience Cloud-organisatie in plaats van aan een afzonderlijke Analytics-rapportsuite. Om ervoor te zorgen dat deze diensten correct werken, moet elke het rapportreeks van Analytics aan een organisatie van Experience Cloud worden in kaart gebracht.
 
 Zie [Rapportreeksen toewijzen aan een organisatie](report-suite-mapping.md).
 
@@ -157,7 +157,7 @@ Gebruik het volgende proces om ervoor te zorgen dat de Experience Cloud-id-servi
 1. Wis koekjes voor uw plaats zodat kunt u het verzoek aan de Dienst van identiteitskaart van de Experience Cloud zien (het verzoek gebeurt bij het eerste bezoek, dan ongeveer eens per bezoeker per week).
 1. Gebruikend een pakketanalyse of het netwerkpaneel in Webbrowser debugger, zoek een verzoek die naar [!DNL dpm.demdex.net] gaat.
 1. Controleer of de reactie `d_mid` en een waarde bevat, bijvoorbeeld: `_setMarketingCloudFields({"d_mid":"4235...`
-1. Verifieer dat het verzoek van de Analyse de `mid` parameter (Experience Cloud ID) bevat. Tijdens de respijtperiode (als deze is ingeschakeld) moet u ook een parameter `aid` (de bezoeker-id van Analytics) zien.
+1. Verifieer dat het verzoek van de Analyse de `mid` parameter (Experience Cloud identiteitskaart) bevat. Tijdens de respijtperiode (als deze is ingeschakeld) moet u ook een parameter `aid` (de bezoeker-id van Analytics) zien.
 
 Verwachte reactie met de Experience Cloud-id:
 
