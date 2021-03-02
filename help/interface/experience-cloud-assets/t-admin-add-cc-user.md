@@ -1,14 +1,18 @@
 ---
 description: 'Meer informatie over beheertools voor het beheer van goedgekeurde Creative Cloud-gebruikers in Experience Cloud. '
-keywords: asset sharing;Creative Cloud;core services
+keywords: delen van elementen;Creative Cloud;kernservices
 solution: Experience Cloud
 title: 'Creative Cloud-gebruikers beheren '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
+feature: Assets
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 2%
+source-wordcount: '116'
+ht-degree: 4%
 
 ---
 
