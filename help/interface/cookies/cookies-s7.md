@@ -4,11 +4,15 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookies '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
+feature: Cookies
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 0%
+source-wordcount: '417'
+ht-degree: 1%
 
 ---
 
@@ -33,12 +37,12 @@ De nieuwere AS3-viewers implementeren sessieresistentie niet.
 
 **Naam cookie: VatLogin.jsp**
 
-| Kenmerk | Beschrijving |
+| Attribute | Beschrijving |
 |---|---|
 | Opgeslagen informatie | Stelt het sessiecookie in. AuthFilter ingebed in IPS ImageServer (IS, IR, en ook SWFs/skins en videocontexten) gebruikt het koekje voor toegangsvergunning. Indien aanwezig, staat het HTTP- verzoeken toe om door te gaan. Anders wordt onbevoegd geretourneerd. |
-| Verlopen | Dit cookie is een sessiecookie. De huidige sessievervaldatum wordt ingesteld op 45 minuten in Scene7 IPS [!DNL web.xml]. |
+| Verlopen | Dit cookie is een sessiecookie. De huidige sessievervaldatum wordt ingesteld op 45 minuten in de Scene7 IPS [!DNL web.xml]. |
 
-**Naam cookie: s7js.flyout.InfoMessage.displayed `assetId`.state**
+**Naam cookie: s7js.flyout.InfoMessage.displayed  `assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -50,7 +54,7 @@ De nieuwere AS3-viewers implementeren sessieresistentie niet.
  <tbody> 
   <tr> 
    <td colname="col1"> Opgeslagen informatie </td> 
-   <td colname="col2"> <p>&lt;assetId&gt; is de naam van het element waarmee de viewer werkt. </p> </td> 
+   <td colname="col2"> <p>&lt;assetid&gt; Dit is de naam van het element waarmee de viewer werkt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verlopen </td> 
@@ -73,7 +77,7 @@ Browsercookies worden door verouderde DHTML-viewers gebruikt voor het opslaan va
  <tbody> 
   <tr> 
    <td colname="col1"> Opgeslagen informatie </td> 
-   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; is de naam van het element waarmee de viewer werkt en &lt;id&gt; is de op nul gebaseerde index voor notities. </p> </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetid&gt; Dit is de naam van het element waarmee de viewer werkt en  &lt;id&gt; is de op nul gebaseerde index van notities. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verlopen </td> 
