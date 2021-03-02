@@ -1,14 +1,18 @@
 ---
 description: Meer informatie over toegestane bestandstypen en groottebeperkingen voor het delen van elementen tussen Adobe Experience Cloud en Creative Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: delen van elementen;Creative Cloud;kernservices
 solution: Experience Cloud
 title: 'Bestandsvereisten voor het delen van elementen '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
+feature: Assets
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 0%
+source-wordcount: '132'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +23,9 @@ Bestandstypen en groottebeperkingen zijn toegestaan voor het delen van elementen
 
 ## Bestandstypen die zijn toegestaan voor uploaden {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
-Bestandstypen die u kunt uploaden, zijn de meeste afbeeldingen, documenten en multimedia. Zie [Ondersteunde indelingen](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) voor informatie over bestandsindelingen in [!DNL Experience Cloud] Middelen.
+Bestandstypen die u kunt uploaden, zijn de meeste afbeeldingen, documenten en multimedia. Zie [Ondersteunde indelingen](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) voor informatie over bestandsindelingen in [!DNL Experience Cloud] Elementen.
 
-## Beperkingen inzake bestandsgrootte {#section_410ED8E24DBD4136830AE679C6B10D88}
+## Bestandsgroottebeperkingen {#section_410ED8E24DBD4136830AE679C6B10D88}
 
 Bestandsgroottebeperkingen komen van de browser en kunnen van browser tot browser verschillen:
 
