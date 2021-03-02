@@ -1,13 +1,17 @@
 ---
 description: Leer hoe gedeelde mappen zich gedragen wanneer ze worden verplaatst, verwijderd en hersteld in Experience Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: delen van elementen;Creative Cloud;kernservices
 solution: Experience Cloud
 title: 'Gedrag van gedeelde mappen '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
+feature: Assets
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -61,7 +65,7 @@ U verplaatst inhoud van een gedeelde map die u hebt naar een niet-gedeelde map.
 
 **Resultaat:** De inhoud wordt nu niet gedeeld. De deelnemers aan de gedeelde map hebben niet langer toegang tot de inhoud.
 
-## Inhoud niet naar een niet-gedeelde map is verzonden {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
+## Niet-gedeelde inhoud naar een niet-gedeelde map {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
 
 U verplaatst inhoud van een gedeelde map die eigendom is van iemand anders naar een niet-gedeelde map.
 
@@ -71,7 +75,7 @@ U verplaatst inhoud van een gedeelde map die eigendom is van iemand anders naar 
 
 Eigenaars en editors kunnen inhoud verplaatsen die ze niet hebben, maar viewers niet. Als eigenaars en editors inhoud verplaatsen, is deze niet beschikbaar in een gedeelde map voor een gebruiker.
 
-## Gearchiveerde of verwijderde map {#section_B314B13512A5409C87C49DFDB7602E14}
+## Gearchiveerde of verwijderde eigen map {#section_B314B13512A5409C87C49DFDB7602E14}
 
 U archiveert (via web) of verwijdert (via bureaublad) een gedeelde map die u bezit.
 
@@ -79,7 +83,7 @@ U archiveert (via web) of verwijdert (via bureaublad) een gedeelde map die u bez
 
 **Resultaat:** De map wordt niet gedeeld en vervolgens gearchiveerd. De deelnemers hebben geen toegang meer tot de map.
 
-## Gedeelde map naar een andere gedeelde map {#section_0A3F203D048D4D1586E9850DC92C51E9}
+## Gedeelde map in een andere gedeelde map {#section_0A3F203D048D4D1586E9850DC92C51E9}
 
 U verplaatst een gedeelde map die u hebt naar een andere gedeelde map die u wel of niet in uw bezit hebt.
 
@@ -93,9 +97,9 @@ U verplaatst inhoud van een gedeelde map naar een andere gedeelde map.
 
 ![](assets/11_assets_move.png)
 
-**Resultaat:** De inhoud wordt weergegeven in map 2 en wordt nu gedeeld met nieuwe medewerkers. De inhoud wordt verwijderd uit map 1 en de eigenaar ziet deze als gearchiveerd, terwijl de andere deelnemers er geen toegang meer toe hebben.
+**Resultaat:** De inhoud wordt weergegeven in map 2 en wordt nu gedeeld met nieuwe deelnemers. De inhoud wordt verwijderd uit map 1 en de eigenaar ziet deze als gearchiveerd, terwijl de andere deelnemers er geen toegang meer toe hebben.
 
-## Herstelde inhoud uit archief {#section_DEA990B3581741F89FBB81D18C2AB449}
+## Herstelde inhoud van archief {#section_DEA990B3581741F89FBB81D18C2AB449}
 
 U herstelt inhoud uit een archief dat tot een gedeelde map behoorde. U was eigenaar van de inhoud op het moment dat deze werd gearchiveerd.
 
