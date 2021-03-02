@@ -2,10 +2,14 @@
 description: Leer hoe u Adobe Ad Cloud-cookies kunt gebruiken om gebeurtenissen in verband met betrokkenheid en betrokkenheid toe te wijzen aan conversiegebeurtenissen en deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
 title: 'Advertising Cloud Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
+feature: Cookies
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
+source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '542'
 ht-degree: 4%
 
 ---
