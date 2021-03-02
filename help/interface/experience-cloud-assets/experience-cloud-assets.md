@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: 'Overzicht van Experience Cloud-middelen '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Overzicht van Experience Cloud-middelen
 
-Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop] bestand, dia&#39;s in een [!DNL PowerPoint] bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
+Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop]-bestand, dia&#39;s in een [!DNL PowerPoint]-bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
 
 De diensten van activa omvatten:
 
@@ -28,7 +28,7 @@ Het gebruik van middelen verbetert de consistentie en de naleving van het merk, 
 * **[!DNL Media Optimizer]**: Eenheden ontwikkelen op verschillende kanalen en campagnes
 * **[!DNL Campaign]**: Plaats elementen in e-mailbulletins en campagnes.
 
-In kunt [!UICONTROL Experience Cloud Assets]u:
+In [!UICONTROL Experience Cloud Assets] kunt u:
 
 * [Navigeren naar Experience Cloud-elementen](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [De werkbalk openen](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
@@ -40,11 +40,11 @@ In kunt [!UICONTROL Experience Cloud Assets]u:
 * [Gebruiksrapporten uitvoeren](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
 * [Delen van middelen met Experience Manager](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
-## Navigeren naar Experience Cloud-elementen {#section_3657039DD3524F2AA88753BFF4781125}
+## Naar Experience Cloud-elementen navigeren {#section_3657039DD3524F2AA88753BFF4781125}
 
 ![](assets/asset-nav.png)
 
-## De werkbalk openen {#section_EC2E401D225148818F3753248556BE6B}
+## De werkbalk {#section_EC2E401D225148818F3753248556BE6B} openen
 
 Navigeer naar een element (of elementenmap) en klik op **[!UICONTROL Select]**.
 
@@ -52,7 +52,7 @@ De werkbalk biedt snel toegang tot functies, zoals Zoeken, Tijdlijn, Uitvoeringe
 
 ![](assets/asset-tools.png)
 
-## Elementen bewerken {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Elementen {#section_CD3C55A9D4574455B94D0955391C8FEC} bewerken
 
 Als u een element bewerkt, zijn er functies mogelijk, zoals:
 
@@ -64,13 +64,13 @@ Als u een element bewerkt, zijn er functies mogelijk, zoals:
 
 ## Middelen zoeken {#section_50FE049010B446FC9640AA6A30E5A730}
 
-U kunt zoeken op trefwoord, bestandstype, grootte, laatst gewijzigd, publicatiestatus, afdrukstand en -stijl.
+U kunt zoeken op trefwoord, bestandstype, grootte, laatst gewijzigd, publicatiestatus, afdrukstand en stijl.
 
 ![](assets/asset-search.png)
 
-## Elementen notities aanbrengen {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## Elementen {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A} annoteren
 
-Klik **[!UICONTROL Annotate]** door cirkels of pijlen op een afbeelding te tekenen en het element van annotatie te voorzien voor revisie door collega&#39;s.
+Klik op **[!UICONTROL Annotate]** door cirkels of pijlen op een afbeelding te tekenen en het element van annotatie te voorzien voor revisie door collega&#39;s.
 
 ![](assets/assets-annotate.png)
 
@@ -88,7 +88,7 @@ Klik op **[!UICONTROL Views]** > **[!UICONTROL Properties]** om de eigenschappen
 
 ![](assets/asset-properties.png)
 
-## Gebruiksrapporten uitvoeren {#section_15D782FFB8D74CF4A735116CC03AD902}
+## Gebruiksrapporten {#section_15D782FFB8D74CF4A735116CC03AD902} uitvoeren
 
 Zie het aantal gebruikers, de gebruikte opslagruimte en het totale aantal middelen.
 
