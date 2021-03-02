@@ -1,12 +1,12 @@
 ---
 solution: Experience Cloud
-type: Documentation
+type: Documentatie
 title: 'Adobe Experience Cloud-publiek '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '784'
 ht-degree: 4%
 
 ---
@@ -37,13 +37,13 @@ In de volgende tabel wordt beschreven hoe publiek wordt gebruikt in Experience C
 
 | Oplossing | Beschrijving |
 |--- |--- |
-| Experience Cloud publiek | Creëer, beheer, en deel inheemse publiek gebruikend de [interface van de Bibliotheek van het publiek](../audience-library/audience-library.md). U kunt:<ul><li>Real-time soorten publiek gebruiken met onbewerkte analysekenmerken</li><li>Combineer publiek om samengestelde degenen tot stand te brengen, verbindend real time en historische gegevens</li><li>Zie grafische weergaven van geschatte doelgrootte</li></ul><br>Voor suggesties over welk type publiek u wilt creëren zie:  [Experience Cloud publiek](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
+| Experience Cloud publiek | Creëer, beheer, en deel inheemse publiek gebruikend [de interface van de Bibliotheek van het publiek](../audience-library/audience-library.md). U kunt:<ul><li>Real-time soorten publiek gebruiken met onbewerkte analysekenmerken</li><li>Combineer publiek om samengestelde degenen tot stand te brengen, verbindend real time en historische gegevens</li><li>Zie grafische weergaven van geschatte doelgrootte</li></ul><br>Voor suggesties over welk type publiek u wilt creëren zie:  [Experience Cloud publiek](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
 | Analytics | In segmentatie, kunt u een segment bouwen, het met een rapportreeks combineren, en dan het segment aan Experience Cloud publiceren. Als u het segment publiceert, wordt dit op de pagina [!UICONTROL Audience Library] in Experience Cloud weergegeven. (Zie [Segmenten publiceren naar de Experience Cloud](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) in de Help bij Analytics voor meer informatie.) Het publiek is ook beschikbaar als doelgroep voor een campagneervaring die door Adobe Target en in de Audience Manager wordt opgeleverd. Wanneer een publiek vanuit Adobe Analytics is gedeeld en is geselecteerd voor gebruik in een actieve campagne, worden alle bezoekersprofielen die de afgelopen 90 dagen aan de criteria voor segmentdefinitie voldeden, verzonden naar het Experience Cloud [!UICONTROL Audience Services]-platform. De grens voor gedeeld publiek is verhoogd tot 75. Het publiek dat vanuit Analytics aan de Experience Cloud wordt gedeeld, mag niet meer dan 20 miljoen unieke leden tellen. Vanwege caching is het bovendien 12 uur nodig voordat de verwijdering in de Experience Cloud wordt weergegeven. |
 | Mobiele services | Analyseer mobiel verkeer gebruikend de zonnebarstvisualisatie in het [!UICONTROL Device Types] rapport. |
 | [!DNL Target] | De [ID-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) verenigt gebruikers-id&#39;s en gegevens in één actionabel profiel voor gebruik in verschillende oplossingen. Met het selectievakje [Publiceren naar de Experience Cloud](../audience-library/audience-library.md) tijdens het maken van segmenten in Adobe Analytics kan het segment beschikbaar zijn in de aangepaste publieksbibliotheek van Adobe Target. Een segment dat in Analytics of Audience Manager wordt gecreeerd kan voor activiteiten in [!DNL Target] worden gebruikt. U kunt bijvoorbeeld campagneactiviteiten maken op basis van conversiemetriek [!DNL Analytics] en publiekssegmenten die zijn gemaakt in [!DNL Analytics]. |
 | Audience Manager | Gedeeld publiek is beschikbaar in segmentatie van de Audience Manager. Alle Experience Cloud-soorten zijn in de Audience Manager verkrijgbaar, met:<ul><li>Ingebouwde automatisering betreffende hoe zij worden gedeeld en in oplossingswerkschema&#39;s verbruikt</li><li>Offsite doelen</li><li>Modellering van look-alike</li></ul> |
 | Campaign | <ul><li>Importeer een gedeeld publiek van verschillende Adobe Experience Cloud-oplossingen naar Adobe Campaign.</li><li>Lijst met ontvangers exporteren in de vorm van een gedeeld publiek. Deze gedeelde doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt.</li></ul> |
-| Media optimaliseren | Gebruik het publiek als doelen. |
+| Advertising Cloud | Gebruik het publiek als doelen. |
 
 >[!IMPORTANT]
 >
