@@ -3,10 +3,15 @@ solution: Experience Cloud
 type: Documentatie
 title: 'Adobe Experience Cloud-publiek '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
+description: Leer hoe u de vertaling van bezoekersgegevens in publiekssegmentatie in de service Experience Cloud Audience beheert.
+feature: Auditiebibliotheek
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
