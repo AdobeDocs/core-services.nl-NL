@@ -2,13 +2,17 @@
 description: Meer weten over Adobe Analytics cookies in Adobe Experience Cloud?
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Adobe Analytics Cookies gebruiken '
+title: 'Analysecookies '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
+feature: Cookies
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 2%
+source-wordcount: '759'
+ht-degree: 3%
 
 ---
 
@@ -28,11 +32,11 @@ Met name gebruikt Analytics cookies om anoniem nieuwe bezoekers te definiëren, 
 * [Naam cookie: s_fid](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [Cookies ingesteld op plug-ins](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-Meer informatie is beschikbaar in de Help bij Analytics over [First Party Cookies](/help/interface/cookies/cookies-first-party.md).
+Meer informatie is beschikbaar in de Help bij Analytics over [First-Party Cookies](/help/interface/cookies/cookies-first-party.md).
 
 ## Naam cookie: s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
-| Kenmerk | Beschrijving |
+| Attribute | Beschrijving |
 |--- |--- |
 | Opgeslagen informatie | Bevat een kopie van de Experience Cloud-id (ECID) of MID. MID wordt opgeslagen in een sleutelwaardepaar dat deze syntaxis volgt, s_ecid=MCMID | `<ECID>` |
 | Verlopen | 2 jaar |
@@ -80,7 +84,7 @@ Meer informatie is beschikbaar in de Help bij Analytics over [First Party Cookie
 |--- |--- |
 | Opgeslagen informatie | Unieke tijd-/datumstempel van bezoekersidentiteitskaart voor alternatieven |
 | Verlopen | 2 jaar |
-| Gebruik | Dit cookie wordt gebruikt om een unieke bezoeker te identificeren als de standaardcookie niet beschikbaar is vanwege cookie-beperkingen van derden. `s_vi` Niet gebruikt voor implementaties die cookies van de eerste fabrikant gebruiken. |
+| Gebruik | Dit cookie wordt gebruikt om een unieke bezoeker te identificeren als de standaard `s_vi` cookie niet beschikbaar is vanwege cookie-beperkingen van derden. Niet gebruikt voor implementaties die cookies van de eerste fabrikant gebruiken. |
 | Locatie | Dit cookie wordt op uw domein opgeslagen als een cookie van de eerste fabrikant. |
 | Grootte | 33 bytes |
 
@@ -90,18 +94,18 @@ In de volgende tabel worden de vlaggen voor Analytics-cookies beschreven:
 
 | Koekje (ingesteld door) | httpOnly | Beveiligen | SameSite |
 |--- |--- |--- |--- |
-| s_vi (http Response) | Nee | Ja wanneer SameSite &quot;None&quot; is en verbinding HTTPS gebruikt | Standaard &#39;Lax&#39; wanneer CNAME wordt gebruikt. &quot;Geen&quot; bij gebruik van 2o7.net of omtr dc.net. |
-| s_ecid (http Response) | Nee | Nee | &quot;Lax&quot; |
+| s_vi   (http Response) | Nee | Ja wanneer SameSite &quot;None&quot; is en verbinding HTTPS gebruikt | Standaard &#39;Lax&#39; wanneer CNAME wordt gebruikt. &quot;Geen&quot; bij gebruik van 2o7.net of omtr dc.net. |
+| s_ecid   (http Response) | Nee | Nee | &quot;Lax&quot; |
 | s_fid (JavaScript) | Nee | Nee | Ongedaan maken |
 | s_cc (JavaScript) | Nee | Nee | Ongedaan maken |
 | s_sq (JavaScript) | Nee | Nee | Ongedaan maken |
 
 >[!NOTE]
 >
->Als het gebruiken van één enkele CNAME aan spoor over veelvoudige domeinen of eigenschappen, zou SameSite aan &quot;niets&quot;voor moeten worden geplaatst `s_vi`. Neem contact op met de klantenservice voor hulp bij het wijzigen van de cookie-instellingen van Analytics.
+>Als het gebruiken van één enkele CNAME aan spoor over veelvoudige domeinen of eigenschappen, zou SameSite aan &quot;niets&quot;voor `s_vi` moeten worden geplaatst. Neem contact op met de klantenservice voor hulp bij het wijzigen van de cookie-instellingen van Analytics.
 
-## Cookies ingesteld op plug-ins {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Cookies ingesteld door plug-ins {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Afhankelijk van het gebruik van plug-ins voor Analytics kunnen extra cookies worden ingesteld. Deze cookies zijn codefragmenten die beschikbaar zijn voor de client en die onder verschillende omstandigheden kunnen worden gebruikt. Deze omstandigheden omvatten: waarden ophalen van de URL; samenvoegen van waarden die aan Analytics moeten worden doorgegeven; vastleggen van het verlaten van formulieren enzovoort. Neem contact op met ClientCare voor specifieke informatie over cookies die door elke insteekmodule worden ingesteld. Een voorbeeld hiervan is het [!DNL s_vh] cookie dat wordt gebruikt met de insteekmodules *Eenmaal instellen per* en Laatste waarde ** instellen en ophalen.
+Afhankelijk van het gebruik van plug-ins voor Analytics kunnen extra cookies worden ingesteld. Deze cookies zijn codefragmenten die beschikbaar zijn voor de client en die onder verschillende omstandigheden kunnen worden gebruikt. Deze omstandigheden omvatten: waarden ophalen van de URL; samenvoegen van waarden die aan Analytics moeten worden doorgegeven; vastleggen van het verlaten van formulieren enzovoort. Neem contact op met ClientCare voor specifieke informatie over cookies die door elke insteekmodule worden ingesteld. Een voorbeeld hiervan is het cookie [!DNL s_vh] dat wordt gebruikt met de *Eenmaal instellen per* en *Laatste waarde instellen en ophalen* plug-ins.
 
 Conversievariabelen (eVarX) die zonder JavaScript in een afbeeldingsaanvraag zijn ingevoerd, zoals code die in een e-mailbericht is geplaatst, worden alleen correct toegewezen als de e-mailclient en webbrowser dezelfde cookieruimte delen.
