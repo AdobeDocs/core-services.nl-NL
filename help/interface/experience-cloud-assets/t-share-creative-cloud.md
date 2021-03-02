@@ -1,13 +1,13 @@
 ---
 description: Hoe te om een Experience Cloud activaomslag met de gebruikers van Creative Cloud te delen.
-keywords: asset sharing;Creative Cloud;core services
+keywords: delen van elementen;Creative Cloud;kernservices
 solution: Experience Cloud
 title: 'Een map met Experience Cloud-elementen delen '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 2%
 
 U kunt een map met Experience Cloud-middelen delen met gebruikers van Creative Cloud.
 
-1. Klik op een map met middelen **[!UICONTROL Share to Creative Cloud]**.
+1. Voor een omslag van Activa, klik **[!UICONTROL Share to Creative Cloud]**.
 
    ![Stap Resultaat](assets/asset-share-cc.png)
-1. Zoek op de pagina Delen naar Creative Cloud naar de gebruiker en klik op **[!UICONTROL Add]**.
+1. Zoek op de pagina Delen naar Creative Cloud naar de gebruiker en klik vervolgens op **[!UICONTROL Add]**.
 
    ![](assets/asset-share-cc-page.png)
 
 1. Klik op **[!UICONTROL Share]**.
-1. Start het [!DNL Creative Cloud] bureaublad (of navigeer naar de [!UICONTROL Creative Cloud Files] pagina in een browser) en zoek het aanvraagbericht.
+1. Start het [!DNL Creative Cloud]-bureaublad (of navigeer naar de [!UICONTROL Creative Cloud Files]-pagina in een browser) en zoek het aanvraagbericht.
 
    ![](assets/cc_share_request.png)
 1. Open het verzoek en klik op **[!UICONTROL Accept]**.
@@ -36,7 +36,7 @@ U kunt een map met Experience Cloud-middelen delen met gebruikers van Creative C
    ![Stap Resultaat](assets/creative_cloud_open_folder.png)
 1. Voeg verder opmerkingen toe op het gedeelde element:
 
-   In Creative Cloud kunt u in een afbeelding klikken en vervolgens een opmerking toevoegen **[!UICONTROL Activity]** aan de afbeelding. Opmerkingen worden gesynchroniseerd op de elementen in de [!DNL Creative Cloud] en [!DNL Experience Cloud].
+   In Creative Cloud kunt u in een afbeelding klikken en vervolgens **[!UICONTROL Activity]** klikken om een opmerking aan de afbeelding toe te voegen. Opmerkingen worden gesynchroniseerd op de elementen in de [!DNL Creative Cloud] en [!DNL Experience Cloud].
 
    ![](assets/asset_comment_cc.png)
 
@@ -44,16 +44,16 @@ U kunt een map met Experience Cloud-middelen delen met gebruikers van Creative C
 
    ![](assets/asset_comment_mac.png)
 
-1. Als u een map niet meer wilt delen, klikt u op **[!UICONTROL Share Using Creative Cloud]** (vergelijkbaar met [stap 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)) en verwijdert u gebruikers door op X te klikken. Klik vervolgens op **[!UICONTROL Share]** Stap 3.
+1. Als u een map niet meer wilt delen, klikt u op **[!UICONTROL Share Using Creative Cloud]** (vergelijkbaar met [Stap 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)) en verwijdert u gebruikers door op X te klikken. Klik vervolgens op **[!UICONTROL Share]**.
 
 ![](assets/asset_remove_user.png)
 
 Nadat u alle gebruikers van de Creative Cloud hebt verwijderd, wordt de map niet meer gedeeld en hebben de gebruikers van de Creative Cloud geen toegang meer.
 
-U kunt onder andere een gedeeld element gebruiken:
+U kunt een gedeeld element onder andere gebruiken:
 
-* Gebruik middelen in de [!UICONTROL Asset Selector] lijst [!DNL Adobe Social] voor sociale artikelen.
-* Laad of verwissel elementen in de [aanbiedingenbibliotheek](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] voor afbeeldingen in activiteiten.
+* Gebruik elementen in [!UICONTROL Asset Selector] in [!DNL Adobe Social] voor sociale posten.
+* Laad- of wisselmiddelen in [Biedt Bibliotheek](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] voor afbeeldingen in activiteiten.
 
 Nadat u een map aan de Creative Cloud hebt gedeeld, wordt het logo van de Creative Cloud weergegeven in de map.
 
