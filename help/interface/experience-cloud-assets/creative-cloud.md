@@ -1,13 +1,17 @@
 ---
 description: 'Leer hoe u mappen en elementen deelt tussen Experience Cloud en Creative Cloud. '
-keywords: asset sharing;Creative Cloud;core services
+keywords: delen van elementen;Creative Cloud;kernservices
 solution: Experience Cloud
 title: 'Experience Cloud-mappen en -elementen delen met Creative Cloud '
+feature: Assets
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 0%
+source-wordcount: '179'
+ht-degree: 1%
 
 ---
 
@@ -24,10 +28,10 @@ Mappen en elementen delen tussen Experience Cloud en Creative Cloud. Samenwerken
 * Geniet van meer bedrijfsbeveiliging
 * U kunt eenvoudig bestanden delen, opslaan en verzenden tussen creatieve en marketingmedewerkers
 
-Voordat gebruikers van de Creative Cloud toegang hebben tot elementen, moeten ze in de Experience Cloud worden gewhitelliseerd. Zie Creative Cloud-gebruikers [beheren](../experience-cloud-assets/t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752).
+Voordat gebruikers van de Creative Cloud toegang hebben tot elementen, moeten ze in de Experience Cloud worden gewhitelliseerd. Zie [Creative Cloud-gebruikers beheren](../experience-cloud-assets/t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752).
 
 ## Over het delen van elementen met Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
-Wanneer u activiteiten maakt in [!DNL Adobe Target], kunt u een gedeeld afbeeldingselement gebruiken wanneer u afbeeldingen in de [!UICONTROL Offers Library]afbeelding verwisselt.
+Wanneer u activiteiten maakt in [!DNL Adobe Target], kunt u een gedeeld afbeeldingselement gebruiken bij het omwisselen van afbeeldingen in [!UICONTROL Offers Library].
 
-Zie [Bibliotheek](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) van Aanbiedingen in [!DNL Target] Hulp.
+Zie [Bibliotheek van aanbiedingen](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Target] Hulp.
