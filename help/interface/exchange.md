@@ -1,13 +1,17 @@
 ---
 description: Leer meer over de Exchange Marketplace, één bestemming waar u Digital Marketing-extensies kunt zoeken, zoeken, selecteren, betalen en downloaden via apps.
-keywords: core services
+keywords: kerndiensten
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
+feature: '"Klantkenmerken, Audience Library, Admin Console"'
+topic: Beheer
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '139'
 ht-degree: 5%
 
 ---
@@ -33,4 +37,4 @@ De Exchange Marketplace is één doel waar u extensies voor Digital Marketing ku
 
 * Zoeken en filteren op categorie, bedrijf, type, gebruiker en meer.
 
-Zie [Experience Cloud Uitwisseling](https://exchange.adobe.com/experiencecloud.html) voor meer informatie.
+Zie [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) voor meer informatie.
