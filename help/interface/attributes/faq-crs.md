@@ -9,15 +9,15 @@ topic: Beheer
 role: Beheerder
 level: Ervaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1231'
 ht-degree: 1%
 
 ---
 
 
-# Veelgestelde vragen, beperkingen en aanbevolen procedures
+# Veelgestelde vragen over Customer Attributes
 
 Veelgestelde vragen en best practices voor klantkenmerken in Adobe Analytics en Adobe Target.
 
@@ -39,7 +39,7 @@ Richtlijnen en beperkingen bij gebruik van [!UICONTROL Customer Attributes].
 |--- |--- |
 | Kan ik meldingen ontvangen over de status van uploaden naar Customer Attributes? | Ja. Zie [Meldingen beheren](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_0105453AD71847B8BFCAF4A40915F157). |
 | Wat moet ik doen om aan de slag te gaan met Customer Attributes? | <ol><li>Ontvang provisioned. Als u een klant van de Analyse bent, voorziet Adobe u voor de Attributen van de Klant. Als u alleen Adobe Target gebruikt en geen Analytics hebt, kunt u de levering voor de kernservices aanvragen door contact op te nemen met de klantenservice.</li> <li>Heb een gesprek met uw team van CRM. Ontdek welk type van klantengegevens beschikbaar is dat u in Analytics en door de Experience Cloud wilt gebruiken.</li><li>De kernservices implementeren. Zie [Het toelaten van uw oplossingen voor kerndiensten](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html) voor stappen op hoe te om uw implementatie te moderniseren. (Zie de sectie over het synchroniseren van klant-id&#39;s voor belangrijke informatie.)</li></ol> **Nota:** Veelgestelde vragen van een beheerder voor het uitvoeren van de kerndiensten is beschikbaar  [hier](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html#concept_13219B4E51784577B6FF78AAA203DE91). |
-| Hoeveel Kenmerken van de Klant mag ik gebruiken? | U kunt honderden `.csv` kolommen uploaden naar de klantenkenmerkservice. Wanneer u echter abonnementen configureert en kenmerken selecteert, gelden de volgende limieten (per rapportsuite), afhankelijk van de oplossingen die u hebt:  <ul><li>Stichting: 0</li><li>Selecteren: 1</li><li>Primair: 15</li><li>Ultimate: 200</li><li>Standaard: 3 totaal</li><li>Premium: 200</li><li>Adobe Target-standaard: 5</li><li>Adobe Target Premium: 200</li></ul> |
+| Hoeveel Kenmerken van de Klant mag ik gebruiken? | U kunt honderden `.csv` kolommen uploaden naar de klantenkenmerkservice. Wanneer u echter abonnementen configureert en kenmerken selecteert, gelden de volgende limieten (per rapportsuite), afhankelijk van de oplossingen die u hebt:  <ul><li>Stichting: 0</li><li>Selecteren: 3</li><li>Primair: 15</li><li>Ultimate: 200</li><li>Standaard: 3 totaal</li><li>Premium: 200</li><li>Adobe Target-standaard: 5</li><li>Adobe Target Premium: 200</li></ul> |
 | Is migratie naar de Experience Cloud ID-service vereist? | Migratie is afhankelijk van de oplossingen die u gebruikt. <ul><li>Adobe Analytics: Sterk aanbevolen </li><li>Adobe Target: Vereist. </li></ul><br>Het gebruiken van de dienst van identiteitskaart van de Experience Cloud laat de recentste functionaliteit van de Experience Cloud, met inbegrip van publiek in real time, de modernisering van Adobe Target, de integratie van Analytics, en videohartslag het volgen toe. <br> Voor meer details, zie  [Enable uw oplossingen voor de kerndiensten](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html). <br>**Opmerking:** De  [Experience Cloud ID-](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html) service is de gemoderniseerde implementatie van wat voorheen bekend stond als  _Analytics bezoeker ID-service._ |
 | Hoe heeft de functionaliteit van klantkenmerken betrekking op Adobe Audience Manager? | Hoewel de Audience Manager gegevens kan ontvangen om publieksidentificatie uit te voeren, kan het geen analysefunctionaliteit uitvoeren die attributen aan historische gedragsgegevens bindt. Het biedt ook niet de rapportage-, analyse- en segmentatiemogelijkheden die beschikbaar zijn in Adobe Analytics. [!UICONTROL People] laat rijke gegevens van over oplossingen toe om samen en geassocieerd met één enkele identiteitskaart voor gebruik over de Experience Cloud worden gebonden. <br>In Adobe Target worden klantkenmerken weergegeven als afzonderlijke kenmerken die kunnen worden gecombineerd met andere regels om een publiek te maken. Het publiek dat aan de [!UICONTROL People] dienst wordt gedeeld is volledig publiek dat niet kan worden gewijzigd. |
 | **(Alleen Analytics)** Hoe verschilt deze functionaliteit van wat er in de premie Analytics wordt aangeboden? | In het verleden hebben klanten die in het combineren van klantkenmerkgegevens met Analytische gegevens geïnteresseerd zijn, voor deze functionaliteit zwaar op het hulpmiddel van de gegevenswerkbank vertrouwd. De attributen van de klant stellen deze functionaliteit aan een breder publiek bloot door de Attributen van de Klant als afmetingen en metriek in rapporten &amp; analyses, ad hoc analyse, en rapportaannemer te verstrekken. Klanten met standaardanalysemogelijkheden hebben toegang tot klantkenmerken, maar met beperkte mogelijkheden. De volledige functionaliteit is beschikbaar voor klanten van de Analytics Premium. |
