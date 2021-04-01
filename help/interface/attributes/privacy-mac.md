@@ -9,15 +9,15 @@ topic: Beheer
 role: Beheerder
 level: Ervaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 0%
+source-wordcount: '519'
+ht-degree: 1%
 
 ---
 
 
-# Privacyoverwegingen voor klantkenmerken in Experience Cloud
+# Privacyoverwegingen voor klantkenmerken
 
 Overwegingen en beste praktijken betreffende persoonlijk identificeerbare informatie (PII) die in Adobe Experience Cloud wordt geupload en gebruikt.
 
