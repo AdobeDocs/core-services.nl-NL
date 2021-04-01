@@ -6,10 +6,10 @@ user-guide-description: Leer hoe u gebruikers en producten in Adobe Experience C
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 11%
+source-wordcount: '377'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 11%
    + [Uw implementatie voor services voor meerdere oplossingen inschakelen](core-services/core-services.md)
    + [Kaart rapportsuites aan een organisatie](core-services/report-suite-mapping.md)
    + [Informatie over de nieuwe cloudnamen in Experience Cloud](solutions-core-services.md)
-+ [Experience Cloud-integratie](marketing-cloud-integrations.md)
++ [Experience Cloud-integraties](marketing-cloud-integrations.md)
 + Experience Cloud cookies {#ec-cookies}
    + [Overzicht van Experience Cloud cookies](cookies/cookies-privacy.md)
    + [Eerste cookies in Experience Cloud](cookies/cookies-first-party.md)
@@ -63,8 +63,8 @@ ht-degree: 11%
    + [Een doelgroep maken](audience-library/t-audience-create.md)
    + [Een publiekssegment Analytics publiceren](audience-library/t-publish-audience-segment.md)
 + Experience Cloud Klantkenmerken {#customer-attributes}
-   + [Klantkenmerken in Adobe Experience Cloud](attributes/attributes.md)
-   + [Veelgestelde vragen, beperkingen en aanbevolen procedures](attributes/faq-crs.md)
+   + [Overzicht van klantkenmerken](attributes/attributes.md)
+   + [Veelgestelde vragen over Customer Attributes](attributes/faq-crs.md)
    + [Gegevensbestand en gegevensbronnen voor klantkenmerken](attributes/crs-data-file.md)
    + [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](attributes/t-crs-usecase.md)
    + [Optioneel - Het gegevensbestand uploaden via FTP](attributes/t-upload-attributes-ftp.md)
@@ -73,14 +73,12 @@ ht-degree: 11%
    + [Het schema bijwerken](attributes/t-update-schema.md)
    + [Steun voor algemene gegevensbeschermingsverordening](attributes/gdpr.md)
    + [Ondersteuning voor de California Consumer Privacy Act](attributes/ccpa.md)
-   + [Privacyoverwegingen - Klantkenmerken](attributes/privacy-mac.md)
+   + [Privacyoverwegingen voor klantkenmerken](attributes/privacy-mac.md)
 + Opmerkingen bij de release voor Experience Cloud {#release-notes}
    + [Nieuwe functies in de Experience Cloud](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html)
    + [Opmerkingen bij de cumulatieve release](marketing-cloud-interface/release-notes.md)
-+ [Exchange Marketplace](exchange.md)
-+ [Mobiele services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + Meer bronnen {#more-resources}
    + [Forum](https://forums.adobe.com/community/experience-cloud)
    + [Terminologie](terms.md)
    + [DNS-prefetch gebruiken met verschillende oplossingen en services](dns-prefetch.md)
-   + [Documentatie-updates - Experience Cloud](doc-updates.md)
+   + [Documentatie-updates](doc-updates.md)
