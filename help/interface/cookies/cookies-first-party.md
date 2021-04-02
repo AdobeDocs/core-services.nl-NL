@@ -10,9 +10,9 @@ topic: Beheer
 role: Beheerder
 level: Ervaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f67e207cb130ee057471d3fc13845f1df66376b6
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Er zijn twee opties beschikbaar voor het implementeren van cookies van de eerste
 * De Experience Platform-id-service. De id-service kan het cookie in de context van de eerste partij instellen met JavaScript.
 * DNS ingangen op DNS server van uw bedrijf om een alias CNAME aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van Adobe gebruikend een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als die klant veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar aangezien dit derdekoekjes voor alle domeinen buiten het domein van CNAME vereist, werkt het niet wanneer derdekoekjes worden geblokkeerd en zo niet geadviseerd. Adobe CNAMEs wordt nooit gebruikt om een individu of een apparaat over domeinen te volgen die door verschillende klanten worden bezeten.
 
-Zelfs als de eerste optie wordt gebruikt met de Experience Cloud ID-service, zal de ITP van Apple de cookies van de eerste partij van korte duur maken, zodat deze het beste samen met de tweede optie kunnen worden gebruikt.
+>[!NOTE]
+>
+>Voor beide opties maakt het ITP-programma (Intelligent Tracking Prevention) van Apple de cookies van de eerste partij van korte duur op browsers die onder ITP vallen, waaronder Safari op MacOS en alle browsers op iOS en iPadOS. Vanaf november 2020 hebben beide typen cookies een vervaldatum van zeven dagen. Deze vervaldatum kan worden gewijzigd.
 
 Als uw site beveiligde pagina&#39;s heeft via het HTTPS-protocol, kunt u voor de tweede optie met een CNAME een SSL-certificaat aanvragen om cookies van de eerste partij te implementeren. Adobe raadt sterk aan dat u uitsluitend HTTPS gebruikt voor gegevensverzameling, aangezien de ondersteuning voor HTTP-verzameling in de tweede helft van 2020 afneemt.
 
@@ -94,7 +96,7 @@ Zolang de implementatiecode niet wordt gewijzigd, heeft deze stap geen invloed o
 
 >[!NOTE]
 >
->De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt een alternatief aan het vormen van een NAAM om eerderekookies toe te laten, maar wegens recente veranderingen van Apple ITP, wordt het nog geadviseerd om een NAAM toe te wijzen zelfs wanneer het gebruiken van de Dienst van identiteitskaart van Experience Cloud.
+>De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt een alternatief aan het vormen van een CNAME om eerderangs koekjes toe te laten.
 
 ## Door:sturen van hostnaam valideren {#validate}
 
