@@ -4,15 +4,15 @@ keywords: Adobe Experience Cloud-services, klantkenmerken, publiek, gebruikers- 
 solution: Experience Cloud
 title: 'Experience Cloud en administratie '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"Klantkenmerken, Audience Library, Admin Console"'
+feature: '"Klantkenmerken"'
 topic: Beheer
 role: Beheerder
 level: Ervaren
 translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 19%
+source-wordcount: '434'
+ht-degree: 20%
 
 ---
 
