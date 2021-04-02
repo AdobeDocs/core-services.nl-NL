@@ -9,9 +9,9 @@ topic: Beheer
 role: Beheerder
 level: Ervaren
 translation-type: tm+mt
-source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
+source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '253'
 ht-degree: 2%
 
 ---
@@ -109,7 +109,3 @@ Zie [Soorten publiek](audience-library/audience-library.md#topic_679810123CAA4E0
 **Bijgewerkt: 22-05-2014**
 
 Bijgewerkt [Gebruikers en producten van Experience Cloud beheren](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor informatie over het worden van een beheerder in de Experience Cloud.
-
-**Bijgewerkt: 22-05-2014**
-
-Toegevoegd [Exchange Marketplace](exchange.md#concept_E07F16F070544B82B56527A845C41D59).
