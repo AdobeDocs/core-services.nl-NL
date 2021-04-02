@@ -4,14 +4,14 @@ keywords: Experience Cloud
 solution: Experience Cloud
 title: Documentatie-updates
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: '"Kenmerken van de klant, Audience Library, Admin Console, Assets"'
+feature: '"Kenmerken van de klant, activa"'
 topic: Beheer
 role: Beheerder
 level: Ervaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
