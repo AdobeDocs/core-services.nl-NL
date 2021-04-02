@@ -2,7 +2,7 @@
 title: Experience Cloud UI-componenten en -services
 description: Meer informatie over UI-componenten, gebruikers- en productbeheer in de Adobe Admin Console, Audience Library, Customer Attributes, Experience Cloud Assets en meer.
 cloud: Experience Cloud
-product: core-services
+product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services
 solution-title: Experience Platform
@@ -14,7 +14,7 @@ tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.nl-NL
 translation-type: tm+mt
-source-git-commit: 4a7576d234936ba1dd1a6a1b54a5fd34ddeb24ae
+source-git-commit: 92879002608cc720b69cb323f9d4c12eee2181d5
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 60%
