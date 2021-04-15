@@ -7,16 +7,16 @@ index: y
 snippet: y
 feature: Cookies
 topic: Beheer
-role: Beheerder
-level: Ervaren
+role: Administrator
+level: Experienced
+exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 translation-type: tm+mt
-source-git-commit: 04f23f3b36b246aa1fe6d672aaeef1dc9140ef3a
+source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1499'
 ht-degree: 0%
 
 ---
-
 
 # Cookies van eerste bedrijven
 
@@ -49,23 +49,25 @@ Met het Adobe Managed Certificate-programma kunt u zonder extra kosten een nieuw
 
 Hieronder wordt beschreven hoe u een nieuw SSL-certificaat van de eerste partij voor cookies van de eerste partij implementeert:
 
-1. Vul het [First-party de verzoekformulier van het koekjesverzoek](/help/interface/cookies/assets/FPC_Request_Form.xlsx) in en open een kaartje met de Zorg van de Klant die om opstelling verzoekt eerste-partijkoekjes op het Adobe Beheerde programma. Elk veld wordt in het document met voorbeelden beschreven.
+1. Vul het [First-party de verzoekformulier van het koekjesverzoek](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) in en open een kaartje met de Zorg van de Klant die om opstelling verzoekt eerste-partijkoekjes op het Adobe Beheerde programma. Elk veld wordt in het document met voorbeelden beschreven.
 
-1. CNAME-records maken (zie onderstaande instructies).
+2. CNAME-records maken (zie onderstaande instructies).
 
-   Op het ontvangen van het kaartje, zou een vertegenwoordiger van de klantenzorg u van een paar verslagen van CNAME moeten voorzien. Deze verslagen moeten op DNS server van uw bedrijf worden gevormd alvorens Adobe het certificaat namens u kan kopen. De CNAMES zullen gelijkaardig aan het volgende zijn:
+   Na het ontvangen van het kaartje, zou een vertegenwoordiger van de klantenzorg u van een verslag CNAME moeten voorzien. Deze verslagen moeten op DNS server van uw bedrijf worden gevormd alvorens Adobe het certificaat namens u kan kopen. De CNAME zal aan het volgende gelijkaardig zijn:
 
-   **Beveiligen**  - De hostnaam  `smetrics.example.com` verwijst bijvoorbeeld naar:  `example.com.ssl.d1.omtrdc.net`.
+   **Beveiligen**  - De hostnaam  `smetrics.example.com` verwijst bijvoorbeeld naar:  `example.com.adobedc.net`.
 
-   **Niet-beveiligd**  - De hostnaam  `metrics.example.com` verwijst bijvoorbeeld naar:  `example.com.d1.omtrdc.net`.
+>[!NOTE]
+> In het verleden adviseerden wij klanten opstelling twee CNAME voor HTTPS en één voor HTTP. Aangezien het een beste praktijk is om verkeer te coderen en de meeste browsers sterk ontmoedigend HTTP zijn adviseren wij niet meer vestiging een NAAM voor HTTP. Als u dit nodig hebt, ziet het er als volgt uit:
+>    **Niet-beveiligd** — de hostnaam `metrics.example.com` verwijst naar: `example.com.adobedc.net`.
 
-1. Als deze CNAMES zijn geïnstalleerd, werkt Adobe samen met DigiCert aan de aanschaf en installatie van een certificaat op Adobe productieservers.
+1. Als de CNAME is ingesteld, werkt Adobe samen met DigiCert om een certificaat aan te schaffen en te installeren op Adobe productieservers.
 
    Als u een bestaande implementatie hebt, kunt u bezoekersmigratie overwegen om uw bestaande bezoekers te onderhouden. Nadat het certificaat live naar de productieomgeving van Adobe is geduwd, kunt u de volgende servervariabelen aan nieuwe hostnames bijwerken. Betekenis: als de site niet veilig is (HTTP), werkt u `s.trackingServer` bij. Als de site beveiligd is (HTTPS), werkt u zowel `s.trackingServer` als `s.trackingServerSecure` variabelen bij.
 
-1. [Bevestig hostname door:sturen](#validate)  (zie hieronder).
+2. [Bevestig hostname door:sturen](#validate)  (zie hieronder).
 
-1. [Implementatiecode](#update)  bijwerken (zie hieronder).
+3. [Implementatiecode](#update)  bijwerken (zie hieronder).
 
 ### Onderhoud en verlenging
 
@@ -76,7 +78,7 @@ SSL-certificaten verlopen elk jaar, wat betekent dat Adobe jaarlijks een nieuw c
 | Vraag | Antwoord |
 |---|---|
 | **Is dit proces veilig?** | Ja, het Adobe Managed-programma is veiliger dan onze oudere methode, omdat geen enkel certificaat of een persoonlijke sleutel buiten de Adobe en de uitgevende certificeringsinstantie in handen verandert. |
-| **Hoe kan Adobe een certificaat voor ons domein aanschaffen?** | Het certificaat kan alleen worden aangeschaft als u de opgegeven hostnaam (bijvoorbeeld `smetrics.example.com`) hebt toegewezen aan een hostnaam in eigendom van Adobe. Dit is hoofdzakelijk het delegeren van deze hostname aan Adobe en staat Adobe toe om het certificaat namens uw naam te kopen. |
+| **Hoe kan Adobe een certificaat voor ons domein aanschaffen?** | Het certificaat kan alleen worden aangeschaft als u de opgegeven hostnaam (bijvoorbeeld `telemetry.example.com`) hebt toegewezen aan een hostnaam in eigendom van Adobe. Dit is hoofdzakelijk het delegeren van deze hostname aan Adobe en staat Adobe toe om het certificaat namens uw naam te kopen. |
 | **Mag ik vragen dat het certificaat wordt ingetrokken?** | Ja, als eigenaar van het domein hebt u het recht om te vragen dat het certificaat is ingetrokken. U hoeft alleen een ticket te openen met de klantenservice om dit te laten voltooien. |
 | **Gebruikt dit certificaat SHA-2-versleuteling?** | Ja, Adobe werkt met DigiCert voor het uitgeven van een SHA-2-certificaat. |
 | **Betekent dit extra kosten?** | Nee, Adobe biedt deze service zonder extra kosten aan alle huidige Adobe Digital Experience-klanten. |
@@ -85,12 +87,16 @@ SSL-certificaten verlopen elk jaar, wat betekent dat Adobe jaarlijks een nieuw c
 
 Het team van netwerkbewerkingen van uw organisatie moet uw DNS-servers configureren door nieuwe CNAME-records te maken. Elke hostname door:sturen gegevens aan de servers van de Adobe gegevensinzameling.
 
-De specialist FPC voorziet u van gevormde hostnames en welke CNAMEs zij moeten worden gericht aan. Bijvoorbeeld:
+De specialist FPC voorziet u van gevormde hostname en welke CNAME zij moeten worden gericht aan. Bijvoorbeeld:
 
 * **SSL-hostnaam**:`smetrics.mysite.com`
-* **SSL-CNAME**:`mysite.com.ssl.sc.omtrdc.net`
-* **Hostnaam** niet-SSL:`metrics.mysite.com`
-* **Niet-SSL CNAME**:`mysite.com.sc.omtrdc.net`
+* **SSL-CNAME**:`mysite.com.adobedc.net`
+
+>[!NOTE]
+> Als u nog steeds onveilig gebruikt, ziet het er zo uit.
+> * **Hostnaam** niet-SSL:`metrics.mysite.com`
+> * **Niet-SSL CNAME**:`mysite.com.adobedc.net`
+
 
 Zolang de implementatiecode niet wordt gewijzigd, heeft deze stap geen invloed op de gegevensverzameling en kan deze op elk moment na het bijwerken van de implementatiecode worden uitgevoerd.
 
@@ -106,7 +112,7 @@ De volgende methoden zijn beschikbaar voor validatie:
 
 Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, kunt u de browser gebruiken voor validatie:
 
-`https://sstats.adobe.com/_check`
+`https://smetrics.adobe.com/_check`
 
 >[!NOTE]
 >
@@ -117,27 +123,27 @@ Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, kunt u de 
 Adobe raadt u aan [[!DNL curl]](https://curl.haxx.se/) vanaf de opdrachtregel te gebruiken. ([!DNL Windows] gebruikers kunnen [!DNL curl] installeren van: <https://curl.haxx.se/windows/>)
 
 Als u een CNAME hebt maar geen certificaat is geïnstalleerd, voert u het volgende uit:
-`curl -k https://sstats.adobe.com/_check`
+`curl -k https://smetrics.adobe.com/_check`
 Reactie: `SUCCESS`
 
 (De waarde `-k` schakelt de beveiligingswaarschuwing uit.)
 
 Als u een CNAME-instelling hebt en het certificaat is geïnstalleerd, voert u het volgende uit:
-`curl https://sstats.adobe.com/_check`
+`curl https://smetrics.adobe.com/_check`
 Reactie: `SUCCESS`
 
 ### Valideren met [!DNL nslookup]
 
-U kunt `nslookup` voor bevestiging gebruiken. Als voorbeeld gebruikt `sstats.adobe.com`open een bevelherinnering en type `nslookup sstats.adobe.com`
+U kunt `nslookup` voor bevestiging gebruiken. Als voorbeeld gebruikt `smetrics.adobe.com`open een bevelherinnering en type `nslookup smetrics.adobe.com`
 
 Als alles goed is ingesteld, ziet u een resultaat dat vergelijkbaar is met:
 
 ```
-nslookup sstats.adobe.com
+nslookup smetrics.adobe.com
 Server:             10.30.7.247
 Address:     10.30.7.247#53
 
-sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+smetrics.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
 Address: 54.218.180.161
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
