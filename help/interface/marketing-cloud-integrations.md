@@ -6,16 +6,16 @@ title: 'Experience Cloud-integratie '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: Beheer
-role: Beheerder
-level: Ervaren
+role: Administrator
+level: Experienced
+exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f081265eaa759756712c12254b9048c1fddf8e40
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 9%
+source-wordcount: '1531'
+ht-degree: 8%
 
 ---
-
 
 # Experience Cloud-integraties
 
@@ -72,6 +72,10 @@ Maak en beheer soorten publiek in de Experience Cloud Audience Library. De soort
 
 Help: [Klantkenmerken](attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
+>[!NOTE]
+>
+>Kenmerken van klanten zijn een oudere kernservice, die nu in gebruik is.
+
 Als u de gegevens van de ondernemingsklant in een gegevensbestand van het klantenrelatiebeheer (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Experience Cloud uploaden. Na uploaden kunt u de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target] gebruiken.
 
 **Toepasselijke oplossingen of services**
@@ -82,6 +86,10 @@ Als u de gegevens van de ondernemingsklant in een gegevensbestand van het klante
 ## Experience Cloud-elementen {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 Help: [Experience Cloud-mappen delen met Creative Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
+
+>[!NOTE]
+>
+>Activa zijn een oude kerndienst, die nu in gebruik is.
 
 Deel mappen en elementen tussen de Experience Cloud en de Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals [!DNL Social] en [!DNL Target].
 
