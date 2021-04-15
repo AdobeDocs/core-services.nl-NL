@@ -5,18 +5,22 @@ title: Overzicht van activa
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Beheer
-role: Beheerder
-level: Ervaren
+role: Administrator
+level: Experienced
+exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
-
 # Overzicht van Experience Cloud-middelen
+
+>[!NOTE]
+>
+>Activa zijn een oude kerndienst, die nu in gebruik is.
 
 Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop]-bestand, dia&#39;s in een [!DNL PowerPoint]-bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
 
