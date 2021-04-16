@@ -6,84 +6,46 @@ title: 'Adobe Target Cookies '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
 topic: Beheer
-role: Beheerder
-level: Ervaren
+role: Administrator
+level: Experienced
+exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: dcb6fa5d8458995cba66bc2f89c954aa6bcd5923
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 2%
+source-wordcount: '410'
+ht-degree: 1%
 
 ---
-
 
 # Adobe Target Cookies{#target-cookies}
 
 Adobe Target gebruikt cookies om websitebeheerders de mogelijkheid te bieden te testen welke online-inhoud en aanbiedingen voor bezoekers relevanter zijn.
 
-U kunt deze instellingen desgewenst wijzigen, met uitzondering van de duur van het cookie. Vraag uw accountvertegenwoordiger wanneer u de cookie-instellingen wijzigt.
+U kunt deze instellingen desgewenst wijzigen, behalve voor de duur van het cookie. Vraag uw accountvertegenwoordiger wanneer u de cookie-instellingen wijzigt.
 
 >[!NOTE]
 >
 >Adobe Target-gebruikers kunnen ook aangepaste cookies van derden maken.
 
-<table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Instelling </th> 
-   <th colname="col2" class="entry"> Informatie </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Naam cookie </p> </td> 
-   <td colname="col2"> <p>mbox. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Cookie-domein </p> </td> 
-   <td colname="col2"> <p>De tweede en hoogste niveaus van de domeinen waarvan u de mbox dienen. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: <span class="filepath"> mijnbedrijf.com</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Serverdomein </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, de clientcode voor uw Adobe Target-account gebruiken. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Duur van cookie </p> </td> 
-   <td colname="col2"> <p>Het cookie blijft twee jaar na de laatste aanmelding in de browser van de bezoeker staan. U kunt de duur van het cookie niet wijzigen. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Instelling | Informatie |
+| --- | --- |
+| Naam cookie | mbox. |
+| Cookie-domein | De tweede en hoogste niveaus van de domeinen waarvan u de mbox dienen. Omdat het van het domein van uw bedrijf wordt gediend, is het koekje een eerste partijkoekje. Voorbeeld: `mycompany.com`. |
+| Serverdomein | `clientcode.tt.omtrdc.net`, met de clientcode voor uw  [!DNL Adobe Target] account. |
+| Duur van cookie | Het cookie blijft twee jaar na de laatste aanmelding in de browser van de bezoeker staan. U kunt de duur van het cookie niet wijzigen. |
+
+
 
 >[!NOTE]
 >
->Als om het even welk van uw domeinnamen een landcode, zoals [!DNL mycompany.co.uk] omvatten, werk met uw Diensten van de Cliënt om uw [!DNL mbox.js] te vormen om dit te steunen.
+>Als om het even welk van uw domeinnamen een landcode, zoals `mycompany.co.uk` omvatten, werk met uw Diensten van de Cliënt om uw [!DNL at.js] te vormen om dit te steunen.
 
 Het cookie houdt een aantal waarden bij voor het beheren van de manier waarop bezoekers de campagnes van Adobe Target ervaren:
 
-<table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Value </th> 
-   <th colname="col2" class="entry"> Definitie </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sessie-id</span> </p> </td> 
-   <td colname="col2"> <p>Een unieke id voor een gebruikerssessie. Standaard duurt dit 30 minuten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> pc-id</span> </p> </td> 
-   <td colname="col2"> <p>Een halfpermanente id voor de browser van een bezoeker. Hiermee wordt de duur van de cookies gewijzigd totdat de cookies handmatig worden verwijderd. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> controleren</span> </p> </td> 
-   <td colname="col2"> <p>Een eenvoudige testwaarde die wordt gebruikt om te bepalen of een bezoeker cookies ondersteunt. Stel de instellingen in wanneer een bezoeker een pagina aanvraagt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> disable</span> </p> </td> 
-   <td colname="col2"> <p>Stel in of de laadtijd van de bezoeker langer is dan de time-out die is geconfigureerd in het bestand <span class="filepath"> mbox.js</span>. Standaard duurt dit 1 uur. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Value | Definitie |
+| --- | --- |
+| sessie-id | Een unieke id voor een bepaalde gebruikerssessie. Standaard verloopt de sessie na 30 minuten inactiviteit. Als u sessionId zelf (bijvoorbeeld, voor server-zijimplementaties) produceert, zorg het volgende ervoor:<ul><li>De sessie-id kan elke afdrukbare tekenreeks zijn, behalve een spatie, vraagteken ( ? ) of een schuine streep ( / ).</li><li>* De sessie-id moet minimaal 1 en maximaal 128 tekens lang zijn.</li><li>Voor een bepaalde zitting moet zijn waarde het zelfde over veelvoudige verzoeken blijven</li><li>U zou nooit parallelle zittingen (verschillende sessionIds) voor een bepaalde bezoeker op om het even welk ogenblik moeten hebben.</li></ul>Het verpletteren aan een bepaalde knoop in de randcluster wordt gedaan gebruikend identiteitskaart van de Zitting.<ul><li>De sessie is 30 minuten actief aan de serverzijde. Daarom moet u geen verschillende Zitting ID voor een bepaalde `tntId/thirdPartyId` binnen 30 minuten van het laatste verzoek gebruiken die met `tntId/thirdPartyId` wordt gemaakt. Anders kunnen wijzigingen in het profiel inconsistent en onvoorspelbaar zijn.</li><li>Als u dezelfde sessie-id gebruikt met meerdere `tntIds/thirdPartyIds`, kunnen er onvoorspelbare wijzigingen optreden in de profielen die worden aangeduid door `tntId/thirdPartyIDs`.</li></ul> |
+| pc-id | Een halfpermanente id voor de browser van een bezoeker. Hiermee wordt de duur van de cookies gewijzigd totdat de cookies handmatig worden verwijderd. |
+| controleren | Een eenvoudige testwaarde die wordt gebruikt om te bepalen of een bezoeker cookies ondersteunt. Stel de instellingen in wanneer een bezoeker een pagina aanvraagt. |
+| disable | Stel in of de laadtijd van de bezoeker langer is dan de time-out die is geconfigureerd in het bestand at.js. Standaard duurt dit 1 uur. |
 
