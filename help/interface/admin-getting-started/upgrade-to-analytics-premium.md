@@ -3,11 +3,11 @@ description: Leer meer over de vereisten en wat u kunt verwachten als u een upgr
 keywords: Adobe Analytics Premium-upgrade
 solution: Experience Cloud
 title: 'Upgrade naar Analytics Premium en de Experience Cloud '
-topic: Beheer
+topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
-role: Beheerder
-level: Ervaren
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

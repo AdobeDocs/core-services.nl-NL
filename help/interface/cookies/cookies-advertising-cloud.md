@@ -3,9 +3,9 @@ description: Leer hoe u Adobe Ad Cloud-cookies kunt gebruiken om gebeurtenissen 
 title: 'Advertising Cloud Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
-topic: Beheer
-role: Beheerder
-level: Ervaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
 workflow-type: tm+mt

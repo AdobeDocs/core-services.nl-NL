@@ -4,10 +4,10 @@ keywords: Klantkenmerken;kernservices
 solution: Experience Cloud
 title: 'Upload het bestand met klantkenmerkgegevens via FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: Klantkenmerken
-topic: Beheer
-role: Beheerder
-level: Ervaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

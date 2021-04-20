@@ -4,10 +4,10 @@ keywords: kerndiensten
 solution: Experience Cloud
 title: 'Opmerkingen bij de cumulatieve release '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '"Klantkenmerken"'
-topic: Beheer
-role: Beheerder
-level: Ervaren
+feature: "Customer Attributes"
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt

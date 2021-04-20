@@ -1,10 +1,10 @@
 ---
 title: 'Customer Attributes Support for California Consumer Privacy Act '
 description: Meer informatie over Customer Attributes-ondersteuning voor California Consumer Privacy Act
-feature: Klantkenmerken
-topic: Beheer
-role: Beheerder
-level: Ervaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

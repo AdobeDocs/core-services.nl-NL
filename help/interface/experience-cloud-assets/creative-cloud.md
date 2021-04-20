@@ -4,9 +4,9 @@ keywords: delen van elementen;Creative Cloud;kernservices
 solution: Experience Cloud
 title: 'Experience Cloud-mappen en -elementen delen met Creative Cloud '
 feature: Assets
-topic: Beheer
-role: Beheerder
-level: Ervaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

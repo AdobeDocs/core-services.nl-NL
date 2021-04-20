@@ -6,9 +6,9 @@ solution: Experience Cloud
 title: 'Informatie over de namen van wolken in Experience Cloud '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
-topic: Beheer
-role: Beheerder
-level: Ervaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

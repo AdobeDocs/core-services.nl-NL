@@ -2,10 +2,10 @@
 description: Meer informatie over gebruikers- en productbeheer in Adobe Experience Cloud, Personen (soorten publiek en klantkenmerken), Journey Orchestration, Aanbiedingen, Plaatsen, Experience Platform Launch en Mobiele services.
 solution: Experience Cloud
 title: 'Overzicht van Experience Cloud-services '
-feature: Klantkenmerken
-topic: Beheer
-role: Beheerder
-level: Ervaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt

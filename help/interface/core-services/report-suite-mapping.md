@@ -3,9 +3,9 @@ description: Leer hoe u een of meerdere rapportsuites toewijst aan een organisat
 title: 'Kaart rapportsuites aan een organisatie '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: Beheer
-role: Beheerder
-level: Ervaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

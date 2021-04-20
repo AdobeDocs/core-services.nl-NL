@@ -3,10 +3,10 @@ description: Leer hoe te om DNS prefetch uit te voeren helpen de tijden van de p
 solution: Experience Cloud
 title: 'DNS-prefetch gebruiken met verschillende oplossingen en services '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Klantkenmerken
-topic: Beheer
-role: Beheerder
-level: Ervaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt

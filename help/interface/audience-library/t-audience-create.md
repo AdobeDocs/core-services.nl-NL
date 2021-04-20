@@ -4,10 +4,10 @@ keywords: kerndiensten
 solution: Experience Cloud
 title: 'Een doelgroep maken '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: Auditiebibliotheek
-topic: Beheer
-role: Beheerder
-level: Ervaren
+feature: Audience Library
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

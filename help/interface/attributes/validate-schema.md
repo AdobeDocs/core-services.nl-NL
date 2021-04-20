@@ -4,10 +4,10 @@ keywords: Klantkenmerken;Experience Cloud services
 solution: Experience Cloud
 title: 'Hoe te om het schema van de klantenattributen te bevestigen '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Klantkenmerken
-topic: Beheer
-role: Beheerder
-level: Ervaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
