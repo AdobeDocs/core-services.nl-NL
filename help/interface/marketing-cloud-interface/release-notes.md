@@ -4,18 +4,17 @@ keywords: kerndiensten
 solution: Experience Cloud
 title: 'Opmerkingen bij de cumulatieve release '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: "Customer Attributes"
-topic: Administration
+feature: '"Klantkenmerken"'
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
+exl-id: b71d144c-a097-4cdb-9721-671519d38aff
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '4056'
 ht-degree: 3%
 
 ---
-
 
 # Opmerkingen bij de cumulatieve release
 
@@ -24,6 +23,16 @@ Functies, releaseopmerkingen en bekende problemen voor de interface Experience C
 Zie [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) voor een lijst met documentatie-updates.
 
 Zie [Opmerkingen bij de release Experience Cloud](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html) voor opmerkingen bij de release over alle oplossingen.
+
+## Mei - 2021
+
+| Functie | Datum | Beschrijving |
+| ------- | ------- | ------- |
+| Experience Cloud-koptekst en -navigatie | 20 mei 2021 | Adobe Experience Cloud-updates bevatten een wijziging in het lichte thema voor de koptekst. U kunt gemakkelijk terugschakelen naar een donker thema en een koppeling maken om extra voorkeuren te bepalen vanuit de gebruikersavatar in de koptekst van de Experience Cloud. Hoewel niet alle toepassingen in Experience Cloud thema&#39;s ondersteunen, opent deze functie toekomstige themaondersteuning. |
+| Experience Cloud Global Search | 20 mei 2021 | Met deze release kunt u met algemene zoekfunctie Experience Cloud zoeken in de documentatie, cursussen en zelfstudies van [Experience League](https://experienceleague.adobe.com/#home). (Momenteel is de algemene zoekopdracht alleen beschikbaar voor gebruikers in de Experience Platform. Met algemene zoekopdrachten naar [!UICONTROL Platform] kunt u zoeken naar elk bedrijfsobject in Experience Cloud, zoals segmenten, gegevenssets, schema&#39;s en meer.) |
+| Voorkeuren voor Experience Cloud-taal | 20 mei 2021 | Deze update biedt de mogelijkheid om uw voorkeurstalen in te stellen in Experience Cloud [Voorkeuren](https://experience.adobe.com/preferences). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## augustus - 2020
 
@@ -60,7 +69,7 @@ Zie [Opmerkingen bij de release Experience Cloud](https://docs.adobe.com/content
 
 ## April - 2019
 
-* De app-switch is bijgewerkt en Marketo wordt opgenomen in de Experience Cloud-oplossingssuite en updates van branding naar het Experience Platform. (MCUI-6529)
+* De app-schakeloptie is bijgewerkt zodat Marketo wordt opgenomen in de Experience Cloud-oplossingssuite en updates van de branding naar het Experience Platform. (MCUI-6529)
 * Bijgewerkt startpunt Experience Cloud om navigatiekoppelingen naar de pagina&#39;s feed en beheer op te nemen. (MCUI-6682)
 * Probleem opgelost in de [!UICONTROL Trigger]-definitie voor correct gebruik van de ‘like’-component. (MCUI-6611)
 * Verbeteringen aan de Attributen van de Klant voor beter het registreren in de dienst van het Abonnement. (MCUI-6519)
@@ -99,7 +108,7 @@ Zie [Opmerkingen bij de release Experience Cloud](https://docs.adobe.com/content
 
 * Probleem verholpen waarbij miniaturen niet konden zien voor elementen die werden gedeeld van Assets op aanvraag naar de Experience Cloud-feed. (MAC-29955)
 
-## Release 16.2 februari 18 2016 {#section_D9610373116C4D77A38F67815C725EA3}
+## Release 16.2 februari 2016 {#section_D9610373116C4D77A38F67815C725EA3}
 
 <table id="table_C9B288CF42034F329C3C72D95D22E515"> 
  <thead> 
@@ -128,7 +137,7 @@ Zie [Opmerkingen bij de release Experience Cloud](https://docs.adobe.com/content
 
 Als u via de interface **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** toegang krijgt tot Dynamic Tag Management, maar uw Dynamic Tag Management-account is niet gekoppeld aan de Experience Cloud (Adobe ID), kunt u zich niet aanmelden bij Dynamic Tag Management. Navigeer rechtstreeks naar [!DNL dtm.adobe.com] in een nieuw browsertabblad om dit probleem te voorkomen.
 
-## Release 16.1 - 21 januari 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
+## Release 16.1 - januari 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
 <table id="table_4223658257DA41C999AC710A10D26771"> 
  <thead> 
@@ -163,7 +172,7 @@ Als u via de interface **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activat
 * Probleem verholpen met Audience Library die ervoor zorgde dat het delen van het publiek niet werd beïnvloed door segmentering van Analytics. Dit probleem heeft ertoe geleid dat &quot;Gegevens verzamelen&quot; (0 soorten publiek) werd weergegeven. Om dit probleem te voorkomen, raadt Adobe aan de segmentgrootte onder de 50k van het publiek per segment te houden. (MAC-25788)
 * Oplossing voor een eerder bekend probleem met de kenmerken van de klant - Bewerk de pagina Schema die een fout met behoud van inhoud veroorzaakte die werd gegenereerd bij het wijzigen van een weergavenaam. (MAC-25589, AN-103834)
 
-## Release 15.7 - 22 juli 2015 {#section_2683A152176944E48EF6C943892975B7}
+## Release 15.7 - juli 2015 {#section_2683A152176944E48EF6C943892975B7}
 
 * Probleem verholpen waardoor kenmerkbeschrijvingen die zijn opgegeven op de pagina Weergeven/Bewerken van schema (in Klantkenmerken) niet konden worden bijgewerkt in analyserapporten. (MAC-25985)
 * Probleem verholpen waarbij de miniaturen niet konden worden gerenderd voor geüploade elementen. (MAC-25863)
@@ -401,7 +410,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 * De koppeling [!DNL Search&Promote] is niet beschikbaar op de pagina [!UICONTROL Organizations & Product Access].
 * Sommige gebruikers kunnen ervaren dat hun [!DNL Creative Cloud]-inhoud uit hun map wordt verwijderd als de inhoud niet wordt gedeeld in [!DNL Experience Cloud].
 
-## Release 14.8.1 - 21 augustus 2014 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
+## Release 14.8.1 - augustus 2014 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
 
 Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
 
@@ -435,7 +444,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 * De koppeling [!DNL Search&Promote] is niet beschikbaar op de pagina [!UICONTROL Organizations & Product Access].
 * Sommige gebruikers kunnen ervaren dat hun [!DNL Creative Cloud]-inhoud uit hun map wordt verwijderd als de inhoud niet wordt gedeeld in [!DNL Experience Cloud].
 
-## Release 14.7.1 - 24 juli 2014 {#section_B22D4F830756463DB27BB4D508D9ADD5}
+## Release 14.7.1 - juli 2014 {#section_B22D4F830756463DB27BB4D508D9ADD5}
 
 Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
 
@@ -493,7 +502,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 
 * Probleem verholpen waarbij het uploaden van video&#39;s naar apps werd voorkomen.
 
-## Release 14.5.1 - 22 mei 2014 {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
+## Release 14.5.1 - mei 2014 {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
 
 <table id="table_4E4B34EEE3D94D78BA1A1FBC62950559"> 
  <thead> 
