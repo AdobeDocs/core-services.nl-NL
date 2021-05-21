@@ -10,24 +10,25 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-translation-type: tm+mt
-source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
+source-git-commit: 05548387f82e58a87d5133254da30215fbd6c827
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
 
 # Cookies van eerste bedrijven
 
-Analytics gebruikt cookies om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies. Deze onschadelijke cookies, die afkomstig zijn uit een domein dat wordt gehost door Adobe, worden cookies van derden genoemd.
+Analytics gebruikt cookies om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies. Waar mogelijk gebruikt Adobe cookies van de eerste partij om activiteiten op uw site op te nemen. Als u activiteit wilt opnemen op verschillende sites, zoals andere domeinen die u hebt, zijn cookies van andere bedrijven vereist.
 
-Veel browsers en anti-spywaretoepassingen zijn ontworpen om cookies van derden af te wijzen en te verwijderen, inclusief de cookies die worden gebruikt in de gegevensverzameling Analytics. Ter ondersteuning van het bijhouden van de interactie tussen uw bezoekers en uw website, kunt u cookies van de eerste fabrikant implementeren.
+Veel browsers en anti-spywaretoepassingen zijn ontworpen om cookies van derden af te wijzen en te verwijderen, inclusief de cookies die worden gebruikt in de gegevensverzameling Analytics. Voor ondersteuning van het bijhouden van de interactie tussen uw bezoekers en uw website moet u ervoor zorgen dat u de gegevensverzameling hebt geconfigureerd voor het gebruik van cookies van de eerste partij:
 
 Er zijn twee opties beschikbaar voor het implementeren van cookies van de eerste fabrikant:
 
-* De Experience Platform-id-service. De id-service kan het cookie in de context van de eerste partij instellen met JavaScript.
-* DNS ingangen op DNS server van uw bedrijf om een alias CNAME aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van Adobe gebruikend een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als die klant veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar aangezien dit derdekoekjes voor alle domeinen buiten het domein van CNAME vereist, werkt het niet wanneer derdekoekjes worden geblokkeerd en zo niet geadviseerd. Adobe CNAMEs wordt nooit gebruikt om een individu of een apparaat over domeinen te volgen die door verschillende klanten worden bezeten.
+* Als u de dienst van de Identiteit van het Experience Platform gebruikt (ook bekend als de Dienst ECID) dan zal het automatisch koekjes in de eerste partijcontext plaatsen gebruikend JavaScript.
+* Als u oude id&#39;s voor Analytics gebruikt (ook wel &#39;s_vi&#39;-cookie genoemd), is dit afhankelijk van de configuratie van uw gegevensverzamelingsserver. Als de server van de gegevensinzameling het domein van uw plaats aanpast dan zal het cokeis als eerste partij worden geplaatst. Als de verzamelingsserver niet overeenkomt met uw huidige domein, worden cookies ingesteld als derde. Als cookies van derden worden geblokkeerd, stelt Analytics een eerste partij [fallback-id (&quot;s_fid&quot;)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=en#section-65e33f9bfc264959ac1513e2f4b10ac7) in plaats van de standaardcookie &quot;s_vi&quot;.
+
+Om ervoor te zorgen dat uw verzamelingsserver overeenkomt met het domein van uw site, kunt u een CNAME-implementatie gebruiken waarmee cookies kunnen worden ingesteld in een context van de eerste partij. Dit impliceert veranderingen in DNS van uw bedrijf montages om een alias van CNAME aan het richten aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van Adobe gebruikend een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als u veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar waar het plaatsdomein niet de het domeinkoekjes van CNAME aanpast zal als derde partij worden geplaatst.
 
 >[!NOTE]
 >
@@ -104,7 +105,7 @@ Zolang de implementatiecode niet wordt gewijzigd, heeft deze stap geen invloed o
 >
 >De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt een alternatief aan het vormen van een CNAME om eerderangs koekjes toe te laten.
 
-## Door:sturen van hostnaam valideren {#validate}
+## Hostnaam doorsturen valideren {#validate}
 
 De volgende methoden zijn beschikbaar voor validatie:
 
@@ -152,7 +153,7 @@ Name:  adobe.com.ssl.d1.sc.omtrdc.net
 Address: 54.187.216.46
 ```
 
-## Implementatiecode {#update} bijwerken
+## Implementatiecode bijwerken {#update}
 
 Voordat u code op uw site bewerkt om cookies van andere bedrijven te gebruiken, moet u aan de volgende voorwaarden voldoen:
 
