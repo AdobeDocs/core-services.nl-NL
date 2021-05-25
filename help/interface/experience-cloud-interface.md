@@ -6,9 +6,9 @@ feature: '"Central Interface Components"'
 topic: Beheer
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Met het menu [!UICONTROL Help] hebt u ook toegang tot:
 * **[!UICONTROL Support]:** Maak een ondersteuningsticket of neem contact  [!UICONTROL Support] op met Twitter.
 * **[!UICONTROL Feedback]:** Neem contact op met Adobe door feedback te gebruiken en laat ons weten wat je denkt.
 * **[!UICONTROL Status]:** Navigeer aan  `https://status.adobe.com/experience_cloud` en controleer productoperationele status en  [!UICONTROL Manage Subscriptions].
-* **[!UICONTROL Developer Connection]:** Navigatie aan  [Adobe I/](adobe.io) Oand vindt ontwikkelaarsdocumentatie.
+* **[!UICONTROL Developer Connection]:** Navigatie naar de documentatie van de ontwikkelaar  `adobe.io` en zoek deze.
 
 ## ![](assets/preferences-icon.png) Accountvoorkeuren  {#account-menu}
 
