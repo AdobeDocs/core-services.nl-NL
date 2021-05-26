@@ -4,22 +4,25 @@ keywords: Experience Cloud
 solution: Experience Cloud
 title: Documentatie-updates
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Customer Attributes
-topic: Administration
+feature: Klantkenmerken
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
+exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '240'
 ht-degree: 2%
 
 ---
 
-
 # Documentatie-updates - Experience Cloud
 
 Informatie over updates van de productdocumentatie van Experience Cloud.
+
+**Bijgewerkt: 26-05-2021**
+
+[Experience Cloud interface](experience-cloud-interface.md) toegevoegd voor hulp bij de toegang tot Experience Cloud, globaal onderzoek, voorkeur, en berichten.
 
 **Bijgewerkt: 19-08-2020**
 
@@ -55,10 +58,6 @@ Bijgewerkt [Gegevensbestand en gegevensbronnen voor Klantkenmerken](attributes/c
 **Bijgewerkt: 06-06-2018**
 
 Algemene updates van inhoud en schermen.
-
-**Bijgewerkt: 06-02-2018**
-
-Updates voor [Gebruikers en producten van Experience Cloud beheren](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 **Bijgewerkt: 17-01-2018**
 
@@ -105,7 +104,3 @@ Gebruikers met toegevoegde Experience Cloud kunnen nu mappen delen naar de Creat
 Toegevoegde documentatie voor publiek
 
 Zie [Soorten publiek](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
-
-**Bijgewerkt: 22-05-2014**
-
-Bijgewerkt [Gebruikers en producten van Experience Cloud beheren](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor informatie over het worden van een beheerder in de Experience Cloud.
