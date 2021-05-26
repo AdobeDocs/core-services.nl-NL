@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud Services en beheer
 user-guide-description: Leer hoe u gebruikers en producten in Adobe Experience Cloud kunt beheren en hoe u de Customer Attributes en Audience Library-services kunt gebruiken. Meer informatie over cookies en Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
+source-git-commit: 35072268615b7a657cdabacfe7dbcd5fd3ffc81f
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 10%
+source-wordcount: '373'
+ht-degree: 11%
 
 ---
 
@@ -16,8 +16,7 @@ ht-degree: 10%
 # Experience Cloud Services en beheer {#interface}
 
 + [Experience Cloud Services en beheer](experience-cloud.md)
-+ [Experience Cloud centrale interfacecomponenten](experience-cloud-interface.md)
-   + [Aanmelden en uw profielinstellingen beheren](admin-getting-started/getting-started-experience-cloud.md)
++ [Experience Cloud-interface](experience-cloud-interface.md)
 + Experience Cloud-services {#about-core-services}
    + [Overzicht van Experience Cloud-services](core-services-landing.md)
    + [Uw implementatie voor services voor meerdere oplossingen inschakelen](core-services/core-services.md)
