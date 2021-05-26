@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud Services en beheer
 user-guide-description: Leer hoe u gebruikers en producten in Adobe Experience Cloud kunt beheren en hoe u de Customer Attributes en Audience Library-services kunt gebruiken. Meer informatie over cookies en Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 10%
@@ -17,6 +17,7 @@ ht-degree: 10%
 
 + [Experience Cloud Services en beheer](experience-cloud.md)
 + [Experience Cloud centrale interfacecomponenten](experience-cloud-interface.md)
+   + [Aanmelden en uw profielinstellingen beheren](admin-getting-started/getting-started-experience-cloud.md)
 + Experience Cloud-services {#about-core-services}
    + [Overzicht van Experience Cloud-services](core-services-landing.md)
    + [Uw implementatie voor services voor meerdere oplossingen inschakelen](core-services/core-services.md)
@@ -41,7 +42,7 @@ ht-degree: 10%
    + [Gebruikers-id en -producten van Experience Cloud beheren (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud-gebruikersgegevens weergeven (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Veelgestelde vragen](admin-getting-started/faq.md)
-   + [Aanmelden en uw profielinstellingen beheren](admin-getting-started/getting-started-experience-cloud.md)
+
    + [Organisaties en accountkoppelingen](admin-getting-started/organizations.md)
    + [Upgrade uitvoeren naar Analytics Premium en de Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud-activering {#activation}
