@@ -6,14 +6,14 @@ feature: '"Central Interface Components"'
 topic: Beheer
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
+source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 2%
+source-wordcount: '411'
+ht-degree: 1%
 
 ---
 
-# Experience Cloud-interface
+# Help bij Experience Cloud-interface
 
 Functies voor centrale Experience Cloud
 
@@ -43,11 +43,7 @@ Klik op de toepassingskiezer ![](assets/menu-icon.png) om toegang te krijgen tot
 
 ## Zoeken en ondersteunen in Experience Cloud {#search}
 
-Met een Experience Cloud-zoekopdracht kunt u zoeken naar Help (documentatie, zelfstudies en cursussen) op [Experience League](https://experienceleague.adobe.com/#home). U kunt ook zoeken naar zakelijke objecten, zoals segmenten, gegevenssets, schema&#39;s en meer.
-
->[!NOTE]
->
->Het zoeken naar zakelijke objecten is alleen beschikbaar voor gebruikers in de Experience Platform.
+Met een Experience Cloud-zoekopdracht kunt u zoeken naar Help (documentatie, zelfstudies en cursussen) op [Experience League](https://experienceleague.adobe.com/#home).
 
 ![](assets/search-menu.png)
 
@@ -69,7 +65,7 @@ In het menu met accountvoorkeuren kunt u het volgende doen:
 
 ### Experience Cloud beheren [!UICONTROL Preferences] {#preferences}
 
-Voorkeuren voor Experience Cloud zijn onder andere meldingen, abonnementen en waarschuwingen. U kunt configureren hoe
+Voorkeuren voor Experience Cloud zijn onder andere meldingen, abonnementen en waarschuwingen.
 
 Klik **[!UICONTROL Preferences]** van uw rekeningsmenu ![](assets/preferences-icon-sm.png) om voorkeur te beheren.
 
