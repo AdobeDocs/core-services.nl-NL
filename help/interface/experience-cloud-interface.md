@@ -6,22 +6,34 @@ feature: '"Central Interface Components"'
 topic: Beheer
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 1%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
-# Experience Cloud centrale interfacecomponenten
+# Experience Cloud-interface
 
-De centrale interfacecomponenten in Experience Cloud omvatten eigenschappen die u toelaten:
+Functies voor centrale Experience Cloud
 
-* Toegang tot uw toepassingen en services
+* Aanmelden en toegang krijgen tot uw toepassingen en services
 * Hulp en zakelijke objecten zoeken met een algemene zoekopdracht
 * Uw accountvoorkeuren beheren (waarschuwingen, meldingen en abonnementen)
 
-## ![](assets/menu-icon.png) Toegang tot Experience Cloud-toepassingen {#navigation}
+## Aanmelden bij Experience Cloud
+
+Meld u aan en controleer of u zich in de juiste [organisatie](admin-getting-started/organizations.md) bevindt.
+
+1. Navigeer naar [Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html).
+1. Klik op **[!UICONTROL Sign in with an Adobe ID]**.
+1. Klik in Adobe Experience Cloud op uw organisatie.
+
+   ![](assets/organizations-menu.png)
+
+   Uw beheerder kan u helpen verifiëren dat u in de juiste [organisatie](admin-getting-started/organizations.md) bent.
+
+## Toegang tot Experience Cloud-toepassingen {#navigation}
 
 Nadat u zich hebt aangemeld bij Experience Cloud, hebt u vanuit de uniforme header snel toegang tot al uw toepassingen, services en organisaties.
 
@@ -29,7 +41,7 @@ Klik op de toepassingskiezer ![](assets/menu-icon.png) om toegang te krijgen tot
 
 ![](assets/platform-core-services.png)
 
-## ![](assets/help-icon.png) Zoeken en ondersteunen in Experience Cloud {#search}
+## Zoeken en ondersteunen in Experience Cloud {#search}
 
 Met een Experience Cloud-zoekopdracht kunt u zoeken naar Help (documentatie, zelfstudies en cursussen) op [Experience League](https://experienceleague.adobe.com/#home). U kunt ook zoeken naar zakelijke objecten, zoals segmenten, gegevenssets, schema&#39;s en meer.
 
@@ -46,7 +58,7 @@ Met het menu [!UICONTROL Help] hebt u ook toegang tot:
 * **[!UICONTROL Status]:** Navigeer aan  `https://status.adobe.com/experience_cloud` en controleer productoperationele status en  [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigatie naar de documentatie van de ontwikkelaar  `adobe.io` en zoek deze.
 
-## ![](assets/preferences-icon.png) Accountvoorkeuren  {#account-menu}
+## Accountvoorkeuren {#account-menu}
 
 In het menu met accountvoorkeuren kunt u het volgende doen:
 
@@ -73,6 +85,10 @@ Op [!UICONTROL Experience Cloud preferences], kunt u de volgende eigenschappen v
 | [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
 | E-mails | Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.) |
 
-## ![](assets/notifications.png) Meldingen en aankondigingen
+## Meldingen en aankondigingen
 
-**[!UICONTROL Notifications]** en  **[!UICONTROL Announcements]:** Zie meldingen die belangrijk zijn voor u, en aankondigingen van Adobe. U kunt meldingen configureren in [Voorkeuren Experience Cloud](#preferences).
+Klik **[!UICONTROL Notifications]** om berichten te zien die voor u, en aankondigingen van Adobe belangrijk zijn.
+
+![](assets/notifications-menu-small.png)
+
+U kunt meldingen configureren in [Voorkeuren Experience Cloud](#preferences).
