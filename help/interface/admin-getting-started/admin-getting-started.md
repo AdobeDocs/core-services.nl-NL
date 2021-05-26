@@ -4,17 +4,16 @@ solution: Admin
 title: 'Gebruiker- en productbeheer '
 index: true
 feature: Admin Console
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1386'
 ht-degree: 5%
 
 ---
-
 
 # Gebruikers en producten van Experience Cloud beheren {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
@@ -60,9 +59,7 @@ U kunt ook in het menu Experience Cloud ( ![](assets/menu-icon.png)) op **[!UICO
 
 [Gebruikershandleiding ](https://helpx.adobe.com/nl/enterprise/using/users.html) voor het Creative Cloud en Document Cloud beheren. Sommige informatie is relevant voor het beheer van Experience Cloud-gebruikers, zoals [het beheren van identiteitstypen](https://helpx.adobe.com/enterprise/help/identity.html).
 
-[Meld u aan en beheer uw profielinstellingen](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
-
-## Productprofielen en groepen {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## Productprofielen en -groepen {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 De toevoeging van productprofielen markeert een verschuiving van hoe de oplossingsproducten en de diensten eerder werden beheerd (door groepen te gebruiken). In de Admin Console, zijn de toestemmingen gebaseerd op productprofielen, die groepen producten en de diensten zijn die u aan gebruikers kunt toewijzen.
 
@@ -100,7 +97,7 @@ Zie:
 * [Producten en profielen beheren](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * Video: [Adobe Target-werkruimten configureren in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-## Campagne - productprofielen, huurders en beveiligingsgroepen {#section_09CDF75366444CF5810CF321B7C712F3}
+## Campagne - productprofielen, huurders en veiligheidsgroepen {#section_09CDF75366444CF5810CF321B7C712F3}
 
 Een *huurder* in Campagne toont als *product* in de pagina van de Producten van de Admin Console.
 
@@ -149,7 +146,7 @@ Meer hulp is beschikbaar op:
 * [De ](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) Machtigingen van de Gebruiker van de onderneming in Adobe Target helpen voor meer informatie.
 * Video: [Adobe Target-werkruimten configureren in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-## Toestemmingen van de toegang van Analytics aan een productprofiel {#task_040673FE3E3E429B9531FBCB8B6A4391} toewijzen
+## Toestemmingen van de toegang van Analytics aan een productprofiel toewijzen {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
 Wijs Analytics de toestemmingen van de rapporttoegang (rapportreeksen, metriek, dimensies, etc.) aan een productprofiel toe.
 
@@ -167,7 +164,7 @@ U kunt bijvoorbeeld een productprofiel maken dat meerdere analyseprogramma&#39;s
 | Rapportsuite-gereedschappen | Schakel gebruikersmachtigingen in voor webservices, rapportbeheer, tools en rapporten en dashboarditems. |
 | Analysegereedschappen | Schakel gebruikersmachtigingen in voor algemene items (facturering, logbestanden, enz.), bedrijfsbeheer, tools, webservicetoegang, Report Builder en integratie van gegevensconnectors. De montages van het bedrijf van de Customize categorie van de Admin Console zijn verplaatst naar de Hulpmiddelen van Analytics. |
 
-## Beheerdersrollen toewijzen aan gebruikers {#task_3A072C4AA9734BC59FFA7E015271BC7E}
+## Beheerdersrollen delegeren aan gebruikers {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
 In de Admin Console, kunt u beperkte administratieve rechten aan anderen in uw organisatie delegeren. Met gedelegeerde rollen kunnen gebruikers softwaretoegang voor eindgebruikers beheren, toegangsimplementatiemogelijkheden bieden en als ondersteuningsafgevaardigden functioneren.
 
