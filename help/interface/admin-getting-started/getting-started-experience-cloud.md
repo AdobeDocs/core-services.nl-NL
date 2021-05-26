@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: 'Aanmelden en de instellingen van uw Experience Cloud-profiel beheren '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '926'
 ht-degree: 3%
 
 ---
-
 
 # Aanmelden en de instellingen van uw Experience Cloud-profiel beheren
 
@@ -51,7 +50,7 @@ Meld u aan en controleer of u zich in de juiste [organisatie](../admin-getting-s
 Help voor gebruikers zonder beheerdersrechten die zich aanmelden bij de Experience Cloud.
 
 
-1. Verifieer met uw beheerder dat uw [organisatie](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) provisioned in de Experience Cloud is.
+1. Verifieer met uw beheerder dat uw [organisatie](../admin-getting-started/organizations.md) provisioned in de Experience Cloud is.
 
 
 1. Navigeer naar [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
@@ -65,7 +64,7 @@ Help voor gebruikers zonder beheerdersrechten die zich aanmelden bij de Experien
 
    De oplossingen en de diensten die in dit menu worden getoond hangen van uw toepassingsvoorrechten af die door uw [beheerder](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) worden bepaald.
 
-## Standaardinstellingen voor persoonlijke account configureren {#task_73CBCAE6C91749D19C95421E5AC311BA}
+## Standaardinstellingen voor persoonlijke accounts configureren {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
 U kunt persoonlijke gegevens bewerken en een standaard [organisatie](../admin-getting-started/admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) en openingspagina opgeven die na het aanmelden bij de Experience Cloud moet worden weergegeven.
 
@@ -77,7 +76,7 @@ U kunt persoonlijke gegevens bewerken en een standaard [organisatie](../admin-ge
    ![](assets/default-organization.png)
 1. Ga door met het configureren en bewerken van persoonlijke gegevens en klik op **[!UICONTROL Save Changes]**.
 
-## Meldingen {#concept_0105453AD71847B8BFCAF4A40915F157} inschakelen
+## Meldingen inschakelen {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 U ontvangt een melding (via e-mail of in-product) over updates van het systeem, onderhoudsberichten, publicaties, aantekeningen en gedeelde middelen. U kunt ook de producten en oplossingen opgeven waarvoor u meldingen wilt ontvangen, inclusief de uploadstatus voor Klantkenmerken.
 
@@ -115,16 +114,16 @@ U kunt de vertoning van Meldingen sorteren op de berichttypes die voor u belangr
 
 U kunt het profiel van uw Experience Cloud bewerken, een standaardorganisatie en een openingspagina opgeven, enzovoort.
 
-1. [Meld u aan bij de Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
+1. Meld u aan bij Experience Cloud.
 
-1. Klik in het menu Experience Cloud op de profielafbeelding.
+1. Klik op de profielafbeelding op Experience Cloud.
 
    ![](assets/edit-profile.png)
 1. Klik op **[!UICONTROL Edit Profile]**.
 
    Vul de velden en opties onder Persoonlijke gegevens in op de pagina Profiel en wachtwoorden.
 
-## Uw wachtwoord {#task_46541A2806164CB1A4AE8239604E4EB1} herstellen
+## Uw wachtwoord herstellen {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navigeer naar de aanmeldingspagina van de oplossing.
 1. Klik op **[!UICONTROL Forgot Password]**.
@@ -133,7 +132,7 @@ U kunt het profiel van uw Experience Cloud bewerken, een standaardorganisatie en
 
    Navigeer voor Adobe Analytics-gebruikers naar [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
-## Vorm oplossingteken binnen gebruikend een directe verbinding {#concept_8BE493A08786469B88B210E13F78FF2F}
+## Vorm oplossing aanmelding gebruikend een directe verbinding {#concept_8BE493A08786469B88B210E13F78FF2F}
 
 Naar keuze, kunt u binnen aan een specifieke pagina in een oplossing ondertekenen, gebruikend authentificatie die door de Interface van Experience Cloud wordt verstrekt.
 
