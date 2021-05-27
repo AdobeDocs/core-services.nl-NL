@@ -4,18 +4,17 @@ keywords: kernservices;Kenmerken van klanten
 solution: Experience Cloud
 title: Laat uw oplossingen voor de dwars-oplossingsdiensten toe
 index: true
-feature: Customer Attributes
-topic: Administration
+feature: Klantkenmerken
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
+exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2286'
 ht-degree: 2%
 
 ---
-
 
 # Implementatie voor Experience Cloud-services inschakelen
 
@@ -32,7 +31,7 @@ Voor bestaande klanten, kunt u uw oplossingsimplementaties moeten moderniseren e
 1. [Gebruikers en producten beheren](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Begin met het delen van kenmerk- en publieksgegevens](#section_960C06093623462E8EA247B3E97274A1)
 
-## Sluit u aan bij de Experience Cloud en word beheerder {#section_2423F0BD3DF642658103310EE5EA6154}
+## Deelnemen aan de Experience Cloud en beheerder worden {#section_2423F0BD3DF642658103310EE5EA6154}
 
 Wat u moet doen om zich bij de Experience Cloud aan te sluiten:
 
@@ -54,9 +53,9 @@ Wat u moet doen om zich bij de Experience Cloud aan te sluiten:
 
 ### Beheerdersaanmelding
 
-Als u een beheerder bent, kunt u zich aanmelden bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
+Als u een beheerder bent, kunt u zich aanmelden op [Experience.adobe.com](https://experience.adobe.com).
 
-De koppeling **[!UICONTROL Administration]** wordt weergegeven in de navigatie in het menu Experience Cloud.
+De koppeling **[!UICONTROL Admin Console]** wordt weergegeven in de navigatie in het menu Experience Cloud.
 
 Zie [Experience Cloud gebruiker en producttoediening](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor meer informatie.
 
@@ -65,7 +64,7 @@ Zie [Experience Cloud gebruiker en producttoediening](../admin-getting-started/a
 Als u zich wilt aanmelden bij de Experience Cloud, moeten uw gebruikers:
 
 * Heb een Adobe ID (of Enterprise ID voor uw bedrijf).
-* Meld u aan bij [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
+* Meld u aan bij [experience.adobe.com](https://experience.adobe.com).
 * Behoort tot een oplossingsgroep die is toegewezen aan een ondernemingsgroep.
 * Koppel zo nodig hun oplossingsaccounts aan hun Adobe ID (zie hieronder).
 
@@ -83,7 +82,7 @@ Zie [Accounts koppelen in de Experience Cloud](../admin-getting-started/organiza
 
 In de volgende secties wordt beschreven hoe u uw implementatie kunt moderniseren. Door de implementatie te moderniseren, zijn de kernservices in de Experience Cloud mogelijk.
 
-## [!UICONTROL Experience Cloud ID Service] {#section_3C9F6DF37C654D939625BB4D485E4354} implementeren
+## [!UICONTROL Experience Cloud ID Service] implementeren {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 [!UICONTROL Experience Cloud ID Service] verstrekt een gemeenschappelijke identiteitskaart voor dwars-oplossingsintegratie. Het verstrekt de identificatie van de dwars-domeinbezoeker en een weg voor dwars-apparaat/browser richtend en verpersoonlijking die op de gegevens van CRM wordt gebaseerd die via [!UICONTROL Customer Attributes] worden geupload.
 
@@ -136,7 +135,7 @@ Experience Cloud-services (zoals Experience Cloud ID-service en [!UICONTROL Peop
 
 Zie [Rapportreeksen toewijzen aan een organisatie](report-suite-mapping.md).
 
-## Werk uw Analytics AppMeasurement-code {#section_1798D9D0F05C47E29816AC4EEB9A0913} bij
+## Uw Analytics AppMeasurement-code bijwerken {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
 Als u Analytics gebruikt, verifieer dat u op regionale gegevensinzameling (RDC) bent. Als uw gegevensverzamelingsdomein [!DNL omtrdc.net] is, of als uw CNAME aan [!DNL omtrdc.net] in kaart wordt gebracht, bent u op RDC. Zie [Overschakelen naar RDC](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html) voor meer informatie. Als u de koekjes van de eerste partij gebruikt, verwijs naar [CNAME en de Dienst van identiteitskaart van Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) voor informatie over gegevensinzameling CNAMEs en dwars-domein het volgen.
 
@@ -144,7 +143,7 @@ U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScri
 
 Klik in [!UICONTROL Dynamic Tag Management] op **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Zie [Adobe Analytics Settings](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) in Dynamic Tag Management voor implementatiegegevens.
 
-## Uw Adobe Target-implementatie {#section_C2F4493C7A36406DAE2266B429A4BD24} bijwerken
+## Adobe Target-implementatie bijwerken {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
 * U wordt aangeraden een [Adobe Target-extensie](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) toe te voegen in [!UICONTROL Experience Platform Launch], zodat de bibliotheek automatisch wordt opgehaald. U kunt de [Experience Cloud ID Service-extensie ](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) voor Adobe Target (en andere oplossingen) ook instellen met [!UICONTROL Experience Platform Launch]. De [!UICONTROL Experience Cloud ID Service]-update **is vereist** voor Adobe Target om kernservices te kunnen gebruiken. (Als u [!UICONTROL Dynamic Tag Management] gebruikt, voegt u een [Adobe Target-gereedschap](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html) toe. U kunt [!UICONTROL Dynamic Tag Management] ook gebruiken om de Experience Cloud ID-service voor Adobe Target te implementeren.)
 * Als u [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management] niet gebruikt, [werk uw mbox bibliotheek](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) manueel bij.
@@ -195,7 +194,7 @@ Zie [Experience Cloud gebruiker- en productbeheer](../admin-getting-started/admi
 
 Gebruikers die aan de [!UICONTROL Customer Attributes] groep worden toegevoegd zullen [!UICONTROL Customer Attributes] menupunt op de linkerkant van de interface van Experience Cloud zien.
 
-## Begin delend attribuut en publieksgegevens {#section_960C06093623462E8EA247B3E97274A1}
+## Begin met het delen van kenmerk- en publieksgegevens {#section_960C06093623462E8EA247B3E97274A1}
 
 Profiteer van de volgende functies.
 
