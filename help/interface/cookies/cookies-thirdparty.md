@@ -5,17 +5,16 @@ solution: Experience Cloud,Analytics,Target
 title: 'Hoe wijzigingen in Cookie-ondersteuning van derden van invloed zijn op klanten '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 feature: Cookies
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
+source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
-
 
 # Welke invloed wijzigingen in de Cookie-ondersteuning van derden hebben op klanten{#how-changes-to-third-party-cookie-support-impacts-customers}
 
@@ -25,8 +24,7 @@ In de volgende lijst ziet u hoe de cookie-ondersteuning van derden de huidige im
 
 ## Adobe Analytics en Adobe Target
 
-* Klanten met een [first-party implementatie](/help/interface/cookies/cookies-first-party.md) zouden grotendeels onaangetast blijven.
-* Klanten die geen implementatie van de eerste partij gebruiken kunnen [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) uitvoeren om het koekje van identiteitskaart als eerstepartijkoekje zonder een implementatie van de eerste partij op te slaan.
+* Analytics en Target blijven grotendeels ongewijzigd, aangezien dezelfde siteactiviteit alleen afhankelijk is van cookies van de fabrikant. Cookies van andere bedrijven zijn vereist om de gebruikersactiviteit in verschillende domeinen te begrijpen. Voor browsers waar cookies van derden worden geblokkeerd, is het niet mogelijk cookies te traceren naar andere domeinen.
 
 ## Adobe Experience Manager
 
@@ -49,8 +47,3 @@ In de volgende lijst ziet u hoe de cookie-ondersteuning van derden de huidige im
    * Weergave is ook sterk afhankelijk van de beschikbaarheid van verschillende advertentienetwerkcookies voor synchronisatie.
    * De totale impact is onbekend. Voor het eerste punt wordt de weergave echter meer beïnvloed dan voor andere services.
    * We werken intern en met onze advertentiepartners samen om de impact op en de levering ten volle te evalueren.
-
-* Sociaal:
-
-   * Er is geen invloed op advertenties op Facebook-markten.
-   * De invloed op Facebook Exchange (FBX) is gelijk aan die op de weergave en levering.
