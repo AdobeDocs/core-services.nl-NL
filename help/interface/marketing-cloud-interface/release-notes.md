@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4056'
 ht-degree: 3%
@@ -395,7 +395,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 
 **Oplossingen en verbeteringen**
 
-* Wanneer u aan [!DNL experiencecloud.adobe.com] navigeert, is de login ervaring nu verenigbaar met login van Adobe Creative Cloud.
+* Wanneer u aan [!DNL experience.adobe.com] navigeert, is de login ervaring nu verenigbaar met login van Adobe Creative Cloud.
 * Op de pagina Organisaties beheren is de koppelingservaring (nadat een uitnodiging is ontvangen) nu consistent voor elke oplossing.
 
 **Bekende problemen**
