@@ -3,25 +3,24 @@ description: Leer meer over de vereisten en wat u kunt verwachten als u een upgr
 keywords: Adobe Analytics Premium-upgrade
 solution: Experience Cloud
 title: 'Upgrade naar Analytics Premium en de Experience Cloud '
-topic: Administration
+topic: Beheer
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 7%
 
 ---
-
 
 # Upgrade uitvoeren naar Analytics Premium en de Experience Cloud
 
 Beheerders kunnen meer weten over de vereisten en wat ze moeten verwachten als ze een upgrade uitvoeren naar Analytics Premium en waar ze hulp kunnen zoeken als beheerder van een Experience Cloud.
 
-## Analysepremium {#section_7F50AD7906544F899B844BE31D3BB507}
+## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
 Als u een upgrade uitvoert naar Adobe Analytics Premium, beschikt u over alle mogelijkheden of producten die beschikbaar zijn op de standaard Analytics, waaronder Data Warehouse, Ad Hoc Analysis, Report Builder en Gegevensconnectors. (Deze producten werden afzonderlijk aan klanten verkocht met de puntoplossing, SiteCatalyst.)
 
@@ -49,7 +48,7 @@ In de Premie van Analytics voltooit, krijgt u alle mogelijkheden van [Analytics 
 | Data Workbench | <ul><li>Algorithmic Attribution</li><li>Vooraf gebouwde werkruimten</li></ul> |
 | Platform Analytics | [Live stream](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html)  (onbewerkte gegevens, dashboards, triggers) |
 
-## Voorspelende intelligentie {#section_B407932C07A7476F83FB0275C3FB63DC}
+## Voorspelende inlichtingen {#section_B407932C07A7476F83FB0275C3FB63DC}
 
 Door de upgrade naar Predictive Intelligence wordt [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
 
@@ -73,7 +72,7 @@ Upgraden naar Klant 360 biedt [Analytics Premium](../admin-getting-started/upgra
 
 Geavanceerde Attributie biedt toegang tot [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), plus Algorithmic Attribution in Data Workbench (25% server call volume).
 
-## Vereisten voor Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Data Workbench-eisen {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 De ondersteunde gebruiker(s) kunnen via een e-mail `dwb@adobe.com` verzoeken dat alle clientlicenties worden bijgewerkt om de Premium te weerspiegelen. Dit laat eigenschappen zoals Algorithmic Attribution toe.
 
@@ -85,7 +84,7 @@ Alle software die op locatie wordt uitgevoerd, moet worden gedeactiveerd. Dit ge
 
 Experience Cloud- en kernservices zijn beschikbaar voor gebruikers van de Analytics Standard en Premium, op voorwaarde dat u de in [Aan de slag beschreven modernisering van de implementatie hebt uitgevoerd - uw oplossingen inschakelen voor kernservices](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Dat proces helpt u uw implementatie moderniseren, en laat u toe om en beheerder in Experience Cloud te worden.)
 
-Nadat u zich bij de Experience Cloud hebt aangemeld, kunt u zich aanmelden via de Experience Cloud op [!DNL experiencecloud.adobe.com] en beginnen met het gebruik van de kernservices (inclusief klantkenmerken, soorten publiek en analytische toepassingen voor mobiele apparaten).
+Nadat u zich bij de Experience Cloud hebt aangemeld, kunt u zich aanmelden via de Experience Cloud op [!DNL experience.adobe.com] en beginnen met het gebruik van de kernservices (inclusief klantkenmerken, soorten publiek en analytische toepassingen voor mobiele apparaten).
 
 ### Gebruikers en groepen beheren
 
