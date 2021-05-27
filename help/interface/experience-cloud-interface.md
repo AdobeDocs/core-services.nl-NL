@@ -6,9 +6,9 @@ feature: '"Central Interface Components"'
 topic: Beheer
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Functies voor centrale Experience Cloud
 
 Meld u aan en controleer of u zich in de juiste [organisatie](admin-getting-started/organizations.md) bevindt.
 
-1. Navigeer naar [Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html).
+1. Navigeer naar [Adobe Experience Cloud](https://experience.adobe.com).
 1. Klik op **[!UICONTROL Sign in with an Adobe ID]**.
 1. Klik in Adobe Experience Cloud op uw organisatie.
 
