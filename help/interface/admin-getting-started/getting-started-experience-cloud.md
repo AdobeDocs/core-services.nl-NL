@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 3%
@@ -53,7 +53,7 @@ Help voor gebruikers zonder beheerdersrechten die zich aanmelden bij de Experien
 1. Verifieer met uw beheerder dat uw [organisatie](../admin-getting-started/organizations.md) provisioned in de Experience Cloud is.
 
 
-1. Navigeer naar [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
+1. Navigeer naar [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
 1. Klik op **[!UICONTROL Sign In With Adobe ID]**.
 
    Uw Experience Cloud-beheerder kan u helpen het type account (Adobe ID of Enterprise ID) te bepalen.
@@ -138,11 +138,11 @@ Naar keuze, kunt u binnen aan een specifieke pagina in een oplossing ondertekene
 
 ### URL-sjabloon
 
-`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
+`https://experience.adobe.com/#/@<tenantId>/<solutionname>?destURL=<fullURL>`
 
 Voorbeeld-URL:
 
-`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
+`https://experience.adobe.com/#/@aem62tenant/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
