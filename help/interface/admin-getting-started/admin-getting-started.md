@@ -8,9 +8,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: c32cc6783b53cc6e57bba0810a49038561ac9dcd
+source-git-commit: 2f315b2daa4e9d73b0adb1cf75fd7ff2417fd0c2
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -111,15 +111,15 @@ U kunt bijvoorbeeld een productprofiel maken dat meerdere analyseprogramma&#39;s
 | Rapportsuite-gereedschappen | Schakel gebruikersmachtigingen in voor webservices, rapportbeheer, tools en rapporten en dashboarditems. |
 | Analysegereedschappen | Laat gebruikerstoestemmingen voor Algemene punten (het factureren, logboeken, etc.), het Beheer van het Bedrijf, Hulpmiddelen, de Toegang van de Dienst van het Web, Report Builder, en de integratie van de Verbindingen van Gegevens toe. De montages van het bedrijf van de Customize categorie van de Admin Console zijn verplaatst naar de Hulpmiddelen van Analytics. |
 
-<!-- **User Account Migration**
+**Migratie van gebruikersaccount**
 
-An Analytics user ID migration tool is available to help Analytics administrators migrate user accounts from Analytics User Management to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+Er is een hulpprogramma voor de migratie van gebruikers-id&#39;s voor Analytics beschikbaar waarmee beheerders gebruikersaccounts kunnen migreren van Analytics User Management naar [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-The account migration is being rolled out to customers in phases. Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
+De accountmigratie wordt in fasen uitgevoerd aan klanten. Adobe geeft een melding en helpt u wanneer het uw tijd is om bestaande gebruikersaccounts te migreren van **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** naar de Admin Console.
 
-After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experience.adobe.com](https://experience.adobe.com). If users attempt to sign in via legacy logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] and [!DNL experiencecloud.adobe.com]) they are redirected to [!DNL experience.adobe.com].
+Na de migratie melden gebruikers zich aan met hun Adobe ID (of Enterprise ID) en verifiëren ze hun Experience Cloud-oplossingen en -services op [experience.adobe.com](https://experience.adobe.com). Als gebruikers proberen zich aan te melden via oude logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] en [!DNL experiencecloud.adobe.com]), worden ze omgeleid naar [!DNL experience.adobe.com].
 
-**Related help**  -->
+**Gerelateerde help**
 
 Zie [Migratie van gebruikers-id voor analyse](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en) voor meer informatie
 
@@ -151,9 +151,9 @@ Zie [Gebruikersmachtigingen](https://experienceleague.adobe.com/docs/launch/usin
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-klanten worden vertegenwoordigd als organisaties in de Adobe [!UICONTROL Admin Console]. Experience Manager (AEM) klanten kunnen de Adobe [!UICONTROL Admin Console] gebruiken om productrechten en IMS-verificatie te beheren om als [!UICONTROL Cloud Service] te Experience Managers.
+Adobe Enterprise-klanten worden vertegenwoordigd als organisaties in de Adobe [!UICONTROL Admin Console]. Klanten van Experience Managers kunnen de Adobe [!UICONTROL Admin Console] gebruiken om productrechten en IMS-verificatie te beheren voor Experience Manager als [!UICONTROL Cloud Service].
 
-Zie [IMS-ondersteuning voor AEM als een Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
+Zie [IMS-ondersteuning voor Experience Manager als een Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
