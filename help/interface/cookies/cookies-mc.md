@@ -5,17 +5,16 @@ solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud Cookies '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 7%
+source-wordcount: '347'
+ht-degree: 2%
 
 ---
-
 
 # Experience Cloud Cookies{#experience-cloud-cookies}
 
@@ -26,7 +25,7 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt
 <table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Attribute </p> </th> 
+   <th colname="col1" class="entry"> <p>Kenmerk </p> </th> 
    <th colname="col2" class="entry"> <p>Beschrijving </p> </th> 
   </tr> 
  </thead>
@@ -60,9 +59,9 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die wordt
 
 **Naam cookie: AMCV_##@AdobeOrg**
 
-De [Experience Platform-id-service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) gebruikt JavaScript om een unieke bezoeker-id op te slaan in een `AMCV_###@AdobeOrg`-cookie op het domein van de huidige website, waarbij `###` een willekeurige tekenreeks vertegenwoordigt, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+De [Experience Platform-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) gebruikt JavaScript om een unieke bezoeker-id op te slaan in een `AMCV_###@AdobeOrg`-cookie op het domein van de huidige website, waarbij `###` een willekeurige tekenreeks vertegenwoordigt, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Zie ook [Cookies en de Dienst van identiteitskaart](https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html).
+Zie ook [Cookies en de Dienst van identiteitskaart](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
