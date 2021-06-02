@@ -4,22 +4,21 @@ keywords: Klantkenmerken;Experience Cloud services
 solution: Experience Cloud
 title: 'Hoe te om het schema van de klantenattributen te bevestigen '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Customer Attributes
-topic: Administration
+feature: Klantkenmerken
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
-
 # Het schema valideren
 
-Met het validatieproces kunt u weergavenamen en beschrijvingen toewijzen aan geüploade kenmerken (tekenreeksen, gehele getallen, getallen, enzovoort). Op basis van deze instellingen wordt een schema gemaakt. Het schema wordt gebruikt om alle toekomstige gegevens te bevestigen die aan deze gegevensbron worden geupload. Met dit toewijzingsproces worden de oorspronkelijke gegevens niet gewijzigd.
+Met het validatieproces kunt u weergavenamen en beschrijvingen toewijzen aan geüploade kenmerken (tekenreeksen, gehele getallen, getallen, enzovoort). Op basis van deze instellingen wordt een schema gemaakt. Het schema wordt gebruikt om alle toekomstige gegevens te bevestigen die aan deze gegevensbron worden geupload. De oorspronkelijke gegevens worden niet gewijzigd door het toewijzingsproces.
 
 >[!NOTE]
 >
@@ -47,9 +46,9 @@ Op de [!UICONTROL Validate Schema] pagina, vertegenwoordigt elke rij van het sch
 
    * **[!UICONTROL AVID (Analytics visitor ID):]** Hier wordt weergegeven of u CID&#39;s uploadt met een proxy of eVar. Als deze id&#39;s worden doorgegeven aan de Experience Cloud, worden hier alle bezoekers-id&#39;s weergegeven die zijn gekoppeld aan de ingevoerde CID.
 
-U kunt gegevens ook uploaden via FTP nadat u een bron voor klantkenmerken en een FTP-account in de Experience Cloud hebt gemaakt. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten de .csv-indeling hebben, met een tweede .fin-bestand om aan te geven dat het uploaden is voltooid
+U kunt gegevens ook uploaden via FTP nadat u een bron voor klantkenmerken en een FTP-account in de Experience Cloud hebt gemaakt. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten de `.csv`-indeling hebben, met een tweede `.fin`-bestand om aan te geven dat het uploaden is voltooid
 
-De namen die u op koorden, gehelen, en aantallen toepast worden gebruikt om [!DNL Analytics] metriek tot stand te brengen. Zie [Rapport Klantkenmerken](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in [!DNL Analytics] Help voor meer informatie.
+De namen die u op koorden, gehelen, en aantallen toepast worden gebruikt om [!DNL Analytics] metriek tot stand te brengen. Zie [Rapport Klantkenmerken](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en) in [!DNL Analytics] Help voor meer informatie.
 
 * **[!UICONTROL Attribute:]** Kenmerkgegevens die uit het geüploade  `.csv` bestand worden gelezen.
 
