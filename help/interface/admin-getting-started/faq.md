@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: 'Veelgestelde vragen over Experience Cloud '
 index: true
 feature: Admin Console
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 062576da-328e-4b46-9e71-5a25733d607a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 7%
+source-wordcount: '776'
+ht-degree: 8%
 
 ---
-
 
 # Veelgestelde vragen over Experience Cloud
 
@@ -23,7 +22,7 @@ Meer informatie over browserondersteuning en veelgestelde vragen en antwoorden v
 
 ## Welke browsers worden ondersteund in Experience Cloud?
 
-* Microsoft Edge (huidige en vorige twee versies)
+* Microsoft® Edge (huidige en vorige twee versies)
 * Google Chrome (huidige en vorige twee versies)
 * Mozilla Firefox (huidige en tweede versie)
 * Safari (huidige en vorige twee versies)
@@ -34,7 +33,7 @@ Meer informatie over browserondersteuning en veelgestelde vragen en antwoorden v
 Als uw implementatie niet is voorzien voor kerndiensten, zie [Uw oplossingen voor kerndiensten toelaten](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), die beschrijft hoe te:
 
 1. [Deelnemen aan de Experience Cloud en beheerder worden](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Voer de dienst van identiteitskaart van de Experience Cloud uit gebruikend Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+1. [Voer de dienst van identiteitskaart van de Experience Cloud uit gebruikend Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html?lang=en).
 1. [Kaartrapportsets aan een Experience Cloud-organisatie](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Alleen Analytics) Moderniseer uw Analytics AppMeasurement-code](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Alleen Adobe Target) De Adobe Target-implementatie moderniseren](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -42,7 +41,7 @@ Als uw implementatie niet is voorzien voor kerndiensten, zie [Uw oplossingen voo
 1. [Gebruikers en producten beheren](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Basisservices gebruiken](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
-Voor meer hulp, [contacteer de Steun van de Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+Voor meer hulp, [contacteer de Steun van de Adobe](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html).
 
 ## Laadt Adobe mijn bedrijf om toegang tot Experience Cloud?
 
@@ -50,11 +49,11 @@ Nee. De Experience Cloud wordt gratis meegeleverd. Bepaalde kerndiensten kunnen 
 
 ## Waarom moet mijn bedrijf zich door de interface van Experience Cloud aanmelden?
 
-De functionaliteit die door de interface van de Experience Cloud wordt verstrekt voegt nieuwe waarde aan uw zaken toe. Het zal ook de standaardweg voor de toegang tot van oplossingen zijn die door:gaan, uiteindelijk andere individuele oplossingslogin stromen vervangen. Als u zich aanmeldt via de Experience Cloud, verloopt de overgang later soepeler.
+De functionaliteit die door de interface van de Experience Cloud wordt verstrekt voegt nieuwe waarde aan uw zaken toe. Het is ook de standaardweg om tot oplossingen toegang te hebben die door:gaan, uiteindelijk andere individuele oplossingslogin stromen vervangen. Door u aan te melden via Experience Cloud, kunt u later vloeiender overgangen maken.
 
 ## Hoe los ik mijn zorgen over de migratie van mijn bedrijf op?
 
-[Neem contact op met de Adobe-ondersteuning](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+[Neem contact op met de Adobe-ondersteuning](https://helpx.adobe.com/contact/enterprise-support.ec.html).
 
 ## Wat is _provisioning?_
 
@@ -67,17 +66,17 @@ Onder voorziening in de Experience Cloud wordt verstaan:
 
 ## Hoe kan ik gebruikers en productprofielen beheren?
 
-* Zie [Handboek van de Gebruiker van de Admin Console](https://helpx.adobe.com/enterprise/administering/user-guide.html) voor hulp.
+* Zie [Handboek van de Gebruiker van de Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html) voor hulp.
 
 * De rechten van de gebruiker en het productbeheer worden uitgevoerd in [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (productverbinding).
 
-* **Belangrijk:** Analysebeheerders, zie de Gebruikers van Analytics van  [Beheer in Admin ](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) Consoleabout migrerende gebruiker - IDs van de Hulpmiddelen van Admin van Analytics aan de Admin Console.
+* **Belangrijk:** Analysebeheerders, zie de Gebruikers van Analytics van  [Beheer in Admin ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en) Consoleabout migrerende gebruiker - IDs van de Hulpmiddelen van Admin van Analytics aan de Admin Console.
 
 ## Wat doe ik als iemand zich niet bij de Experience Cloud kan aanmelden?
 
 Beheerders van Admin Consoles kunnen toegang verlenen aan gebruikers. Gebruikers worden per e-mail verzonden met aanmeldingsinstructies.
 
-Mogelijk moet u [contact opnemen met de Adobe-ondersteuning](https://helpx.adobe.com/marketing-cloud/contact-support.html) om te controleren of uw bedrijf volledig is ingericht.
+Mogelijk moet u [contact opnemen met de Adobe-ondersteuning](https://helpx.adobe.com/contact/enterprise-support.ec.html) om te controleren of uw bedrijf volledig is ingericht.
 
 ## Waar kan een gebruiker account koppelen beheren?
 
@@ -99,13 +98,13 @@ Zie [Uw organisatie-id zoeken](organizations.md).
 
 De organisatie-id wordt weergegeven op de landingspagina van de Experience Cloud en op de landingspagina [Admin Console.](https://adminconsole.adobe.com)
 
-Beheerders kunnen zich ook aanmelden bij de beheerconsole (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) voor een specifieke organisatie en u kunt uw IMS org-id in de URL zien.
+Beheerders kunnen zich ook aanmelden bij de Admin Console (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) voor een specifieke organisatie en u kunt uw IMS org-id in de URL zien.
 
 Bijvoorbeeld in de volgende URL:
 
 `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
 
-de id is:
+De id is:
 
 `C538193582390300A495CC9@AdobeOrg`
 
@@ -115,7 +114,7 @@ Hun toegang moet uit de oplossing zelf worden verwijderd. Zij zullen niet tot he
 
 ## Wat is een Adobe ID?
 
-Zie [Identiteitstypen](https://helpx.adobe.com/enterprise/help/identity.html).
+Zie [Identiteitstypen](https://helpx.adobe.com/enterprise/using/identity.html).
 
 ## Kan ik oplossingsaccounts koppelen voor mijn gebruikers?
 
