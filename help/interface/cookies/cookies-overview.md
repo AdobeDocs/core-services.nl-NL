@@ -2,16 +2,15 @@
 description: Leer hoe oplossingen en services in Adobe Experience Cloud cookies gebruiken.
 title: 'Hoe cookies worden gebruikt in Experience Cloud '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
 
 
-# In de Experience Cloud gebruikte cookies{#cookies-used-in-the-experience-cloud}
+# Cookies gebruikt in de Experience Cloud{#cookies-used-in-the-experience-cloud}
 
 Veel services in de Adobe Experience Cloud gebruiken cookies. Een cookie is een klein stukje gegevens dat door een website aan een webbrowser wordt gepresenteerd. De browser slaat dit stukje gegevens op en retourneert het vervolgens naar de website die het heeft geleverd. Deze handeling wordt uitgevoerd bij elke volgende aanvraag voor pagina&#39;s en afbeeldingen.
 
@@ -19,6 +18,6 @@ Er worden cookies geleverd om tijdens en soms tussen bezoeken aan een website in
 
 >[!NOTE]
 >
->De wetten, de verordeningen, en de zelfreguleringsprincipes kunnen u vereisen om toestemming van bezoekers te verkrijgen alvorens u informatie op een computer of een ander Web verbonden apparaat kunt opslaan of terugwinnen. We raden u aan om met uw adviseur te bekijken welke wetten, regels en principes uw gebruik van cookies controleren.
+>De wetten, de verordeningen, en de zelfreguleringsprincipes kunnen u vereisen om toestemming van bezoekers te verkrijgen alvorens u informatie op een computer of een ander Web verbonden apparaat kunt opslaan of terugwinnen. Adobe stelt voor dat u met uw adviseur controleert welke wetten, verordeningen, en principes uw gebruik van koekjes controleren.
 
 In deze documentatie worden de cookies beschreven die door de Intel Health Care Management Suite worden gebruikt en is u voorbereid om u te helpen uw verplichtingen op het gebied van toestemming te begrijpen.
