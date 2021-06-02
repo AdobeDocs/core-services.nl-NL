@@ -1,18 +1,17 @@
 ---
 title: 'Customer Attributes Support for California Consumer Privacy Act '
 description: Meer informatie over Customer Attributes-ondersteuning voor California Consumer Privacy Act
-feature: Customer Attributes
-topic: Administration
+feature: Klantkenmerken
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
+source-git-commit: b968ca3a2751ab9af27e86595447f84f3cb20d68
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '425'
 ht-degree: 5%
 
 ---
-
 
 # Customer Attributes support for California Consumer Privacy Act
 
@@ -22,19 +21,19 @@ Op deze pagina wordt [!UICONTROL Customer Attributes']-ondersteuning voor de Cal
 >
 >De inhoud van dit document is geen juridisch advies en is niet bedoeld ter vervanging van juridisch advies. Raadpleeg uw juridisch adviseur voor advies over de (CCPA).
 
-De CCPA is de nieuwe privacywet van Californië, die 1 januari 2020 van kracht is. CCPA verleent de inwoners van Californië nieuwe rechten met betrekking tot hun persoonlijke informatie en legt gegevensbeschermingstaken op aan bepaalde entiteiten die zaken in Californië leiden. De CCPA verleent consumenten het recht om hun persoonlijke gegevens te raadplegen en te verwijderen, alsmede het recht om af te zien van bepaalde activiteiten die als &quot;verkoop&quot; van persoonlijke gegevens aan derden worden aangemerkt.
+De CCPA is de nieuwe privacywet van Californië, die 1 januari 2020 van kracht is. CCPA verleent de inwoners van Californië nieuwe rechten met betrekking tot hun persoonlijke informatie en legt gegevensbeschermingstaken op aan bepaalde entiteiten die zaken in Californië leiden. De CCPA verleent consumenten het recht om hun persoonlijke gegevens te raadplegen en te wissen en om af te zien van bepaalde activiteiten die als &quot;verkoop&quot; van persoonlijke gegevens aan derden worden aangemerkt.
 
-Als bedrijf, zult u de persoonlijke gegevens bepalen die Adobe Experience Cloud verwerkt en namens u opslaat.
+Als bedrijf, bepaalt u de persoonlijke gegevens die Adobe Experience Cloud verwerkt en namens u opslaat.
 
-Als uw dienstverlener, verleent Adobe Experience Cloud steun voor uw zaken om aan zijn verplichtingen uit hoofde van CCPA te voldoen die op het gebruik van de producten en de diensten van de Experience Cloud van toepassing zijn, met inbegrip van het beheren van verzoeken om toegang tot en schrapping van persoonlijke informatie.
+Als uw dienstverlener, verleent Adobe Experience Cloud steun voor uw zaken om zijn verplichtingen uit hoofde van CCPA te vervullen die op het gebruik van de producten en de diensten van de Experience Cloud van toepassing zijn. Deze ondersteuning omvat het beheren van verzoeken om toegang tot en verwijdering van persoonlijke gegevens.
 
-Dit document beschrijft hoe [!UICONTROL Customer Attributes] CCPA van gegevens - toegang en schrappingsrechten gebruikend Adobe Experience Platform Privacy Service API en Privacy Service UI steunt.
+Dit document beschrijft hoe [!UICONTROL Customer Attributes] de gegevens CCPA van uw betrokkenen toegang en schrappingsrechten gebruikend Adobe Experience Platform Privacy Service API en Privacy Service UI steunt.
 
 Voor meer informatie over de diensten van de Privacy van de Adobe voor CCPA, zie [het Centrum van de Privacy van de Adobe](https://www.adobe.com/privacy/ccpa.html).
 
 ## Vereiste installatie voor het verzenden van aanvragen voor [!UICONTROL Customer Attributes]
 
-Om verzoeken om tot gegevens voor [!UICONTROL Customer Attributes] toegang te hebben en te schrappen, zult u moeten:
+Als u verzoeken wilt indienen om gegevens voor [!UICONTROL Customer Attributes] te openen en te verwijderen, moet u:
 
 1. Vermeld het volgende:
 
