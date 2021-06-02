@@ -4,24 +4,23 @@ keywords: Klantkenmerken;kernservices
 solution: Experience Cloud
 title: 'Een bron voor klantkenmerken maken en het gegevensbestand uploaden '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: Customer Attributes
-topic: Administration
+feature: Klantkenmerken
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 3%
+source-wordcount: '1105'
+ht-degree: 1%
 
 ---
-
 
 # Een bron voor klantkenmerken maken en het gegevensbestand uploaden
 
 Maak de bron van het klantkenmerk (CSV- en FIN-bestanden) en upload de gegevens. U kunt de gegevensbron activeren wanneer u klaar bent. Nadat de gegevensbron actief is, deel de attributengegevens aan Analytics en Doel.
 
-## Workflow {#concept_BF0AF88E9EF841219ED4D10754CD7154} voor klantkenmerken
+## Workflow voor klantkenmerken {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
 ![](assets/crs.png)
 
@@ -37,13 +36,13 @@ Nadat de gegevensbron actief is, kunt u:
 
 >[!IMPORTANT]
 >
->Om toegang te krijgen tot deze functie, moeten gebruikers worden toegewezen aan het productprofiel Klantkenmerken (Klantkenmerken - Standaardtoegang. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Als *Klantkenmerken* als één van [!UICONTROL Product Profiles] toont, bent u klaar om te beginnen. Gebruikers die aan de groep van Attributen van de Klant worden toegevoegd zullen [!UICONTROL Customer Attributes] menu op de linkerkant van de interface van Experience Cloud zien.
+>Om toegang te krijgen tot deze functie, moeten gebruikers worden toegewezen aan het productprofiel Klantkenmerken (Klantkenmerken - Standaardtoegang. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Als *Klantkenmerken* als één van [!UICONTROL Product Profiles] toont, bent u klaar om te beginnen. De gebruikers die aan de groep van Attributen van de Klant worden toegevoegd zien [!UICONTROL Customer Attributes] menu op de linkerkant van de interface van Experience Cloud.
 >
 >Om de eigenschap van Attributen van de Klant te gebruiken, moeten de gebruikers tot oplossing-vlakke groepen (Analytics of [!DNL Target]) ook behoren.
 
 Zie [Gebruikers en producten van Experience Cloud beheren](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
-## Gegevensbestand {#task_B5FB8C0649374C7A94C45DCF2878EA1A} maken
+## Een gegevensbestand maken {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
 Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen abonneegegevens voor producten bevatten, waaronder id&#39;s van leden, producten met de naam, de meest gestarte producten enzovoort.
 
@@ -51,7 +50,7 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 
    >[!NOTE]
    >
-   >Later in dit proces, zult u slepen-en-dalings `.csv` om het dossier te uploaden. Als u echter [uploadt via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B), hebt u ook een `.fin` bestand met dezelfde naam nodig als de `.csv`.
+   >Later in dit proces, sleept u - en - laat vallen `.csv` om het dossier te uploaden. Als u echter [uploadt via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B), hebt u ook een `.fin` bestand met dezelfde naam nodig als de `.csv`.
 
    Voorbeeld bedrijfsklantenbestand:
 
@@ -60,7 +59,7 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 1. Lees voordat u verdergaat de belangrijke informatie in [Gegevensbestandsvereisten](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) voordat u het bestand uploadt.
 1. [Maak een bron voor klantkenmerken en upload de gegevens](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78), zoals hieronder beschreven.
 
-## Maak de kenmerkbron en upload het gegevensbestand {#task_09DAC0F2B76141E491721C1E679AABC8}
+## De kenmerkbron maken en het gegevensbestand uploaden {#task_09DAC0F2B76141E491721C1E679AABC8}
 
 Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Experience Cloud uit.
 
@@ -87,9 +86,9 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 
       De alias-id komt overeen met bepaalde gebieden waar u extra waarden voor de klant-id instelt. Bijvoorbeeld:
 
-      * **Dynamisch tagbeheer:** De Alias-id komt overeen met de  *Integratie-* codewaarde onder  [!UICONTROL Customer Settings], in het  [Experience Cloud ID-](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) servicetool.
+      * **Dynamisch tagbeheer:** De Alias-id komt overeen met de  *Integratie-* codewaarde onder  [!UICONTROL Customer Settings], in het  [Experience Cloud ID-](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en) servicetool.
 
-      * **Bezoeker-API:** De Alias-id komt overeen met de extra  [klant-id&#39;](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) s die u aan elke bezoeker kunt koppelen.
+      * **Bezoeker-API:** De Alias-id komt overeen met de extra  [klant-id&#39;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) s die u aan elke bezoeker kunt koppelen.
 
          Bijvoorbeeld *&quot;crm_id&quot;* in:
 
@@ -97,13 +96,13 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** De Alias-id komt overeen met  *&quot;idType&quot;* in  [bezoekerSyncIdentifiers:IDs](https://docs.adobe.com/content/help/nl-NL/mobile-services/ios/overview.html).
+      * **iOS:** De Alias-id komt overeen met  *&quot;idType&quot;* in  [bezoekerSyncIdentifiers:IDs](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en).
 
          Bijvoorbeeld:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** De alias-id komt overeen met  *&quot;idType&quot;* in  [syncIdentifiers](https://docs.adobe.com/content/help/nl-NL/mobile-services/android/overview.html).
+      * **Android™:** De alias-id komt overeen met  *&quot;idType&quot;* in  [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en).
 
          Bijvoorbeeld:
 
@@ -127,11 +126,11 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 
    * **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Hiermee wordt weergegeven hoeveel id&#39;s zijn aliased aan Experience Cloud-bezoeker-id&#39;s.
 
-   * **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Geeft het aantal door de klant opgegeven id&#39;s weer met 500 of meer aliased Experience Cloud Bezoeker-id&#39;s. Deze door de klant opgegeven id&#39;s vertegenwoordigen hoogstwaarschijnlijk geen personen, maar een soort gedeelde aanmelding. Het systeem verdeelt de attributen verbonden aan deze IDs aan 500 meest recente aliased Experience Cloud Bezoeker IDs, tot de aliastelling 10.000 bereikt. Op dat moment maakt het systeem de door de klant opgegeven id ongeldig en worden de bijbehorende kenmerken niet meer gedistribueerd.
+   * **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Geeft het aantal door de klant opgegeven id&#39;s weer met 500 of meer aliased Experience Cloud Bezoeker-id&#39;s. Deze door de klant opgegeven id&#39;s vertegenwoordigen hoogstwaarschijnlijk geen personen, maar een soort gedeelde aanmelding. Het systeem verdeelt de attributen verbonden aan deze IDs aan 500 meest recente aliased Experience Cloud Bezoeker IDs, tot de aliastelling 10.000 bereikt. Vervolgens maakt het systeem de door de klant opgegeven id ongeldig en worden de bijbehorende kenmerken niet meer gedistribueerd.
 
 
 
-## Het schema {#task_404AAC411B0D4E129AB3AC8B7BE85859} valideren
+## Het schema valideren {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 
 Met het validatieproces kunt u weergavenamen en beschrijvingen toewijzen aan geüploade kenmerken (tekenreeksen, gehele getallen, getallen, enzovoort). U kunt kenmerken ook verwijderen door het schema bij te werken.
 
@@ -168,7 +167,7 @@ In het volgende voorbeeld wordt een [!DNL Analytics]-segment weergegeven op basi
 
 Wanneer u een segment aan de Experience Cloud publiceert, wordt het beschikbaar in het Publiek van de Experience Cloud en Audience Manager.
 
-Zie [Rapport Klantkenmerken](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in Analytics Help voor meer informatie.
+Zie [Rapport Klantkenmerken](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en) in Analytics Help voor meer informatie.
 
 ## Klantkenmerken gebruiken in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -176,4 +175,4 @@ In [!DNL Target], kunt u een klantenattribuut van &lt;a1 selecteren/> sectie wan
 
 ![](assets/crs-add-attribute-target.png)
 
-Zie [Een nieuw publiek maken](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) in [!DNL Target] Help.
+Zie [Een nieuw publiek maken](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=en) in [!DNL Target] Help.
