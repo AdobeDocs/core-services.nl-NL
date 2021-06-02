@@ -3,17 +3,16 @@ description: Leer hoe u Adobe Ad Cloud-cookies kunt gebruiken om gebeurtenissen 
 title: 'Advertising Cloud Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
+exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
-
 
 # Advertising Cloud Cookies{#advertising-cloud-cookies}
 
@@ -24,7 +23,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
 <table id="table_821F8EBE91F244CBA72B0975B961B908"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Attribute </th> 
+   <th colname="col1" class="entry"> Kenmerk </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
@@ -132,11 +131,11 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p>De datum waarop de synchronisatie wordt uitgevoerd, in de notatie jjjjjjmmdd </p> </td> 
+   <td colname="col2"> <p>De datum waarop de synchronisatie wordt uitgevoerd, in de notatie jjjjjjjjjjmmdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
-   <td colname="col2"> <p>De datum waarop de synchronisatie wordt uitgevoerd, in de notatie jjjjjjmmdd </p> </td> 
+   <td colname="col2"> <p>De datum waarop de synchronisatie wordt uitgevoerd, in de notatie jjjjjjjjjjmmdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
