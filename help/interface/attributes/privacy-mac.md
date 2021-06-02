@@ -4,18 +4,17 @@ keywords: Klantkenmerken;kernservices
 solution: Experience Cloud
 title: 'Privacyoverwegingen voor klantkenmerken '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: Customer Attributes
-topic: Administration
+feature: Klantkenmerken
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 1%
+source-wordcount: '517'
+ht-degree: 0%
 
 ---
-
 
 # Privacyoverwegingen voor klantkenmerken
 
@@ -38,7 +37,7 @@ Adobe beseft dat dit soort marketing- en reclamebesluiten gevolgen kan hebben vo
 
 Bij het uploaden van PII naar Adobe Analytics of Adobe Target raadt Adobe aan dat de klant PII hasht voordat deze naar Adobe wordt geüpload. Onderbroken informatie kan nog steeds worden gebruikt voor analyse en marketing. Ter herinnering: Adobe verbiedt adverteerders gevoelige persoonlijke informatie naar Adobe Analytics en Adobe Target te sturen, zoals medische dossiers, informatie over financiële rekeningen en informatie over minderjarigen.
 
-Adobe raadt zijn adverteerders aan zorgvuldig na te denken over welke informatie geschikt is voor marketingdoeleinden en onder welke omstandigheden de adverteerder toestemming heeft om dergelijke informatie te gebruiken.
+Adobe beveelt aan dat zijn adverteerders zorgvuldig overwegen welke informatie geschikt is om voor marketingdoeleinden te gebruiken en onder welke omstandigheden de adverteerder toestemming heeft om dergelijke informatie te gebruiken.
 
 Aangezien de privacywetgeving van de consument nog steeds in volle gang is, beveelt Adobe aan dat adverteerders drie algemene beginselen in acht nemen:
 
