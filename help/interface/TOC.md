@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud Central-interfacecomponenten '
 breadcrumb-title: Experience Cloud Central-interfacecomponenten
 user-guide-description: Leer over Experience Cloud interface, vorm voorkeur, onderzoek bedrijfsvoorwerpen. Hulp bij gebruikers- en productbeheer, klantkenmerken, Audience Library, cookies en Experience Cloud Assets.
 index: true
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 51137ed0eb8cced37cc5779ca327a33ebf30e65a
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 10%
+source-wordcount: '366'
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 10%
    + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
    + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Privacy-instellingen voor browsercookies inschakelen](cookies/browser-cookie-settings.md)
-   + [Hoe wijzigingen in de Cookie-ondersteuning van derden van invloed zijn op klanten](cookies/cookies-thirdparty.md)
+   + [Hoe de veranderingen van de steun van de derdekoekjes klanten beïnvloeden](cookies/cookies-thirdparty.md)
 + Gebruiker- en productbeheer {#manage-users-and-products}
    + [Gebruikers-id en -producten van Experience Cloud beheren (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Experience Cloud-gebruikersgegevens weergeven (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
@@ -43,8 +43,8 @@ ht-degree: 10%
    + [Upgrade uitvoeren naar Analytics Premium en de Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud-activering {#activation}
    + [Overzicht van activering](activation/activation.md)
-   + [Gebruikershandleiding voor Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [Handleiding voor dynamische tagbeheer](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html)
+   + [Gebruikershandleiding voor Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=en)
+   + [Handleiding voor dynamische tagbeheer](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
    + [Triggers](activation/triggers.md)
 + Experience Cloud-elementen {#assets}
    + [Overzicht van Experience Cloud-elementen](experience-cloud-assets/experience-cloud-assets.md)
@@ -72,10 +72,10 @@ ht-degree: 10%
    + [Ondersteuning voor de California Consumer Privacy Act](attributes/ccpa.md)
    + [Privacyoverwegingen voor klantkenmerken](attributes/privacy-mac.md)
 + Opmerkingen bij de release voor Experience Cloud {#release-notes}
-   + [Nieuwe functies in de Experience Cloud](https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html)
+   + [Nieuwe functies in de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
    + [Opmerkingen bij de cumulatieve release](marketing-cloud-interface/release-notes.md)
 + Meer bronnen {#more-resources}
-   + [Forum](https://forums.adobe.com/community/experience-cloud)
+   + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
    + [DNS-prefetch gebruiken met verschillende oplossingen en services](dns-prefetch.md)
    + [Documentatie-updates](doc-updates.md)
