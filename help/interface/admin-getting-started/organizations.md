@@ -5,23 +5,22 @@ solution: Experience Cloud
 title: 'Organisaties en accountkoppelingen '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 9%
+source-wordcount: '379'
+ht-degree: 10%
 
 ---
-
 
 # Organisaties en accountkoppelingen
 
 Leer over het beheren van organisaties en het verbinden van oplossingsrekeningen met Experience Cloud.
 
-## Uw organisatie {#concept_384D169B0B724B799D573B8ECB5C39BF} identificeren
+## Uw organisatie identificeren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
 Een *organisatie* is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en enig teken-binnen in de Experience Cloud te controleren. De organisatie functioneert als een aanmeldingsbedrijf dat alle producten en oplossingen van Experience Cloud omvat. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben.
 
@@ -67,11 +66,11 @@ Bij Standaardorganisatie en -bestemmingspagina kunt u uw aanmeldingservaring aan
 
 ![](assets/default-organization.png)
 
-## Problemen met het koppelen van accounts oplossen {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
+## Problemen met koppelingen tussen accounts oplossen {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
 Hulp bij problemen die het gevolg zijn van het koppelen van accounts.
 
 Het koppelen van accounts mislukt doorgaans omdat de Adobe ID is gekoppeld aan een vorige gebruiker. Wanneer het koppelen van een account mislukt, kunt u:
 
-* [Neem contact op met de Adobe-ondersteuning](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+* [Neem contact op met de Adobe-ondersteuning](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html).
 * Heb toegang tot uw oplossing gebruikend standaardlogin terwijl de kwestie wordt opgelost.
