@@ -2,26 +2,25 @@
 title: Hoe te om de Attributen van de Klant te gebruiken
 description: Meer informatie over de Customer Attributes-service in Adobe Experience Cloud. Ontdek hoe u klantkenmerkgegevens kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
 solution: Experience Cloud
-feature: Customer Attributes
+feature: Klantkenmerken
 role: Administrator
-topic: Administration
+topic: Beheer
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-translation-type: tm+mt
-source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '472'
 ht-degree: 2%
 
 ---
 
 # Overzicht van klantkenmerken
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Kenmerken van klanten zijn een oudere kernservice, die nu in gebruik is.
+>[!UICONTROL Customer Attributes] is een erfenisdienst , die nu onder toezicht staat .
 
-De Attributen van de klant in Adobe Experience Cloud laten u toe om uw gevangen ondernemingsgegevens van een gegevensbestand van het het relatiebeheer van de klant (CRM) te uploaden. U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in de Experience Cloud en vervolgens de gegevens in Adobe Analytics en Adobe Target gebruiken.
+[!UICONTROL Customer Attributes] in Experience Cloud kunt u uw vastgelegde bedrijfsgegevens uploaden vanuit een CRM-database (Customer relationship management). U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in de Experience Cloud en vervolgens de gegevens in Adobe Analytics en Adobe Target gebruiken.
 
 Navigeer naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]** om deze functie te zoeken.
 
@@ -35,11 +34,11 @@ Navigeer naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UIC
 
    Om te weten of uw bedrijf toegang tot de Attributen van de Klant heeft, zou uw [!DNL Experience Cloud] beheerder zich in [Experience Cloud](https://experience.adobe.com) moeten aanmelden. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Als *Klantkenmerken* als één van [!UICONTROL Product Profiles] toont, bent u klaar om te beginnen.
 
-   De gebruikers die aan de Attributen van de Klant worden toegevoegd zullen [!UICONTROL Customer Attributes] menupunt op de linkerkant van de interface van Experience Cloud zien.
+   Gebruikers die aan de Attributen van de Klant worden toegevoegd zien [!UICONTROL Customer Attributes] menupunt op de linkerkant van de interface van Experience Cloud.
 
 * **Adobe Target** `at.js`  (elke versie) of  `mbox.js` versie 58 of hoger is vereist voor Klantkenmerken.
 
-   Zie [Hoe te om bij.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) of [Implementatie Mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html) op te stellen.
+   Zie [Hoe te om bij.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en) of [Implementatie Mbox.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en) op te stellen.
 
 ## Wat zijn bedrijfsklantgegevens? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -61,5 +60,5 @@ Bijvoorbeeld:
 
 | Oplossing | Voordelen en gebruiksscenario&#39;s |
 |--- |--- |
-| Adobe Analytics | Marketers en analisten kunnen het volgende begrijpen:<ul><li>De online campagnes die het meest effectief zijn met uw klanten op goudniveau.</li><li>De producten die klanten op het niveau van goud naar tegenover producten zoeken die platina-vlakke klanten naar zoeken.</li><li>Of het herontwerp van uw site een positief effect heeft op de conversietarieven voor oudere klanten.</li><li>Welke producten klanten met een lage levenwaarde doen neigen aan onderzoek op mijn plaats.</li></ul> |
+| Adobe Analytics | Marketers en analisten kunnen het volgende begrijpen:<ul><li>De online campagnes die het meest effectief zijn met uw klanten op goudniveau.</li><li>De producten die klanten op het niveau van goud naar tegenover producten zoeken die platina-vlakke klanten naar zoeken.</li><li>Of het herontwerp van uw site een positief effect heeft op de conversietarieven voor oudere klanten.</li><li>De producten die klanten met een lage levenwaarde neigen om op mijn plaats te onderzoeken.</li></ul> |
 | Adobe Target | Met kenmerkgegevens kunnen Adobe Target-gebruikers:<ul><li>Speciale kortingen en aanbiedingen voor leden van loyaliteitsclubs weergeven.</li><li>U kunt duurdere producten aanbevelen aan uw luxe klanten.</li><li>Voor klanten die al e-mailberichten ontvangen, een up-sell-aanbieding weergeven in de ruimte die normaal gesproken is gereserveerd voor e-mailaanmelding</li></ul> |
