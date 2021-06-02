@@ -9,16 +9,16 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '934'
 ht-degree: 3%
 
 ---
 
 # Aanmelden en de instellingen van uw Experience Cloud-profiel beheren
 
-Aanmelden bij de Experience Cloud (in plaats van zich aan te melden bij één oplossing) maakt één aanmelding mogelijk voor alle oplossingen en services die u bezit. In deze Help wordt beschreven hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
+Aanmelden bij Experience Cloud (in plaats van zich aan te melden bij één oplossing) maakt één aanmelding mogelijk voor alle oplossingen en services die u bezit. In deze Help wordt beschreven hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ Meld u aan en controleer of u zich in de juiste [organisatie](../admin-getting-s
 
 | Element | Beschrijving |
 |--- |--- |
-| [Grondbeginselen van Admin Console](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Lees meer over de eerste stappen die u moet uitvoeren om aan de slag te gaan met Experience Cloud-oplossingen. |
+| [Grondbeginselen van Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html) | Meer informatie over de eerste stappen die u moet uitvoeren om aan de slag te gaan met Experience Cloud-oplossingen. |
 | [Identiteit instellen](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html) | Definieer en stel een identiteitssysteem in waarmee uw eindgebruikers worden geverifieerd. |
 | [Gebruikersbeheer](https://helpx.adobe.com/nl/enterprise/using/users.html) | Leer hoe u zich aanmeldt bij de Admin Console en gebruikersmachtigingen en productprofielen voor Experience Cloud beheert. |
 | [Admin Console starten](../admin-getting-started/admin-getting-started.md) | De Admin Console is de centrale plaats voor het beheren van uw gebruikers van Adobe en productrechten over uw volledige organisatie.<br>U kunt zich ook aanmelden bij de Admin Console via een  [directe koppeling](https://adminconsole.adobe.com). |
-| [Creative Cloud-gebruikers beheren](../experience-cloud-assets/t-admin-add-cc-user.md) | Met Experience Cloud Assets kunnen marketers mappen delen, synchroniseren en aan mappen samenwerken met ontwerpers en andere creatieve middelen met behulp van de Creative Cloud. U kunt de Creative Cloud-gebruikers beheren die zijn goedgekeurd om hier met uw organisatie samen te werken. |
+| [Creative Cloud-gebruikers beheren](../experience-cloud-assets/t-admin-add-cc-user.md) | Met Experience Cloud Assets kunnen marketers mappen delen, synchroniseren en aan mappen samenwerken met ontwerpers en andere creatieve elementen met behulp van de Creative Cloud. U kunt de Creative Cloud-gebruikers beheren die zijn goedgekeurd om hier met uw organisatie samen te werken. |
 | [Uw rapportsets toewijzen](../core-services/core-services.md) | (Alleen analyse) Experience Cloud core-services zijn gekoppeld aan een organisatie in plaats van aan een afzonderlijke rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke analytische rapportensuite aan een organisatie worden toegewezen. (Deze taak maakt deel uit van een breder werkschema om Analytics voor kerndiensten ](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) toe te laten).[ |
 | [Organisatie-id](../admin-getting-started/organizations.md) | De *Organisatie-id* vindt u onder aan de pagina Beheer. Deze id is de bijbehorende id van uw Experience Cloud-bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg. |
 
@@ -151,5 +151,5 @@ Voorbeeld-URL:
 | Parameter | Beschrijving | Voorbeeld | Vereist/optioneel |
 |--- |--- |--- |--- |
 | huurderId | Naam van de huurder de gebruiker zou moeten login. | aem62huurder | Optioneel |
-| destURL | De volledige URL naar de plaats waarnaar de gebruiker moet worden doorgestuurd. | https://sc.omniture.com/x/1_7xxzf | Optioneel |
-| oplossingsnaam | Naam van de Oplossing van MAC die de eigenaar van destURL parameter is. Het wordt gebruikt om te verifiëren dat de gebruiker toegang tot de oplossing heeft die de eigenaar van URL is.  Het is de verantwoordelijkheid van de oplossingen om ervoor te zorgen dat de oplossingsnaam synchroon met de destURL parameter is.  Bijvoorbeeld: Als de URL een oplossingsnaam als social bevat en de destURL die wordt opgegeven een analytische URL is, wordt de gebruiker omgeleid naar de URL, zelfs als hij geen toegang heeft tot analysemogelijkheden. MAC verifieert GEEN weer de eigenaar van destURL in synchronisatie met de oplossingsnaam is. | analyse | Vereist als destURL param wordt gebruikt. |
+| destURL | De volledige URL naar de plaats waarnaar de gebruiker moet worden doorgestuurd. | https://sc.omniture.com/login?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Optioneel |
+| oplossingsnaam | Naam van de Oplossing van MAC die de eigenaar van destURL parameter is. Het wordt gebruikt om te verifiëren dat de gebruiker toegang tot de oplossing heeft die de eigenaar van URL is.  Het is de verantwoordelijkheid van de oplossingen om ervoor te zorgen dat de oplossingsnaam synchroon met de destURL parameter is.  Bijvoorbeeld: Als de URL een oplossingsnaam als social bevat en de destURL die wordt opgegeven een analytische URL is, wordt de gebruiker omgeleid naar de URL, zelfs als hij geen toegang heeft tot analysemogelijkheden. MAC verifieert NIET of de eigenaar van destURL synchroon met de oplossingsnaam is. | analyse | Vereist als destURL param wordt gebruikt. |
