@@ -4,26 +4,25 @@ keywords: Klantkenmerken;kernservices
 solution: Experience Cloud
 title: 'Meer informatie over gegevensbestanden en gegevensbronnen voor klantkenmerken '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-feature: Customer Attributes
-topic: Administration
+feature: Klantkenmerken
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
 
-
 # Gegevensbestand en gegevensbronnen voor klantkenmerken
 
-Gegevensbestandsvereisten en meerdere gegevensbronnen voor het uploaden van klantkenmerken naar de Experience Cloud.
+Gegevensbestandsvereisten en meerdere gegevensbronnen voor het uploaden van klantkenmerken naar Experience Cloud.
 
-U zult toegang tot CRM of gelijkaardige gegevens van uw onderneming nodig hebben. De gegevens die u uploadt naar de Experience Cloud moeten een `.csv` bestand zijn. Als u uploadt via FTP of sFTP, uploadt u ook een `.fin` dossier.
+U hebt toegang tot CRM of vergelijkbare gegevens van uw onderneming nodig. De gegevens die u uploadt naar de Experience Cloud moeten een `.csv` bestand zijn. Als u uploadt via FTP of sFTP, uploadt u ook een `.fin` dossier.
 
-Kenmerken van klanten zijn ontworpen om enkele bestanden per dag af te handelen. Om de kwestie te verlichten van het hebben van een groot aantal kleine dossiers vertragend verwerking, worden de dossiers die binnen 30 minuten van een vorige partij van de zelfde organisatie worden verzonden verpletterd aan een laag-prioritaire rij.
+Kenmerken van klanten zijn ontworpen om enkele bestanden per dag af te handelen. Om de kwestie te verlichten van het hebben van vele kleine dossiers vertragend verwerking, worden de dossiers die binnen 30 minuten van een vorige partij van de zelfde organisatie worden verzonden verpletterd aan een laag-prioritaire rij.
 
 ## Toegestane bestandstypen en vereisten voor naamgeving {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -37,7 +36,7 @@ Kenmerken van klanten zijn ontworpen om enkele bestanden per dag af te handelen.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv  </span> </p> </td> 
-   <td colname="col2"> <p>Een bestand met door komma's gescheiden waarden (bijvoorbeeld een bestand dat in Excel is gemaakt). Dit is het dossier dat de gegevens van het klantenattribuut bevat. </p> <p> <b>Naamgevingsvereisten:</b> zorg ervoor dat bestandsextensies geen witruimten bevatten. </p> </td> 
+   <td colname="col2"> <p>Een bestand met door komma's gescheiden waarden (bijvoorbeeld een bestand dat in Excel is gemaakt). Dit bestand bevat de klantkenmerkgegevens. </p> <p> <b>Naamgevingsvereisten:</b> zorg ervoor dat bestandsextensies geen witruimten bevatten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin  </span> </p> </td> 
@@ -50,7 +49,7 @@ Kenmerken van klanten zijn ontworpen om enkele bestanden per dag af te handelen.
  </tbody> 
 </table>
 
-## Vereisten voor de bestanden met kenmerkgegevens {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## Vereisten voor de kenmerkgegevensbestanden {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
 
 **Voorbeeld-CSV**
 
@@ -74,11 +73,11 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Slepen en neerzetten </p> </td> 
-   <td colname="col2"> <p>Het bestand voor slepen en neerzetten moet kleiner zijn dan 100 megabytes. </p> <p>Het <span class="filepath"> .fin </span> dossier wordt niet vereist wanneer het gebruiken van de belemmering-en-dalings uploadmethode. </p> </td> 
+   <td colname="col2"> <p>Het bestand voor slepen en neerzetten moet kleiner zijn dan 100 MB. </p> <p>Het <span class="filepath"> .fin </span> dossier wordt niet vereist wanneer het gebruiken van de belemmering-en-dalings uploadmethode. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kolom Klant-id </p> </td> 
-   <td colname="col2"> <p> De eerste kolom moet een unieke klant-id zijn. Gebruikte identiteitskaart zou aan identiteitskaart moeten beantwoorden die aan de Dienst van identiteitskaart van de Experience Cloud wordt overgegaan. </p> <p>Voor Analytics wordt de id opgeslagen in een proxy of eVar. </p> <p>Voor Target, de waarde setCustomerID. (Zie <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synchroniseert de klant-id </a>) </p> <p> Deze klant-id is de unieke id die uw CRM gebruikt voor elke persoon in uw database. De resterende kolommen zijn attributen die uit uw CRM komen. U bepaalt hoeveel kenmerken u wilt uploaden. </p> <p>U kunt goed leesbare namen aanbevelen voor de kolomkoppen, maar deze zijn niet vereist. Wanneer u het schema na het uploaden valideert, kunt u vriendelijke namen toewijzen aan de geüploade rijen en kolommen. </p> <p> <b>Informatie over Customer ID's</b> </p> <p>Een onderneming gebruikt doorgaans een klant-id van een CRM-systeem. Deze id wordt ingesteld met behulp van de <span class="codeph"> setCustomerIDs </span>-oproep wanneer een persoon zich aanmeldt. Deze id wordt ook gebruikt als de sleutel in het CRM-bestand dat naar de Experience Cloud wordt geüpload. Een <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias-id </a> is een vriendelijke naam voor een gegevensopslag in Audience Manager, waar de aliasgegevens worden opgeslagen. Het systeem verzendt aliassen naar deze gegevensopslag (via setCustomerIDs). Het CRM-bestand wordt toegepast op de gegevens in die gegevensopslag. </p> <p>Voor <span class="codeph"> setCustomerIDs </span> informatie, zie <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Klant IDs en de Status van de Authentificatie </a>. </p> </td> 
+   <td colname="col2"> <p> De eerste kolom moet een unieke klant-id zijn. Gebruikte identiteitskaart zou aan identiteitskaart moeten beantwoorden die aan de Dienst van identiteitskaart van de Experience Cloud wordt overgegaan. </p> <p>Voor Analytics wordt de id opgeslagen in een proxy of eVar. </p> <p>Voor Target, de waarde setCustomerID. (Zie <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synchroniseert de klant-id </a>) </p> <p> Deze klant-id is de unieke id die uw CRM gebruikt voor elke persoon in uw database. De resterende kolommen zijn attributen die uit uw CRM komen. U kiest hoeveel kenmerken u wilt uploaden. </p> <p>U kunt goed leesbare namen aanbevelen voor de kolomkoppen, maar deze zijn niet vereist. Wanneer u het schema na het uploaden valideert, kunt u vriendelijke namen toewijzen aan de geüploade rijen en kolommen. </p> <p> <b>Informatie over Customer ID's</b> </p> <p>Een onderneming gebruikt doorgaans een klant-id van een CRM-systeem. Deze id wordt ingesteld met behulp van de <span class="codeph"> setCustomerIDs </span>-oproep wanneer een persoon zich aanmeldt. Deze id wordt ook gebruikt als de sleutel in het CRM-bestand dat naar de Experience Cloud wordt geüpload. Een <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias-id </a> is een vriendelijke naam voor een gegevensopslag in Audience Manager, waar de aliasgegevens worden opgeslagen. Het systeem verzendt aliassen naar deze gegevensopslag (via setCustomerIDs). Het CRM-bestand wordt toegepast op de gegevens in die gegevensopslag. </p> <p>Voor <span class="codeph"> setCustomerIDs </span> informatie, zie <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external"> Klant IDs en de Status van de Authentificatie </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Volgende koppen en kolommen </p> </td> 
@@ -122,7 +121,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Meerdere bestanden </p> </td> 
-   <td colname="col2"> <p>Als u kenmerkgegevens van klanten uploadt en u meerdere bestanden hebt die u snel na elkaar wilt uploaden, en vooral als de bestanden groot zijn, moet u controleren of het vorige bestand is verwerkt voordat u het volgende bestand uploadt. U kunt dit controleren door te controleren wanneer het vorige bestand is verplaatst naar de verwerkte of mislukte map in uw FTP-account met klantkenmerken. </p> <p> Wanneer u een groot bestand in kleinere bestanden splitst en snel na elkaar verzendt, kan dit de verwerking vertragen, tenzij u ervoor kunt zorgen dat elk bestand volledig wordt verwerkt voordat het volgende wordt verzonden. </p> </td> 
+   <td colname="col2"> <p>Als u kenmerkgegevens van klanten uploadt en u meerdere bestanden hebt die u snel na elkaar wilt uploaden, en vooral als de bestanden groot zijn, moet u controleren of het vorige bestand is verwerkt voordat u het volgende bestand uploadt. U kunt dit controleren door te controleren wanneer het vorige bestand is verplaatst naar de verwerkte of mislukte map in uw FTP-account [!UICONTROL-klantkenmerken]. </p> <p> Wanneer u een groot bestand in kleinere bestanden splitst en snel na elkaar verzendt, kan dit de verwerking vertragen, tenzij u ervoor kunt zorgen dat elk bestand wordt verwerkt voordat het volgende bestand wordt verzonden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tekencodering </p> </td> 
@@ -130,7 +129,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historische gegevens </p> </td> 
-   <td colname="col2"> <p> Kenmerken van de klant zijn gekoppeld aan het onderliggende bezoekersprofiel in Analytics. De klantkenmerken zijn daarom gekoppeld aan de bezoeker gedurende de gehele levensduur van dat bezoekersprofiel in Analytics. Dit omvat gedrag dat voorkwam alvorens de klant voor het eerst het programma opende. </p> <p> Als u de backfill methode van het gegevenspakhuis gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op analytische identiteitskaart (HULP) gebaseerd is. Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op Experience Cloud identiteitskaart (MID) gebaseerd is. </p> </td> 
+   <td colname="col2"> <p> Klantkenmerken zijn gekoppeld aan het onderliggende bezoekersprofiel in [!DNL Analytics]. Als zodanig zijn [!UICONTROL-klantkenmerken] gedurende de gehele levensduur van dat bezoekersprofiel gekoppeld aan de bezoeker in [!DNL-analyse]. Dit profiel bevat gedrag dat is opgetreden voordat de klant zich voor het eerst heeft aangemeld. </p> <p> Als u de backfill methode van de Data Warehouse gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op analytics ID (HULP) gebaseerd is. Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op Experience Cloud identiteitskaart (MID) gebaseerd is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gegevensfeeds </p> </td> 
@@ -143,7 +142,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
 
 Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de klantenattributen, is er een vertraging rond één uur alvorens IDs met de nieuwe gegevensbron begint te synchroniseren.
 
-Alias ID voor elke bron van klantkenmerken moet uniek zijn. Als u meerdere gegevensbronnen hebt die dezelfde id gebruiken, moeten deze als volgt worden ingesteld:
+Alias ID voor elke bron van klantkenmerken moet uniek zijn. Als u meerdere gegevensbronnen hebt die dezelfde id gebruiken, kunnen deze als volgt worden ingesteld:
 
 **In VisitorAPI.js of het gereedschap Experience Cloud-id in dynamisch tagbeheer:**
 
@@ -156,7 +155,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(Zie [Klantnamen en verificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) voor meer informatie.)
+(Zie [Klantnamen en verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) voor meer informatie.)
 
 In **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
