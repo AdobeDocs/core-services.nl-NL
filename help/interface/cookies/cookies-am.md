@@ -5,17 +5,16 @@ solution: Experience Cloud, Audience Manager
 title: 'Audience Manager Cookies '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 3%
+source-wordcount: '611'
+ht-degree: 2%
 
 ---
-
 
 # Cookies Audience Manager{#audience-manager-cookies}
 
@@ -26,18 +25,18 @@ Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende funct
 <table id="table_1CCF7EA2BC9E421F8DEECA5F611E33F6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Attribute </th> 
+   <th colname="col1" class="entry"> Kenmerk </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Doel</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> stelt dit cookie zo in dat een unieke id wordt toegewezen aan een sitebezoeker. De <span class="wintitle"> demdex </span> cookie helpt <span class="keyword"> Audience Manger </span> basisfuncties uit te voeren zoals bezoekersidentificatie, ID-synchronisatie, segmentatie, modellering, rapportage, enz. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> stelt dit cookie zo in dat een unieke id wordt toegewezen aan een sitebezoeker. De <span class="wintitle"> demdex </span> cookie helpt <span class="keyword"> Audience Manger </span> basisfuncties uit te voeren, zoals bezoekersidentificatie, ID-synchronisatie, segmentatie, modellering, rapportage, enzovoort. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhoud</b> </p> </td> 
-   <td colname="col2"> <p>Het <span class="wintitle"> demdex </span>-cookie bevat een Unique User ID (UUID), zoals in het onderstaande voorbeeld wordt getoond: </p> <p> <span class="codeph"> 0615130422776972043303923517820449977  </span> </p> <p>Zie ook <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external"> Index van id's in Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>Het <span class="wintitle"> demdex </span>-cookie bevat een Unique User ID (UUID), zoals in het onderstaande voorbeeld wordt getoond: </p> <p> <span class="codeph"> 0615130422776972043303923517820449977  </span> </p> <p>Zie ook <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en" format="https" scope="external"> Index van id's in Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Overige kenmerken</b> </p> </td> 
@@ -85,7 +84,7 @@ Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende funct
 
 Syntaxis gegevens dextp Cookie:
 
-De volgende lijst maakt een lijst en bepaalt de elementen in een [!DNL dextp] koekje door plaats in het gegevenskoord.
+De volgende lijst maakt een lijst en bepaalt de elementen in een `dextp` koekje door plaats in het gegevenskoord.
 
 <table id="table_BE00604B97F24F5A94AA4F566063D785"> 
  <thead> 
@@ -130,7 +129,7 @@ De volgende lijst maakt een lijst en bepaalt de elementen in een [!DNL dextp] ko
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Doel</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> stelt dit cookie in wanneer er een fout optreedt bij het verzenden van gegevens naar een  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external"> doel  </a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> stelt dit cookie in wanneer er een fout optreedt bij het verzenden van gegevens naar een  <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=en" format="https" scope="external"> doel  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhoud</b> </p> </td> 
@@ -153,4 +152,4 @@ De volgende lijst maakt een lijst en bepaalt de elementen in een [!DNL dextp] ko
 
 **_dp Cookie**
 
-Dit is een tijdelijke cookie. [!DNL Audience Manager] probeert om het  [!DNL _dp] koekje te plaatsen om te bepalen of het andere koekjes in het demdex.net domein in een derdecontext kan plaatsen. Wanneer [!DNL _dp] wordt geplaatst bevat het een waarde van 1. [!DNL Audience Manager] leest deze waarde en verwijdert het cookie onmiddellijk. Als het [!DNL _dp] cookie niet aanwezig is, [!DNL Audience Manager] weet dat het geen cookies kan instellen.
+Deze cookie is tijdelijk. [!DNL Audience Manager] probeert om het  `_dp` koekje te plaatsen om te bepalen of het andere koekjes in het demdex.net domein in een derdecontext kan plaatsen. Wanneer `_dp` wordt geplaatst bevat het een waarde van 1. [!DNL Audience Manager] leest deze waarde en verwijdert het cookie onmiddellijk. Als het `_dp` cookie niet aanwezig is, [!DNL Audience Manager] weet dat het geen cookies kan instellen.
