@@ -4,22 +4,21 @@ keywords: kerndiensten
 solution: Experience Cloud
 title: 'Een doelgroep maken '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: Audience Library
-topic: Administration
+feature: Auditiebibliotheek
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
 
-
 # Een doelgroep maken
 
-Leer hoe te om attributenregels te gebruiken om een publiek tot stand te brengen en een samengesteld publiek in de Experience Cloud te bepalen.
+Leer hoe te om attributenregels te gebruiken om een publiek tot stand te brengen en een samengesteld publiek in Experience Cloud te bepalen.
 
 Dit artikel helpt u begrijpen hoe te:
 
@@ -52,7 +51,7 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 1. Geef op de pagina [!UICONTROL Create New Audience] een titel en een beschrijving op.
 1. Selecteer onder [!UICONTROL Rules] een kenmerkbron:
 
-   * **[!UICONTROL Real-Time Analytics Data:]** (of Raw-gegevens) Dit zijn kenmerkgegevens die zijn afgeleid van verzoeken om analytische afbeeldingen in realtime en omvat gegevens zoals eVars en gebeurtenissen. U moet een rapportreeks selecteren wanneer het gebruiken van deze attributenbron, en de dimensie of de gebeurtenis bepalen om te omvatten. Deze selectie van de rapportreeks verstrekt de veranderlijke structuur die door de rapportreeks wordt gebruikt.
+   * **[!UICONTROL Real-Time Analytics Data:]** (of Raw-gegevens) Dit zijn kenmerkgegevens die zijn afgeleid van Real-Time Analytics-afbeeldingsaanvragen en die gegevens bevatten zoals eVars en gebeurtenissen. U moet een rapportreeks selecteren wanneer het gebruiken van deze attributenbron, en de dimensie of de gebeurtenis bepalen om te omvatten. Deze selectie van de rapportreeks verstrekt de veranderlijke structuur die door de rapportreeks wordt gebruikt.
    >[!NOTE]
    >
    >Als gevolg van caching, vereisen de geschrapte rapportreeksen in Analytics 12 uur alvorens de schrapping in de Experience Cloud wordt getoond.
