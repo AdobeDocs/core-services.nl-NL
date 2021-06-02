@@ -5,17 +5,16 @@ solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookies '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 feature: Cookies
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
-
 
 # Scene7 Cookies{#scene-cookies}
 
@@ -31,13 +30,13 @@ Voor AS2-viewers, cookies:
 Voor AS2 Flash eCatalog-viewer, cookies:
 
 * Door de gebruiker gegenereerde inhoud opslaan (met name inhoud die door de gebruiker is ingevoerd in de functie &quot;sticky notes&quot; van de catalogusviewer). Deze inhoud wordt hersteld wanneer de gebruiker een sessie hervat.
-* Wanneer de gebruiker een e-mail initieert om de catalogus met een andere gebruiker te delen, wordt de inhoud van de sticky notes van het tweede AS2-vieweropsommingsteken naar onze servers gekopieerd om het aan de ontvanger te verstrekken. Wanneer de ontvanger de viewersessie start, wordt de inhoud van de plaknotities opgehaald van de server en gekopieerd naar een cookie. Deze functie wordt weinig gebruikt, dus de functie verloopt niet en de inhoud van de schaal wordt niet verwijderd. Op dit ogenblik blijft het op de servers voor onbepaalde tijd voortbestaan.
+* Wanneer de gebruiker een e-mail initieert om de catalogus met een andere gebruiker te delen, wordt de inhoud van de sticky notes van het tweede AS2-vieweropsommingsteken naar onze servers gekopieerd om het aan de ontvanger te verstrekken. Wanneer de ontvanger de viewersessie start, wordt de inhoud van de plaknotities opgehaald van de server en gekopieerd naar een cookie. Deze functie wordt weinig gebruikt, dus de functie verloopt niet en de inhoud van de schaal wordt niet verwijderd. Momenteel, blijft het op de servers voor onbepaalde tijd voortbestaan.
 
 De nieuwere AS3-viewers implementeren sessieresistentie niet.
 
 **Naam cookie: VatLogin.jsp**
 
-| Attribute | Beschrijving |
+| Kenmerk | Beschrijving |
 |---|---|
 | Opgeslagen informatie | Stelt het sessiecookie in. AuthFilter ingebed in IPS ImageServer (IS, IR, en ook SWFs/skins en videocontexten) gebruikt het koekje voor toegangsvergunning. Indien aanwezig, staat het HTTP- verzoeken toe om door te gaan. Anders wordt onbevoegd geretourneerd. |
 | Verlopen | Dit cookie is een sessiecookie. De huidige sessievervaldatum wordt ingesteld op 45 minuten in de Scene7 IPS [!DNL web.xml]. |
@@ -85,4 +84,3 @@ Browsercookies worden door verouderde DHTML-viewers gebruikt voor het opslaan va
   </tr> 
  </tbody> 
 </table>
-
