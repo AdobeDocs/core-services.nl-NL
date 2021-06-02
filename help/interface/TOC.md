@@ -1,19 +1,18 @@
 ---
 audience: administrator
-user-guide-title: 'Adobe Experience Cloud Services and Administration '
-breadcrumb-title: Experience Cloud Services en beheer
-user-guide-description: Leer hoe u gebruikers en producten in Adobe Experience Cloud kunt beheren en hoe u de Customer Attributes en Audience Library-services kunt gebruiken. Meer informatie over cookies en Experience Cloud Assets.
-user-guide-url: https://www.adobe.com
+user-guide-title: 'Experience Cloud Central-interfacecomponenten '
+breadcrumb-title: Experience Cloud Central-interfacecomponenten
+user-guide-description: Leer over Experience Cloud interface, vorm voorkeur, onderzoek bedrijfsvoorwerpen. Hulp bij gebruikers- en productbeheer, klantkenmerken, Audience Library, cookies en Experience Cloud Assets.
 index: true
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 10%
 
 ---
 
 
-# Experience Cloud Services en beheer {#interface}
+# Experience Cloud Central-interfacecomponenten {#interface}
 
 + [Experience Cloud Central-interfacecomponenten](experience-cloud.md)
 + Experience Cloud-services {#about-core-services}
