@@ -1,36 +1,35 @@
 ---
 title: 'Klantkenmerken Ondersteuning voor algemene gegevensbeschermingsverordening '
 description: Meer informatie over Customer Attributes Support for General Data Protection Regulation
-feature: Customer Attributes
-topic: Administration
+feature: Klantkenmerken
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 1%
 
 ---
 
-
 # Klantenkenmerkondersteuning voor algemene gegevensbeschermingsverordening
 
-Op deze pagina wordt beschreven hoe Customer Attributes General Data Protection Regulation (GDPR) ondersteunt.
+Op deze pagina wordt beschreven hoe [!UICONTROL Customer Attributes] algemene gegevensbeschermingsverordening (GDPR) ondersteunt.
 
 >[!IMPORTANT]
 >
 >De inhoud van dit document is geen juridisch advies of is bedoeld ter vervanging van juridisch advies. Raadpleeg uw juridisch adviseur voor advies over de GDPR.
 
-De [Algemene gegevensbeschermingsverordening](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html), een wet die van kracht is op 25 mei 2018, geeft alle personen (betrokkenen) binnen de grenzen van de Europese Unie (EU) controle op hun persoonsgegevens. Het vereenvoudigt ook de regelgeving voor het internationale bedrijfsleven. Deze wet is van toepassing op alle ondernemingen (voor de verwerking van persoonsgegevens verantwoordelijke personen) die goederen of diensten aanbieden, het gedrag van personen binnen de grenzen van de EU volgen of persoonsgegevens verzamelen op het tijdstip waarop hun persoonsgegevens worden verwerkt, ongeacht de bedrijfslocatie van de voor de verwerking verantwoordelijke.
+De [Algemene gegevensbeschermingsverordening](https://business.adobe.com/privacy/general-data-protection-regulation.html), een wet die van kracht is op 25 mei 2018, geeft alle personen (betrokkenen) binnen de grenzen van de Europese Unie (EU) controle op hun persoonsgegevens. Het vereenvoudigt ook de regelgeving voor het internationale bedrijfsleven. Deze wet is van toepassing op alle ondernemingen (voor de verwerking van persoonsgegevens verantwoordelijke personen) die goederen of diensten aanbieden, het gedrag van personen binnen de grenzen van de EU volgen of persoonsgegevens verzamelen op het tijdstip waarop hun persoonsgegevens worden verwerkt, ongeacht de bedrijfslocatie van de voor de verwerking verantwoordelijke.
 
 Adobe Experience Cloud treedt op als een gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
 In dit document wordt beschreven hoe [!UICONTROL Customer Attributes] de toegang tot en het verwijderen van GDPR-gegevens van de betrokkenen via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service ondersteunt.
 
-Voor meer informatie over wat GDPR voor uw zaken betekent, zie [GDPR en Uw Zaken](https://www.adobe.com/nl/privacy/general-data-protection-regulation.html).
+Voor meer informatie over wat GDPR voor uw zaken betekent, zie [GDPR en Uw Zaken](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Vereiste Opstelling om verzoeken voor [!UICONTROL Customer Attributes] te verzenden
+## Vereiste installatie voor het verzenden van aanvragen voor [!UICONTROL Customer Attributes]
 
 Om verzoeken om tot gegevens voor [!UICONTROL Customer Attributes] toegang te hebben en te schrappen, zult u moeten:
 
