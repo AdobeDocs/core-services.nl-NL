@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 Informatie over updates van de productdocumentatie van Experience Cloud.
 
-**Bijgewerkt: 26-05-2021**
+**Bijgewerkt: 01-06-2021**
 
-[Experience Cloud interface](experience-cloud-interface.md) toegevoegd voor hulp bij de toegang tot Experience Cloud, globaal onderzoek, voorkeur, en berichten.
+Updated [landingspagina](experience-cloud.md) with new help on access Experience Cloud, global search, preferences, and notifications.
 
 **Bijgewerkt: 19-08-2020**
 
