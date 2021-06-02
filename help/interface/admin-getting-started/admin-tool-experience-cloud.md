@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: 'Gebruikers van Experience Cloud en gebruikersgegevens weergeven '
 index: true
 feature: Admin Console
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
+source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1179'
 ht-degree: 1%
 
 ---
-
 
 # Gebruikers en beleidsregels voor Experience Cloud weergeven in het beheerprogramma
 
@@ -54,8 +53,8 @@ Deze pagina toont volledige lijst van gebruikers met toegang tot Experience Clou
 U kunt de kolommen doorzoeken, sorteren of filteren om de gebruikerslijst aan te passen.
 
 * Zoeken naar gebruikers op naam of e-mail. Zoekopdrachten komen overeen met de tekenreeks die u typt.
-* Sorteer de kolom door waarden op te nemen of af te nemen. Dit geldt voor [!UICONTROL Name,] [!UICONTROL Email,] en [!UICONTROL Last Login] Kolommen.
-* Klik op het pictogram **[!UICONTROL Filter By]** om meerdere filters toe te passen op gebruikers met specifieke criteria. Wanneer er meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten e-maildomein `AND` ID TYPE `AND` Oplossing.
+* Sorteer de kolom door waarden op te nemen of af te nemen. Deze sortering is van toepassing op [!UICONTROL Name,] [!UICONTROL Email,] en [!UICONTROL Last Login] Kolommen.
+* Als u meerdere filters wilt toepassen op gebruikers met specifieke criteria, klikt u op het pictogram **[!UICONTROL Filter By]**. Wanneer er meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten e-maildomein `AND` ID TYPE `AND` Oplossing.
 
 | Element | Beschrijving |
 |---------|----------|
@@ -78,7 +77,7 @@ In deze sectie wordt een overzicht van de gebruikersaccount weergegeven, waarond
 * Avatar gebruiker en de Badge van de Admin van het Systeem (indien van toepassing)
 * Naam
 * Email
-* Gebruikersnaam (gebruikersnamen van Federated ID-accounts verschillen mogelijk van e-mailadres)
+* Gebruikersnaam (gebruikersnamen van Federated ID-accounts kunnen verschillen van die van het e-mailadres)
 * [Type id](https://helpx.adobe.com/enterprise/using/identity.html)
 * Land
 * Laatste aanmelding
@@ -109,7 +108,7 @@ Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw 
 |---|---|
 | [!UICONTROL Product Profile] | De naam van het productprofiel. Kolom kan A->Z, Z->A worden gesorteerd. Klik op de naam van een productprofiel voor meer informatie over het beleid. |
 | [!UICONTROL Product] | Het product dat aan het productprofiel is gekoppeld. Kolom kan A->Z, Z->A worden gesorteerd. |
-| [!UICONTROL Instance] | Het exemplaar (bijvoorbeeld huurder of login bedrijf) verbonden aan productprofiel. Producten die geen unieke exemplaren of huurders hebben, geven een &quot; - &quot; voor de waarde weer. Kolom kan A->Z, Z->A worden gesorteerd. |
+| [!UICONTROL Instance] | Het exemplaar (bijvoorbeeld, huurder of login bedrijf) verbonden aan productprofiel. Op producten die geen unieke exemplaren of huurders hebben, wordt &#39; - &#39; voor de waarde weergegeven. Kolom kan A->Z, Z->A worden gesorteerd. |
 | [!UICONTROL Number of Users] | Unieke telling van gebruikers die zijn gekoppeld aan het productprofiel, inclusief rechtstreekse toewijzing en groepstoewijzing. Kolom kan het kleinst tot het grootst of het grootst tot het kleinst worden gesorteerd. |
 | [!UICONTROL Number of Developers] | Aantal rollen van ontwikkelaars verbonden aan het productprofiel. Kolom kan het kleinst tot het grootst of het grootst tot het kleinst worden gesorteerd. |
 
@@ -118,7 +117,7 @@ Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw 
 U kunt de kolommen zoeken, sorteren of filteren om de lijst met beleidsregels aan te passen.
 
 * Zoek naar productprofielen op naam. Zoekopdrachten komen overeen met de tekenreeks die u typt.
-* Sorteer de kolom door waarden op te nemen of af te nemen. Dit geldt voor [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] en [!UICONTROL Number of Developers,] Kolommen.
+* Sorteer de kolom door waarden op te nemen of af te nemen. Deze sortering is van toepassing op [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] en [!UICONTROL Number of Developers,] Kolommen.
 * Klik op het pictogram **[!UICONTROL Filter By]** om meerdere filters toe te passen op de lijst met productprofielen met specifieke criteria. Wanneer de veelvoudige filtercategorieën worden toegepast, bevatten de onderzoeken Groepen verbonden `AND` Instantie `AND` Oplossing.
 
 | Element | Beschrijving |
