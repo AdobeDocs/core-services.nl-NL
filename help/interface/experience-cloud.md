@@ -8,7 +8,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 2%
@@ -63,11 +63,12 @@ Met het menu [!UICONTROL Help] hebt u ook toegang tot:
 
 ## Globaal zoeken naar objecten en entiteiten
 
-Met de algemene zoekopdracht kunt u zoeken naar elk doorzoekbaar bedrijfsobject of elke gewenste entiteit in een naadloze, consistente, één-klik-ervaring. Deze zoekopdracht is gericht op de onlangs geopende objecten.
+Met de algemene zoekopdracht kunt u doorzoekbare zakelijke objecten of entiteiten zoeken in een naadloze, consistente, één-klik-ervaring. Deze zoekopdracht is gericht op de onlangs geopende objecten.
 
 ![](assets/platform-search.png)
 
-Deze zoekopdracht is alleen beschikbaar voor gebruikers in de Experience Platform.
+>!![NOTE]
+De algemene zoekopdracht is alleen beschikbaar voor gebruikers in de Experience Platform.
 
 ## Accountvoorkeuren beheren {#preferences}
 
@@ -122,9 +123,9 @@ Verwante hulplijnen voor Experience Cloud zijn:
 
 * [Adobe mobiel](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
 * [Experience Platform coop-grafiek](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
-* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
-* [Gegevensverzameling/starten van Experience Platform](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Gegevensverzameling/starten van Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [API voor algemene gegevensbeschermingsverordening (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
@@ -139,10 +140,10 @@ Profiteer van zelfstudiemateriaal en snelle zelfstudies in Experience League:
 
 ## Opmerkingen bij de release en verwante Experience Cloud Help
 
-* [Productdocumentatie voor alle Experience Cloud-oplossingen](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en)  - Blader voor hulp naar Experience Cloud Learn &amp; Support
+* [Productdocumentatie voor alle Experience Cloud-oplossingen](https://experienceleague.adobe.com/docs/home.html?lang=en)  - Blader voor hulp naar Experience Cloud Learn &amp; Support
 * [Opmerkingen bij de release en productupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) : Wat is er nieuw in de Experience Cloud en meld u aan om updates te krijgen
-* [Tutorials voor de implementatie van kernservices](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)  - Ontdek video&#39;s en zelfstudies over kernservices
+* [Tutorials voor de implementatie van kernservices](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)  - Ontdek video&#39;s en zelfstudies over kernservices
 * [Deskundige hulp bij Experience League](https://experienceleague.adobe.com/)  - Leren met instructies van experts en de community
 * [Onderwijs en training](https://helpx.adobe.com/nl/learning.html?promoid=KAUDK)  - Neem contact op met Adobe om ervoor te zorgen dat u optimaal profiteert van Adobe
-* [Customer Experience Blog](https://blog.adobe.com/customer-experience/)  - Lees de Experience Cloud-blog
+* [Customer Experience Blog](https://blog.adobe.com/en/topics/digital-transformation.html)  - Lees de Experience Cloud-blog
 * [Klantenservice](https://experienceleague.adobe.com/?support-solution=General#support)  - Contact opnemen met de Adobe Klantenservice
