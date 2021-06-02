@@ -7,60 +7,59 @@ solution: Experience Cloud Services
 title: Activeringsservices in Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 4%
+source-wordcount: '258'
+ht-degree: 1%
 
 ---
 
-
 # Activering
 
-Activering omvat het nieuwste product voor tagbeheer, Experience Platform Launch, Dynamic Tag Management (DTM) en Triggers.
+De activering omvat het recentste product van het markeringsbeheer genoemd Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) en Experience Cloud [!UICONTROL Triggers].
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
 Implementeer en beheer de analytische, marketing- en advertentietags die nodig zijn om de relevante ervaringen van klanten te verbeteren.
 
-Zie [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+Zie [Experience Platform Launch QuickStart Guide](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en).
 
-## Dynamisch tagbeheer {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
+<!-- ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-Als u Dynamic Tag Management wilt starten, klikt u op **[!UICONTROL Activation]** en verzendt u een aanvraag naar het Adobe-inrichtingsteam. U moet uw aanmeldingsgegevens binnen een tot twee werkdagen ontvangen.
+To launch Dynamic Tag Management, click **[!UICONTROL Activation]** and send a request to the Adobe provisioning team. You should receive your login credentials within one to two business days. 
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Taak </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
+   <th colname="col1" class="entry"> Task </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Adobe Analytics implementeren  </a> </p> </td> 
-   <td colname="col2"> <p> Stapsgewijze instructies voor het toevoegen van Adobe Analytics met gebruik van Adobe Dynamic Tag Management </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Deploy Adobe Analytics </a> </p> </td> 
+   <td colname="col2"> <p> Step-by-step instructions to add Adobe Analytics using Adobe Dynamic Tag Management </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementatiehandleidingen voor Experience Cloud ID-service  </a> </p> </td> 
-   <td colname="col2"> <p>De Experience Cloud ID-service maakt kernfunctionaliteit mogelijk voor alle Experience Cloud-oplossingen (inclusief klantkenmerken, het delen van het publiek en triggers). Adobe raadt u ten zeerste aan de id-service te implementeren en deze functies te benutten. </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementation Guides for Experience Cloud ID Service </a> </p> </td> 
+   <td colname="col2"> <p>The Experience Cloud ID Service enables core functionality across Experience Cloud solutions (including Customer Attributes, audience sharing, and triggers). Adobe strongly recommends implementing the ID service and take advantage of these features. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamische productdocumentatie voor tagbeheer  </a> </p> </td> 
-   <td colname="col2"> <p>Meer informatie over het implementeren van Experience Cloud-oplossingen met Dynamic Tag Management. </p> </td>
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management Product Documentation </a> </p> </td> 
+   <td colname="col2"> <p>Learn more about deploying Experience Cloud solutions with Dynamic Tag Management. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Als u hulp bij het uitvoeren van dynamisch markeringsbeheer wilt aanmoedigen wij u om uw Manager van de Rekening voor informatie over het Adobe Globale dienstenaanbod van de Diensten, of het dienstenaanbod van de implementatiepartner te contacteren. U kunt ook contact met ons opnemen via de hashtag #DTM op [@AdobeExpCare](https://twitter.com/AdobeExpCare).
+If you want help implementing dynamic tag management we encourage you to contact your Account Manager for information on Adobe Global Services offerings, or implementation partner offerings. Please also feel free to contact us at [@AdobeExpCare](https://twitter.com/AdobeExpCare) with hashtag #DTM. -->
 
-## Experience Cloud Triggers {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
+## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-** Triggersenables marketers om zeer belangrijk consumentengedrag te bepalen en te controleren, en dan dwars-oplossing mededeling voor gebruik in real time besluiten en verpersoonlijking te produceren.
+[!UICONTROL Experience Cloud Triggers] laat marketers toe om zeer belangrijk consumentengedrag te bepalen en te controleren, en dan dwars-oplossingsmededeling voor gebruik in real time besluiten en verpersoonlijking te produceren.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -76,7 +75,7 @@ Als u hulp bij het uitvoeren van dynamisch markeringsbeheer wilt aanmoedigen wij
   </tr>
   <tr> 
    <td colname="col1"> <p>Triggers gebruiken in Adobe Campaign </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introduceert een integratie met de nieuwe Trigger-service. Met deze service kunnen zakelijke gebruikers eenvoudig triggers definiëren op basis van online gedragsgegevens die in Adobe Analytics zijn vastgelegd. Zodra de trigger is gedefinieerd, is deze beschikbaar in Adobe Campaign voor het ondersteunen van marketingberichten die de betrokkenheid en conversies stimuleren. Met deze nieuwe out-of-the-box-functie kunnen marketers op het juiste moment opnieuw marketingberichten activeren op basis van online gebeurtenissen zoals het verlaten van winkelwagentjes, paginaweergaven, gecontroleerde video's enzovoort. </p> </td>
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introduceert een integratie met de nieuwe Trigger-service. Met deze service kunnen zakelijke gebruikers eenvoudig triggers definiëren op basis van online gedragsgegevens die in Adobe Analytics zijn vastgelegd. Zodra de trigger is gedefinieerd, is deze in Adobe Campaign beschikbaar voor ondersteuning van marketingberichten die de betrokkenheid en conversies stimuleren. Met deze nieuwe functie voor het onleesbaar maken van winkels kunnen marketers op het juiste moment opnieuw marketingberichten activeren op basis van online gebeurtenissen zoals het verlaten van winkelwagentjes, paginaweergaven en gecontroleerde video's. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -86,4 +85,4 @@ Als u hulp bij het uitvoeren van dynamisch markeringsbeheer wilt aanmoedigen wij
 
 De Adobe Experience Cloud Debugger-extensie voor Chrome onderzoekt uw webpagina&#39;s en helpt u problemen te vinden met de manier waarop uw Experience Cloud-oplossingen zijn geïmplementeerd.
 
-Zie [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) voor hulp.
+Zie [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en) voor hulp.
