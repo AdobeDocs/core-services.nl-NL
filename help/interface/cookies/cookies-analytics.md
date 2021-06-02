@@ -5,23 +5,22 @@ solution: Experience Cloud,Analytics,Target
 title: 'Analysecookies '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 feature: Cookies
-topic: Administration
+topic: Beheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '751'
 ht-degree: 3%
 
 ---
-
 
 # Analysecookies{#analytics-cookies}
 
 Adobe Analytics gebruikt cookies om aanvragen van verschillende browsers te onderscheiden en om nuttige informatie op te slaan die een toepassing later kan gebruiken. Zij kunnen ook worden gebruikt om het doorbladeren informatie aan klantenverslagen te associëren.
 
-Met name gebruikt Analytics cookies om anoniem nieuwe bezoekers te definiëren, hulp bij het analyseren van gegevens over klikstreams en het bijhouden van historische activiteiten op de website, zoals reactie op bepaalde campagnes of de duur van de verkoopcyclus.
+Analytics gebruikt cookies om anoniem nieuwe bezoekers te definiëren, klikstreamgegevens te analyseren en historische activiteiten op de website bij te houden, zoals reactie op bepaalde campagnes of de duur van de verkoopcyclus.
 
 * [Naam cookie: s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Naam cookie: AMCV_##@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -36,7 +35,7 @@ Meer informatie is beschikbaar in de Help bij Analytics over [First-Party Cookie
 
 ## Naam cookie: s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
-| Attribute | Beschrijving |
+| Kenmerk | Beschrijving |
 |--- |--- |
 | Opgeslagen informatie | Bevat een kopie van de Experience Cloud-id (ECID) of MID. MID wordt opgeslagen in een sleutelwaardepaar dat deze syntaxis volgt, s_ecid=MCMID | `<ECID>` |
 | Verlopen | 2 jaar |
@@ -48,7 +47,7 @@ Meer informatie is beschikbaar in de Help bij Analytics over [First-Party Cookie
 
 | Kenmerk | Beschrijving |
 |--- |--- |
-| Opgeslagen informatie | Deze cookie wordt ingesteld en gelezen door de JavaScript-code om te bepalen of cookies zijn ingeschakeld (eenvoudig ingesteld op &quot;Waar&quot;) |
+| Opgeslagen informatie | Deze cookie wordt ingesteld en gelezen door de JavaScript-code om te bepalen of cookies zijn ingeschakeld (ingesteld op &quot;Waar&quot;) |
 | Verlopen | Dit cookie is een sessiecookie en verloopt wanneer de browser wordt gesloten |
 | Gebruik | Slechts één cookie voor alle accounts |
 | Locatie | Dit cookie wordt opgeslagen op het domein van de pagina |
@@ -108,4 +107,4 @@ In de volgende tabel worden de vlaggen voor Analytics-cookies beschreven:
 
 Afhankelijk van het gebruik van plug-ins voor Analytics kunnen extra cookies worden ingesteld. Deze cookies zijn codefragmenten die beschikbaar zijn voor de client en die onder verschillende omstandigheden kunnen worden gebruikt. Deze omstandigheden omvatten: waarden ophalen van de URL; samenvoegen van waarden die aan Analytics moeten worden doorgegeven; vastleggen van het verlaten van formulieren enzovoort. Neem contact op met ClientCare voor specifieke informatie over cookies die door elke insteekmodule worden ingesteld. Een voorbeeld hiervan is het cookie [!DNL s_vh] dat wordt gebruikt met de *Eenmaal instellen per* en *Laatste waarde instellen en ophalen* plug-ins.
 
-Conversievariabelen (eVarX) die zonder JavaScript in een afbeeldingsaanvraag zijn ingevoerd, zoals code die in een e-mailbericht is geplaatst, worden alleen correct toegewezen als de e-mailclient en webbrowser dezelfde cookieruimte delen.
+Conversievariabelen (eVarX) die zonder JavaScript zijn doorgegeven aan een afbeeldingsaanvraag, zoals code die in een e-mailbericht is geplaatst, worden alleen correct toegewezen als de e-mailclient en webbrowser cookieruimte delen.
