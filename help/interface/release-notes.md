@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '4039'
 ht-degree: 2%
@@ -256,7 +256,7 @@ Geen informatie beschikbaar
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Klantkenmerken </p> </td> 
-   <td colname="col2"> <p>Als u de gegevens van de ondernemingsklant in een gegevensbestand van het klantenrelatiebeheer (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Experience Cloud uploaden. Nadat de gegevens zijn geüpload, kunt u <span class="uicontrol"> Bezoekersprofiel</span> &gt; <span class="uicontrol"> Klantkenmerken</span> rapporten uitvoeren in Analytics. </p> <p>U kunt de geüploade gegevens ook gebruiken als een publiekssegment in <span class="keyword"> Adobe Target</span>. </p> <p>Zie <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Klantkenmerken</a> productdocumentatie. </p> <p> Voor informatie over het moderniseren van uw oplossingen voor de kerndiensten, zie <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> uw oplossingen voor kerndiensten toelaten</a>. </p> </td> 
+   <td colname="col2"> <p>Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in de Experience Cloud uploaden. Nadat de gegevens zijn geüpload, kunt u <span class="uicontrol"> Bezoekersprofiel</span> &gt; <span class="uicontrol"> Klantkenmerken</span> rapporten uitvoeren in Analytics. </p> <p>U kunt de geüploade gegevens ook gebruiken als een publiekssegment in <span class="keyword"> Adobe Target</span>. </p> <p>Zie <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Klantkenmerken</a> productdocumentatie. </p> <p> Voor informatie over het moderniseren van uw oplossingen voor de kerndiensten, zie <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> uw oplossingen voor kerndiensten toelaten</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
