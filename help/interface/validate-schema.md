@@ -2,14 +2,14 @@
 description: Leer hoe u het klantkenmerkschema in Adobe Experience Cloud kunt valideren.
 keywords: Klantkenmerken;Experience Cloud services
 solution: Experience Cloud
-title: 'Hoe te om het schema van de klantenattributen te bevestigen '
+title: 'Hoe te om het schema van de Attributen van de Klant te bevestigen '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: Klantkenmerken
 topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
