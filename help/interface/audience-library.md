@@ -9,14 +9,14 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 2%
 
 ---
 
-# Experience Cloud publiek {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud-publiek {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 Soorten publiek zijn verzamelingen bezoekers (een lijst met bezoekers-id&#39;s). Met de Audience Library kunt u de omzetting van bezoekersgegevens in publiekssegmentatie beheren. Als dusdanig, is het creëren van, en het leiden van publiek gelijkaardig aan het creëren van en het gebruiken van segmenten. U kunt het publiekssegment aan producten en de diensten in [!DNL Experience Cloud] ook delen.
 
@@ -28,7 +28,7 @@ De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worde
 * [!DNL Analytics] segmenten gepubliceerd naar de  [!DNL Experience Cloud]
 * [!DNL Audience Manager]
 
-**Real-Time versus Historisch publiek**
+**Real-Time versus historisch publiek**
 
 Alle doelgroepen, ongeacht waar ze vandaan komen, zijn toegankelijk voor gebruiksgevallen in realtime. Het publiek dat wordt gedeeld van Analytics naar Audience Manager, is echter niet toegankelijk voor realtime doelwitten. Het systeem evalueert het publiek op twee manieren:
 
