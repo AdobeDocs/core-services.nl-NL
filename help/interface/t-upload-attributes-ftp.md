@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Optioneel - Het gegevensbestand uploaden via FTP
 
-Als u niet uploadt met slepen en neerzetten, kunt u klantkenmerkgegevens via FTP uploaden naar de Experience Cloud.
+Als u niet uploadt gebruikend belemmering-en-daling, kunt u de gegevens van Attributen van de Klant via FTP aan de Experience Cloud uploaden.
 
-U kunt de gegevens uploaden nadat u een bron voor klantkenmerken en een FTP-account in de Experience Cloud hebt gemaakt. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten de `.csv`-indeling hebben, met een tweede `.fin`-bestand om aan te geven dat het uploaden is voltooid.
+U kunt de gegevens uploaden nadat u een bron van Kenmerken van de Klant en een rekening van FTP in de Experience Cloud creeert. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten de `.csv`-indeling hebben, met een tweede `.fin`-bestand om aan te geven dat het uploaden is voltooid.
 
 >[!IMPORTANT]
 >
