@@ -6,7 +6,7 @@ feature: '"Central Interface Components"'
 topic: Beheer
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Functies voor centrale Experience Cloud
 
 ## Aanmelden bij Experience Cloud
 
-Meld u aan en controleer of u zich in de juiste [organisatie](admin-getting-started/organizations.md) bevindt.
+Meld u aan en controleer of u zich in de juiste [organisatie](organizations.md) bevindt.
 
 1. Navigeer naar [Adobe Experience Cloud](https://experience.adobe.com).
 1. Klik op **[!UICONTROL Sign in with an Adobe ID]**.
@@ -31,7 +31,7 @@ Meld u aan en controleer of u zich in de juiste [organisatie](admin-getting-star
 
    ![](assets/organizations-menu.png)
 
-   Uw beheerder kan u helpen verifiëren dat u in de juiste [organisatie](admin-getting-started/organizations.md) bent.
+   Uw beheerder kan u helpen verifiëren dat u in de juiste [organisatie](organizations.md) bent.
 
 ## Toegang tot Experience Cloud-toepassingen {#navigation}
 
@@ -59,7 +59,7 @@ Met het menu [!UICONTROL Help] hebt u ook toegang tot:
 In het menu met accountvoorkeuren kunt u het volgende doen:
 
 * Geef een donker thema op (niet alle toepassingen ondersteunen dit thema)
-* Zoeken naar [Organisaties](admin-getting-started/organizations.md)
+* Zoeken naar [Organisaties](organizations.md)
 * Afmelden
 * Account [voorkeuren, meldingen en abonnementen configureren](#preferences)
 
@@ -75,7 +75,7 @@ Op [!UICONTROL Experience Cloud preferences], kunt u de volgende eigenschappen v
 
 | Functie | Beschrijving |
 |--- |--- |
-| Standaard [organisatie](admin-getting-started/organizations.md) | Selecteer de organisatie die u wilt zien wanneer u Experience Cloud start. |
+| Standaard [organisatie](organizations.md) | Selecteer de organisatie die u wilt zien wanneer u Experience Cloud start. |
 | [!UICONTROL Subscriptions] | Selecteer de producten en categorieën waarop u zich wilt abonneren. Meldingen in de pop-up [!UICONTROL Notifications] en in uw e-mail. |
 | [!UICONTROL Priority] | Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd. Deze categorieën zijn duidelijk met een Hoog markering en kunnen voor levering zoals alarm worden gevormd. |
 | [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
