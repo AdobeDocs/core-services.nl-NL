@@ -1,5 +1,5 @@
 ---
-description: Leer hoe u de bron van klantkenmerken maakt en deze uploadt naar de Adobe Experience Cloud.
+description: Leer hoe u de kenmerkbron voor klanten maakt en deze uploadt naar de Adobe Experience Cloud.
 keywords: Klantkenmerken;kernservices
 solution: Experience Cloud
 title: 'Een bron voor klantkenmerken maken en het gegevensbestand uploaden '
@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Een bron voor klantkenmerken maken en het gegevensbestand uploaden
 
-Maak de bron van het klantkenmerk (CSV- en FIN-bestanden) en upload de gegevens. U kunt de gegevensbron activeren wanneer u klaar bent. Nadat de gegevensbron actief is, deel de attributengegevens aan Analytics en Doel.
+Maak de bron van klantkenmerken (CSV- en FIN-bestanden) en upload de gegevens. U kunt de gegevensbron activeren wanneer u klaar bent. Nadat de gegevensbron actief is, deel de attributengegevens aan Analytics en Doel.
 
 ## Workflow voor klantkenmerken {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -65,7 +65,7 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 
 >[!IMPORTANT]
 >
->Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de klantenattributen, is er een vertraging van maximaal één uur alvorens IDs begint synchroniserend met de nieuwe gegevensbron. U moet administratieve rechten in Audience Manager hebben om de bronnen van de klantenattributen tot stand te brengen of te wijzigen. Neem contact op met de klantenservice of de Audience Manager voor advies om beheerrechten te verkrijgen.
+>Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de Attributen van de Klant, is er een vertraging van maximaal één uur alvorens IDs begint synchroniserend met de nieuwe gegevensbron. U moet beheerdersrechten in Audience Manager hebben om bronnen voor klantkenmerken te maken of te wijzigen. Neem contact op met de klantenservice of de Audience Manager voor advies om beheerrechten te verkrijgen.
 
 1. Klik in [!DNL Experience Cloud] op het pictogram Menu ![](assets/menu-icon.png).
 1. Klik onder **[!DNL Experience Platform]** op **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
@@ -82,7 +82,7 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 
    * **[!UICONTROL Description:]** (Optioneel) Een beschrijving van de bron van het gegevenskenmerk.
 
-   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de klanteneigenschap, zoals een specifiek systeem van CRM. Een unieke id die wordt gebruikt in de broncode van het kenmerk Klant. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die is ingevoerd in het veld Alias-id voor een bron van klantkenmerken in de gebruikersinterface van Experience Cloud moet overeenkomen met de waarden die worden doorgegeven vanuit de implementatie (via dynamisch tagbeheer of JavaScript van de mobiele SDK.)
+   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de Attributen van de Klant, zoals een specifiek systeem van CRM. Een unieke id die wordt gebruikt in de broncode van het kenmerk Klant. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die wordt ingevoerd in het veld Alias-id voor een kenmerkbron van een klant in de gebruikersinterface van de Experience Cloud moet overeenkomen met de waarden die worden doorgegeven vanuit de implementatie (via dynamisch tagbeheer of JavaScript van de mobiele SDK.)
 
       De alias-id komt overeen met bepaalde gebieden waar u extra waarden voor de klant-id instelt. Bijvoorbeeld:
 
@@ -169,7 +169,7 @@ Wanneer u een segment aan de Experience Cloud publiceert, wordt het beschikbaar 
 
 ## Klantkenmerken gebruiken in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-In [!DNL Target], kunt u een klantenattribuut van &lt;a1 selecteren/> sectie wanneer het creëren van een publiek. [!UICONTROL Visitor Profile] Alle Klantkenmerken hebben het voorvoegsel `crs.` in de lijst. U kunt deze kenmerken desgewenst combineren met andere gegevenskenmerken om een publiek te maken.
+In [!DNL Target], kunt u een Attribuut van de Klant van [!UICONTROL Visitor Profile] sectie selecteren wanneer het creëren van een publiek. Alle Klantkenmerken hebben het voorvoegsel `crs.` in de lijst. U kunt deze kenmerken desgewenst combineren met andere gegevenskenmerken om een publiek te maken.
 
 ![](assets/crs-add-attribute-target.png)
 
