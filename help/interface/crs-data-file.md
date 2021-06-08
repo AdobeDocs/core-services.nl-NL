@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Kenmerken van klanten zijn ontworpen om enkele bestanden per dag af te handelen.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv  </span> </p> </td> 
-   <td colname="col2"> <p>Een bestand met door komma's gescheiden waarden (bijvoorbeeld een bestand dat in Excel is gemaakt). Dit bestand bevat de klantkenmerkgegevens. </p> <p> <b>Naamgevingsvereisten:</b> zorg ervoor dat bestandsextensies geen witruimten bevatten. </p> </td> 
+   <td colname="col2"> <p>Een bestand met door komma's gescheiden waarden (bijvoorbeeld een bestand dat in Excel is gemaakt). Dit bestand bevat de kenmerkgegevens van de klant. </p> <p> <b>Naamgevingsvereisten:</b> zorg ervoor dat bestandsextensies geen witruimten bevatten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin  </span> </p> </td> 
@@ -85,7 +85,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kenmerklimieten </p> </td> 
-   <td colname="col2"> <p>U kunt honderden <span class="filepath"> .csv </span> kolommen uploaden naar de klantenkenmerkservice in de Experience Cloud. Wanneer u echter abonnementen configureert en kenmerken selecteert, gelden de volgende limieten, afhankelijk van de oplossingen die u hebt: </p> <p> 
+   <td colname="col2"> <p>U kunt honderden <span class="filepath"> .csv </span> kolommen aan de dienst van de Attributen van de Klant in de Experience Cloud uploaden. Wanneer u echter abonnementen configureert en kenmerken selecteert, gelden de volgende limieten, afhankelijk van de oplossingen die u hebt: </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analysestandaard</b>: 3 totaal </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 per rapportsuite </li> 
@@ -121,7 +121,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Meerdere bestanden </p> </td> 
-   <td colname="col2"> <p>Als u kenmerkgegevens van klanten uploadt en u meerdere bestanden hebt die u snel na elkaar wilt uploaden, en vooral als de bestanden groot zijn, moet u controleren of het vorige bestand is verwerkt voordat u het volgende bestand uploadt. U kunt dit controleren door te controleren wanneer het vorige bestand is verplaatst naar de verwerkte of mislukte map in uw FTP-account [!UICONTROL-klantkenmerken]. </p> <p> Wanneer u een groot bestand in kleinere bestanden splitst en snel na elkaar verzendt, kan dit de verwerking vertragen, tenzij u ervoor kunt zorgen dat elk bestand wordt verwerkt voordat het volgende bestand wordt verzonden. </p> </td> 
+   <td colname="col2"> <p>Wanneer u kenmerkgegevens van de klant uploadt en u meerdere bestanden hebt die u snel na elkaar wilt uploaden, en vooral als de bestanden groot zijn, moet u controleren of het vorige bestand is verwerkt voordat u het volgende bestand uploadt. U kunt dit controleren door te controleren wanneer het vorige bestand is verplaatst naar de verwerkte of mislukte map in uw FTP-account [!UICONTROL-klantkenmerken]. </p> <p> Wanneer u een groot bestand in kleinere bestanden splitst en snel na elkaar verzendt, kan dit de verwerking vertragen, tenzij u ervoor kunt zorgen dat elk bestand wordt verwerkt voordat het volgende bestand wordt verzonden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tekencodering </p> </td> 
@@ -140,9 +140,9 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
 
 ## Meerdere gegevensbronnen gebruiken {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de klantenattributen, is er een vertraging rond één uur alvorens IDs met de nieuwe gegevensbron begint te synchroniseren.
+Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de Attributen van de Klant, is er een vertraging rond één uur alvorens IDs met de nieuwe gegevensbron begint te synchroniseren.
 
-Alias ID voor elke bron van klantkenmerken moet uniek zijn. Als u meerdere gegevensbronnen hebt die dezelfde id gebruiken, kunnen deze als volgt worden ingesteld:
+De alias-id voor elke kenmerkbron van de klant moet uniek zijn. Als u meerdere gegevensbronnen hebt die dezelfde id gebruiken, kunnen deze als volgt worden ingesteld:
 
 **In VisitorAPI.js of het gereedschap Experience Cloud-id in dynamisch tagbeheer:**
 
@@ -159,4 +159,4 @@ Visitor.setCustomerIDs({
 
 In **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-Maak twee bronnen voor klantkenmerken met behulp van unieke alias-id&#39;s die overeenkomen met de bovenstaande klant-id&#39;s. Met deze methode kan dezelfde referentie-id naar meerdere bronnen voor klantkenmerken worden verzonden.
+Maak twee bronnen voor klantkenmerken met behulp van unieke alias-id&#39;s die overeenkomen met de bovenstaande klant-id&#39;s. Met deze methode kan dezelfde referentie-id naar meerdere bronnen van kenmerk van klant worden verzonden.
