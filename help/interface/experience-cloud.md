@@ -8,7 +8,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 2%
@@ -30,7 +30,7 @@ Vanuit Experience Cloud kunt u:
 
 ## Aanmelden bij Experience Cloud
 
-Meld u aan en controleer of u zich in de juiste [organisatie](admin-getting-started/organizations.md) bevindt.
+Meld u aan en controleer of u zich in de juiste [organisatie](organizations.md) bevindt.
 
 1. Navigeer naar [Adobe Experience Cloud](https://experience.adobe.com).
 1. Klik op **[!UICONTROL Sign in with an Adobe ID]**.
@@ -38,7 +38,7 @@ Meld u aan en controleer of u zich in de juiste [organisatie](admin-getting-star
 
    ![](assets/organizations-menu.png)
 
-   Uw beheerder kan u helpen verifiëren dat u in de juiste [organisatie](admin-getting-started/organizations.md) bent.
+   Uw beheerder kan u helpen verifiëren dat u in de juiste [organisatie](organizations.md) bent.
 
 ## Toegang tot Experience Cloud-toepassingen {#navigation}
 
@@ -75,7 +75,7 @@ De algemene zoekopdracht is alleen beschikbaar voor gebruikers in de Experience 
 Voorkeuren voor Experience Cloud zijn onder andere meldingen, abonnementen en waarschuwingen. In het menu met accountvoorkeuren kunt u het volgende doen:
 
 * Geef een donker thema op (niet alle toepassingen ondersteunen dit thema)
-* Zoeken naar [Organisaties](admin-getting-started/organizations.md)
+* Zoeken naar [Organisaties](organizations.md)
 * Afmelden
 * Accountvoorkeuren, meldingen en abonnementen configureren
 
@@ -87,13 +87,13 @@ Op [!UICONTROL Experience Cloud preferences], kunt u de volgende eigenschappen v
 
 | Functie | Beschrijving |
 |--- |--- |
-| Standaard [organisatie](admin-getting-started/organizations.md) | Selecteer de organisatie die u wilt zien wanneer u Experience Cloud start. |
+| Standaard [organisatie](organizations.md) | Selecteer de organisatie die u wilt zien wanneer u Experience Cloud start. |
 | [!UICONTROL Subscriptions] | Selecteer de producten en categorieën waarop u zich wilt abonneren. Meldingen in de pop-up [!UICONTROL Notifications] en in uw e-mail. |
 | [!UICONTROL Priority] | Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd. Deze categorieën zijn duidelijk met een Hoog markering en kunnen voor levering zoals alarm worden gevormd. |
 | [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
 | E-mails | Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.) |
 
-## Meldingen en aankondigingen
+## Meldingen en aankondigingen {#notifications}
 
 Klik op **[!UICONTROL Notifications]** voor een melding over relevante en activeerbare updates, zoals productreleases, onderhoudsmeldingen, gedeelde items en goedkeuringsaanvragen.
 
@@ -103,19 +103,19 @@ Klik op **[!UICONTROL Notifications]** voor een melding over relevante en active
 
 Deze gids verleent toegang tot hulp op gebruiker van Experience Cloud en productbeleid in de Admin Console, toelatend oplossingen voor de platformdiensten. U hebt ook toegang tot de Help-functie in de Audience Library, Customer Attributes, Experience Cloud Assets en meer:
 
-* [[!UICONTROL Audience Library]](audience-library/audience-library.md)
-* [[!UICONTROL Customer Attributes]](attributes/attributes.md)
-* [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
-* [Experience Cloud cookies](cookies/cookies-privacy.md)
-* [Gebruiker- en productbeheer](admin-getting-started/admin-getting-started.md)  (Admin Console)
-* [Laat uw oplossingen voor de kerndiensten toe](core-services/core-services.md)
-* [Veelgestelde vragen](admin-getting-started/admin-getting-started.md)
-* [Organisaties en accountkoppelingen](admin-getting-started/organizations.md)
+* [[!UICONTROL Audience Library]](audience-library.md)
+* [[!UICONTROL Customer Attributes]](attributes.md)
+* [[!UICONTROL Triggers]](triggers.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
+* [Experience Cloud cookies](cookies-privacy.md)
+* [Gebruiker- en productbeheer](admin-getting-started.md)  (Admin Console)
+* [Laat uw oplossingen voor de kerndiensten toe](core-services.md)
+* [Veelgestelde vragen](admin-getting-started.md)
+* [Organisaties en accountkoppelingen](organizations.md)
 * [Integraties](marketing-cloud-integrations.md)
 * [Adobe Target integreren met de Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * [Overzicht van privacy en beveiliging bij Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [DNS-prefetch](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+* [DNS-prefetch](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## Hulplijnen
 
