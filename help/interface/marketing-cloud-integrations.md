@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1406'
 ht-degree: 1%
@@ -74,7 +74,7 @@ Help: [Klantkenmerken](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 >
 >Kenmerken van klant zijn een oudere service, die nu in gebruik is.
 
-Als u de gegevens van de ondernemingsklant in een gegevensbestand van het klantenrelatiebeheer (CRM) vangt, kunt u de gegevens in een gegevensbron van de klantenattributen in de Experience Cloud uploaden. Na het uploaden gebruikt u de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
+Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in de Experience Cloud uploaden. Na het uploaden gebruikt u de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
 **Toepasselijke oplossingen of services**
 
