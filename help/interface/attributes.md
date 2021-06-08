@@ -7,7 +7,7 @@ role: Administrator
 topic: Beheer
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 2%
@@ -48,7 +48,7 @@ De volgende afbeelding is een voorbeeld van een gegevensbestand met abonneegegev
 
 ![](assets/01_crs_usecase.png)
 
-Nadat u het gegevensbestand creeert, kunt u het aan de bron van klantattributen uploaden die u in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]** creeert.
+Nadat u het gegevensbestand creeert, kunt u het aan de bron van Attributen van de Klant uploaden die u in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]** creeert.
 
 Zie [Klantkenmerkgegevens uploaden](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) om deze workflow te leren.
 
