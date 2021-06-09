@@ -9,20 +9,27 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: f28f7f7824981b76fd05b8fb4eab874b04312712
 workflow-type: tm+mt
-source-wordcount: '4039'
+source-wordcount: '4133'
 ht-degree: 2%
 
 ---
 
 # Opmerkingen bij de cumulatieve release
 
-Functies, releaseopmerkingen en bekende problemen voor de interface Experience Cloud.
+Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Central Interface-componenten.
 
 Zie [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) voor een lijst met documentatie-updates.
 
 Zie [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) voor opmerkingen bij de release over alle oplossingen.
+
+## Juni - 2021
+
+| Functie | Datum | Beschrijving |
+| ------- | ------- | ------- |
+| Single Sign-On-ondersteuning voor Adobe-id&#39;s | 17 juni 2021 | Als u Federated IDs gebruikt, kunt u login aan Experience Cloud zonder het moeten een e-mailadres of een wachtwoord ingaan. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` toe aan de URL van de Experience Cloud. <br>Stel dat u eigenaar bent van het domein  `adobecustomer.com` en u wilt aanmelden bij Adobe Analytics. De URL is: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Experience League Search | 1 juni 2021 | Het zoeken naar Experience League-documentatie is verbeterd. Navigeer naar [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) en gebruik het veld **[!UICONTROL Search]** om zelfstudies, documentatie, cursussen en meer te zoeken. |
 
 ## Mei - 2021
 
