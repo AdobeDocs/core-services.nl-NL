@@ -4,9 +4,9 @@ user-guide-title: 'Experience Cloud Central-interfacecomponenten '
 breadcrumb-title: Experience Cloud Central-interfacecomponenten
 user-guide-description: Leer over Experience Cloud interface, vorm voorkeur, onderzoek bedrijfsvoorwerpen. Hulp bij gebruikers- en productbeheer, klantkenmerken, Audience Library, cookies en Experience Cloud Assets.
 index: true
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 4%
 
 ---
@@ -70,8 +70,8 @@ ht-degree: 4%
       + [Privacy-instellingen voor browsercookies inschakelen](browser-cookie-settings.md)
       + [Hoe de veranderingen in derdekoekjessteun klanten beïnvloeden](cookies-thirdparty.md)
 + Opmerkingen bij de release voor de gebruikersinterface van Experience Cloud {#release-notes}
-   + [Nieuwe functies in de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
-   + [Opmerkingen bij de cumulatieve release](release-notes.md)
+   + [De nota&#39;s van de versie voor centrale interfacecomponenten](release-notes.md)
+   + [Opmerkingen bij de release voor alle Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
 + Meer bronnen {#more-resources}
    + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
