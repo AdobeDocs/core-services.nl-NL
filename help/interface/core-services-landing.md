@@ -7,9 +7,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 6%
 
 ---
@@ -38,3 +38,5 @@ In deze Help worden de volgende producten en services beschreven:
 | [Locatieservice](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe is een geo-locatieservice. [!UICONTROL Experience Platform Location Service] Hiermee kunnen mobiele apps met het bewustzijn van de locatie de context van de locatie begrijpen door rijke en gebruiksvriendelijke SDK-interfaces te gebruiken die vergezeld gaan van een flexibele database van belangengroepen (POI&#39;s). |
 | [Mobiele services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en) | Met Adobe Mobile Services worden mobiele marketingmogelijkheden voor mobiele toepassingen vanuit de hele Experience Cloud samengebracht, zodat u de betrokkenheid van gebruikers met uw mobiele toepassingen begrijpt en verbetert. |
 | Mensen | Creeer een uitvoerige mening van individuele klanten door Adobe en niet-Adobe gegevens in uw oplossingen van Experience Cloud aan te sluiten. Bepaal wat voor hen het belangrijkst is aangezien zij over aanrakingspunten interactie hebben. Bekende consumenten herkennen wanneer ze vanaf onbekende apparaten komen. Zelfs groepeer gebruikers in Publiek voor gerichte marketing inspanningen.<br>[Soorten publiek](audience-library.md)  - Categoriseer verschillende soorten klanten in Soorten publiek, dan deel die Soorten publiek over de toepassingen van Experience Cloud.<br>[Kenmerken](attributes.md)  van klant - verrijking van het publiek waarmee u consumenteninformatie kunt verbinden die u buiten Experience Cloud hebt verzameld. |
+
+{style=&quot;table-layout:auto&quot;}
