@@ -1,5 +1,5 @@
 ---
-description: Leer over centrale interfacecomponenten voor Experience Cloud. Deze hulp omvat gebruiker en productbeheer in de Admin Console, toelatend toepassingen voor de diensten van de Experience Cloud, en krijgt hulp op de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
+description: Leer over centrale interfacecomponenten voor Experience Cloud. Deze hulp omvat gebruiker en productbeleid in de Admin Console, toelatend toepassingen voor de diensten van de Experience Cloud, en krijgt hulp op de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
 solution: Experience Cloud
 title: Experience Cloud interface Help en documentatie
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
@@ -8,9 +8,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '881'
 ht-degree: 2%
 
 ---
@@ -93,6 +93,8 @@ Op [!UICONTROL Experience Cloud preferences], kunt u de volgende eigenschappen v
 | [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
 | E-mails | Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Meldingen en aankondigingen {#notifications}
 
 Klik op **[!UICONTROL Notifications]** voor een melding over relevante en activeerbare updates, zoals productreleases, onderhoudsmeldingen, gedeelde items en goedkeuringsaanvragen.
@@ -143,7 +145,7 @@ Profiteer van zelfstudiemateriaal en snelle zelfstudies in Experience League:
 * [Productdocumentatie voor alle Experience Cloud-oplossingen](https://experienceleague.adobe.com/docs/home.html?lang=en)  - Blader voor hulp naar Experience Cloud Learn &amp; Support
 * [Opmerkingen bij de release en productupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) : Wat is er nieuw in de Experience Cloud en meld u aan om updates te krijgen
 * [Tutorials voor de implementatie van kernservices](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)  - Ontdek video&#39;s en zelfstudies over kernservices
-* [Deskundige hulp bij Experience League](https://experienceleague.adobe.com/)  - Leren met instructies van experts en de community
+* [Deskundige hulp bij Experience League](https://experienceleague.adobe.com/)  - Leren met instructies van experts en de gemeenschap
 * [Onderwijs en training](https://helpx.adobe.com/nl/learning.html?promoid=KAUDK)  - Neem contact op met Adobe om ervoor te zorgen dat u optimaal profiteert van Adobe
 * [Customer Experience Blog](https://blog.adobe.com/en/topics/digital-transformation.html)  - Lees de Experience Cloud-blog
 * [Klantenservice](https://experienceleague.adobe.com/?support-solution=General#support)  - Contact opnemen met de Adobe Klantenservice
