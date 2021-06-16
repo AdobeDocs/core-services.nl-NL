@@ -9,9 +9,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 5e8e5a0f70393460442be247b2d9bf7548a32114
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '4134'
+source-wordcount: '4143'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,9 @@ Zie [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe
 | Functie | Datum | Beschrijving |
 | ------- | ------- | ------- |
 | Single Sign-On-ondersteuning voor Adobe-id&#39;s | 17 juni 2021 | Als u Federatieve id&#39;s gebruikt, kunt u zich aanmelden bij Experience Cloud zonder een e-mailadres of wachtwoord in te voeren. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` toe aan de URL van de Experience Cloud. <br>Stel dat u eigenaar bent van het domein  `adobecustomer.com` en u wilt aanmelden bij Adobe Analytics. De URL is: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League Search | 1 juni 2021 | Het zoeken naar Experience League-documentatie is verbeterd. Navigeer naar [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) en gebruik het veld **[!UICONTROL Search]** om zelfstudies, documentatie, cursussen en meer te zoeken. |
+| Experience League zoeken | 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeer naar [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) en gebruik het veld **[!UICONTROL Search]** om zelfstudies, documentatie, cursussen en meer te zoeken. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Mei - 2021
 
@@ -47,6 +49,8 @@ Zie [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe
 | -----------| ---------- |
 | Beheer - beleidsregels | Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw organisatie weergegeven. Het verstrekt informatie over producten, instanties, gebruikers, en ontwikkelaars. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de lijst met beleidsregels. Zie [Help voor de Experience Cloud-beheertool](admin-tool-experience-cloud.md) voor meer informatie. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## April - 2020
 
 * De pagina Experience Cloud [!UICONTROL Feed] is afgeschaft. (EXC-8505)
@@ -57,6 +61,8 @@ Zie [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe
 | Functie | Beschrijving |
 | -----------| ---------- |
 | Beheer - Gebruikersgegevens weergeven | Beheerders kunnen een sorteerbare en filterbare lijst met alle Experience Cloud-gebruikers en hun gegevens weergeven in het nieuwe Admin-gereedschap. De details van de gebruiker omvatten de het producttoegang van een gebruiker, rollen, en laatste betreden informatie. Zie [Help voor de Experience Cloud-beheertool](admin-tool-experience-cloud.md) voor meer informatie. |
+
+{style=&quot;table-layout:auto&quot;}
 
 **Oplossingen**
 
