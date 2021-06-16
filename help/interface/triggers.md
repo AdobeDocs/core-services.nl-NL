@@ -11,9 +11,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,8 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
    | Bezoek moet<br>Bezoek mag geen<br>Trigger bevatten na geen actie<br>Metagegevens opnemen | U kunt criteria of gedrag van bezoekers bepalen die u wilt voorkomen, en gedrag dat u niet wilt voorkomen. De regels voor een eenvoudige trigger voor het verlaten van een winkelwagentje kunnen bijvoorbeeld zijn:<ul><li>Het bezoek moet het volgende omvatten: [!UICONTROL Cart Addition] (metrisch) en [!UICONTROL Exists]. (U kunt de regel verder verfijnen met een specifieke productweergave of met afmetingen zoals Browsertypen.)</li><li>Bezoek mag niet omvatten:  [!UICONTROL Checkout].</li><li>Trigger na geen actie voor:  10 minuten.</li><li>[!UICONTROL Include Meta Data]: Hiermee kunt u een bepaalde  [!DNL Campaign] dimensie of variabelen toevoegen die relevant zijn voor het gedrag van de bezoeker. Dit veld kan handig zijn voor Adobe Campaign bij het samenstellen van de juiste e-mail voor opnieuw in de handel brengen.</li></ul><br>U kunt   [!UICONTROL Any],   [!UICONTROL And] of   [!UICONTROL Or] logica binnen of tussen containers specificeren, afhankelijk van de criteria u belangrijk voor de regel bepaalt. |
    | [!UICONTROL Container] | [!UICONTROL Containers] Hier kunt u regels, voorwaarden of filters instellen en opslaan die een trigger definiëren. Als u wilt dat gebeurtenissen tegelijkertijd plaatsvinden, plaatst u ze in dezelfde container. Met andere woorden, elke container verwerkt onafhankelijk op raakniveau. Bijvoorbeeld, als u twee containers hebt die door de exploitant worden aangesloten van En, kunt u de regels verwachten om te kwalificeren wanneer twee klappen aan de vereisten voldoen. |
    | Nieuwe sessie starten na | Maak een trigger voor het starten en beëindigen van de sessie. |
+
+   {style=&quot;table-layout:auto&quot;}
 
 5. Klik op **[!UICONTROL Save]**.
 6. Gebruik triggers voor [real-time remarketing](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) in [!DNL Adobe Campaign].
