@@ -11,9 +11,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 253a6df12e603713a282b3c000311b0d67d0ccda
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1463'
 ht-degree: 2%
 
 ---
@@ -49,3 +49,5 @@ Een terminologieverwijzing voor Experience Cloud-gebruikers en hoe deze termen i
 | Delen | In Creative Cloud kunt u bestanden extern delen op verschillende platforms (sociale partners, gemeenschappen, e-mails, enzovoort). | In Experience Cloud kunt u een element alleen als een kaart delen, binnen de borden in de interface. Delen is beschikbaar voor diegenen die zijn aangemeld bij de site. |
 | Oplossing | Geen speciaal gebruik. | In Experience Cloud staan oplossingen bekend als producten als Adobe Analytics, Adobe Social, Adobe Target enzovoort. |
 | Eigenschap | N.v.t. | Een sleutelwaardepaar, bijvoorbeeld color=blue. In Audience Manager, worden [traits](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en) gebruikt om segmenten te bouwen. |
+
+{style=&quot;table-layout:auto&quot;}
