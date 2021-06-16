@@ -9,9 +9,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ Als u [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Managem
 | [Implementeer de Experience Cloud ID-service voor analyse](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en) | Adobe raadt ook aan extra [klant-id&#39;s](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) in te stellen. Deze id&#39;s zijn gekoppeld aan elke bezoeker en maken huidige en toekomstige functionaliteit in Experience Cloud mogelijk. |
 | Werk uw bestaande [!DNL s_code] aan versie H.27.3 of later, of uw bestaande [!DNL AppMeasurement.js] aan versie 1.4 of later bij. | Deze bestanden kunnen worden gedownload in [Codebeheer](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en) in Analytics Admin Tools. (De handleiding [JavaScript-implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js) is beschikbaar als u meer informatie nodig hebt over [!DNL AppMeasurement.js].) |
 | De klant-id voor Analytics synchroniseren | Zie [Analyse - synchroniseren van de klant-id](core-services.md#section_AD473A6A21C1446498E700363F9A8437) (hieronder). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Analyse en Adobe Target - de klant-id synchroniseren {#section_AD473A6A21C1446498E700363F9A8437}
 
