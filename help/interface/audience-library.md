@@ -9,9 +9,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '815'
 ht-degree: 2%
 
 ---
@@ -49,6 +49,8 @@ In de volgende tabel wordt beschreven hoe publiek wordt gebruikt in Experience C
 | Campaign | <ul><li>Importeer een gedeeld publiek van verschillende Adobe Experience Cloud-oplossingen naar Adobe Campaign.</li><li>Lijst met ontvangers exporteren in de vorm van een gedeeld publiek. Deze gedeelde doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt.</li></ul> |
 | Advertising Cloud | Gebruik het publiek als doelen. |
 
+{style=&quot;table-layout:auto&quot;}
+
 >[!IMPORTANT]
 >
 >Wanneer een bezoeker in aanmerking komt voor het publiek dat wordt gedeeld door Analytics, is er een vertraging van 4-8 uur voordat die informatie in [!DNL Target], Ad Cloud en Campaign Standard kan worden uitgevoerd.
@@ -60,6 +62,8 @@ In de volgende tabel wordt beschreven hoe publiek wordt gebruikt in Experience C
 | Kan publiek niet vinden? | Zorg ervoor dat u provisioned bent. Zie [Aan de slag - uw oplossingen inschakelen voor kernservices](core-services.md).<br>Klik  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) hier om toegang te vragen tot profielen en soorten publiek (inrichtingsformulier voor integraties). |
 | Gebruiksscenario’s | Voor meer begeleiding op welke oplossing te gebruiken, ga naar [Opties van de Aanmaak van het publiek](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) in de Kennisbank. |
 | Forum | Het [Soorten publiek forum](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) is een andere bron voor hulp bij het publiek. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Audio Library-interface-elementen {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -77,3 +81,5 @@ De [!DNL Experience Cloud] biedt een bibliotheek voor het maken en beheren van s
 | Bron | Identificeert waar het publiek is gemaakt.<ul><li>**Analytics:** Een segment dat in Adobe Analytics is gemaakt en vervolgens  [naar de Experience Cloud](audience-library.md) wordt gepubliceerd.</li><li>**Experience Cloud:** Een nieuw publiek  [gemaakt in Experience Cloud-publiek](audience-library.md).</li><li>**Audience Manager:Het** publiek creeerde Audience Manager toont automatisch in het publiek van de Experience Cloud.</li></ul> |
 | Huidige grootte | De huidige publieksgrootte. |
 | Actief | De actieve status van het segment. |
+
+{style=&quot;table-layout:auto&quot;}
