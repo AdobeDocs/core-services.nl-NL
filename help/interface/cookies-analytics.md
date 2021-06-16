@@ -9,9 +9,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '769'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,8 @@ Meer informatie is beschikbaar in de Help bij Analytics over [First-Party Cookie
 | Locatie | Alleen CNAME-klanten. Niet van toepassing op scenario&#39;s van derden. Cookie wordt opgeslagen op uw domein, het zelfde domein dat door CNAME en uw het beeldverzoek van Analytics wordt gebruikt. |
 | Grootte | 45 bytes |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Naam cookie: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
 | Kenmerk | Beschrijving |
@@ -52,6 +54,8 @@ Meer informatie is beschikbaar in de Help bij Analytics over [First-Party Cookie
 | Gebruik | Slechts één cookie voor alle accounts |
 | Locatie | Dit cookie wordt opgeslagen op het domein van de pagina |
 | Grootte | 4 bytes |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Naam cookie: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -63,6 +67,8 @@ Meer informatie is beschikbaar in de Help bij Analytics over [First-Party Cookie
 | Locatie | Dit cookie wordt opgeslagen op het domein van de pagina |
 | Grootte | Varieert afhankelijk van de grootte van pagina URL, maar typisch 100-200 bytes |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Naam cookie: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | Kenmerk | Beschrijving |
@@ -72,6 +78,8 @@ Meer informatie is beschikbaar in de Help bij Analytics over [First-Party Cookie
 | Gebruik | Dit cookie wordt gebruikt om een unieke bezoeker te identificeren |
 | Locatie | Dit koekje wordt opgeslagen op het domein van het beeldverzoek - typisch een klant-specifiek subdomain onder 2o7.net of omtr dc.net als u derdekoekjes gebruikt, of als uw domein eerderangs koekjes gebruikt. |
 | Grootte | 44 bytes |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
@@ -87,6 +95,8 @@ Meer informatie is beschikbaar in de Help bij Analytics over [First-Party Cookie
 | Locatie | Dit cookie wordt op uw domein opgeslagen als een cookie van de eerste fabrikant. |
 | Grootte | 33 bytes |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie-markeringen
 
 In de volgende tabel worden de vlaggen voor Analytics-cookies beschreven:
@@ -98,6 +108,8 @@ In de volgende tabel worden de vlaggen voor Analytics-cookies beschreven:
 | s_fid (JavaScript) | Nee | Nee | Ongedaan maken |
 | s_cc (JavaScript) | Nee | Nee | Ongedaan maken |
 | s_sq (JavaScript) | Nee | Nee | Ongedaan maken |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
