@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -82,7 +82,7 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 
    * **[!UICONTROL Description:]** (Optioneel) Een beschrijving van de bron van het gegevenskenmerk.
 
-   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de Attributen van de Klant, zoals een specifiek systeem van CRM. Een unieke id die wordt gebruikt in de broncode van het kenmerk Klant. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die wordt ingevoerd in het veld Alias-id voor een kenmerkbron van een klant in de gebruikersinterface van de Experience Cloud moet overeenkomen met de waarden die worden doorgegeven vanuit de implementatie (via dynamisch tagbeheer of JavaScript van de mobiele SDK.)
+   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de Attributen van de Klant, zoals een specifiek systeem van CRM. [!UICONTROL Alias ID] is een unieke identiteitskaart die in uw Broncode van het Attribuut van de Klant wordt gebruikt. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die in het [!UICONTROL Alias ID] gebied voor een bron van de Attributen van de Klant in Experience Cloud is ingegaan zou de waarden moeten aanpassen die binnen van de implementatie (of via de Inzameling van Gegevens (Lancering), het Dynamische Beheer van de Markering, of JavaScript van Mobile SDK worden overgegaan.)
 
       De alias-id komt overeen met bepaalde gebieden waar u extra waarden voor de klant-id instelt. Bijvoorbeeld:
 
