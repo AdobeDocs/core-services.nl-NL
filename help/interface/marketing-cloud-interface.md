@@ -6,9 +6,9 @@ seo-title: Nieuwe functies in de Experience Cloud
 solution: Experience Cloud
 title: 'Nieuwe functies in de Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '651'
 ht-degree: 6%
 
 ---
@@ -53,6 +53,8 @@ Nieuwe eigenschappen en moeilijke situaties in de [!DNL Adobe Experience Cloud] 
 |--- |--- |
 | Nieuwe openingspagina voor beheer | Wanneer u binnen aan de Experience Cloud ondertekent en aan de pagina van het Beleid navigeert, is een nieuwe intuïtieve interface beschikbaar om u te helpen snel tot uw oplossingen van de Experience Cloud en Diensten van de Kern toegang hebben. |
 
+{style=&quot;table-layout:auto&quot;}
+
 **Oplossingen**
 
 * Probleem verholpen waarbij het uploaden van de afbeelding is mislukt als gevolg van een Scene7-update. (CORE-12746)
@@ -72,6 +74,8 @@ Veel van de onderhoudsmeldingen over gepland onderhoud/productupdates ontbreken 
 | Meldingen - Onderhoudsmeldingen | In de montages van het Bericht, kunt u onderhoudsberichten voor producten en oplossingen toelaten. |
 | Admin Console voor Experience Cloud-oplossingen | De nieuwe klanten van Experience Cloud kunnen beginnen gebruikend de Admin Console, een centrale plaats voor het beheren van uw rechten van Adobe over uw volledige organisatie.<br>De migratie naar de Admin Console voor gebruikersbeheer zal in golven te werk gaan. Adobe neemt contact met u (systeembeheerders) op wanneer het tijd is om te migreren.<br>Analysebeheerders, zie Migratie van   [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en). |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 22 mei 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | Functie | Beschrijving |
@@ -79,11 +83,15 @@ Veel van de onderhoudsmeldingen over gepland onderhoud/productupdates ontbreken 
 | Toewijzing van bulkrapportsuite | In Beleid > de Afbeelding van de Reeks van het Rapport, kunt u veelvoudige rapportreeksen nu selecteren, dan hen aan een organisatie in kaart brengen. (Eerder moest u ze afzonderlijk toewijzen.)  <br>[Het rapportsteunen van de toewijzing ](core-services.md) suiteits aan één enkele organisatiehulp laat dwars-oplossingseigenschappen en de diensten in de Experience Cloud toe. |
 | Updates voor publiek Experience Cloud | **Rapportsets toepassen**<br> U kunt nu een rapportsuite toepassen op al uw  [publieksregels](t-audience-create.md). (Eerder, moest u een rapportreeks in elke regeldefinitie specificeren.) <br>**Props en**<br> variabelenU kunt nu analyses-voorstellingen en standaardvariabelen (naast eVars en gebeurtenissen) opnemen in realtime-soorten. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 8 november 2016 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | Functie | Beschrijving |
 |--- |--- |
 | Bijwerken naar profiel en wachtwoorden | Gebruikers kunnen de gegevens van het IMS-gebruikersprofiel niet meer bewerken onder Persoonlijke details in Profiel bewerken > Profiel en wachtwoorden. In plaats daarvan worden gebruikers omgeleid naar `accounts.adobe.com`. Deze update is van toepassing op alle typen identiteiten (Adobe ID, Enterprise en Federated). |
+
+{style=&quot;table-layout:auto&quot;}
 
 **Oplossingen**
 
