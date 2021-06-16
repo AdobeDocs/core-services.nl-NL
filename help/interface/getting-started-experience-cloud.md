@@ -9,9 +9,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ Meld u aan en controleer of u zich in de juiste [organisatie](organizations.md#t
 | [Creative Cloud-gebruikers beheren](t-admin-add-cc-user.md) | Met Experience Cloud Assets kunnen marketers mappen delen, synchroniseren en aan mappen samenwerken met ontwerpers en andere creatieve elementen met behulp van de Creative Cloud. U kunt de Creative Cloud-gebruikers beheren die zijn goedgekeurd om hier met uw organisatie samen te werken. |
 | [Uw rapportsets toewijzen](core-services.md) | (Alleen analyse) Experience Cloud core-services zijn gekoppeld aan een organisatie in plaats van aan een afzonderlijke rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke analytische rapportensuite aan een organisatie worden toegewezen. (Deze taak maakt deel uit van een breder werkschema om Analytics voor kerndiensten ](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) toe te laten).[ |
 | [Organisatie-id](organizations.md) | De *Organisatie-id* vindt u onder aan de pagina Beheer. Deze id is de bijbehorende id van uw Experience Cloud-bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Aanmelden bij de Experience Cloud (gebruikers) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -150,3 +152,5 @@ Voorbeeld-URL:
 | `tenantId` | Naam van de huurder de gebruiker zou moeten login. | aem62huurder | Optioneel |
 | `destURL` | De volledige URL naar de plaats waarnaar de gebruiker moet worden doorgestuurd. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Optioneel |
 | `solutionname` | Naam van de Oplossing van MAC die de eigenaar van `destURL` parameter is. Het wordt gebruikt om te verifiëren dat de gebruiker toegang tot de oplossing heeft die de eigenaar van URL is.  Het is de verantwoordelijkheid van de oplossingen om ervoor te zorgen dat `solutionname` synchroon met de `destURL` parameter is.  Bijvoorbeeld: Als de URL `solutionname` als sociaal bevat en de opgegeven `destURL` een analytische URL is, wordt de gebruiker omgeleid naar de URL, zelfs als hij geen toegang heeft tot analyses. MAC verifieert NIET of de eigenaar van `destURL` synchroon met de oplossingsnaam is. | analyse | Vereist als `destURL` param wordt gebruikt. |
+
+{style=&quot;table-layout:auto&quot;}
