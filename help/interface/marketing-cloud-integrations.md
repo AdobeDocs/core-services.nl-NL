@@ -9,9 +9,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1396'
 ht-degree: 1%
 
 ---
@@ -127,7 +127,7 @@ Help: [Aan de slag](https://experienceleague.adobe.com/docs/launch/using/get-sta
 
 Gebruik de oplossingen van de Activering van Experience Cloud aan opstelling en zuivert uw oplossingen van de Experience Cloud.
 
-1. Gebruik [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) of [Dynamisch tagbeheer](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en) om code in te voegen die Experience Cloud-toepassingen op uw pagina&#39;s activeert.
+1. Gebruik [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) om code in te voegen die Experience Cloud toepassingen op uw pagina&#39;s activeert.
 1. Gebruik [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en) om uw implementaties te testen.
 
 Gebruik de extensie Adobe Experience Cloud Debugger om fouten op te sporen die door de controleur zijn aangetroffen of om andere informatie over uw implementaties te bekijken.
@@ -135,7 +135,7 @@ Gebruik de extensie Adobe Experience Cloud Debugger om fouten op te sporen die d
 **Toepasselijke oplossingen of services**
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en)
-* [Audience Manager](https://experienceleague.adobe.com/docs/dtm/using/tools/audiencemgmt.html?lang=en)
+* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=en)
 * [Media optimaliseren](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en)
 * [Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en)
 * [MAC ID Service](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en)
