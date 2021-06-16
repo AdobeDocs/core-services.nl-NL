@@ -9,9 +9,9 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,8 @@ In de Premie van Analytics voltooit, krijgt u alle mogelijkheden van [Analytics 
 | Data Workbench | <ul><li>Algorithmic Attribution</li><li>Vooraf gebouwde werkruimten</li></ul> |
 | Platform Analytics | [Live stream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)  (onbewerkte gegevens, dashboards, triggers) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Voorspelende inlichtingen {#section_B407932C07A7476F83FB0275C3FB63DC}
 
 Door de upgrade naar Predictive Intelligence wordt [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
@@ -58,6 +60,8 @@ Door de upgrade naar Predictive Intelligence wordt [Analytics Premium](upgrade-t
 | Data Workbench | Vooraf gebouwde werkruimten voor publiekskwalificaties en voorspellende marketing. |
 | Platform Analytics | Live stream (dashboards en triggers) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Klant 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
 Upgraden naar Klant 360 biedt [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
@@ -67,6 +71,8 @@ Upgraden naar Klant 360 biedt [Analytics Premium](upgrade-to-analytics-premium.m
 | [Klantkenmerken](attributes.md) | Kenmerken van de klant (analyse en segmentdeling) |
 | Data Workbench | <ul><li>Afgeleide klantkenmerken</li><li>Vooraf gebouwde werkruimten voor publieksdetectie</li></ul> |
 | Platform Analytics | [Klantkenmerken](attributes.md) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Geavanceerde kenmerken {#section_9E4986A8389946CCAA7D003268343296}
 
