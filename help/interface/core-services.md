@@ -9,9 +9,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -135,16 +135,14 @@ Experience Cloud-services (zoals Experience Cloud ID-service en [!UICONTROL Peop
 
 ## Uw Analytics AppMeasurement-code bijwerken {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Als u Analytics gebruikt, verifieer dat u op regionale gegevensinzameling (RDC) bent. Als uw gegevensverzamelingsdomein [!DNL omtrdc.net] is, of als uw CNAME aan [!DNL omtrdc.net] in kaart wordt gebracht, bent u op RDC. Zie [Overschakelen naar RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en) voor meer informatie. Als u de koekjes van de eerste partij gebruikt, verwijs naar [CNAME en de Dienst van identiteitskaart van Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) voor informatie over gegevensinzameling CNAMEs en dwars-domein het volgen.
+Als u Analytics gebruikt, verifieer dat u op regionale gegevensinzameling (RDC) bent. Als uw gegevensverzamelingsdomein `omtrdc.net` is, of als uw CNAME aan `omtrdc.net` in kaart wordt gebracht, bent u op RDC. Zie [Overschakelen naar RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en) voor meer informatie. Als u de koekjes van de eerste partij gebruikt, verwijs naar [CNAME en de Dienst van identiteitskaart van Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) voor informatie over gegevensinzameling CNAMEs en dwars-domein het volgen.
 
-U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScript-bibliotheken bij te werken, inclusief de API voor bezoekers. De eenvoudige manier om +632581 te verwezenlijken is een [!DNL Adobe Analytics] hulpmiddel in Dynamisch Beheer van de Markering toe te voegen, die *`Automatic`* als configuratiemethode specificeren.
-
-Klik in [!UICONTROL Dynamic Tag Management] op **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Zie [Adobe Analytics Settings](https://experienceleague.adobe.com/docs/dtm/using/tools/analytics-dtm.html?lang=en) in Dynamic Tag Management voor implementatiegegevens.
+U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScript-bibliotheken bij te werken, inclusief de API voor bezoekers. De eenvoudige manier om te verwezenlijken is een [uitbreiding van Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en) in de Inzameling van de Gegevens van het Experience Platform (Lancering) toe te voegen.
 
 ## Adobe Target-implementatie bijwerken {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* U wordt aangeraden een [Adobe Target-extensie](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en) toe te voegen in [!UICONTROL Experience Platform Launch], zodat de bibliotheek automatisch wordt opgehaald. U kunt de [Experience Cloud ID Service-extensie ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en) voor Adobe Target (en andere oplossingen) ook instellen met [!UICONTROL Experience Platform Launch]. De [!UICONTROL Experience Cloud ID Service]-update **is vereist** voor Adobe Target om kernservices te kunnen gebruiken. (Als u [!UICONTROL Dynamic Tag Management] gebruikt, voegt u een [Adobe Target-gereedschap](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en) toe. U kunt [!UICONTROL Dynamic Tag Management] ook gebruiken om de Experience Cloud ID-service voor Adobe Target te implementeren.)
-* Als u [!UICONTROL Experience Platform Launch] of [!UICONTROL Dynamic Tag Management] niet gebruikt, [werk uw mbox bibliotheek](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en) manueel bij.
+* U wordt aangeraden een [Adobe Target-extensie](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en) toe te voegen in [!UICONTROL Experience Platform Launch], zodat de bibliotheek automatisch wordt opgehaald. U kunt de [Experience Cloud ID Service-extensie ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en) voor Adobe Target (en andere oplossingen) ook instellen met [!UICONTROL Experience Platform Launch]. De [!UICONTROL Experience Cloud ID Service]-update **is vereist** voor Adobe Target om kernservices te kunnen gebruiken.
+* Als u [!UICONTROL Experience Platform Launch] niet gebruikt, [werk de bibliotheek ](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en) manueel bij.
 * Toegang aanvragen om Adobe Analytics als rapportagebron voor [!DNL Adobe Target] te gebruiken. [!DNL Target] en de  [!DNL Analytics] gegevens worden gecombineerd op de zelfde servervraag tijdens verwerking zodat de bezoekers tussen de twee oplossingen worden aangesloten. Zie [Analytics for Target Implementation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en).
 
    >[!IMPORTANT]
