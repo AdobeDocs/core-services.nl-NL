@@ -7,7 +7,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Deze sectie bevat uiteinden om u te helpen de organisatie van de Experience Clou
 
 ### Welke organisatie moet ik kiezen?
 
-Als de Experience Cloud ID-service wordt geïmplementeerd in de rapportsuite, moet u ervoor zorgen dat de organisatie die u selecteert in het hulpprogramma voor het toewijzen van de rapportsuite dezelfde organisatie is als die is opgegeven in het [!DNL visitorAPI.js]-bestand op uw site. U kunt de instructies in [Test en verifieer de Dienst van identiteitskaart van de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html) om org identiteitskaart te vinden die door de dienst van identiteitskaart van de Bezoeker wordt gebruikt.
+Als de Experience Cloud ID-service wordt geïmplementeerd in de rapportsuite, moet u ervoor zorgen dat de organisatie die u selecteert in het hulpprogramma voor het toewijzen van de rapportsuite dezelfde organisatie is als die is opgegeven in het [!DNL visitorAPI.js]-bestand op uw site. U kunt de instructies in [Test en verifieer de Dienst van identiteitskaart van de Experience Cloud](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) om org identiteitskaart te vinden die door de dienst van identiteitskaart van de Bezoeker wordt gebruikt.
 
 Zorg ervoor dat uw implementatie overeenkomt met de organisatie die u hebt gekozen in het hulpprogramma voor het toewijzen van de rapportsuite.
 
