@@ -9,9 +9,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '414'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,8 @@ U kunt deze instellingen desgewenst wijzigen, behalve voor de duur van het cooki
 | Serverdomein | `clientcode.tt.omtrdc.net`, met de clientcode voor uw  [!DNL Adobe Target] account. |
 | Duur van cookie | Het cookie blijft twee jaar na de laatste aanmelding in de browser van de bezoeker staan. U kunt de duur van het cookie niet wijzigen. |
 
+{style=&quot;table-layout:auto&quot;}
+
 >[!NOTE]
 >
 >Als om het even welk van uw domeinnamen een landcode, zoals `mycompany.co.uk` omvatten, werk met uw Diensten van de Cliënt om uw `at.js` te vormen om deze code te steunen.
@@ -46,3 +48,4 @@ Het cookie houdt enkele waarden bij voor het beheren van de manier waarop bezoek
 | controleren | Een eenvoudige testwaarde die wordt gebruikt om te bepalen of een bezoeker cookies ondersteunt. Stel de instellingen in wanneer een bezoeker een pagina aanvraagt. |
 | disable | Stel in of de laadtijd van de bezoeker langer is dan de time-out die is geconfigureerd in het bestand at.js. Deze time-out duurt standaard 1 uur. |
 
+{style=&quot;table-layout:auto&quot;}
