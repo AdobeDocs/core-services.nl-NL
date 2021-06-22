@@ -9,9 +9,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '451'
 ht-degree: 3%
 
 ---
@@ -42,6 +42,8 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 * Chrome- en Safari-gebruikers zijn afgeleid van een [!DNL Adobe Analytics]-segment [gepubliceerd](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) naar [!DNL Experience Cloud].
 
    ![](assets/audience_create.png)
+
+**Een publiek maken**
 
 1. Klik in [!DNL Experience Cloud] onder [!DNL Experience Platform] op **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 1. Ga naar de pagina [!UICONTROL Audiences] en klik op **[!UICONTROL New]**. ![](assets/add_icon_small.png)
