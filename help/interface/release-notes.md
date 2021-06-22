@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
 workflow-type: tm+mt
 source-wordcount: '4143'
 ht-degree: 2%
@@ -414,7 +414,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 **Bekende problemen**
 
 * Wijzigingen in groep- en machtigingen die zijn aangebracht in gebruikersbeheer, worden pas na een nieuwe aanmelding van kracht.
-* Sommige gebruikers kunnen&#39; geen kaart maken van een PDF en deze delen naar een kaart.
+* Sommige gebruikers kunnen geen kaart maken van een PDF en deze delen naar een kaart.
 * Sommige gebruikers kunnen problemen hebben met het uploaden van middelen naar een board.
 * Sommige gebruikers kunnen een verouderd element verwijderen in plaats van een foutmelding te ontvangen.
 * Gebruikers kunnen PowerPoint-bestanden niet delen op borden.
