@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 8%
@@ -32,7 +32,7 @@ Mogelijk moet u ook uw organisatie-id vinden voor ondersteuningsdoeleinden. Met 
 
 De **organisatie-id** is de id die is gekoppeld aan uw ingeleverde Experience Cloud-bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg.
 
-Als u uw organisatie-id wilt weergeven, navigeert u naar de bestemmingspagina van de Experience Cloud of klikt u ( ![](assets/menu-icon.png)) en klikt u op **[!UICONTROL Administration]**. U vindt de organisatie-id onder aan de pagina [!UICONTROL Getting Started with the Experience Cloud] of op de pagina [!UICONTROL Administration].
+Als u uw organisatie-id wilt weergeven, navigeert u naar de bestemmingspagina van de Experience Cloud of selecteert u ( ![](assets/menu-icon.png)) en selecteert u **[!UICONTROL Administration]**. U vindt de organisatie-id onder aan de pagina [!UICONTROL Getting Started with the Experience Cloud] of op de pagina [!UICONTROL Administration].
 
 ![](assets/administration-page.png)
 
@@ -42,23 +42,23 @@ Typisch, verlenen de beheerders van Experience Cloud toegang tot oplossingen en 
 
 1. Voer de stappen in uw e-mailuitnodiging voor de Experience Cloud uit.
 1. Meld u aan met uw Adobe ID of Enterprise ID.
-1. Klik de oplossingsselecteur. ( ![](assets/menu-icon.png)).
+1. Selecteer de oplossingenkiezer. ( ![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
    De oplossingen waartoe u toegang hebt, zijn gekleurd.
-1. Klik op de gewenste oplossing.
+1. Selecteer de gewenste oplossing.
 
    ![](assets/analytics-link-accounts.png)
 
    Dit type bericht wordt weergegeven als u deel uitmaakt van de desbetreffende groep (en toestemming hebt voor de oplossing) maar uw accountgegevens nog niet aan uw Adobe ID hebt gekoppeld.
-1. Klik **[!UICONTROL Link Account]**, dan verstrek uw geloofsbrieven.
+1. Selecteer **[!UICONTROL Link Account]** en geef uw referenties op.
 
 ## Een standaardorganisatie en -openingspagina opgeven {#concept_6A191B42A9874A9780882903BA18F071}
 
 U kunt een standaardorganisatie en openingspagina opgeven die u wilt gebruiken wanneer u zich aanmeldt.
 
-Klik in uw profiel op **[!UICONTROL Edit Profile]**.
+Selecteer **[!UICONTROL Edit Profile]** in uw profiel.
 
 ![](assets/edit-profile.png)
 
