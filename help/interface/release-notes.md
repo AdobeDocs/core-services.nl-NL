@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '4143'
 ht-degree: 2%
@@ -294,7 +294,7 @@ Geen informatie beschikbaar
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activering </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> </a> Activering wordt nu weergegeven in de linkernavigatie in de  <span class="keyword"> Experience Cloud</span>. <span class="wintitle"> </span> Activation is een  <span class="keyword"> Experience </span> Cloudservice die momenteel bestaat uit de technologie voor dynamisch tagbeheer en geeft u de leiding wanneer u erop klikt. </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> </a> Activering wordt nu weergegeven in de linkernavigatie in de  <span class="keyword"> Experience Cloud</span>. <span class="wintitle"> </span> Activation is een  <span class="keyword"> Experience </span> Cloudservice die momenteel bestaat uit de technologie voor dynamisch tagbeheer en geeft u de leiding wanneer u deze hebt geselecteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Documentatie-updates - Core Services </p> </td> 
@@ -382,7 +382,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
    <td colname="col1"> <p>Gebruikersmachtigingen bewerken </p> </td> 
    <td colname="col2"> <p>Eigenaars van een board kunnen nu gebruikersmachtigingen op de betreffende board bewerken. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Klik op <span class="uicontrol"> Instellingen</span> in het bord. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Selecteer <span class="uicontrol"> Settings</span> op het bord. </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">Geef <span class="uicontrol"> Eigenaar</span>, <span class="uicontrol"> Viewer</span> of <span class="uicontrol"> Editor</span> naast elke eigenaar op. </li> 
      </ol> </p> </td> 
   </tr> 
@@ -553,7 +553,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 * [!DNL Experience Cloud] was niet verbonden met  [!DNL Adobe Target]. Dit probleem is opgetreden als de [!DNL Adobe Target]-aanmelding op meerdere [!DNL Target]-servers kan worden gebruikt.
 * [!DNL Adobe Media Optimizer] heeft niet automatisch gebruikers gemaakt wanneer de gebruiker is aangemaakt in  [!DNL Experience Cloud].
 * Opties in keuzelijsten met invoervak die worden gebruikt voor het tijdelijk toevoegen van nieuwe gebruikers zijn tijdens het typen verdwenen.
-* Er kan niet op de koppeling Opmerkingen in de weergave voor de kaart van het element worden geklikt.
+* De koppeling Opmerkingen in de weergave Kaart met element kan niet worden geselecteerd.
 * Nadat u een aangepaste tag aan een element hebt toegevoegd, zijn er geen andere metagegevenswijzigingen meer.
 * Als u een afbeelding verwijdert, wordt er in Elementen niet gewaarschuwd of de afbeelding wordt gebruikt in Adobe Target Essentials.
 * Trage [!UICONTROL Experience Cloud] interfaceprestaties bij parallel gebruik door veel gebruikers.
@@ -580,9 +580,9 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
    <td colname="col1"> <p>Kaarten maken van Help-onderwerpen </p> </td> 
    <td colname="col2"> <p>Nadat u de functie Delen naar Adobe Experience Cloud hebt ingeschakeld op de werkbalk Bladwijzer van uw browser, kunt u nu Help-pagina's delen via de URL van de microsite. </p> <p> <b>Een Help-onderwerp delen</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Klik in <span class="keyword"> Experience Cloud</span> op <span class="uicontrol"> Beheer</span>. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Selecteer <span class="uicontrol"> Beheer</span> in <span class="keyword"> Experience Cloud.</span> </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Sleep de knop <span class="uicontrol"> Delen naar Adobe Experience Cloud</span> naar de werkbalk Bladwijzer. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigeer naar een Help-pagina (of blijf op deze pagina) en klik vervolgens op <span class="uicontrol"> Delen naar Adobe Experience Cloud</span> op de werkbalk Bladwijzers van uw browser. </p> <p>Deze stap leidt tot een kaart, die u in <span class="wintitle"> Experience Cloud </span> kunt bekijken. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigeer naar een Help-pagina (of blijf op deze pagina) en selecteer <span class="uicontrol"> Delen naar Adobe Experience Cloud</span> op de werkbalk Bladwijzers van uw browser. </p> <p>Deze stap leidt tot een kaart, die u in <span class="wintitle"> Experience Cloud </span> kunt bekijken. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -596,7 +596,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 * [!DNL Analytics] de openingspagina van de oplossing toont formatterende fouten.
 * Gebruikers dienen zich af te melden en zich weer aan te melden om alle machtigingen en machtigingswijzigingen van kracht te laten worden.
 * Als u een afbeelding verwijdert, wordt [!UICONTROL Assets] niet gewaarschuwd of de afbeelding wordt gebruikt in [!DNL Adobe Target Essentials].
-* Er kan niet op de koppeling Opmerkingen in de weergave met de elementenkaart worden geklikt.
+* De koppeling Opmerkingen in de weergave Middelenkaart kan niet worden geselecteerd.
 * Opties in keuzelijsten met invoervak voor het tijdelijk toevoegen van nieuwe gebruikers verdwijnen tijdens het typen.
 * Aanmelden bij [!DNL Experience Cloud] duurt langer dan een seconde.
 * Gegevens die worden gedeeld vanuit [!DNL Media Optimizer] worden onjuist weergegeven in [!DNL Experience Cloud].
@@ -629,7 +629,7 @@ Versie 14.3.1 is een onderhoudsversie die zich op snelheid, stabiliteit, en veil
 * Gebruikers dienen zich af te melden en zich weer aan te melden om alle machtigingen en machtigingswijzigingen van kracht te laten worden.
 * Wanneer *`Remember me`* niet tijdens login wordt geselecteerd, zal de gebruiker na 15 minuten worden het programma geopend.
 * [!DNL Analytics] de openingspagina van de oplossing toont formatterende fouten.
-* U kunt niet klikken op de koppeling Opmerkingen in de weergave met de elementenkaart.
+* De koppeling Opmerkingen in de weergave Kaart met middelen kan niet worden geselecteerd.
 * De Experience Cloud-interface kan vertragen wanneer veel gebruikers deze parallel gebruiken
 * Experience Cloud kan niet worden gekoppeld aan [!DNL Adobe Target] als de [!DNL Adobe Target]-aanmelding kan worden gebruikt op meerdere doelservers.
 * Aanmelden bij Experience Cloud duurt langer dan een seconde.
@@ -673,5 +673,5 @@ Versie 14.3.1 is een onderhoudsversie die zich op snelheid, stabiliteit, en veil
 
 * Probleem verholpen waardoor gedeelde [!DNL Analytics]-rapporten geen segmentfilters konden toepassen.
 * Probleem verholpen waarbij oplossingen als gekoppeld op de pagina [!UICONTROL Experience Cloud Solutions] worden weergegeven, zelfs als de accounts van de oplossingen niet zijn gekoppeld.
-* Probleem verholpen waardoor klanten in Azië [!DNL Adobe Target] niet op de koppelingspagina op de knop **[!UICONTROL Continue to Experience Cloud]** konden klikken.
+* Probleem verholpen waardoor klanten in Azië [!DNL Adobe Target] de knop **[!UICONTROL Continue to Experience Cloud]** op de koppelingspagina niet konden selecteren.
 * Probleem opgelost waarbij het delen van YouTube-video&#39;s werd voorkomen.
