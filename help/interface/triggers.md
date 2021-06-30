@@ -11,7 +11,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 1%
@@ -52,9 +52,9 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
 >
 >Er bestaat momenteel een technische limiet van 100 triggers.
 
-1. Klik in de Experience Cloud op ![](assets/menu-icon.png) en vervolgens op **[!UICONTROL Data Collection/Launch]**.
-2. Op [!UICONTROL Triggers] kaart, klik **[!UICONTROL Manage Triggers]**.
-3. Klik **[!UICONTROL New Trigger]**, dan specificeer het type van trekker:
+1. Selecteer ![](assets/menu-icon.png) in de Experience Cloud en selecteer **[!UICONTROL Data Collection/Launch]**.
+2. Selecteer **[!UICONTROL Manage Triggers]** op de [!UICONTROL Triggers]-kaart.
+3. Selecteer **[!UICONTROL New Trigger]** en geef vervolgens het type trigger op:
 
    ![Stap Resultaat](assets/add-trigger.png)
 
@@ -71,7 +71,7 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
 
    {style=&quot;table-layout:auto&quot;}
 
-5. Klik op **[!UICONTROL Save]**.
+5. Selecteer **[!UICONTROL Save]**.
 6. Gebruik triggers voor [real-time remarketing](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) in [!DNL Adobe Campaign].
 
 ### Voorbeeld triggers
