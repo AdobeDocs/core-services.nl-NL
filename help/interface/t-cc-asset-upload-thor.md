@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 3fd747e5-38f8-40cc-a255-7a0130b1e32f
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 4%
@@ -20,5 +20,5 @@ ht-degree: 4%
 
 1. Delen inschakelen.
 1. Start het [!DNL Creative Cloud]-bureaublad en navigeer naar [!UICONTROL **Middelen**].
-1. Klik op **[!UICONTROL Open Folder].**
+1. Selecteer **[!UICONTROL Open Folder].**
 1. Gebruik de bladermodus van het besturingssysteem om elementen te selecteren of te verplaatsen.
