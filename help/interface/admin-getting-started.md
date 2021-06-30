@@ -8,9 +8,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1237'
 ht-degree: 2%
 
 ---
@@ -40,10 +40,10 @@ U kunt een productprofiel maken en dit aan een machtigingengroep toewijzen.
 
 Wanneer u een gebruiker naar een organisatie uitnodigt, kunt u de gebruiker toegang geven tot producten en productprofielen. U kunt beperkte administratieve toestemmingen aan een gebruiker ook delegeren. Op dezelfde manier kunt u gebruikersgroepen creëren, dan de groep toevoegen aan een productprofiel om toegang toe te laten.
 
-1. Klik in [Admin Console](https://adminconsole.adobe.com/enterprise/) op **[!UICONTROL Products]**.
-1. Klik op de naam van uw organisatie.
-1. Klik op **[!UICONTROL New Profile]**.
-1. Configureer de profieldetails en klik vervolgens op **[!UICONTROL Save]**.
+1. Selecteer **[!UICONTROL Products]** in de [Admin Console](https://adminconsole.adobe.com/enterprise/).
+1. Selecteer de naam van uw organisatie.
+1. Selecteer **[!UICONTROL New Profile]**.
+1. Configureer de profieldetails en selecteer **[!UICONTROL Save]**.
 
 Zie [Identity](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html) in de [Beheergebruikershandleiding](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html) voor meer informatie (en voor hulp bij productbeheer van Creative Cloud en Documenten Cloud).
 
@@ -70,7 +70,7 @@ What to do
 
 Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
 
-## Beheerdersrollen toewijzen aan gebruikers {#delegate-rights}
+## Beheerdersrollen delegeren aan gebruikers {#delegate-rights}
 
 In de Admin Console, kunt u beperkte administratieve rechten aan anderen in uw organisatie delegeren. Met gedelegeerde rollen kunnen gebruikers softwaretoegang voor eindgebruikers beheren, toegangsimplementatiemogelijkheden bieden en als ondersteuningsafgevaardigden functioneren.
 
@@ -82,16 +82,16 @@ U kunt bijvoorbeeld:
 
 Door deze rollen te gebruiken, kunt u beheer aan anderen gelijktijdig delegeren zonder meer vermogen te verstrekken dan zij nodig hebben.
 
-1. Klik in de Admin Console op **[!UICONTROL Users]** en klik vervolgens op de naam van de gebruiker.
+1. Selecteer **[!UICONTROL Users]** in de Admin Console en selecteer vervolgens de naam van de gebruiker.
 
    ![](assets/edit-admin-rights.png)
 
-1. Klik op **[!UICONTROL Edit admin rights]**.
+1. Selecteer **[!UICONTROL Edit admin rights]**.
 
    ![](assets/edit-admin-rights-page.png)
 
 1. Geef de beheerdersrechten van de gebruiker op.
-1. Klik op **[!UICONTROL Save]**.
+1. Selecteer **[!UICONTROL Save]**.
 
 ## Gebruikers en producten van Analytics beheren {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -99,8 +99,8 @@ U kunt de toestemmingen van de het rapporttoegang van de Analyse (rapportreeksen
 
 U kunt bijvoorbeeld een productprofiel maken dat meerdere analyseprogramma&#39;s bevat ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics] en [!UICONTROL Report Builder]). Deze profielen bevatten machtigingen voor specifieke metriek en dimensies (inclusief eVars) en mogelijkheden zoals segmenten of het maken van berekende metriek.
 
-1. Meld u aan bij de [Admin Console](https://adminconsole.adobe.com/enterprise) en klik vervolgens op **[!UICONTROL Products]**.
-1. Klik op de pagina [!UICONTROL Products] op uw product en klik vervolgens op **[!UICONTROL Permissions]** (alleen beschikbaar voor beheerders).
+1. Meld u aan bij de [Admin Console](https://adminconsole.adobe.com/enterprise) en selecteer **[!UICONTROL Products]**.
+1. Selecteer op de pagina [!UICONTROL Products] het product en selecteer **[!UICONTROL Permissions]** (alleen beschikbaar voor beheerders).
 1. De profielmachtigingen configureren:
 
 | Element | Beschrijving |
