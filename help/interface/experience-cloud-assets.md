@@ -8,7 +8,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -53,7 +53,7 @@ In [!UICONTROL Experience Cloud Assets] kunt u:
 
 ## De werkbalk openen {#section_EC2E401D225148818F3753248556BE6B}
 
-Navigeer naar een element (of elementenmap) en klik op **[!UICONTROL Select]**.
+Navigeer naar een element (of elementenmap) en selecteer **[!UICONTROL Select]**.
 
 De werkbalk biedt snel toegang tot functies, zoals Zoeken, Tijdlijn, Uitvoeringen, Bewerken, Annoteren en Downloaden.
 
@@ -77,13 +77,13 @@ U kunt zoeken op trefwoord, bestandstype, grootte, laatst gewijzigd, publicaties
 
 ## Elementen notities aanbrengen {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Klik op **[!UICONTROL Annotate]** door cirkels of pijlen op een afbeelding te tekenen en het element van annotatie te voorzien voor revisie door collega&#39;s.
+Selecteer **[!UICONTROL Annotate]** door cirkels of pijlen op een afbeelding te tekenen en het element van annotatie te voorzien voor revisie door collega&#39;s.
 
 ![](assets/assets-annotate.png)
 
 ## Elementen op volledig scherm weergeven en zoomen {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Klik op **[!UICONTROL Views]** > **[!UICONTROL Image]** om de volledige elementafbeelding weer te geven en zoomen in te schakelen.
+Selecteer **[!UICONTROL Views]** > **[!UICONTROL Image]** om de volledige elementafbeelding weer te geven en zoomen in te schakelen.
 
 ![](assets/asset-zoom.png)
 
@@ -91,7 +91,7 @@ Klik op **[!UICONTROL Views]** > **[!UICONTROL Image]** om de volledige elementa
 
 U kunt kiezen tussen de kaartweergave met eigenschappen, de lijstweergave en de kolomweergave, zodat u uw elementen gemakkelijker kunt vinden.
 
-Klik op **[!UICONTROL Views]** > **[!UICONTROL Properties]** om de eigenschappen van een element weer te geven:
+Selecteer **[!UICONTROL Views]** > **[!UICONTROL Properties]** om de eigenschappen van een element weer te geven:
 
 ![](assets/asset-properties.png)
 
@@ -99,6 +99,6 @@ Klik op **[!UICONTROL Views]** > **[!UICONTROL Properties]** om de eigenschappen
 
 Zie het aantal gebruikers, de gebruikte opslagruimte en het totale aantal middelen.
 
-Klik op **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+Selecteer **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![](assets/assets-usage-report.png)
