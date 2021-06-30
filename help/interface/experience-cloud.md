@@ -1,5 +1,5 @@
 ---
-description: Leer over centrale interfacecomponenten voor Experience Cloud. Deze hulp omvat gebruiker en productbeleid in de Admin Console, toelatend toepassingen voor de diensten van de Experience Cloud, en krijgt hulp op de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
+description: Leer over centrale interfacecomponenten voor Experience Cloud. Deze hulp omvat gebruiker en productbeheer in de Admin Console, toelatend toepassingen voor de diensten van de Experience Cloud, en krijgt hulp op de Bibliotheek van de Publiek, de Attributen van de Klant, de Middelen van de Experience Cloud, en meer.
 solution: Experience Cloud
 title: Experience Cloud interface Help en documentatie
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
@@ -8,9 +8,9 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '882'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,8 @@ Vanuit Experience Cloud kunt u:
 Meld u aan en controleer of u zich in de juiste [organisatie](organizations.md) bevindt.
 
 1. Navigeer naar [Adobe Experience Cloud](https://experience.adobe.com).
-1. Klik op **[!UICONTROL Sign in with an Adobe ID]**.
-1. Klik in Adobe Experience Cloud op uw organisatie.
+1. Selecteer **[!UICONTROL Sign in with an Adobe ID]**.
+1. Selecteer in Adobe Experience Cloud uw organisatie.
 
    ![](assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ Meld u aan en controleer of u zich in de juiste [organisatie](organizations.md) 
 
 Nadat u zich hebt aangemeld bij Experience Cloud, hebt u vanuit de uniforme header snel toegang tot al uw toepassingen, services en organisaties.
 
-Om tot de diensten van Experience Cloud toegang te hebben die u bezit, klik de toepassingsselecteur ![](assets/menu-icon.png).
+Ga naar de toepassingskiezer ![](assets/menu-icon.png) om toegang te krijgen tot de Experience Cloud-services die u bezit.
 
 ![](assets/platform-core-services.png)
 
@@ -79,7 +79,7 @@ Voorkeuren voor Experience Cloud zijn onder andere meldingen, abonnementen en wa
 * Afmelden
 * Accountvoorkeuren, meldingen en abonnementen configureren
 
-Als u de voorkeuren wilt beheren, klikt u op **[!UICONTROL Preferences]** in het accountmenu ![](assets/preferences-icon-sm.png).
+Als u de voorkeuren wilt beheren, selecteert u **[!UICONTROL Preferences]** in het accountmenu ![](assets/preferences-icon-sm.png).
 
 ![](assets/preferences-page.png)
 
@@ -97,7 +97,7 @@ Op [!UICONTROL Experience Cloud preferences], kunt u de volgende eigenschappen v
 
 ## Meldingen en aankondigingen {#notifications}
 
-Klik op **[!UICONTROL Notifications]** voor een melding over relevante en activeerbare updates, zoals productreleases, onderhoudsmeldingen, gedeelde items en goedkeuringsaanvragen.
+Selecteer **[!UICONTROL Notifications]** om te worden gealarmeerd over relevante en uitvoerbare updates, met inbegrip van productversies, onderhoudsberichten, gedeelde punten, en goedkeuringsverzoeken.
 
 ![](assets/notifications-menu-small.png)
 
