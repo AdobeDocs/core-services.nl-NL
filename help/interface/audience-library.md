@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 2%
@@ -59,7 +59,7 @@ In de volgende tabel wordt beschreven hoe publiek wordt gebruikt in Experience C
 
 | Help met | Resource |
 |--- |--- |
-| Kan publiek niet vinden? | Zorg ervoor dat u provisioned bent. Zie [Aan de slag - uw oplossingen inschakelen voor kernservices](core-services.md).<br>Klik  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) hier om toegang te vragen tot profielen en soorten publiek (inrichtingsformulier voor integraties). |
+| Kan publiek niet vinden? | Zorg ervoor dat u provisioned bent. Zie [Aan de slag - uw oplossingen inschakelen voor kernservices](core-services.md).<br>Ga  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) hier naar om toegang te vragen tot profielen en soorten publiek (inrichtingsformulier voor integraties). |
 | Gebruiksscenario’s | Voor meer begeleiding op welke oplossing te gebruiken, ga naar [Opties van de Aanmaak van het publiek](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) in de Kennisbank. |
 | Forum | Het [Soorten publiek forum](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) is een andere bron voor hulp bij het publiek. |
 
