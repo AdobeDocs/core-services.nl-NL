@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 3%
@@ -61,7 +61,7 @@ Meer informatie is beschikbaar in de Help bij Analytics over [First-Party Cookie
 
 | Kenmerk | Beschrijving |
 |--- |--- |
-| Opgeslagen informatie | Deze cookie wordt ingesteld en gelezen door de JavaScript-code wanneer de functionaliteit ClickMap of de functionaliteit Activity Map is ingeschakeld. het bevat informatie over de vorige koppeling waarop de gebruiker heeft geklikt |
+| Opgeslagen informatie | Dit cookie wordt ingesteld en gelezen door de JavaScript-code wanneer de functionaliteit SelectMap of de functionaliteit Activity Map is ingeschakeld. het bevat informatie over de vorige koppeling waarop de gebruiker heeft geselecteerd |
 | Verlopen | Dit cookie is een sessiecookie en verloopt wanneer de browser wordt gesloten |
 | Gebruik | Slechts één cookie voor alle accounts |
 | Locatie | Dit cookie wordt opgeslagen op het domein van de pagina |
@@ -115,7 +115,7 @@ In de volgende tabel worden de vlaggen voor Analytics-cookies beschreven:
 >
 >Als het gebruiken van één enkele CNAME aan spoor over veelvoudige domeinen of eigenschappen, zou SameSite aan &quot;niets&quot;voor `s_vi` moeten worden geplaatst. Neem contact op met de klantenservice voor hulp bij het wijzigen van de cookie-instellingen van Analytics.
 
-## Cookies ingesteld door plug-ins {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Cookies ingesteld op plug-ins {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 Afhankelijk van het gebruik van plug-ins voor Analytics kunnen extra cookies worden ingesteld. Deze cookies zijn codefragmenten die beschikbaar zijn voor de client en die onder verschillende omstandigheden kunnen worden gebruikt. Deze omstandigheden omvatten: waarden ophalen van de URL; samenvoegen van waarden die aan Analytics moeten worden doorgegeven; vastleggen van het verlaten van formulieren enzovoort. Neem contact op met ClientCare voor specifieke informatie over cookies die door elke insteekmodule worden ingesteld. Een voorbeeld hiervan is het cookie [!DNL s_vh] dat wordt gebruikt met de *Eenmaal instellen per* en *Laatste waarde instellen en ophalen* plug-ins.
 
