@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -67,13 +67,13 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 >
 >Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de Attributen van de Klant, is er een vertraging van maximaal één uur alvorens IDs begint synchroniserend met de nieuwe gegevensbron. U moet beheerdersrechten in Audience Manager hebben om bronnen voor klantkenmerken te maken of te wijzigen. Neem contact op met de klantenservice of de Audience Manager voor advies om beheerrechten te verkrijgen.
 
-1. Klik in [!DNL Experience Cloud] op het pictogram Menu ![](assets/menu-icon.png).
-1. Klik onder **[!DNL Experience Platform]** op **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
+1. Selecteer in [!DNL Experience Cloud] het pictogram Menu ![](assets/menu-icon.png).
+1. Selecteer onder **[!DNL Experience Platform]** de optie **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    Op de pagina [!UICONTROL Customer Attributes] kunt u bestaande bronnen van kenmerkgegevens beheren en bewerken.
 
    ![Stap Resultaat](assets/03_crs_usecase.png)
-1. Klik op **[!UICONTROL New]**.
+1. Selecteer **[!UICONTROL New]**.
 
    ![Stap Resultaat](assets/04_crs_usecase.png)
 1. Configureer op de pagina [!UICONTROL Edit Customer Attribute Source] de volgende velden:
@@ -153,7 +153,7 @@ Zie [Abonnementen configureren](subscription.md#concept_ECA3C44FA6D540C89CC04BA3
 
 **Een kenmerkbron activeren**
 
-Zoek op de pagina [!UICONTROL Create New [or Edit] Customer Attribute Source] de koptekst [!UICONTROL Activate] en klik vervolgens op **[!UICONTROL Active]**.
+Zoek op de pagina [!UICONTROL Create New [or Edit] Customer Attribute Source] de koptekst [!UICONTROL Activate] en selecteer **[!UICONTROL Active]**.
 
 ![Stap Resultaat](assets/activate_attribute_source.png)
 
