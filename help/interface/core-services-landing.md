@@ -7,7 +7,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 6a9a3068d2831be28f4cbe859d93eb1ad580897f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 Deze documentatie is van toepassing op functies van de uniforme header van de Experience Cloud, zoals de [!UICONTROL People]-service (soorten publiek en klantkenmerken), gebruikers- en productbeheer voor Experience Cloud, cookies, accountvoorkeuren, meldingen, enzovoort.
 
-Als u deze services wilt openen in Experience Cloud, klikt u op **[!UICONTROL Application Selector]**
+Als u deze services wilt openen in Experience Cloud, selecteert u **[!UICONTROL Application Selector]**
 ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
