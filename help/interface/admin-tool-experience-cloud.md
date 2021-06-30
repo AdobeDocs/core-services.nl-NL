@@ -9,7 +9,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Beheerders kunnen een sorteerbare en filterbare lijst met alle gebruikers en bel
 
    ![](assets/admin-tool.png)
 
-1. Klik onder [!UICONTROL Quick Access] op **[!UICONTROL Admin Tool.]**
+1. Selecteer onder [!UICONTROL Quick Access] de optie **[!UICONTROL Admin Tool.]**
 
    (U kunt ook _home_ in de URL van de startpagina vervangen door _admin._)
 
@@ -42,7 +42,7 @@ Deze pagina toont volledige lijst van gebruikers met toegang tot Experience Clou
 
 | Element | Beschrijving |
 |---|---|
-| [!UICONTROL Name] | De voornaam en achternaam van de gebruiker. U kunt deze kolom sorteren van A tot Z en van Z tot A.  Klik op de naam van een gebruiker voor meer informatie over de gebruiker. |
+| [!UICONTROL Name] | De voornaam en achternaam van de gebruiker. U kunt deze kolom sorteren van A tot Z en van Z tot A.  Selecteer de naam van een gebruiker om meer details over de gebruiker te zien. |
 | [!UICONTROL Email] | Het e-mailadres dat aan de gebruiker is gekoppeld. Kolom kan A->Z, Z->A worden gesorteerd. |
 | [!UICONTROL ID Type] | Het identiteitstype voor de account van de gebruiker. Filter kan worden toegepast op weergavespecifieke id-typen. Zie [Identiteitstypen beheren](https://helpx.adobe.com/enterprise/using/identity.html) voor meer informatie. |
 | [!UICONTROL Solutions] | Overzicht van Experience Cloud-oplossingen waartoe de gebruiker toegang heeft. U kunt filters op versmalde benedenlijst van gebruikers met specifieke oplossingstoegang toepassen. |
@@ -54,7 +54,7 @@ U kunt de kolommen doorzoeken, sorteren of filteren om de gebruikerslijst aan te
 
 * Zoeken naar gebruikers op naam of e-mail. Zoekopdrachten komen overeen met de tekenreeks die u typt.
 * Sorteer de kolom door waarden op te nemen of af te nemen. Deze sortering is van toepassing op [!UICONTROL Name,] [!UICONTROL Email,] en [!UICONTROL Last Login] Kolommen.
-* Als u meerdere filters wilt toepassen op gebruikers met specifieke criteria, klikt u op het pictogram **[!UICONTROL Filter By]**. Wanneer er meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten e-maildomein `AND` ID TYPE `AND` Oplossing.
+* Als u meerdere filters wilt toepassen op gebruikers met specifieke criteria, selecteert u het pictogram **[!UICONTROL Filter By]**. Wanneer er meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten e-maildomein `AND` ID TYPE `AND` Oplossing.
 
 | Element | Beschrijving |
 |---------|----------|
@@ -64,7 +64,7 @@ U kunt de kolommen doorzoeken, sorteren of filteren om de gebruikerslijst aan te
 
 ## Gebruikersgegevens weergeven
 
-Klik op de pagina [!UICONTROL Users] om de gegevens van een gebruiker weer te geven op de e-mail van de gebruiker.
+Selecteer op de pagina [!UICONTROL Users] de e-mail van de gebruiker om de gegevens van de gebruiker weer te geven.
 
 ![](assets/admin-tool-user-details.png)
 
@@ -106,7 +106,7 @@ Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw 
 
 | Element | Beschrijving |
 |---|---|
-| [!UICONTROL Product Profile] | De naam van het productprofiel. Kolom kan A->Z, Z->A worden gesorteerd. Klik op de naam van een productprofiel voor meer informatie over het beleid. |
+| [!UICONTROL Product Profile] | De naam van het productprofiel. Kolom kan A->Z, Z->A worden gesorteerd. Als u meer details over het beleid wilt zien, selecteert u de naam van een productprofiel. |
 | [!UICONTROL Product] | Het product dat aan het productprofiel is gekoppeld. Kolom kan A->Z, Z->A worden gesorteerd. |
 | [!UICONTROL Instance] | Het exemplaar (bijvoorbeeld, huurder of login bedrijf) verbonden aan productprofiel. Op producten die geen unieke exemplaren of huurders hebben, wordt &#39; - &#39; voor de waarde weergegeven. Kolom kan A->Z, Z->A worden gesorteerd. |
 | [!UICONTROL Number of Users] | Unieke telling van gebruikers die zijn gekoppeld aan het productprofiel, inclusief rechtstreekse toewijzing en groepstoewijzing. Kolom kan het kleinst tot het grootst of het grootst tot het kleinst worden gesorteerd. |
@@ -118,7 +118,7 @@ U kunt de kolommen zoeken, sorteren of filteren om de lijst met beleidsregels aa
 
 * Zoek naar productprofielen op naam. Zoekopdrachten komen overeen met de tekenreeks die u typt.
 * Sorteer de kolom door waarden op te nemen of af te nemen. Deze sortering is van toepassing op [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] en [!UICONTROL Number of Developers,] Kolommen.
-* Klik op het pictogram **[!UICONTROL Filter By]** om meerdere filters toe te passen op de lijst met productprofielen met specifieke criteria. Wanneer de veelvoudige filtercategorieën worden toegepast, bevatten de onderzoeken Groepen verbonden `AND` Instantie `AND` Oplossing.
+* Selecteer het pictogram **[!UICONTROL Filter By]** om meerdere filters toe te passen op de lijst met productprofielen met specifieke criteria. Wanneer de veelvoudige filtercategorieën worden toegepast, bevatten de onderzoeken Groepen verbonden `AND` Instantie `AND` Oplossing.
 
 | Element | Beschrijving |
 |---------|----------|
@@ -127,7 +127,7 @@ U kunt de kolommen zoeken, sorteren of filteren om de lijst met beleidsregels aa
 
 ## Beleidsdetails weergeven
 
-Klik op de pagina [!UICONTROL Policies] om de details van een beleid weer te geven op de naam van het productprofiel.
+Selecteer op de pagina [!UICONTROL Policies] de naam van het productprofiel om de details van een beleid weer te geven.
 
 ![](assets/admin-tool-policy-detail.png)
 
