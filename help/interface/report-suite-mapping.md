@@ -7,7 +7,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
@@ -35,17 +35,17 @@ Organisaties worden grijs weergegeven als u geen beheerdersmachtigingen voor Ana
 
 1. Navigeer naar Report Suites for Data Governance op [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** (zie [De instelling voor gegevensbeheer van de rapportsuite weergeven/beheren](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)
 
-1. Om de login bedrijven te zien die toegang tot elke rapportreeks hebben, klik **[!UICONTROL Visible to Login Companies]**.
+1. Om de login bedrijven te zien die toegang tot elke rapportreeks hebben, uitgezocht **[!UICONTROL Visible to Login Companies]**.
 
    Deze mening is bedoeld om u te helpen een geïnformeerde beslissing over de afbeelding nemen.
 
-1. Klik de drop-down in **[!UICONTROL Mapped Organization]** kolom naast een rapportreeks en selecteer de organisatie waaraan u wilt in kaart brengen.
+1. Selecteer de drop-down in **[!UICONTROL Mapped Organization]** kolom naast een rapportreeks en selecteer de organisatie waaraan u wilt in kaart brengen.
 
    Zie de volgende sectie voor tips over het selecteren van een Experience Cloud-organisatie.
 
 ## Meerdere rapportsuites toewijzen aan een organisatie {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Klik op **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**.
+1. Selecteer **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**.
 
 1. Selecteer de rapportsuites die u wilt in kaart brengen.
 
@@ -55,7 +55,7 @@ Organisaties worden grijs weergegeven als u geen beheerdersmachtigingen voor Ana
 
    Zie de volgende sectie voor tips over het selecteren van een Experience Cloud-organisatie.
 
-1. Klik op **[!UICONTROL Save Mapping]**.
+1. Selecteer **[!UICONTROL Save Mapping]**.
 
 ## Tips voor het selecteren van een Experience Cloud-organisatie {#mapping-tips}
 
