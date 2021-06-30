@@ -8,7 +8,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Voer DNS prefetch uit helpen de tijden van de paginading met verschillende oplos
 
 ## DNS-prefetch begrijpen {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Browsers gebruiken DNS prefetch om domeinnamen automatisch op te lossen die op een Web-pagina aan hun overeenkomstige IP adressen worden verbonden. Het vooraf ingestelde proces wordt gestart wanneer uw browser een webpagina laadt. Stel bijvoorbeeld dat de pagina een klikbare koppeling bevat naar `www.adobe.com`. Wanneer browser deze pagina laadt, gebruikt het [DNS systeem](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) om omhoog de verbonden domeinnaam te kijken en het op te lossen aan een overeenkomstig numeriek IP adres. DNS-prefetch verbetert de paginaprestaties omdat de domeinnaam al is omgezet naar een IP-adres voordat een bezoeker van de site op die koppeling of knop klikt. Het DNS-prefetchproces is transparant voor de gebruikers.
+Browsers gebruiken DNS prefetch om domeinnamen automatisch op te lossen die op een Web-pagina aan hun overeenkomstige IP adressen worden verbonden. Het vooraf ingestelde proces wordt gestart wanneer uw browser een webpagina laadt. Stel bijvoorbeeld dat de pagina een selecteerbare koppeling bevat naar `www.adobe.com`. Wanneer browser deze pagina laadt, gebruikt het [DNS systeem](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) om omhoog de verbonden domeinnaam te kijken en het op te lossen aan een overeenkomstig numeriek IP adres. DNS-prefetch verbetert de paginaprestaties omdat de domeinnaam al is omgezet naar een IP-adres voordat een bezoeker van de site op die koppeling of knop klikt. Het DNS-prefetchproces is transparant voor de gebruikers.
 
 ## DNS-prefetch- en Adobe Experience Cloud-oplossingen {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
