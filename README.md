@@ -1,8 +1,8 @@
 ---
-source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 86%
+ht-degree: 79%
 
 ---
 # Bijdragen aan een artikel
@@ -21,7 +21,7 @@ Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen 
 
 ### Kleine wijzigingen
 
-Als u minder belangrijke updates bijdraagt uit de goedheid van uw hart, gaat u naar het artikel en klikt u op de koppeling **Bewerken** naar de GitHub-source voor het artikel. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
+Als u minder belangrijke updates uit de goodness van uw hart bijdraagt, bezoek het artikel en selecteer de **Edit** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
 
 Kleine correcties of verduidelijkingen die u verzendt voor documentatie en codevoorbeelden in deze repository, worden gedekt door de gebruiksvoorwaarden van Adobe.
 
