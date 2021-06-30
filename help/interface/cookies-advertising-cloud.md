@@ -7,7 +7,7 @@ topic: Beheer
 role: Administrator
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p>Id's en tijdstempels (in de notatie jjjjjjjjjjjjjjmmdd) van weergave klikken</p> </td> 
+   <td colname="col2"> <p>Id's en tijdstempels (in de notatie jjjjjjjjjjjjmmdd) van de weergave worden geselecteerd</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
@@ -38,7 +38,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
-   <td colname="col2"> <p>Een cookie van een andere fabrikant die wordt gebruikt om te bepalen of een klikgebeurtenis op een display wordt toegepast en op een Adobe Analytics-hit wordt toegepast </p> </td> 
+   <td colname="col2"> <p>Een cookie van een andere fabrikant die wordt gebruikt om te bepalen of een select-gebeurtenis op een scherm wordt toegepast en die op een Adobe Analytics-hit wordt toegepast </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Locatie </p> </td> 
@@ -96,7 +96,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p>De tijdstempels van het laatste bezoek van de surfer aan de website van de adverteerder en de laatste zoekklik van de surfer, en de ef_id die werd gemaakt toen de gebruiker op een advertentie klikte</p> </td> 
+   <td colname="col2"> <p>De tijdstempels van het laatste bezoek van de surfer aan de website van de adverteerder en de laatste zoekopdracht van de surfer, en de ef_id die werd gemaakt toen de gebruiker een advertentie selecteerde</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
