@@ -6,17 +6,17 @@ title: 'Audience Manager Cookies '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
 topic: Beheer
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 2%
 
 ---
 
-# Cookies Audience Manager{#audience-manager-cookies}
+# Audience Manager Cookies{#audience-manager-cookies}
 
 Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende functies uit te voeren. Dit zijn onder andere het toewijzen van id&#39;s, het opnemen van gegevensaanroepen, het bijhouden van fouten en het testen om te controleren of cookies kunnen worden ingesteld. In deze sectie worden de verschillende cookies vermeld en beschreven die door de Audience Manager zijn ingesteld.
 
