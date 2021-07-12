@@ -6,12 +6,12 @@ title: 'Meer informatie over gegevensbestanden en gegevensbronnen voor klantkenm
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Klantkenmerken
 topic: Beheer
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Meerdere bestanden </p> </td> 
-   <td colname="col2"> <p>Wanneer u kenmerkgegevens van de klant uploadt en u meerdere bestanden hebt die u snel na elkaar wilt uploaden, en vooral als de bestanden groot zijn, moet u controleren of het vorige bestand is verwerkt voordat u het volgende bestand uploadt. U kunt dit controleren door te controleren wanneer het vorige bestand is verplaatst naar de verwerkte of mislukte map in uw FTP-account [!UICONTROL-klantkenmerken]. </p> <p> Wanneer u een groot bestand in kleinere bestanden splitst en snel na elkaar verzendt, kan dit de verwerking vertragen, tenzij u ervoor kunt zorgen dat elk bestand wordt verwerkt voordat het volgende bestand wordt verzonden. </p> </td> 
+   <td colname="col2"> <p>Wanneer u kenmerkgegevens van de klant uploadt en u meerdere bestanden hebt die u snel na elkaar wilt uploaden, en vooral als de bestanden groot zijn, moet u controleren of het vorige bestand is verwerkt voordat u het volgende bestand uploadt. U kunt dit controleren door te controleren wanneer het vorige bestand is verplaatst naar de verwerkte of mislukte map in uw [!UICONTROL Customer Attributes] FTP-account. </p> <p> Wanneer u een groot bestand in kleinere bestanden splitst en snel na elkaar verzendt, kan dit de verwerking vertragen, tenzij u ervoor kunt zorgen dat elk bestand wordt verwerkt voordat het volgende bestand wordt verzonden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tekencodering </p> </td> 
@@ -129,7 +129,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historische gegevens </p> </td> 
-   <td colname="col2"> <p> Klantkenmerken zijn gekoppeld aan het onderliggende bezoekersprofiel in [!DNL Analytics]. Als zodanig zijn [!UICONTROL-klantkenmerken] gedurende de gehele levensduur van dat bezoekersprofiel gekoppeld aan de bezoeker in [!DNL-analyse]. Dit profiel bevat gedrag dat is opgetreden voordat de klant zich voor het eerst heeft aangemeld. </p> <p> Als u de backfill methode van de Data Warehouse gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op analytics ID (HULP) gebaseerd is. Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op Experience Cloud identiteitskaart (MID) gebaseerd is. </p> </td> 
+   <td colname="col2"> <p> Klantkenmerken zijn gekoppeld aan het onderliggende bezoekersprofiel in [!DNL Analytics]. Als zodanig is [!UICONTROL Customer Attributes] gedurende de gehele levensduur van dat bezoekersprofiel gekoppeld aan de bezoeker in [!DNL Analytics]. Dit profiel bevat gedrag dat is opgetreden voordat de klant zich voor het eerst heeft aangemeld. </p> <p> Als u de backfill methode van de Data Warehouse gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op analytics ID (HULP) gebaseerd is. Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op Experience Cloud identiteitskaart (MID) gebaseerd is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gegevensfeeds </p> </td> 
