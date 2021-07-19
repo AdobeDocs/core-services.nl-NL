@@ -9,9 +9,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4168'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,10 @@ Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Centra
 Zie [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) voor een lijst met documentatie-updates.
 
 Zie [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) voor opmerkingen bij de release over alle oplossingen.
+
+## Juli - 2021
+
+Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer, aanbiedingen en Experience League. Eerder was deze functie alleen beschikbaar voor gebruikers in de Experience Platform.
 
 ## Juni - 2021
 
