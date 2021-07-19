@@ -8,9 +8,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e198879b806aa0765034d6d0cc2fcf2a6f5e856a
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '887'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Met de algemene zoekopdracht kunt u doorzoekbare zakelijke objecten of entiteite
 
 >[!NOTE]
 >
->De algemene zoekopdracht is alleen beschikbaar voor gebruikers van Experience Platforms en Journey Orchestration.
+>De algemene zoekopdracht is alleen beschikbaar voor Experience Platform, Journey Optimizer, Aanbiedingen en Experience League.
 
 ## Accountvoorkeuren beheren {#preferences}
 
