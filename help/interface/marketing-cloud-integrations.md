@@ -9,9 +9,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -70,10 +70,6 @@ Maak en beheer soorten publiek in de Experience Cloud Audience Library. De soort
 
 Help: [Klantkenmerken](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
->[!NOTE]
->
->Kenmerken van klant zijn een oudere service, die nu in gebruik is.
-
 Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in de Experience Cloud uploaden. Na het uploaden gebruikt u de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
 **Toepasselijke oplossingen of services**
@@ -84,10 +80,6 @@ Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relati
 ## Experience Cloud-middelen {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 Help: [Experience Cloud-mappen delen met Creative Cloud](creative-cloud.md)
-
->[!NOTE]
->
->Activa zijn een oude kerndienst, die nu in gebruik is.
 
 Deel mappen en elementen tussen de Experience Cloud en de Creative Cloud. Samenwerken, notities aanbrengen bij gedeelde elementen en deze gebruiken in Experience Cloud-oplossingen zoals [!DNL Social] en [!DNL Target].
 
