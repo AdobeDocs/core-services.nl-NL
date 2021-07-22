@@ -8,18 +8,14 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Experience Cloud-middelen
-
->[!NOTE]
->
->Activa zijn een oude kerndienst, die nu in gebruik is.
 
 Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop]-bestand, dia&#39;s in een [!DNL PowerPoint]-bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
 
