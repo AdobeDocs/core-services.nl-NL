@@ -7,9 +7,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '353'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ In deze Help worden de volgende producten en services beschreven:
 | [Personen - Klantkenmerken](attributes.md) | Stel in real-time formulieren samen voor het orkestgebruik met gebruik van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. [!UICONTROL Journey Orchestration] is een applicatieservice die is geïntegreerd in het Experience Platform. |
 | [Locatieservice](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe is een geo-locatieservice. [!UICONTROL Experience Platform Location Service] Hiermee kunnen mobiele apps met het bewustzijn van de locatie de context van de locatie begrijpen door rijke en gebruiksvriendelijke SDK-interfaces te gebruiken die vergezeld gaan van een flexibele database van belangengroepen (POI&#39;s). |
 | [Activering](activation.md) | Activering omvat het nieuwste product voor tagbeheer, genaamd Experience Platform Data Collection (Launch) en Experience Cloud Triggers. |
-| [Assets](experience-cloud-assets.md) | Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. (Activa zijn een oudere service, die nu in gebruik is.) |
+| [Assets](experience-cloud-assets.md) | Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u over verschillende oplossingen kunt delen. |
 | [Beheer](admin-getting-started.md) | Leer hoe u zich aanmeldt bij de Admin Console, gebruikersmachtigingen en productprofielen voor Experience Cloud beheert en browserondersteuning. |
 | [Cookies](cookies-privacy.md) | Het handhaven van klantenprivacy en gegevensveiligheid zijn hoogste prioriteiten bij Adobe. Adobe neemt deel aan meerdere privacyorganisaties en werkt samen met privacytoezichthouders en zelfreguleringsbeginselen. |
 
