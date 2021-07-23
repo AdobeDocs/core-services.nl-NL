@@ -7,20 +7,16 @@ role: Admin
 topic: Beheer
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 12b2758155885386cdc3e6fc7e1a77f2b8e74b6e
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '470'
 ht-degree: 2%
 
 ---
 
 # Overzicht van klantkenmerken
 
->[!IMPORTANT]
->
->[!UICONTROL Customer Attributes] is een erfenisdienst , die nu onder toezicht staat .
-
-[!UICONTROL Customer Attributes] in Experience Cloud kunt u uw vastgelegde bedrijfsgegevens uploaden vanuit een CRM-database (Customer relationship management). U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in de Experience Cloud en vervolgens de gegevens in Adobe Analytics en Adobe Target gebruiken.
+De Attributen van de klant in Experience Cloud laten u toe om uw gevangen ondernemingsgegevens van een gegevensbestand van het het relatiebeheer van de klant (CRM) te uploaden. U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in de Experience Cloud en vervolgens de gegevens in Adobe Analytics en Adobe Target gebruiken.
 
 Navigeer naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]** om deze functie te zoeken.
 
