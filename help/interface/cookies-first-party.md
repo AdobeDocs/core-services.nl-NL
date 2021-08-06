@@ -10,9 +10,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,18 @@ ht-degree: 0%
 
 Analytics gebruikt cookies om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies. Waar mogelijk gebruikt Adobe cookies van de eerste partij om activiteiten op uw site op te nemen. Als u activiteit wilt opnemen op verschillende sites, zoals andere domeinen die u hebt, zijn cookies van andere bedrijven vereist.
 
-Veel browsers en antispywaretoepassingen zijn ontworpen om cookies van derden af te wijzen en te verwijderen, inclusief cookies die worden gebruikt in [!DNL Analytics] gegevensverzameling. Voor ondersteuning van het bijhouden van de interactie tussen uw bezoekers en uw website moet u ervoor zorgen dat u de gegevensverzameling hebt geconfigureerd voor het gebruik van cookies van de eerste partij:
+Veel browsers en antispywaretoepassingen zijn ontworpen om cookies van derden af te wijzen en te verwijderen. Adobe zorgt ervoor dat cookies altijd kunnen worden ingesteld, zelfs als cookies van derden worden geblokkeerd. Het specifieke gedrag varieert afhankelijk van of u de Dienst van de Identiteit van het Experience Platform (de Dienst van ECID) of de erfenisherkenningstekens van Analytics (ook bekend als s_vi koekje) gebruikt:
 
-Er zijn twee opties beschikbaar voor het implementeren van cookies van de eerste fabrikant:
+* De [Dienst van de Identiteit van het Experience Platform (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) zal automatisch eerste-partijkoekjes plaatsen ongeacht of uw inzamelingsdomein uw plaatsomein aanpast. Als deze niet overeenkomen, gebruikt de Identity Service JavaScript om cookies in te stellen in het domein van uw site.
+* Als u [Verouderde id&#39;s voor Analytics gebruikt](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (ook bekend als het `s_vi`-cookie), is dit afhankelijk van de configuratie van uw gegevensverzamelingsserver. Als de server van de gegevensinzameling het domein van uw plaats aanpast, dan worden de koekjes geplaatst als eerste-partij. Als de verzamelingsserver niet overeenkomt met uw huidige domein, worden cookies ingesteld als derden. Als cookies van derden worden geblokkeerd, stelt Analytics een fallback-id (s_fid)](cookies-analytics.md) in in plaats van de standaard &#39;s_vi&#39;-cookie.[
 
-* Als u de Dienst van de Identiteit van het Experience Platform (de Dienst van ECID) gebruikt, plaatst het automatisch koekjes in de eerste partijcontext gebruikend JavaScript.
-* Als u [!DNL Analytics] verouderde herkenningstekens (ook bekend als het `s_vi` koekje) gebruikt, hangt het af van hoe u uw server van de gegevensinzameling hebt gevormd. Als de server van de gegevensinzameling het domein van uw plaats aanpast, dan worden de koekjes geplaatst als eerste-partij. Als de verzamelingsserver niet overeenkomt met uw huidige domein, worden cookies ingesteld als derden. Als cookies van derden worden geblokkeerd, [!DNL Analytics] stelt [fallback-id (s_fid)](cookies-analytics.md) in plaats van de standaard &#39;s_vi&#39;-cookie in.
-
-Om ervoor te zorgen dat uw verzamelingsserver overeenkomt met het domein van uw site, kunt u een CNAME-implementatie gebruiken waarmee cookies kunnen worden ingesteld in een context van een eerste partij. Dit impliceert veranderingen in DNS van uw bedrijf montages om een alias van CNAME aan het richten aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van Adobe gebruikend een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als u veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar waar het plaatsdomein niet de het domeinkoekjes van CNAME aanpast wordt geplaatst als derde.
+Als u uw inzamelingsserver zou willen verzekeren past uw domein van de plaats aan, kunt u een implementatie gebruiken CNAME die het door:sturen van een douanedomein zal toelaten dat in uw implementatie CNAME aan de inzamelingsservers van Adobe wordt gespecificeerd. Dit impliceert veranderingen in DNS van uw bedrijf montages om een alias van CNAME aan het richten aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van Adobe gebruikend een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als u veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar waar het plaatsdomein niet de het domeinkoekjes van CNAME aanpast wordt geplaatst als derde.
 
 >[!NOTE]
 >
->Voor beide opties maakt het ITP-programma (Intelligent Tracking Prevention) van Apple de cookies van de eerste partij van korte duur op browsers die onder ITP vallen, waaronder Safari op MacOS en alle browsers op iOS en iPadOS. Vanaf november 2020 hebben beide typen cookies een vervaldatum van zeven dagen. Deze vervaldatum kan worden gewijzigd.
+>Ongeacht of uw verzamelingsdomein overeenkomt met uw sitedomein, maakt het programma Intelligent Tracking Prevention (ITP) van Apple de cookies van de eerste partij die door Adobe zijn ingesteld, van korte duur op browsers die door ITP worden beheerd, waaronder Safari op MacOS en alle browsers op iOS en iPadOS. Vanaf november 2020 hebben cookies die via CNAME zijn ingesteld, dezelfde vervaldatum als cookies die via JavaScript zijn ingesteld. Deze vervaldatum kan worden gewijzigd.
 
-Als uw site beveiligde pagina&#39;s heeft via het HTTPS-protocol, kunt u voor de tweede optie met een CNAME een SSL-certificaat aanvragen om cookies van de eerste partij te implementeren. Adobe adviseert sterk dat u exclusief HTTPS voor gegevensinzameling gebruikt aangezien Adobe steun voor HTTP- inzameling in de tweede helft van 2020 vermindert.
+Als u een NAAM voor gegevensinzameling wilt vestigen en als uw plaats veilige pagina&#39;s gebruikend het protocol HTTPS heeft, kunt u met Adobe werken om een SSL certificaat te verkrijgen.
 
 Het SSL-certificaatuitgifteproces kan vaak verwarrend en tijdrovend zijn. Als gevolg hiervan heeft Adobe een partnerschap opgezet met DigiCert, een toonaangevende certificeringsinstantie (CA), en een geïntegreerd proces ontwikkeld waarmee de aankoop en het beheer van deze certificaten worden geautomatiseerd.
 
@@ -42,15 +40,15 @@ Met uw toestemming, werken wij met CA om, een nieuw SSL certificaat van SHA-2 vo
 
 ## Adobe-Beheerd certificaatprogramma
 
-Het door Adobe beheerde certificaatprogramma is het aanbevolen proces voor het implementeren van een nieuw eersteklas SSL-certificaat voor cookies van de eerste fabrikant.
+Het Adobe Beheerde Programma van het Certificaat is het geadviseerde proces voor vestiging het eerste-partijSSL certificaat nodig voor een implementatie CNAME die ervoor zorgt uw de inzamelingsserver van de Adobe uw plaatsdomein aanpast.
 
-Met het Adobe Managed Certificate-programma kunt u zonder extra kosten een nieuw SSL-certificaat van de eerste partij voor cookies van de eerste partij implementeren (voor uw eerste 100 CNAME&#39;s). Als u momenteel uw eigen door de klant beheerde SSL-certificaat hebt, spreekt u dan met de klantenservice van Adobe over de migratie naar het door Adobe beheerde certificaatprogramma.
+Met het Adobe Managed Certificate-programma kunt u zonder extra kosten een nieuw SSL-certificaat van de eerste partij implementeren (voor uw eerste 100 CNAME&#39;s). Als u momenteel uw eigen door de klant beheerde SSL-certificaat hebt, spreekt u dan met de klantenservice van Adobe over de migratie naar het door Adobe beheerde certificaatprogramma.
 
 ### Implementeren
 
-Hieronder wordt beschreven hoe u een nieuw SSL-certificaat van de eerste partij voor cookies van de eerste partij implementeert:
+Hier is hoe u een nieuw eerste-partijSSL certificaat voor de inzameling van eerste-partijgegevens uitvoert:
 
-1. Vul het [First-party de verzoekformulier van het koekjesverzoek](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) in en open een kaartje met de Zorg van de Klant die om opstelling verzoekt eerste-partijkoekjes op het Adobe-Beheerde programma. Elk veld wordt in het document met voorbeelden beschreven.
+1. Vul het [First-party formulier van het domeinverzoek](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) in en open een ticket met de Zorg van de Klant die om de inzameling van de eerste-partijgegevens op het Adobe-Beheerde programma verzoekt te plaatsen. Elk veld wordt in het document met voorbeelden beschreven.
 
 2. CNAME-records maken (zie onderstaande instructies).
 
@@ -103,10 +101,6 @@ De specialist FPC voorziet u van gevormde hostname en welke CNAME zij moeten wor
 
 Zolang de implementatiecode niet wordt gewijzigd, heeft deze stap geen invloed op de gegevensverzameling en kan deze op elk moment na het bijwerken van de implementatiecode worden uitgevoerd.
 
->[!NOTE]
->
->De dienst van identiteitskaart van de Bezoeker van Experience Cloud verstrekt een alternatief aan het vormen van een CNAME om eerderangs koekjes toe te laten.
-
 ## Hostnaam doorsturen valideren {#validate}
 
 De volgende methoden zijn beschikbaar voor validatie:
@@ -157,7 +151,7 @@ Address: 54.187.216.46
 
 ## Implementatiecode bijwerken {#update}
 
-Voordat u code op uw site bewerkt om cookies van andere bedrijven te gebruiken, moet u aan de volgende voorwaarden voldoen:
+Alvorens u code op uw plaats uitgeeft om de inzameling van de eerste partijgegevens te gebruiken, voltooi deze eerste vereisten:
 
 * Vraag een SSL-certificaat aan door de stappen hierboven beschreven in de sectie *Implementeren* van het [Door Adobe beheerde certificaatprogramma](#adobe-managed-certificate-program) uit te voeren.
 * CNAME-records maken (zie hierboven).
@@ -166,12 +160,12 @@ Voordat u code op uw site bewerkt om cookies van andere bedrijven te gebruiken, 
 Nadat u hebt geverifieerd uw hostnames antwoorden en aan de servers van de Adobe gegevensinzameling door:sturen, kunt u uw implementatie veranderen om aan uw eigen server van de gegevensinzameling te richten hostnames.
 
 1. Open uw kernJavaScript dossier (`s_code.js/AppMeasurement.js`).
-1. Als u de codeversie wilt bijwerken, vervangt u het gehele `s_code.js/AppMeasurement.js`-bestand door de nieuwere versie en vervangt u eventuele plug-ins of aanpassingen. **Of**, als u de code wilt bijwerken slechts relevant aan eerderangs koekjes, bepaal de plaats van s.trackingServer en s.trackingServerSecure (als het gebruiken van SSL) variabelen, en richt hen aan uw nieuwe hostnames van de gegevensinzameling. Het gebruiken van mysite.com als voorbeeld:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Als u de codeversie wilt bijwerken, vervangt u het gehele `s_code.js/AppMeasurement.js`-bestand door de nieuwere versie en vervangt u eventuele plug-ins of aanpassingen. **Of**, als u de code wilt bijwerken slechts relevant aan de inzameling van eerste-partijgegevens, bepaal de plaats van s.trackingServer en s.trackingServerSecure (als het gebruiken van SSL) variabelen, en richt hen aan uw nieuwe hostnames van de gegevensinzameling. Het gebruiken van mysite.com als voorbeeld:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Upload het bijgewerkte kern-JavaScript-bestand naar uw site.
 
-1. Als u naar de koekjes van eerste-partij van een reeds lang bestaande implementatie, of het veranderen in een verschillende eerste-partijinzameling hostname overgaat, adviseert Adobe migrerend bezoekers van het vorige domein aan het nieuwe domein.
+1. Als u zich aan de inzameling van de eerste-partijgegevens van een reeds lang bestaande implementatie beweegt, of het veranderen in een verschillende eerste-partijinzameling hostname, adviseert Adobe migrerende bezoekers van het vorige domein aan het nieuwe domein.
 
 Zie [Migratie van bezoekers](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) in de handleiding voor analytische implementatie.
 
-Nadat u het JavaScript-bestand hebt geüpload, wordt alles geconfigureerd voor de verzameling van cookie van de eerste partij. Adobe raadt u aan de analytische rapportage de komende uren te controleren om ervoor te zorgen dat de gegevensverzameling normaal blijft. Als dit niet het geval is, controleert u of alle bovenstaande stappen zijn uitgevoerd en laat een van de ondersteunde gebruikers van uw organisatie contact opnemen met de klantenservice.
+Nadat u het JavaScript-bestand hebt geüpload, wordt alles geconfigureerd voor gegevensverzameling van de eerste partij. Adobe raadt u aan de analytische rapportage de komende uren te controleren om ervoor te zorgen dat de gegevensverzameling normaal blijft. Als dit niet het geval is, controleert u of alle bovenstaande stappen zijn uitgevoerd en laat een van de ondersteunde gebruikers van uw organisatie contact opnemen met de klantenservice.
