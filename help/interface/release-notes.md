@@ -9,9 +9,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4219'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,12 @@ Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Centra
 Zie [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) voor een lijst met documentatie-updates.
 
 Zie [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) voor opmerkingen bij de release over alle oplossingen.
+
+## Augustus - 2021
+
+| Functie | Datum | Beschrijving |
+| ------- | ------- | -------|
+| [!UICONTROL Unified Recents] - Uitgebreide ondersteuning voor onlangs geopende zakelijke objecten | 10 augustus 2021 | [!UICONTROL Unified Recents] wordt uitgebreid tot extra zakelijke objecten in Journey Optimizer en Experience Platform. De klanten van Journey Optimizer kunnen hun onlangs betreden voorwerpen (Berichten, Reizen, Segmenten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen) van de Homepage van Adobe Journey Optimizer vinden. |
 
 ## Juli - 2021
 
