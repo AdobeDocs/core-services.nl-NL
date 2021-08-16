@@ -9,7 +9,7 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
+source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
 workflow-type: tm+mt
 source-wordcount: '4219'
 ht-degree: 2%
@@ -39,7 +39,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 | Functie | Datum | Beschrijving |
 | ------- | ------- | ------- |
 | Single Sign-On-ondersteuning voor Adobe-id&#39;s | 17 juni 2021 | Als u Federatieve id&#39;s gebruikt, kunt u zich aanmelden bij Experience Cloud zonder een e-mailadres of wachtwoord in te voeren. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` toe aan de URL van de Experience Cloud. <br>Stel dat u eigenaar bent van het domein  `adobecustomer.com` en u wilt aanmelden bij Adobe Analytics. De URL is: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League zoeken | 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeer naar [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) en gebruik het veld **[!UICONTROL Search]** om zelfstudies, documentatie, cursussen en meer te zoeken. |
+| Experience League zoeken | 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeer naar [Experience League](https://experienceleague.adobe.com/docs/?lang=en) en gebruik het veld **[!UICONTROL Search]** om zelfstudies, documentatie, cursussen en meer te zoeken. |
 
 {style=&quot;table-layout:auto&quot;}
 
