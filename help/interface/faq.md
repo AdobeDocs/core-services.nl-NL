@@ -9,7 +9,7 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 5%
@@ -33,7 +33,7 @@ Meer informatie over browserondersteuning en veelgestelde vragen en antwoorden v
 Als uw implementatie niet is voorzien voor kerndiensten, zie [Uw oplossingen voor kerndiensten toelaten](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), die beschrijft hoe te:
 
 1. [Deelnemen aan de Experience Cloud en beheerder worden](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Voer de dienst van identiteitskaart van de Experience Cloud uit gebruikend Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en).
+1. [Voer de dienst van identiteitskaart van de Experience Cloud uit gebruikend Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
 1. [Kaartrapportsets aan een Experience Cloud-organisatie](core-services.md#concept_apg_zq2_rw)
 1. [(Alleen Analytics) Moderniseer uw Analytics AppMeasurement-code](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Alleen Adobe Target) De Adobe Target-implementatie moderniseren](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
