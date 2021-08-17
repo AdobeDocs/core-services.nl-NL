@@ -9,9 +9,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ In de volgende secties wordt beschreven hoe u uw implementatie kunt moderniseren
 
 [!UICONTROL Experience Cloud ID Service] verstrekt een gemeenschappelijke identiteitskaart voor dwars-oplossingsintegratie. Het verstrekt de identificatie van de dwars-domeinbezoeker en een weg voor dwars-apparaat/browser richtend en verpersoonlijking die op de gegevens van CRM wordt gebaseerd die via [!UICONTROL Customer Attributes] worden geupload.
 
-De eenvoudigste methode voor het inschakelen van Experience Cloud core services is het automatisch activeren van Analytics en Adobe Target via de [Experience Cloud ID Service extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref) in [!UICONTROL Experience Platform Launch].
+De eenvoudigste methode voor het inschakelen van Experience Cloud core services is het automatisch activeren van Analytics en Adobe Target via de [Experience Cloud ID Service extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) in [!UICONTROL Experience Platform Launch].
 
 Voor volledige Experience Cloud ID-service (voorheen, bezoekersidentiteitskaart) gaat u [hier](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro).
 
@@ -139,12 +139,12 @@ Experience Cloud-services (zoals Experience Cloud ID-service en [!UICONTROL Peop
 
 Als u Analytics gebruikt, verifieer dat u op regionale gegevensinzameling (RDC) bent. Als uw gegevensverzamelingsdomein `omtrdc.net` is, of als uw CNAME aan `omtrdc.net` in kaart wordt gebracht, bent u op RDC. Zie [Overschakelen naar RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en) voor meer informatie. Als u de koekjes van de eerste partij gebruikt, verwijs naar [CNAME en de Dienst van identiteitskaart van Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) voor informatie over gegevensinzameling CNAMEs en dwars-domein het volgen.
 
-U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScript-bibliotheken bij te werken, inclusief de API voor bezoekers. De eenvoudige manier om te verwezenlijken is een [uitbreiding van Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en) in de Inzameling van de Gegevens van het Experience Platform (Lancering) toe te voegen.
+U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScript-bibliotheken bij te werken, inclusief de API voor bezoekers. De eenvoudige manier om te verwezenlijken is een [uitbreiding van Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) in de Inzameling van de Gegevens van het Experience Platform (Lancering) toe te voegen.
 
 ## Adobe Target-implementatie bijwerken {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* U wordt aangeraden een [Adobe Target-extensie](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en) toe te voegen in [!UICONTROL Experience Platform Launch], zodat de bibliotheek automatisch wordt opgehaald. U kunt de [Experience Cloud ID Service-extensie ](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en) voor Adobe Target (en andere oplossingen) ook instellen met [!UICONTROL Experience Platform Launch]. De [!UICONTROL Experience Cloud ID Service]-update **is vereist** voor Adobe Target om kernservices te kunnen gebruiken.
-* Als u [!UICONTROL Experience Platform Launch] niet gebruikt, [werk de bibliotheek ](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en) manueel bij.
+* U wordt aangeraden een [Adobe Target-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=en) toe te voegen in [!UICONTROL Experience Platform Launch], zodat de bibliotheek automatisch wordt opgehaald. U kunt de [Experience Cloud ID Service-extensie ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) voor Adobe Target (en andere oplossingen) ook instellen met [!UICONTROL Experience Platform Launch]. De [!UICONTROL Experience Cloud ID Service]-update **is vereist** voor Adobe Target om kernservices te kunnen gebruiken.
+* Als u [!UICONTROL Experience Platform Launch] niet gebruikt, [werk de bibliotheek ](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=en) manueel bij.
 * Toegang aanvragen om Adobe Analytics als rapportagebron voor [!DNL Adobe Target] te gebruiken. [!DNL Target] en de  [!DNL Analytics] gegevens worden gecombineerd op de zelfde servervraag tijdens verwerking zodat de bezoekers tussen de twee oplossingen worden aangesloten. Zie [Analytics for Target Implementation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en).
 
    >[!IMPORTANT]
@@ -153,7 +153,7 @@ U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScri
 
 ## De implementatie controleren {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
-Gebruik het volgende proces om ervoor te zorgen dat de Experience Cloud-id-service correct op uw site wordt geïmplementeerd.
+Gebruik het volgende proces om ervoor te zorgen dat de Dienst van identiteitskaart van Experience Cloud correct op uw plaats wordt uitgevoerd.
 
 1. Wis koekjes voor uw plaats zodat kunt u het verzoek aan de Dienst van identiteitskaart van de Experience Cloud zien (het verzoek gebeurt bij het eerste bezoek, dan eens per bezoeker per week).
 1. Gebruikend een pakketanalyse of het netwerkpaneel in Webbrowser debugger, zoek een verzoek die naar [!DNL dpm.demdex.net] gaat.
