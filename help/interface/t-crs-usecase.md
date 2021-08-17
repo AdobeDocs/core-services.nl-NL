@@ -9,9 +9,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 
       De alias-id komt overeen met bepaalde gebieden waar u extra waarden voor de klant-id instelt. Bijvoorbeeld:
 
-      * **Dynamisch tagbeheer:** De Alias-id komt overeen met de  *Integratie-* codewaarde onder  [!UICONTROL Customer Settings], in het  [Experience Cloud ID-](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en) servicetool.
+      * **Dynamisch tagbeheer:** De Alias-id komt overeen met de  *Integratie-* codewaarde onder  [!UICONTROL Customer Settings], in het  [Experience Cloud ID-](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) servicetool.
 
       * **Bezoeker-API:** De Alias-id komt overeen met de extra  [klant-id&#39;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) s die u aan elke bezoeker kunt koppelen.
 
