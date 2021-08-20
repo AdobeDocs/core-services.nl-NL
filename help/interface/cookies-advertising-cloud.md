@@ -7,9 +7,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '571'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 4%
 # Advertising Cloud Cookies{#advertising-cloud-cookies}
 
 Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conversie toe te wijzen en om deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
+
+>[!NOTE]
+>
+>Met de bètatag Advertising Cloud Javascript die de [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) gebruikt, worden [first-party Experience Cloud s_ecid cookies](cookies-first-party.md) gemaakt, niet Advertising Cloud cookies.
 
 ## Naam cookie: _lcc
 
