@@ -9,10 +9,10 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 8%
+source-wordcount: '498'
+ht-degree: 6%
 
 ---
 
@@ -24,11 +24,17 @@ Leer over het beheren van organisaties en het verbinden van oplossingsrekeningen
 
 Een *organisatie* is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en enig teken-binnen in de Experience Cloud te controleren. De organisatie functioneert als een aanmeldingsbedrijf dat alle producten en oplossingen van Experience Cloud omvat. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben.
 
-Mogelijk moet u ook uw organisatie-id vinden voor ondersteuningsdoeleinden. Met het menu **[!UICONTROL Organization]** kunt u controleren of u zich in de juiste organisatie bevindt of kunt u schakelen tussen organisaties.
+Om te controleren dat u zich bij uw correcte organisatie hebt aangemeld, klikt u op uw profielavatar om de naam van de organisatie te zien. Als u toegang hebt tot meer dan één organisatie, kunt u ook bekijken en op een andere organisatie in de kopbalbar schakelen.
+
+Als uw organisatie Federated IDs gebruikt, staat Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder de behoefte om uw e-mailadres en wachtwoord in te gaan. Om dit te doen, voeg `#/sso:@domain` aan Experience Cloud URL (`https://experience.adobe.com`) toe.
+
+Stel bijvoorbeeld voor een organisatie met Federatieve id&#39;s en het domein `adobecustomer.com` de URL-koppeling in op `https://experience.adobe.com/#/sso:@adobecustomer.com`. U kunt ook rechtstreeks naar een specifieke toepassing gaan door een bladwijzer te maken van deze URL, die bij het toepassingspad wordt gevoegd. (Voor Adobe Analytics bijvoorbeeld `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ![Stap Resultaat](assets/organization-switch.png)
 
 ## Zoek uw organisatie-id {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+
+Mogelijk moet u uw organisatie-id zoeken voor ondersteuningsdoeleinden. Met het menu **[!UICONTROL Organization]** kunt u controleren of u zich in de juiste organisatie bevindt of kunt u schakelen tussen organisaties.
 
 De **organisatie-id** is de id die is gekoppeld aan uw ingeleverde Experience Cloud-bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg.
 
