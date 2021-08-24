@@ -8,7 +8,7 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 2%
@@ -89,7 +89,7 @@ Hoewel al het toepassingsteam aan globale taalsteun wordt geëngageerd, niet wor
 
 ## Hulp en ondersteuning {#support}
 
-U kunt leren en helpen met het Help-pictogram (![asset](assets\help-icon.png)) in de koptekst, inclusief Help-inhoud (documentatie, zelfstudies en cursussen) op [Experience League](https://experienceleague.adobe.com/#home), en aanvullende bronnen voor afzonderlijke toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
+U kunt leren en helpen met het Help-pictogram (![asset](assets/help-icon.png)) in de koptekst, inclusief Help-inhoud (documentatie, zelfstudies en cursussen) op [Experience League](https://experienceleague.adobe.com/#home), en aanvullende bronnen voor afzonderlijke toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
 
 ![](assets/search-menu.png)
 
