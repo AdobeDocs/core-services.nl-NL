@@ -9,9 +9,9 @@ topic: Beheer
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 1%
 # Documentatie-updates - Experience Cloud
 
 Informatie over updates van de productdocumentatie van Experience Cloud.
+
+**Bijgewerkt op 24-8-2021**
+
+Bijgewerkte pagina [Central Components](experience-cloud.md) (landingspagina van deze hulplijn). Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
 
 **Bijgewerkt 8-6-2021**
 
