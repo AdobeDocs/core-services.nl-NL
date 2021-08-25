@@ -1,20 +1,20 @@
 ---
 description: Meer weten over termen in Adobe Experience Cloud en hoe ze anders zijn in Creative Cloud?
 keywords: asset sharing;publieksservices;Creative Cloud;kernservices
-seo-description: 'null'
-seo-title: Terminologie
+seo-description: null
+seo-title: Terminology
 solution: Experience Cloud
 title: 'Terminologie '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"Klantkenmerken"'
-topic: Beheer
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 2%
+source-wordcount: '1445'
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ Een terminologieverwijzing voor Experience Cloud-gebruikers en hoe deze termen i
 | [!UICONTROL Experience Platform Identity Service] | Geen speciaal gebruik. | De service die identiteiten koppelt. Het is de apparaat-verbinden dienst voor op mensen-gebaseerd ervaringsbeheer. |
 | Koppeling | Geen speciaal gebruik. Koppelen heeft betrekking op hyperlinknavigatie en het koppelen van items zoals lettertypen, eigenschappen, lagen, enzovoort. | In Experience Cloud, verwijst het verbinden gewoonlijk naar het verbinden van verschillende oplossingsrekeningen aan de interface.<br>Zie  [Organisaties en accountkoppelingen](organizations.md).<br>Koppelen verwijst ook naar standaard-URL&#39;s voor analyserapporten die naar andere gebruikers worden verzonden. |
 | Locaties | In Creative Cloud verwijst de locatie naar bestandslocaties of naar een locatie in een geopende afbeelding of document. | In de Experience Cloud zijn locaties de locaties waar inhoud door het publiek wordt weergegeven (en waarmee interactie mogelijk is). De koppeling tussen locaties en inhoud kan min of meer statisch zijn of kan dynamisch worden beheerd volgens de regels van een campagne. Een locatie behoort altijd tot een specifiek kanaal dat bepaalt hoe inhoud kan worden geleverd en hoe Metrisch kunnen worden verzameld.<br>Voorbeelden zijn:<ul><li>Sites</li><li>Eigenschappen (sociaal)</li><li>Overzicht weergeven</li><li>Landingspagina&#39;s</li><li>Mobiele toepassingen</li><li>Sleuven (video)</li></ul> |
-| Metrics | Niet gebruikt in Creative Cloud. | Samengevoegde aantallen over zeer belangrijke concepten en doelstellingen. In Analytics, zijn de metriek kwantitatieve informatie over bezoekersactiviteit, zoals Mening, selecteren-Drongen, herladen, Gemiddelde bestede Tijd, Eenheden, Orders, en Inkomsten. Zie [Metrische beschrijvingen](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=en). |
+| Metrics | Niet gebruikt in Creative Cloud. | Samengevoegde aantallen over zeer belangrijke concepten en doelstellingen. In Analytics, zijn de metriek kwantitatieve informatie over bezoekersactiviteit, zoals Mening, selecteren-Drongen, herladen, Gemiddelde bestede Tijd, Eenheden, Orders, en Inkomsten. |
 | Organisatie | Niet gebruikt in Creative Cloud. | Een organisatie is een entiteit van de Experience Cloud die een beheerder toelaat om gebruikers en producten te vormen, en om enig teken-binnen in Experience Cloud te controleren. Meestal is de organisatie het factureringsbedrijf. |
 | Portfolio | Een verzameling van meerdere bestanden of elementen. | Een container met campagnes. |
 | Productprofiel | Zie [Producten en profielen beheren](https://helpx.adobe.com/enterprise/using/manage-products.html). | Een gebruiker kan alleen een product of service gebruiken als deze deel uitmaakt van een productprofiel. De productbeheerder wijst licenties toe aan een productprofiel door het te koppelen aan een abonnement dat u hebt aangeschaft.<br>Een gebruiker zou tot veelvoudige productprofielen kunnen behoren, elke die verschillende vergunningen aan de gebruiker verleent. De uiteindelijke subsidiabiliteit van de gebruiker is de samenvoeging van alle licenties die door elk productprofiel aan die gebruiker worden verleend. |
