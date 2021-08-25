@@ -6,13 +6,13 @@ title: '"First-party cookies "'
 index: y
 snippet: y
 feature: Cookies
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1614'
 ht-degree: 0%
 
 ---
@@ -166,6 +166,6 @@ Nadat u hebt geverifieerd uw hostnames antwoorden en aan de servers van de Adobe
 
 1. Als u zich aan de inzameling van de eerste-partijgegevens van een reeds lang bestaande implementatie beweegt, of het veranderen in een verschillende eerste-partijinzameling hostname, adviseert Adobe migrerende bezoekers van het vorige domein aan het nieuwe domein.
 
-Zie [Migratie van bezoekers](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) in de handleiding voor analytische implementatie.
+Zie [Migratie van bezoekers](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) in de handleiding voor analytische implementatie.
 
 Nadat u het JavaScript-bestand hebt geüpload, wordt alles geconfigureerd voor gegevensverzameling van de eerste partij. Adobe raadt u aan de analytische rapportage de komende uren te controleren om ervoor te zorgen dat de gegevensverzameling normaal blijft. Als dit niet het geval is, controleert u of alle bovenstaande stappen zijn uitgevoerd en laat een van de ondersteunde gebruikers van uw organisatie contact opnemen met de klantenservice.
