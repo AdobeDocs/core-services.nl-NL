@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'Veelgestelde vragen over Experience Cloud '
 index: true
 feature: Admin Console
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '774'
 ht-degree: 5%
 
 ---
@@ -98,7 +98,7 @@ Zie [Uw organisatie-id zoeken](organizations.md).
 
 De organisatie-id wordt weergegeven op de landingspagina van de Experience Cloud en op de landingspagina [Admin Console.](https://adminconsole.adobe.com)
 
-Beheerders kunnen zich ook aanmelden bij de Admin Console (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) voor een specifieke organisatie en u kunt uw IMS org-id in de URL zien.
+Beheerders kunnen zich ook aanmelden bij de Admin Console (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) voor een specifieke organisatie en u kunt uw IMS org-id in de URL zien.
 
 Bijvoorbeeld in de volgende URL:
 
