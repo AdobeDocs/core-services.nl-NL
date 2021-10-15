@@ -4,15 +4,15 @@ keywords: Experience Cloud
 solution: Experience Cloud
 title: Documentatie-updates
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Klantkenmerken
-topic: Beheer
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 12d5a76eaffd2aff43f23e56de44879199d0a4fe
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 1%
+source-wordcount: '272'
+ht-degree: 0%
 
 ---
 
