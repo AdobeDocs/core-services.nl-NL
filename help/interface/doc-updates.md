@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 12d5a76eaffd2aff43f23e56de44879199d0a4fe
+source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 0%
+source-wordcount: '510'
+ht-degree: 2%
 
 ---
 
@@ -20,13 +20,30 @@ ht-degree: 0%
 
 Informatie over updates van de productdocumentatie van Experience Cloud.
 
+**Bijgewerkt op 28-10-2021**
+
+| Functie | Beschrijving |
+| ------- | ------- |
+| Startpagina | De gegevens over de voettekst op de Experience Cloud-website zijn verplaatst naar de gebruikersprofielkaart, inclusief juridische kennisgevingen en taalselectie in Voorkeuren. |
+| AEP-dashboards | [!DNL Helios Lite] bevat grafiekaanbevelingen in de workflow voor het maken van Experience Platforms-widgets. Op basis van een gegevensselectie (momenteel één variabele gegevensselectie), wordt aanbevolen de gegevens op gepaste wijze te visualiseren. |
+| AEP-dashboards | [!DNL Instory] biedt geschreven commentaar en bijschriften op basis van ML voor grafieken. Het simuleert grafieken op de pagina AEP-dashboards met relevante opsommingstekens die belangrijke wijzigingen en incidenten in de grafische gegevens aangeven. |
+
+**Bijgewerkt 13-10-2021**
+
+| Functie | Beschrijving |
+| ------- | ------- |
+| Unified Search | Met Unified Search kunt u nog steeds objecttypen toevoegen aan de zoekindex. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Doelen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
+| Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd voorkeuren in te dienen voor de manier waarop Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, leervideo&#39;s en meer, op basis van de gebruiksgegevens van uw Experience Cloud-product. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences>. |
+| Experience Cloud [!UICONTROL Triggers] navigatie | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en) is beschikbaar voor directe navigatie van de toepassingsschakelaar in de kopbal voor provisioned gebruikers. |
+| **Opmerking:** Update voor geplande interfacenavigatie | In november 2021 _[!UICONTROL Go to Launch / Data Collection]_navigatiefunctie wordt verwijderd uit <https://experience.adobe.com/implement>. |
+
 **Bijgewerkt op 24-8-2021**
 
-Bijgewerkte pagina [Central Components](experience-cloud.md) (landingspagina van deze hulplijn). Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
+Bijgewerkt [Centrale componenten](experience-cloud.md) pagina (de landingspagina van deze gids). Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
 
 **Bijgewerkt 8-6-2021**
 
-Bijgewerkte [Eerste partijcookies](cookies-first-party.md).
+Bijgewerkt [Cookies van eerste partij](cookies-first-party.md).
 
 **Bijgewerkt: 04-06-2021**
 
@@ -34,11 +51,11 @@ De structuur en inhoudsopgave van de gereorganiseerde hulplijn.
 
 **Bijgewerkt: 01-06-2021**
 
-Updated [landingspagina](experience-cloud.md) with new help on access Experience Cloud, global search, preferences, and notifications.
+Bijgewerkt [landingspagina](experience-cloud.md) met nieuwe hulp bij het openen van Experience Cloud, globale zoekopdracht, voorkeuren en meldingen.
 
 **Bijgewerkt: 19-08-2020**
 
-Bijgewerkt [Bekijk de gebruikersgegevens van de Experience Cloud (Admin Tool)](admin-tool-experience-cloud.md) met beleidsinformatie.
+Bijgewerkt [Experience Cloud-gebruikersgegevens weergeven (Admin Tool)](admin-tool-experience-cloud.md) met beleidsinformatie.
 
 **Bijgewerkt: 19-05-2020**
 
@@ -53,19 +70,19 @@ De volgende pagina&#39;s toegevoegd:
 
 **Bijgewerkt: 10-03-2020**
 
-Bijgewerkte [Bevestig hostname door:sturen](cookies-first-party.md#validate) in de sectie van eerderangs.
+Bijgewerkt [Hostnaam doorsturen valideren](cookies-first-party.md#validate) in de sectie First-party cookies.
 
 **Bijgewerkt: 20-02-2020**
 
-Toegevoegde [Gebruikersgegevens van Experience Cloud weergeven (Admin Tool)](admin-tool-experience-cloud.md).
+Toegevoegd [Experience Cloud-gebruikersgegevens weergeven (Admin Tool)](admin-tool-experience-cloud.md).
 
 **Bijgewerkt: 05-09-2018**
 
-Toegevoegd hoe te om een Attribuut van de Klant te schrappen. Zie [(Optioneel) Het schema bijwerken (kenmerken verwijderen)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+Toegevoegd hoe te om een Attribuut van de Klant te schrappen. Zie [(Optioneel) Werk het schema bij (verwijder kenmerken)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **Bijgewerkt: 08-06-2018**
 
-Bijgewerkt [Gegevensbestand en gegevensbronnen voor Klantkenmerken](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) met informatie over het uploaden van meerdere bestanden.
+Bijgewerkt [Gegevensbestand en gegevensbronnen voor klantkenmerken](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) met informatie over het uploaden van meerdere bestanden.
 
 **Bijgewerkt: 06-06-2018**
 
@@ -85,23 +102,23 @@ De definitie van Raw-analysegegevens is bijgewerkt in [Een publiek maken](t-audi
 
 **Bijgewerkt: 23-02-2017**
 
-Toegevoegde [Experience Cloud-triggers](triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
+Toegevoegd [Experience Cloud Triggers](triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
 
 **Bijgewerkt: 01-02-2017**
 
-Toegevoegde [rapportenreekstoewijzing](core-services.md#concept_apg_zq2_rw) als stap aan [toelatend kerndiensten](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+Toegevoegd [rapportsuite-toewijzing](core-services.md#concept_apg_zq2_rw) als een stap naar [basisservices inschakelen](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 **Bijgewerkt: 09-05-2016**
 
-[Experience Cloud-integratie](marketing-cloud-integrations.md#concept_9E6D3E37D1E3452E8CCCFA92AF034F90) toegevoegd, een vervollediging van integratiedocumentatie.
+Toegevoegd [Experience Cloud-integratie](marketing-cloud-integrations.md#concept_9E6D3E37D1E3452E8CCCFA92AF034F90), een afronding van de integratiedocumentatie.
 
 **Bijgewerkt: 11-02-2016**
 
-[Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0) toegevoegd.
+Toegevoegd [Experience Cloud-middelen](experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0).
 
 **Bijgewerkt: 02-03-2015**
 
-Toegevoegde [Uw oplossingen inschakelen voor kernservices](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Toegevoegd [Laat uw oplossingen voor de kerndiensten toe](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **Bijgewerkt: 15-01-2015**
 
@@ -109,7 +126,7 @@ Gebruikers met toegevoegde Experience Cloud kunnen nu mappen delen naar de Creat
 
 **Bijgewerkt: 17-07-2014**
 
-[Experience Cloud FAQ](faq.md#concept_13219B4E51784577B6FF78AAA203DE91) toegevoegd voor beheerders.
+Toegevoegd [Experience Cloud Veelgestelde vragen](faq.md#concept_13219B4E51784577B6FF78AAA203DE91) voor beheerders.
 
 **Bijgewerkt: 22-05-2014**
 
