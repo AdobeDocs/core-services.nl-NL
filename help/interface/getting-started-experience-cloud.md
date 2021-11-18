@@ -5,44 +5,44 @@ solution: Experience Cloud
 title: 'Aanmelden en de instellingen van uw Experience Cloud-profiel beheren '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 3%
 
 ---
 
 # Aanmelden en de instellingen van uw Experience Cloud-profiel beheren
 
-Aanmelden bij Experience Cloud (in plaats van zich aan te melden bij één oplossing) maakt één aanmelding mogelijk voor alle oplossingen en services die u bezit. In deze Help wordt beschreven hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
+Als u zich aanmeldt bij Experience Cloud (in plaats van zich aan te melden bij één toepassing), kunt u zich aanmelden bij alle toepassingen en services die u hebt. In deze Help wordt beschreven hoe u zich aanmeldt bij de Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
 
 >[!IMPORTANT]
 >
->Beheerders, zie [Beheer](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor informatie over updates aan gebruiker en productbeheer.
+>Beheerders, zie [Beheer](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) voor informatie over updates van gebruikers- en productbeheer.
 
 ## Aanmelden bij de Experience Cloud (beheerders) {#task_034FC955031347F3B02B686A09801A08}
 
-Meld u aan en controleer of u zich in de juiste [organisatie](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) bevindt.
+Aanmelden en controleren of u zich aan de rechterkant bevindt [organisatie](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1).
 
-1. Selecteer het menu Experience Cloud ( ![](assets/menu-icon.png)) en selecteer **[!UICONTROL Administration]**.
+1. Selecteer het menu Experience Cloud ( ![](assets/menu-icon.png)), selecteert u vervolgens **[!UICONTROL Administration]**.
 
-   Als de **[!UICONTROL Administration]** verbinding niet wordt getoond, bent u geen beheerder van Experience Cloud voor de getoonde [organisatie](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Voor hulp bij het worden van een beheerder, contacteer de Zorg van de Klant of een bestaande beheerder van de Experience Cloud in uw bedrijf.
+   Als de **[!UICONTROL Administration]** de verbinding wordt niet getoond, bent u geen beheerder van Experience Cloud voor getoond [organisatie](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Voor hulp bij het worden van een beheerder, contacteer de Zorg van de Klant of een bestaande beheerder van de Experience Cloud in uw bedrijf.
 1. Selecteer **[!UICONTROL Administration]**.
 
 1. Ga door door een van de volgende koppelingen te selecteren:
 
 | Element | Beschrijving |
 |--- |--- |
-| [Grondbeginselen van Admin Console](experience-cloud.md) | Meer informatie over de eerste stappen die u moet uitvoeren om aan de slag te gaan met Experience Cloud-oplossingen. |
+| [Grondbeginselen van Admin Console](experience-cloud.md) | Meer informatie over de eerste stappen die u moet uitvoeren om aan de slag te gaan met Experience Cloud-toepassingen. |
 | [Identiteit instellen](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html) | Definieer en stel een identiteitssysteem in waarmee uw eindgebruikers worden geverifieerd. |
 | [Gebruikersbeheer](https://helpx.adobe.com/nl/enterprise/using/users.html) | Leer hoe u zich aanmeldt bij de Admin Console en gebruikersmachtigingen en productprofielen voor Experience Cloud beheert. |
-| [Admin Console starten](admin-getting-started.md) | De Admin Console is de centrale plaats voor het beheren van uw gebruikers van Adobe en productrechten over uw volledige organisatie.<br>U kunt zich ook aanmelden bij de Admin Console via een  [directe koppeling](https://adminconsole.adobe.com). |
+| [Admin Console starten](admin-getting-started.md) | De Admin Console is de centrale plaats voor het beheren van uw gebruikers van Adobe en productrechten over uw volledige organisatie.<br>U kunt zich ook aanmelden bij de Admin Console met een [directe koppeling](https://adminconsole.adobe.com). |
 | [Creative Cloud-gebruikers beheren](t-admin-add-cc-user.md) | Met Experience Cloud Assets kunnen marketers mappen delen, synchroniseren en aan mappen samenwerken met ontwerpers en andere creatieve elementen met behulp van de Creative Cloud. U kunt de Creative Cloud-gebruikers beheren die zijn goedgekeurd om hier met uw organisatie samen te werken. |
-| [Uw rapportsets toewijzen](core-services.md) | (Alleen analyse) Experience Cloud core-services zijn gekoppeld aan een organisatie in plaats van aan een afzonderlijke rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke analytische rapportensuite aan een organisatie worden toegewezen. (Deze taak maakt deel uit van een breder werkschema om Analytics voor kerndiensten ](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) toe te laten).[ |
+| [Uw rapportsets toewijzen](core-services.md) | (Alleen analyse) Experience Cloud core-services zijn gekoppeld aan een organisatie in plaats van aan een afzonderlijke rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke analytische rapportensuite aan een organisatie worden toegewezen. (Deze taak maakt deel uit van een breder werkschema aan [Analyses inschakelen voor kernservices](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [Organisatie-id](organizations.md) | De *Organisatie-id* vindt u onder aan de pagina Beheer. Deze id is de bijbehorende id van uw Experience Cloud-bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -52,44 +52,44 @@ Meld u aan en controleer of u zich in de juiste [organisatie](organizations.md#t
 Help voor gebruikers zonder beheerdersrechten die zich aanmelden bij de Experience Cloud.
 
 
-1. Verifieer met uw beheerder dat uw [organisatie](organizations.md) provisioned in de Experience Cloud is.
+1. Controleer met uw beheerder of uw [organisatie](organizations.md) is opgenomen in de Experience Cloud.
 
 
-1. Navigeer naar [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
+1. Ga naar de [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
 1. Selecteer **[!UICONTROL Sign In With Adobe ID]**.
 
    Uw Experience Cloud-beheerder kan u helpen het type account (Adobe ID of Enterprise ID) te bepalen.
 
-1. Selecteer op de landingspagina het kiezerpictogram ![](assets/menu-icon.png) om het keuzemenu te openen.
+1. Selecteer op de landingspagina het kiezerpictogram  ![](assets/menu-icon.png) voor toegang tot het keuzemenu.
 
    ![](assets/experience-cloud-core-services.png)
 
-   De oplossingen en de diensten die in dit menu worden getoond hangen van uw toepassingsvoorrechten af die door uw [beheerder](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) worden bepaald.
+   De toepassingen en services die in dit menu worden weergegeven, zijn afhankelijk van de toepassingsrechten die door uw [beheerder](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ## Standaardinstellingen voor persoonlijke accounts configureren {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
-U kunt persoonlijke gegevens bewerken en een standaard [organisatie](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) en openingspagina opgeven die na het aanmelden bij de Experience Cloud moet worden weergegeven.
+U kunt persoonlijke gegevens bewerken en een standaardinstelling opgeven [organisatie](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) en de openingspagina die na aanmelding bij de Experience Cloud wordt weergegeven.
 
 1. Meld u aan bij de Experience Cloud en selecteer vervolgens het profielpictogram.
 
-   ![](assets/edit-profile.png)
+   ![Het profielpictogram selecteren](assets/edit-profile.png)
 1. Selecteer **[!UICONTROL Edit Profile]**.
 
-   ![](assets/default-organization.png)
-1. Ga door met het configureren en bewerken van persoonlijke gegevens en selecteer **[!UICONTROL Save Changes]**.
+   ![Standaardorganisatie en -bestemmingspagina in Experience Cloud](assets/default-organization.png)
+1. Ga door met het configureren en bewerken van persoonlijke gegevens en selecteer vervolgens **[!UICONTROL Save Changes]**.
 
 ## Meldingen inschakelen {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-U ontvangt een melding (via e-mail of in-product) over updates van het systeem, onderhoudsberichten, publicaties, aantekeningen en gedeelde middelen. U kunt ook de producten en oplossingen opgeven waarvoor u meldingen wilt ontvangen, inclusief de uploadstatus voor Klantkenmerken.
+U ontvangt een melding (via e-mail of in-product) over updates van het systeem, onderhoudsberichten, publicaties, aantekeningen en gedeelde middelen. U kunt ook de producten en toepassingen opgeven waarvoor u meldingen wilt ontvangen, inclusief de uploadstatus voor Klantkenmerken.
 
-Als u naar meldingen wilt navigeren, selecteert u het **[!UICONTROL Notifications]**-pictogram ![](assets/notifications-icon.png) en selecteert u vervolgens het **[!UICONTROL Settings]**-pictogram ![](assets/icon_edit_board.png).
+Als u naar meldingen wilt navigeren, selecteert u de optie **[!UICONTROL Notifications]** pictogram  ![](assets/notifications-icon.png)Selecteer vervolgens de **[!UICONTROL Settings]** pictogram  ![](assets/icon_edit_board.png).
 
 U kunt de vertoning van Meldingen sorteren op de berichttypes die voor u belangrijk zijn, en onderzoek naar berichten. U kunt ook het volgende doen:
 
 * U kunt sorteren op de berichttypen die voor u van belang zijn.
 * Zoeken naar meldingen.
 
-![](assets/notifications-admin.png)
+![Experience Cloud-meldingen](assets/notifications-admin.png)
 
 <!-- <p> <b>Analytics</b> </p> 
 <ul id="ul_91BF597858124FA5BF338C36F6C5533F"> 
@@ -117,7 +117,7 @@ U kunt het profiel van uw Experience Cloud bewerken, een standaardorganisatie en
 
 1. Selecteer bij Experience Cloud de profielafbeelding.
 
-   ![](assets/edit-profile.png)
+   ![Uw Experience Cloud-profiel bewerken](assets/edit-profile.png)
 1. Selecteer **[!UICONTROL Edit Profile]**.
 
    Vul de velden en opties onder Persoonlijke gegevens in op de pagina Profiel en wachtwoorden.
@@ -129,9 +129,9 @@ U kunt het profiel van uw Experience Cloud bewerken, een standaardorganisatie en
 
    Het terugstellen van een oplossingswachtwoord zou wachtwoord moeten oplossen die kwesties voor Experience Cloud verbindt.
 
-   Navigeer voor Adobe Analytics-gebruikers naar [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
+   Voor Adobe Analytics-gebruikers navigeert u naar [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
-## Vorm oplossing aanmelding gebruikend een directe verbinding {#concept_8BE493A08786469B88B210E13F78FF2F}
+## Toepassingsaanmelding configureren met behulp van een directe koppeling {#concept_8BE493A08786469B88B210E13F78FF2F}
 
 Naar keuze, kunt u binnen aan een specifieke pagina in een oplossing ondertekenen, gebruikend authentificatie die door de Interface van Experience Cloud wordt verstrekt.
 
@@ -145,12 +145,12 @@ Voorbeeld-URL:
 
 >[!NOTE]
 >
->U moet URL&#39;s coderen voordat u deze doorgeeft aan de parameter `destURL`. (Coderingssites als [URL-decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) zijn beschikbaar.)
+>U moet een URL coderen voordat u deze doorgeeft aan de `destURL` parameter. (Coderingssites zoals [URL-decoder/Encoder](https://meyerweb.com/eric/tools/dencoder/) zijn beschikbaar.)
 
 | Parameter | Beschrijving | Voorbeeld | Vereist/optioneel |
 |--- |--- |--- |--- |
 | `tenantId` | Naam van de huurder de gebruiker zou moeten login. | aem62huurder | Optioneel |
 | `destURL` | De volledige URL naar de plaats waarnaar de gebruiker moet worden doorgestuurd. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Optioneel |
-| `solutionname` | Naam van de Oplossing van MAC die de eigenaar van `destURL` parameter is. Het wordt gebruikt om te verifiëren dat de gebruiker toegang tot de oplossing heeft die de eigenaar van URL is.  Het is de verantwoordelijkheid van de oplossingen om ervoor te zorgen dat `solutionname` synchroon met de `destURL` parameter is.  Bijvoorbeeld: Als de URL `solutionname` als sociaal bevat en de opgegeven `destURL` een analytische URL is, wordt de gebruiker omgeleid naar de URL, zelfs als hij geen toegang heeft tot analyses. MAC verifieert NIET of de eigenaar van `destURL` synchroon met de oplossingsnaam is. | analyse | Vereist als `destURL` param wordt gebruikt. |
+| `solutionname` | Naam van de Oplossing van MAC die de eigenaar van is `destURL` parameter. Hiermee wordt gecontroleerd of de gebruiker toegang heeft tot de toepassing die de eigenaar van de URL is.  Het is aan de toepassingen om ervoor te zorgen dat de `applicationname` is synchroon met de `destURL` parameter.  Bijvoorbeeld: Als de URL `solutionname` als sociale en `destURL` mits dit een analyse-URL is, wordt de gebruiker omgeleid naar de url, zelfs als hij geen toegang heeft tot analysemogelijkheden. Mac controleert NIET of de eigenaar van de `destURL` synchroon is met de naam van de toepassing. | analyse | Vereist indien `destURL` param wordt gebruikt. |
 
 {style=&quot;table-layout:auto&quot;}

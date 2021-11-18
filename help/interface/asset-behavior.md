@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'Gedrag van gedeelde mappen '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Regels voor het gedrag van gedeelde mappen wanneer deze worden verplaatst, verwi
 
 U verplaatst een niet-gedeelde map naar een gedeelde map:
 
-![](assets/01_assets_move.png)
+![Niet-gedeelde map in gedeelde map](assets/01_assets_move.png)
 
 **Resultaat**: Beide mappen worden gedeeld.
 
@@ -36,7 +36,7 @@ U verplaatst een niet-gedeelde map naar een gedeelde map:
 
 U verplaatst een gedeelde map naar een niet-gedeelde map.
 
-![](assets/02_assets_move.png)
+![Gedeelde map in niet-gedeelde map](assets/02_assets_move.png)
 
 **Resultaat**: De niet-gedeelde map blijft niet gedeeld. De gedeelde map blijft gedeeld.
 
@@ -44,7 +44,7 @@ U verplaatst een gedeelde map naar een niet-gedeelde map.
 
 U verplaatst inhoud van een niet-gedeelde map naar een gedeelde map.
 
-![](assets/03_assets_move.png)
+![Inhoud van niet-gedeelde map in gedeelde map](assets/03_assets_move.png)
 
 **Resultaat:** De inhoud wordt nu gedeeld en alle deelnemers kunnen deze zien. De opslag neemt toe met de grootte van de inhoud.
 
@@ -52,7 +52,7 @@ U verplaatst inhoud van een niet-gedeelde map naar een gedeelde map.
 
 U archiveert of verwijdert inhoud die zich in een gedeelde map bevindt.
 
-![](assets/04_assets_move.png)
+![Gearchiveerde en verwijderde gedeelde inhoud](assets/04_assets_move.png)
 
 **Resultaat:** Inhoud wordt gearchiveerd voor de eigenaar van de map. Medewerkers die geen eigenaar zijn van de inhoud, hebben geen toegang meer tot de inhoud.
 
@@ -60,7 +60,7 @@ U archiveert of verwijdert inhoud die zich in een gedeelde map bevindt.
 
 U verplaatst inhoud van een gedeelde map die u hebt naar een niet-gedeelde map.
 
-![](assets/05_assets_move.png)
+![Gedeelde inhoud die eigendom is van een niet-gedeelde map](assets/05_assets_move.png)
 
 **Resultaat:** De inhoud wordt nu niet gedeeld. De deelnemers aan de gedeelde map hebben niet langer toegang tot de inhoud.
 
@@ -68,7 +68,7 @@ U verplaatst inhoud van een gedeelde map die u hebt naar een niet-gedeelde map.
 
 U verplaatst inhoud van een gedeelde map die eigendom is van iemand anders naar een niet-gedeelde map.
 
-![](assets/06_assets_move.png)
+![Inhoud niet naar een niet-gedeelde map is verzonden](assets/06_assets_move.png)
 
 **Resultaat:** De inhoud wordt weergegeven in de niet-gedeelde map en wordt verwijderd uit de gedeelde map. De deelnemers aan de gedeelde map hebben niet langer toegang tot de inhoud. De inhoud wordt gearchiveerd voor de eigenaar van de gedeelde map.
 
@@ -78,7 +78,7 @@ Eigenaars en editors kunnen inhoud verplaatsen die ze niet hebben, maar viewers 
 
 U archiveert (via web) of verwijdert (via bureaublad) een gedeelde map die u bezit.
 
-![](assets/07_assets_move.png)
+![Gearchiveerde of verwijderde map](assets/07_assets_move.png)
 
 **Resultaat:** De map wordt niet gedeeld en vervolgens gearchiveerd. De deelnemers hebben geen toegang meer tot de map.
 
@@ -86,7 +86,7 @@ U archiveert (via web) of verwijdert (via bureaublad) een gedeelde map die u bez
 
 U verplaatst een gedeelde map die u hebt naar een andere gedeelde map die u wel of niet in uw bezit hebt.
 
-![](assets/09_assets_move.png)
+![Gedeelde map naar een andere gedeelde map](assets/09_assets_move.png)
 
 **Resultaat:** Wanneer de map naar map 2 wordt verplaatst, wordt deze gedeeld met de nieuwe deelnemers.
 
@@ -94,14 +94,14 @@ U verplaatst een gedeelde map die u hebt naar een andere gedeelde map die u wel 
 
 U verplaatst inhoud van een gedeelde map naar een andere gedeelde map.
 
-![](assets/11_assets_move.png)
+![Gedeelde inhoud naar een andere gedeelde map](assets/11_assets_move.png)
 
-**Resultaat:** De inhoud wordt weergegeven in map 2 en wordt nu gedeeld met nieuwe deelnemers. De inhoud wordt verwijderd uit map 1 en de eigenaar ziet deze als gearchiveerd, terwijl de andere deelnemers er geen toegang meer toe hebben.
+**Resultaat:** De inhoud wordt weergegeven in map 2 en wordt nu gedeeld met nieuwe medewerkers. De inhoud wordt verwijderd uit map 1 en de eigenaar ziet deze als gearchiveerd, terwijl de andere deelnemers er geen toegang meer toe hebben.
 
 ## Herstelde inhoud uit archief {#section_DEA990B3581741F89FBB81D18C2AB449}
 
 U herstelt inhoud uit een archief dat tot een gedeelde map behoorde. U was eigenaar van de inhoud op het moment dat deze werd gearchiveerd.
 
-![](assets/12_assets_move.png)
+![Herstelde inhoud uit archief](assets/12_assets_move.png)
 
 **Resultaat:** De inhoud wordt teruggezet naar de gedeelde map en alle deelnemers kunnen deze weer openen. Als de gedeelde map niet meer bestaat, wordt de inhoud in een niet-gedeelde kopie van de originele bovenliggende map(pen) geplaatst.

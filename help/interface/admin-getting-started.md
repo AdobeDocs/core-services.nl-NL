@@ -4,13 +4,13 @@ description: Ontdek hoe u zich aanmeldt bij de Admin Console en gebruikersmachti
 solution: Admin
 index: true
 feature: Admin Console
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1244'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,9 @@ Leer hoe u zich aanmeldt bij de Admin Console, gebruikersmachtigingen en product
 
 >[!IMPORTANT]
 >
->De volgende informatie is specifiek voor Experience Cloud toepassingen. Deze informatie vult de bredere administratieve informatie in [de Gids van de Gebruiker van het Beleid van de Onderneming](https://helpx.adobe.com/enterprise/admin-guide.html) voor alle Adobe wolkenproducten aan.
+>De volgende informatie is specifiek voor Experience Cloud toepassingen. Deze informatie vormt een aanvulling op de bredere administratieve informatie in de [Handboek voor Enterprise Administration](https://helpx.adobe.com/enterprise/admin-guide.html) voor alle Adobe cloud-producten.
 
-U kunt een sorteerbare en filterbare lijst van alle gebruikers van de Experience Cloud en hun details in het Hulpmiddel Admin bekijken. Zie [Gebruikers van Experience Cloud weergeven in het Admin-gereedschap](admin-tool-experience-cloud.md).
+U kunt een sorteerbare en filterbare lijst van alle gebruikers van de Experience Cloud en hun details in het Hulpmiddel Admin bekijken. Zie [Experience Cloud-gebruikers weergeven in het Admin-gereedschap](admin-tool-experience-cloud.md).
 
 ## Wat is een productprofiel? {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
@@ -31,7 +31,7 @@ U kunt een sorteerbare en filterbare lijst van alle gebruikers van de Experience
 
 Bijvoorbeeld, in Analytics kunt u een inzameling van rapporteringshulpmiddelen, zoals Analysis Workspace en Report Builder, samen met rapportsuites, metriek, en dimensies vormen. U kunt machtigingen verlenen aan een productprofiel door gebruikers toe te voegen aan het profiel.
 
-* Zie [Toestemmingen van de toegang van Analytics aan een productprofiel](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) op deze pagina toewijzen.
+* Zie [Toestemmingen van de toegang van Analytics aan een productprofiel toewijzen](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) op deze pagina.
 * Zie [Beheerdersrollen delegeren aan gebruikers](#delegate-rights) op deze pagina
 
 ## Experience Cloud-productprofielen beheren {#task_16335111C52D40E9BAC73D0699584DBF}
@@ -40,17 +40,17 @@ U kunt een productprofiel maken en dit aan een machtigingengroep toewijzen.
 
 Wanneer u een gebruiker naar een organisatie uitnodigt, kunt u de gebruiker toegang geven tot producten en productprofielen. U kunt beperkte administratieve toestemmingen aan een gebruiker ook delegeren. Op dezelfde manier kunt u gebruikersgroepen creëren, dan de groep toevoegen aan een productprofiel om toegang toe te laten.
 
-1. Selecteer **[!UICONTROL Products]** in de [Admin Console](https://adminconsole.adobe.com/enterprise/).
+1. In de [Admin Console](https://adminconsole.adobe.com/enterprise/), selecteert u **[!UICONTROL Products]**.
 1. Selecteer de naam van uw organisatie.
 1. Selecteer **[!UICONTROL New Profile]**.
-1. Configureer de profieldetails en selecteer **[!UICONTROL Save]**.
+1. Configureer de profieldetails en selecteer vervolgens **[!UICONTROL Save]**.
 
-Zie [Identity](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html) in de [Beheergebruikershandleiding](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html) voor meer informatie (en voor hulp bij productbeheer van Creative Cloud en Documenten Cloud).
+Zie voor meer informatie (en voor hulp bij het beheer van Creative Cloud- en Document Cloud-producten) [Identiteit](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html) in de [Gebruikershandleiding voor beheer](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html).
 
 **Gerelateerde help**
 
-* [Beheer producten en ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html) profielen in de Gids van de Gebruiker van het Beleid.
-* [De ](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en) Machtigingen van de Gebruiker van de onderneming in Adobe Target helpen voor meer informatie.
+* [Producten en profielen beheren](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html) in de Gebruikershandleiding voor Beheer.
+* [Machtigingen voor zakelijke gebruikers](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en) in Adobe Target Help voor meer informatie.
 * Video: [Adobe Target-werkruimten configureren in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 <!-- ## What's new in Experience Cloud user management {#concept_06A0A13362F644FB90F947238407637A}
@@ -82,13 +82,13 @@ U kunt bijvoorbeeld:
 
 Door deze rollen te gebruiken, kunt u beheer aan anderen gelijktijdig delegeren zonder meer vermogen te verstrekken dan zij nodig hebben.
 
-1. Selecteer **[!UICONTROL Users]** in de Admin Console en selecteer vervolgens de naam van de gebruiker.
+1. Selecteer in de Admin Console de optie **[!UICONTROL Users]** en selecteert u vervolgens de naam van de gebruiker.
 
-   ![](assets/edit-admin-rights.png)
+   ![Administratieve rechten in Admin Console](assets/edit-admin-rights.png)
 
 1. Selecteer **[!UICONTROL Edit admin rights]**.
 
-   ![](assets/edit-admin-rights-page.png)
+   ![Bewerk de beheerrechten in Admin Console](assets/edit-admin-rights-page.png)
 
 1. Geef de beheerdersrechten van de gebruiker op.
 1. Selecteer **[!UICONTROL Save]**.
@@ -97,31 +97,31 @@ Door deze rollen te gebruiken, kunt u beheer aan anderen gelijktijdig delegeren 
 
 U kunt de toestemmingen van de het rapporttoegang van de Analyse (rapportreeksen, metriek, afmetingen, etc.) aan een productprofiel toewijzen.
 
-U kunt bijvoorbeeld een productprofiel maken dat meerdere analyseprogramma&#39;s bevat ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics] en [!UICONTROL Report Builder]). Deze profielen bevatten machtigingen voor specifieke metriek en dimensies (inclusief eVars) en mogelijkheden zoals segmenten of het maken van berekende metriek.
+U kunt bijvoorbeeld een productprofiel maken dat meerdere analyseprogramma&#39;s bevat ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], en [!UICONTROL Report Builder]). Deze profielen bevatten machtigingen voor specifieke metriek en dimensies (inclusief eVars) en mogelijkheden zoals segmenten of het maken van berekende metriek.
 
-1. Meld u aan bij de [Admin Console](https://adminconsole.adobe.com/enterprise) en selecteer **[!UICONTROL Products]**.
-1. Selecteer op de pagina [!UICONTROL Products] het product en selecteer **[!UICONTROL Permissions]** (alleen beschikbaar voor beheerders).
+1. Aanmelden bij de [Admin Console](https://adminconsole.adobe.com/enterprise)selecteert u vervolgens **[!UICONTROL Products]**.
+1. Op de [!UICONTROL Products] pagina, selecteert u uw product en selecteert u vervolgens **[!UICONTROL Permissions]** (alleen beschikbaar voor beheerders).
 1. De profielmachtigingen configureren:
 
 | Element | Beschrijving |
 |--- |--- |
 | Rapportsuites | Schakel machtigingen in voor specifieke rapportsuites. |
-| Metrics | Laat toestemmingen voor verkeer, omzetting, douanegebeurtenissen, oplossingsgebeurtenissen, bewuste inhoud toe, etc. |
-| Dimensies | Pas gebruikerstoegang op een korrelig niveau, met inbegrip van eVars, verkeersrapporten, oplossingsrapporten, en wegrapporten aan. |
+| Metrics | Machtigingen inschakelen voor verkeer, conversie, aangepaste gebeurtenissen, toepassingsgebeurtenissen, inhoud behouden enzovoort. |
+| Dimensies | Pas gebruikerstoegang op korrelig niveau, met inbegrip van eVars, verkeersrapporten, toepassingsrapporten, en wegrapporten aan. |
 | Rapportsuite-gereedschappen | Schakel gebruikersmachtigingen in voor webservices, rapportbeheer, tools en rapporten en dashboarditems. |
 | Analysegereedschappen | Laat gebruikerstoestemmingen voor Algemene punten (het factureren, logboeken, etc.), het Beheer van het Bedrijf, Hulpmiddelen, de Toegang van de Dienst van het Web, Report Builder, en de integratie van de Verbindingen van Gegevens toe. De montages van het bedrijf van de Customize categorie van de Admin Console zijn verplaatst naar de Hulpmiddelen van Analytics. |
 
 **Migratie van gebruikersaccount**
 
-Er is een hulpprogramma voor de migratie van gebruikers-id&#39;s voor Analytics beschikbaar waarmee beheerders gebruikersaccounts kunnen migreren van Analytics User Management naar [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+Er is een hulpprogramma voor de migratie van gebruikers-id&#39;s van Analytics beschikbaar om beheerders te helpen gebruikersaccounts te migreren van Analytics User Management naar de [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-De accountmigratie wordt in fasen uitgevoerd aan klanten. Adobe geeft een melding en helpt u wanneer het uw tijd is om bestaande gebruikersaccounts te migreren van **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** naar de Admin Console.
+De accountmigratie wordt in fasen uitgevoerd naar klanten. Adobe brengt u op de hoogte en helpt u wanneer het uw tijd is om bestaande gebruikersaccounts te migreren van **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** aan de Admin Console.
 
-Na de migratie melden gebruikers zich aan met hun Adobe ID (of Enterprise ID) en verifiëren ze hun Experience Cloud-oplossingen en -services op [experience.adobe.com](https://experience.adobe.com). Als gebruikers proberen zich aan te melden via oude logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] en [!DNL experiencecloud.adobe.com]), worden ze omgeleid naar [!DNL experience.adobe.com].
+Na de migratie melden gebruikers zich aan met hun Adobe ID (of Enterprise ID) en verifiëren ze zich bij hun Experience Cloud-toepassingen en -services op [experience.adobe.com](https://experience.adobe.com). Als gebruikers proberen zich aan te melden via oude logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] en [!DNL experiencecloud.adobe.com]) worden doorgestuurd naar [!DNL experience.adobe.com].
 
 **Gerelateerde help**
 
-Zie [Migratie van gebruikers-id voor analyse](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en) voor meer informatie
+Zie voor meer informatie [Migratie van gebruikers-id voor analyse](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Adobe Target beheren - productprofielen versus werkruimten {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -135,41 +135,41 @@ Zie:
 
 ## Productprofielen, huurders en beveiligingsgroepen voor campagnes beheren {#section_09CDF75366444CF5810CF321B7C712F3}
 
-Een *huurder* in Campagne toont als *product* in de pagina van de Producten van de Admin Console.
+A *huurder* in Campagne wordt weergegeven als een *product* in de pagina van de Producten van de Admin Console.
 
-*Beveiligingsgroepen* worden weergegeven als een productprofiel.
+*Beveiligingsgroep* wordt weergegeven als een productprofiel.
 
-Zie [Groepen en gebruikers beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=en) voor informatie over beveiligingsgroepen en het toewijzen van gebruikers aan beveiligingsgroepen.
+Zie [Groepen en gebruikers beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=en) voor informatie over veiligheidsgroepen en het toewijzen van gebruikers aan veiligheidsgroepen.
 
 ## Gegevensverzameling van Experience Platforms beheren (starten) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) wordt weergegeven op de pagina [!UICONTROL Products] in [!UICONTROL Admin Console]. U kunt andere oplossingen en de diensten in een het productprofiel van de Lancering omvatten.
+Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) weergegeven op de [!UICONTROL Products] pagina in de [!UICONTROL Admin Console]. U kunt andere toepassingen en services opnemen in een productprofiel voor Starten.
 
-Gebruikers uitnodigen om [!UICONTROL Platform Launch] te openen en gebruikersrollen en -rechten toe te wijzen.
+Gebruikers uitnodigen om [!UICONTROL Platform Launch] en wijs gebruikersrollen en rechten toe.
 
-Zie [Gebruikersmachtigingen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en) voor meer informatie over gebruikersmachtigingen in de Admin Console en over het instellen van opstartspecifieke opties, waaronder het toewijzen van rechten aan profielen.
+Zie [Gebruikersmachtigingen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en) voor meer informatie over gebruikersmachtigingen in de Admin Console en over het instellen van opstartopties, waaronder het toewijzen van rechten aan profielen.
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-klanten worden vertegenwoordigd als organisaties in de Adobe [!UICONTROL Admin Console]. Klanten van Experience Managers kunnen de Adobe [!UICONTROL Admin Console] gebruiken om productrechten en IMS-verificatie te beheren voor Experience Manager als [!UICONTROL Cloud Service].
+Adobe Enterprise-klanten worden vertegenwoordigd als organisaties in de Adobe [!UICONTROL Admin Console]. De klanten van de Experience Manager kunnen de Adobe gebruiken [!UICONTROL Admin Console] productrechten en IMS-authenticatie voor Experience Manager als een [!UICONTROL Cloud Service].
 
-Zie [IMS-ondersteuning voor Experience Manager als een Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
+Zie [IMS-ondersteuning voor as a Cloud Service Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-Maak gebruikers van Audience Managers en wijs deze toe aan groepen. U kunt limieten (treits, segmenten, bestemmingen, en [!DNL AlgoModel]) ook bekijken.
+Maak gebruikers van Audience Managers en wijs deze toe aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen, en [!DNL AlgoModel]).
 
-Zie [Beheer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=en) in de Help van de Audience Manager.
+Zie [Beheer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=en) in Audience Manager Help.
 
 ## Ondersteunde browsers in de Experience Cloud
 
-* [!DNL Microsoft® Edge] (Microsoft® heeft  [de ](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) ondersteuning voor Internet Explorer 8, 9 en 10 beëindigd. Als dusdanig, lost Adobe geen kwesties op die tegen deze specifieke versies van Internet Explorer worden gemeld.)
+* [!DNL Microsoft® Edge] (Microsoft® heeft [beëindigde ondersteuning](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) voor Internet Explorer 8, 9 en 10. Als dusdanig, lost Adobe geen kwesties op die tegen deze specifieke versies van Internet Explorer worden gemeld.)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Opmerking:** hoewel de interface Experience Cloud deze browsers ondersteunt, ondersteunen afzonderlijke toepassingen niet elke browser. ([Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) biedt bijvoorbeeld geen ondersteuning voor [!DNL Opera] en [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en) biedt geen ondersteuning voor [!DNL Safari].)
+**Opmerking:** Hoewel de interface Experience Cloud deze browsers ondersteunt, ondersteunen afzonderlijke toepassingen niet elke browser. (Bijvoorbeeld: [Analyse](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) ondersteunt niet [!DNL Opera], en [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en) ondersteunt niet [!DNL Safari].)
 
 ### Oplossing en productvereisten
 

@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
@@ -118,7 +118,7 @@ Toegevoegd [Experience Cloud-middelen](experience-cloud-assets.md#concept_DDA522
 
 **Bijgewerkt: 02-03-2015**
 
-Toegevoegd [Laat uw oplossingen voor de kerndiensten toe](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Toegevoegd [Uw toepassingen inschakelen voor kernservices](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **Bijgewerkt: 15-01-2015**
 

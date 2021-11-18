@@ -1,15 +1,15 @@
 ---
 description: Een overzicht van nieuwe functies en updates in de Experience Cloud.
 keywords: kerndiensten
-seo-description: Een overzicht van nieuwe functies en updates in de Experience Cloud.
-seo-title: Nieuwe functies in de Experience Cloud
+seo-description: An overview of new features and updates in the Experience Cloud.
+seo-title: What's new in the Experience Cloud
 solution: Experience Cloud
 title: 'Nieuwe functies in de Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 6%
+source-wordcount: '634'
+ht-degree: 3%
 
 ---
 
@@ -47,11 +47,11 @@ Oplossingen en verbeteringen voor juni 2018.
 
 ## 10 mei 2018 {#section_498AF78DA17C4720AA0F32B51493E550}
 
-Nieuwe eigenschappen en moeilijke situaties in de [!DNL Adobe Experience Cloud] interface.
+Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Cloud] interface.
 
 | Functie | Beschrijving |
 |--- |--- |
-| Nieuwe openingspagina voor beheer | Wanneer u binnen aan de Experience Cloud ondertekent en aan de pagina van het Beleid navigeert, is een nieuwe intuïtieve interface beschikbaar om u te helpen snel tot uw oplossingen van de Experience Cloud en Diensten van de Kern toegang hebben. |
+| Nieuwe openingspagina voor beheer | Wanneer u binnen aan de Experience Cloud ondertekent en aan de pagina van het Beleid navigeert, is een nieuwe intuïtieve interface beschikbaar om u te helpen tot uw toepassingen van de Experience Cloud en de Diensten van de Kern snel toegang hebben. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,9 +70,9 @@ Veel van de onderhoudsmeldingen over gepland onderhoud/productupdates ontbreken 
 
 | Functie | Beschrijving |
 |--- |--- |
-| Meldingen - Instellingen voor granulaten | U kunt meldingen inschakelen voor product- en oplossinggebeurtenissen en -activiteiten, waaronder meldingen over uploadactiviteiten van [klantkenmerken](attributes.md). |
-| Meldingen - Onderhoudsmeldingen | In de montages van het Bericht, kunt u onderhoudsberichten voor producten en oplossingen toelaten. |
-| Admin Console voor Experience Cloud-oplossingen | De nieuwe klanten van Experience Cloud kunnen beginnen gebruikend de Admin Console, een centrale plaats voor het beheren van uw rechten van Adobe over uw volledige organisatie.<br>De migratie naar de Admin Console voor gebruikersbeheer zal in golven te werk gaan. Adobe neemt contact met u (systeembeheerders) op wanneer het tijd is om te migreren.<br>Analysebeheerders, zie Migratie van   [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en). |
+| Meldingen - Instellingen voor granulaten | U kunt meldingen inschakelen voor product- en toepassingsgebeurtenissen en -activiteiten, waaronder meldingen over [Klantkenmerken](attributes.md) uploadactiviteit. |
+| Meldingen - Onderhoudsmeldingen | In de montages van het Bericht, kunt u onderhoudsberichten voor producten en toepassingen toelaten. |
+| Admin Console voor Experience Cloud-oplossingen | De nieuwe klanten van Experience Cloud kunnen beginnen gebruikend de Admin Console, een centrale plaats voor het beheren van uw rechten van Adobe over uw volledige organisatie.<br>De migratie naar de Admin Console voor gebruikersbeheer zal in golven te werk gaan. Adobe neemt contact met u (systeembeheerders) op wanneer het tijd is om te migreren.<br>Analysebeheerders, zie  [Analysemigratie](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -80,8 +80,8 @@ Veel van de onderhoudsmeldingen over gepland onderhoud/productupdates ontbreken 
 
 | Functie | Beschrijving |
 |--- |--- |
-| Toewijzing van bulkrapportsuite | In Beleid > de Afbeelding van de Reeks van het Rapport, kunt u veelvoudige rapportreeksen nu selecteren, dan hen aan een organisatie in kaart brengen. (Eerder moest u ze afzonderlijk toewijzen.)  <br>[Het rapportsteunen van de toewijzing ](core-services.md) suiteits aan één enkele organisatiehulp laat dwars-oplossingseigenschappen en de diensten in de Experience Cloud toe. |
-| Updates voor publiek Experience Cloud | **Rapportsets toepassen**<br> U kunt nu een rapportsuite toepassen op al uw  [publieksregels](t-audience-create.md). (Eerder, moest u een rapportreeks in elke regeldefinitie specificeren.) <br>**Props en**<br> variabelenU kunt nu analyses-voorstellingen en standaardvariabelen (naast eVars en gebeurtenissen) opnemen in realtime-soorten. |
+| Toewijzing van bulkrapportsuite | In Beleid > de Afbeelding van de Reeks van het Rapport, kunt u veelvoudige rapportreeksen nu selecteren, dan hen aan een organisatie in kaart brengen. (Eerder moest u ze afzonderlijk toewijzen.)  <br>[Kaartrapportsuites](core-services.md) aan één organisatie helpen de eigenschappen en de diensten van de dwars-toepassing in de Experience Cloud toe te laten. |
+| Updates voor publiek Experience Cloud | **Rapportsets toepassen**<br> U kunt nu een rapportsuite toepassen op al uw [publieksregels](t-audience-create.md). (Eerder, moest u een rapportreeks in elke regeldefinitie specificeren.) <br>**Props en variabelen**<br> U kunt nu de profielen Analytics en standaardvariabelen (naast eVars en gebeurtenissen) in publiek in real time opnemen. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -96,4 +96,4 @@ Veel van de onderhoudsmeldingen over gepland onderhoud/productupdates ontbreken 
 **Oplossingen**
 
 * Probleem verholpen met technische wachtwoorden die een fout veroorzaakt bij het delen van mappen tussen Creative Cloud en Experience Cloud. (MAC-31067, MAC-32014)
-* Probleem verholpen met het uploaden van bepaalde bestandstypen, waaronder PDF, die na de release in oktober in Assets Core Service zijn gevonden. (MAC-32517)
+* Probleem verholpen met het uploaden van bepaalde bestandstypen, waaronder PDF, die na de release in oktober in Assets Core Service werden gevonden. (MAC-32517)

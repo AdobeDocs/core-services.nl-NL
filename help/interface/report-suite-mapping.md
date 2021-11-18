@@ -3,13 +3,13 @@ description: Leer hoe u een of meerdere rapportsuites toewijst aan een organisat
 title: 'Kaart rapportsuites aan een organisatie '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -27,19 +27,19 @@ Experience Cloud-services (zoals Experience Cloud ID-service en [!UICONTROL Peop
 
 ## Vereisten
 
-U moet een beheerder van Analytics van een login bedrijf zijn dat toegang tot de rapportreeks heeft u wilt in kaart brengen. Deze account moet bovendien [gekoppeld zijn aan een Experience Cloud-organisatie](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) om rapportsuites aan die organisatie toe te wijzen.
+U moet een beheerder van Analytics van een login bedrijf zijn dat toegang tot de rapportreeks heeft u wilt in kaart brengen. Deze account moet ook [verbonden met een Experience Cloud-organisatie](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) om aan die organisatie rapporteringssuites toe te wijzen.
 
 Organisaties worden grijs weergegeven als u geen beheerdersmachtigingen voor Analytics hebt voor een aanmeldingsbedrijf onder die organisatie die toegang heeft tot de opgegeven rapportsuite.
 
 ## Een rapportsuite toewijzen aan een organisatie {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Navigeer naar Report Suites for Data Governance op [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** (zie [De instelling voor gegevensbeheer van de rapportsuite weergeven/beheren](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)
+1. Navigeer naar Rapporten Suites voor gegevensbeheer bij [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** (zie [De instelling voor gegevensbeheer van de rapportsuite weergeven/beheren](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)
 
-1. Om de login bedrijven te zien die toegang tot elke rapportreeks hebben, uitgezocht **[!UICONTROL Visible to Login Companies]**.
+1. Om de login bedrijven te zien die toegang tot elke rapportreeks hebben, selecteer **[!UICONTROL Visible to Login Companies]**.
 
    Deze mening is bedoeld om u te helpen een geïnformeerde beslissing over de afbeelding nemen.
 
-1. Selecteer de drop-down in **[!UICONTROL Mapped Organization]** kolom naast een rapportreeks en selecteer de organisatie waaraan u wilt in kaart brengen.
+1. Selecteer de vervolgkeuzelijst in het dialoogvenster **[!UICONTROL Mapped Organization]** kolom naast een rapportreeks en selecteer de organisatie waaraan u wilt in kaart brengen.
 
    Zie de volgende sectie voor tips over het selecteren van een Experience Cloud-organisatie.
 
@@ -49,7 +49,7 @@ Organisaties worden grijs weergegeven als u geen beheerdersmachtigingen voor Ana
 
 1. Selecteer de rapportsuites die u wilt in kaart brengen.
 
-   ![](assets/rs-mapping-multiple.png)
+   ![Selecteer de rapportsuites die u wilt in kaart brengen](assets/rs-mapping-multiple.png)
 
 1. Selecteer de organisatie (Outdoor Inc, in dit voorbeeld), dan klik **[!UICONTROL Select]**.
 
@@ -63,7 +63,7 @@ Deze sectie bevat uiteinden om u te helpen de organisatie van de Experience Clou
 
 ### Welke organisatie moet ik kiezen?
 
-Als de Experience Cloud ID-service wordt geïmplementeerd in de rapportsuite, moet u ervoor zorgen dat de organisatie die u selecteert in het hulpprogramma voor het toewijzen van de rapportsuite dezelfde organisatie is als die is opgegeven in het [!DNL visitorAPI.js]-bestand op uw site. U kunt de instructies in [Test en verifieer de Dienst van identiteitskaart van de Experience Cloud](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) om org identiteitskaart te vinden die door de dienst van identiteitskaart van de Bezoeker wordt gebruikt.
+Als de Experience Cloud-id-service wordt geïmplementeerd in de rapportsuite, moet u ervoor zorgen dat de organisatie die u selecteert in het gereedschap voor het toewijzen van de rapportsuite dezelfde organisatie is als in het dialoogvenster [!DNL visitorAPI.js] op uw site. U kunt de instructies in [De Experience Cloud ID-service testen en controleren](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) om de org-id te zoeken die wordt gebruikt door de service Bezoeker-id.
 
 Zorg ervoor dat uw implementatie overeenkomt met de organisatie die u hebt gekozen in het hulpprogramma voor het toewijzen van de rapportsuite.
 
@@ -71,21 +71,21 @@ Zorg ervoor dat uw implementatie overeenkomt met de organisatie die u hebt gekoz
 
 Het oppakken van een organisatie wijst erop dat u niet voldoende voorrechten hebt om aan de grayed-uit rapportreeks in kaart te brengen. Bekijk het volgende voorbeeld:
 
-![](assets/rs-mapping.png)
+![Waarom worden sommige organisaties gegraveerd?](assets/rs-mapping.png)
 
 In dit diagram geeft de blauwe sleutel beheerdersrechten aan. De grijze lijnen geven de zichtbaarheid aan.
 
 Deze gebruiker heeft toegang tot twee organisaties van de Experience Cloud. Zij hebben het volgende uitgevoerd:
 
-* Koppelde hun beheerdersaccount in het [!UICONTROL chapek] Analytics-aanmeldingsbedrijf aan hun [!UICONTROL Chapek] Corp Experience Cloud-organisatieaccount.
-* Koppelde hun niet-beheerdersaccount in het [!UICONTROL doohan] Logboekbedrijf Analytics aan hun &lt;1/> Corp Experience Cloud organisatie account.[!UICONTROL Chapek]
+* Hun beheerdersaccount is gekoppeld in het dialoogvenster [!UICONTROL chapek] Logboekbedrijf van Analytics aan hun [!UICONTROL Chapek] Organisatierekening van Corp Experience Cloud.
+* Hun niet-beheerdersaccount is gekoppeld in het dialoogvenster [!UICONTROL doohan] Logboekbedrijf van Analytics aan hun [!UICONTROL Chapek] Organisatierekening van Corp Experience Cloud.
 * Koppelde hun niet-beheerdersaccount in de inlognaam nigel Analytics aan hun Nigel Inc Experience Cloud org-account.
 
 De volgende punten geven een overzicht van de toewijzingsacties die deze gebruiker kan en kan uitvoeren met betrekking tot deze rapportsuites:
 
-* [!UICONTROL Chapek-prod] rapportsuite kan worden toegewezen aan  [!UICONTROL Chapek] Corp org omdat deze gebruiker beheerder is van een gekoppeld Analytics-aanmeldingsbedrijf ([!UICONTROL chapek]) en zijn account is gekoppeld aan deze org.
+* [!UICONTROL Chapek-prod] rapportsuite kan worden toegewezen aan [!UICONTROL Chapek] Corp org omdat deze gebruiker beheerder is van een gekoppeld Analytics-aanmeldingsbedrijf ([!UICONTROL chapek]) en zijn account is gekoppeld aan deze org.
 * [!UICONTROL Nigel-prod] Deze gebruiker kan geen verbinding maken met de rapportsuite omdat deze geen beheerder is in een aanmeldingsbedrijf waarvoor deze rapportsuite zichtbaar is.
-* [!UICONTROL Doohan-prod] rapportsuite kan worden toegewezen  [!UICONTROL Chapek Corp] aangezien deze gebruiker een beheerder is van een aanmeldingsbedrijf ([!UICONTROL chapek]) dat is gekoppeld aan de Experience Cloud org (let op dat deze gebruiker geen beheerder is van het inlogbedrijf van Dohan Analytics). Het is belangrijk om te weten dat de [!UICONTROL doohan-prod] rapportreeks ook verkiesbaar is om aan Nigel Inc Experience Cloud org in kaart te worden gebracht, alhoewel deze gebruiker niet die afbeelding kan uitvoeren. In dit geval worden beide Experience Cloud-organisaties in de lijst weergegeven, maar [!UICONTROL Nigel Inc] wordt grijs weergegeven. Voordat de kaart wordt toegewezen, moet deze gebruiker overleg plegen met een beheerder van het nigel-aanmeldingsbedrijf om te bepalen welke org de beste kandidaat is voor mapping. De UI toont een Mogelijke waarschuwing van het Conflict als u een organisatie selecteert is dit verschillend van de organisatie waaronder de rapportreeks oorspronkelijk werd gecreeerd.
+* [!UICONTROL Doohan-prod] rapportsuite kan worden toegewezen aan [!UICONTROL Chapek Corp] aangezien deze gebruiker een beheerder van een login bedrijf is ([!UICONTROL chapek]) die is gekoppeld aan de Experience Cloud org (merk op dat hij geen beheerder is van het aanmeldingsbedrijf van doohan Analytics). Het is belangrijk te weten dat de [!UICONTROL doohan-prod] rapportsuite komt ook in aanmerking om te worden toegewezen aan Nigel Inc Experience Cloud org, ook al kan deze gebruiker die toewijzing niet uitvoeren. In dit geval worden beide Experience Cloud-organisaties weergegeven in de lijst, maar [!UICONTROL Nigel Inc] is grijs. Voordat de kaart wordt toegewezen, moet deze gebruiker overleg plegen met een beheerder van het nigel-aanmeldingsbedrijf om te bepalen welke org de beste kandidaat is voor mapping. De UI toont een Mogelijke waarschuwing van het Conflict als u een organisatie selecteert is dit verschillend van de organisatie waaronder de rapportreeks oorspronkelijk werd gecreeerd.
 
 ## Veelgestelde vragen {#section_099E485805994C929FF9C9F75219BEE1}
 
@@ -95,7 +95,7 @@ Sommige van uw rapportsuites zouden onder een verschillend login bedrijf kunnen 
 
 ### Wat gebeurt er als ik sommige organisaties die in de vervolgkeuzelijst voor een van mijn rapportensuites zijn vermeld, niet herken?
 
-In de lijst worden alle *mogelijke* organisaties weergegeven waaraan uw rapportsuite kan worden toegewezen, zelfs als u geen toestemming hebt om al die rapportsuites in kaart te brengen. Als u niet zeker bent of de rapportreeks aan één van grayed-uit rapportreeksen in de lijst zou moeten worden in kaart gebracht, gelieve een beheerder van de Experience Cloud in uw organisatie te raadplegen om de beste keus te bepalen.
+In de lijst worden alle *mogelijk* organisaties waaraan uw rapportsuite kan worden toegewezen, zelfs als u geen toestemming hebt om aan al die rapportsuites toe te wijzen. Als u niet zeker bent of de rapportreeks aan één van grayed-uit rapportreeksen in de lijst zou moeten worden in kaart gebracht, gelieve een beheerder van de Experience Cloud in uw organisatie te raadplegen om de beste keus te bepalen.
 
 ### Wat gebeurt er als ik sommige van de aanmeldingsbedrijven die worden vermeld voor een rapportsuite in de kolom &quot;Zichtbaar voor aanmeldingspartners&quot;, niet herken?
 
@@ -109,9 +109,9 @@ Met deze melding kunt u een geïnformeerde beslissing nemen over de toewijzing v
 
 Toegewezen rapportsuites worden getoond in een niet-editable formaat. Neem contact op met de klantenservice als u een toewijzing moet wijzigen.
 
-### Wat als ik alleen de Org-id ken voor mijn Experience Cloud-organisatie? Hoe zoek ik de naam van mijn Org ID op?
+### Wat als ik alleen de Org-id ken voor mijn Experience Cloud-organisatie? Hoe zoek ik de naam voor mijn Org ID op?
 
-U kunt uw organisatienaam in [Organisaties en de Montages van de Rekening](organizations.md) vinden.
+U kunt de naam van uw organisatie vinden in [Organisaties en accountinstellingen](organizations.md).
 
 ### Ik zie een datum in de kolom &quot;Datum van toewijzing&quot;. Wie heeft dat in kaart gebracht?
 

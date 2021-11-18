@@ -1,26 +1,26 @@
 ---
 description: Leer hoe u Experience Cloud Triggers configureert.
 keywords: integratie;Triggers
-seo-description: Hoe te om Experience Cloud Triggers te vormen.
+seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
 title: 'Overzicht van triggers '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Triggers] in Experience Cloud laat u toe om, zeer belangrijk consumentengedrag te identificeren te bepalen en te controleren, dan dwars-oplossing mededeling te produceren om bezoekers opnieuw aan te sluiten.
+[!UICONTROL Triggers] in Experience Cloud kunt u het gedrag van de consument identificeren, definiëren en controleren en vervolgens communicatie tussen toepassingen genereren om bezoekers opnieuw aan te trekken.
 
 ## Overzicht van triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,19 +30,19 @@ U kunt triggers gebruiken in realtime beslissingen en personalisatie. Bijvoorbee
 * Incomplete formulieren en toepassingen
 * Handelingen of reeksen handelingen op de site
 
-![](assets/trigger-abandonment-2.png)
+![Voorbeeld van Trigger](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
->Meer informatie over het gebruik van [!UICONTROL Triggers] is beschikbaar in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=en).
+>Meer informatie over het gebruik [!UICONTROL Triggers] is beschikbaar in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=en).
 
 ### Typen triggers
 
 Over het algemeen kan het 15 tot 90 minuten duren voordat een marketingcampagne wordt gestart. Deze vertraging is afhankelijk van de implementatie van gegevensverzameling, het laden op de pijplijn, de aangepaste configuratie van de gedefinieerde trigger en de workflow in Adobe Campaign.
 
-* **Afsluiten:** u kunt een trigger maken die moet worden geactiveerd wanneer een bezoeker een product weergeeft, maar er wordt niets aan het winkelwagentje toegevoegd.
-* **Actie:** U kunt triggers maken, bijvoorbeeld om te starten nadat u zich hebt aangemeld bij een nieuwsbrief, e-mailabonnementen of aanvragen voor creditcards (bevestigingen). Als u een detailhandelaar bent, kunt u een trekker voor een bezoeker tot stand brengen die zich voor een loyaliteitsprogramma ondertekent. In media en vermaak, creeer trekkers voor bezoekers die op een bepaalde show letten, en misschien wilt u met een onderzoek antwoorden.
-* **Begin en einde sessie:** maak een trigger voor het starten van de sessie en voor eindgebeurtenissen van de sessie.
+* **Afschaffing:** U kunt een trigger maken die moet worden geactiveerd wanneer een bezoeker een product weergeeft, maar er niets aan toevoegt.
+* **Handeling:** U kunt bijvoorbeeld triggers maken om na aanmelding voor nieuwsbrieven, e-mailabonnementen of aanvragen voor creditcards (bevestigingen) te activeren. Als u een detailhandelaar bent, kunt u een trekker voor een bezoeker tot stand brengen die zich voor een loyaliteitsprogramma ondertekent. In media en vermaak, creeer trekkers voor bezoekers die op een bepaalde show letten, en misschien wilt u met een onderzoek antwoorden.
+* **Begin en einde sessie:** Maak een trigger voor het starten en beëindigen van de sessie.
 
 ## Een Experience Cloud-trigger maken {#task_821F37183AC045E5AC8EED20317598FE}
 
@@ -52,9 +52,9 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
 >
 >Er bestaat momenteel een technische limiet van 100 triggers.
 
-1. Selecteer ![](assets/menu-icon.png) in de Experience Cloud en selecteer **[!UICONTROL Data Collection/Launch]**.
-2. Selecteer **[!UICONTROL Manage Triggers]** op de [!UICONTROL Triggers]-kaart.
-3. Selecteer **[!UICONTROL New Trigger]** en geef vervolgens het type trigger op:
+1. Selecteer in de Experience Cloud de optie ![](assets/menu-icon.png)selecteert u vervolgens **[!UICONTROL Data Collection/Launch]**.
+2. Op de [!UICONTROL Triggers] kaart, selecteren **[!UICONTROL Manage Triggers]**.
+3. Selecteren **[!UICONTROL New Trigger]** geeft u vervolgens het type trigger op:
 
    ![Stap Resultaat](assets/add-trigger.png)
 
@@ -64,8 +64,8 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
    |--- |--- |
    | [!UICONTROL Name] | De vriendelijke naam voor deze trigger. |
    | [!UICONTROL Description] | De beschrijving van deze trigger, hoe u deze gebruikt, enzovoort. |
-   | [!UICONTROL Report Suite] | De analysefunctie [rapportsuite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) die voor deze trigger wordt gebruikt. Deze instelling identificeert de te gebruiken rapportgegevens. |
-   | Bezoek moet<br>Bezoek mag geen<br>Trigger bevatten na geen actie<br>Metagegevens opnemen | U kunt criteria of gedrag van bezoekers bepalen die u wilt voorkomen, en gedrag dat u niet wilt voorkomen. De regels voor een eenvoudige trigger voor het verlaten van een winkelwagentje kunnen bijvoorbeeld zijn:<ul><li>Het bezoek moet het volgende omvatten: [!UICONTROL Cart Addition] (metrisch) en [!UICONTROL Exists]. (U kunt de regel verder verfijnen met een specifieke productweergave of met afmetingen zoals Browsertypen.)</li><li>Bezoek mag niet omvatten:  [!UICONTROL Checkout].</li><li>Trigger na geen actie voor:  10 minuten.</li><li>[!UICONTROL Include Meta Data]: Hiermee kunt u een bepaalde  [!DNL Campaign] dimensie of variabelen toevoegen die relevant zijn voor het gedrag van de bezoeker. Dit veld kan handig zijn voor Adobe Campaign bij het samenstellen van de juiste e-mail voor opnieuw in de handel brengen.</li></ul><br>U kunt   [!UICONTROL Any],   [!UICONTROL And] of   [!UICONTROL Or] logica binnen of tussen containers specificeren, afhankelijk van de criteria u belangrijk voor de regel bepaalt. |
+   | [!UICONTROL Report Suite] | De analyse [rapportsuite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) wordt gebruikt voor deze trigger. Deze instelling identificeert de te gebruiken rapportgegevens. |
+   | Bezoek moet<br>Bezoek mag geen<br>Trigger na geen handeling<br>Metagegevens opnemen | U kunt criteria of gedrag van bezoekers bepalen die u wilt voorkomen, en gedrag dat u niet wilt voorkomen. De regels voor een eenvoudige trigger voor het verlaten van een winkelwagentje kunnen bijvoorbeeld zijn:<ul><li>Het bezoek moet het volgende omvatten: [!UICONTROL Cart Addition] (metrisch) en  [!UICONTROL Exists]. (U kunt de regel verder verfijnen met een specifieke productweergave of met afmetingen zoals Browsertypen.)</li><li>Bezoek mag niet omvatten:  [!UICONTROL Checkout].</li><li>Trigger na geen actie voor: 10 minuten.</li><li>[!UICONTROL Include Meta Data]: Hiermee kunt u een bepaalde [!DNL Campaign] dimensie of variabelen die relevant zijn voor het gedrag van de bezoeker. Dit veld kan handig zijn voor Adobe Campaign bij het samenstellen van de juiste e-mail voor opnieuw in de handel brengen.</li></ul><br>U kunt  [!UICONTROL Any],  [!UICONTROL And] of  [!UICONTROL Or] logica binnen of tussen containers, afhankelijk van de criteria u bepaalt zijn belangrijk voor de regel. |
    | [!UICONTROL Container] | [!UICONTROL Containers] Hier kunt u regels, voorwaarden of filters instellen en opslaan die een trigger definiëren. Als u wilt dat gebeurtenissen tegelijkertijd plaatsvinden, plaatst u ze in dezelfde container. Met andere woorden, elke container verwerkt onafhankelijk op raakniveau. Bijvoorbeeld, als u twee containers hebt die door de exploitant worden aangesloten van En, kunt u de regels verwachten om te kwalificeren wanneer twee klappen aan de vereisten voldoen. |
    | Nieuwe sessie starten na | Maak een trigger voor het starten en beëindigen van de sessie. |
 
@@ -80,12 +80,12 @@ Voorbeelden van Experience Cloud-triggers:
 
 #### Trigger voor weglating van winkelwagentje
 
-De volgende pagina bevat bijvoorbeeld regels die u kunt gebruiken voor een trigger [!UICONTROL Cart Abandonment], op basis van producten die tijdens een bezoek worden weergegeven.
+De volgende pagina bevat bijvoorbeeld regels die u kunt gebruiken voor een [!UICONTROL Cart Abandonment] trigger, op basis van producten die tijdens een bezoek worden bekeken.
 
-![](assets/abandonment-trigger.png)
+![Startvertraging](assets/abandonment-trigger.png)
 
 #### Referrer Trigger
 
-De volgende trigger wordt geactiveerd wanneer een treffer wordt geleverd met het product van Men&#39;s Boots en referrer van Facebook. Om de twee criteria (*products* en *referrer*) in de zelfde slag te evalueren, zouden zij aan de zelfde container moeten worden toegevoegd.
+De volgende trigger wordt geactiveerd wanneer een treffer wordt geleverd met het product van Men&#39;s Boots en referrer van Facebook. Voor de twee criteria (*producten* en *referentie*) die in dezelfde hit moeten worden geëvalueerd, moeten ze aan dezelfde container worden toegevoegd.
 
-![](assets/fb-boots-promo.png)
+![Referentietrigger](assets/fb-boots-promo.png)

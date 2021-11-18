@@ -4,14 +4,14 @@ keywords: kerndiensten
 solution: Experience Cloud
 title: 'Opmerkingen bij de cumulatieve release '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '"Klantkenmerken"'
-topic: Beheer
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '4219'
+source-wordcount: '4216'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Central Interface-componenten.
 
-Zie [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784) voor een lijst met documentatie-updates.
+Voor een lijst met documentatie-updates raadpleegt u [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Zie [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) voor opmerkingen bij de release over alle oplossingen.
+Voor opmerkingen over alle toepassingen raadpleegt u [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
 
 ## Augustus - 2021
 
@@ -38,8 +38,8 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 | Functie | Datum | Beschrijving |
 | ------- | ------- | ------- |
-| Single Sign-On-ondersteuning voor Adobe-id&#39;s | 17 juni 2021 | Als u Federatieve id&#39;s gebruikt, kunt u zich aanmelden bij Experience Cloud zonder een e-mailadres of wachtwoord in te voeren. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` toe aan de URL van de Experience Cloud. <br>Stel dat u eigenaar bent van het domein  `adobecustomer.com` en u wilt aanmelden bij Adobe Analytics. De URL is: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League zoeken | 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeer naar [Experience League](https://experienceleague.adobe.com/docs/?lang=en) en gebruik het veld **[!UICONTROL Search]** om zelfstudies, documentatie, cursussen en meer te zoeken. |
+| Single Sign-On-ondersteuning voor Adobe-id&#39;s | 17 juni 2021 | Als u Federatieve id&#39;s gebruikt, kunt u zich aanmelden bij Experience Cloud zonder een e-mailadres of wachtwoord in te voeren. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` naar de URL van de Experience Cloud. <br>Stel dat u eigenaar bent van het domein `adobecustomer.com` en wilt u aanmelden bij Adobe Analytics. De URL is: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Experience League zoeken | 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeren naar [Experience League](https://experienceleague.adobe.com/docs/?lang=en) en gebruiken de **[!UICONTROL Search]** veld voor het zoeken naar zelfstudies, documentatie, cursussen en meer. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -48,7 +48,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 | Functie | Datum | Beschrijving |
 | ------- | ------- | ------- |
 | Experience Cloud-koptekst en -navigatie | 20 mei 2021 | Adobe Experience Cloud-updates bevatten een wijziging in het lichte thema voor de koptekst. U kunt gemakkelijk terugschakelen naar een donker thema en een koppeling maken om extra voorkeuren te bepalen vanuit de gebruikersavatar in de koptekst van de Experience Cloud. Hoewel niet alle toepassingen in Experience Cloud thema&#39;s ondersteunen, opent deze functie toekomstige themaondersteuning. |
-| Experience Cloud Global Search | 20 mei 2021 | Met deze release kunt u met algemene zoekfunctie Experience Cloud zoeken in de documentatie, cursussen en zelfstudies van [Experience League](https://experienceleague.adobe.com/#home). (Momenteel is de algemene zoekopdracht alleen beschikbaar voor gebruikers in de Experience Platform. Met algemene zoekopdrachten naar [!UICONTROL Platform] kunt u zoeken naar elk bedrijfsobject in Experience Cloud, zoals segmenten, gegevenssets, schema&#39;s en meer.) |
+| Experience Cloud Global Search | 20 mei 2021 | Met deze release kunt u met een algemene zoekopdracht in Experience Cloud naar alle [Experience League](https://experienceleague.adobe.com/#home) documentatie, cursussen en zelfstudies. (Momenteel is de algemene zoekopdracht alleen beschikbaar voor gebruikers in de Experience Platform. Globale zoekopdracht naar [!UICONTROL Platform] laat u toe om naar om het even welk bedrijfsvoorwerp in Experience Cloud, zoals segmenten, gegevensreeksen, schema&#39;s, en meer te zoeken.) |
 | Voorkeuren voor Experience Cloud-taal | 20 mei 2021 | Deze update biedt de mogelijkheid om uw voorkeurstalen in te stellen in Experience Cloud [Voorkeuren](https://experience.adobe.com/preferences). |
 
 {style=&quot;table-layout:auto&quot;}
@@ -76,8 +76,8 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 **Oplossingen**
 
-* **Klantkenmerken:gebruikersinterface** Klantkenmerken geeft nu aanvullende statussen weer van profielen die zijn gesynchroniseerd in Doel. (MCUI-10231)
-* **Triggers Core Service:** wegens gebrek aan gebruik, is de &quot;Waarschijnlijkheid om binnen 30 dagen terug te keren&quot;van de neiging om een trekker van het type van Afschrijving te creëren verwijderd. (MCUI-10056)
+* **Klantkenmerken:** Gebruikersinterface voor kenmerken van klanten geeft nu aanvullende statussen weer van profielen die zijn gesynchroniseerd in Doel. (MCUI-10231)
+* **Triggers Core-service:** Door gebrek aan gebruik is de &#39;Likelhood to Return in 30 dagen&#39; bij het maken van een trigger voor het type Abandenvironment verwijderd. (MCUI-10056)
 
 ## Januari - 2020
 
@@ -88,13 +88,13 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 * Probleem verholpen waarbij een probleem met de aanmelding bij Experience Cloud werd opgelost dat ertoe leidde dat sommige gebruikers zich afmelden voor een sessie. (MCUI-6908)
 * Bijgewerkte aanmelding van Experience Cloud om de prestaties te verbeteren en latentie te verminderen. (MCUI-6854, MCUI-6869, MCUI-6883)
 * Bijgewerkte interface cosmetisch. (MCUI-6861, MCUI-6911, MCUI-6862)
-* Probleem verholpen met Experience Cloud [!UICONTROL Triggers] die tot onjuiste interpretatie van _like_ clausule in de [!UICONTROL Trigger] definitie leidden. (MCUI-6611)
+* Probleem verholpen met Experience Cloud [!UICONTROL Triggers] dat heeft geleid tot een onjuiste interpretatie van _leuk_ in de [!UICONTROL Trigger] definitie. (MCUI-6611)
 
 ## April - 2019
 
-* De app-schakeloptie is bijgewerkt zodat Marketo wordt opgenomen in de Experience Cloud-oplossingssuite en updates van de branding naar het Experience Platform. (MCUI-6529)
+* De app-schakeloptie is bijgewerkt zodat Marketo wordt opgenomen in de Experience Cloud-toepassingssuite en brandingupdates voor Experience Platform. (MCUI-6529)
 * Bijgewerkt startpunt Experience Cloud om navigatiekoppelingen naar de pagina&#39;s feed en beheer op te nemen. (MCUI-6682)
-* Probleem opgelost in de [!UICONTROL Trigger]-definitie voor correct gebruik van de ‘like’-component. (MCUI-6611)
+* Probleem opgelost in het dialoogvenster [!UICONTROL Trigger] definitie voor correct gebruik van de &quot;soortgelijke&quot; clausule. (MCUI-6611)
 * Verbeteringen aan de Attributen van de Klant voor beter het registreren in de dienst van het Abonnement. (MCUI-6519)
 
 ## Release 19.1.1 - 17 januari 2019
@@ -147,7 +147,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbeteringen voor het koppelen van accounts </p> </td> 
-   <td colname="col2"> <p>Verbeterde interfacewerkstroom voor het verbinden van oplossingsrekeningen met de Experience Cloud (Adobe ID). Deze nieuwe workflow zoekt alle accounts van de gebruiker die aan een organisatie zijn gekoppeld en geeft u de mogelijkheid om te kiezen welk account aan een koppeling wordt gekoppeld. We hebben ook de koppelingservaring voor accounts gestroomlijnd, zodat u de pagina Organisaties beheren niet langer hoeft te openen om accounts handmatig te koppelen. </p> </td> 
+   <td colname="col2"> <p>Verbeterde interfaceworkflow voor het koppelen van toepassingsaccounts met de Experience Cloud (Adobe ID). Deze nieuwe workflow zoekt alle accounts van de gebruiker die aan een organisatie zijn gekoppeld en geeft u de mogelijkheid om te kiezen welk account aan een koppeling wordt gekoppeld. We hebben ook de koppelingservaring voor accounts gestroomlijnd, zodat u de pagina Organisaties beheren niet langer hoeft te openen om accounts handmatig te koppelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -158,7 +158,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 **Bekend probleem**
 
-Als u via de interface **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** toegang krijgt tot Dynamic Tag Management, maar uw Dynamic Tag Management-account is niet gekoppeld aan de Experience Cloud (Adobe ID), kunt u zich niet aanmelden bij Dynamic Tag Management. Navigeer rechtstreeks naar `dtm.adobe.com` in een nieuw browsertabblad om dit probleem te voorkomen.
+Als u via het dialoogvenster **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** -interface, maar uw Dynamic Tag Management-account is niet gekoppeld aan de Experience Cloud (Adobe ID), kunt u zich niet aanmelden bij Dynamic Tag Management. Om dit probleem te voorkomen, navigeert u rechtstreeks naar `dtm.adobe.com` in een nieuw browsertabblad.
 
 ## Release 16.1 - januari 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -179,7 +179,7 @@ Als u via de interface **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activat
 
 >[!NOTE]
 >
->Microsoft® is [eindsteun](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) voor Internet Explorer 8, 9, en 10. Als zodanig, zullen wij geen kwesties bevestigen die tegen deze specifieke versies van Internet Explorer worden gemeld.
+>Microsoft® is [end support](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) voor Internet Explorer 8, 9 en 10. Als zodanig, zullen wij geen kwesties bevestigen die tegen deze specifieke versies van Internet Explorer worden gemeld.
 
 ## Release 15.10 - 14 oktober 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -205,7 +205,7 @@ Als u via de interface **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activat
 
 **Bekend probleem**
 
-Een bekende kwestie veroorzaakt dubbele auto-geproduceerde rekeningen om in Audience Manager worden gecreeerd, en hen automatisch aan de identiteit van de Experience Cloud van een gebruiker te verbinden. Dit probleem doet zich voor als u naar de Audience Manager wilt navigeren voordat u uw accounts koppelt. Adobe raadt u aan uw Audience Manager-accounts aan de Experience Cloud te koppelen voordat u naar de Audience Manager navigeert. (MAC-25640)
+Een bekende kwestie veroorzaakt dubbele auto-geproduceerde rekeningen om in Audience Manager worden gecreeerd, en hen automatisch verbinden aan de identiteit van de Experience Cloud van een gebruiker. Dit probleem doet zich voor als u naar de Audience Manager wilt navigeren voordat u uw accounts koppelt. Adobe raadt u aan uw Audience Manager-accounts aan de Experience Cloud te koppelen voordat u naar de Audience Manager navigeert. (MAC-25640)
 
 ## Release 15.6.1 - 11 juni 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -223,19 +223,19 @@ Geen informatie beschikbaar
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>De linkernavigatiemenu's zijn bijgewerkt en gerangschikt om toegang tot alle kerndiensten en oplossingen te verlenen. Opmerkelijke wijzigingen zijn: </p> 
+   <td colname="col2"> <p>De linkernavigatiemenu's zijn bijgewerkt en gerangschikt om toegang tot alle kerndiensten en toepassingen te verlenen. Opmerkelijke wijzigingen zijn: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">De menuselecties <span class="term"> Audience Library</span> en <span class="term"> Customer Attributes</span> staan nu onder <span class="term"> Audiences</span>. </li> 
-     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">De <span class="term"> Uitwisseling</span> menuselectie werd bewogen van het drop-down menu van de Hulp aan de linkernavigatiespoor. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> </span> Oplossingen zijn verwijderd. U kunt alle oplossingen lanceren vanaf de onderste helft van de navigatieregel. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">De <span class="term"> Auditiebibliotheek</span> en <span class="term"> Klantkenmerken</span> menuselecties bevinden zich nu onder <span class="term"> Soorten publiek</span>. </li> 
+     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">De <span class="term"> Exchange</span> menuselectie is verplaatst van het vervolgkeuzemenu Help naar de linkernavigatieregel. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> Oplossingen</span> is verwijderd. U kunt alle toepassingen starten vanaf de onderste helft van de navigatieregel. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
 * Probleem verholpen waarbij werd voorkomen dat klantkenmerken voor sommige klanten werden gesynchroniseerd.
-* Probleem verholpen waarbij de pagina [Adobe Target-productdocumentatie](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) niet in het Japans kon worden weergegeven.
-* Probleem verholpen waarbij het gebruik van Japanse tekst in opmerkingen tussen [!DNL Creative Cloud] en [!DNL Experience Cloud] werd voorkomen.
+* Probleem opgelost dat preventie [Adobe Target-productdocumentatie](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) pagina uit weergave in het Japans.
+* Probleem verholpen waarbij het gebruik van Japanse tekst in opmerkingen tussen de [!DNL Creative Cloud] en de [!DNL Experience Cloud].
 
 ## Release 15.4.1 - 8 april 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
 
@@ -253,18 +253,18 @@ Geen informatie beschikbaar
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
      <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Ondersteuning voor bedrijven en Federated ID </li> 
     </ul> </td> 
-   <td colname="col2"> <p>De gebruiker en de functionaliteit van het groepsbeheer is verplaatst naar de Admin Console. Het nieuwe navigatiepad is: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt;  <span class="uicontrol"> Beheer</span>  &gt; Admin Console  <span class="uicontrol"> starten</span></p> <p> Er is ook ondersteuning toegevoegd voor bedrijfs- en gefedereerde id's. U kunt onderneming-id's, gefedereerde id's en Adobe-id's gebruiken in dezelfde implementatie voor de onderneming. Gebruik bijvoorbeeld Adobe-id's voor gebruikers die andere Adobe-producten en -services kunnen gebruiken. Gebruik bedrijf- of gefedereerde id's voor gebruikers waar u hun accounts strikt wilt beheren. </p> </td> 
+   <td colname="col2"> <p>De gebruiker en de functionaliteit van het groepsbeheer is verplaatst naar de Admin Console. Het nieuwe navigatiepad is: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Beheer</span> &gt; <span class="uicontrol"> Admin Console starten</span></p> <p> Er is ook ondersteuning toegevoegd voor bedrijfs- en gefedereerde id's. U kunt onderneming-id's, gefedereerde id's en Adobe-id's gebruiken in dezelfde implementatie voor de onderneming. Gebruik bijvoorbeeld Adobe-id's voor gebruikers die andere Adobe-producten en -services kunnen gebruiken. Gebruik bedrijf- of gefedereerde id's voor gebruikers waar u hun accounts strikt wilt beheren. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Oplossingen**
 
-* Probleem verholpen waarbij Single Sign-On tussen [!DNL Experience Cloud] en [!DNL Media Optimizer] werd voorkomen.
+* Probleem verholpen waarbij Single Sign-On werd voorkomen tussen de [!DNL Experience Cloud] en [!DNL Media Optimizer].
 
 **Bekende problemen**
 
-* Het koppelen en ontkoppelen van uw dynamische organisatie voor tagbeheer aan de Experience Cloud werkt niet voor nieuwe Experience Cloud-organisaties. Adobe werkt eraan dit probleem op te lossen en de normale functionaliteit te herstellen met de release van mei. Als u problemen ondervindt bij het aanmelden bij dynamisch tagbeheer via de Experience Cloud, gebruikt u de oudere aanmelding op [!DNL dtm.adobe.com].
+* Het koppelen en ontkoppelen van uw dynamische organisatie voor tagbeheer aan de Experience Cloud werkt niet voor nieuwe Experience Cloud-organisaties. Adobe werkt eraan dit probleem op te lossen en de normale functionaliteit te herstellen met de release van mei. Als u problemen ondervindt bij het aanmelden bij dynamisch tagbeheer via de Experience Cloud, gebruikt u de oudere aanmelding bij [!DNL dtm.adobe.com].
 * Een bekend probleem is dat het delen van het publiek wordt verhinderd door het rapporteren van suites die niet het eigendom zijn van de gekoppelde account Analytics. Er wordt gewerkt aan corrigerende maatregelen
 
 ## Release 15.3.2 - 19 maart 2015 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -279,7 +279,7 @@ Geen informatie beschikbaar
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Klantkenmerken </p> </td> 
-   <td colname="col2"> <p>Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in de Experience Cloud uploaden. Nadat de gegevens zijn geüpload, kunt u <span class="uicontrol"> Bezoekersprofiel</span> &gt; <span class="uicontrol"> Klantkenmerken</span> rapporten uitvoeren in Analytics. </p> <p>U kunt de geüploade gegevens ook gebruiken als een publiekssegment in <span class="keyword"> Adobe Target</span>. </p> <p>Zie <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Klantkenmerken</a> productdocumentatie. </p> <p> Voor informatie over het moderniseren van uw oplossingen voor de kerndiensten, zie <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> uw oplossingen voor kerndiensten toelaten</a>. </p> </td> 
+   <td colname="col2"> <p>Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in de Experience Cloud uploaden. Nadat de gegevens zijn geüpload, kunt u <span class="uicontrol"> Bezoekerprofiel</span> &gt; <span class="uicontrol"> Klantkenmerken</span> rapporten in Analytics. </p> <p>U kunt de geüploade gegevens ook gebruiken als een publiekssegment in <span class="keyword"> Adobe Target</span>. </p> <p>Zie <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Klantkenmerken</a> productdocumentatie. </p> <p> Voor informatie over het moderniseren van uw toepassingen voor de kerndiensten, zie <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Uw toepassingen inschakelen voor kernservices</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,19 +296,19 @@ Geen informatie beschikbaar
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Groepstoewijzing </p> </td> 
-   <td colname="col2"> <p>De pagina van het Beheer van de Groep is herontworpen als administratieve interface die u groepen laat tot stand brengen, gebruikers aan groepen toevoegen, en toestemmingen over de oplossingen van Experience Cloud toepassen. </p> </td> 
+   <td colname="col2"> <p>De pagina van het Beheer van de Groep is herontworpen als administratieve interface die u groepen tot stand brengt, gebruikers aan groepen toevoegt, en toestemmingen over de toepassingen van Experience Cloud toepast. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Toewijzing van één naar veel </p> </td> 
-   <td colname="col2"> <p>Wanneer het verbinden van oplossingsrekeningen in de Experience Cloud, als u veelvoudige oplossingen en organisaties hebt, kunt u veelvoudige producten en de diensten aan één enkele organisatie nu in kaart brengen. </p> </td> 
+   <td colname="col2"> <p>Wanneer het verbinden van toepassingsrekeningen in de Experience Cloud, als u veelvoudige toepassingen en organisaties hebt, kunt u veelvoudige producten en de diensten aan één enkele organisatie nu in kaart brengen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activering </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> </a> Activering wordt nu weergegeven in de linkernavigatie in de  <span class="keyword"> Experience Cloud</span>. <span class="wintitle"> </span> Activation is een  <span class="keyword"> Experience </span> Cloudservice die momenteel bestaat uit de technologie voor dynamisch tagbeheer en geeft u de leiding wanneer u deze hebt geselecteerd. </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activering</a> wordt nu weergegeven in de navigatie links in het dialoogvenster <span class="keyword"> Experience Cloud</span>. <span class="wintitle"> Activering</span> is een <span class="keyword"> Experience Cloud</span> De service bestaat momenteel uit de technologie voor dynamisch tagbeheer en geeft u de leiding wanneer deze is geselecteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Documentatie-updates - Core Services </p> </td> 
-   <td colname="col2"> <p>Het onderwerp <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Uw oplossingen voor kernservices inschakelen</a> is toegevoegd om u te helpen bij de implementatie van kernservices. </p> </td> 
+   <td colname="col2"> <p>Het onderwerp toegevoegd <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Uw toepassingen inschakelen voor kernservices</a> om u bij het uitvoeren van de kerndiensten te helpen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -318,14 +318,14 @@ Geen informatie beschikbaar
 Oplossingen:
 
 * Verbeterde werkstroom voor e-mailuitnodigingen van gebruikers voor het instellen van accounts.
-* Probleem verholpen met een elementmap waardoor [!DNL Experience Cloud]- en [!DNL Adobe Campaign]-elementen geen identieke maphiërarchieën konden weergeven.
-* Probleem verholpen waarbij het verwijderen van soorten publiek die deel uitmaakten van gedeactiveerde [!DNL Target]-activiteiten werd voorkomen.
-* Probleem verholpen waarbij het pictogram Toevoegen (plus) niet onder [!UICONTROL Rules] op de pagina [!UICONTROL Create New Audience] kon worden weergegeven.
+* Probleem verholpen waarbij een elementenmap werd voorkomen [!DNL Experience Cloud] en [!DNL Adobe Campaign] elementen van het weergeven van identieke maphiërarchieën.
+* Probleem verholpen waarbij werd voorkomen dat doelgroepen die deel uitmaakten van gedeactiveerde [!DNL Target] activiteiten.
+* Probleem verholpen waarbij het pictogram Toevoegen (plus) niet onder kon worden weergegeven [!UICONTROL Rules] op de [!UICONTROL Create New Audience] pagina.
 * Verbeterde ondersteuning voor de Experience Cloud-interface voor Internet Explorer 9.
 
 ## Release 15.1.1 - 15 januari 2015 {#section_F1A352E928AF432E94CC0A289C345184}
 
-Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
+Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
 
 <table id="table_AD0A8CA760E64227BB04BA6B0E425E80"> 
  <thead> 
@@ -368,7 +368,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 Bekende problemen:
 
 * Sommige gebruikers kunnen een verouderd element verwijderen in plaats van een foutmelding te ontvangen.
-* Sommige [!DNL .png] bestanden kunnen niet op een kaart worden gerenderd.
+* Sommige [!DNL .png] bestanden kunnen niet op een kaart worden weergegeven.
 * Sommige gebruikers kunnen problemen hebben met het uploaden van middelen naar een board.
 * Wijzigingen in groep- en machtigingen die zijn aangebracht in gebruikersbeheer, worden pas na een nieuwe aanmelding van kracht.
 * Beheerders moeten zich afmelden en weer aanmelden om de wijzigingen te kunnen zien die in Accountinstellingen zijn aangebracht.
@@ -378,7 +378,7 @@ Bekende problemen:
 
 ## Release 14.10.1 - 16 oktober 2014 {#section_E3A0F4423B814707AA3745E083500835}
 
-Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
+Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
 
 <table id="table_7C1ACE8108D54782AE128ACD35069DF5"> 
  <thead> 
@@ -392,8 +392,8 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
    <td colname="col1"> <p>Gebruikersmachtigingen bewerken </p> </td> 
    <td colname="col2"> <p>Eigenaars van een board kunnen nu gebruikersmachtigingen op de betreffende board bewerken. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Selecteer <span class="uicontrol"> Settings</span> op het bord. </li> 
-      <li id="li_0F4786B0E1E743069D082E7DC488A031">Geef <span class="uicontrol"> Eigenaar</span>, <span class="uicontrol"> Viewer</span> of <span class="uicontrol"> Editor</span> naast elke eigenaar op. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Selecteer <span class="uicontrol"> Instellingen</span>. </li> 
+      <li id="li_0F4786B0E1E743069D082E7DC488A031">Geef naast elke eigenaar een <span class="uicontrol"> Eigenaar</span>, <span class="uicontrol"> Viewer</span>, of <span class="uicontrol"> Editor</span>. </li> 
      </ol> </p> </td> 
   </tr> 
  </tbody> 
@@ -401,41 +401,41 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 
 **Oplossingen**
 
-* Er werd een foutbericht geretourneerd wanneer u een kaart maakte van een PDF en deze naar het bord deelde.
+* Als u een kaart maakt van een PDF en deze deelt naar het bord, wordt een foutbericht geretourneerd.
 
 **Bekende problemen**
 
 * Sommige gebruikers kunnen problemen hebben met het uploaden van middelen naar een board.
-* Sommige [!DNL .png] bestanden kunnen niet op een kaart worden gerenderd.
+* Sommige [!DNL .png] bestanden kunnen niet op een kaart worden weergegeven.
 * Wijzigingen in groep- en machtigingen die zijn aangebracht in gebruikersbeheer, worden pas na een nieuwe aanmelding van kracht.
-* Sommige gebruikers kunnen geen kaart maken van een PDF en deze delen naar een kaart.
+* Sommige gebruikers kunnen een kaart niet maken van een PDF en deze delen op een kaart.
 * Sommige gebruikers kunnen een verouderd element verwijderen in plaats van een foutmelding te ontvangen.
 * Gebruikers kunnen PowerPoint-bestanden niet delen op borden.
 * [!DNL Experience Cloud] de interface kan prestaties verminderen wanneer in parallel gebruik door vele gebruikers.
-* De koppeling [!DNL Search&Promote] is niet beschikbaar op de pagina [!UICONTROL Organizations & Product Access].
+* De [!DNL Search&Promote] koppeling is niet beschikbaar in het dialoogvenster [!UICONTROL Organizations & Product Access] pagina.
 
 ## Release 14.9.1 - 18 september 2014 {#section_20F156A9CC2F4FC59C4970075C181D3A}
 
 **Oplossingen en verbeteringen**
 
-* Wanneer u aan [!DNL experience.adobe.com] navigeert, is de login ervaring nu verenigbaar met login van Adobe Creative Cloud.
-* Op de pagina Organisaties beheren is de koppelingservaring (nadat een uitnodiging is ontvangen) nu consistent voor elke oplossing.
+* Wanneer u navigeert naar [!DNL experience.adobe.com], is de login ervaring nu verenigbaar met login van de Creative Cloud van Adobe.
+* Op de pagina Organisaties beheren is de koppelingservaring (nadat een uitnodiging is ontvangen) nu consistent voor elke toepassing.
 
 **Bekende problemen**
 
 * Wijzigingen in groep- en machtigingen die zijn aangebracht in gebruikersbeheer, worden pas na een nieuwe aanmelding van kracht.
-* Sommige gebruikers kunnen geen kaart maken van een PDF en deze delen naar een kaart.
+* Sommige gebruikers kunnen geen kaart maken van een PDF en deze delen op een kaart.
 * Sommige gebruikers kunnen problemen hebben met het uploaden van middelen naar een board.
 * Sommige gebruikers kunnen een verouderd element verwijderen in plaats van een foutmelding te ontvangen.
 * Gebruikers kunnen PowerPoint-bestanden niet delen op borden.
-* Sommige [!DNL .png] bestanden kunnen niet op een kaart worden gerenderd.
+* Sommige [!DNL .png] bestanden kunnen niet op een kaart worden weergegeven.
 * [!DNL Experience Cloud] de interface kan prestaties verminderen wanneer in parallel gebruik door vele gebruikers.
-* De koppeling [!DNL Search&Promote] is niet beschikbaar op de pagina [!UICONTROL Organizations & Product Access].
-* Sommige gebruikers kunnen ervaren dat hun [!DNL Creative Cloud]-inhoud uit hun map wordt verwijderd als de inhoud niet wordt gedeeld in [!DNL Experience Cloud].
+* De [!DNL Search&Promote] koppeling is niet beschikbaar in het dialoogvenster [!UICONTROL Organizations & Product Access] pagina.
+* Sommige gebruikers ervaren hun [!DNL Creative Cloud] inhoud die wordt verwijderd uit de bijbehorende map als de inhoud niet wordt gedeeld in het dialoogvenster [!DNL Experience Cloud].
 
 ## Release 14.8.1 - augustus 2014 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
 
-Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
+Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
 
 <table id="table_1E7DBEB5E83B4E4285B6FD1D718CD16D"> 
  <thead> 
@@ -447,7 +447,7 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>U kunt <span class="keyword"> de Mobiele Diensten van de Adobe nu tot</span> van de linkernavigatie toegang hebben. </p> </td> 
+   <td colname="col2"> <p>U hebt nu toegang tot <span class="keyword"> Adobe mobiele services</span> in de linkernavigatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -455,33 +455,33 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 **Bekende problemen**
 
 * Wijzigingen in groep- en machtigingen die zijn aangebracht in gebruikersbeheer, worden pas na een nieuwe aanmelding van kracht.
-* Sommige gebruikers kunnen geen kaart maken van een PDF en deze delen naar een kaart.
+* Sommige gebruikers kunnen een kaart niet maken van een PDF en deze delen op een kaart.
 * Sommige gebruikers kunnen problemen hebben met het uploaden van middelen naar een board.
-* Sommige gebruikers kunnen zich mogelijk niet aanmelden van [!DNL Target] tot [!DNL Experience Cloud].
-* Sommige gebruikers van Audience Managers kunnen zich niet aanmelden bij [!DNL Experience Cloud].
+* Sommige gebruikers kunnen zich mogelijk niet aanmelden bij [!DNL Target] tot [!DNL Experience Cloud].
+* Sommige gebruikers van Audience Managers kunnen zich niet aanmelden bij de [!DNL Experience Cloud].
 * Sommige gebruikers kunnen een verouderd element verwijderen in plaats van een foutmelding te ontvangen.
-* Bestanden die zijn verwijderd uit [!DNL Experience Cloud] worden niet verwijderd uit [!DNL Digital Asset Management].
+* Bestanden verwijderd uit [!DNL Experience Cloud] niet worden verwijderd uit [!DNL Digital Asset Management].
 * Gebruikers kunnen PowerPoint-bestanden niet delen op borden.
-* Sommige [!DNL .png] bestanden kunnen niet op een kaart worden gerenderd.
+* Sommige [!DNL .png] bestanden kunnen niet op een kaart worden weergegeven.
 * [!DNL Experience Cloud] de interface kan prestaties verminderen wanneer in parallel gebruik door vele gebruikers.
-* De koppeling [!DNL Search&Promote] is niet beschikbaar op de pagina [!UICONTROL Organizations & Product Access].
-* Sommige gebruikers kunnen ervaren dat hun [!DNL Creative Cloud]-inhoud uit hun map wordt verwijderd als de inhoud niet wordt gedeeld in [!DNL Experience Cloud].
+* De [!DNL Search&Promote] koppeling is niet beschikbaar in het dialoogvenster [!UICONTROL Organizations & Product Access] pagina.
+* Sommige gebruikers ervaren hun [!DNL Creative Cloud] inhoud die wordt verwijderd uit de bijbehorende map als de inhoud niet wordt gedeeld in het dialoogvenster [!DNL Experience Cloud].
 
 ## Release 14.7.1 - juli 2014 {#section_B22D4F830756463DB27BB4D508D9ADD5}
 
-Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
+Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
 
 **Bekende problemen**
 
-* Bestanden die zijn verwijderd uit [!DNL Experience Cloud] worden niet verwijderd uit [!DNL Digital Asset Management].
-* Sommige [!UICONTROL Exchange] gebruikers vinden hun namen in de commentaren misschien een lange koord ID in plaats van hun namen
-* Sommige [!DNL .png]-bestanden kunnen niet op een kaart worden gerenderd
-* Bij het uploaden van bestanden zijn meer bestandstypen toegestaan dan bij slepen en neerzetten. Upload voor de beste resultaten met [!UICONTROL Assets].
-* De koppeling [!DNL Search&Promote] is niet beschikbaar op de pagina [!UICONTROL Organizations & Product Access].
+* Bestanden verwijderd uit [!DNL Experience Cloud] niet worden verwijderd uit [!DNL Digital Asset Management].
+* Sommige [!UICONTROL Exchange] gebruikers vinden hun namen in de opmerkingen mogelijk als een lange tekenreeks-id in plaats van als naam
+* Sommige [!DNL .png] bestanden kunnen niet op een kaart worden weergegeven
+* Bij het uploaden van bestanden zijn meer bestandstypen toegestaan dan bij slepen en neerzetten. Upload het bestand met [!UICONTROL Assets].
+* De [!DNL Search&Promote] koppeling is niet beschikbaar in het dialoogvenster [!UICONTROL Organizations & Product Access] pagina.
 * [!DNL Exchange] gebruikers moeten hun cookies wissen om hun ervaring te verbeteren.
 * [!DNL Experience Cloud] de interface kan vertragen wanneer in parallel gebruik door vele gebruikers.
-* Sommige gebruikers kunnen ervaren dat hun [!DNL Creative Cloud]-inhoud uit hun map wordt verwijderd als de inhoud niet wordt gedeeld in [!DNL Experience Cloud].
-* U wordt afgemeld na 15 minuten inactiviteit. Ook, logout in één plaats meldt u uit [!DNL Experience Cloud].
+* Sommige gebruikers ervaren hun [!DNL Creative Cloud] inhoud die uit de map wordt verwijderd als de inhoud niet wordt gedeeld in het dialoogvenster [!DNL Experience Cloud].
+* U wordt afgemeld na 15 minuten inactiviteit. Ook, logout op één plaats meldt u uit [!DNL Experience Cloud].
 * Sommige gebruikers kunnen hun Audience Manager-accounts mogelijk niet koppelen aan [!DNL Experience Cloud].
 * [!UICONTROL Exchange] gebruikers kunnen alleen Engels zien in de taalkiezer.
 
@@ -491,7 +491,7 @@ Geen om te rapporteren.
 
 ## Release 14.6.1 - 19 juni 2014 {#marketing_cloud_interface}
 
-Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
+Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Cloud] samenwerking en het delen interface.
 
 **Verbetering**
 
@@ -504,8 +504,8 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Knop </span> Opslaan in publiek </p> </td> 
-   <td colname="col2"> <p>Wanneer u een publiek creeert, wordt <span class="wintitle"> sparen</span> knoop op <span class="wintitle"> Create Nieuwe Publiek</span> pagina nu onbruikbaar gemaakt tot alle vereiste gebieden worden voltooid. 
+   <td colname="col1"> <p> <span class="wintitle"> Opslaan</span> knop in Soorten publiek </p> </td> 
+   <td colname="col2"> <p>Wanneer u een publiek maakt, worden de <span class="wintitle"> Opslaan</span> op de knop <span class="wintitle"> Nieuw publiek maken</span> De pagina wordt nu uitgeschakeld totdat alle vereiste velden zijn voltooid. 
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
@@ -513,11 +513,11 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 
 **Bekende problemen**
 
-* Bestanden die zijn verwijderd uit [!DNL Experience Cloud] worden niet verwijderd uit [!DNL Digital Asset Management].
+* Bestanden verwijderd uit [!DNL Experience Cloud] niet worden verwijderd uit [!DNL Digital Asset Management].
 * Bij het uploaden van bestanden zijn meer bestandstypen toegestaan dan bij slepen en neerzetten. Upload het bestand met Middelen voor de beste resultaten.
-* De koppeling [!DNL Search&Promote] is niet beschikbaar op de pagina [!UICONTROL Organizations & Product Access].
-* Filters die worden toegepast op trended-rapporten van [!DNL Analytics] worden niet toegepast op kaarten in [!DNL Experience Cloud].
-* Sommige gebruikers kunnen hun account voor publieksbeheer niet koppelen aan hun [!DNL Experience Cloud]-account.
+* De [!DNL Search&Promote] koppeling is niet beschikbaar in het dialoogvenster [!UICONTROL Organizations & Product Access] pagina.
+* Filters die zijn toegepast op trended-rapporten van [!DNL Analytics] niet worden toegepast op kaarten in de [!DNL Experience Cloud].
+* Sommige gebruikers kunnen hun account voor publieksbeheer niet koppelen aan hun [!DNL Experience Cloud] account.
 * U wordt afgemeld na 15 minuten inactiviteit. Ook, logout op één plaats meldt u uit de Experience Cloud.
 * Sommige gebruikers van de Uitwisseling kunnen hun namen in de commentaren vinden om een lange koordidentiteitskaart in plaats van hun namen te zijn
 
@@ -537,15 +537,15 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt;  <span class="uicontrol"> Help</span> &gt;  <span class="uicontrol"> Exchange</span></p> <p>De <span class="keyword"> Experience Cloud</span><span class="wintitle"> Uitwisseling</span> is één enkele bestemming waar u kunt zoeken, doorbladeren, selecteren, betalen, en downloaden digitale marketing uitbreidingen via apps. </p> <p>Apps omvatten schakelaars, douaneconfiguraties aan Adobe basisproduct, derdetoepassingen, rapporten, en <span class="keyword"> Experience Cloud</span> kaarten. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Help</span> &gt; <span class="uicontrol"> Exchange</span></p> <p>De <span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> is één doel waarmee u digitale marketingextensies kunt zoeken, zoeken, selecteren, betalen en downloaden via apps. </p> <p>De toepassingen omvatten schakelaars, douaneconfiguraties aan Adobe basisproduct, derdetoepassingen, rapporten, en <span class="keyword"> Experience Cloud</span> kaarten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud publiek </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt;  <span class="uicontrol"> Soorten publiek</span></p> <p> <span class="wintitle"> Het </span> publiek waar u creeert, uitgeeft, en beheert publiek, gelijkend op hoe u met segmenten werkt. Bijvoorbeeld, kunt u een segment in Rapporten &amp; Analytics tot stand brengen, dan het delen aan <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Soorten publiek</span>. Zodra gedeeld, is het publiek beschikbaar in <span class="keyword"> Adobe Target</span> voor campagneactiviteiten, en in Adobe Audience Manager voor segmentatie. </p> <p> <p>Opmerking: Om activering in Doel te verzoeken, bezoek <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Soorten publiek</span></p> <p> <span class="wintitle"> Soorten publiek</span> Hier maakt, bewerkt en beheert u soorten publiek, net als bij segmenten. U kunt bijvoorbeeld een segment maken in Rapporten en Analytics en het vervolgens delen naar <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Soorten publiek</span>. Nadat het publiek is gedeeld, is het beschikbaar in <span class="keyword"> Adobe Target</span> voor campagneactiviteiten en in Adobe Audience Manager voor segmentatie. </p> <p> <p>Opmerking: Ga naar <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Gebruikers die op <span class="keyword"> Experience Cloud</span> kaarten worden vermeld hebben nu toestemmingen aan die kaart. </p> </td> 
+   <td colname="col2"> <p>Gebruikers die worden vermeld op <span class="keyword"> Experience Cloud</span> kaarten hebben nu machtigingen voor die kaart . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -553,25 +553,25 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
   </tr> 
   <tr> 
    <td colname="col1"> <p>Asset-synchronisatie. </p> </td> 
-   <td colname="col2"> <p> U kunt elementen binnen Experience Manager-elementen delen met Experience Cloud en Creative Cloud. Wijzigingen in deze elementen worden weerspiegeld in de gedeelde kopieën van de elementen in Experience Cloud en Creative Cloud. </p> </td> 
+   <td colname="col2"> <p> U kunt elementen in Experience Manager Assets delen met Experience Cloud en Creative Cloud. Wijzigingen in deze elementen worden weerspiegeld in de gedeelde kopieën van de elementen in Experience Cloud en Creative Cloud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Oplossingen**
 
-* [!DNL Experience Cloud] was niet verbonden met  [!DNL Adobe Target]. Dit probleem is opgetreden als de [!DNL Adobe Target]-aanmelding op meerdere [!DNL Target]-servers kan worden gebruikt.
-* [!DNL Adobe Media Optimizer] heeft niet automatisch gebruikers gemaakt wanneer de gebruiker is aangemaakt in  [!DNL Experience Cloud].
+* [!DNL Experience Cloud] heeft geen koppeling gemaakt naar [!DNL Adobe Target]. Dit probleem is opgetreden als de [!DNL Adobe Target] aanmelden kan op meerdere [!DNL Target] servers.
+* [!DNL Adobe Media Optimizer] heeft niet automatisch gebruikers gemaakt wanneer de gebruiker is gemaakt in [!DNL Experience Cloud].
 * Opties in keuzelijsten met invoervak die worden gebruikt voor het tijdelijk toevoegen van nieuwe gebruikers zijn tijdens het typen verdwenen.
 * De koppeling Opmerkingen in de weergave Kaart met element kan niet worden geselecteerd.
 * Nadat u een aangepaste tag aan een element hebt toegevoegd, zijn er geen andere metagegevenswijzigingen meer.
 * Als u een afbeelding verwijdert, wordt er in Elementen niet gewaarschuwd of de afbeelding wordt gebruikt in Adobe Target Essentials.
-* Trage [!UICONTROL Experience Cloud] interfaceprestaties bij parallel gebruik door veel gebruikers.
-* Als u een afbeelding verwijdert in [!UICONTROL Experience Cloud Assets], verschijnt er geen waarschuwing als de afbeelding wordt gebruikt in [!DNL Adobe Target Essentials].
-* Wanneer **[!UICONTROL remember me]** niet tijdens login werd geselecteerd, werd de gebruiker na 15 minuten het programma geopend.
+* Langzaam [!UICONTROL Experience Cloud] interfaceprestaties bij parallel gebruik door veel gebruikers.
+* Een afbeelding verwijderen in [!UICONTROL Experience Cloud Assets] waarschuwde niet als de afbeelding is gebruikt in [!DNL Adobe Target Essentials].
+* Wanneer **[!UICONTROL remember me]** is niet geselecteerd tijdens het aanmelden, de gebruiker is na 15 minuten afgemeld.
 * Gebruikers moesten zich afmelden en weer inloggen om alle machtigingen en machtigingswijzigingen van kracht te laten worden.
-* Aanmelden bij [!DNL Experience Cloud] duurde langer dan een seconde.
-* Voor bepaalde gebruikers synchroniseerde het schrappen van dossiers van [!DNL Experience Cloud] niet met [!DNL Digital Asset Management].
+* Aanmelden bij de [!DNL Experience Cloud] langer dan een seconde duren.
+* Voor bepaalde gebruikers: bestanden verwijderen uit de [!DNL Experience Cloud] heeft niet gesynchroniseerd met [!DNL Digital Asset Management].
 * Gebruikers werden afgemeld na slechts 15 minuten browserinactiviteit.
 * De gebruiker kon geen PowerPoint-bestanden op borden delen.
 * Sommige gebruikers hadden een slechte visuele lay-out in Internet Explorer 10.
@@ -590,9 +590,9 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
    <td colname="col1"> <p>Kaarten maken van Help-onderwerpen </p> </td> 
    <td colname="col2"> <p>Nadat u de functie Delen naar Adobe Experience Cloud hebt ingeschakeld op de werkbalk Bladwijzer van uw browser, kunt u nu Help-pagina's delen via de URL van de microsite. </p> <p> <b>Een Help-onderwerp delen</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Selecteer <span class="uicontrol"> Beheer</span> in <span class="keyword"> Experience Cloud.</span> </p> </li> 
-     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Sleep de knop <span class="uicontrol"> Delen naar Adobe Experience Cloud</span> naar de werkbalk Bladwijzer. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigeer naar een Help-pagina (of blijf op deze pagina) en selecteer <span class="uicontrol"> Delen naar Adobe Experience Cloud</span> op de werkbalk Bladwijzers van uw browser. </p> <p>Deze stap leidt tot een kaart, die u in <span class="wintitle"> Experience Cloud </span> kunt bekijken. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>In de <span class="keyword"> Experience Cloud</span>, selecteert u <span class="uicontrol"> Beheer</span>. </p> </li> 
+     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Sleep de <span class="uicontrol"> Delen naar Adobe Experience Cloud</span> aan uw werkbalk Bladwijzer toevoegen. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigeer naar een Help-pagina (of blijf op deze pagina) en selecteer <span class="uicontrol"> Delen naar Adobe Experience Cloud</span> in de werkbalk Bladwijzers van uw browser. </p> <p>Met deze stap maakt u een kaart die u kunt bekijken in het dialoogvenster <span class="wintitle"> Experience Cloud</span>. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -602,26 +602,26 @@ Nieuwe eigenschappen en moeilijke situaties in [!DNL Adobe Experience Cloud] sam
 
 * Nadat u een aangepaste tag aan een element hebt toegevoegd, kunnen er geen andere metagegevenswijzigingen meer worden doorgevoerd.
 * Gebruikers moeten het bord vernieuwen om de verwijderde kaarten uit het zicht te laten verdwijnen.
-* Wanneer **[!UICONTROL Remember me]** niet is geselecteerd tijdens het aanmelden, wordt de gebruiker na 15 minuten afgemeld
-* [!DNL Analytics] de openingspagina van de oplossing toont formatterende fouten.
+* Wanneer **[!UICONTROL Remember me]** is niet geselecteerd tijdens het aanmelden, de gebruiker wordt na 15 minuten afgemeld
+* [!DNL Analytics] op de landingspagina van de toepassing worden opmaakfouten weergegeven.
 * Gebruikers dienen zich af te melden en zich weer aan te melden om alle machtigingen en machtigingswijzigingen van kracht te laten worden.
-* Als u een afbeelding verwijdert, wordt [!UICONTROL Assets] niet gewaarschuwd of de afbeelding wordt gebruikt in [!DNL Adobe Target Essentials].
+* Een afbeelding verwijderen, [!UICONTROL Assets] waarschuwt niet als het beeld binnen wordt gebruikt [!DNL Adobe Target Essentials].
 * De koppeling Opmerkingen in de weergave Middelenkaart kan niet worden geselecteerd.
 * Opties in keuzelijsten met invoervak voor het tijdelijk toevoegen van nieuwe gebruikers verdwijnen tijdens het typen.
-* Aanmelden bij [!DNL Experience Cloud] duurt langer dan een seconde.
-* Gegevens die worden gedeeld vanuit [!DNL Media Optimizer] worden onjuist weergegeven in [!DNL Experience Cloud].
-* Met Adobe [!DNL Media Optimizer] worden niet automatisch gebruikers gemaakt wanneer een gebruiker is gemaakt in [!DNL Experience Cloud].
-* De [!DNL Experience Cloud] kan niet aan [!DNL Adobe Target] worden verbonden, als [!DNL Adobe Target] login op veelvoudige [!DNL Target] servers kan worden gebruikt.
+* Aanmelden bij de [!DNL Experience Cloud] duurt langer dan een seconde.
+* Gegevens gedeeld vanuit [!DNL Media Optimizer] is onjuist vertegenwoordigd in de [!DNL Experience Cloud].
+* Adobe [!DNL Media Optimizer] maakt niet automatisch gebruikers wanneer de gebruiker in [!DNL Experience Cloud].
+* De [!DNL Experience Cloud] kan niet worden gekoppeld aan [!DNL Adobe Target], als de [!DNL Adobe Target] aanmelden kan op meerdere [!DNL Target] servers.
 * [!DNL Experience Cloud] de interface kan vertragen wanneer in parallel gebruik door vele gebruikers.
-* [!DNL Search&Promote] koppeling is niet beschikbaar op de  [!UICONTROL Organizations & Product Access] pagina.
+* [!DNL Search&Promote] koppeling is niet beschikbaar in het dialoogvenster [!UICONTROL Organizations & Product Access] pagina.
 * [!DNL Adobe Media Optimizer] simulatiekaarten worden niet correct weergegeven.
-* Filters die worden toegepast op trended-rapporten van [!DNL Analytics] worden niet toegepast op kaarten in [!DNL Experience Cloud].
+* Filters die zijn toegepast op trended-rapporten van [!DNL Analytics] niet worden toegepast op kaarten in [!DNL Experience Cloud].
 * Filters die worden toegepast op trended-rapporten van Analytics worden niet toegepast op kaarten in Experience Cloud.
 * Sommige Excel- of CSV-bestanden kunnen niet naar een board worden geüpload.
 * Sommige gebruikers kunnen hun account voor publieksbeheer niet koppelen aan hun [!DNL Experience Cloud].
-* Sommige gebruikers kunnen een fout ervaren bij het delen van [!DNL Analytics]-segmenten in [!DNL Experience Cloud].
+* Sommige gebruikers kunnen een fout ervaren bij het delen [!DNL Analytics] segmenten in de [!DNL Experience Cloud].
 * Sommige gebruikers kunnen mogelijk niet naar submappen gaan in [!UICONTROL Asset Selector].
-* Sommige gebruikers kunnen geen gadgets voor AdLens delen in [!DNL Experience Cloud].
+* Sommige gebruikers kunnen geen gadgets voor AdLens delen in de [!DNL Experience Cloud].
 
 ## Release 14.3.1 - 13 maart 2014 {#section_5D142E3225E3477A84DC01B8197D39BC}
 
@@ -630,27 +630,27 @@ Versie 14.3.1 is een onderhoudsversie die zich op snelheid, stabiliteit, en veil
 **Oplossingen**
 
 * Hiermee kunt u uw avatar-afbeelding verwijderen.
-* Probleem verholpen waarbij u uw [!DNL Adobe Media Optimizer]-accounts niet kon ontkoppelen.
+* Probleem verholpen waarbij u uw [!DNL Adobe Media Optimizer] rekeningen.
 
 **Bekende problemen**
 
 * Als u een afbeelding verwijdert in Experience Cloud Assets, wordt niet gewaarschuwd of de afbeelding wordt gebruikt in Adobe Target Essentials.
-* Het vernieuwen van een kaart van [!DNL Analytics] kan soms tot een leeg diagram in de uitgebreide kaart leiden.
+* Een kaart vernieuwen vanuit [!DNL Analytics] kan soms leiden tot een leeg diagram in de uitgevouwen kaart.
 * Gebruikers dienen zich af te melden en zich weer aan te melden om alle machtigingen en machtigingswijzigingen van kracht te laten worden.
-* Wanneer *`Remember me`* niet tijdens login wordt geselecteerd, zal de gebruiker na 15 minuten worden het programma geopend.
-* [!DNL Analytics] de openingspagina van de oplossing toont formatterende fouten.
+* Wanneer *`Remember me`* is niet geselecteerd tijdens het aanmelden, wordt de gebruiker na 15 minuten afgemeld.
+* [!DNL Analytics] op de landingspagina van de toepassing worden opmaakfouten weergegeven.
 * De koppeling Opmerkingen in de weergave Kaart met middelen kan niet worden geselecteerd.
 * De Experience Cloud-interface kan vertragen wanneer veel gebruikers deze parallel gebruiken
-* Experience Cloud kan niet worden gekoppeld aan [!DNL Adobe Target] als de [!DNL Adobe Target]-aanmelding kan worden gebruikt op meerdere doelservers.
+* Experience Cloud kan niet worden gekoppeld aan [!DNL Adobe Target], als de [!DNL Adobe Target] login kan op veelvoudige servers van het Doel worden gebruikt.
 * Aanmelden bij Experience Cloud duurt langer dan een seconde.
 * Nadat u een aangepaste tag aan een element hebt toegevoegd, kunnen er geen andere metagegevenswijzigingen meer worden doorgevoerd.
 * [!DNL Adobe Media Optimizer] maakt niet automatisch gebruikers wanneer de gebruiker in Experience Cloud is gemaakt.
 * Opties in keuzelijsten met invoervak voor het tijdelijk toevoegen van nieuwe gebruikers verdwijnen tijdens het typen.
-* Gegevens die worden gedeeld vanuit [!DNL Media Optimizer] zijn onjuist vertegenwoordigd in Experience Cloud.
+* Gegevens gedeeld vanuit [!DNL Media Optimizer] is onjuist vertegenwoordigd in Experience Cloud.
 * Het delen van Flickr-afbeeldingen mislukt.
-* Filters die worden toegepast op trended-rapporten van [!DNL Analytics] worden niet toegepast op kaarten in Experience Cloud.
+* Filters die zijn toegepast op trended-rapporten van [!DNL Analytics] niet worden toegepast op kaarten in Experience Cloud.
 * Wijzigingen in groep- en machtigingen die zijn aangebracht in gebruikersbeheer, worden pas na een nieuwe aanmelding van kracht.
-* [!DNL Search&Promote] koppelen is niet beschikbaar vanuit  [!UICONTROL Organizations & Product Access].
+* [!DNL Search&Promote] koppeling is niet beschikbaar in [!UICONTROL Organizations & Product Access].
 * Gebruikers moeten het bord vernieuwen om de verwijderde kaarten uit het zicht te laten verdwijnen.
 * Sommige Excel- of CSV-bestanden kunnen niet naar een board worden geüpload.
 * [!DNL Adobe Media Optimizer] simulatiekaarten worden niet correct weergegeven.
@@ -674,14 +674,14 @@ Versie 14.3.1 is een onderhoudsversie die zich op snelheid, stabiliteit, en veil
   <tr> 
    <td colname="col1"> <p>Gegevens vernieuwen </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->Het pictogram  <span class="uicontrol"> Gegevens </span> vernieuwen voor een grafiek op een kaart is nu verborgen als de oplossing het vernieuwen van gegevens niet toestaat. </p> </td> 
+     <!--MAC-18174-->De <span class="uicontrol"> Gegevens vernieuwen</span> Het pictogram voor een grafiek op een kaart is nu verborgen als de toepassing het vernieuwen van gegevens niet toestaat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Oplossingen**
 
-* Probleem verholpen waardoor gedeelde [!DNL Analytics]-rapporten geen segmentfilters konden toepassen.
-* Probleem verholpen waarbij oplossingen als gekoppeld op de pagina [!UICONTROL Experience Cloud Solutions] worden weergegeven, zelfs als de accounts van de oplossingen niet zijn gekoppeld.
-* Probleem verholpen waardoor klanten in Azië [!DNL Adobe Target] de knop **[!UICONTROL Continue to Experience Cloud]** op de koppelingspagina niet konden selecteren.
+* Probleem verholpen waardoor gedeelde problemen werden voorkomen [!DNL Analytics] rapporten van het toepassen van segmentfilters.
+* Probleem verholpen waarbij toepassingen werden weergegeven op het tabblad [!UICONTROL Experience Cloud Solutions] pagina als gekoppeld, zelfs als de toepassingsaccounts niet zijn gekoppeld.
+* Probleem verholpen dat was voorkomen [!DNL Adobe Target] klanten in Azië kunnen de **[!UICONTROL Continue to Experience Cloud]** op de koppelingspagina.
 * Probleem opgelost waarbij het delen van YouTube-video&#39;s werd voorkomen.

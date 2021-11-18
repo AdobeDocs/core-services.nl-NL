@@ -2,14 +2,14 @@
 title: Hoe te om de Attributen van de Klant te gebruiken
 description: Meer informatie over de Customer Attributes-service in Adobe Experience Cloud. Ontdek hoe u klantkenmerkgegevens kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
 solution: Experience Cloud
-feature: Klantkenmerken
+feature: Customer Attributes
 role: Admin
-topic: Beheer
+topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
@@ -18,23 +18,23 @@ ht-degree: 2%
 
 [!UICONTROL Customer Attributes] in Experience Cloud kunt u uw vastgelegde bedrijfsgegevens uploaden vanuit een CRM-database (Customer relationship management). U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in de Experience Cloud en vervolgens de gegevens in Adobe Analytics en Adobe Target gebruiken.
 
-Navigeer naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]** om deze functie te zoeken.
+Navigeer naar deze functie om deze functie te zoeken **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
-![](assets/custom_reports.png)
+![Overzicht van klantkenmerken](assets/custom_reports.png)
 
 ## Vereisten voor het uploaden van klantkenmerken {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **Oplossingsactivering:** [Laat uw oplossingen voor de diensten](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) van het Experience Platform toe.
+* **Oplossing ingeschakeld:** [Laat uw oplossingen voor de diensten van het Experience Platform toe](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
-* **Groepslidmaatschap:** gebruikers moeten lid zijn van de groep [ ](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9) Klantkenmerken om klantkenmerkgegevens te uploaden. U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
+* **Groepslidmaatschap:** Gebruikers moeten lid zijn van de [Klantkenmerken, groep](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
 
-   Om te weten of uw bedrijf toegang tot de Attributen van de Klant heeft, zou uw [!DNL Experience Cloud] beheerder zich in [Experience Cloud](https://experience.adobe.com) moeten aanmelden. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Als *Klantkenmerken* als één van [!UICONTROL Product Profiles] toont, bent u klaar om te beginnen.
+   Als u wilt weten of uw bedrijf toegang heeft tot Customer Attributes, kunt u [!DNL Experience Cloud] beheerder moet zich aanmelden bij de [Experience Cloud](https://experience.adobe.com). Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Indien *Klantkenmerken* wordt weergegeven als een van de [!UICONTROL Product Profiles], bent u klaar om te beginnen.
 
-   Gebruikers die aan de Attributen van de Klant worden toegevoegd zien [!UICONTROL Customer Attributes] menupunt op de linkerkant van de interface van Experience Cloud.
+   De gebruikers die aan de Attributen van de Klant worden toegevoegd zien [!UICONTROL Customer Attributes] menu-item links van de interface Experience Cloud.
 
-* **Adobe Target** `at.js`  (elke versie) of  `mbox.js` versie 58 of hoger is vereist voor Klantkenmerken.
+* **Adobe Target** `at.js` (elke versie) of `mbox.js` versie 58 of hoger is vereist voor Klantkenmerken.
 
-   Zie [Hoe te om bij.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en) of [Implementatie Mbox.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en) op te stellen.
+   Zie [Hoe te opstellen bij.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en) of [Mbox.js-implementatie](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en).
 
 ## Wat zijn bedrijfsklantgegevens? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -42,9 +42,9 @@ Bedrijfsgegevens bevinden zich in andere systemen. Het kan complex zijn en versc
 
 De volgende afbeelding is een voorbeeld van een gegevensbestand met abonneegegevens voor producten, waaronder id&#39;s van leden, producten met de naam, producten die het meest worden gestart, enzovoort.
 
-![](assets/01_crs_usecase.png)
+![Wat zijn bedrijfsklantgegevens?](assets/01_crs_usecase.png)
 
-Nadat u het gegevensbestand creeert, kunt u het aan de bron van Attributen van de Klant uploaden die u in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]** creeert.
+Nadat u het gegevensbestand creeert, kunt u het aan de bron van Attributen van de Klant uploaden die u binnen creeert **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
 
 Zie [Klantkenmerkgegevens uploaden](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) om deze workflow te leren.
 

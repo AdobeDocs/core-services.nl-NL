@@ -1,17 +1,17 @@
 ---
 description: Meer informatie over de Experience Cloud Admin Tool. Bekijk een sorteerbare en filterbare lijst met alle gebruikers en beleidsregels van de Experience Cloud.
 keywords: kerndiensten
-solution: Experience Cloud
+application: Experience Cloud
 title: 'Gebruikers van Experience Cloud en gebruikersgegevens weergeven '
 index: true
 feature: Admin Console
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1201'
 ht-degree: 1%
 
 ---
@@ -22,53 +22,53 @@ Beheerders kunnen een sorteerbare en filterbare lijst met alle gebruikers en bel
 
 >[!NOTE]
 >
->Gebruiker- en productbeheer wordt geconfigureerd in de [Admin Console](admin-getting-started.md).
+>Gebruiker- en productbeheer is geconfigureerd in de [Admin Console](admin-getting-started.md).
 
 1. Aanmelden bij `https://experience.adobe.com/.`
 
-   ![](assets/admin-tool.png)
+   ![De Admin Console openen](assets/admin-tool.png)
 
 1. Selecteer onder [!UICONTROL Quick Access] de optie **[!UICONTROL Admin Tool.]**
 
-   (U kunt ook _home_ in de URL van de startpagina vervangen door _admin._)
+   (U kunt de URL van de homepage ook vervangen door _thuis_ with _beheerder._)
 
-   De pagina [!UICONTROL Users] wordt weergegeven.
+   De [!UICONTROL Users] wordt weergegeven.
 
 ## Gebruikerspagina
 
-Deze pagina toont volledige lijst van gebruikers met toegang tot Experience Cloud in uw organisatie. Het verstrekt informatie over oplossingsbevoegdheid en laatste login. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de gebruikerslijst.
+Deze pagina toont volledige lijst van gebruikers met toegang tot Experience Cloud in uw organisatie. Deze biedt informatie over toepassingsmachtigingen en laatste aanmelding. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de gebruikerslijst.
 
-![](assets/admin-tool-users.png)
+![Pagina Gebruikers Admin Consoles](assets/admin-tool-users.png)
 
 | Element | Beschrijving |
 |---|---|
-| [!UICONTROL Name] | De voornaam en achternaam van de gebruiker. U kunt deze kolom sorteren van A tot Z en van Z tot A.  Selecteer de naam van een gebruiker om meer details over de gebruiker te zien. |
+| [!UICONTROL Name] | De voornaam en achternaam van de gebruiker. U kunt deze kolom sorteren van A tot Z en van Z tot A. Selecteer de naam van een gebruiker om meer details over de gebruiker te zien. |
 | [!UICONTROL Email] | Het e-mailadres dat aan de gebruiker is gekoppeld. Kolom kan A->Z, Z->A worden gesorteerd. |
-| [!UICONTROL ID Type] | Het identiteitstype voor de account van de gebruiker. Filter kan worden toegepast op weergavespecifieke id-typen. Zie [Identiteitstypen beheren](https://helpx.adobe.com/enterprise/using/identity.html) voor meer informatie. |
-| [!UICONTROL Solutions] | Overzicht van Experience Cloud-oplossingen waartoe de gebruiker toegang heeft. U kunt filters op versmalde benedenlijst van gebruikers met specifieke oplossingstoegang toepassen. |
+| [!UICONTROL ID Type] | Het identiteitstype voor de account van de gebruiker. Filter kan worden toegepast op weergavespecifieke id-typen. Zie [Identiteitstypen beheren](https://helpx.adobe.com/enterprise/using/identity.html) voor meer informatie . |
+| [!UICONTROL Solutions] | Overzicht van Experience Cloud-toepassingen waartoe de gebruiker toegang heeft. U kunt filters toepassen op een kleinere lijst met gebruikers met specifieke toegang tot de toepassing. |
 | [!UICONTROL Last Login] | Tijd en datum van de meest recente gebruikersaanmelding bij de Experience Cloud. Deze kolom kan worden gesorteerd op oplopende of aflopende datums. <br> **Belangrijk:** Vanaf 13 januari 2020 worden de laatste aanmeldingsgegevens van een gebruiker 365 dagen bewaard. Deze informatie is bedoeld om de huidige aanmeldingsactiviteiten in de Experience Cloud te tonen en niet om een aanbeveling te doen om actie te ondernemen tegen inactieve accounts vóór 13 januari 2020. |
 
 ## De weergave van de gebruikerslijst aanpassen
 
-U kunt de kolommen doorzoeken, sorteren of filteren om de gebruikerslijst aan te passen.
+U kunt de kolommen zoeken, sorteren of filteren en zo de gebruikerslijst aanpassen.
 
 * Zoeken naar gebruikers op naam of e-mail. Zoekopdrachten komen overeen met de tekenreeks die u typt.
-* Sorteer de kolom door waarden op te nemen of af te nemen. Deze sortering is van toepassing op [!UICONTROL Name,] [!UICONTROL Email,] en [!UICONTROL Last Login] Kolommen.
-* Als u meerdere filters wilt toepassen op gebruikers met specifieke criteria, selecteert u het pictogram **[!UICONTROL Filter By]**. Wanneer er meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten e-maildomein `AND` ID TYPE `AND` Oplossing.
+* Sorteer de kolom door waarden op te nemen of af te nemen. Dit is van toepassing op [!UICONTROL Name,] [!UICONTROL Email,] en [!UICONTROL Last Login] Kolommen.
+* Als u meerdere filters wilt toepassen op gebruikers met specifieke criteria, selecteert u de optie **[!UICONTROL Filter By]** pictogram. Wanneer meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten e-maildomein `AND` ID-TYPE `AND` Oplossing.
 
 | Element | Beschrijving |
 |---------|----------|
 | [!UICONTROL Email Domain] filter | Zoeken naar tekenreeksen in de kolom E-mail om de resultaten te beperken tot een of meerdere domeinen. Meerdere filters toevoegen door op Enter te drukken na elke zoekterm |
 | [!UICONTROL ID Type] filter | Maak een keuze uit beschikbare id-typen. Meerdere id-typen kunnen als filter worden gebruikt. |
-| [!UICONTROL Solution] filter | Kies uit beschikbare oplossingen. De veelvoudige oplossingsfilters zoeken naar resultaten die Oplossing 1 `OR` Oplossing 2 bevatten. |
+| [!UICONTROL Solution] filter | Kies uit beschikbare toepassingen. Meerdere toepassingsfilters zoeken naar resultaten met Oplossing 1 `OR` Oplossing 2. |
 
 ## Gebruikersgegevens weergeven
 
-Selecteer op de pagina [!UICONTROL Users] de e-mail van de gebruiker om de gegevens van de gebruiker weer te geven.
+Op de [!UICONTROL Users] om de details van een gebruiker weer te geven, selecteert u het e-mailbericht van de gebruiker.
 
-![](assets/admin-tool-user-details.png)
+![Gebruikersgegevens weergeven in Admin Console](assets/admin-tool-user-details.png)
 
-Een gedetailleerde mening van elke gebruiker toont belangrijke details over de de oplossingstoegang van de gebruiker, admin en productrollen, en laatste betreden informatie.
+Een gedetailleerde weergave van elke gebruiker geeft belangrijke details weer over de toegang tot de toepassing van de gebruiker, de beheerfunctie en de productrollen, en de informatie die het laatst is geopend.
 
 ## Info
 
@@ -84,7 +84,7 @@ In deze sectie wordt een overzicht van de gebruikersaccount weergegeven, waarond
 
 ## Overzicht van oplossingen
 
-In deze sectie wordt een overzicht weergegeven van de Experience Cloud-oplossingen waartoe de gebruiker toegang heeft. Bevat, indien van toepassing, de administratieve rol van het product.
+In deze sectie wordt een overzicht weergegeven van de Experience Cloud-toepassingen waartoe de gebruiker toegang heeft. Bevat, indien van toepassing, de administratieve rol van het product.
 
 ## Gedetailleerde lijst met producttoegang
 
@@ -102,7 +102,7 @@ In deze sectie wordt een volledige lijst weergegeven met alle productprofielen d
 
 Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw organisatie weergegeven. Het verstrekt informatie over producten, instanties, gebruikers, en ontwikkelaars. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de lijst met beleidsregels.
 
-![](assets/admin-tool-policies.png)
+![Pagina Beleid in Admin Console](assets/admin-tool-policies.png)
 
 | Element | Beschrijving |
 |---|---|
@@ -117,23 +117,23 @@ Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw 
 U kunt de kolommen zoeken, sorteren of filteren om de lijst met beleidsregels aan te passen.
 
 * Zoek naar productprofielen op naam. Zoekopdrachten komen overeen met de tekenreeks die u typt.
-* Sorteer de kolom door waarden op te nemen of af te nemen. Deze sortering is van toepassing op [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] en [!UICONTROL Number of Developers,] Kolommen.
-* Selecteer het pictogram **[!UICONTROL Filter By]** om meerdere filters toe te passen op de lijst met productprofielen met specifieke criteria. Wanneer de veelvoudige filtercategorieën worden toegepast, bevatten de onderzoeken Groepen verbonden `AND` Instantie `AND` Oplossing.
+* Sorteer de kolom door waarden op te nemen of af te nemen. Dit is van toepassing op [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] en [!UICONTROL Number of Developers,] Kolommen.
+* Selecteer **[!UICONTROL Filter By]** om meerdere filters toe te passen op productprofielen met specifieke criteria. Als er meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten Groepen gekoppeld `AND` Instance `AND` Oplossing.
 
 | Element | Beschrijving |
 |---------|----------|
 | [!UICONTROL Instance] filter | Zoek naar tekenreeksen in de instantiekolom om de resultaten tot één of meerdere instanties te beperken. Voeg veelvoudige filters toe door te drukken binnengaan na elke onderzoekstermijn. |
-| [!UICONTROL Solution] filter | Kies uit beschikbare oplossingen. De veelvoudige oplossingsfilters zoeken naar resultaten die Oplossing 1 `OR` Oplossing 2 bevatten. |
+| [!UICONTROL Solution] filter | Kies uit beschikbare toepassingen. Meerdere toepassingsfilters zoeken naar resultaten met Oplossing 1 `OR` Oplossing 2. |
 
 ## Beleidsdetails weergeven
 
-Selecteer op de pagina [!UICONTROL Policies] de naam van het productprofiel om de details van een beleid weer te geven.
+Op de [!UICONTROL Policies] om de details van een beleid weer te geven, selecteert u de naam van het productprofiel.
 
-![](assets/admin-tool-policy-detail.png)
+![Beleidsdetails weergeven in Admin Console](assets/admin-tool-policy-detail.png)
 
 Een gedetailleerde weergave van elk productprofiel geeft belangrijke details weer over de onderwerpen van het productprofiel (gebruikers, groepen, enzovoort). Ook worden machtigingen en bronnen weergegeven die door het productprofiel zijn ingeschakeld.
 
-Details van het productprofiel kunnen worden geëxporteerd naar CSV-bestanden. Met de optie [!UICONTROL Export CSV] worden twee CSV-bestanden gemaakt:
+Details van het productprofiel kunnen worden geëxporteerd naar CSV-bestanden. De [!UICONTROL Export CSV] Deze optie produceert twee CSV-bestanden:
 
 * Onderwerpdetails (gebruikers, gebruikersgroepen, ontwikkelaars, integratie, beheerders)
 * Machtigingen en middelen
@@ -153,9 +153,9 @@ In deze sectie wordt een samenvatting van het productprofiel weergegeven, waaron
 
 Deze sectie toont een volledige lijst van alle gebruikers, gebruikersgroepen, ontwikkelaars, integraties, en beheerders die aan het productprofiel worden toegewezen.
 
-| Tab | Beschrijving |
+| Tabtoets | Beschrijving |
 |---------|----------|
-| [!UICONTROL Users] | Lijst met gebruikers die zijn opgenomen in het productprofiel. Gebruikersgroepkoppeling wordt weergegeven in de kolom [!UICONTROL Assigned by group]. |
+| [!UICONTROL Users] | Lijst met gebruikers die zijn opgenomen in het productprofiel. Gebruikersgroepkoppeling wordt weergegeven in [!UICONTROL Assigned by group] kolom. |
 | [!UICONTROL User Groups] | Lijst met gebruikersgroepen die aan het productprofiel zijn gekoppeld. |
 | [!UICONTROL Developers] | Lijst met ontwikkelaars die zijn gekoppeld aan het productprofiel. |
 | [!UICONTROL Integrations] | Lijst met integraties die aan het productprofiel zijn gekoppeld. |

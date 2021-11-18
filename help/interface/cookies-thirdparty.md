@@ -5,20 +5,20 @@ solution: Experience Cloud,Analytics,Target
 title: 'Hoe de veranderingen in derdekoekjessteun klanten beïnvloeden '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 feature: Cookies
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '265'
+ht-degree: 1%
 
 ---
 
 # Hoe de veranderingen in derdekoekjessteun klanten beïnvloeden{#how-changes-to-third-party-cookie-support-impacts-customers}
 
-De ondersteuning voor cookies van derden is in browsers beperkter geworden. Als zodanig heeft Adobe gewerkt aan nieuwe oplossingen die zorgvuldig de wensen van de klant afstemmen op het recht van de consument op privacy in alle Experience Cloud-toepassingen.
+De ondersteuning voor cookies van derden is in browsers beperkter geworden. Als zodanig heeft Adobe gewerkt aan nieuwe toepassingen die zorgvuldig de vereisten van de klant afstemmen op het recht van de consument op privacy in alle Experience Cloud-toepassingen.
 
 In de volgende lijst ziet u hoe de cookie-ondersteuning van derden de huidige implementaties van Experience Cloud-toepassingen beïnvloedt:
 

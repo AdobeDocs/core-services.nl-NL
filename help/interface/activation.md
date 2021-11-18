@@ -1,26 +1,26 @@
 ---
 description: Meer informatie over het nieuwste product voor tagbeheer, Experience Platform Launch genaamd.
 keywords: kerndiensten
-seo-description: Activering omvat het nieuwste product voor tagbeheer, Experience Platform Launch genaamd. Dynamic Tag Management (DTM) en Triggers.
-seo-title: Activering
+seo-description: Activation includes the latest tag management product called Experience Platform Launch. Dynamic Tag Management (DTM);and Triggers.
+seo-title: Activation
 solution: Experience Cloud Services
 title: Activeringsservices in Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 0%
 
 ---
 
 # Activering
 
-De activering omvat het recentste product van het markeringsbeheer genoemd Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) en Experience Cloud [!UICONTROL Triggers].
+Activering omvat het nieuwste product voor tagbeheer, Experience Platform genaamd [!UICONTROL Data Collection] ([!UICONTROL Launch]) en Experience Cloud [!UICONTROL Triggers].
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
@@ -30,7 +30,7 @@ Zie [Experience Platform Launch QuickStart Guide](https://experienceleague.adobe
 
 ## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-[!UICONTROL Experience Cloud Triggers] laat marketers toe om zeer belangrijk consumentengedrag te bepalen en te controleren, en dan dwars-oplossingsmededeling voor gebruik in real time besluiten en verpersoonlijking te produceren.
+[!UICONTROL Experience Cloud Triggers] biedt marketers de mogelijkheid om sleutelgedrag van consumenten te definiëren en te controleren en vervolgens communicatie tussen toepassingen te genereren voor gebruik in realtime beslissingen en personalisatie.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -41,7 +41,7 @@ Zie [Experience Platform Launch QuickStart Guide](https://experienceleague.adobe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> Experience Cloud-triggers maken  </a> </p> </td> 
+   <td colname="col1"> <p> <a href="triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> Experience Cloud-triggers maken </a> </p> </td> 
    <td colname="col2"> <p> Stapsgewijze instructies voor het maken van Experience Cloud-triggers met behulp van Adobe Analytics-gegevens. </p> <p>Experience Cloud-triggers zijn beschikbaar voor gebruik in Adobe Campaign. </p> </td>
   </tr>
   <tr> 
@@ -54,6 +54,6 @@ Zie [Experience Platform Launch QuickStart Guide](https://experienceleague.adobe
 
 ## Experience Cloud Debugger {#section_682FCF8A22ED47D0ACF94204AB94B444}
 
-De Adobe Experience Cloud Debugger-extensie voor Chrome onderzoekt uw webpagina&#39;s en helpt u problemen te vinden met de manier waarop uw Experience Cloud-oplossingen zijn geïmplementeerd.
+De Adobe Experience Cloud Debugger-extensie voor Chrome onderzoekt uw webpagina&#39;s en helpt u problemen te vinden met de manier waarop uw Experience Cloud-toepassingen zijn geïmplementeerd.
 
 Zie [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en) voor hulp.
