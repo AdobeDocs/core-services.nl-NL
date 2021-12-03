@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 3507af336715eb3664f8ce5176ddaf74ecbd7bcd
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1243'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ Na de migratie melden gebruikers zich aan met hun Adobe ID (of Enterprise ID) en
 
 **Gerelateerde help**
 
-Zie voor meer informatie [Migratie van gebruikers-id voor analyse](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)
+Zie voor meer informatie [Migratie van gebruikers-id voor analyse](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Adobe Target beheren - productprofielen versus werkruimten {#section_3860AF177C9E4C7E9C390D36A414F353}
 
