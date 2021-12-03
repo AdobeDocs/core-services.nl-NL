@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '773'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ Onder voorziening in de Experience Cloud wordt verstaan:
 
 * De rechten van de gebruiker en het productbeheer worden uitgevoerd in [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (productkoppeling).
 
-* **Belangrijk:** Analysebeheerders, zie [Gebruikers voor analyse beheren in de Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en) over het migreren van gebruikers-id&#39;s van Analytics Admin Tools naar de Admin Console.
+* **Belangrijk:** Analysebeheerders, zie [Gebruikers voor analyse beheren in de Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en) over het migreren van gebruikers-id&#39;s van Analytics Admin Tools naar de Admin Console.
 
 ## Wat doe ik als iemand zich niet bij de Experience Cloud kan aanmelden?
 
