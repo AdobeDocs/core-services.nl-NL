@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 2%
 # Documentatie-updates - Experience Cloud
 
 Informatie over updates van de productdocumentatie van Experience Cloud.
+
+**Bijgewerkt 13-12-2021**
+
+De [veelgestelde vragen over beheer](faq.md) met informatie over hoe Adobe Support toegang kan krijgen tot uw Adobe-cloudomgeving om een probleem op te lossen.
 
 **Bijgewerkt op 28-10-2021**
 
