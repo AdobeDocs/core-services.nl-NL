@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '830'
 ht-degree: 3%
 
 ---
@@ -54,6 +54,12 @@ De functionaliteit die door de interface van de Experience Cloud wordt verstrekt
 ## Hoe los ik mijn zorgen over de migratie van mijn bedrijf op?
 
 [Contact opnemen met Adobe-ondersteuning](https://experienceleague.adobe.com/?support-solution=General#support).
+
+## Hoe kan [!DNL Adobe Support] mijn Adobe cloud-omgeving openen om een probleem op te lossen?
+
+[!DNL Adobe Support] U kunt een imitatieverzoek indienen waarvoor u een e-mail van het merk Adobe (hieronder voorbeeld) ontvangt die uw uitdrukkelijke toestemming vraagt. De toegang wordt voor een beperkte tijd verleend. Zodra verleend, kan de toegang door u op elk ogenblik worden ingetrokken. Adobe geeft een overzicht van alle acties van vertegenwoordigers van de Adobe.
+
+![](/help/interface/admin-getting-started/assets/support-email.png)
 
 ## Wat is _provisioning?_
 
