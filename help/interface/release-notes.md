@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
 workflow-type: tm+mt
-source-wordcount: '4216'
+source-wordcount: '4459'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,27 @@ Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Centra
 Voor een lijst met documentatie-updates raadpleegt u [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Voor opmerkingen over alle toepassingen raadpleegt u [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## november - 2021
+
+| Functie | Beschrijving |
+| ------- | ------- |
+| Startpagina | De gegevens over de voettekst op de Experience Cloud-website zijn verplaatst naar de gebruikersprofielkaart, inclusief juridische kennisgevingen en taalselectie in Voorkeuren. |
+| AEP-dashboards | [!DNL Helios Lite] bevat grafiekaanbevelingen in de workflow voor het maken van Experience Platforms-widgets. Op basis van een gegevensselectie (momenteel één variabele gegevensselectie), [!DNL Helios] beveelt een passende visualisatie aan om deze gegevensselectie te begeleiden. |
+| AEP-dashboards | [!DNL Instory] biedt geschreven commentaar en bijschriften op basis van ML voor grafieken. Het simuleert grafieken op de pagina AEP-dashboards met relevante opsommingstekens die belangrijke wijzigingen en incidenten in de grafische gegevens aangeven. |
+
+{style=&quot;table-layout:auto&quot;}
+
+## Oktober - 2021
+
+| Functie | Beschrijving |
+| ------- | ------- |
+| Unified Search | Met Unified Search kunt u nog steeds objecttypen toevoegen aan de zoekindex. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Doelen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
+| Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd voorkeuren in te dienen voor de manier waarop Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, leervideo&#39;s en meer, op basis van de gebruiksgegevens van uw Experience Cloud-product. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences>. |
+| Experience Cloud [!UICONTROL Triggers] navigatie | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en) is beschikbaar voor directe navigatie van de toepassingsschakelaar in de kopbal voor provisioned gebruikers. |
+| **Opmerking:** Update voor geplande interfacenavigatie | In november 2021 _[!UICONTROL Go to Launch / Data Collection]_navigatiefunctie wordt verwijderd uit <https://experience.adobe.com/implement>. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Augustus - 2021
 
