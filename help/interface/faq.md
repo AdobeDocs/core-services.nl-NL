@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 3%
+source-wordcount: '776'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ De functionaliteit die door de interface van de Experience Cloud wordt verstrekt
 
 [!DNL Adobe Support] U kunt een imitatieverzoek indienen waarvoor u een e-mail van het merk Adobe (hieronder voorbeeld) ontvangt die uw uitdrukkelijke toestemming vraagt. De toegang wordt voor een beperkte tijd verleend. Zodra verleend, kan de toegang door u op elk ogenblik worden ingetrokken. Adobe geeft een overzicht van alle acties van vertegenwoordigers van de Adobe.
 
-![](/help/interface/admin-getting-started/assets/support-email.png)
+![Adobe-draagtas](assets/support-email.png)
 
 ## Wat is _provisioning?_
 
@@ -96,23 +96,11 @@ Zie [Gebruikersaccounts beheren](organizations.md#topic_C31CB834F109465A82ED57FF
 
 ## Wat is een organisatie?
 
-An *organisatie* is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en om enig teken-binnen in de Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en toepassingen van de Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben.
+An [organisatie](organizations.md) is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en om enig teken-binnen in de Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en toepassingen van de Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben.
 
-## Waar kan ik mijn IMS-organisatie-ID vinden?
+## Waar kan ik mijn IMS organisatie ID vinden?
 
-Zie [Uw organisatie-id zoeken](organizations.md).
-
-De organisatie-id wordt weergegeven op de landingspagina van de Experience Cloud en op de [Admin Console landingspagina](https://adminconsole.adobe.com).
-
-Beheerders kunnen zich ook aanmelden bij de Admin Console (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) voor een specifieke organisatie en u kunt uw IMS org-id in de URL zien.
-
-Bijvoorbeeld in de volgende URL:
-
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
-
-De id is:
-
-`C538193582390300A495CC9@AdobeOrg`
+Zie [Uw organisatie-id zoeken](organizations.md) voor meer informatie.
 
 ## Wat moet ik doen als een van mijn gebruikers mijn bedrijf verlaat?
 

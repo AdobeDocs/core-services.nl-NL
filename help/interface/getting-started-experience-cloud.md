@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '951'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Aanmelden en controleren of u zich aan de rechterkant bevindt [organisatie](orga
 | [Admin Console starten](admin-getting-started.md) | De Admin Console is de centrale plaats voor het beheren van uw gebruikers van Adobe en productrechten over uw volledige organisatie.<br>U kunt zich ook aanmelden bij de Admin Console met een [directe koppeling](https://adminconsole.adobe.com). |
 | [Creative Cloud-gebruikers beheren](t-admin-add-cc-user.md) | Met Experience Cloud Assets kunnen marketers mappen delen, synchroniseren en aan mappen samenwerken met ontwerpers en andere creatieve elementen met behulp van de Creative Cloud. U kunt de Creative Cloud-gebruikers beheren die zijn goedgekeurd om hier met uw organisatie samen te werken. |
 | [Uw rapportsets toewijzen](core-services.md) | (Alleen analyse) Experience Cloud core-services zijn gekoppeld aan een organisatie in plaats van aan een afzonderlijke rapportsuite. Om ervoor te zorgen dat deze services correct werken, moet elke analytische rapportensuite aan een organisatie worden toegewezen. (Deze taak maakt deel uit van een breder werkschema aan [Analyses inschakelen voor kernservices](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [Organisatie-id](organizations.md) | De *Organisatie-id* vindt u onder aan de pagina Beheer. Deze id is de bijbehorende id van uw Experience Cloud-bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg. |
+| [Organisatie-id](organizations.md) | De *organisatie-id* wordt gevonden in URL wanneer in de Admin Console. U kunt deze ook weergeven op het tabblad [!UICONTROL User Data Debugger] pop-up (`ctrl+i` of `cmd+i`) van elke pagina op `https://experience.adobe.com`. Deze id is de bijbehorende id van uw Experience Cloud-bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg. |
 
 {style=&quot;table-layout:auto&quot;}
 

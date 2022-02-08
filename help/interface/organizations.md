@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '543'
 ht-degree: 3%
 
 ---
@@ -36,11 +36,21 @@ Bijvoorbeeld voor een organisatie met federatieve id&#39;s en het domein `adobec
 
 Mogelijk moet u uw organisatie-id zoeken voor ondersteuningsdoeleinden. U kunt verifiëren dat u in de correcte organisatie bent, of tussen organisaties schakelt, gebruikend **[!UICONTROL Organization]** -menu.
 
-De **organisatie-id** is identiteitskaart verbonden aan uw provisioned Experience Cloud bedrijf. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet bevatten) @AdobeOrg.
+De organisatie-id is de id die is gekoppeld aan uw Experience Cloud-bedrijf waarvoor u een provisioning uitvoert. Deze id bestaat uit een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet worden opgenomen) `@AdobeOrg`.
 
-Navigeer naar de bestemmingspagina van de Experience Cloud of selecteer ( ![](assets/menu-icon.png)), selecteert u vervolgens **[!UICONTROL Administration]**. U vindt de organisatie-id onder aan het dialoogvenster [!UICONTROL Getting Started with the Experience Cloud] of de [!UICONTROL Administration] pagina.
+U kunt uw organisatie-id samen met andere accountgegevens weergeven met een sneltoets **Ctrl+i** vanaf elke pagina op `https://experience.adobe.com`klikt u op de knop **[!UICONTROL Assigned Orgs]** in het dialoogvenster.
 
-![](assets/administration-page.png)
+![Toegewezen organisatie-id](assets/assigned-organization.png)
+
+Beheerders kunnen zich ook aanmelden bij de Admin Console (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) en bekijk uw IMS org-id in de URL.
+
+Bijvoorbeeld in de volgende URL:
+
+`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+
+De id is:
+
+`C538193582390300A495CC9@AdobeOrg`
 
 ## Een toepassingsaccount koppelen aan een Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 

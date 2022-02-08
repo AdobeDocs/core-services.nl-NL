@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1326'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,12 @@ Vanuit Experience Cloud kunt u:
 Aanmelden en controleren of u zich aan de rechterkant bevindt [organisatie](organizations.md).
 
 1. Navigeren naar [Adobe Experience Cloud](https://experience.adobe.com).
-1. Selecteer **[!UICONTROL Sign in with an Adobe ID]**.
+1. Typ uw Adobe-e-mailadres en selecteer vervolgens **[!UICONTROL Continue]**.
+
+   Beheerders, zie [Experience Cloud-gebruikersverificatie](admin-getting-started.md#migration) voor belangrijke updates van identiteitstypen (bedrijfs-id).
+
+1. Selecteer een account.
+1. Typ uw wachtwoord.
 1. Controleer of u zich in de juiste organisatie bevindt.
 
    ![Controleren of u zich binnen de juiste organisatie bevindt](assets/organizations-menu.png)
