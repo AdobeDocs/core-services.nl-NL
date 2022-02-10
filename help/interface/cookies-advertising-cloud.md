@@ -3,13 +3,13 @@ description: Leer hoe u Adobe Ad Cloud-cookies kunt gebruiken om gebeurtenissen 
 title: 'Advertising Cloud Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
+source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
 
 >[!NOTE]
 >
->Met de bètatag Advertising Cloud Javascript die de [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) gebruikt, worden [first-party Experience Cloud s_ecid cookies](cookies-first-party.md) gemaakt, niet Advertising Cloud cookies.
+>De JavaScript-tag beta Advertising Cloud die de tag [Adobe Experience Cloud ID-service (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) create [first-party Experience Cloud s_ecid cookies](cookies-first-party.md), niet Advertising Cloud cookies.
 
 ## Naam cookie: _lcc
 
@@ -34,7 +34,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p>Id's en tijdstempels (in de notatie jjjjjjjjjjjjmmdd) van de weergave worden geselecteerd</p> </td> 
+   <td colname="col2"> <p>Id's en tijdstempels (in de notatie jjjjjjjjjjjjjjmmdd) van weergave klikken</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
@@ -42,7 +42,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
-   <td colname="col2"> <p>Een cookie van een andere fabrikant die wordt gebruikt om te bepalen of een select-gebeurtenis op een scherm wordt toegepast en die op een Adobe Analytics-hit wordt toegepast </p> </td> 
+   <td colname="col2"> <p>Een cookie van een andere fabrikant die wordt gebruikt om te bepalen of een klikgebeurtenis op een display wordt toegepast en op een Adobe Analytics-hit wordt toegepast </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Locatie </p> </td> 
@@ -100,7 +100,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p>De tijdstempels van het laatste bezoek van de surfer aan de website van de adverteerder en de laatste zoekopdracht van de surfer, en de ef_id die werd gemaakt toen de gebruiker een advertentie selecteerde</p> </td> 
+   <td colname="col2"> <p>De tijdstempels van het laatste bezoek van de surfer aan de website van de adverteerder en de laatste zoekklik van de surfer, en de ef_id die werd gemaakt toen de gebruiker op een advertentie klikte</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
