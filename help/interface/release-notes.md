@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
+source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4538'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,14 @@ Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Centra
 Voor een lijst met documentatie-updates raadpleegt u [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Voor opmerkingen over alle toepassingen raadpleegt u [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## februari - 2022
+
+| Functie | Beschrijving |
+| ------- |-------|
+| Sneltoetsen (**[!UICONTROL Recents]**) toegevoegd aan [Experience Cloud](https://experience.adobe.com/home) thuis | U hebt toegang tot sneltoetsen voor de meest recente Journey Optimizer- en Experience Platform-werkzaamheden onder de nieuwe _Recenten_ op de landingspagina. Deze update bevat ook algemene verbeteringen voor de lay-out en de responssnelheid. |
+| **[!UICONTROL Sandboxes]** naar de kopbalk verplaatst | De zandbakindicator is nu geïntegreerd binnen de kopbal voor alle de interfacetoepassingen van het Experience Platform. Zie [Sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) in Experience Platform voor meer informatie. |
+
 
 ## november - 2021
 
