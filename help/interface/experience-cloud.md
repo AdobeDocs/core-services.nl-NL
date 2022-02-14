@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
 workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 2%
@@ -105,7 +105,7 @@ De [!UICONTROL Help] geeft u ook toegang tot:
 * **[!UICONTROL Status]:** Navigeren naar `https://status.adobe.com/experience_cloud` en de operationele status van het product controleren [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigatie naar `adobe.io` en zoek de documentatie voor ontwikkelaars.
 
-## Globaal zoeken naar objecten en entiteiten {#search}
+## Globaal zoeken naar objecten en entiteiten {#globally-search}
 
 Met de algemene zoekopdracht kunt u doorzoekbare zakelijke objecten of entiteiten zoeken in een naadloze, consistente, één-klik-ervaring. Deze zoekopdracht is gericht op de onlangs geopende objecten.
 
