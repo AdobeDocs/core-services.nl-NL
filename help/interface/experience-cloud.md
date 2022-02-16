@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
+source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 1%
@@ -156,8 +156,8 @@ Met zoekalgoritmen worden eerst de meest relevante records weergegeven. De volgo
 
 Klik op een van de volgende opties om uw zoekopdracht te verfijnen:
 
-* **[!UICONTROL All Learning]**: Hiermee wordt de zoekopdracht geopend in Experience League
-* **[!UICONTROL Show all...]**: Hiermee kunt u de resultaten verder verfijnen en filteren
+* **[!UICONTROL All Learning]**: Hiermee opent u de zoekopdracht in Experience League.
+* **[!UICONTROL Show all...]**: Hiermee kunt u de resultaten verder verfijnen en filteren.
 
 ## Gebruikersprofiel en accountvoorkeuren {#preferences}
 
