@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
+source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1501'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ De verenigde onderzoeksvertoningen bij de bovenkant van de pagina (in de kopbal 
 * Experience Platform (AEP)
 * Journey Optimizer (AJO)
 
-Aangezien meer inhoud wordt geïndexeerd, zal deze eigenschap aan relevante toepassingen worden toegevoegd.
+Aangezien meer inhoud wordt geïndexeerd, wordt deze eigenschap toegevoegd aan relevante toepassingen.
 
 ### Doorzoekbare objecten en velden
 
@@ -139,7 +139,7 @@ Tot de doorzoekbare zakelijke objecten behoren:
 * Componenten (naam, beschrijving)
 * Reizen (naam, beschrijving)
 
-Als een sleutelwoord een navigatiepagina aanpast kunt u snelle toegangsverbinding aan de datasets van het het voorbeeldvoorbeeld van de navigatiepagina krijgen.
+Als een sleutelwoord een navigatiepagina aanpast, kunt u snelle toegangsverbinding aan de het voorbeelddatasets van de navigatiepagina krijgen.
 
 U vindt ook de hulpartikelen van Experience League en Gemeenschappen. Vragen over natuurlijke talen worden ondersteund.
 
@@ -229,7 +229,7 @@ Verwante hulplijnen voor Experience Cloud zijn:
 * [Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
 * [Gegevensverzameling/starten van Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
-* [API voor algemene gegevensbeschermingsverordening (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+* [API voor algemene gegevensbeschermingsverordening (GDPR)](https://developer.adobe.com/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## Tutorials
@@ -237,15 +237,15 @@ Verwante hulplijnen voor Experience Cloud zijn:
 Profiteer van zelfstudiemateriaal en snelle zelfstudies in Experience League:
 
 * [Alle zelfstudies in Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
-* [Zelfstudies voor Experience Platforms](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)
+* [Zelfstudies voor Experience Platforms](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Opmerkingen bij de release en verwante Experience Cloud Help
 
 * [Productdocumentatie voor alle Experience Cloud-toepassingen](https://experienceleague.adobe.com/docs/home.html?lang=en) - Blader naar hulp bij Experience Cloud Learn &amp; Support
 * [Opmerkingen bij de release en productupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Nieuwe functies in de Experience Cloud en meld u aan om updates te ontvangen
-* [Tutorials voor de implementatie van kerndiensten](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - Bekijk video&#39;s en zelfstudies over basisservices
+* [Tutorials voor de implementatie van kerndiensten](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - Bekijk video&#39;s en zelfstudies over basisservices
 * [Deskundige hulp bij Experience League](https://experienceleague.adobe.com/) - Leren met instructies van experts en de gemeenschap
 * [Onderwijs en opleiding](https://helpx.adobe.com/nl/learning.html?promoid=KAUDK) - Neem Adobe aan om ervoor te zorgen dat u het meeste uit Adobe producten krijgt
-* [Blog met ervaring voor klanten](https://blog.adobe.com/en/topics/digital-transformation.html) - Lees de Experience Cloud-blog
+* [Blog met ervaring voor klanten](https://blog.adobe.com/en/topics/digital-transformation) - Lees de Experience Cloud-blog
 * [Klantenservice](https://experienceleague.adobe.com/?support-solution=General#support) - Contact opnemen met de Adobe Klantenservice
