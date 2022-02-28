@@ -4,9 +4,9 @@ user-guide-title: 'Experience Cloud Central-interfacecomponenten '
 breadcrumb-title: Experience Cloud Central-interfacecomponenten
 user-guide-description: Leer over Experience Cloud interface, vorm voorkeur, onderzoek bedrijfsvoorwerpen. Hulp bij gebruikers- en productbeheer, klantkenmerken, Audience Library, cookies en Experience Cloud Assets.
 index: true
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: ce728958df73605700a11c7aa2b95479a5632f9e
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '345'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 4%
 + [Experience Cloud Central Interface Components Guide](experience-cloud.md)
 + Experience Cloud {#services}
    + [Experience Cloud](core-services-landing.md)
+   + [Unified Search in Experience Cloud](search-experience-cloud.md)
    + [Implementatie voor services voor meerdere toepassingen inschakelen](core-services.md)
    + Experience Cloud Audience Library {#audiences}
       + [Experience Cloud-publiek](audience-library.md)

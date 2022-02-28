@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
+source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1257'
 ht-degree: 1%
 
 ---
@@ -104,60 +104,6 @@ De [!UICONTROL Help] geeft u ook toegang tot:
 * **[!UICONTROL Feedback]:** Deel feedback over je Experience Cloud-ervaring. Je feedback wordt gebruikt om producten en services van Adobe te verbeteren.
 * **[!UICONTROL Status]:** Navigeren naar `https://status.adobe.com/experience_cloud` en de operationele status van het product controleren [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigatie naar `adobe.io` en zoek de documentatie voor ontwikkelaars.
-
-## [!UICONTROL Unified Search] voor objecten en entiteiten {#globally-search}
-
-De [!UICONTROL Unified Search] Met zoekopdrachten kunt u doorzoekbare zakelijke objecten of entiteiten zoeken in een naadloze, consistente, één-klik-ervaring. Deze zoekopdracht is gericht op de onlangs geopende objecten.
-
-![Globaal zoeken naar objecten en entiteiten](assets/platform-search.png)
-
-### Beschikbaarheid
-
-De verenigde onderzoeksvertoningen bij de bovenkant van de pagina (in de kopbal van Experience Cloud) en is altijd zichtbaar voor gesteunde producten, die momenteel zijn:
-
-* Experience Platform (AEP)
-* Journey Optimizer (AJO)
-
-Aangezien meer inhoud wordt geïndexeerd, wordt deze eigenschap toegevoegd aan relevante toepassingen.
-
-### Doorzoekbare objecten en velden
-
-Terwijl u typt, resulteert de overeenkomende bovenkant in de objecten die u kunt weergeven.
-
-![Unified Search in Experience Cloud](assets/unified-search-results.png)
-
-Tot de doorzoekbare zakelijke objecten behoren:
-
-* Segmenten (naam, beschrijving)
-* Schema (naam, beschrijving)
-* Gegevensbestanden (naam, beschrijving)
-* Bronnen (naam, beschrijving)
-* Doelen (naam, beschrijving)
-* Vragen (naam, beschrijving)
-* Berichten (naam, beschrijving)
-* Aanbiedingen (naam, beschrijving)
-* Componenten (naam, beschrijving)
-* Reizen (naam, beschrijving)
-
-Als een sleutelwoord een navigatiepagina aanpast, kunt u snelle toegangsverbinding aan de het voorbeelddatasets van de navigatiepagina krijgen.
-
-U vindt ook de hulpartikelen van Experience League en Gemeenschappen. Vragen over natuurlijke talen worden ondersteund.
-
-Bijvoorbeeld: _Een schema maken_ resulteert in resultaten van Experience League onder _[!UICONTROL Learning]_:
-
-![Unified Search in Experience Cloud Help](assets/unified-search-learning.png)
-
-Met zoekalgoritmen worden eerst de meest relevante records weergegeven. De volgorde van de resultaten hangt af van verschillende factoren, zoals:
-
-* Gebruikersmachtigingen voor toegang tot objecten
-* Overeenkomend percentage
-* Exacte overeenkomsten
-* De _[!UICONTROL Top Results]_in deze sectie worden de 30 bovenste resultaten weergegeven.
-
-Klik op een van de volgende opties om uw zoekopdracht te verfijnen:
-
-* **[!UICONTROL All Learning]**: Hiermee opent u de zoekopdracht in Experience League.
-* **[!UICONTROL Show all...]**: Hiermee kunt u de resultaten verder verfijnen en filteren.
 
 ## Gebruikersprofiel en accountvoorkeuren {#preferences}
 
