@@ -7,9 +7,9 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
+source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -92,14 +92,14 @@ De volgende eigenschappen zijn beschikbaar in Verenigd Onderzoek.
 
 {style=&quot;table-layout:auto&quot;}
 
-## Niet het verwachte resultaat vinden of te veel resultaten behalen?
+## Kan het niet vinden?
 
 Probeer de volgende tips:
 
 * Voer een specifiekere zoekterm in
 * De spelling controleren
 * Probeer de volledige zoekterm te schrijven
-* Controleer of u de machtigingen voor het object hebt, of u op zoek bent naar
+* Zorg ervoor dat u de machtigingen hebt voor objecten waarnaar u zoekt
 
 
 
