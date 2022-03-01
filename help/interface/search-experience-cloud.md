@@ -7,9 +7,9 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
+source-git-commit: 7e7129fbf0c3407dac3a91b645bddc878b1a7d45
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!UICONTROL Unified Search] voor objecten en entiteiten {#globally-search}
 
-De [!UICONTROL Unified Search] Met zoekopdrachten kunt u doorzoekbare zakelijke objecten of entiteiten zoeken in een naadloze, consistente, één-klik-ervaring. Deze zoekopdracht is gericht op de onlangs geopende objecten.
+De [!UICONTROL Unified Search] Met zoekopdrachten kunt u doorzoekbare zakelijke objecten of entiteiten zoeken in een naadloze, consistente, één-klik-ervaring. Deze zoekopdracht heeft ook betrekking op onlangs geopende objecten.
 
 ![Globaal zoeken naar objecten en entiteiten](assets/platform-search.png)
 
@@ -44,16 +44,16 @@ Uw mogelijkheden en objectmachtigingen komen overeen met percentage Of er een ex
 
 Tot de doorzoekbare zakelijke objecten behoren:
 
-* Segmenten (naam, beschrijving)
-* Schema (naam, beschrijving)
-* Gegevensbestanden (naam, beschrijving)
-* Bronnen (naam, beschrijving)
-* Doelen (naam, beschrijving)
-* Vragen (naam, beschrijving)
-* Berichten (naam, beschrijving)
-* Aanbiedingen (naam, beschrijving)
-* Componenten (naam, beschrijving)
-* Reizen (naam, beschrijving)
+* Segmenten (naam, beschrijving, id)
+* Schema (naam, beschrijving, id)
+* Gegevensbestanden (naam, beschrijving, id)
+* Bronnen (naam, beschrijving, id)
+* Doelen (naam, beschrijving, id)
+* Vragen (naam, beschrijving, id)
+* Berichten (naam, beschrijving, id)
+* Aanbiedingen (naam, beschrijving, id)
+* Componenten (naam, beschrijving, id)
+* Reizen (naam, beschrijving, ID)
 
 Als een sleutelwoord een navigatiepagina aanpast, kunt u snelle toegangsverbinding aan de het voorbeelddatasets van de navigatiepagina krijgen. In de bovenste resultatensectie worden de bovenste 30 resultaten weergegeven.
 
