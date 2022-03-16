@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
+source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
 workflow-type: tm+mt
-source-wordcount: '4538'
+source-wordcount: '4571'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,12 @@ Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Centra
 Voor een lijst met documentatie-updates raadpleegt u [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Voor opmerkingen over alle toepassingen raadpleegt u [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Maart - 2022
+
+| Functie | Beschrijving |
+| ------- |-------|
+| Toegang [!UICONTROL Recents] in Experience Platform en Journey Optimizer via de zoekbalk | Gebruikers hebben nu via de uniforme zoekbalk toegang tot objecten op elke pagina van AEP en AJO. |
 
 ## februari - 2022
 
