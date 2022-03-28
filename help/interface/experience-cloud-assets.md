@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Navigeer naar een element (of elementenmap) en selecteer vervolgens **[!UICONTRO
 De werkbalk biedt snel toegang tot functies, zoals Zoeken, Tijdlijn, Uitvoeringen, Bewerken, Annoteren en Downloaden.
 
 ![De werkbalk openen](assets/asset-tools.png)
+
+! Houd er rekening mee dat als u elementen wilt verwijderen die in Target zijn of worden gebruikt, u alle gebruiksmogelijkheden van dat middel moet verwijderen.
 
 ## Elementen bewerken {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
