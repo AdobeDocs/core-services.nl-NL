@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,9 @@ De diensten van activa omvatten:
 
 Het gebruik van middelen verbetert de consistentie en de naleving van het merk, en versnelt de tijd aan markt. U kunt workflows stroomlijnen in toepassingen:
 
-* **[!DNL Social]**: Publiceren naar sociale eigenschappen, Facebook, Twitter, LinkedIn, Google+
-* **[!DNL Target]**: Maak ervaringen voor A/B- en multivariatietests.
-* **[!DNL Media Optimizer]**: Eenheden ontwikkelen op verschillende kanalen en campagnes
-* **[!DNL Campaign]**: Plaats elementen in e-mailbulletins en campagnes.
+* **[!DNL Adobe Target]**: Maak ervaringen voor A/B- en multivariatietests.
+* **[!DNL Ad Cloud]**: Eenheden ontwikkelen op verschillende kanalen en campagnes
+* **[!DNL Adobe Campaign]**: Plaats elementen in e-mailbulletins en campagnes.
 
 In [!UICONTROL Experience Cloud Assets]kunt u:
 
@@ -55,7 +54,9 @@ De werkbalk biedt snel toegang tot functies, zoals Zoeken, Tijdlijn, Uitvoeringe
 
 ![De werkbalk openen](assets/asset-tools.png)
 
-! Houd er rekening mee dat als u elementen wilt verwijderen die in Target zijn of worden gebruikt, u alle gebruiksmogelijkheden van dat middel moet verwijderen.
+>[!NOTE]
+>
+>Middelen moeten uit Adobe Target-activiteiten worden verwijderd voordat je ze kunt verwijderen [!DNL Target].
 
 ## Elementen bewerken {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

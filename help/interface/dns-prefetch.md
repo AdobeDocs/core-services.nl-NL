@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 1%
 
 ---
 
@@ -46,11 +46,10 @@ De volgende voorbeelden tonen u hoe te om DNS prefetch vraag aan verschillende t
 
 * **Dynamisch tagbeheer** (DTM): Niet vereist. DTM-koppelingen zijn beschikbaar wanneer de pagina wordt geladen.
 
-* **Media optimaliseren (Advertising Cloud):**
+* **Advertising Cloud:**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
-
 
 * **[!DNL Target]:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 

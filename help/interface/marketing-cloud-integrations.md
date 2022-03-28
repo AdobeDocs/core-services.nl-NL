@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Maak en beheer soorten publiek in de Experience Cloud Audience Library. De soort
 
 * [Activiteiten](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=en) in Adobe Target
 * [Segmentering](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=en) in Audience Manager
-* [Media optimaliseren](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (aanmelden vereist)
+* [Advertising Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (aanmelden vereist)
 
 ## Klantkenmerken {#section_6A9EA6847F654F129381869E5016626C}
 
@@ -128,7 +128,7 @@ Gebruik de extensie Adobe Experience Cloud Debugger om fouten op te sporen die d
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en)
 * [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=en)
-* [Media optimaliseren](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Mac ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Nielsen Tracking](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
@@ -144,7 +144,7 @@ Integreer Adobe Target met Adobe Analytics en andere Experience Cloud-toepassing
 * Klantkenmerken: Adobe Target configureren [abonnement](subscription.md) aan Klantkenmerken
 * Experience Cloud publiek: [Experience Cloud Audience Library](audience-library.md)
 * Analyse: [Adobe Analytics als rapportagebron voor Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
-* Dynamisch tagbeheer: [Aanbevolen procedures voor het implementeren van Adobe Target met DTM](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* Dynamische Tag Management: [Aanbevolen procedures voor het implementeren van Adobe Target met DTM](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * Audience Manager: [Adobe Target-gegevensintegratie met Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
 * Campagne: [Adobe Target integreren met campagne](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=en)
 

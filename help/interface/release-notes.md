@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '4571'
 ht-degree: 2%
@@ -294,7 +294,7 @@ Geen informatie beschikbaar
 
 **Oplossingen**
 
-* Probleem verholpen waarbij Single Sign-On werd voorkomen tussen de [!DNL Experience Cloud] en [!DNL Media Optimizer].
+* Probleem verholpen waarbij Single Sign-On werd voorkomen tussen de [!DNL Experience Cloud] en [!DNL Advertising Cloud].
 
 **Bekende problemen**
 
@@ -386,7 +386,7 @@ Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Clou
 * Gebruikers kunnen PowerPoint-bestanden niet delen op borden.
 * Wijzigingen in groepen en machtigingen die zijn aangebracht in Gebruikersbeheer, worden pas na een nieuwe aanmelding van kracht.
 * Sommige gebruikers kunnen problemen ondervinden bij het uploaden van grote bestandstypen naar Experience Cloud Assets.
-* De gebruikers zouden verbindingen op hun Experience Cloud kaarten van Media Optimizer kunnen missen.
+* Gebruikers ontbreken mogelijk koppelingen op hun Experience Cloud-kaart vanuit Advertising Cloud.
 * Sommige administratieve gebruikers zouden kwesties kunnen ervaren die hun rekeningen verbinden na het goedkeuren van een uitnodiging om zich bij de Experience Cloud aan te sluiten.
 * De Experience Cloud-interface kan de prestaties verminderen wanneer deze gelijktijdig door meerdere gebruikers wordt gebruikt.
 * Sommige gebruikers kunnen een verouderd element verwijderen in plaats van een foutmelding te ontvangen.
@@ -595,7 +595,7 @@ Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Clou
 **Oplossingen**
 
 * [!DNL Experience Cloud] heeft geen koppeling gemaakt naar [!DNL Adobe Target]. Dit probleem is opgetreden als de [!DNL Adobe Target] aanmelden kan op meerdere [!DNL Target] servers.
-* [!DNL Adobe Media Optimizer] heeft niet automatisch gebruikers gemaakt wanneer de gebruiker is gemaakt in [!DNL Experience Cloud].
+* [!DNL Adobe Advertising Cloud] heeft niet automatisch gebruikers gemaakt wanneer de gebruiker is gemaakt in [!DNL Experience Cloud].
 * Opties in keuzelijsten met invoervak die worden gebruikt voor het tijdelijk toevoegen van nieuwe gebruikers zijn tijdens het typen verdwenen.
 * De koppeling Opmerkingen in de weergave Kaart met element kan niet worden geselecteerd.
 * Nadat u een aangepaste tag aan een element hebt toegevoegd, zijn er geen andere metagegevenswijzigingen meer.
@@ -643,12 +643,12 @@ Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Clou
 * De koppeling Opmerkingen in de weergave Middelenkaart kan niet worden geselecteerd.
 * Opties in keuzelijsten met invoervak voor het tijdelijk toevoegen van nieuwe gebruikers verdwijnen tijdens het typen.
 * Aanmelden bij de [!DNL Experience Cloud] duurt langer dan een seconde.
-* Gegevens gedeeld vanuit [!DNL Media Optimizer] is onjuist vertegenwoordigd in de [!DNL Experience Cloud].
-* Adobe [!DNL Media Optimizer] maakt niet automatisch gebruikers wanneer de gebruiker in [!DNL Experience Cloud].
+* Gegevens gedeeld vanuit [!DNL Advertising Cloud] is onjuist vertegenwoordigd in de [!DNL Experience Cloud].
+* Adobe [!DNL Advertising Cloud] maakt niet automatisch gebruikers wanneer de gebruiker in [!DNL Experience Cloud].
 * De [!DNL Experience Cloud] kan niet worden gekoppeld aan [!DNL Adobe Target], als de [!DNL Adobe Target] aanmelden kan op meerdere [!DNL Target] servers.
 * [!DNL Experience Cloud] de interface kan vertragen wanneer in parallel gebruik door vele gebruikers.
 * [!DNL Search&Promote] koppeling is niet beschikbaar in het dialoogvenster [!UICONTROL Organizations & Product Access] pagina.
-* [!DNL Adobe Media Optimizer] simulatiekaarten worden niet correct weergegeven.
+* [!DNL Adobe Advertising Cloud] simulatiekaarten worden niet correct weergegeven.
 * Filters die zijn toegepast op trended-rapporten van [!DNL Analytics] niet worden toegepast op kaarten in [!DNL Experience Cloud].
 * Filters die worden toegepast op trended-rapporten van Analytics worden niet toegepast op kaarten in Experience Cloud.
 * Sommige Excel- of CSV-bestanden kunnen niet naar een board worden geüpload.
@@ -664,7 +664,7 @@ Versie 14.3.1 is een onderhoudsversie die zich op snelheid, stabiliteit, en veil
 **Oplossingen**
 
 * Hiermee kunt u uw avatar-afbeelding verwijderen.
-* Probleem verholpen waarbij u uw [!DNL Adobe Media Optimizer] rekeningen.
+* Probleem verholpen waarbij u uw [!DNL Adobe Advertising Cloud] rekeningen.
 
 **Bekende problemen**
 
@@ -678,16 +678,16 @@ Versie 14.3.1 is een onderhoudsversie die zich op snelheid, stabiliteit, en veil
 * Experience Cloud kan niet worden gekoppeld aan [!DNL Adobe Target], als de [!DNL Adobe Target] login kan op veelvoudige servers van het Doel worden gebruikt.
 * Aanmelden bij Experience Cloud duurt langer dan een seconde.
 * Nadat u een aangepaste tag aan een element hebt toegevoegd, kunnen er geen andere metagegevenswijzigingen meer worden doorgevoerd.
-* [!DNL Adobe Media Optimizer] maakt niet automatisch gebruikers wanneer de gebruiker in Experience Cloud is gemaakt.
+* [!DNL Adobe Advertising Cloud] maakt niet automatisch gebruikers wanneer de gebruiker in Experience Cloud is gemaakt.
 * Opties in keuzelijsten met invoervak voor het tijdelijk toevoegen van nieuwe gebruikers verdwijnen tijdens het typen.
-* Gegevens gedeeld vanuit [!DNL Media Optimizer] is onjuist vertegenwoordigd in Experience Cloud.
+* Gegevens gedeeld vanuit [!DNL Advertising Cloud] is onjuist vertegenwoordigd in Experience Cloud.
 * Het delen van Flickr-afbeeldingen mislukt.
 * Filters die zijn toegepast op trended-rapporten van [!DNL Analytics] niet worden toegepast op kaarten in Experience Cloud.
 * Wijzigingen in groep- en machtigingen die zijn aangebracht in gebruikersbeheer, worden pas na een nieuwe aanmelding van kracht.
 * [!DNL Search&Promote] koppeling is niet beschikbaar in [!UICONTROL Organizations & Product Access].
 * Gebruikers moeten het bord vernieuwen om de verwijderde kaarten uit het zicht te laten verdwijnen.
 * Sommige Excel- of CSV-bestanden kunnen niet naar een board worden geüpload.
-* [!DNL Adobe Media Optimizer] simulatiekaarten worden niet correct weergegeven.
+* [!DNL Adobe Advertising Cloud] simulatiekaarten worden niet correct weergegeven.
 * Sommige PNG-bestanden kunnen niet op een kaart worden gerenderd.
 * Bètafeedback kan niet worden verzonden.
 
