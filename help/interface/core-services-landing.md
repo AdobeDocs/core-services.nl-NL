@@ -1,5 +1,5 @@
 ---
-description: Meer informatie over gebruikers- en productbeheer in Adobe Experience Cloud, Personen (soorten publiek en klantkenmerken), Journey Orchestration, Aanbiedingen, Plaatsen, Experience Platform Launch en Mobiele services.
+description: Meer informatie over gebruikers- en productbeheer in Adobe Experience Cloud, Personen (soorten publiek en klantkenmerken), Journey Orchestration, Aanbiedingen, Plaatsen, Experience Platform Launch en Mobile Services.
 solution: Experience Cloud
 title: 'Overzicht van Experience Cloud-services '
 feature: Customer Attributes
@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
+source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '353'
 ht-degree: 5%
 
 ---
@@ -41,4 +41,4 @@ In deze Help worden de volgende producten en services beschreven:
 
 >[!NOTE]
 >
->Productdocumentatie voor Experience Platform bevindt zich op [hier](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en). Technische documentatie voor [!UICONTROL Experience Platform] ontwikkelaars vindt u op [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>Productdocumentatie voor Experience Platform bevindt zich op [hier](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en). Technische documentatie voor [!UICONTROL Experience Platform] ontwikkelaars vindt u op [Adobe Developer](https://developer.adobe.com/apis).
