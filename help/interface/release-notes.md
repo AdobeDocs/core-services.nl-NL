@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
 workflow-type: tm+mt
-source-wordcount: '4571'
+source-wordcount: '4607'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,14 @@ Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Centra
 Voor een lijst met documentatie-updates raadpleegt u [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Voor opmerkingen over alle toepassingen raadpleegt u [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## April - 2022
+
+| Functie | Beschrijving |
+| ------- |-------|
+| Zoeken in natuurlijke talen | Krijg onmiddellijke antwoorden aan al uw hulpvragen, door één enkele interface via Verenigd Onderzoek. Deze functie is altijd beschikbaar op elke pagina van [!DNL Experience Platform] en [!DNL Journey Optimizer]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Maart - 2022
 
