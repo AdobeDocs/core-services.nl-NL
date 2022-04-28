@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -32,25 +32,35 @@ Bijvoorbeeld voor een organisatie met federatieve id&#39;s en het domein `adobec
 
 ![Stap Resultaat](assets/organization-switch.png)
 
-## Zoek uw organisatie-id {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Uw organisatie-id weergeven {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Mogelijk moet u uw organisatie-id zoeken voor ondersteuningsdoeleinden. U kunt verifiëren dat u in de correcte organisatie bent, of tussen organisaties schakelt, gebruikend **[!UICONTROL Organization]** -menu.
+Mogelijk moet u de toegewezen organisatie-id zoeken voor ondersteuningsdoeleinden. U kunt verifiëren dat u in de correcte organisatie bent, of tussen organisaties schakelt, gebruikend **[!UICONTROL Organization]** -menu.
 
 De organisatie-id is de id die is gekoppeld aan uw Experience Cloud-bedrijf waarvoor u een provisioning uitvoert. Deze id bestaat uit een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet worden opgenomen) `@AdobeOrg`.
 
-U kunt uw organisatie-id samen met andere accountgegevens weergeven met een sneltoets **Ctrl+i** vanaf elke pagina op `https://experience.adobe.com`klikt u op de knop **[!UICONTROL Assigned Orgs]** in het dialoogvenster.
+U kunt uw organisatie-id samen met andere accountgegevens weergeven met een sneltoets **Ctrl+i** vanaf elke pagina op `https://experience.adobe.com`.
 
-![Toegewezen organisatie-id](assets/assigned-organization.png)
+**Uw organisatie-id weergeven**
 
-Beheerders kunnen zich ook aanmelden bij de Admin Console (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) en bekijk uw IMS org-id in de URL.
+1. In [Experience Cloud](https://experience.adobe.com.), press **Ctrl+i** op uw toetsenbord.
 
-Bijvoorbeeld in de volgende URL:
+   ![Toegewezen organisatie-id](assets/assigned-organization.png)
 
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+1. Klik op de knop **[!UICONTROL Assigned Orgs]** in het dialoogvenster.
 
-De id is:
+1. Klik op de naam van uw organisatie.
 
-`C538193582390300A495CC9@AdobeOrg`
+1. Zoeken naar **[!UICONTROL ID]**.
+
+   Beheerders kunnen zich ook aanmelden bij de Admin Console (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) en bekijk uw organisatie-id in de URL.
+
+   Bijvoorbeeld in de volgende URL:
+
+   `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+
+   De id is:
+
+   `C538193582390300A495CC9@AdobeOrg`
 
 ## Een toepassingsaccount koppelen aan een Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 

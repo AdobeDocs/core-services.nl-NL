@@ -1,60 +1,60 @@
 ---
 title: 'Klantkenmerken Ondersteuning voor algemene gegevensbeschermingsverordening '
 description: Meer informatie over Customer Attributes Support for General Data Protection Regulation
-feature: Klantkenmerken
-topic: Beheer
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: '404'
+ht-degree: 0%
 
 ---
 
 # Klantenkenmerkondersteuning voor algemene gegevensbeschermingsverordening
 
-Op deze pagina wordt beschreven hoe [!UICONTROL Customer Attributes] algemene gegevensbeschermingsverordening (GDPR) ondersteunt.
+In deze pagina wordt beschreven hoe [!UICONTROL Customer Attributes] ondersteunt algemene gegevensbeschermingsverordening (GDPR).
 
 >[!IMPORTANT]
 >
 >De inhoud van dit document is geen juridisch advies of is bedoeld ter vervanging van juridisch advies. Raadpleeg uw juridisch adviseur voor advies over de GDPR.
 
-De [Algemene gegevensbeschermingsverordening](https://business.adobe.com/privacy/general-data-protection-regulation.html), een wet die van kracht is op 25 mei 2018, geeft alle personen (betrokkenen) binnen de grenzen van de Europese Unie (EU) controle op hun persoonsgegevens. Het vereenvoudigt ook de regelgeving voor het internationale bedrijfsleven. Deze wet is van toepassing op alle ondernemingen (voor de verwerking van persoonsgegevens verantwoordelijke personen) die goederen of diensten aanbieden, het gedrag van personen binnen de grenzen van de EU volgen of persoonsgegevens verzamelen op het tijdstip waarop hun persoonsgegevens worden verwerkt, ongeacht de bedrijfslocatie van de voor de verwerking verantwoordelijke.
+De [Algemene verordening inzake gegevensbescherming](https://business.adobe.com/privacy/general-data-protection-regulation.html), een wet die van kracht is op 25 mei 2018, geeft alle personen (betrokkenen) binnen de grenzen van de Europese Unie (EU) controle op hun persoonsgegevens. Het vereenvoudigt ook de regelgeving voor het internationale bedrijfsleven. Deze wet is van toepassing op alle ondernemingen (voor de verwerking van persoonsgegevens verantwoordelijke personen) die goederen of diensten aanbieden, het gedrag van personen binnen de grenzen van de EU volgen of persoonsgegevens verzamelen op het tijdstip waarop hun persoonsgegevens worden verwerkt, ongeacht de bedrijfslocatie van de voor de verwerking verantwoordelijke.
 
 Adobe Experience Cloud treedt op als een gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
-In dit document wordt beschreven hoe [!UICONTROL Customer Attributes] de toegang tot en het verwijderen van GDPR-gegevens van de betrokkenen via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service ondersteunt.
+In dit document wordt beschreven hoe [!UICONTROL Customer Attributes] ondersteunt de toegangsrechten voor GDPR-gegevens en verwijderingsrechten van de betrokkenen via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service.
 
-Voor meer informatie over wat GDPR voor uw zaken betekent, zie [GDPR en Uw Zaken](https://business.adobe.com/privacy/general-data-protection-regulation.html).
+Voor meer informatie over wat GDPR voor uw zaken betekent, zie [GDPR en uw bedrijf](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
 ## Vereiste installatie voor het verzenden van aanvragen voor [!UICONTROL Customer Attributes]
 
-Als u verzoeken wilt indienen om gegevens voor [!UICONTROL Customer Attributes] te openen en te verwijderen, moet u:
+Om verzoeken om tot gegevens toegang te hebben en te schrappen voor [!UICONTROL Customer Attributes]moet u:
 
 1. Vermeld het volgende:
 
-   * IMS-organisatie-id
+   * [Organisatie-id](#organizations.md)
    * Alias-id van CRS-gegevensbron waarop u wilt reageren
    * CRM-id van het profiel waarop u wilt reageren
 
-   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne beheerder van het Adobe-systeem de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org ID nodig om aanvragen in te dienen bij de Privacy API.
+   Uw [organisatie-id](#organizations.md) is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Contact opnemen met de klantenservice van Adobe op `gdprsupport@adobe.com` als u de id niet kunt vinden.
 
-1. In [!UICONTROL Privacy Service], kunt u verzoeken van de Toegang en van de Schrapping aan de Attributen van de Klant voorleggen, en de status van bestaande verzoeken controleren.
+1. In [!UICONTROL Privacy Service], kunt u verzoeken om toegang en om verwijdering indienen bij Klantkenmerken en de status van bestaande aanvragen controleren.
 
-## Vereiste veldwaarden in JSON-aanvragen [!UICONTROL Customer Attributes]
+## Vereiste veldwaarden in [!UICONTROL Customer Attributes] JSON-verzoeken
 
 &quot;bedrijfcontext&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;waarde&quot;: &lt;*uw IMS-waarde voor organisatie-id*>
+* &quot;waarde&quot;: &lt;*uw IMS Org ID-waarde*>
 
 &quot;gebruikers&quot;:
 
 * &quot;key&quot;: &lt;*gewoonlijk de naam van de klant*>
 
-* &quot;actie&quot;: hetzij **access** of **delete**
+* &quot;actie&quot;: ofwel **toegang** of **delete**
 
 * &quot;gebruikers-id&#39;s&quot;:
 
@@ -64,7 +64,7 @@ Als u verzoeken wilt indienen om gegevens voor [!UICONTROL Customer Attributes] 
 
    * &quot;waarde&quot;: &lt;*CRM-id*>
 
-* &quot;include&quot;: **CRS** (dit is het product van Adobe dat op het verzoek van toepassing is)
+* &quot;include&quot;: **CRS** (dit is het product van de Adobe dat op het verzoek van toepassing is)
 
 * &quot;verordening&quot;: **gdpr** (dit is de privacyverordening die van toepassing is op het verzoek)
 

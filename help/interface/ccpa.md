@@ -1,21 +1,21 @@
 ---
 title: 'Customer Attributes Support for California Consumer Privacy Act '
 description: Meer informatie over Customer Attributes-ondersteuning voor California Consumer Privacy Act
-feature: Klantkenmerken
-topic: Beheer
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 5%
+source-wordcount: '406'
+ht-degree: 4%
 
 ---
 
 # Customer Attributes support for California Consumer Privacy Act
 
-Op deze pagina wordt [!UICONTROL Customer Attributes']-ondersteuning voor de California Consumer Privacy Act (CCPA) beschreven.
+Deze pagina beschrijft [!UICONTROL Customer Attributes'] steun voor de California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >
@@ -27,36 +27,36 @@ Als bedrijf, bepaalt u de persoonlijke gegevens die Adobe Experience Cloud verwe
 
 Als uw dienstverlener, verleent Adobe Experience Cloud steun voor uw zaken om zijn verplichtingen uit hoofde van CCPA te vervullen die op het gebruik van de producten en de diensten van de Experience Cloud van toepassing zijn. Deze ondersteuning omvat het beheren van verzoeken om toegang tot en verwijdering van persoonlijke gegevens.
 
-Dit document beschrijft hoe [!UICONTROL Customer Attributes] de gegevens CCPA van uw betrokkenen toegang en schrappingsrechten gebruikend Adobe Experience Platform Privacy Service API en Privacy Service UI steunt.
+In dit document wordt beschreven hoe [!UICONTROL Customer Attributes] ondersteunt de CCPA-toegangsrechten en verwijderingsrechten voor gegevens van de betrokkenen via de Adobe Experience Platform Privacy Service API en de gebruikersinterface van de Privacy Service.
 
-Voor meer informatie over de diensten van de Privacy van de Adobe voor CCPA, zie [het Centrum van de Privacy van de Adobe](https://www.adobe.com/privacy/ccpa.html).
+Voor meer informatie over de diensten van de Privacy van de Adobe voor CCPA, zie [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
 ## Vereiste installatie voor het verzenden van aanvragen voor [!UICONTROL Customer Attributes]
 
-Als u verzoeken wilt indienen om gegevens voor [!UICONTROL Customer Attributes] te openen en te verwijderen, moet u:
+Om verzoeken om tot gegevens toegang te hebben en te schrappen voor [!UICONTROL Customer Attributes]moet u:
 
 1. Vermeld het volgende:
 
-   * IMS-organisatie-id
+   * [Organisatie-id](#organizations.md)
    * Alias-id van CRS-gegevensbron waarop u wilt reageren
    * CRM-id van het profiel waarop u wilt reageren
 
-   Een IMS-organisatie-id is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. Als uw marketingteam of interne beheerder van het Adobe-systeem de IMS Org-id van uw organisatie niet kent, neemt u contact op met de klantenservice van Adobe op gdprsupport@adobe.com. U hebt de IMS Org-id nodig om aanvragen in te dienen bij de Privacy-API.
+   Uw [organisatie-id](#organizations.md) is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Contact opnemen met de klantenservice van Adobe op `gdprsupport@adobe.com` als u de id niet kunt vinden.
 
-1. In [!UICONTROL Privacy Service], kunt u verzoeken van de Toegang en van de Schrapping aan de Attributen van de Klant voorleggen, en de status van bestaande verzoeken controleren.
+1. In [!UICONTROL Privacy Service], kunt u verzoeken om toegang en om verwijdering indienen bij Klantkenmerken en de status van bestaande aanvragen controleren.
 
 ## Vereiste veldwaarden in [!UICONTROL Customer Attributes] JSON-verzoeken
 
 &quot;bedrijfcontext&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;waarde&quot;: &lt;*uw IMS-waarde voor organisatie-id*>
+* &quot;waarde&quot;: &lt;*waarde van uw organisatie-id*>
 
 &quot;gebruikers&quot;:
 
 * &quot;key&quot;: &lt;*gewoonlijk de naam van de klant*>
 
-* &quot;actie&quot;: hetzij **access** of **delete**
+* &quot;actie&quot;: ofwel **toegang** of **delete**
 
 * &quot;gebruikers-id&#39;s&quot;:
 
@@ -66,9 +66,9 @@ Als u verzoeken wilt indienen om gegevens voor [!UICONTROL Customer Attributes] 
 
    * &quot;waarde&quot;: &lt;*CRM-id*>
 
-* &quot;include&quot;: **CRS** (dit is het product van Adobe dat op het verzoek van toepassing is)
+* &quot;include&quot;: **CRS** (dit is het product van de Adobe dat op het verzoek van toepassing is)
 
-* &quot;verordening&quot;: **ccpa** (dit is de privacyverordening die op het verzoek van toepassing is)
+* &quot;verordening&quot;: **ccpa** (dit is de privacyverordening die van toepassing is op het verzoek)
 
 ## Voorbeeld van JSON-aanvraag
 

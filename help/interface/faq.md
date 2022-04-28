@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 2%
@@ -100,7 +100,7 @@ An [organisatie](organizations.md) is de entiteit die een beheerder toelaat om g
 
 ## Waar kan ik mijn IMS organisatie ID vinden?
 
-Zie [Uw organisatie-id zoeken](organizations.md) voor meer informatie.
+Zie [Uw organisatie-id weergeven](organizations.md) voor meer informatie.
 
 ## Wat moet ik doen als een van mijn gebruikers mijn bedrijf verlaat?
 
