@@ -10,7 +10,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Als u uw inzamelingsserver zou willen verzekeren past uw domein van de plaats aa
 
 >[!NOTE]
 >
->Ongeacht of uw verzamelingsdomein overeenkomt met uw sitedomein, maakt het programma Intelligent Tracking Prevention (ITP) van Apple de cookies van de eerste partij die door Adobe zijn ingesteld, van korte duur op browsers die door ITP worden beheerd, waaronder Safari op macOS en alle browsers op iOS en iPadOS. Vanaf november 2020 hebben cookies die via CNAME zijn ingesteld, dezelfde vervaldatum als cookies die via JavaScript zijn ingesteld. Deze vervaldatum kan worden gewijzigd.
+>Ongeacht of uw inzamelingsdomein uw plaatsdomein aanpast, maakt het Programma van de Preventie van het Intelligente Volgen van Apple (ITP) de eerste partijkoekjes die door Adobe worden geplaatst kortstondig op browsers die door ITP worden geregeerd, die Safari op macOS en alle browsers op iOS en iPadOS omvatten. Vanaf november 2020 hebben cookies die via CNAME zijn ingesteld, dezelfde vervaldatum als cookies die via JavaScript zijn ingesteld. Deze vervaldatum kan worden gewijzigd.
 
 Als u een NAAM voor gegevensinzameling wilt vestigen en als uw plaats veilige pagina&#39;s gebruikend het protocol HTTPS heeft, kunt u met Adobe werken om een SSL certificaat te verkrijgen.
 
