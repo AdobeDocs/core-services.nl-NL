@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
+source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
 workflow-type: tm+mt
-source-wordcount: '4607'
+source-wordcount: '4677'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Centra
 Voor een lijst met documentatie-updates raadpleegt u [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Voor opmerkingen over alle toepassingen raadpleegt u [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Juli - 2022
+
+Geplande release: **11 juli 2022**
+
+| Functie | Beschrijving |
+| ------- | ------- |
+| Unified Home - Quick Access-widget | **Navigeren sneller:** U kunt uw thuiservaring nu verder aanpassen en bepalen welke toepassingen binnen handbereik zijn. Met de nieuwe functie voor vastzetten kunt u selecteren welke toepassingen op de voorgrond en in het midden van uw [!UICONTROL Quick Access]. <br>**Blijf op de hoogte met slim vastzetten:** Uw nieuwe toepassingen zijn nu gemakkelijker te vinden. Nieuw toegewezen toepassingen weergeven als _Nieuw_ badge en automatisch vastzetten op [!UICONTROL Quick Access]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## April - 2022
 
@@ -200,7 +210,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 **Bekend probleem**
 
-Als u via het dialoogvenster **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** -interface, maar uw Dynamic Tag Management-account is niet gekoppeld aan de Experience Cloud (Adobe ID), kunt u zich niet aanmelden bij Dynamic Tag Management. Om dit probleem te voorkomen, navigeert u rechtstreeks naar `dtm.adobe.com` in een nieuw browsertabblad.
+Als u Dynamic Tag Management opent via de **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** , maar uw Dynamic Tag Management-account is niet gekoppeld aan de Experience Cloud (Adobe ID), u kunt zich niet aanmelden bij Dynamic Tag Management. Om dit probleem te voorkomen, navigeert u rechtstreeks naar `dtm.adobe.com` in een nieuw browsertabblad.
 
 ## Release 16.1 - januari 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
