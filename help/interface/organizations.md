@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 953b5c7c058e2641bc3bcfb66a968146ea617404
+source-git-commit: 2c0814a22b501a93b4a5f2bb1ba6f13c13fc7e1a
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '567'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Leer over het beheren van en het schakelen van organisaties in Experience Cloud.
 
 ## Uw organisatie identificeren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-An *organisatie* (IMS organisatie ID) is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en enige aanmelding in de Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en toepassingen van de Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben.
+An *organisatie* (Org ID) is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en enige aanmelding in de Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en toepassingen van de Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben.
 
 Om te controleren dat u zich bij uw correcte organisatie hebt aangemeld, klikt u op uw profielavatar om de naam van de organisatie te zien. Als u toegang hebt tot meer dan één organisatie, kunt u ook bekijken en op een andere organisatie in de kopbalbar schakelen.
 
@@ -32,7 +32,7 @@ Bijvoorbeeld voor een organisatie met federatieve id&#39;s en het domein `adobec
 
 ![Stap Resultaat](assets/organization-switch.png)
 
-## De IMS-organisatie-id weergeven {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Uw organisatie-id weergeven {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 Mogelijk moet u de toegewezen organisatie-id zoeken voor ondersteuningsdoeleinden. U kunt verifiëren dat u in de correcte organisatie bent, of tussen organisaties schakelt, gebruikend **[!UICONTROL Organization]** -menu.
 
@@ -40,17 +40,13 @@ De organisatie-id is de id die is gekoppeld aan uw Experience Cloud-bedrijf waar
 
 U kunt uw organisatie-id samen met andere accountgegevens weergeven met een sneltoets **Ctrl+i** vanaf elke pagina op `https://experience.adobe.com`.
 
-**Uw IMS-organisatie-id weergeven**
+**Uw organisatie-id weergeven**
 
 1. In [Experience Cloud](https://experience.adobe.com.), press **Ctrl+i** op uw toetsenbord.
 
    ![Toegewezen organisatie-id](assets/assigned-organization.png)
 
-1. Klik op de knop **[!UICONTROL Assigned Orgs]** in het dialoogvenster.
-
-1. Klik op de naam van uw organisatie.
-
-1. Zoeken naar **[!UICONTROL ID]**.
+1. Onder **[!UICONTROL User Information]**, zoek naar **[!UICONTROL Current Org ID]** en u ziet de organisatie-id.
 
    Beheerders kunnen zich ook aanmelden bij de Admin Console (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) en bekijk uw organisatie-id in de URL.
 
