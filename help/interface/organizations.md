@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ An *organisatie* (Org ID) is de entiteit die een beheerder toelaat om groepen en
 
 Om te controleren dat u zich bij uw correcte organisatie hebt aangemeld, klikt u op uw profielavatar om de naam van de organisatie te zien. Als u toegang hebt tot meer dan één organisatie, kunt u ook bekijken en op een andere organisatie in de kopbalbar schakelen.
 
-Als uw organisatie Federated IDs gebruikt, staat Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder de behoefte om uw e-mailadres en wachtwoord in te gaan. Hiervoor voegt u `#/sso:@domain` naar de Experience Cloud-URL (`https://experience.adobe.com`).
+Als uw organisatie Federated IDs gebruikt, staat Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder het worden vereist om uw e-mailadres en wachtwoord in te gaan. Toevoegen `#/sso:@domain` naar de Experience Cloud-URL (`https://experience.adobe.com`) om deze taak uit te voeren.
 
 Bijvoorbeeld voor een organisatie met federatieve id&#39;s en het domein `adobecustomer.com`, stel uw URL-koppeling in op `https://experience.adobe.com/#/sso:@adobecustomer.com`. U kunt ook rechtstreeks naar een specifieke toepassing gaan door een bladwijzer te maken van deze URL, die bij het toepassingspad wordt gevoegd. (Bijvoorbeeld voor Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
@@ -34,7 +34,7 @@ Bijvoorbeeld voor een organisatie met federatieve id&#39;s en het domein `adobec
 
 ## Uw organisatie-id weergeven {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Mogelijk moet u de toegewezen organisatie-id zoeken voor ondersteuningsdoeleinden. U kunt verifiëren dat u in de correcte organisatie bent, of tussen organisaties schakelt, gebruikend **[!UICONTROL Organization]** -menu.
+U kunt uw toegewezen organisatie-id zoeken voor ondersteuningsdoeleinden. U kunt verifiëren dat u in de correcte organisatie bent, of tussen organisaties schakelt, gebruikend **[!UICONTROL Organization]** -menu.
 
 De organisatie-id is de id die is gekoppeld aan uw Experience Cloud-bedrijf waarvoor u een provisioning uitvoert. Deze id bestaat uit een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet worden opgenomen) `@AdobeOrg`.
 
@@ -60,7 +60,7 @@ U kunt uw organisatie-id samen met andere accountgegevens weergeven met een snel
 
 ## Een toepassingsaccount koppelen aan een Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-Typisch, verlenen de beheerders van Experience Cloud toegang tot toepassingen en de diensten. In zeldzame gevallen moet u mogelijk toepassingsreferenties koppelen aan een Adobe ID.
+Typisch, verlenen de beheerders van Experience Cloud toegang tot toepassingen en de diensten. In zeldzame gevallen kunt u toepassingsgegevens koppelen aan een Adobe ID.
 
 1. Voer de stappen in uw e-mailuitnodiging voor de Experience Cloud uit.
 1. Meld u aan met uw Adobe ID of Enterprise ID.

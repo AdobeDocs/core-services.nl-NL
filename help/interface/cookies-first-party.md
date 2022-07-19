@@ -10,9 +10,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Hier is hoe u een nieuw eerste-partijSSL certificaat voor de inzameling van eers
    **Beveiligen** - Bijvoorbeeld de hostnaam `smetrics.example.com` punten naar: `example.com.adobedc.net`.
 
 >[!NOTE]
-> In het verleden, adviseerde Adobe dat klanten twee CNAME, voor HTTPS en één voor HTTP instellen. Aangezien het beste praktijken is om verkeer te coderen en de meeste browsers sterk ontmoedigen HTTP, adviseren wij niet meer vestiging een NAAM voor HTTP. Als u uw CNAME voor HTTP moet vormen, te bereiken gelieve uit aan de Zorg van de Klant van Adobe.
+> In het verleden, adviseerde Adobe dat klanten twee CNAME, voor HTTPS en één voor HTTP instellen. Aangezien het beste praktijken is om verkeer te coderen en de meeste browsers sterk ontmoedigen HTTP, adviseren wij niet meer vestiging een NAAM voor HTTP. Neem contact op met de klantenservice van Adobe om uw CNAME voor HTTP te configureren.
 
 1. Als de CNAME is geactiveerd, werkt Adobe samen met DigiCert aan de aanschaf en installatie van een certificaat op productieservers van Adobe.
 
@@ -77,7 +77,7 @@ SSL-certificaten verlopen elk jaar, wat betekent dat Adobe jaarlijks een nieuw c
 |---|---|
 | **Is dit proces veilig?** | Ja, het Adobe-Beheerde programma is veiliger dan onze oudere methode aangezien geen certificaat of privé sleutel buiten Adobe en de uitgevende certificaatautoriteit van handen verandert. |
 | **Hoe kan Adobe een certificaat voor ons domein aanschaffen?** | Het certificaat kan alleen worden aangeschaft als u de opgegeven hostnaam hebt opgegeven (bijvoorbeeld `telemetry.example.com`) aan een hostnaam in eigendom van Adobe. Dit is hoofdzakelijk het delegeren van deze hostname aan Adobe en staat Adobe toe om het certificaat namens uw naam te kopen. |
-| **Mag ik vragen dat het certificaat wordt ingetrokken?** | Ja, als eigenaar van het domein hebt u het recht om te vragen dat het certificaat is ingetrokken. U hoeft alleen een ticket te openen met de klantenservice om dit te laten voltooien. |
+| **Mag ik vragen dat het certificaat wordt ingetrokken?** | Ja, als eigenaar van het domein hebt u het recht om te verzoeken dat het certificaat wordt ingetrokken. Open een ticket met de klantenservice om dit te laten voltooien. |
 | **Gebruikt dit certificaat SHA-2-versleuteling?** | Ja, Adobe werkt met DigiCert voor het uitgeven van een SHA-2-certificaat. |
 | **Betekent dit extra kosten?** | Nee, Adobe biedt deze service zonder extra kosten aan alle huidige Adobe Digital Experience-klanten. |
 

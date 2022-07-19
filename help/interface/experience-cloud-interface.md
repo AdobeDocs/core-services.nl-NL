@@ -6,9 +6,9 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Aanmelden en controleren of u zich aan de rechterkant bevindt [organisatie](orga
 
    Om te verifiëren dat u zich bij uw correct hebt aangemeld [organisatie](organizations.md)klikt u op de profielavatar om de naam van de organisatie weer te geven. Als u toegang hebt tot meer dan één organisatie, kunt u ook bekijken en op een andere organisatie in de kopbalbar schakelen.
 
-   Als uw organisatie Federated IDs gebruikt, staat Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder de behoefte om uw e-mailadres en wachtwoord in te gaan. Hiervoor voegt u `#/sso:@domain` naar de Experience Cloud-URL (`https://experience.adobe.com`).
+   Als uw organisatie Federated IDs gebruikt, staat Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder het worden vereist om uw e-mailadres en wachtwoord in te gaan. Toevoegen `#/sso:@domain` naar de Experience Cloud-URL (`https://experience.adobe.com`) om deze taak uit te voeren.
 
    Bijvoorbeeld voor een organisatie met federatieve id&#39;s en het domein `adobecustomer.com`, stel uw URL-koppeling in op `https://experience.adobe.com/#/sso:@adobecustomer.com`. U kunt ook rechtstreeks naar een specifieke toepassing gaan door een bladwijzer te maken van deze URL, die bij het toepassingspad wordt gevoegd. (Bijvoorbeeld voor Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 

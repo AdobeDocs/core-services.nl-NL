@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ Aanmelden en controleren of u zich aan de rechterkant bevindt [organisatie](orga
 
    Om te verifiëren dat u zich bij uw correct hebt aangemeld [organisatie](organizations.md)klikt u op de profielavatar om de naam van de organisatie weer te geven. Als u toegang hebt tot meer dan één organisatie, kunt u ook bekijken en op een andere organisatie in de kopbalbar schakelen.
 
-   Als uw organisatie Federated IDs gebruikt, staat Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder de behoefte om uw e-mailadres en wachtwoord in te gaan. Hiervoor voegt u `#/sso:@domain` naar de Experience Cloud-URL (`https://experience.adobe.com`).
+   Als uw organisatie Federated IDs gebruikt, staat Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder het worden vereist om uw e-mailadres en wachtwoord in te gaan. Toevoegen `#/sso:@domain` naar de Experience Cloud-URL (`https://experience.adobe.com`) om deze taak uit te voeren.
 
    Bijvoorbeeld voor een organisatie met federatieve id&#39;s en het domein `adobecustomer.com`, stel uw URL-koppeling in op `https://experience.adobe.com/#/sso:@adobecustomer.com`. U kunt ook rechtstreeks naar een specifieke toepassing gaan door een bladwijzer te maken van deze URL, die bij het toepassingspad wordt gevoegd. (Bijvoorbeeld voor Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
@@ -177,12 +177,12 @@ Verwante hulplijnen voor Experience Cloud zijn:
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
-## Tutorials
+## Lesbestanden
 
 Profiteer van zelfstudiemateriaal en snelle zelfstudies in Experience League:
 
 * [Alle zelfstudies in Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
-* [Zelfstudies voor Experience Platforms](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
+* [Zelfstudies voor Experience Platforms](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=nl)
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Opmerkingen bij de release en verwante Experience Cloud Help

@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 8cb55c6fb6f0acfb8787b0125f7c4a25bcb71e28
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Voor meer hulp, [Contact opnemen met Adobe-ondersteuning](https://experienceleag
 
 Nee. De Experience Cloud wordt gratis meegeleverd. Bepaalde kerndiensten kunnen echter extra kosten met zich meebrengen.
 
-## Waarom moet mijn bedrijf zich door de interface van Experience Cloud aanmelden?
+## Waarom moet mijn bedrijf binnen door de interface van Experience Cloud ondertekenen?
 
 De functionaliteit die door de interface van de Experience Cloud wordt verstrekt voegt nieuwe waarde aan uw zaken toe. Het is ook het standaardpad voor de toegang tot toepassingen die verdergaan en uiteindelijk andere individuele aanmeldstromen van de toepassing vervangen. Door u aan te melden via Experience Cloud, kunt u later vloeiender overgangen maken.
 

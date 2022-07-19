@@ -1,8 +1,8 @@
 ---
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 79%
+source-wordcount: '423'
+ht-degree: 71%
 
 ---
 # Bijdragen aan een artikel
@@ -21,13 +21,13 @@ Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen 
 
 ### Kleine wijzigingen
 
-Als u minder belangrijke updates uit de goodness van uw hart bijdraagt, bezoek het artikel en selecteer de **Edit** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
+Als u kleine updates uit uw goedheid bijdraagt, bezoek het artikel en selecteer **Bewerken** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
 
 Kleine correcties of verduidelijkingen die u verzendt voor documentatie en codevoorbeelden in deze repository, worden gedekt door de gebruiksvoorwaarden van Adobe.
 
 ### Belangrijke wijzigingen of nieuwe artikelen van leden van de community
 
-Als u deel uitmaakt van de Adobe-community en u een nieuw artikel wilt schrijven of belangrijke veranderingen voorstelt, gebruikt u het tabblad Problemen in de Git-repository om een probleem te melden en een gesprek te beginnen met het documentatieteam. Zodra u met een plan hebt ingestemd, zult u met een medewerker moeten samenwerken om de nieuwe content te publiceren via een combinatie van werk in de openbare en privérepository&#39;s.
+Als u deel uitmaakt van de Adobe-community en u een nieuw artikel wilt schrijven of belangrijke veranderingen voorstelt, gebruikt u het tabblad Problemen in de Git-repository om een probleem te melden en een gesprek te beginnen met het documentatieteam. Zodra u met een plan hebt ingestemd, kunt u met een werknemer werken helpen die nieuwe inhoud door een combinatie werk in de openbare en privé bewaarplaatsen brengen.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Belangrijke wijzigingen van Adobe-medewerkers
 
-Als u een technisch schrijver, programmamanager, of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] oplossing bent en het uw baan is om aan of auteur technische artikelen bij te dragen, zou u de privé bewaarplaats op `https://git.corp.adobe.com/AdobeDocs` moeten gebruiken.
+Als u een technisch schrijver, programmamanager of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] en het is uw taak om een bijdrage te leveren aan technische artikelen of technische artikelen te schrijven. Gebruik hiervoor de privéopslagruimte op `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
