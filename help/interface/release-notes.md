@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
+source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
 workflow-type: tm+mt
-source-wordcount: '4677'
+source-wordcount: '4694'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,10 @@ Voor een lijst met documentatie-updates raadpleegt u [Experience Cloud](doc-upda
 Voor opmerkingen over alle toepassingen raadpleegt u [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
 
 ## Juli - 2022
+
+**Aankondiging voor update van provisioning voor beheerders**
+
+* Zie [Aankondiging van update van voorziening](admin-getting-started.md#provisioning) voor belangrijke updates van provisioning in Experience Cloud.
 
 Geplande release: **11 juli 2022**
 
