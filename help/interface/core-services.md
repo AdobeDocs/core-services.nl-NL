@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
 workflow-type: tm+mt
-source-wordcount: '2230'
+source-wordcount: '2317'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,11 @@ Bijvoorbeeld, veronderstel dat Bob identiteitskaart van de Klant heeft `52mc210t
 * Vul de *`Customer ID (52mc210tr42)`* in een prop of eVar.
 
 De klant-id moet op elke [!DNL Analytics] serveraanroep waarvan de klant-id bekend is.
+
+#### Analyse: de klant-id synchroniseren met de Data Warehouse backfill-methode
+
+Toen Klantkenmerken voor het eerst beschikbaar kwamen, hadden sommige klanten de Experience Cloud-id-service nog niet geïmplementeerd en konden ze de klantkenmerken niet gemakkelijk gebruiken. Om dit probleem te helpen verlichten, creeerde Adobe een middel om een backfill van de syncs van identiteitskaart te doen gebruikend het gegevenspakhuis van Adobe Analytics. Deze eigenschap is gekend als &quot;gegevenspakhuis backfill&quot;. De back-up van het gegevenspakhuis is nu over het algemeen niet nodig en zal daarom niet langer beschikbaar zijn vanaf oktober 2022.
+
 
 ### Mobiele SDK&#39;s
 

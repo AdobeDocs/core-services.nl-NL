@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: cad3e95cc15edc7daa1ac1855c8475a6988e7026
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historische gegevens </p> </td> 
-   <td colname="col2"> <p> Kenmerken van de klant zijn gekoppeld aan het onderliggende bezoekersprofiel in [!DNL Analytics]. Als zodanig [!UICONTROL Customer Attributes] zijn gedurende de gehele levensduur van dat bezoekersprofiel gekoppeld aan de bezoeker in [!DNL Analytics]. Dit profiel bevat gedrag dat is opgetreden voordat de klant zich voor het eerst heeft aangemeld. </p> <p> Als u de backfill methode van de Data Warehouse gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op analytics ID (HULP) gebaseerd is. Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op Experience Cloud identiteitskaart (MID) gebaseerd is. </p> </td> 
+   <td colname="col2"> <p> Kenmerken van de klant zijn gekoppeld aan het onderliggende bezoekersprofiel in [!DNL Analytics]. Als zodanig [!UICONTROL Customer Attributes] zijn gedurende de gehele levensduur van dat bezoekersprofiel gekoppeld aan de bezoeker in [!DNL Analytics]. Dit profiel bevat gedrag dat is opgetreden voordat de klant zich voor het eerst heeft aangemeld. </p> <p> Als u de backfill methode van de Data Warehouse gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op analytics ID (HULP) gebaseerd is. Als u de dienst van identiteitskaart van de Experience Cloud gebruikt, zijn de gegevens gebonden aan post_visid_high/low die op Experience Cloud identiteitskaart (MID) gebaseerd is. </p> <p> De backfill-methode voor Data Warehouse is vanaf oktober 2022 niet meer beschikbaar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gegevensfeeds </p> </td> 
