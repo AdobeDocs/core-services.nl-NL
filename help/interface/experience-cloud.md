@@ -3,14 +3,14 @@ description: Leer over centrale interfacecomponenten voor Experience Cloud. Deze
 solution: Experience Cloud
 title: Experience Cloud interface Help en documentatie
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: Customer Attributes
+feature: "Customer Attributes"
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1255'
 ht-degree: 3%
 
 ---
@@ -145,6 +145,7 @@ Experience Cloud gebruikt de volgende hosts om de toepassing te leveren, de pres
 | Adobe Experience Cloud-domeinen | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Identity Management Service (IMS) | `adobelogin.com` |
 | Experience Cloud-lettertypen | `typekit.net` |
+| Adobe Gegevensverzameling (voor productbegeleiding en Help) | `adobedtm.com` |
 | Geniet van inzicht (voor productbegeleiding en hulp) | `esp.aptrinsic.com` |
 
 ## Hulp bij beheer en services voor meerdere toepassingen
