@@ -1,14 +1,14 @@
 ---
-description: 'Leer hoe u zich aanmeldt en over de centrale interfacecomponenten in Experience Cloud. Meer informatie over algemene zoekopdrachten, voorkeuren voor uw account en hoe u door de interface kunt navigeren en hulp kunt krijgen. '
+description: Leer hoe u zich aanmeldt en over de centrale interfacecomponenten in Experience Cloud. Meer informatie over algemene zoekopdrachten, voorkeuren voor uw account en hoe u door de interface kunt navigeren en hulp kunt krijgen.
 solution: Experience Cloud
-title: 'Experience Cloud centrale UI-componenten '
-feature: Central Interface Components
+title: Experience Cloud centrale UI-componenten
+feature: "Central Interface Components"
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '711'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Aanmelden en controleren of u zich aan de rechterkant bevindt [organisatie](orga
 
 Nadat u zich hebt aangemeld bij Experience Cloud, hebt u vanuit de uniforme header snel toegang tot al uw toepassingen, services en organisaties.
 
-De toepassingskiezer selecteren ![](assets/menu-icon.png) om toegang te krijgen tot de services van Experience Cloud die u bezit.
+De toepassingskiezer selecteren ![menu](assets/menu-icon.png) om toegang te krijgen tot de services van Experience Cloud die u bezit.
 
 ![Toegang tot Experience Cloud-toepassingen](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ In het menu met accountvoorkeuren kunt u het volgende doen:
 
 Voorkeuren voor Experience Cloud zijn onder andere meldingen, abonnementen en waarschuwingen.
 
-Selecteren **[!UICONTROL Preferences]** via uw accountmenu ![](assets/preferences-icon-sm.png) om voorkeuren te beheren.
+Selecteren **[!UICONTROL Preferences]** via uw accountmenu ![voorkeuren](assets/preferences-icon-sm.png) om voorkeuren te beheren.
 
 ![Experience Cloud beheren](assets/preferences-page.png)
 

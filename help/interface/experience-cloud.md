@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1257'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Aanmelden en controleren of u zich aan de rechterkant bevindt [organisatie](orga
 
 Nadat u zich hebt aangemeld bij Experience Cloud, hebt u vanuit de uniforme header snel toegang tot al uw toepassingen, services en organisaties.
 
-Ga naar de toepassingskiezer voor toegang tot Experience Cloud-toepassingen en -services die binnen uw organisatie aan u zijn toegewezen ![](assets/menu-icon.png).
+Ga naar de toepassingskiezer voor toegang tot Experience Cloud-toepassingen en -services die binnen uw organisatie aan u zijn toegewezen ![menu](assets/menu-icon.png).
 
 ![Toegang tot Experience Cloud-toepassingen](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Voorkeuren voor Experience Cloud zijn onder andere meldingen, abonnementen en wa
 * Afmelden
 * Accountvoorkeuren, meldingen en abonnementen configureren
 
-Selecteer **[!UICONTROL Preferences]** via uw accountmenu ![](assets/preferences-icon-sm.png).
+Selecteer **[!UICONTROL Preferences]** via uw accountmenu ![voorkeuren](assets/preferences-icon-sm.png).
 
 ![Gebruikersprofiel en accountvoorkeuren](assets/preferences-page.png)
 

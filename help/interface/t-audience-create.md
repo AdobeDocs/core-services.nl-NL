@@ -2,16 +2,16 @@
 description: Leer hoe u kenmerkregels gebruikt om een publiek te maken en een samengesteld publiek in Adobe Experience Cloud te definiëren.
 keywords: kerndiensten
 solution: Experience Cloud
-title: 'Een doelgroep maken '
+title: Een doelgroep maken
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 **Een publiek maken**
 
 1. In de [!DNL Experience Cloud], onder [!DNL Experience Platform], selecteert u **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
-1. Op de [!UICONTROL Audiences] pagina, selecteert u **[!UICONTROL New]**. ![](assets/add_icon_small.png)
+1. Op de [!UICONTROL Audiences] pagina, selecteert u **[!UICONTROL New]**. ![toevoegen](assets/add_icon_small.png)
 
    ![Stap Resultaat](assets/audience_create_new.png)
 

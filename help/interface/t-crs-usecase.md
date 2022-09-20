@@ -2,16 +2,16 @@
 description: Leer hoe u de kenmerkbron voor klanten maakt en deze uploadt naar de Adobe Experience Cloud.
 keywords: Klantkenmerken;kernservices
 solution: Experience Cloud
-title: 'Een bron voor klantkenmerken maken en het gegevensbestand uploaden '
+title: Een bron voor klantkenmerken maken en het gegevensbestand uploaden
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 >
 >Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de Attributen van de Klant, is er een vertraging van maximaal één uur alvorens IDs begint synchroniserend met de nieuwe gegevensbron. U moet beheerdersrechten in Audience Manager hebben om bronnen voor klantkenmerken te maken of te wijzigen. Neem contact op met de klantenservice of de Audience Manager voor advies om beheerrechten te verkrijgen.
 
-1. In de [!DNL Experience Cloud], selecteert u het menu  ![](assets/menu-icon.png) pictogram.
+1. In de [!DNL Experience Cloud], selecteert u het menu  ![menu](assets/menu-icon.png) pictogram.
 1. Selecteer onder **[!DNL Experience Platform]** de optie **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    De [!UICONTROL Customer Attributes] op deze pagina kunt u bestaande bronnen met kenmerkgegevens beheren en bewerken.
@@ -82,7 +82,7 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 
    * **[!UICONTROL Description:]** (Optioneel) Een beschrijving van de bron van het gegevenskenmerk.
 
-   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de Attributen van de Klant, zoals een specifiek systeem van CRM. [!UICONTROL Alias ID] is een unieke identiteitskaart die in uw Broncode van het Attribuut van de Klant wordt gebruikt. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die wordt ingevoerd in het dialoogvenster [!UICONTROL Alias ID] het gebied voor een bron van de Attributen van de Klant in Experience Cloud zou de waarden moeten aanpassen die binnen van de implementatie (of via de Inzameling van Gegevens (Lancering), Dynamisch Beheer van de Markering, of JavaScript van Mobiele SDK. worden overgegaan)
+   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de Attributen van de Klant, zoals een specifiek systeem van CRM. [!UICONTROL Alias ID] is een unieke identiteitskaart die in uw Broncode van het Attribuut van de Klant wordt gebruikt. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die wordt ingevoerd in het dialoogvenster [!UICONTROL Alias ID] het gebied voor een bron van Attributen van de Klant in Experience Cloud zou de waarden moeten aanpassen die binnen van de implementatie (of via de Inzameling van Gegevens (Lancering), Dynamische Tag Management, of JavaScript van Mobiele SDK worden overgegaan.)
 
       De alias-id komt overeen met bepaalde gebieden waar u extra waarden voor de klant-id instelt. Bijvoorbeeld:
 
@@ -120,7 +120,7 @@ Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in de Exp
 
       **Afbeelding voor uploaden bestand**
 
-      ![](assets/file_upload_attributes.png)
+      ![attributes](assets/file_upload_attributes.png)
 
    * **[!UICONTROL Unique Customer ID:]** Hiermee geeft u weer hoeveel unieke id&#39;s u naar deze kenmerkbron hebt geüpload.
 

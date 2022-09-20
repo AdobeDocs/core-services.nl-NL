@@ -2,16 +2,16 @@
 description: Leer hoe u zich aanmeldt bij de Adobe Experience Cloud, wachtwoorden en meldingen beheert en een standaardbestemmingspagina opgeeft.
 keywords: kernservices, aanmelden bij Experience Cloud
 solution: Experience Cloud
-title: 'Aanmelden en de instellingen van uw Experience Cloud-profiel beheren '
+title: Aanmelden en de instellingen van uw Experience Cloud-profiel beheren
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '956'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Als u zich aanmeldt bij Experience Cloud (in plaats van zich aan te melden bij Ã
 
 Aanmelden en controleren of u zich aan de rechterkant bevindt [organisatie](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1).
 
-1. Selecteer het menu Experience Cloud ( ![](assets/menu-icon.png)), selecteert u vervolgens **[!UICONTROL Administration]**.
+1. Selecteer het menu Experience Cloud ( ![voorkeuren](assets/menu-icon.png)), selecteert u vervolgens **[!UICONTROL Administration]**.
 
    Als de **[!UICONTROL Administration]** de verbinding wordt niet getoond, bent u geen beheerder van Experience Cloud voor getoond [organisatie](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Voor hulp bij het worden van een beheerder, contacteer de Zorg van de Klant of een bestaande beheerder van de Experience Cloud in uw bedrijf.
 1. Selecteer **[!UICONTROL Administration]**.
@@ -60,9 +60,9 @@ Help voor gebruikers zonder beheerdersrechten die zich aanmelden bij de Experien
 
    Uw Experience Cloud-beheerder kan u helpen het type account (Adobe ID of Enterprise ID) te bepalen.
 
-1. Selecteer op de landingspagina het kiezerpictogram  ![](assets/menu-icon.png) voor toegang tot het keuzemenu.
+1. Selecteer op de landingspagina het kiezerpictogram  ![menu](assets/menu-icon.png) voor toegang tot het keuzemenu.
 
-   ![](assets/experience-cloud-core-services.png)
+   ![menu](assets/experience-cloud-core-services.png)
 
    De toepassingen en services die in dit menu worden weergegeven, zijn afhankelijk van de toepassingsrechten die door uw [beheerder](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
@@ -82,7 +82,7 @@ U kunt persoonlijke gegevens bewerken en een standaardinstelling opgeven [organi
 
 U ontvangt een melding (via e-mail of in-product) over updates van het systeem, onderhoudsberichten, publicaties, aantekeningen en gedeelde middelen. U kunt ook de producten en toepassingen opgeven waarvoor u meldingen wilt ontvangen, inclusief de uploadstatus voor Klantkenmerken.
 
-Als u naar meldingen wilt navigeren, selecteert u de optie **[!UICONTROL Notifications]** pictogram  ![](assets/notifications-icon.png)Selecteer vervolgens de **[!UICONTROL Settings]** pictogram  ![](assets/icon_edit_board.png).
+Als u naar meldingen wilt navigeren, selecteert u de optie **[!UICONTROL Notifications]** pictogram  ![meldingen](assets/notifications-icon.png)Selecteer vervolgens de **[!UICONTROL Settings]** pictogram  ![bewerken](assets/icon_edit_board.png).
 
 U kunt de vertoning van Meldingen sorteren op de berichttypes die voor u belangrijk zijn, en onderzoek naar berichten. U kunt ook het volgende doen:
 

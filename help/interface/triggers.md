@@ -4,16 +4,16 @@ keywords: integratie;Triggers
 seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
-title: 'Overzicht van triggers '
+title: Overzicht van triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
 >
 >Er bestaat momenteel een technische limiet van 100 triggers.
 
-1. Selecteer in de Experience Cloud de optie ![](assets/menu-icon.png)selecteert u vervolgens **[!UICONTROL Data Collection/Launch]**.
+1. Selecteer in de Experience Cloud de optie ![menu](assets/menu-icon.png)selecteert u vervolgens **[!UICONTROL Data Collection/Launch]**.
 2. Op de [!UICONTROL Triggers] kaart, selecteren **[!UICONTROL Manage Triggers]**.
 3. Selecteren **[!UICONTROL New Trigger]** geeft u vervolgens het type trigger op:
 

@@ -2,17 +2,17 @@
 description: Meer informatie over organisaties (IMS-organisatie-id) en het koppelen van oplossingsaccounts aan Experience Cloud.
 keywords: Adobe Experience Cloud-services
 solution: Experience Cloud
-title: 'Organisaties en accountkoppelingen '
+title: Organisaties en accountkoppelingen
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 3%
 
 ---
 
@@ -64,7 +64,7 @@ Typisch, verlenen de beheerders van Experience Cloud toegang tot toepassingen en
 
 1. Voer de stappen in uw e-mailuitnodiging voor de Experience Cloud uit.
 1. Meld u aan met uw Adobe ID of Enterprise ID.
-1. Selecteer de toepassingskiezer. ( ![](assets/menu-icon.png)).
+1. Selecteer de toepassingskiezer. ( ![menu](assets/menu-icon.png)).
 
    ![Een toepassingsaccount koppelen aan een Adobe ID](assets/solutions-active.png)
 
