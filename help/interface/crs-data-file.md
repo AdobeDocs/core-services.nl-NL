@@ -1,17 +1,16 @@
 ---
 description: Meer informatie over gegevensbestandsvereisten en meerdere gegevensbronnen voor het uploaden van klantkenmerken naar Experience Cloud.
-keywords: Klantkenmerken;kernservices
 solution: Experience Cloud
-title: 'Meer informatie over gegevensbestanden en gegevensbronnen voor klantkenmerken '
+title: Meer informatie over gegevensbestanden en gegevensbronnen voor klantkenmerken
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: cad3e95cc15edc7daa1ac1855c8475a6988e7026
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -150,7 +149,7 @@ Stel twee klant-id&#39;s in die overeenkomen met de juiste gegevensbronnen:
 
 ```
 Visitor.setCustomerIDs({ 
-     "ds_id1”:"123456", 
+     "ds_id1":"123456", 
      "ds_id2":"123456" 
 });
 ```

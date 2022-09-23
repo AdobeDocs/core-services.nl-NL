@@ -1,17 +1,16 @@
 ---
 description: Leer hoe u middelen uploadt naar een gedeelde map van het bureaublad van de Creative Cloud naar de Experience Cloud.
-keywords: delen van elementen;Creative Cloud;kernservices
 solution: Experience Cloud
-title: 'Middelen uploaden naar een gedeelde map vanaf het bureaublad Creative Cloud '
+title: Middelen uploaden naar een gedeelde map vanaf het bureaublad Creative Cloud
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3fd747e5-38f8-40cc-a255-7a0130b1e32f
-source-git-commit: d1380a3829933e541c6cf59a78d683b5eee109c2
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 1. Delen inschakelen.
 
-1. Start het [!DNL Creative Cloud]-bureaublad en navigeer naar [!UICONTROL **Middelen**].
+1. De [!DNL Creative Cloud] bureaublad en navigeer naar [!UICONTROL **Activa**].
 
 1. Selecteer **[!UICONTROL Open Folder].**
 

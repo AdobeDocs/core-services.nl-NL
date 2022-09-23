@@ -1,17 +1,16 @@
 ---
-description: Overwegingen en beste praktijken met betrekking tot persoonlijk identificeerbare informatie (PII) geupload en gebruikt in Experience Cloud.
-keywords: Klantkenmerken;kernservices
+description: Leer de overwegingen en de beste praktijken betreffende persoonlijk identificeerbare informatie (PII) uploaded en gebruikt in Experience Cloud.
 solution: Experience Cloud
-title: 'Privacyoverwegingen voor klantkenmerken '
+title: Privacyoverwegingen voor klantkenmerken
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: Klantkenmerken
-topic: Beheer
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ Overwegingen en beste praktijken betreffende persoonlijk identificeerbare inform
 * E-mailadres
 * Telefoonnummer
 * Sociale verzekeringsnummer
-* Andere identificatiecode die fysieke of online contact met een persoon mogelijk maakt. (Varieert op plaats. Verifieer en volg de lokale wetten en regels met betrekking tot privacy en PII voor alle plaatsen waar u zaken doet.)
+* Andere identificatiecode die fysieke of online contact met een persoon mogelijk maakt. (Varieert door plaats. Verifieer en volg de lokale wetten en regels met betrekking tot privacy en PII voor alle plaatsen waar u zaken doet.)
 
 Adobe biedt hulpmiddelen waarmee adverteerders gedragsinformatie kunnen verzamelen over consumenten die hun sites bezoeken of hun toepassingen gebruiken. Adobe biedt adverteerders ook de mogelijkheid om deze informatie te verbeteren met offline of externe klantgegevens die de adverteerder binnen andere informatiemanagementsystemen kan hebben.
 

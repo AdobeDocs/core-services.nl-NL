@@ -1,17 +1,16 @@
 ---
 description: Leer meer over de vereisten en wat u kunt verwachten als u een upgrade uitvoert naar de Analytics Premium.
-keywords: Adobe Analytics Premium-upgrade
 solution: Experience Cloud
-title: 'Upgrade naar Analytics Premium en de Experience Cloud '
+title: Upgrade naar Analytics Premium en de Experience Cloud
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '618'
 ht-degree: 3%
 
 ---
@@ -22,7 +21,7 @@ Beheerders kunnen meer weten over de vereisten en wat ze moeten verwachten als z
 
 ## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
-Als u een upgrade uitvoert naar Adobe Analytics Premium, beschikt u over alle mogelijkheden of producten die beschikbaar zijn op de standaard Analytics, waaronder Data Warehouse, Ad Hoc Analysis, Report Builder en Gegevensconnectors.
+Als u een upgrade uitvoert naar Adobe Analytics Premium, beschikt u over alle mogelijkheden of producten die beschikbaar zijn in de standaard Analytics, waaronder Data Warehouse, Ad Hoc Analysis, Report Builder en Data Connectors.
 
 De Analytics Premium biedt u:
 

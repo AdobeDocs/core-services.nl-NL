@@ -1,6 +1,5 @@
 ---
 description: Moderniseer uw Adobe Analytics- en Adobe Target-toepassingen voor services voor meerdere toepassingen. Leer hoe u begint met het gebruik van Experience Cloud-services.
-keywords: kernservices;Kenmerken van klanten
 solution: Experience Cloud
 title: Toepassingen inschakelen voor services voor meerdere toepassingen
 index: true
@@ -9,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---

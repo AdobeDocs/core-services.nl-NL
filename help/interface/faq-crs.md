@@ -1,17 +1,16 @@
 ---
 description: Veelgestelde vragen over klantkenmerken in Adobe Experience Cloud, voor Adobe Analytics en Adobe Target.
-keywords: Klantkenmerken
 solution: Experience Cloud
-title: 'Antwoorden krijgen op veelgestelde vragen over Customer Attributes '
+title: Antwoorden krijgen op veelgestelde vragen over Customer Attributes
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1153'
 ht-degree: 1%
 
 ---

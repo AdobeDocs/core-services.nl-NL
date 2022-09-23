@@ -1,18 +1,17 @@
 ---
 description: Leer hoe de dienst van identiteitskaart wordt opgeslagen en gebruikt over Experience Cloud toepassingen.
-keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Experience Cloud Cookies '
+title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 2%
+source-wordcount: '345'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +31,7 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die in al
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p> Bevat een kopie van de Experience Cloud-id (ECID) of MID. MID wordt opgeslagen in een sleutelwaardepaar dat deze syntaxis volgt, s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Bevat een kopie van de Experience Cloud-id (ECID) of MID. MID wordt opgeslagen in een sleutelwaardepaar dat deze syntaxis volgt, s_ecid=MCMID|&lt;ecid&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Verlopen </p> </td> 
@@ -59,9 +58,9 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die in al
 
 **Naam cookie: AMCV_##@AdobeOrg**
 
-De [Experience Platform-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) gebruikt JavaScript om een unieke bezoeker-id op te slaan in een `AMCV_###@AdobeOrg`-cookie op het domein van de huidige website, waarbij `###` een willekeurige tekenreeks vertegenwoordigt, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+De [Experience Platform-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) gebruikt JavaScript om een unieke bezoeker-id op te slaan in een `AMCV_###@AdobeOrg` cookie op het domein van de huidige website, waarbij `###` vertegenwoordigt een willekeurige tekenreeks, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Zie ook [Cookies en de Dienst van identiteitskaart](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
+Zie ook: [Cookies en de id-service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

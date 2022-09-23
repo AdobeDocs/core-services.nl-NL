@@ -1,18 +1,17 @@
 ---
 description: Meer informatie over toegestane bestandstypen en groottebeperkingen voor het delen van elementen tussen Adobe Experience Cloud en Creative Cloud.
-keywords: delen van elementen;Creative Cloud;kernservices
 solution: Experience Cloud
-title: 'Bestandsvereisten voor het delen van elementen '
+title: Bestandsvereisten voor het delen van elementen
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 feature: Assets
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 2%
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 

@@ -1,8 +1,7 @@
 ---
 description: Leer hoe Adobe Analytics cookies gebruikt om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies.
-keywords: cookies;privacy
 solution: Experience Cloud,Analytics
-title: '"First-party cookies "'
+title: "First-party cookies "
 index: y
 snippet: y
 feature: Cookies
@@ -10,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -21,16 +20,16 @@ ht-degree: 0%
 
 Analytics gebruikt cookies om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies. Waar mogelijk gebruikt Adobe cookies van de eerste partij om activiteiten op uw site op te nemen. Als u activiteit wilt opnemen op verschillende sites, zoals andere domeinen die u hebt, zijn cookies van andere bedrijven vereist.
 
-Veel browsers en antispywaretoepassingen zijn ontworpen om cookies van derden af te wijzen en te verwijderen. Adobe zorgt ervoor dat cookies altijd kunnen worden ingesteld, zelfs als cookies van derden worden geblokkeerd. Het specifieke gedrag varieert afhankelijk van of u de Dienst van de Identiteit van het Experience Platform (de Dienst van ECID) of de erfenisherkenningstekens van Analytics (ook bekend als s_vi koekje) gebruikt:
+Veel browsers en antispywaretoepassingen zijn ontworpen om cookies van derden af te wijzen en te verwijderen. Adobe zorgt ervoor dat cookies altijd kunnen worden ingesteld, zelfs als cookies van derden worden geblokkeerd. Het specifieke gedrag varieert afhankelijk van of u de Dienst van de Identiteit van het Experience Platform (de Dienst van ECID) of de erfenisherkenningstekens van de Analyse (ook bekend als s_vi koekje) gebruikt:
 
 * De [Experience Platform Identity Service (ECID Service)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) automatisch cookies van eerste bedrijven instellen, ongeacht of uw verzamelingsdomein overeenkomt met uw sitedomein. Als deze niet overeenkomen, gebruikt de Identity Service JavaScript om cookies in te stellen in het domein van uw site.
 * Als u [Verouderde id&#39;s analyseren](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (ook bekend als de `s_vi` cookie) het is afhankelijk van de configuratie van uw gegevensverzamelingsserver. Als de server van de gegevensinzameling het domein van uw plaats aanpast, dan worden de koekjes geplaatst als eerste-partij. Als de verzamelingsserver niet overeenkomt met uw huidige domein, worden cookies ingesteld als derden. In dit geval stelt Analytics een first-party-cookies in als cookies van derden worden geblokkeerd [fallback-id (s_fid)](cookies-analytics.md) in plaats van de standaard &#39;s_vi&#39; cookie.
 
-Als u uw inzamelingsserver zou willen verzekeren past uw domein van de plaats aan, kunt u een implementatie gebruiken CNAME die het door:sturen van een douanedomein zal toelaten dat in uw implementatie CNAME aan de inzamelingsservers van Adobe wordt gespecificeerd. Dit impliceert veranderingen in DNS van uw bedrijf montages om een alias van CNAME aan het richten aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van Adobe gebruikend een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als u veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar waar het plaatsdomein niet de het domeinkoekjes van CNAME aanpast wordt geplaatst als derde.
+Als u uw inzamelingsserver zou willen verzekeren past uw domein van uw plaats aan, kunt u een implementatie gebruiken CNAME die het door:sturen van een douanedomein zal toelaten dat in uw CNAME implementatie aan Adobe inzamelingsservers wordt gespecificeerd. Dit impliceert veranderingen in DNS van uw bedrijf montages om een alias van CNAME aan het richten aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van Adobe gebruikend een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als u veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar waar het plaatsdomein niet de het domeinkoekjes van CNAME aanpast wordt geplaatst als derde.
 
 >[!NOTE]
 >
->Ongeacht of uw inzamelingsdomein uw plaatsdomein aanpast, maakt het Programma van de Preventie van het Intelligente Volgen van Apple (ITP) de eerste partijkoekjes die door Adobe worden geplaatst kortstondig op browsers die door ITP worden geregeerd, die Safari op macOS en alle browsers op iOS en iPadOS omvatten. Vanaf november 2020 hebben cookies die via CNAME zijn ingesteld, dezelfde vervaldatum als cookies die via JavaScript zijn ingesteld. Deze vervaldatum kan worden gewijzigd.
+>Ongeacht of uw inzamelingsdomein uw plaatsdomein aanpast, maakt het programma van de Preventie van het Intelligente Volgen van de Apple (ITP) de eerste partijkoekjes door Adobe worden geplaatst kortstondig op browsers die door ITP worden geregeerd, die Safari op macOS en alle browsers op iOS en iPadOS omvatten. Vanaf november 2020 hebben cookies die via CNAME zijn ingesteld, dezelfde vervaldatum als cookies die via JavaScript zijn ingesteld. Deze vervaldatum kan worden gewijzigd.
 
 Als u een NAAM voor gegevensinzameling wilt vestigen en als uw plaats veilige pagina&#39;s gebruikend het protocol HTTPS heeft, kunt u met Adobe werken om een SSL certificaat te verkrijgen.
 
@@ -61,7 +60,7 @@ Hier is hoe u een nieuw eerste-partijSSL certificaat voor de inzameling van eers
 
 1. Als de CNAME is geactiveerd, werkt Adobe samen met DigiCert aan de aanschaf en installatie van een certificaat op productieservers van Adobe.
 
-   Als u een bestaande implementatie hebt, kunt u bezoekersmigratie overwegen om uw bestaande bezoekers te onderhouden. Nadat het certificaat live naar de productieomgeving van Adobe is geduwd, kunt u de volgende servervariabelen aan nieuwe hostnames bijwerken. Betekenis: als de site niet veilig is (HTTP), werkt u de `s.trackingServer`. Als de site beveiligd is (HTTPS), werkt u beide bij `s.trackingServer` en `s.trackingServerSecure` variabelen.
+   Als u een bestaande implementatie hebt, kunt u bezoekersmigratie overwegen om uw bestaande bezoekers te onderhouden. Nadat het certificaat levend aan de productieomgeving van de Adobe is geduwd, kunt u het volgen servervariabelen aan nieuwe hostnames bijwerken. Betekenis: als de site niet veilig is (HTTP), werkt u de `s.trackingServer`. Als de site beveiligd is (HTTPS), werkt u beide bij `s.trackingServer` en `s.trackingServerSecure` variabelen.
 
 2. [Hostnaam doorsturen valideren](#validate) (zie hieronder).
 

@@ -1,17 +1,16 @@
 ---
-description: '"Nieuwste functies, releaseopmerkingen en bekende problemen voor de Experience Cloud-services, zoals klantkenmerken, soorten publiek en gebruikersbeheer."'
-keywords: kerndiensten
+description: Meer informatie over de nieuwste functies, opmerkingen bij releases en bekende problemen voor de Experience Cloud-services, zoals klantkenmerken, soorten publiek en gebruikersbeheer.
 solution: Experience Cloud
-title: 'Opmerkingen bij de cumulatieve release '
+title: Opmerkingen bij de cumulatieve release
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '4694'
+source-wordcount: '4695'
 ht-degree: 2%
 
 ---

@@ -1,18 +1,17 @@
 ---
 description: Hoe de Data Workbench koekjes gebruikt om grote volumes van snel evoluerende gegevens in real time te analyseren.
-keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Data Workbench Cookies '
+title: Data Workbench Cookies
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 feature: Cookies
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 5%
+source-wordcount: '91'
+ht-degree: 3%
 
 ---
 

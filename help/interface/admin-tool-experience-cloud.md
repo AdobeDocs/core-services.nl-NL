@@ -1,18 +1,17 @@
 ---
 description: Meer informatie over de Experience Cloud Admin Tool. Bekijk een sorteerbare en filterbare lijst met alle gebruikers en beleidsregels van de Experience Cloud.
-keywords: kerndiensten
 application: Experience Cloud
-title: 'Gebruikers van Experience Cloud en gebruikersgegevens weergeven '
+title: Gebruikers van Experience Cloud en gebruikersgegevens weergeven
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 1%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 
@@ -68,7 +67,7 @@ Op de [!UICONTROL Users] om de details van een gebruiker weer te geven, selectee
 
 ![Gebruikersgegevens weergeven in Admin Console](assets/admin-tool-user-details.png)
 
-Een gedetailleerde weergave van elke gebruiker geeft belangrijke details weer over de toegang tot de toepassing van de gebruiker, de beheerfunctie en de productrollen, en de informatie die het laatst is geopend.
+Een gedetailleerde mening van elke gebruiker toont belangrijke details over de de toepassingstoegang van de gebruiker, admin en productrollen, en laatste betreden informatie.
 
 ## Info
 

@@ -1,17 +1,16 @@
 ---
 description: Meer informatie over de beschikbare integratie van toepassingen in de Adobe Experience Cloud.
-keywords: integratie
 solution: Experience Cloud
-title: 'Experience Cloud-integratie '
+title: Experience Cloud-integratie
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
@@ -189,7 +188,7 @@ Help (aanmelden vereist): [Integratie met Adobe Experience Cloud-oplossingen en 
 
 **Dynamisch tagbeheer:** U kunt [Dynamisch tagbeheer gebruiken voor het bijhouden van conversietags voor advertenties](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)en tags van derden voor het bijhouden van tags voor uw zoek-, sociale en weergave- en landingspagina&#39;s. (U kunt ook [!DNL Advertising] tags direct binnen [!DNL Advertising].)
 
-**Experience Cloud publiek:** (Adverteerders met weergavebeheer) U kunt al uw [Adobe Experience Cloud-publiek](audience-library.md) als doelen voor uw weergaveadvertenties. U kunt publiek automatisch gebruiken dat u in Experience Cloud en Soorten publiek van Analytics hebt gecreeerd die u aan Adobe Experience Cloud hebt gepubliceerd. U kunt Soorten publiek van Audience Manager ook gebruiken wanneer [!DNL Adobe Advertising] account is geconfigureerd om dit toe te staan. Neem contact op met uw accountmanager voor meer informatie over toegang tot Adobe Experience Cloud en profielen en soorten publiek en over de eerste setup tussen [!DNL Adobe Advertising] en Adobe Experience Cloud Publiek. **Opmerking:** Als u ook Adobe Target gebruikt, zijn de soorten publiek die u naar Adobe Experience Cloud hebt gepubliceerd ook beschikbaar voor activiteiten in Adobe Target.
+**Experience Cloud publiek:** (Adverteerders met weergavebeheer) U kunt elk van uw [Adobe Experience Cloud-publiek](audience-library.md) als doelen voor uw weergaveadvertenties. U kunt publiek automatisch gebruiken dat u in Experience Cloud en Soorten publiek van Analytics hebt gecreeerd die u aan Adobe Experience Cloud hebt gepubliceerd. U kunt Soorten publiek van Audience Manager ook gebruiken wanneer [!DNL Adobe Advertising] account is geconfigureerd om dit toe te staan. Neem contact op met uw accountmanager voor meer informatie over toegang tot Adobe Experience Cloud en profielen en soorten publiek en over de eerste setup tussen [!DNL Adobe Advertising] en Adobe Experience Cloud Publiek. **Opmerking:** Als u ook Adobe Target gebruikt, zijn de soorten publiek die u naar Adobe Experience Cloud hebt gepubliceerd ook beschikbaar voor activiteiten in Adobe Target.
 
 **Experience Cloud-elementen:** (Adverteerders met weergavebeheer) U kunt al uw Adobe Experience Cloud-elementen gebruiken als de creatieve elementen voor uw weergaveadvertenties met de weergave Nieuwe weergave bèta. U moet [aangemeld bij Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) om toegang te krijgen tot uw Adobe Experience Cloud-middelen. Neem contact op met uw accountmanager voor informatie over toegang tot Adobe Experience Cloud.
 

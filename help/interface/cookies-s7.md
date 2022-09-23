@@ -1,17 +1,16 @@
 ---
-description: Hoe Adobe Scene7 cookies gebruikt om nuttige informatie op te slaan die kan worden gebruikt om dynamische media naar de browser te verzenden.
-keywords: cookies;privacy
+description: Leer hoe Adobe Scene7 cookies gebruikt om nuttige informatie op te slaan die kan worden gebruikt om dynamische media naar de browser te verzenden.
 solution: Experience Cloud,Analytics,Target
-title: 'Scene7 Cookies '
+title: Scene7 Cookies
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 feature: Cookies
-topic: Beheer
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
@@ -38,10 +37,10 @@ De nieuwere AS3-viewers implementeren sessieresistentie niet.
 
 | Kenmerk | Beschrijving |
 |---|---|
-| Opgeslagen informatie | Stelt het sessiecookie in. AuthFilter ingebed in IPS ImageServer (IS, IR, en ook SWFs/skins en videocontexten) gebruikt het koekje voor toegangsvergunning. Indien aanwezig, staat het HTTP- verzoeken toe om door te gaan. Anders wordt onbevoegd geretourneerd. |
-| Verlopen | Dit cookie is een sessiecookie. De huidige sessievervaldatum wordt ingesteld op 45 minuten in de Scene7 IPS [!DNL web.xml]. |
+| Opgeslagen informatie | Stelt het sessiecookie in. AuthFilter ingebed in IPS ImageServer (IS, IR, en ook de SWF/skins en videocontexten) gebruikt het koekje voor toegangsvergunning. Indien aanwezig, staat het HTTP- verzoeken toe om door te gaan. Anders wordt onbevoegd geretourneerd. |
+| Verlopen | Dit cookie is een sessiecookie. Huidige sessievervaldatum wordt ingesteld op 45 minuten in Scene7 IPS [!DNL web.xml]. |
 
-**Naam cookie: s7js.flyout.InfoMessage.displayed  `assetId`.state**
+**Naam cookie: s7js.flyout.InfoMessage.displayed `assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -76,7 +75,7 @@ Browsercookies worden door verouderde DHTML-viewers gebruikt voor het opslaan va
  <tbody> 
   <tr> 
    <td colname="col1"> Opgeslagen informatie </td> 
-   <td colname="col2"> <p> </p> <p> &lt;assetid&gt; Dit is de naam van het element waarmee de viewer werkt en  &lt;id&gt; is de op nul gebaseerde index van notities. </p> </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetid&gt; is de naam van het element waarmee de viewer werkt en &lt;id&gt; is de op nul gebaseerde kleverige notitie-index. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verlopen </td> 

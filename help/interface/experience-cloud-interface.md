@@ -2,11 +2,11 @@
 description: Leer hoe u zich aanmeldt en over de centrale interfacecomponenten in Experience Cloud. Meer informatie over algemene zoekopdrachten, voorkeuren voor uw account en hoe u door de interface kunt navigeren en hulp kunt krijgen.
 solution: Experience Cloud
 title: Experience Cloud centrale UI-componenten
-feature: "Central Interface Components"
+feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 1%

@@ -1,6 +1,5 @@
 ---
-description: Leer hoe u de kenmerkbron voor klanten maakt en deze uploadt naar de Adobe Experience Cloud.
-keywords: Klantkenmerken;kernservices
+description: Maak een kenmerkbron voor klanten en upload deze naar de Adobe Experience Cloud.
 solution: Experience Cloud
 title: Een bron voor klantkenmerken maken en het gegevensbestand uploaden
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -9,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1096'
 ht-degree: 1%
 
 ---
