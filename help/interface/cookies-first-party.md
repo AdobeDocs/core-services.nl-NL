@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1615'
 ht-degree: 0%
 
 ---
@@ -43,32 +43,36 @@ Het Adobe Beheerde Programma van het Certificaat is het geadviseerde proces voor
 
 Met het Adobe Managed Certificate-programma kunt u zonder extra kosten een nieuw SSL-certificaat van de eerste partij implementeren (voor uw eerste 100 CNAME&#39;s). Als u momenteel uw eigen door de klant beheerde SSL-certificaat hebt, spreekt u dan met de klantenservice van Adobe over de migratie naar het door Adobe beheerde certificaatprogramma.
 
-### Implementeren
+### Implementatie
 
 Hier is hoe u een nieuw eerste-partijSSL certificaat voor de inzameling van eerste-partijgegevens uitvoert:
 
-1. Vul de [Formulier voor eerste domeinaanvraag](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) en een ticket te openen met de klantenservice, waarbij de eerste-partij gegevensverzameling wordt gevraagd voor het door Adobe beheerde programma. Elk veld wordt in het document met voorbeelden beschreven.
+1. Vul de [Formulier voor eerste domeinaanvraag](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) en een ticket te openen met de klantenservice, waarbij de eerste-partij gegevensverzameling wordt gevraagd voor het door Adobe beheerde programma.
 
-2. CNAME-records maken (zie onderstaande instructies).
+   Elk veld wordt in het document met voorbeelden beschreven.
+
+1. CNAME-records maken (zie onderstaande instructies).
 
    Na het ontvangen van het kaartje, zou een vertegenwoordiger van de klantenzorg u van een verslag CNAME moeten voorzien. Deze verslagen moeten op DNS server van uw bedrijf worden gevormd alvorens Adobe het certificaat namens u kan kopen. De CNAME is gelijkaardig aan het volgende:
 
    **Beveiligen** - Bijvoorbeeld de hostnaam `smetrics.example.com` punten naar: `example.com.adobedc.net`.
 
->[!NOTE]
-> In het verleden, adviseerde Adobe dat klanten twee CNAME, voor HTTPS en één voor HTTP instellen. Aangezien het beste praktijken is om verkeer te coderen en de meeste browsers sterk ontmoedigen HTTP, adviseren wij niet meer vestiging een NAAM voor HTTP. Neem contact op met de klantenservice van Adobe om uw CNAME voor HTTP te configureren.
+   >[!NOTE]
+   > In het verleden, adviseerde Adobe dat de klanten twee CNAMEs, voor HTTPS en één voor HTTP instellen. Aangezien het beste praktijken is om verkeer te coderen, en de meeste browsers sterk ontmoedigen HTTP, adviseren wij niet meer vestiging een NAAM voor HTTP. Neem contact op met de klantenservice van Adobe om uw CNAME voor HTTP te configureren.
 
 1. Als de CNAME is geactiveerd, werkt Adobe samen met DigiCert aan de aanschaf en installatie van een certificaat op productieservers van Adobe.
 
    Als u een bestaande implementatie hebt, kunt u bezoekersmigratie overwegen om uw bestaande bezoekers te onderhouden. Nadat het certificaat levend aan de productieomgeving van de Adobe is geduwd, kunt u het volgen servervariabelen aan nieuwe hostnames bijwerken. Betekenis: als de site niet veilig is (HTTP), werkt u de `s.trackingServer`. Als de site beveiligd is (HTTPS), werkt u beide bij `s.trackingServer` en `s.trackingServerSecure` variabelen.
 
-2. [Hostnaam doorsturen valideren](#validate) (zie hieronder).
+1. [Hostnaam doorsturen valideren](#validate) (zie hieronder).
 
-3. [Implementatiecode bijwerken](#update) (zie hieronder).
+1. [Implementatiecode bijwerken](#update) (zie hieronder).
 
-### Onderhoud en verlenging
+### Onderhoud en verlengingen
 
-SSL-certificaten verlopen elk jaar, wat betekent dat Adobe jaarlijks een nieuw certificaat voor elke implementatie moet aanschaffen. Alle ondersteunde gebruikers binnen uw organisatie ontvangen een e-mailmelding wanneer een implementatie bijna is verlopen. Om uw hostnaam te vernieuwen door Adobe, moet één ondersteunde gebruiker het e-mailbericht van Adobe beantwoorden en aangeven dat u de vervallende hostnaam voor gegevensverzameling wilt blijven gebruiken. Op dat moment koopt en installeert Adobe automatisch een nieuw certificaat.
+Dertig dagen voordat uw certificaat van de eerste partij verloopt, controleert Adobe of CNAME nog geldig en in gebruik is. Als dat het geval is, gaat Adobe ervan uit dat u de service wilt blijven gebruiken en wordt het certificaat automatisch namens u vernieuwd.
+
+Als de CNAME momenteel is verwijderd en niet meer geldig is, vernieuwt Adobe het certificaat niet en wordt de vermelding in ons systeem gemarkeerd voor verwijdering. Als CNAME is verwijderd, weet Adobe dat het volgen niet gebruikend die URL heeft plaatsgevonden, en is zo veilig om te verwijderen.
 
 ### Veelgestelde vragen
 
