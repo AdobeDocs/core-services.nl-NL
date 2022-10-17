@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
+source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Hier is hoe u een nieuw eerste-partijSSL certificaat voor de inzameling van eers
    **Beveiligen** - Bijvoorbeeld de hostnaam `smetrics.example.com` punten naar: `example.com.adobedc.net`.
 
    >[!NOTE]
-   > In het verleden, adviseerde Adobe dat de klanten twee CNAMEs, voor HTTPS en één voor HTTP instellen. Aangezien het beste praktijken is om verkeer te coderen, en de meeste browsers sterk ontmoedigen HTTP, adviseren wij niet meer vestiging een NAAM voor HTTP. Neem contact op met de klantenservice van Adobe om uw CNAME voor HTTP te configureren.
+   > In het verleden, adviseerde Adobe dat de klanten opstelling twee CNAMEs, voor HTTPS en voor HTTP. Aangezien het beste praktijken is om verkeer te coderen, en de meeste browsers sterk ontmoedigen HTTP, adviseren wij niet meer vestiging een NAAM voor HTTP. Het wordt nu als beste praktijk beschouwd om beide `trackingServer` en `trackingServerSecure` met dezelfde CNAME. Bijvoorbeeld beide `trackingServer` en `trackingServerSecure` wordt ingesteld op `smetrics.example.com`. HTTP is alleen toegestaan voor hostnamen van derden.
 
 1. Als de CNAME is geactiveerd, werkt Adobe samen met DigiCert aan de aanschaf en installatie van een certificaat op productieservers van Adobe.
 
