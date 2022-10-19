@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,8 @@ Hier is hoe u een nieuw eerste-partijSSL certificaat voor de inzameling van eers
 
 Dertig dagen voordat uw certificaat van de eerste partij verloopt, controleert Adobe of CNAME nog geldig en in gebruik is. Als dat het geval is, gaat Adobe ervan uit dat u de service wilt blijven gebruiken en wordt het certificaat automatisch namens u vernieuwd.
 
-Als de CNAME momenteel is verwijderd en niet meer geldig is, vernieuwt Adobe het certificaat niet en wordt de vermelding in ons systeem gemarkeerd voor verwijdering. Als CNAME is verwijderd, weet Adobe dat het volgen niet gebruikend die URL heeft plaatsgevonden, en is zo veilig om te verwijderen.
+>[!NOTE]
+> Als CNAME is verwijderd en/of niet meer geldig (Kaart niet aan verstrekte Hostname van Adobe SSL) is, kan Adobe niet het certificaat vernieuwen en de ingang in ons systeem wordt duidelijk voor verwijdering zonder verdere mededeling.
 
 ### Veelgestelde vragen
 
