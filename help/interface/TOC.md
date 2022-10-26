@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud Central-interfacecomponenten
 title: Experience Cloud Interface en Beheerdershandleiding
 description: Meer informatie over de Experience Cloud-interface en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en share Experience Cloud Assets configureren.
 index: true
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '359'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 4%
    + [Experience Cloud](core-services-landing.md)
    + [Unified Search in Experience Cloud](search-experience-cloud.md)
    + [Implementatie voor services voor meerdere toepassingen inschakelen](core-services.md)
+   + [Voorkeuren voor persoonlijk leren voor Experience Cloud](personalized-learning-preferences.md)
    + Experience Cloud Audience Library {#audiences}
       + [Experience Cloud-publiek](audience-library.md)
       + [Een doelgroep maken](t-audience-create.md)
