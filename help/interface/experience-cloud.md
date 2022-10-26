@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 013a05d68f3fdf0dc71e048dfa6144be08cdfe6a
+source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 3%
@@ -124,7 +124,7 @@ Aan [!UICONTROL Experience Cloud preferences]kunt u de volgende functies configu
 |--- |--- |
 | Standaard [organisatie](organizations.md) | Selecteer de organisatie die u wilt zien wanneer u Experience Cloud start. |
 | [!UICONTROL Product data collection] | Selecteer welke technologieën Adobe kan gebruiken om gegevens te verzamelen over hoe u uw producten van de Adobe gebruikt. |
-| [!UICONTROL Personalized learning recommendations and promotions] | Selecteer waar u persoonlijke hulp voor uw Adobe product(en) wilt ontvangen. Deze Help is beschikbaar via e-mail, in-product, en de Gemeenschappen van de Experience League. Meer informatie. |
+| [!UICONTROL Personalized learning recommendations and promotions] | Selecteer waar u persoonlijke hulp voor uw Adobe product(en) wilt ontvangen. Deze Help is beschikbaar via e-mail, in-product, en de Gemeenschappen van de Experience League. [Meer informatie.](personalized-learning-preferences.md) |
 | [!UICONTROL Subscriptions] | Selecteer de producten en categorieën waarop u zich wilt abonneren. Meldingen in de [!UICONTROL Notifications] en in uw e-mail. |
 | [!UICONTROL Priority] | Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd. Deze categorieën zijn duidelijk met een Hoog markering en kunnen voor levering zoals alarm worden gevormd. |
 | [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
