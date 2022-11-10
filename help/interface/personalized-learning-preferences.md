@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Voorkeuren voor persoonlijk leren voor Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ U kunt ervoor kiezen dat wij u nuttige inhoud bieden die op uw werk in uw Adobe-
 * Functies die u waarschijnlijk zult gebruiken
 * En meer!
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen gebruiker](https://experience.adobe.com/preferences/).
@@ -37,8 +37,6 @@ U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen ge
 <tbody>
   <tr>
     <td colspan="3">Ontvang relevante beste praktijken, uiteinden &amp; trucs, nuttige lopen door, en meer gebaseerd op uw gebruik van uw producten van de Adobe op elk van deze drie manieren...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>In uw Adobe-producten...<br></td>
@@ -51,7 +49,7 @@ U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen ge
   </tr>
   <tr>
     <td>In e-mail verzendt Adobe u...</td>
-    <td>Leerinhoud bekijken die betrekking heeft op uw werk in uw product(en)</td>
+    <td>Leerinhoud bekijken die betrekking heeft op uw werk in uw product(en).</td>
   </tr>
   <tr>
     <td>In de Experience League Gemeenschappen..</td>
@@ -72,8 +70,6 @@ U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen ge
 <tbody>
   <tr>
     <td colspan="3">Ontvang op elk van deze drie manieren op maat gemaakte mogelijkheden voor leergebeurtenissen, onderzoekssessies en integratie op basis van uw werk...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>In uw Adobe-producten...<br></td>
@@ -97,6 +93,9 @@ U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen ge
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## Zie voorbeelden van hoe deze aangepaste het leren informatie zou kunnen kijken.
 
 
@@ -111,3 +110,5 @@ U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen ge
 ### In de Experience League
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
