@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Voorkeuren voor persoonlijk leren voor Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
+source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -26,18 +26,15 @@ U kunt ervoor kiezen dat wij u nuttige inhoud bieden die op uw werk in uw Adobe-
 U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen gebruiker](https://experience.adobe.com/preferences/).
 
 
+
+
+
 ## Aanbevolen training en ondersteuning voor uw Adobe producten en services
 
+Ontvang relevante beste praktijken, uiteinden &amp; trucs, nuttige lopen door, en meer gebaseerd op uw gebruik van uw producten van de Adobe op elk van deze drie manieren...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Aanbevolen training en ondersteuning voor uw Adobe producten en services</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Ontvang relevante beste praktijken, uiteinden &amp; trucs, nuttige lopen door, en meer gebaseerd op uw gebruik van uw producten van de Adobe op elk van deze drie manieren...</td>
-  </tr>
   <tr>
     <td>In uw Adobe-producten...<br></td>
     <td>Zie pop-ups en knopinfo voor hulp in real time.</td>
@@ -59,18 +56,13 @@ U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen ge
 </table>
 
 
+
 ## Persoonlijke informatie over producten, services, evenementen en promoties van Adobe
 
+Ontvang op elk van deze drie manieren op maat gemaakte mogelijkheden voor leergebeurtenissen, onderzoekssessies en integratie op basis van uw werk...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Persoonlijke informatie over producten, services, evenementen en promoties van Adobe</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Ontvang op elk van deze drie manieren op maat gemaakte mogelijkheden voor leergebeurtenissen, onderzoekssessies en integratie op basis van uw werk...</td>
-  </tr>
   <tr>
     <td>In uw Adobe-producten...<br></td>
     <td>Zie pop-ups en knopinfo voor uitnodigingen en mogelijkheden die voor u van belang zijn.</td>
@@ -96,6 +88,9 @@ U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen ge
 [![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
+
+
+
 ## Zie voorbeelden van hoe deze aangepaste het leren informatie zou kunnen kijken.
 
 
@@ -103,9 +98,13 @@ U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen ge
 
 ![](assets/personalized-learning-in-product.gif){width="800"}
 
+
+
 ### In e-mail stuurt Adobe u
 
 ![](assets/personalized-learning-email.png){width="400"}
+
+
 
 ### In de Experience League
 
