@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Voorkeuren voor persoonlijk leren voor Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
+source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ U kunt ervoor kiezen dat wij u nuttige inhoud bieden die op uw werk in uw Adobe-
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-U kunt uw selecties op elk gewenst moment bijwerken in [Voorkeursinstellingen gebruiker](https://experience.adobe.com/preferences/).
+U kunt uw selecties op elk gewenst moment bijwerken in de sectie Productgegevensgebruik en -verzameling in uw [Voorkeursinstellingen gebruiker](https://experience.adobe.com/preferences/).
 
 
 
