@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Hier is hoe u een nieuw eerste-partijSSL certificaat voor de inzameling van eers
 
    Na het ontvangen van het kaartje, zou een vertegenwoordiger van de klantenzorg u van een verslag CNAME moeten voorzien. Deze verslagen moeten op DNS server van uw bedrijf worden gevormd alvorens Adobe het certificaat namens u kan kopen. De CNAME is gelijkaardig aan het volgende:
 
-   **Beveiligen** - Bijvoorbeeld de hostnaam `smetrics.example.com` punten naar: `example.com.adobedc.net`.
+   **Beveiligen** - Bijvoorbeeld de hostnaam `smetrics.example.com` punten naar: `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
    > In het verleden, adviseerde Adobe dat de klanten opstelling twee CNAMEs, voor HTTPS en voor HTTP. Aangezien het beste praktijken is om verkeer te coderen, en de meeste browsers sterk ontmoedigen HTTP, adviseren wij niet meer vestiging een NAAM voor HTTP. Het wordt nu als beste praktijk beschouwd om beide `trackingServer` en `trackingServerSecure` met dezelfde CNAME. Bijvoorbeeld beide `trackingServer` en `trackingServerSecure` wordt ingesteld op `smetrics.example.com`. HTTP is alleen toegestaan voor hostnamen van derden.
@@ -94,12 +94,12 @@ Het team van netwerkbewerkingen van uw organisatie moet uw DNS-servers configure
 De specialist FPC voorziet u van gevormde hostname en welke CNAME zij moeten worden gericht aan. Bijvoorbeeld:
 
 * **SSL-hostnaam**:`smetrics.mysite.com`
-* **SSL CNAME**:`mysite.com.adobedc.net`
+* **SSL CNAME**:`[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > Als u nog steeds onveilig gebruikt, ziet het er als volgt uit:
 > * **Hostnaam niet-SSL**:`metrics.mysite.com`
-> * **Niet-SSL CNAME**:`mysite.com.adobedc.net`
+> * **Niet-SSL CNAME**:`[random-10-character-string].data.adobedc.net`
 
 
 Zolang de implementatiecode niet wordt gewijzigd, heeft deze stap geen invloed op de gegevensverzameling en kan deze op elk moment na het bijwerken van de implementatiecode worden uitgevoerd.
