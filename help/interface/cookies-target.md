@@ -1,6 +1,6 @@
 ---
 description: Leer hoe Adobe Target cookies gebruikt om websitebeheerders de mogelijkheid te bieden te testen welke online inhoud en aanbiedingen voor bezoekers relevanter zijn.
-solution: Experience Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target
 title: Adobe Target Cookies
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: 65e4b6739568ea06b86744e891d30c3917f02bcc
+source-git-commit: 323a8a6f53e659369df867f19170c199aee3ac40
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ U kunt deze instellingen desgewenst wijzigen, behalve voor de duur van het cooki
 | Serverdomein | `clientcode.tt.omtrdc.net`, met de clientcode voor uw [!DNL Adobe Target] account. |
 | Duur van cookie | Het cookie blijft twee jaar na de laatste aanmelding in de browser van de bezoeker staan. U kunt de duur van het cookie niet wijzigen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -47,4 +47,4 @@ Het cookie houdt enkele waarden bij voor het beheren van de manier waarop bezoek
 | controleren | Een eenvoudige testwaarde die wordt gebruikt om te bepalen of een bezoeker cookies ondersteunt. Stel de instellingen in wanneer een bezoeker een pagina aanvraagt. |
 | disable | Stel in of de laadtijd van de bezoeker langer is dan de time-out die is geconfigureerd in het bestand at.js. Deze time-out duurt standaard 1 uur. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
