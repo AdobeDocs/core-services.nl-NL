@@ -1,16 +1,16 @@
 ---
 title: Hoe te om de Attributen van de Klant te gebruiken
-description: Meer informatie over de Customer Attributes-service in Adobe Experience Cloud. Ontdek hoe u klantkenmerkgegevens kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
+description: Meer informatie over de Customer Attributes-service in Adobe Experience Cloud. Ontdek hoe u Customer Attribute-gegevens kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
 solution: Experience Cloud
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 087db5e8d9dd066567797fb426797e746cd7fe2c
+source-git-commit: e7c487b9139262b8ba02584b5e8517a3919b8fb2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '470'
+ht-degree: 7%
 
 ---
 
@@ -59,4 +59,4 @@ Bijvoorbeeld:
 | Adobe Analytics | Marketers en analisten kunnen het volgende begrijpen:<ul><li>De online campagnes die het meest effectief zijn met uw klanten op goudniveau.</li><li>De producten die klanten op het niveau van goud naar tegenover producten zoeken die platina-vlakke klanten naar zoeken.</li><li>Of het herontwerp van uw site een positief effect heeft op de conversietarieven voor oudere klanten.</li><li>De producten die klanten met een lage levenwaarde neigen om op mijn plaats te onderzoeken.</li></ul> |
 | Adobe Target | Met kenmerkgegevens kunnen Adobe Target-gebruikers:<ul><li>Speciale kortingen en aanbiedingen voor leden van loyaliteitsclubs weergeven.</li><li>U kunt duurdere producten aanbevelen aan uw luxe klanten.</li><li>Voor klanten die al e-mailberichten ontvangen, een up-sell-aanbieding weergeven in de ruimte die normaal gesproken is gereserveerd voor e-mailaanmelding</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
