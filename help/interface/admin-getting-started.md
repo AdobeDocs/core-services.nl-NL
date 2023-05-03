@@ -1,6 +1,6 @@
 ---
 title: Gebruikers en producten beheren
-description: Meld u aan bij de Admin Console en beheer gebruikersmachtigingen en producten voor Experience Cloud-gebruikers (productprofielen). Leer over het delegeren van administratieve rechten aan Experience Cloud gebruikers, en over browser steun voor Experience Cloud.
+description: Meld u aan bij de Admin Console en beheer gebruikersmachtigingen en producten voor Experience Cloud-gebruikers (productprofielen). Leer over het delegeren van beheerdersrechten aan Experience Cloud-gebruikers en over browserondersteuning voor Experience Cloud.
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '1841'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Leer hoe u zich aanmeldt bij de Admin Console, gebruikersmachtigingen voor Exper
 
 >[!IMPORTANT]
 >
->De volgende informatie is specifiek voor Experience Cloud toepassingen. Deze informatie vormt een aanvulling op de bredere administratieve informatie in de [Handboek voor Enterprise Administration](https://helpx.adobe.com/enterprise/admin-guide.html) voor alle Adobe cloud-producten.
+>De volgende informatie is specifiek voor Experience Cloud toepassingen. Deze informatie vormt een aanvulling op de bredere administratieve informatie in de [Handboek voor Enterprise Administration](https://helpx.adobe.com/nl/enterprise/admin-guide.html) voor alle Adobe cloud-producten.
 
 U kunt een sorteerbare en filterbare lijst van alle gebruikers van de Experience Cloud en hun details in het Hulpmiddel Admin bekijken. Zie [Experience Cloud-gebruikers weergeven in het Admin-gereedschap](admin-tool-experience-cloud.md).
 
@@ -46,10 +46,10 @@ Beheerders kunnen de wijzigingen of toevoegingen aan de Admin Console als volgt 
    * Plaatsen
    * Betrouwbaarheid
    * Naamruimte van identiteit
-   * Sandboxen
+   * Sandboxes
    * Experience Data Model
    * Schema&#39;s
-   * DataStreams
+   * Gegevensstromen
    * Bezoekers-id
 
    Voor organisaties die momenteel geen Experience Platform gebruiken, ziet u nu de _Adobe Experience Platform_ in de Admin Console, met inbegrip van de hierboven vermelde mogelijkheden.
@@ -64,12 +64,12 @@ Ga voor meer informatie over de nieuwe mogelijkheden naar de pagina&#39;s op het
 * [Plaatsen](https://experienceleague.adobe.com/docs/places/using/home.html?lang=nl)
 * [Betrouwbaarheid](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html)
 * [Naamruimte van identiteit](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en)
-* [Sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)
+* [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)
 * [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl)
 * [Schema&#39;s](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
-* [DataStreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
+* [Gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
 * [Bezoekers-id](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
-* [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl)
 
 ## Experience Cloud-gebruikersverificatie (geplande migratie){#migration}
 

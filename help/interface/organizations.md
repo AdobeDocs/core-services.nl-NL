@@ -1,5 +1,5 @@
 ---
-description: Meer informatie over organisaties (IMS-organisatie-id) en het koppelen van oplossingsaccounts aan Experience Cloud.
+description: Meer informatie over organisaties (IMS-organisatie-ID) en het koppelen van oplossingsaccounts aan Experience Cloud.
 solution: Experience Cloud
 title: Organisaties en accountkoppelingen
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -11,7 +11,7 @@ exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
