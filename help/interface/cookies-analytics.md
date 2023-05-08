@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Meer informatie vindt u in de Help bij Analytics over [Eerste cookies](cookies-f
 | Locatie | Alleen CNAME-klanten. Niet van toepassing op scenario&#39;s van derden. Cookie wordt opgeslagen op uw domein, het zelfde domein dat door CNAME en uw het beeldverzoek van Analytics wordt gebruikt. |
 | Grootte | 45 bytes |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Naam cookie: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -54,7 +54,7 @@ Meer informatie vindt u in de Help bij Analytics over [Eerste cookies](cookies-f
 | Locatie | Dit cookie wordt opgeslagen op het domein van de pagina |
 | Grootte | 4 bytes |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Naam cookie: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -66,7 +66,7 @@ Meer informatie vindt u in de Help bij Analytics over [Eerste cookies](cookies-f
 | Locatie | Dit cookie wordt opgeslagen op het domein van de pagina |
 | Grootte | Varieert afhankelijk van de grootte van pagina URL, maar typisch 100-200 bytes |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Naam cookie: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -78,7 +78,7 @@ Meer informatie vindt u in de Help bij Analytics over [Eerste cookies](cookies-f
 | Locatie | Dit koekje wordt opgeslagen op het domein van het beeldverzoek - typisch een klant-specifiek subdomain onder 2o7.net of omtr dc.net als u derdekoekjes gebruikt, of als uw domein eerderangs koekjes gebruikt. |
 | Grootte | 44 bytes |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Meer informatie vindt u in de Help bij Analytics over [Eerste cookies](cookies-f
 | Locatie | Dit cookie wordt op uw domein opgeslagen als een cookie van de eerste fabrikant. |
 | Grootte | 33 bytes |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie-markeringen
 
@@ -108,7 +108,7 @@ In de volgende tabel worden de vlaggen voor Analytics-cookies beschreven:
 | s_cc (JavaScript) | Nee | Nee | Ongedaan maken |
 | s_sq (JavaScript) | Nee | Nee | Ongedaan maken |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -116,6 +116,8 @@ In de volgende tabel worden de vlaggen voor Analytics-cookies beschreven:
 
 ## Cookies ingesteld op plug-ins {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Afhankelijk van het gebruik van plug-ins voor Analytics kunnen extra cookies worden ingesteld. Deze cookies zijn codefragmenten die beschikbaar zijn voor de client en die onder verschillende omstandigheden kunnen worden gebruikt. Deze omstandigheden omvatten: waarden ophalen van de URL; samenvoegen van waarden die aan Analytics moeten worden doorgegeven; vastleggen van het verlaten van formulieren enzovoort. Neem contact op met ClientCare voor specifieke informatie over cookies die door elke insteekmodule worden ingesteld. Een voorbeeld hiervan is [!DNL s_vh] cookie gebruikt met de *Eenmaal instellen per* en *Laatste waarde instellen en ophalen* insteekmodules.
+{{plug-in}}
+
+Afhankelijk van het gebruik van plug-ins voor Analytics kunnen extra cookies worden ingesteld. Deze cookies zijn codefragmenten die beschikbaar zijn voor de client en die onder verschillende omstandigheden kunnen worden gebruikt. Deze omstandigheden omvatten: waarden ophalen van de URL; samenvoegen van waarden die aan Analytics moeten worden doorgegeven; vastleggen van het verlaten van formulieren enzovoort. Een voorbeeld hiervan is [!DNL s_vh] cookie gebruikt met de *Eenmaal instellen per* en *Laatste waarde instellen en ophalen* insteekmodules.
 
 Conversievariabelen (eVarX) die zonder JavaScript zijn doorgegeven aan een afbeeldingsaanvraag, zoals code die in een e-mailbericht is geplaatst, worden alleen correct toegewezen als de e-mailclient en webbrowser cookieruimte delen.
