@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1311'
 ht-degree: 3%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 3%
 Vanuit Experience Cloud kunt u:
 
 * Toegang tot uw toepassingen en services
-* Zoeken naar productdocumentatie, zelfstudies en communityberichten
-* Zakelijke objecten wereldwijd zoeken met een algemene zoekopdracht (alleen voor gebruikers van Experience Platforms)
+* Zoek in het menu Help naar productdocumentatie, zelfstudies en communityartikelen. Resultaten weergeven in Experience League.
+* Zakelijke objecten zoeken op algemene wijze met een algemene zoekopdracht (alleen voor gebruikers van Experience Platforms) in het veld Zoeken.
 * Uw accountvoorkeuren beheren (waarschuwingen, meldingen en abonnementen)
 
 ## Aanmelden bij Experience Cloud {#signin}
@@ -130,7 +130,7 @@ Aan [!UICONTROL Experience Cloud preferences]kunt u de volgende functies configu
 | [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
 | E-mails | Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Meldingen en aankondigingen {#notifications}
 
@@ -168,7 +168,7 @@ Deze gids verleent toegang tot hulp op Experience Cloud gebruiker en productbele
 * [Overzicht van privacy en beveiliging bij Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-prefetch](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Hulplijnen
+## Handleidingen
 
 Verwante hulplijnen voor Experience Cloud zijn:
 
@@ -192,7 +192,7 @@ Profiteer van zelfstudiemateriaal en snelle zelfstudies in Experience League:
 
 * [Productdocumentatie voor alle Experience Cloud-toepassingen](https://experienceleague.adobe.com/docs/home.html?lang=en) - Blader naar hulp bij Experience Cloud Learn &amp; Support
 * [Opmerkingen bij de release en productupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Nieuwe functies in de Experience Cloud en meld u aan om updates te ontvangen
-* [Tutorials voor de implementatie van kerndiensten](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - Bekijk video&#39;s en zelfstudies over basisservices
+* [Tutorials voor de implementatie van kerndiensten](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=nl) - Bekijk video&#39;s en zelfstudies over basisservices
 * [Deskundige hulp bij Experience League](https://experienceleague.adobe.com/) - Leren met instructies van experts en de gemeenschap
 * [Onderwijs en opleiding](https://helpx.adobe.com/nl/learning.html?promoid=KAUDK) - Neem Adobe aan om ervoor te zorgen dat u het meeste uit Adobe producten krijgt
 * [Blog met ervaring voor klanten](https://blog.adobe.com/en/topics/digital-transformation) - Lees de Experience Cloud-blog

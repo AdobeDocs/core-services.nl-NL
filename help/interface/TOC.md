@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud Central-interfacecomponenten
 title: Experience Cloud Interface en Beheerdershandleiding
 description: Meer informatie over de Experience Cloud-interface en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en share Experience Cloud Assets configureren.
 index: true
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 4%
+source-wordcount: '361'
+ht-degree: 11%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 4%
       + [Experience Cloud-publiek](audience-library.md)
       + [Een doelgroep maken](t-audience-create.md)
       + [Een publiekssegment Analytics publiceren](t-publish-audience-segment.md)
-   + Kenmerken Experience Cloud-klant {#customer-attributes}
-      + [Overzicht van klantkenmerken](attributes.md)
+   + Experience Cloud-klantkenmerken {#customer-attributes}
+      + [Klantkenmerken in Experience Cloud](attributes.md)
       + [Veelgestelde vragen over Customer Attributes](faq-crs.md)
       + [Gegevensbestand en gegevensbronnen voor klantkenmerken](crs-data-file.md)
       + [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](t-crs-usecase.md)
@@ -41,7 +41,7 @@ ht-degree: 4%
       + [Overzicht van activering](activation.md)
       + [Gebruikershandleiding voor Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
       + [Triggers](triggers.md)
-   + Experience Cloud-middelen {#assets}
+   + Experience Cloud Assets {#assets}
       + [Overzicht van Experience Cloud-elementen](experience-cloud-assets.md)
       + [Experience Cloud-mappen en -elementen delen met Creative Cloud](creative-cloud.md)
       + [Creative Cloud-gebruikers beheren](t-admin-add-cc-user.md)
