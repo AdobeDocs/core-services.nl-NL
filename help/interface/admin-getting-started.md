@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 5%
+source-wordcount: '1813'
+ht-degree: 6%
 
 ---
 
@@ -128,11 +128,11 @@ Wanneer u een gebruiker naar een organisatie uitnodigt, kunt u de gebruiker toeg
 1. Selecteer **[!UICONTROL New Profile]**.
 1. Configureer de profieldetails en selecteer vervolgens **[!UICONTROL Save]**.
 
-Zie voor meer informatie (en voor hulp bij het beheer van Creative Cloud- en Document Cloud-producten) [Identiteit](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html) in de [Gebruikershandleiding voor beheer](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html).
+Zie voor meer informatie (en voor hulp bij het beheer van Creative Cloud- en Document Cloud-producten) [Identiteit](https://helpx.adobe.com/enterprise/using/identity.html) in de [Gebruikershandleiding voor beheer](https://helpx.adobe.com/nl/enterprise/using/users.html).
 
 **Gerelateerde help**
 
-* [Producten en profielen beheren](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html) in de Gebruikershandleiding voor Beheer.
+* [Producten en profielen beheren](https://helpx.adobe.com/enterprise/using/manage-products.html) in de Gebruikershandleiding voor Beheer.
 * [Machtigingen voor zakelijke gebruikers](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en) in Adobe Target Help voor meer informatie.
 * Video: [Adobe Target-werkruimten configureren in Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
 
@@ -188,7 +188,7 @@ Na de migratie melden gebruikers zich aan met hun Adobe ID (of Enterprise ID) en
 **Gerelateerde help**
 
 * [Analyses in de Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
-* [Migratie van gebruikers-id voor analyse](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en)
+* [Migratie van gebruikers-id voor analyse](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Adobe Target beheren - Productprofielen versus werkruimten {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -197,7 +197,7 @@ In Adobe Target is een werkruimte een productprofiel. Het laat een organisatie e
 Zie:
 
 * [Machtigingen voor zakelijke gebruikers](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [Producten en profielen beheren](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* [Producten en profielen beheren](https://helpx.adobe.com/enterprise/using/manage-products.html)
 * Video: [Adobe Target-werkruimten configureren in Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
 
 ## Campagneproductprofielen, huurders en beveiligingsgroepen beheren {#section_09CDF75366444CF5810CF321B7C712F3}
@@ -220,7 +220,7 @@ Zie [Gebruikersmachtigingen](https://experienceleague.adobe.com/docs/experience-
 
 Adobe Enterprise-klanten worden vertegenwoordigd als organisaties in de Adobe [!UICONTROL Admin Console]. De klanten van de Experience Manager kunnen de Adobe gebruiken [!UICONTROL Admin Console] productrechten en IMS-authenticatie voor Experience Manager als een [!UICONTROL Cloud Service].
 
-Zie [IMS-ondersteuning voor as a Cloud Service Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
+Zie [IMS-ondersteuning voor as a Cloud Service Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=en).
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -236,10 +236,9 @@ Zie [Beheer](https://experienceleague.adobe.com/docs/audience-manager/user-guide
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Opmerking:** Hoewel de interface Experience Cloud deze browsers ondersteunt, ondersteunen afzonderlijke toepassingen niet elke browser. (Bijvoorbeeld: [Analyse](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) ondersteunt niet [!DNL Opera], en [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en) ondersteunt niet [!DNL Safari].)
+**Opmerking:** Hoewel de interface Experience Cloud deze browsers ondersteunt, ondersteunen afzonderlijke toepassingen niet elke browser. ([Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) biedt bijvoorbeeld geen ondersteuning voor [!DNL Opera] en [!DNL Adobe Target] biedt geen ondersteuning voor [!DNL Safari].)
 
 ### Oplossing en productvereisten
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=en)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)

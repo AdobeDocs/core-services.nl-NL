@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Wat u moet doen om zich bij de Experience Cloud aan te sluiten:
 
    >[!NOTE]
    >
-   >Voor [!DNL Target], migreren naar at.js van [!DNL mbox.js]. Zie [Upgrade uitvoeren vanaf 0,js 1. x tot at.js 2. x](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=en).
+   >Voor [!DNL Target], migreren naar at.js van [!DNL mbox.js]. Zie [Upgrade uitvoeren vanaf 0,js 1. x tot at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html).
 
 1. Moderniseer uw implementatie en krijg provisioned een beheerder.
 
@@ -99,7 +99,7 @@ Als u dit niet gebruikt [!UICONTROL Experience Platform Launch] of [!UICONTROL D
 | Bestaande bijwerken [!DNL s_code] naar versie H.27.3 of hoger, of naar uw bestaande versie [!DNL AppMeasurement.js] naar versie 1.4 of hoger. | Deze bestanden kunnen worden gedownload in het dialoogvenster [Codebeheer](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en) in Analytics Admin Tools. (De [JavaScript-implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js) de gids is beschikbaar als u meer informatie over nodig hebt [!DNL AppMeasurement.js].) |
 | De klant-id voor Analytics synchroniseren | Zie [Analyse - de klant-id synchroniseren](core-services.md#section_AD473A6A21C1446498E700363F9A8437) (hieronder). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Analyse en Adobe Target - de klant-id synchroniseren {#section_AD473A6A21C1446498E700363F9A8437}
 
@@ -118,7 +118,7 @@ De klant-id moet op elke [!DNL Analytics] serveraanroep waarvan de klant-id beke
 
 #### Analyse: de klant-id synchroniseren met de Data Warehouse backfill-methode
 
-Toen Klantkenmerken voor het eerst beschikbaar kwamen, hadden sommige klanten de Experience Cloud-id-service nog niet geïmplementeerd en konden ze de klantkenmerken niet gemakkelijk gebruiken. Om dit probleem te helpen verlichten, creeerde Adobe een middel om een backfill van de syncs van identiteitskaart te doen gebruikend het gegevenspakhuis van Adobe Analytics. Deze eigenschap is gekend als &quot;gegevenspakhuis backfill&quot;. De back-up van het gegevenspakhuis is nu over het algemeen niet nodig en zal daarom niet langer beschikbaar zijn vanaf oktober 2022.
+Toen Klantkenmerken voor het eerst beschikbaar kwamen, hadden sommige klanten de Experience Cloud-id-service nog niet geïmplementeerd en konden ze de klantkenmerken niet gemakkelijk gebruiken. Om dit probleem te helpen verlichten, creeerde Adobe een middel om een backfill van de syncs van identiteitskaart te doen gebruikend de Data Warehouse van Adobe Analytics. Deze functie wordt de Data Warehouse backfill genoemd. De Data Warehouse backfill is nu over het algemeen niet nodig en zal daarom niet langer beschikbaar zijn vanaf oktober 2022.
 
 
 ### Mobiele SDK&#39;s
