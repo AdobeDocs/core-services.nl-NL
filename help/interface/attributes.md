@@ -1,6 +1,6 @@
 ---
 title: Klantkenmerken
-description: Meer informatie over de klantkenmerken in Experience Cloud. Ontdek hoe u Customer Attribute-gegevens kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
+description: Meer informatie over de Customer Attributes in Experience Cloud. Ontdek hoe u Customer Attribute-gegevens kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -28,13 +28,13 @@ Navigeer naar deze functie om deze functie te zoeken **[!DNL Experience Platform
 
 * **Groepslidmaatschap:** Gebruikers moeten lid zijn van de [Klantkenmerken, groep](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
 
-   Als u wilt weten of uw bedrijf toegang heeft tot Customer Attributes, kunt u [!DNL Experience Cloud] beheerder moet zich aanmelden bij de [Experience Cloud](https://experience.adobe.com). Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Indien *Klantkenmerken* wordt weergegeven als een van de [!UICONTROL Product Profiles], bent u klaar om te beginnen.
+  Als u wilt weten of uw bedrijf toegang heeft tot Customer Attributes, kunt u [!DNL Experience Cloud] beheerder moet zich aanmelden bij de [Experience Cloud](https://experience.adobe.com). Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Indien *Klantkenmerken* wordt weergegeven als een van de [!UICONTROL Product Profiles], bent u klaar om te beginnen.
 
-   De gebruikers die aan de Attributen van de Klant worden toegevoegd zien [!UICONTROL Customer Attributes] menu-item links van de interface Experience Cloud.
+  De gebruikers die aan de Attributen van de Klant worden toegevoegd zien [!UICONTROL Customer Attributes] menu-item links van de interface Experience Cloud.
 
 * **Adobe Target** `at.js` (elke versie) of `mbox.js` versie 58 of hoger is vereist voor Klantkenmerken.
 
-   Zie [Hoe te opstellen bij.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
+  Zie [Hoe te opstellen bij.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
 
 ## Wat zijn bedrijfsklantgegevens? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
