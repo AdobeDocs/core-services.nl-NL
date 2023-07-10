@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
+source-git-commit: 4c3b72fb17b241208b5dea4f85cf1fd2a97ab303
 workflow-type: tm+mt
-source-wordcount: '4927'
+source-wordcount: '4696'
 ht-degree: 3%
 
 ---
@@ -23,21 +23,23 @@ Voor een lijst met documentatie-updates raadpleegt u [Experience Cloud](doc-upda
 
 Voor opmerkingen over alle toepassingen raadpleegt u [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
 
-## Juli - augustus 2023
+<!-- ## July - August 2023
 
-Geen: **20 juli - 31 augustus 2023**
+NA - released July 2022
 
-Adobe werkt zijn levering bij om allen te verstrekken [!DNL Experience Cloud] klanten hebben toegang tot basisvaardigheden die interoperabiliteit tussen sommige [!DNL Experience Cloud] producten. Gebruikers hebben [!DNL Experience Platform] als een nieuw toeslagrecht toegevoegd aan hun [!DNL Experience Cloud] organisaties, met [Gegevensverzameling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) als inbegrepen dienst. [!DNL Experience Platform] [!UICONTROL Data Collection] bevat codes voor vereenvoudigd beheer van Universal-tags en een vertrouwde, robuuste en volledige streaminggegevensinfrastructuur. Deze update vereenvoudigt het verzamelen van gegevens en stroomlijnt de levering van ervaringen.
+Release: **July 20 - August 31, 2023**
 
-Met deze update zien beheerders mogelijk wijzigingen of toevoegingen aan de Admin Console:
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
-* De Adobe [!DNL Experience Platform] de productkaart in de Admin Console bevat : [Plaatsen](https://experienceleague.adobe.com/docs/places/using/home.html), [Betrouwbaarheid](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Naamruimte van identiteit](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl), [Sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [DataStreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), en [Experience Cloud-id](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+With this update, administrators may see changes or additions to the Admin Console:
 
-   * Voor organisaties die momenteel geen gebruik maken [!DNL Experience Platform], ziet u nu de [!DNL Experience Platform] product in de [!UICONTROL Admin Console], met inbegrip van de hierboven vermelde mogelijkheden.
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
-   * Voor organisaties die momenteel [!DNL Experience Platform], [!UICONTROL Places] wordt geconsolideerd in de [!DNL Experience Platform] kaart.
+  * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
-* Adobe [!DNL Experience Platform] [Gegevensverzameling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (voorheen) [!DNL Launch]) en [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) blijven verschijnen als hun eigen productkaarten, los van de andere [!DNL Experience Platform] mogelijkheden
+  * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
+
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## Mei 2023
 
