@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
 workflow-type: tm+mt
-source-wordcount: '4695'
-ht-degree: 2%
+source-wordcount: '4927'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,28 @@ Functies, releaseopmerkingen en bekende problemen met de Experience Cloud Centra
 Voor een lijst met documentatie-updates raadpleegt u [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Voor opmerkingen over alle toepassingen raadpleegt u [Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Juli - augustus 2023
+
+Geen: **20 juli - 31 augustus 2023**
+
+Adobe werkt zijn levering bij om allen te verstrekken [!DNL Experience Cloud] klanten hebben toegang tot basisvaardigheden die interoperabiliteit tussen sommige [!DNL Experience Cloud] producten. Gebruikers hebben [!DNL Experience Platform] als een nieuw toeslagrecht toegevoegd aan hun [!DNL Experience Cloud] organisaties, met [Gegevensverzameling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) als inbegrepen dienst. [!DNL Experience Platform] [!UICONTROL Data Collection] bevat codes voor vereenvoudigd beheer van Universal-tags en een vertrouwde, robuuste en volledige streaminggegevensinfrastructuur. Deze update vereenvoudigt het verzamelen van gegevens en stroomlijnt de levering van ervaringen.
+
+Met deze update zien beheerders mogelijk wijzigingen of toevoegingen aan de Admin Console:
+
+* De Adobe [!DNL Experience Platform] de productkaart in de Admin Console bevat : [Plaatsen](https://experienceleague.adobe.com/docs/places/using/home.html), [Betrouwbaarheid](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Naamruimte van identiteit](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl), [Sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [DataStreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), en [Experience Cloud-id](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+
+   * Voor organisaties die momenteel geen gebruik maken [!DNL Experience Platform], ziet u nu de [!DNL Experience Platform] product in de [!UICONTROL Admin Console], met inbegrip van de hierboven vermelde mogelijkheden.
+
+   * Voor organisaties die momenteel [!DNL Experience Platform], [!UICONTROL Places] wordt geconsolideerd in de [!DNL Experience Platform] kaart.
+
+* Adobe [!DNL Experience Platform] [Gegevensverzameling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (voorheen) [!DNL Launch]) en [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) blijven verschijnen als hun eigen productkaarten, los van de andere [!DNL Experience Platform] mogelijkheden
+
+## Mei 2023
+
+Geen: **25 mei 2023**
+
+* In de [!DNL Experience Cloud] **[!UICONTROL Help]** -menu, is de zoekopdracht naar inhoud bijgewerkt en filtert deze via de toepassing in het dialoogvenster [Experience League](https://experienceleague.adobe.com/#home) zoekresultaten.
 
 ## Juli - 2022
 
@@ -35,7 +57,7 @@ Geplande release: **11 juli 2022**
 | ------- | ------- |
 | Unified Home - Quick Access-widget | **Navigeren sneller:** U kunt uw thuiservaring nu verder aanpassen en bepalen welke toepassingen binnen handbereik zijn. Met de nieuwe functie voor vastzetten kunt u selecteren welke toepassingen op de voorgrond en in het midden van uw [!UICONTROL Quick Access]. <br>**Blijf op de hoogte met slim vastzetten:** Uw nieuwe toepassingen zijn nu gemakkelijker te vinden. Nieuw toegewezen toepassingen weergeven als _Nieuw_ badge en automatisch vastzetten op [!UICONTROL Quick Access]. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## April - 2022
 
@@ -43,7 +65,7 @@ Geplande release: **11 juli 2022**
 | ------- |-------|
 | Zoeken in natuurlijke talen | Krijg onmiddellijke antwoorden aan al uw hulpvragen, door één enkele interface via Verenigd Onderzoek. Deze functie is altijd beschikbaar op elke pagina van [!DNL Experience Platform] en [!DNL Journey Optimizer]. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Maart - 2022
 
@@ -66,7 +88,7 @@ Geplande release: **11 juli 2022**
 | AEP-dashboards | [!DNL Helios Lite] bevat grafiekaanbevelingen in de workflow voor het maken van Experience Platforms-widgets. Op basis van een gegevensselectie (momenteel één variabele gegevensselectie), [!DNL Helios] beveelt een passende visualisatie aan om deze gegevensselectie te begeleiden. |
 | AEP-dashboards | [!DNL Instory] biedt geschreven commentaar en bijschriften op basis van ML voor grafieken. Het simuleert grafieken op de pagina AEP-dashboards met relevante opsommingstekens die belangrijke wijzigingen en incidenten in de grafische gegevens aangeven. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Oktober - 2021
 
@@ -77,7 +99,7 @@ Geplande release: **11 juli 2022**
 | Experience Cloud [!UICONTROL Triggers] navigatie | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en) is beschikbaar voor directe navigatie van de toepassingsschakelaar in de kopbal voor provisioned gebruikers. |
 | **Opmerking:** Update voor geplande interfacenavigatie | In november 2021 _[!UICONTROL Go to Launch / Data Collection]_navigatiefunctie wordt verwijderd uit <https://experience.adobe.com/implement>. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Augustus - 2021
 
@@ -94,9 +116,9 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 | Functie | Datum | Beschrijving |
 | ------- | ------- | ------- |
 | Single Sign-On-ondersteuning voor Adobe-id&#39;s | 17 juni 2021 | Als u Federatieve id&#39;s gebruikt, kunt u zich aanmelden bij Experience Cloud zonder een e-mailadres of wachtwoord in te voeren. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` naar de URL van de Experience Cloud. <br>Stel dat u eigenaar bent van het domein `adobecustomer.com` en wilt u aanmelden bij Adobe Analytics. De URL is: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League zoeken | 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeren naar [Experience League](https://experienceleague.adobe.com/docs/?lang=en) en gebruiken de **[!UICONTROL Search]** veld voor het zoeken naar zelfstudies, documentatie, cursussen en meer. |
+| Experience League zoeken | 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeren naar [Experience League](https://experienceleague.adobe.com/docs/?lang=nl) en gebruiken de **[!UICONTROL Search]** veld voor het zoeken naar zelfstudies, documentatie, cursussen en meer. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mei - 2021
 
@@ -106,7 +128,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 | Experience Cloud Global Search | 20 mei 2021 | Met deze release kunt u met een algemene zoekopdracht in Experience Cloud naar alle [Experience League](https://experienceleague.adobe.com/#home) documentatie, cursussen en zelfstudies. (Momenteel is de algemene zoekopdracht alleen beschikbaar voor gebruikers in de Experience Platform. Globale zoekopdracht naar [!UICONTROL Platform] laat u toe om naar om het even welk bedrijfsvoorwerp in Experience Cloud, zoals segmenten, gegevensreeksen, schema&#39;s, en meer te zoeken.) |
 | Voorkeuren voor Experience Cloud-taal | 20 mei 2021 | Deze update biedt de mogelijkheid om uw voorkeurstalen in te stellen in Experience Cloud [Voorkeuren](https://experience.adobe.com/preferences). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## augustus - 2020
 
@@ -114,7 +136,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 | -----------| ---------- |
 | Beheer - beleidsregels | Op deze pagina wordt een volledige lijst met beleid voor Experience Cloud in uw organisatie weergegeven. Het verstrekt informatie over producten, instanties, gebruikers, en ontwikkelaars. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de lijst met beleidsregels. Zie [Help voor de Experience Cloud-beheertool](admin-tool-experience-cloud.md) voor meer informatie. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## April - 2020
 
@@ -127,7 +149,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 | -----------| ---------- |
 | Beheer - Gebruikersgegevens weergeven | Beheerders kunnen een sorteerbare en filterbare lijst met alle Experience Cloud-gebruikers en hun gegevens weergeven in het nieuwe Admin-gereedschap. De details van de gebruiker omvatten de het producttoegang van een gebruiker, rollen, en laatste betreden informatie. Zie [Help voor de Experience Cloud-beheertool](admin-tool-experience-cloud.md) voor meer informatie. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Oplossingen**
 
@@ -595,7 +617,7 @@ Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Clou
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Help</span> &gt; <span class="uicontrol"> Exchange</span></p> <p>De <span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> is één doel waarmee u digitale marketingextensies kunt zoeken, zoeken, selecteren, betalen en downloaden via apps. </p> <p>De toepassingen omvatten schakelaars, douaneconfiguraties aan Adobe basisproduct, derdetoepassingen, rapporten, en <span class="keyword"> Experience Cloud</span> kaarten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud publiek </p> </td> 
+   <td colname="col1"> <p>Experience Cloud-doelgroepen </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Soorten publiek</span></p> <p> <span class="wintitle"> Soorten publiek</span> Hier maakt, bewerkt en beheert u soorten publiek, net als bij segmenten. U kunt bijvoorbeeld een segment maken in Rapporten en Analytics en het vervolgens delen naar <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Soorten publiek</span>. Nadat het publiek is gedeeld, is het beschikbaar in <span class="keyword"> Adobe Target</span> voor campagneactiviteiten en in Adobe Audience Manager voor segmentatie. </p> <p> <p>Opmerking: Ga naar <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
