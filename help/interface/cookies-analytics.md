@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
+source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 3%
@@ -48,7 +48,7 @@ Meer informatie vindt u in de Help bij Analytics over [Eerste cookies](cookies-f
 
 | Kenmerk | Beschrijving |
 |--- |--- |
-| Opgeslagen informatie | Deze cookie wordt ingesteld en gelezen door de JavaScript-code om te bepalen of cookies zijn ingeschakeld (ingesteld op &quot;Waar&quot;) |
+| Opgeslagen informatie | Deze cookie wordt ingesteld en gelezen door de JavaScript-code om te bepalen of cookies zijn ingeschakeld (ingesteld op Waar) |
 | Verlopen | Dit cookie is een sessiecookie en verloopt wanneer de browser wordt gesloten |
 | Gebruik | Slechts één cookie voor alle accounts |
 | Locatie | Dit cookie wordt opgeslagen op het domein van de pagina |
@@ -60,11 +60,11 @@ Meer informatie vindt u in de Help bij Analytics over [Eerste cookies](cookies-f
 
 | Kenmerk | Beschrijving |
 |--- |--- |
-| Opgeslagen informatie | Dit cookie wordt ingesteld en gelezen door de JavaScript-code wanneer de functionaliteit SelectMap of de functionaliteit Activity Map is ingeschakeld. het bevat informatie over de vorige koppeling waarop de gebruiker heeft geselecteerd |
+| Opgeslagen informatie | Deze cookie wordt ingesteld en gelezen door de JavaScript-code wanneer de functionaliteit ClickMap of de functionaliteit Activity Map is ingeschakeld. De cookie bevat informatie over de vorige koppeling die door de gebruiker is ingeschakeld |
 | Verlopen | Dit cookie is een sessiecookie en verloopt wanneer de browser wordt gesloten |
 | Gebruik | Slechts één cookie voor alle accounts |
 | Locatie | Dit cookie wordt opgeslagen op het domein van de pagina |
-| Grootte | Varieert afhankelijk van de grootte van pagina URL, maar typisch 100-200 bytes |
+| Grootte | Varieert afhankelijk van pagina URL grootte, maar typisch 100-200 bytes |
 
 {style="table-layout:auto"}
 
@@ -75,7 +75,7 @@ Meer informatie vindt u in de Help bij Analytics over [Eerste cookies](cookies-f
 | Opgeslagen informatie | Unieke tijd-/datumstempel van bezoekersidentiteitskaart |
 | Verlopen | 2 jaar |
 | Gebruik | Dit cookie wordt gebruikt om een unieke bezoeker te identificeren |
-| Locatie | Dit koekje wordt opgeslagen op het domein van het beeldverzoek - typisch een klant-specifiek subdomain onder 2o7.net of omtr dc.net als u derdekoekjes gebruikt, of als uw domein eerderangs koekjes gebruikt. |
+| Locatie | Deze cookie wordt opgeslagen op het domein van de afbeeldingsaanvraag. Dit is doorgaans een klantspecifiek subdomein onder 2o7.net of omtrdc.net als u cookies van derden gebruikt of als uw domein cookies van de eerste fabrikant gebruikt. |
 | Grootte | 44 bytes |
 
 {style="table-layout:auto"}
@@ -102,7 +102,7 @@ In de volgende tabel worden de vlaggen voor Analytics-cookies beschreven:
 
 | Koekje (ingesteld door) | httpOnly | Beveiligen | SameSite |
 |--- |--- |--- |--- |
-| s_vi (http Response) | Nee | Ja wanneer SameSite &quot;None&quot; is en verbinding HTTPS gebruikt | Standaard &#39;Lax&#39; wanneer CNAME wordt gebruikt. &quot;Geen&quot; bij gebruik van 2o7.net of omtr dc.net. |
+| s_vi (http Response) | Nee | Ja wanneer SameSite &quot;None&quot; is en verbinding HTTPS gebruikt | Standaard &#39;Lax&#39; wanneer CNAME wordt gebruikt. &quot;Geen&quot; bij gebruik van 2o7.net of omtrdc.net. |
 | s_ecid (http Response) | Nee | Nee | &quot;Lax&quot; |
 | s_fid (JavaScript) | Nee | Nee | Ongedaan maken |
 | s_cc (JavaScript) | Nee | Nee | Ongedaan maken |
@@ -118,6 +118,6 @@ In de volgende tabel worden de vlaggen voor Analytics-cookies beschreven:
 
 {{plug-in}}
 
-Afhankelijk van het gebruik van plug-ins voor Analytics kunnen extra cookies worden ingesteld. Deze cookies zijn codefragmenten die beschikbaar zijn voor de client en die onder verschillende omstandigheden kunnen worden gebruikt. Deze omstandigheden omvatten: waarden ophalen van de URL; samenvoegen van waarden die aan Analytics moeten worden doorgegeven; vastleggen van het verlaten van formulieren enzovoort. Een voorbeeld hiervan is [!DNL s_vh] cookie gebruikt met de *Eenmaal instellen per* en *Laatste waarde instellen en ophalen* insteekmodules.
+Afhankelijk van het gebruik van plug-ins voor Analytics kunnen extra cookies worden ingesteld. Deze cookies zijn codefragmenten die beschikbaar zijn voor de client en die onder verschillende omstandigheden kunnen worden gebruikt. Deze omstandigheden zijn onder andere: waarden ophalen van de URL, waarden samenvoegen om door te geven aan Analytics, formulierverwijdering vastleggen enzovoort. Een voorbeeld hiervan is [!DNL s_vh] cookie gebruikt met de *Eenmaal instellen per* en *Laatste waarde instellen en ophalen* insteekmodules.
 
 Conversievariabelen (eVarX) die zonder JavaScript zijn doorgegeven aan een afbeeldingsaanvraag, zoals code die in een e-mailbericht is geplaatst, worden alleen correct toegewezen als de e-mailclient en webbrowser cookieruimte delen.
