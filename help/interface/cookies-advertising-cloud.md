@@ -1,26 +1,26 @@
 ---
-description: Leer hoe u Adobe Ad Cloud-cookies kunt gebruiken om gebeurtenissen in verband met betrokkenheid en betrokkenheid toe te wijzen aan conversiegebeurtenissen en deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
-title: 'Advertising Cloud Cookies '
+description: Leer meer over Adobe Advertising cookies voor het toewijzen en plaatsen van afspraken aan conversiegebeurtenissen en, mogelijk, het gebruik van die informatie voor het optimaliseren van advertenties.
+title: Cookies Adoben Advertising
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
+source-git-commit: 5d0e02713ec4b233e06ecd3ac0234d1526b947f1
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '554'
 ht-degree: 4%
 
 ---
 
-# Advertising Cloud Cookies{#advertising-cloud-cookies}
+# Cookies Adoben Advertising{#advertising-cloud-cookies}
 
-Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conversie toe te wijzen en om deze informatie mogelijk te gebruiken voor het optimaliseren van advertenties.
+Adobe Advertising (voorheen Adobe Advertising Cloud) gebruikt cookies om gebeurtenissen voor conversie in kaart te brengen en te koppelen aan conversiegebeurtenissen en deze informatie mogelijk te gebruiken om advertenties te optimaliseren.
 
 >[!NOTE]
 >
->De JavaScript-tag beta Advertising Cloud die de tag [Adobe Experience Cloud ID-service (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) create [first-party Experience Cloud s_ecid cookies](cookies-first-party.md), niet Advertising Cloud cookies.
+>De JavaScript-tag voor bètaAdoben Advertising die de tag [Adobe Experience Cloud ID-service (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) create [Experience Cloud_ecid-cookies van eerste fabrikant](cookies-first-party.md), niet Adobe Advertising cookies.
 
 ## Naam cookie: _lcc
 
@@ -55,7 +55,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
  </tbody> 
 </table>
 
-## Naam cookie: _naam
+## Naam cookie: _tag
 
 <table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
  <thead> 
@@ -67,7 +67,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p>Gecodeerde id's en tijdstempels voor advertentiegroepen met behulp van Advertising Cloud DSP-tracking </p> </td> 
+   <td colname="col2"> <p>Gecodeerde id's en tijdstempels voor advertentiegerelateerde services met behulp van Adobe Advertising DSP-tracking </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
@@ -104,15 +104,15 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
-   <td colname="col2"> <p>Cookies die zijn ingesteld op 24 februari 2021 of eerder verlopen na 730 dagen. Cookies die zijn ingesteld op 25 februari 2021 of hoger verlopen na 364 dagen.</p> </td> 
+   <td colname="col2"> <p>1 jaar</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
-   <td colname="col2"> <p>Een eersteklas cookie die de surfer-id koppelt aan relevante publiekssegmenten en conversies </p> <p> Informatie over het laatste bezoek wordt gebruikt om de laadtijden van de pagina te optimaliseren door onnodige verzoeken aan Adobe-servers te voorkomen. </p> <p>Met informatie over de laatste zoekklik kunt u bepalen of een conversiegebeurtenis het resultaat is van een klik of een doorkijkbewerking (conversie als gevolg van indrukkingen maar zonder klikken). </p> </td> 
+   <td colname="col2"> <p>Een eersteklas cookie die de surfer-id koppelt aan relevante publiekssegmenten en conversies </p> <p> Informatie over het laatste bezoek wordt gebruikt om de laadtijden van de pagina te optimaliseren door onnodige verzoeken om [!DNL Adobe] servers. </p> <p>Met informatie over de laatste zoekklik kunt u bepalen of een conversiegebeurtenis het resultaat is van een klik of een doorkijkbewerking (conversie als gevolg van indrukkingen maar zonder klikken). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Locatie </p> </td> 
-   <td colname="col2"> <p>Het domein op hoofdniveau van de adverteerder (bijvoorbeeld example.com) </p> </td> 
+   <td colname="col2"> <p>Het topdomein van de adverteerder (bijvoorbeeld example.com) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grootte </p> </td> 
@@ -121,9 +121,9 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
  </tbody> 
 </table>
 
-## Naam cookie: ev_sync_*
+## Naam cookie: ev_sync_&#42;
 
-(ev_sync_ax, ev_sync_bk, ev_sync_dd, ev_sync_fs, ev_sync_tm, ev_sync_nx, ev_sync_ox, ev_sync_pm, ev_sync_rc, ev_sync_tm, ev_sync_yh)
+(ev_sync_ax, ev_sync_bk, ev_sync_dd, ev_sync_fs, ev_sync_nx, ev_sync_ox, ev_sync_pm, ev_sync_rc, ev_sync_tm, ev_sync_yh)
 
 <table id="table_A05C02AB261946E0AABAD78259392D81"> 
  <thead> 
@@ -143,7 +143,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
-   <td colname="col2"> <p>Een derde partij, en uitwisselingsspecifieke koekje dat de Advertising Cloud afwisselings identiteitskaart met de partner en de uitwisseling synchroniseert. Het is gecreeerd voor nieuwe surfers en verzendt een synchronisatieverzoek wanneer het is verlopen. </p> </td> 
+   <td colname="col2"> <p>Een derde partij, en ruilspecifieke koekje dat de Adobe Advertising overfer identiteitskaart met de partner en de uitwisseling synchroniseert. Het is gecreeerd voor nieuwe surfers en verzendt een synchronisatieverzoek wanneer het is verlopen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Locatie </p> </td> 
@@ -172,7 +172,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
-   <td colname="col2"> <p>2 jaar </p> </td> 
+   <td colname="col2"> <p>1 jaar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruik </p> </td> 
@@ -234,7 +234,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP (Demand Side Platform)-id </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising DSP (Demand Side Platform)-id </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verlopen </p> </td> 
@@ -279,7 +279,7 @@ Advertising Cloud gebruikt cookies om gebeurtenissen met betrekking tot de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p>Locatie </p> </td> 
-   <td colname="col2"> <p>Het domein op hoofdniveau van de adverteerder (bijvoorbeeld example.com) </p> </td> 
+   <td colname="col2"> <p>Het topdomein van de adverteerder (bijvoorbeeld example.com) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grootte </p> </td> 
