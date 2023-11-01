@@ -1,14 +1,13 @@
 ---
 description: Leer hoe te om DNS prefetch uit te voeren helpen de tijden van de paginading met verschillende toepassingen en de diensten in Experience Cloud verminderen.
 solution: Experience Cloud
-title: 'DNS-prefetch gebruiken met verschillende toepassingen en services '
+title: DNS-prefetch gebruiken met verschillende toepassingen en services
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
@@ -27,10 +26,10 @@ Browsers gebruiken DNS prefetch om domeinnamen automatisch op te lossen die op e
 
 DNS-prefetch werkt automatisch met statische, ingesloten koppelingen op een pagina. Dit betekent ook dat automatische DNS-prefetch niet werkt met verschillende [!UICONTROL Experience Cloud] toepassingen en services omdat:
 
-* Elke Experience Cloud-toepassing of -service genereert dynamisch DNS-aanroepen terwijl de pagina wordt geladen.
+* Elke toepassing of dienst van het Experience Cloud produceert DNS dynamisch vraag aangezien de pagina laadt.
 * Browser kan domeinnamen aan IP adres niet oplossen alvorens deze vraag wordt gemaakt.
 
-Nochtans, kunt u DNS prefetch met uw toepassingen van Experience Cloud manueel uitvoeren. U doet dit door de HTML toe te voegen `<dns-prefetch>` aan de `<head>` sectie van uw paginacode zoals hieronder getoond. Als de DNS-prefetch correct is geïmplementeerd, kan deze een paar milliseconden lang de laadtijd van de pagina besparen.
+Nochtans, kunt u DNS prefetch met uw toepassingen van het Experience Cloud manueel uitvoeren. U doet dit door de HTML toe te voegen `<dns-prefetch>` aan de `<head>` sectie van uw paginacode zoals hieronder getoond. Als de DNS-prefetch correct is geïmplementeerd, kan deze een paar milliseconden lang de laadtijd van de pagina besparen.
 
 ## Voorbeelden van DNS-prefetcode {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
@@ -38,11 +37,11 @@ De volgende voorbeelden tonen u hoe te om DNS prefetch vraag aan verschillende t
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
-   Voeg een afzonderlijke tag toe voor elke DNS-naam als u niet-beveiligde en veilige trackingservers gebruikt.
+  Voeg een afzonderlijke tag toe voor elke DNS-naam als u niet-beveiligde en veilige trackingservers gebruikt.
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Experience Cloud ID-service:** `<link rel="dns-prefetch" href="//fast. *`partner-id hier invoegen`*.demdex.net">`
+* **Experience Cloud-id-service:** `<link rel="dns-prefetch" href="//fast. *`partner-id hier invoegen`*.demdex.net">`
 
 * **Dynamisch tagbeheer** (DTM): Niet vereist. DTM-koppelingen zijn beschikbaar wanneer de pagina wordt geladen.
 
@@ -56,4 +55,3 @@ De volgende voorbeelden tonen u hoe te om DNS prefetch vraag aan verschillende t
 >[!MORELIKETHIS]
 >
 >* [DNS-prefettering](https://www.chromium.org/developers/design-documents/dns-prefetching)
-

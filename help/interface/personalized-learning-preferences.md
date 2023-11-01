@@ -1,10 +1,9 @@
 ---
-description: Meer informatie over persoonlijke leervoorkeuren in Experience Cloud. Hierdoor kunnen klanten gepersonaliseerde hulp en promoties ontvangen via e-mail, in hun Adobe Experience Cloud-producten en binnen de Adobe Experience League-gemeenschappen op basis van hun gebruiksgegevens.
+description: Meer informatie over persoonlijke leervoorkeuren in Experience Cloud. Hierdoor kunnen klanten gepersonaliseerde hulp en promoties ontvangen via e-mail, in hun Adobe Experience Cloud-producten en binnen de Adobe Experience League-gemeenschappen op basis van hun verbruiksgegevens.
 solution: Experience Cloud
-title: Voorkeuren voor persoonlijk leren voor Experience Cloud
-feature: Customer Attributes
+title: Voorkeuren voor persoonlijk leren van Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -13,7 +12,7 @@ ht-degree: 0%
 
 # Aanbevelingen en promoties voor gepersonaliseerd leren
 
-U kunt ervoor kiezen dat wij u nuttige inhoud bieden die op uw werk in uw Adobe-producten is afgestemd. Selecteer uw voorkeuren uit de onderstaande opties en u krijgt leergegevens die relevant zijn voor:
+U kunt ervoor kiezen om u nuttige inhoud te bieden die op uw werk in uw producten van de Adobe is afgestemd. Selecteer uw voorkeuren uit de onderstaande opties en u krijgt leergegevens die relevant zijn voor:
 
 * Uw vaardigheidsniveau en rol
 * Uw workflows
@@ -29,14 +28,14 @@ U kunt uw selecties op elk gewenst moment bijwerken in de sectie Productgegevens
 
 
 
-## Aanbevolen training en ondersteuning voor uw Adobe producten en services
+## Aanbevolen training en ondersteuning voor producten en services van uw Adobe
 
 Ontvang relevante beste praktijken, uiteinden &amp; trucs, nuttige lopen door, en meer gebaseerd op uw gebruik van uw producten van de Adobe op elk van deze drie manieren...
 
 <table>
 <tbody>
   <tr>
-    <td>In uw Adobe-producten...<br></td>
+    <td>In uw Adobe producten...<br></td>
     <td>Zie pop-ups en knopinfo voor hulp in real time.</td>
     <td rowspan="3">Dit kan... <ul><li>Stapsgewijze handleidingen en handige tips van Adobe-experts</li> 
     <li>Videozelfstudies en informatieve analyses</li> 
@@ -45,7 +44,7 @@ Ontvang relevante beste praktijken, uiteinden &amp; trucs, nuttige lopen door, e
     </ul></td>
   </tr>
   <tr>
-    <td>In e-mail verzendt Adobe u...</td>
+    <td>In e-mailberichten verzendt de Adobe u...</td>
     <td>Leerinhoud bekijken die betrekking heeft op uw werk in uw product(en).</td>
   </tr>
   <tr>
@@ -57,14 +56,14 @@ Ontvang relevante beste praktijken, uiteinden &amp; trucs, nuttige lopen door, e
 
 
 
-## Persoonlijke informatie over producten, services, evenementen en promoties van Adobe
+## Persoonlijke informatie over producten, services, evenementen en promoties van Adoben
 
 Ontvang op elk van deze drie manieren op maat gemaakte mogelijkheden voor leergebeurtenissen, onderzoekssessies en integratie op basis van uw werk...
 
 <table>
 <tbody>
   <tr>
-    <td>In uw Adobe-producten...<br></td>
+    <td>In uw Adobe producten...<br></td>
     <td>Zie pop-ups en knopinfo voor uitnodigingen en mogelijkheden die voor u van belang zijn.</td>
     <td rowspan="3">Dit kan... <ul>
     <li>Uitnodigingen voor educatieve webinars en evenementen</li> 
@@ -74,7 +73,7 @@ Ontvang op elk van deze drie manieren op maat gemaakte mogelijkheden voor leerge
     </ul></td>
   </tr>
   <tr>
-    <td>In e-mail verzendt Adobe u...</td>
+    <td>In e-mailberichten verzendt de Adobe u...</td>
     <td>Krijg geschikte informatie van Adobe over extra het leren kansen.</td>
   </tr>
   <tr>
@@ -93,13 +92,13 @@ Ontvang op elk van deze drie manieren op maat gemaakte mogelijkheden voor leerge
 ## Zie voorbeelden van hoe deze aangepaste het leren informatie zou kunnen kijken.
 
 
-### In uw Adobe producten
+### In uw producten van de Adobe
 
 ![](assets/personalized-learning-in-product.gif){width="800"}
 
 
 
-### In e-mail stuurt Adobe u
+### In e-mailberichten verzendt de Adobe u
 
 ![](assets/personalized-learning-email.png){width="400"}
 
