@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '4696'
+source-wordcount: '4678'
 ht-degree: 3%
 
 ---
@@ -99,8 +99,6 @@ Geplande release: **11 juli 2022**
 | ------- | ------- |
 | Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Doelen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
 | Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd voorkeuren in te dienen voor de manier waarop Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, leervideo&#39;s en meer, op basis van de gebruiksgegevens van uw Experience Cloud-product. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences>. |
-| Experience Cloud [!UICONTROL Triggers] navigatie | [Experience Cloud-triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=nl) is beschikbaar voor directe navigatie van de toepassingsschakelaar in de kopbal voor provisioned gebruikers. |
-| **Opmerking:** Update voor geplande interfacenavigatie | In november 2021 _[!UICONTROL Go to Launch / Data Collection]_navigatiefunctie wordt verwijderd uit <https://experience.adobe.com/implement>. |
 
 {style="table-layout:auto"}
 
@@ -108,7 +106,7 @@ Geplande release: **11 juli 2022**
 
 | Functie | Datum | Beschrijving |
 | ------- | ------- | -------|
-| [!UICONTROL Unified Recents] - Uitgebreide ondersteuning voor onlangs geopende zakelijke objecten | 10 augustus 2021 | [!UICONTROL Unified Recents] wordt uitgebreid tot extra zakelijke objecten in Journey Optimizer en Experience Platform. De klanten van Journey Optimizer kunnen hun onlangs betreden voorwerpen (Berichten, Reizen, Segmenten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen) van de Homepage van Adobe Journey Optimizer vinden. |
+| [!UICONTROL Unified Recents] - Uitgebreide ondersteuning voor onlangs geopende zakelijke objecten | woensdag 10 augustus 2021 | [!UICONTROL Unified Recents] wordt uitgebreid tot extra zakelijke objecten in Journey Optimizer en Experience Platform. De klanten van Journey Optimizer kunnen hun onlangs betreden voorwerpen (Berichten, Reizen, Segmenten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen) van de Homepage van Adobe Journey Optimizer vinden. |
 
 ## Juli - 2021
 
@@ -118,8 +116,8 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 | Functie | Datum | Beschrijving |
 | ------- | ------- | ------- |
-| Single Sign-On-ondersteuning voor Adobe-id&#39;s | 17 juni 2021 | Als u Federated IDs gebruikt, kunt u binnen aan Experience Cloud ondertekenen zonder het moeten een e-mailadres of een wachtwoord ingaan. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` naar de Experience Cloud-URL. <br>Stel dat u eigenaar bent van het domein `adobecustomer.com` en wilt u aanmelden bij Adobe Analytics. De URL zou zijn: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League zoeken | 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeren naar [Experience League](https://experienceleague.adobe.com/docs/?lang=nl) en gebruiken de **[!UICONTROL Search]** veld voor het zoeken naar zelfstudies, documentatie, cursussen en meer. |
+| Single Sign-On-ondersteuning voor Adobe-id&#39;s | vrijdag 17 juni 2021 | Als u Federated IDs gebruikt, kunt u binnen aan Experience Cloud ondertekenen zonder het moeten een e-mailadres of een wachtwoord ingaan. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` naar de Experience Cloud-URL. <br>Stel dat u eigenaar bent van het domein `adobecustomer.com` en wilt u aanmelden bij Adobe Analytics. De URL zou zijn: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Experience League zoeken | woensdag 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeren naar [Experience League](https://experienceleague.adobe.com/docs/?lang=en) en gebruiken de **[!UICONTROL Search]** veld voor het zoeken naar zelfstudies, documentatie, cursussen en meer. |
 
 {style="table-layout:auto"}
 
@@ -127,9 +125,9 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 | Functie | Datum | Beschrijving |
 | ------- | ------- | ------- |
-| Koptekst en navigatie Experience Cloud | 20 mei 2021 | Adobe Experience Cloud-updates bevatten een wijziging in het lichte thema voor de koptekst. U kunt gemakkelijk terugschakelen naar donker thema en een koppeling maken om extra voorkeuren te bepalen vanuit de gebruikersavatar in de koptekst van het Experience Cloud. Hoewel niet alle toepassingen in Experience Cloud thema&#39;s ondersteunen, opent deze functie toekomstige themaondersteuning. |
-| Globale zoekopdracht in Experience Cloud | 20 mei 2021 | Met deze release kunt u met algemene zoekopdrachten in Experience Cloud zoeken in [Experience League](https://experienceleague.adobe.com/#home) documentatie, cursussen en zelfstudies. (Momenteel is de algemene zoekopdracht alleen beschikbaar voor gebruikers in de Experience Platform. Globale zoekopdracht naar [!UICONTROL Platform] laat u toe om naar om het even welk bedrijfsvoorwerp in Experience Cloud, zoals segmenten, gegevensreeksen, schema&#39;s, en meer te zoeken.) |
-| Taalvoorkeuren voor Experience Cloud | 20 mei 2021 | Deze update biedt de mogelijkheid om uw voorkeurstalen in te stellen in Experience Cloud [Voorkeuren](https://experience.adobe.com/preferences). |
+| Koptekst en navigatie Experience Cloud | vrijdag 20 mei 2021 | Adobe Experience Cloud-updates bevatten een wijziging in het lichte thema voor de koptekst. U kunt gemakkelijk terugschakelen naar donker thema en een koppeling maken om extra voorkeuren te bepalen vanuit de gebruikersavatar in de koptekst van het Experience Cloud. Hoewel niet alle toepassingen in Experience Cloud thema&#39;s ondersteunen, opent deze functie toekomstige themaondersteuning. |
+| Globale zoekopdracht in Experience Cloud | vrijdag 20 mei 2021 | Met deze release kunt u met algemene zoekopdrachten in Experience Cloud zoeken in [Experience League](https://experienceleague.adobe.com/#home) documentatie, cursussen en zelfstudies. (Momenteel is de algemene zoekopdracht alleen beschikbaar voor gebruikers in de Experience Platform. Globale zoekopdracht naar [!UICONTROL Platform] laat u toe om naar om het even welk bedrijfsvoorwerp in Experience Cloud, zoals segmenten, gegevensreeksen, schema&#39;s, en meer te zoeken.) |
+| Taalvoorkeuren voor Experience Cloud | vrijdag 20 mei 2021 | Deze update biedt de mogelijkheid om uw voorkeurstalen in te stellen in Experience Cloud [Voorkeuren](https://experience.adobe.com/preferences). |
 
 {style="table-layout:auto"}
 
@@ -235,10 +233,6 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 **Oplossingen**
 
 * Probleem verholpen waarbij koppelingen en SSO voor Analytics werden voorkomen. Deze kwestie toonde de &quot;Bericht: De foutenmelding: FOUT IMS SSO ontbrak: Onbekwaam om verbonden bedrijf te vinden.&quot;
-
-**Bekend probleem**
-
-Als u Dynamic Tag Management opent via de **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** , maar uw Dynamic Tag Management-account is niet gekoppeld aan het Experience Cloud (Adobe ID), u kunt zich niet aanmelden bij Dynamic Tag Management. Om dit probleem te voorkomen, navigeert u rechtstreeks naar `dtm.adobe.com` in een nieuw browsertabblad.
 
 ## Release 16.1 - januari 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -382,11 +376,7 @@ Geen informatie beschikbaar
    <td colname="col1"> <p>Toewijzing van één naar veel </p> </td> 
    <td colname="col2"> <p>Wanneer het verbinden van toepassingsrekeningen in het Experience Cloud, als u veelvoudige toepassingen en organisaties hebt, kunt u veelvoudige producten en de diensten aan één enkele organisatie nu in kaart brengen. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>Activering </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activering</a> wordt nu weergegeven in de navigatie links in het dialoogvenster <span class="keyword"> Experience Cloud</span>. <span class="wintitle"> Activering</span> is een <span class="keyword"> Experience Cloud</span> De service bestaat momenteel uit de technologie voor dynamisch tagbeheer en geeft u de leiding wanneer deze is geselecteerd. </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>Documentatie-updates - Core Services </p> </td> 
    <td colname="col2"> <p>Het onderwerp toegevoegd <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Uw toepassingen inschakelen voor kernservices</a> om u bij het uitvoeren van de kerndiensten te helpen. </p> </td> 
   </tr> 
