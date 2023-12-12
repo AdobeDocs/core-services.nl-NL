@@ -1,48 +1,48 @@
 ---
 description: Meer informatie over de beschikbare integratie van toepassingen in de Adobe Experience Cloud.
 solution: Experience Cloud
-title: Experience Cloud-integratie
+title: Integratie van Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 2%
 
 ---
 
-# Overzicht van Experience Cloud-integratie
+# Overzicht van integratie van Experiencen Cloud
 
 Adobe Experience Cloud is een uitgebreide reeks van best-in-klasse, geïntegreerde toepassingen en de diensten die op een gemeenschappelijk gegevensplatform met een gemeenschappelijke reeks krachtige eigenschappen worden voortgebouwd.
 
-## Uw Experience Cloud-toepassingen inschakelen voor Platform-services {#section_A3D024994DA3492F8435CFCC4EF035C2}
+## Uw Experience Cloud-toepassingen inschakelen voor platformservices {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
-Help: [Laat uw toepassingen voor de Diensten van het Platform toe](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Help: [Uw toepassingen inschakelen voor Platform Services](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 Beschrijft hoe te:
 
 * Verricht uw bedrijf in de Experience Cloud.
 * Hiermee kunt u beheerder worden.
-* [De Experience Cloud ID-service implementeren](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
-* Moderniseer uw [!DNL Analytics] en [!DNL Target] implementaties via gegevensverzameling van Platforms.
+* [Implementeer de Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
+* Uw [!DNL Analytics] en [!DNL Target] implementaties via gegevensverzameling van het platform.
 * Begin met het gebruik van de kernservices.
 
 Oplossingen of services:
 
-* Activering - Gegevensverzameling Experience Platform (voorheen Starten)
+* Gegevensverzameling Experience Platform
 * Analytics
 * Target
-* [Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Cloud-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
 
-## Experience Cloud ID-service {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
+## Experience Cloud-id-service {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-De id-service biedt een universele, permanente id die uw bezoekers identificeert in alle toepassingen in de Experience Cloud. Het kan de generatiecode van identiteitskaart voor de diensten zoals Analytics, Audience Manager, Adobe Target, videohartslag, en andere toepassingen en producten van Experience Cloud vervangen.
+De id-service biedt een universele, permanente id die uw bezoekers identificeert in alle toepassingen in het Experience Cloud. Het kan de generatiecode van identiteitskaart voor de diensten zoals Analytics, Audience Manager, Adobe Target, videohartslag, en andere toepassingen en producten van het Experience Cloud vervangen.
 
-Zie [Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+Zie [Experience Cloud-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
 
 **Toepasselijke toepassingen of services**
 
@@ -53,7 +53,7 @@ Zie [Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-ser
 
 Help: [Soorten publiek](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Maak en beheer soorten publiek in de Experience Cloud Audience Library. De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worden afgeleid, zoals:
+Creeer en beheer Soorten publiek in de Bibliotheek van het Publiek van het Experience Cloud. De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worden afgeleid, zoals:
 
 * Nieuwe in het dialoogvenster [!DNL Experience Cloud].
 * Van [!DNL Analytics] segmenten gepubliceerd naar de [!DNL Experience Cloud].
@@ -69,18 +69,18 @@ Maak en beheer soorten publiek in de Experience Cloud Audience Library. De soort
 
 Help: [Klantkenmerken](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in de Experience Cloud uploaden. Gebruik de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
+Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in het Experience Cloud uploaden. Gebruik de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
 **Toepasselijke oplossingen of services**
 
-* Adobe Analytics: Rapport met klantkenmerken
+* Adobe Analytics: Rapport Customer Attributes
 * Adobe Target: Adobe Target configureren [abonnement](subscription.md) aan Klantkenmerken
 
-## Experience Cloud-middelen {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
+## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
-Help: [Experience Cloud-mappen delen met Creative Cloud](creative-cloud.md)
+Help: [Mappen Experiencen Cloud delen met Creative Cloud](creative-cloud.md)
 
-Deel mappen en elementen tussen de Experience Cloud en de Creative Cloud. Gedeelde elementen samenwerken, annoteren en gebruiken in Experience Cloud-toepassingen zoals [!DNL Social] en [!DNL Target].
+Deel mappen en elementen tussen het Experience Cloud en het Creative Cloud. Gedeelde elementen samenwerken, annoteren en deze gebruiken in Experiencen Cloud toepassingen zoals [!DNL Social] en [!DNL Target].
 
 **Toepasselijke toepassingen of services**
 
@@ -104,7 +104,7 @@ Laat Analytics toe om impressies te verzamelen en op Activa te klikken die van A
 
 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=en)
 
-Werken met gegevens van Experience Cloud-toepassingen of andere externe systemen in Audience Manager.
+Werken met gegevens van Experience Cloud toepassingen of andere externe systemen in Audience Manager.
 
 **Toepasselijke toepassingen of services**
 
@@ -116,9 +116,9 @@ Werken met gegevens van Experience Cloud-toepassingen of andere externe systemen
 
 Help: [Aan de slag](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
 
-Gebruik de toepassingen van de Activering van de Experience Cloud aan opstelling en zuivert uw toepassingen van de Experience Cloud.
+Gebruik de toepassingen van de Activering van het Experience Cloud aan opstelling en zuivert uw toepassingen van het Experience Cloud.
 
-1. Gebruiken [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) om code in te voegen die Experience Cloud-toepassingen op uw pagina&#39;s activeert.
+1. Gebruiken [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) om code in te voegen die Experience Cloud toepassingen op uw pagina&#39;s activeert.
 1. Gebruiken [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en) om uw implementaties te testen.
 
 Gebruik de extensie Adobe Experience Cloud Debugger om fouten op te sporen die door de controleur zijn aangetroffen of om andere informatie over uw implementaties te bekijken.
@@ -129,19 +129,19 @@ Gebruik de extensie Adobe Experience Cloud Debugger om fouten op te sporen die d
 * [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=en)
 * [Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [Mac ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [MAC ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Nielsen Tracking](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-Help: [Adobe Target integreren met de Experience Cloud](audience-library.md)
+Help: [Adobe Target integreren met het Experience Cloud](audience-library.md)
 
-Integreer Adobe Target met Adobe Analytics en andere Experience Cloud-toepassingen om het gebruik van dezelfde gegevens, soorten publiek, kenmerken en metriek in beide toepassingen mogelijk te maken.
+Integreer Adobe Target met Adobe Analytics en andere toepassingen van het Experience Cloud om het gebruik van de zelfde gegevens, het publiek, de attributen, en metriek in beide toepassingen toe te laten.
 
 **Toepasselijke toepassingen of services**
 
 * Klantkenmerken: Adobe Target configureren [abonnement](subscription.md) aan Klantkenmerken
-* Experience Cloud publiek: [Experience Cloud Audience Library](audience-library.md)
+* Soorten publiek Experience Cloud: [Experience Cloud Audience Library](audience-library.md)
 * Analyse: [Adobe Analytics als rapportagebron voor Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * Dynamische Tag Management: [Aanbevolen procedures voor het implementeren van Adobe Target met DTM](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * Audience Manager: [Adobe Target-gegevensintegratie met Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
@@ -155,7 +155,7 @@ AEM integreren met andere toepassingen en services van derden.
 
 **Toepasselijke toepassingen of services**
 
-* [Analyse](https://experienceleague.adobe.com/docs/)
+* [Analytics](https://experienceleague.adobe.com/docs/)
 * [Analyse met externe providers](https://experienceleague.adobe.com/docs/)
 * [Experience Cloud](https://experienceleague.adobe.com/docs/)
 * [Creative Cloud](https://experienceleague.adobe.com/docs/)
@@ -180,16 +180,16 @@ Synchroniseer uw elementen binnen Adobe Experience Manager (AEM) Assets met Adob
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Help (aanmelden vereist): [Integratie met Adobe Experience Cloud-oplossingen en -services](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+Help (aanmelden vereist): [Integratie met Adobe Experience Cloud Solutions en Services](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
 **Toepasselijke toepassingen of services**
 
-**Analyse:** kan gegevens over de betrokkenheid en conversie van de site dagelijks verzenden naar [!DNL Adobe Advertising], indien de gegevens beschikbaar zijn voor optimalisatie en rapportage. Ook, [!DNL Advertising] U kunt de gegevens van het zoekprogramma en het sociale netwerkverkeer dagelijks naar Analytics verzenden, waar de gegevens beschikbaar zijn voor rapporten in de mogelijkheden Rapporten &amp; Analytics, Report Builder en Ad Hoc Analysis.
+**Analyse:** kan gegevens over de betrokkenheid en conversie van de site dagelijks verzenden naar [!DNL Adobe Advertising], indien de gegevens beschikbaar zijn voor optimalisatie en rapportage. Ook, [!DNL Advertising] U kunt de gegevens van het zoekprogramma en het sociale netwerkverkeer dagelijks naar Analytics verzenden, waar de gegevens beschikbaar zijn voor rapporten in de mogelijkheden Rapporten &amp; Analytics, Report Builder, en Ad Hoc Analysis.
 
 **Dynamisch tagbeheer:** U kunt [Dynamisch tagbeheer gebruiken voor het bijhouden van conversietags voor advertenties](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)en tags van derden voor het bijhouden van tags voor uw zoek-, sociale en weergave- en landingspagina&#39;s. (U kunt ook [!DNL Advertising] tags direct binnen [!DNL Advertising].)
 
-**Experience Cloud publiek:** (Adverteerders met weergavebeheer) U kunt elk van uw [Adobe Experience Cloud-publiek](audience-library.md) als doelen voor uw weergaveadvertenties. U kunt publiek automatisch gebruiken dat u in Experience Cloud en Soorten publiek van Analytics hebt gecreeerd die u aan Adobe Experience Cloud hebt gepubliceerd. U kunt Soorten publiek van Audience Manager ook gebruiken wanneer [!DNL Adobe Advertising] account is geconfigureerd om dit toe te staan. Neem contact op met uw accountmanager voor meer informatie over toegang tot Adobe Experience Cloud en profielen en soorten publiek en over de eerste setup tussen [!DNL Adobe Advertising] en Adobe Experience Cloud Publiek. **Opmerking:** Als u ook Adobe Target gebruikt, zijn de soorten publiek die u naar Adobe Experience Cloud hebt gepubliceerd ook beschikbaar voor activiteiten in Adobe Target.
+**Soorten publiek Experience Cloud:** (Adverteerders met weergavebeheer) U kunt elk van uw [Adobe Experience Cloud-publiek](audience-library.md) als doelen voor uw weergaveadvertenties. U kunt publiek automatisch gebruiken dat u in Experience Cloud en Soorten publiek van Analytics hebt gecreeerd die u aan Adobe Experience Cloud hebt gepubliceerd. U kunt Soorten publiek van Audience Manager ook gebruiken wanneer [!DNL Adobe Advertising] account is geconfigureerd om dit toe te staan. Neem contact op met uw accountmanager voor meer informatie over toegang tot Adobe Experience Cloud en profielen en soorten publiek en over de eerste setup tussen [!DNL Adobe Advertising] en Adobe Experience Cloud Publiek. **Opmerking:** Als u ook Adobe Target gebruikt, zijn de soorten publiek die u naar Adobe Experience Cloud hebt gepubliceerd ook beschikbaar voor activiteiten in Adobe Target.
 
-**Experience Cloud-elementen:** (Adverteerders met weergavebeheer) U kunt al uw Adobe Experience Cloud-elementen gebruiken als de creatieve elementen voor uw weergaveadvertenties met de weergave Nieuwe weergave bèta. U moet [aangemeld bij Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) om toegang te krijgen tot uw Adobe Experience Cloud-middelen. Neem contact op met uw accountmanager voor informatie over toegang tot Adobe Experience Cloud.
+**Elementen van Experience Cloud:** (Adverteerders met weergavebeheer) U kunt al uw Adobe Experience Cloud-elementen gebruiken als de creatieve elementen voor uw weergaveadvertenties met de weergave Nieuwe weergave bèta. U moet [aangemeld bij Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) om toegang te krijgen tot uw Adobe Experience Cloud-middelen. Neem contact op met uw accountmanager voor informatie over toegang tot Adobe Experience Cloud.
 
-**Experience Cloud-meldingen:** Via de koppeling voor meldingen boven aan elke pagina kunt u alle waarschuwingen weergeven die zijn gegenereerd op basis van de sjablonen voor bètawaarschuwingen in uw zoekopdracht. U kunt ook Experience Cloud-systeemupdates, -posten, -aantekeningen en -middelen delen. U moet [aangemeld bij Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) om toegang te krijgen tot uw meldingen. Neem contact op met uw accountmanager voor informatie over toegang tot Adobe Experience Cloud.
+**Meldingen voor Experiencen Cloud:** Via de koppeling voor meldingen boven aan elke pagina kunt u alle waarschuwingen weergeven die zijn gegenereerd op basis van de sjablonen voor bètawaarschuwingen in uw zoekopdracht. U kunt ook updates van het systeem van het Experience Cloud, posten, bedenkingen, en gedeelde activa krijgen. U moet [aangemeld bij Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) om toegang te krijgen tot uw meldingen. Neem contact op met uw accountmanager voor informatie over toegang tot Adobe Experience Cloud.

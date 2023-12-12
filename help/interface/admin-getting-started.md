@@ -8,22 +8,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 6%
+source-wordcount: '1584'
+ht-degree: 3%
 
 ---
 
-# Gebruikers en producten van Experience Cloud beheren
+# Gebruikers en producten van Experiencen Cloud beheren
 
-Leer hoe u zich aanmeldt bij de Admin Console, gebruikersmachtigingen voor Experience Cloud-gebruikers, productprofielen en browserondersteuning beheert.
+Leer hoe u zich aanmeldt bij de Admin Console, gebruikersmachtigingen voor Experiencen Cloud, productprofielen en browserondersteuning beheert.
 
 >[!IMPORTANT]
 >
->De volgende informatie is specifiek voor Experience Cloud toepassingen. Deze informatie vormt een aanvulling op de bredere administratieve informatie in de [Handboek voor Enterprise Administration](https://helpx.adobe.com/nl/enterprise/admin-guide.html) voor alle Adobe cloud-producten.
+>De volgende informatie is specifiek voor de toepassingen van het Experience Cloud. Deze informatie vormt een aanvulling op de bredere administratieve informatie in de [Handboek voor Enterprise Administration](https://helpx.adobe.com/nl/enterprise/admin-guide.html) voor alle Adobe wolkenproducten.
 
-U kunt een sorteerbare en filterbare lijst van alle gebruikers van de Experience Cloud en hun details in het Hulpmiddel Admin bekijken. Zie [Experience Cloud-gebruikers weergeven in het Admin-gereedschap](admin-tool-experience-cloud.md).
+U kunt een sorteerbare en filterbare lijst van alle gebruikers van het Experience Cloud en hun details in het Hulpmiddel Admin bekijken. Zie [Gebruikers van Experiencen Cloud weergeven in het beheerprogramma](admin-tool-experience-cloud.md).
 
 ## Aankondiging van update van voorziening{#provisioning}
 
@@ -31,9 +31,9 @@ Bijgewerkt: **20 juli 2022**
 
 >[!IMPORTANT]
 >
->Controleer de volgende kennisgeving met betrekking tot Experience Cloud-provisioning.
+>Controleer de volgende kennisgeving met betrekking tot de levering van Experiencen Cloud.
 
-Adobe werkt zijn levering bij om alle klanten van de Experience Cloud toegang tot stichtingsmogelijkheden te verlenen die interoperabiliteit tussen sommige producten van Experience Cloud helpen. Gebruikers krijgen Adobe Experience Platform als nieuwe machtiging toegevoegd aan hun Experience Cloud-organisaties, met [!UICONTROL Data Collection] als inbegrepen dienst.
+Adobe werkt zijn levering bij om alle klanten van de Experience Cloud toegang tot stichtingsmogelijkheden te verlenen die interoperabiliteit tussen sommige producten van de Experience Cloud helpen. Gebruikers krijgen Adobe Experience Platform als een nieuwe machtiging toegevoegd aan hun Experience Cloud-organisaties, met [!UICONTROL Data Collection] als inbegrepen dienst.
 
 Adobe Experience Platform [!UICONTROL Data Collection] include [tags](https://experienceleague.adobe.com/docs/tags.html?lang=en) voor vereenvoudigd beheer van universele tags en biedt een vertrouwde, robuuste en complete, streaminggegevensinfrastructuur. Tags vereenvoudigen het verzamelen van gegevens door de klant en stroomlijnen de levering van ervaringen.
 
@@ -52,9 +52,9 @@ Beheerders kunnen de wijzigingen of toevoegingen aan de Admin Console als volgt 
    * Gegevensstromen
    * Bezoekers-id
 
-   Voor organisaties die momenteel geen Experience Platform gebruiken, ziet u nu de _Adobe Experience Platform_ in de Admin Console, met inbegrip van de hierboven vermelde mogelijkheden.
+  Voor organisaties die momenteel geen Experience Platform gebruiken, ziet u nu de _Adobe Experience Platform_ in de Admin Console, met inbegrip van de hierboven vermelde mogelijkheden.
 
-   Voor organisaties die momenteel Experience Platform gebruiken, _Plaatsen_ wordt nu geconsolideerd in de kaart van het Experience Platform.
+  Voor organisaties die momenteel Experience Platform gebruiken, _Plaatsen_ wordt nu geconsolideerd in de kaart van het Experience Platform.
 
 * Adobe Experience Platform Data Collection (voorheen, Launch) en Privacy zullen als afzonderlijke productkaarten van de andere mogelijkheden van het Experience Platform blijven verschijnen.
 
@@ -64,14 +64,14 @@ Ga voor meer informatie over de nieuwe mogelijkheden naar de pagina&#39;s op het
 * [Plaatsen](https://experienceleague.adobe.com/docs/places/using/home.html?lang=nl)
 * [Betrouwbaarheid](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html)
 * [Naamruimte van identiteit](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en)
-* [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)
+* [Sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)
 * [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl)
-* [Schema&#39;s](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
+* [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
 * [Gegevensstromen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
 * [Bezoekers-id](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
 * [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl)
 
-## Experience Cloud-gebruikersverificatie (geplande migratie){#migration}
+## Verificatie van gebruikers van Experience Cloud (geplande migratie){#migration}
 
 Vanaf februari 2022 werkt Adobe zijn profielbeheersysteem bij om organisaties in staat te stellen bedrijfsrechten op individuele profielen beter te beheren. Als zodanig worden alle gebruikers met een persoonlijk profiel dat overeenkomt met een individuele Adobe ID (Type1), gemigreerd naar een nieuw bedrijfsprofiel. Dit profiel komt overeen met een _Zakelijke id_ (Type2e).
 
@@ -81,8 +81,8 @@ Zie [Identiteitstypen in Adobe Admin Console](https://helpx.adobe.com/enterprise
 
 Wanneer het tijd is voor uw migratie, ontvangen organisatiebeheerders 30 dagen vóór de migratie een e-mail met een melding.
 
-* De migratie zal tussen 10.00 uur worden gepland. - 6.00 uur, gebaseerd op de primaire tijdzone van de organisatie of op het weekend.
-* Tijdens de migratie kan de Experience Cloud-toepassing ongeveer 15 minuten ontoegankelijk zijn en kan de Admin Console tot 30 minuten ontoegankelijk zijn. Anders verloopt deze migratie naadloos.
+* De migratie zal tussen 10.00 - 6.00 uur worden gepland, gebaseerd op de primaire tijdzone van de organisatie of op het weekend.
+* Tijdens de migratie kan de toepassing van het Experience Cloud ongeveer 15 minuten ontoegankelijk zijn en kan de Admin Console tot 30 minuten ontoegankelijk zijn. Anders verloopt deze migratie naadloos.
 
 ### Wijzigingen na de migratie
 
@@ -92,7 +92,7 @@ Admin Console
 * Individuele Adobe ID-gebruikers worden bijgewerkt naar de bedrijfs-id.
 * De directory met bedrijfs-id wordt toegevoegd aan **[!UICONTROL Settings]** > **[!UICONTROL Identity]** > **[!UICONTROL Directories]**.
 
-   ![Identiteit Admin Console - Zakelijke id](assets/identity-home.png)
+  ![Identiteit Admin Console - Zakelijke id](assets/identity-home.png)
 
 ### Aanmelden na migratie
 
@@ -104,7 +104,7 @@ Uw aanmeldingservaring verandert niet met deze update:
 
 1. Als u een van de opties gebruikt, wordt een bestaande landingspagina weergegeven.
 
-1. Een Adobe-profiel is gekoppeld aan elk businessplan en biedt de mogelijkheid om elementen te organiseren die zijn gemaakt op basis van extra Adobe Cloud-aanbiedingen (Creative Cloud en Document Cloud).
+1. Een profiel van de Adobe wordt geassocieerd met elk ondernemingsplan en verstrekt de capaciteit om activa te organiseren die van extra het dienstenaanbod van de Wolk van de Adobe (Creative Cloud en Document Cloud) worden gecreeerd.
 
 Zie voor meer informatie [Introductie van Adobe-profielen](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html).
 
@@ -117,9 +117,9 @@ Bijvoorbeeld, in Analytics kunt u een inzameling van rapporteringshulpmiddelen, 
 * Zie [Toestemmingen van de toegang van Analytics aan een Profiel van het Product toewijzen](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) op deze pagina.
 * Zie [Beheerdersrollen delegeren aan gebruikers](#delegate-rights) op deze pagina
 
-## Experience Cloud-productprofielen beheren {#task_16335111C52D40E9BAC73D0699584DBF}
+## Productprofielen Experience Cloud beheren {#task_16335111C52D40E9BAC73D0699584DBF}
 
-U kunt een productprofiel maken en dit aan een machtigingengroep toewijzen.
+U kunt een Profiel van het Product tot stand brengen en het toewijzen aan een toestemmingsgroep.
 
 Wanneer u een gebruiker naar een organisatie uitnodigt, kunt u de gebruiker toegang geven tot producten en productprofielen. U kunt beperkte administratieve toestemmingen aan een gebruiker ook delegeren. Op dezelfde manier kunt u gebruikersgroepen creëren, dan de groep toevoegen aan een Profiel van het Product om toegang toe te laten.
 
@@ -128,7 +128,7 @@ Wanneer u een gebruiker naar een organisatie uitnodigt, kunt u de gebruiker toeg
 1. Selecteer **[!UICONTROL New Profile]**.
 1. Configureer de profieldetails en selecteer vervolgens **[!UICONTROL Save]**.
 
-Zie voor meer informatie (en voor hulp bij het beheer van Creative Cloud- en Document Cloud-producten) [Identiteit](https://helpx.adobe.com/enterprise/using/identity.html) in de [Gebruikershandleiding voor beheer](https://helpx.adobe.com/nl/enterprise/using/users.html).
+Zie voor meer informatie (en voor hulp bij het beheer van Creatives Cloud en Documenten Cloud) [Identiteit](https://helpx.adobe.com/enterprise/using/identity.html) in de [Gebruikershandleiding voor beheer](https://helpx.adobe.com/nl/enterprise/using/users.html).
 
 **Gerelateerde help**
 
@@ -143,12 +143,12 @@ In de Admin Console, kunt u beperkte administratieve rechten aan anderen in uw o
 U kunt bijvoorbeeld:
 
 * Laat uw creatieve regisseur toegang tot Creative Cloud verlenen.
-* Laat uw marketingdirecteur toegang verlenen tot de Experience Cloud.
+* Laat uw marketingdirecteur toegang tot het Experience Cloud verlenen.
 * Houd deze twee rollen afzonderlijk zodat kunnen zij elkaars rollen niet overstappen.
 
 Door deze rollen te gebruiken, kunt u beheer aan anderen gelijktijdig delegeren zonder meer vermogen te verstrekken dan zij nodig hebben.
 
-1. Selecteer in de Admin Console de optie **[!UICONTROL Users]** en selecteert u vervolgens de naam van de gebruiker.
+1. Selecteer in de Admin Console **[!UICONTROL Users]** en selecteert u vervolgens de naam van de gebruiker.
 
    ![Administratieve rechten in Admin Console](assets/edit-admin-rights.png)
 
@@ -166,7 +166,7 @@ U kunt de toestemmingen van de het rapporttoegang van de Analyse (rapportreeksen
 U kunt bijvoorbeeld een productprofiel maken dat meerdere analyseprogramma&#39;s bevat ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], en [!UICONTROL Report Builder]). Deze profielen bevatten machtigingen voor specifieke metriek en dimensies (inclusief eVars) en mogelijkheden zoals segmenten of het maken van berekende metriek.
 
 1. Aanmelden bij de [Admin Console](https://adminconsole.adobe.com/enterprise)selecteert u vervolgens **[!UICONTROL Products]**.
-1. Op de [!UICONTROL Products] pagina, selecteert u uw product en selecteert u vervolgens **[!UICONTROL Permissions]** (alleen beschikbaar voor beheerders).
+1. Op de [!UICONTROL Products] pagina, selecteert u uw product en selecteert u **[!UICONTROL Permissions]** (alleen beschikbaar voor beheerders).
 1. De profielmachtigingen configureren:
 
 | Element | Beschrijving |
@@ -181,7 +181,7 @@ U kunt bijvoorbeeld een productprofiel maken dat meerdere analyseprogramma&#39;s
 
 Er is een hulpprogramma voor de migratie van gebruikers-id&#39;s van Analytics beschikbaar om beheerders te helpen gebruikersaccounts te migreren van Analytics User Management naar de [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-De accountmigratie wordt in fasen uitgevoerd naar klanten. Adobe brengt u op de hoogte en helpt u wanneer het uw tijd is om bestaande gebruikersaccounts te migreren van **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** aan de Admin Console.
+De accountmigratie wordt in fasen uitgevoerd naar klanten. De Adobe geeft een melding en helpt u wanneer het uw tijd is om bestaande gebruikersaccounts te migreren van **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** aan de Admin Console.
 
 Na de migratie melden gebruikers zich aan met hun Adobe ID (of Enterprise ID) en verifiëren ze zich bij hun Experience Cloud-toepassingen en -services op [experience.adobe.com](https://experience.adobe.com). Als gebruikers proberen zich aan te melden via oude logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] en [!DNL experiencecloud.adobe.com]) worden doorgestuurd naar [!DNL experience.adobe.com].
 
@@ -208,17 +208,17 @@ A *huurder* in Campagne wordt weergegeven als een *product* in de pagina van de 
 
 Zie [Groepen en gebruikers beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=en) voor informatie over veiligheidsgroepen en het toewijzen van gebruikers aan veiligheidsgroepen.
 
-## Gegevensverzameling van Experience Platforms beheren (starten) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## Gegevensverzameling van Experience Platforms beheren {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) weergegeven op de [!UICONTROL Products] pagina in de [!UICONTROL Admin Console]. U kunt andere toepassingen en services opnemen in een productprofiel starten.
+Experience Platform [!UICONTROL Data Collection] worden weergegeven op de [!UICONTROL Products] pagina in de [!UICONTROL Admin Console]. U kunt andere toepassingen en de diensten in een Profiel van het Product van de Inzameling van Gegevens omvatten.
 
-Gebruikers uitnodigen om [!UICONTROL Platform Launch] en wijs gebruikersrollen en rechten toe.
+Gebruikers uitnodigen om [!UICONTROL Platform Data Collection] en wijs gebruikersrollen en rechten toe.
 
-Zie [Gebruikersmachtigingen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en) voor meer informatie over gebruikersmachtigingen in de Admin Console en over het instellen van opstartopties, waaronder het toewijzen van rechten aan profielen.
+Zie [Gebruikersmachtigingen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en) voor meer informatie over gebruikersmachtigingen in de Admin Console en over het instellen van rechten voor profielen.
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-klanten worden vertegenwoordigd als organisaties in de Adobe [!UICONTROL Admin Console]. De klanten van de Experience Manager kunnen de Adobe gebruiken [!UICONTROL Admin Console] productrechten en IMS-authenticatie voor Experience Manager als een [!UICONTROL Cloud Service].
+Adobe Enterprise-klanten worden in de Adobe vertegenwoordigd als organisaties [!UICONTROL Admin Console]. Klanten van Experience Managers kunnen de Adobe gebruiken [!UICONTROL Admin Console] productrechten en IMS-authenticatie voor Experience Manager als een [!UICONTROL Cloud Service].
 
 Zie [IMS-ondersteuning voor as a Cloud Service Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=en).
 
@@ -226,17 +226,17 @@ Zie [IMS-ondersteuning voor as a Cloud Service Experience Manager](https://exper
 
 Maak gebruikers van Audience Managers en wijs deze toe aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen, en [!DNL AlgoModel]).
 
-Zie [Beheer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=en) in Audience Manager Help.
+Zie [Administratie](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=en) in Audience Manager Help.
 
 ## Ondersteunde browsers in de Experience Cloud
 
-* [!DNL Microsoft® Edge] (Microsoft® heeft [beëindigde ondersteuning](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) voor Internet Explorer 8, 9 en 10. Als dusdanig, lost Adobe geen kwesties op die tegen deze specifieke versies van Internet Explorer worden gemeld.)
+* [!DNL Microsoft® Edge] (Microsoft® heeft [beëindigde ondersteuning](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) voor Internet Explorer 8, 9 en 10. Als dusdanig, lost de Adobe geen kwesties op die tegen deze specifieke versies van Internet Explorer worden gemeld.)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Opmerking:** Hoewel de interface Experience Cloud deze browsers ondersteunt, ondersteunen afzonderlijke toepassingen niet elke browser. ([Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) biedt bijvoorbeeld geen ondersteuning voor [!DNL Opera] en [!DNL Adobe Target] biedt geen ondersteuning voor [!DNL Safari].)
+**Opmerking:** Hoewel de interface van het Experience Cloud deze browsers steunt, steunen individuele toepassingen niet elke browser. (Bijvoorbeeld [Analyse](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) ondersteunt niet [!DNL Opera], en [!DNL Adobe Target] ondersteunt niet [!DNL Safari].)
 
 ### Oplossing en productvereisten
 

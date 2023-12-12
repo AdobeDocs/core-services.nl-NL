@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: '567'
+ht-degree: 2%
 
 ---
 
@@ -45,7 +45,7 @@ De [veelgestelde vragen over beheer](faq.md) met informatie over hoe Adobe Suppo
 | Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Doelen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
 | Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd voorkeuren in te dienen voor de manier waarop Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, leervideo&#39;s en meer, op basis van de gebruiksgegevens van uw Experience Cloud-product. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences>. |
 | Experience Cloud [!UICONTROL Triggers] navigatie | [Experience Cloud-triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=nl) is beschikbaar voor directe navigatie van de toepassingsschakelaar in de kopbal voor provisioned gebruikers. |
-| **Opmerking:** Update voor geplande interfacenavigatie | In november 2021 _[!UICONTROL Go to Launch / Data Collection]_navigatiefunctie wordt verwijderd uit <https://experience.adobe.com/implement>. |
+| **Opmerking:** Update voor geplande interfacenavigatie | In november 2021 _[!UICONTROL Go to Data Collection]_navigatiefunctie wordt verwijderd uit <https://experience.adobe.com/implement>. |
 
 **Bijgewerkt op 24-8-2021**
 

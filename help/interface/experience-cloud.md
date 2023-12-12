@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 3%
+source-wordcount: '1197'
+ht-degree: 1%
 
 ---
 
@@ -123,7 +123,7 @@ Aan [!UICONTROL Experience Cloud preferences]kunt u de volgende functies configu
 |--- |--- |
 | Standaard [organisatie](organizations.md) | Selecteer de organisatie die u wilt zien wanneer u het Experience Cloud start. |
 | [!UICONTROL Product data collection] | Selecteer welke technologieën Adobe kan gebruiken om gegevens te verzamelen over hoe u uw producten van de Adobe gebruikt. |
-| [!UICONTROL Personalized learning recommendations and promotions] | Selecteer waar u persoonlijke hulp voor uw Adobe wilt ontvangen. Deze Help is beschikbaar via e-mail, in-product, en de Gemeenschappen van de Experience League. [Meer informatie.](personalized-learning-preferences.md) |
+| [!UICONTROL Personalized learning recommendations and promotions] | Selecteer waar u persoonlijke hulp voor uw Adobe wilt ontvangen. Deze Help is beschikbaar via e-mail, in-product, en de Gemeenschappen van de Experience League. [Meer weten?](personalized-learning-preferences.md) |
 | [!UICONTROL Subscriptions] | Selecteer de producten en categorieën waarop u zich wilt abonneren. Meldingen in de [!UICONTROL Notifications] en in uw e-mail. |
 | [!UICONTROL Priority] | Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd. Deze categorieën zijn duidelijk met een Hoog markering en kunnen voor levering zoals alarm worden gevormd. |
 | [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
@@ -167,7 +167,7 @@ Deze gids verleent toegang tot hulp op de gebruiker van het Experience Cloud en 
 * [Overzicht van privacy en beveiliging in Experiencen Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-prefetch](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Handleidingen
+## Guides
 
 Hulplijnen voor verwante Experiencen Cloud zijn onder meer:
 
@@ -175,23 +175,22 @@ Hulplijnen voor verwante Experiencen Cloud zijn onder meer:
 * [Experience Platform coop-grafiek](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud-id-service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
-* [Gegevensverzameling/starten van Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform-tags](https://experienceleague.adobe.com/docs/tags.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
-## Lesbestanden
+## Tutorials
 
 Profiteer van zelfstudiemateriaal en snelle zelfstudies in Experience League:
 
 * [Alle zelfstudies in Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
-* [Zelfstudies voor Experience Platforms](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=nl)
+* [Zelfstudies voor Experience Platforms](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Opmerkingen bij de release en verwante Experiencen Cloud Help
 
 * [Productdocumentatie voor alle toepassingen voor Experiencen Cloud](https://experienceleague.adobe.com/docs/home.html?lang=en) - Blader naar hulp op Experience Cloud: Meer informatie en ondersteuning
 * [Opmerkingen bij de release en productupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Nieuwe functies in het Experience Cloud en een abonnement voor updates
-* [Tutorials voor de implementatie van kerndiensten](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=nl) - Bekijk video&#39;s en zelfstudies over basisservices
+* [Tutorials voor de implementatie van kerndiensten](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - Bekijk video&#39;s en zelfstudies over basisservices
 * [Deskundige hulp bij Experience League](https://experienceleague.adobe.com/) - Leren met instructies van experts en de gemeenschap
 * [Onderwijs en opleiding](https://helpx.adobe.com/nl/learning.html?promoid=KAUDK) - Neem Adobe in om ervoor te zorgen dat u optimaal profiteert van de producten van de Adobe
 * [Blog met ervaring voor klanten](https://blog.adobe.com/en/topics/digital-transformation) - Lees de blog Experience Cloud

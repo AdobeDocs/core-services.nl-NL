@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud Central-interfacecomponenten
 title: Experience Cloud Interface and Administration Guide
 description: Meer informatie over de interface van Experiencen Cloud en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en share Experience Cloud Assets configureren.
 index: true
-source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 11%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 11%
    + [Voorkeuren voor persoonlijk leren van Experience Cloud](personalized-learning-preferences.md)
    + Experience Cloud Audience Library {#audiences}
       + [Experience Cloud publiek](audience-library.md)
-      + [Een doelgroep maken](t-audience-create.md)
+      + [Een publiek maken](t-audience-create.md)
       + [Een publiekssegment Analytics publiceren](t-publish-audience-segment.md)
-   + Experience Cloud-klantkenmerken {#customer-attributes}
+   + Kenmerken Experience Cloud klant {#customer-attributes}
       + [Klantkenmerken in Experience Cloud](attributes.md)
       + [Veelgestelde vragen over Customer Attributes](faq-crs.md)
       + [Gegevensbestand en gegevensbronnen voor klantkenmerken](crs-data-file.md)
@@ -37,11 +37,7 @@ ht-degree: 11%
       + [Steun voor algemene gegevensbeschermingsverordening](gdpr.md)
       + [Ondersteuning voor de California Consumer Privacy Act](ccpa.md)
       + [Privacyoverwegingen voor klantkenmerken](privacy-mac.md)
-   + Experience Cloud activeren {#activation}
-      + [Overzicht van activering](activation.md)
-      + [Gebruikershandleiding voor Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-      + [Triggers](triggers.md)
-   + Experience Cloud Assets {#assets}
+   + Experience Cloud-elementen {#assets}
       + [Overzicht van Experiencen Cloud](experience-cloud-assets.md)
       + [Mappen en elementen van Experiencen Cloud delen met Creative Cloud](creative-cloud.md)
       + [Gebruikers van Creatives Cloud beheren](t-admin-add-cc-user.md)
