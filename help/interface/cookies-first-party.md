@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
+source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Veel browsers en antispywaretoepassingen zijn ontworpen om cookies van derden af
 * De [Experience Platform Identity Service (ECID Service)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) automatisch cookies van eerste bedrijven instellen, ongeacht of uw verzamelingsdomein overeenkomt met uw sitedomein. Als deze niet overeenkomen, gebruikt de Identity Service JavaScript om cookies in te stellen in het domein van uw site.
 * Als u [Verouderde id&#39;s analyseren](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (ook bekend als `s_vi` cookie) het is afhankelijk van de configuratie van uw gegevensverzamelingsserver. Als de server van de gegevensinzameling het domein van uw plaats aanpast, dan worden de koekjes geplaatst als eerste-partij. Als de verzamelingsserver niet overeenkomt met uw huidige domein, worden cookies ingesteld als derden. In dit geval stelt Analytics een first-party-cookies in als cookies van derden worden geblokkeerd [fallback-id (s_fid)](cookies-analytics.md) in plaats van de standaard &#39;s_vi&#39; cookie.
 
-Als u uw inzamelingsserver zou willen verzekeren past uw domein van de plaats aan, kunt u een implementatie gebruiken CNAME die het door:sturen van een douanedomein zal toelaten dat in uw implementatie CNAME aan de inzamelingsservers van de Adobe wordt gespecificeerd. Dit impliceert veranderingen in DNS van uw bedrijf montages om een alias van CNAME aan het richten aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van de Adobe het gebruiken van een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als u veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar waar het plaatsdomein niet de het domeinkoekjes van CNAME aanpast wordt geplaatst als derde.
+Als u uw inzamelingsserver zou willen verzekeren past uw domein van de plaats aan, kunt u een implementatie gebruiken CNAME die het door:sturen van een douanedomein zal toelaten dat in uw implementatie CNAME aan de inzamelingsservers van de Adobe wordt gespecificeerd. Dit impliceert veranderingen in DNS van uw bedrijf montages om een alias van CNAME aan het richten aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van de Adobe het gebruiken van een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als u veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar waar het plaatsdomein niet de het domeinkoekjes van CNAME aanpast worden geplaatst als derde.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Als u een NAAM voor gegevensinzameling wilt vestigen en als uw plaats veilige pa
 
 Het SSL-certificaatuitgifteproces kan vaak verwarrend en tijdrovend zijn. Als gevolg daarvan heeft Adobe een partnerschap opgezet met DigiCert, een toonaangevende certificeringsinstantie (CA), en een geïntegreerd proces ontwikkeld waarmee de aankoop en het beheer van deze certificaten worden geautomatiseerd.
 
-Met uw toestemming, werken wij met CA om, een nieuw SSL certificaat van SHA-2 voor u uit te geven op te stellen en te beheren. Adobe blijft dit certificaat beheren en zorgt ervoor dat een onverwachte vervaldatum, intrekking of bezorgdheid over de beveiliging de beschikbaarheid van de beveiligde verzameling van uw organisatie niet in gevaar brengt.
+Met uw toestemming, werken wij met CA om een nieuw SSL certificaat van SHA-2 voor u uit te geven, op te stellen en te beheren. Adobe blijft dit certificaat beheren en zorgt ervoor dat een onverwachte vervaldatum, intrekking of bezorgdheid over de beveiliging de beschikbaarheid van de beveiligde verzameling van uw organisatie niet in gevaar brengt.
 
 ## Certificaatprogramma beheerd door Adobe
 
