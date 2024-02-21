@@ -1,14 +1,14 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud Central-interfacecomponenten
-breadcrumb-title: Experience Cloud Central-interfacecomponenten
+user-guide-title: Experience Cloud Central Interface Components Guide
+breadcrumb-title: Experience Cloud Central Interface Components Guide
 title: Experience Cloud Interface and Administration Guide
 description: Meer informatie over de interface van Experiencen Cloud en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en share Experience Cloud Assets configureren.
 index: true
-source-git-commit: 1d0a5ea6117e02898b0c90bfa866338a15d898cb
+source-git-commit: 2be11e25484bf99fc99e0b6a7c90552680354746
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '340'
+ht-degree: 2%
 
 ---
 
