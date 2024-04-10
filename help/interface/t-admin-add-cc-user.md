@@ -1,29 +1,29 @@
 ---
-description: Meer informatie over beheertools voor het beheer van goedgekeurde Creative Cloud-gebruikers in Experience Cloud.
+description: Leer meer over beheerhulpmiddelen voor het beheren van erkende gebruikers van Creatives Cloud in Experience Cloud.
 solution: Experience Cloud
-title: Creative Cloud-gebruikers beheren
+title: Gebruikers van Creatives Cloud beheren
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 2%
+source-wordcount: '106'
+ht-degree: 1%
 
 ---
 
-# Creative Cloud-gebruikers beheren
+# Gebruikers van Creatives Cloud beheren
 
-De Experience Cloud biedt beheerhulpmiddelen voor het beheer van goedgekeurde Creative Cloud-gebruikers. Deze gebruikers kunnen op ad-hocbasis worden uitgenodigd voor een campagnemap. Alleen gebruikers die door een beheerder aan de lijst zijn toegevoegd, kunnen worden uitgenodigd voor een campagne. De toegevoegde gebruikers tonen in de auto-volledige gebruikerslijst in de Experience Cloud.
+Het Experience Cloud biedt beheerhulpmiddelen voor het beheer van goedgekeurde gebruikers van Creatives Cloud. Deze gebruikers kunnen op ad-hocbasis worden uitgenodigd voor een campagnemap. Alleen gebruikers die door een beheerder aan de lijst zijn toegevoegd, kunnen worden uitgenodigd voor een campagne. De toegevoegde gebruikers tonen in de auto-volledige gebruikerslijst in Experience Cloud.
 
 >[!NOTE]
 >
 >U moet een beheerder zijn om deze procedure uit te voeren.
 
-1. Selecteer in de Experience Cloud de optie **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**.
+1. Selecteer in Experience Cloud **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**.
 1. Selecteer **[!UICONTROL Creative Cloud Asset Sharing]**.
-1. Selecteer **[!UICONTROL Add New User]**.  ![nieuwe gebruiker toevoegen](assets/mac_add_icon.png)
+1. Selecteren **[!UICONTROL Add New User]**.  ![nieuwe gebruiker toevoegen](assets/mac_add_icon.png)
 1. Typ een e-mail, weergavenaam, titel en voeg desgewenst een Avatar toe.
 1. Selecteer **[!UICONTROL Create]**.

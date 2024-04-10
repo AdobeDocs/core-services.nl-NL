@@ -1,20 +1,20 @@
 ---
-title: 'Een publiekssegment Analytics publiceren '
-description: Een Adobe Analytics-publiekssegment publiceren naar de Experience Cloud en naar Adobe Target voor marketingactiviteiten voor het publiek.
-feature: Auditiebibliotheek
-topic: Beheer
+title: Een Audience Segment Analytics publiceren
+description: Een Adobe Analytics-publiekssegment publiceren naar Experience Cloud en naar Adobe Target voor marketingactiviteiten voor doelgroepen.
+feature: Audience Library
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6d097492-864b-412c-bfd6-f97be4a03558
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 1%
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
 # Een publiekssegment Analytics publiceren
 
-Publiceer een [!DNL Analytics] publiekssegment aan Experience Cloud en aan Adobe Target voor publieksmarketing activiteiten.
+Een [!DNL Analytics] publiekssegment naar Experience Cloud en naar Adobe Target voor publieksmarketingactiviteiten.
 
-Raadpleeg de [Adobe Analytics documentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=en) voor instructies.
+Zie de [Adobe Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=en) voor instructies.

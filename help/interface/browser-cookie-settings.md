@@ -1,17 +1,17 @@
 ---
 description: Leer hoe u privacy-instellingen inschakelt voor browsercookies. U kunt gebruikers verwijderen die alle cookies op mobiele en desktopbrowsers hebben geblokkeerd.
 solution: Experience Cloud, Analytics, Target
-title: Privacy-instellingen voor browsercookies
+title: Privacy-instellingen voor cookies in browser
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: ea50808d2514ff3c94ffa1bee2d9aa3ddf51f120
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -31,6 +31,6 @@ U kunt gebruikers verwijderen die alle cookies op mobiele en desktopbrowsers heb
 
 **Privacy-instellingen browser**
 
-De wetten en de regelgevende richtlijnen hebben verklaard dat de actie van een gebruiker om koekjes te blokkeren het zelfde als de actie van een gebruiker om zich uit het profileren te sluiten is. Door deze functie in te schakelen, worden gegevens die zijn verzameld in desktopbrowsers, waarbij de gebruiker de browser heeft ingesteld om alle cookies te blokkeren, niet opgenomen in analyserapporten. Als Adobe de webbrowser niet herkent, worden gegevens opgenomen in [!DNL Analytics] rapporten.
+De wetten en de regelgevende richtlijnen hebben verklaard dat de actie van een gebruiker om koekjes te blokkeren het zelfde als de actie van een gebruiker om uit profilering te kiezen is. Door deze functie in te schakelen, worden gegevens die zijn verzameld in desktopbrowsers, waarbij de gebruiker de browser heeft ingesteld om alle cookies te blokkeren, niet opgenomen in analyserapporten. Als Adobe de webbrowser niet herkent, worden gegevens opgenomen in [!DNL Analytics] rapporten.
 
 Over de hele wereld hebben wetgevers verklaard (zowel in richtlijnen als in nederzettingen) dat de browserinstellingen van cookies een indicatie zijn van de voorkeur van de gebruiker om af te zien van profilering. Deze wetgevers hebben met name verklaard dat de browserinstelling voor het blokkeren van cookies van derden een opt-out-aanvraag is van derden (voor andere sites). Het blokkeren van alle cookies is een opt-outaanvraag voor alle tracking. Terwijl server-zijherkenningstekens (zoals IP adres of gebruikersagent) een wenselijke optie kunnen zijn die browser montages van het koekje overslaat, zien sommige wetgevers hen als een omzeiling van gebruikerskeus.

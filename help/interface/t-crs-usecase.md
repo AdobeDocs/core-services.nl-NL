@@ -1,16 +1,16 @@
 ---
 description: Maak een kenmerkbron voor klanten en upload deze naar de Adobe Experience Cloud.
 solution: Experience Cloud
-title: Een bron voor klantkenmerken maken en het gegevensbestand uploaden
+title: Een kenmerkbron voor de klant maken en het gegevensbestand uploaden
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1054'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Nadat de gegevensbron actief is, kunt u:
 
 >[!IMPORTANT]
 >
->Om toegang te krijgen tot deze functie, moeten gebruikers worden toegewezen aan het productprofiel Klantkenmerken (Klantkenmerken - Standaardtoegang. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Indien *Klantkenmerken* wordt weergegeven als een van de [!UICONTROL Product Profiles], bent u klaar om te beginnen. De gebruikers die aan de groep van Attributen van de Klant worden toegevoegd zien [!UICONTROL Customer Attributes] aan de linkerkant van de interface Experience Cloud.
+>Om toegang te krijgen tot deze functie, moeten gebruikers worden toegewezen aan het productprofiel Klantkenmerken (Klantkenmerken - Standaardtoegang. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Indien *Klantkenmerken* wordt weergegeven als een van de [!UICONTROL product profiles], bent u klaar om te beginnen. De gebruikers die aan de groep van Attributen van de Klant worden toegevoegd zien [!UICONTROL Customer Attributes] aan de linkerkant van de interface Experience Cloud.
 >
 >Om de eigenschap van Attributen van de Klant te gebruiken, moeten de gebruikers tot toepassing-vlakke groepen (Analytics of [!DNL Target]).
 
@@ -60,7 +60,7 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 
 ## De kenmerkbron maken en het gegevensbestand uploaden {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in het Experience Cloud uit.
+Voer deze stappen op de Create Nieuwe Bron van Attributen van de Klant in Experience Cloud uit.
 
 >[!IMPORTANT]
 >
@@ -145,7 +145,7 @@ Hoe te om attributen te schrappen en attributen in het schema te vervangen.
 
 ## Abonnementen configureren en kenmerkbron activeren {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-Als u een abonnement configureert, wordt de gegevensstroom tussen het Experience Cloud en de toepassingen ingesteld. Door de kenmerkbron te activeren, kunnen de gegevens naar geabonneerde toepassingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
+Als u een abonnement configureert, wordt de gegevensstroom tussen Experience Cloud en toepassingen ingesteld. Door de kenmerkbron te activeren, kunnen de gegevens naar geabonneerde toepassingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
 
 Zie [Abonnementen configureren](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -163,7 +163,7 @@ In het volgende voorbeeld wordt een [!DNL Analytics] op basis van de geüploade 
 
 ![Segment Analytics op basis van de geüploade kenmerken](assets/08_crs_usecase.png)
 
-Wanneer u een segment aan het Experience Cloud publiceert, wordt het beschikbaar in het Soorten publiek en de Audience Manager van het Experience Cloud.
+Wanneer u een segment aan Experience Cloud publiceert, wordt het beschikbaar in het Publiek van het Experience Cloud en Audience Manager.
 
 ## Klantkenmerken gebruiken in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 

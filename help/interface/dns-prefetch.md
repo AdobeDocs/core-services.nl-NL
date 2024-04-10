@@ -1,16 +1,16 @@
 ---
 description: Leer hoe te om DNS prefetch uit te voeren helpen de tijden van de paginading met verschillende toepassingen en de diensten in Experience Cloud verminderen.
 solution: Experience Cloud
-title: DNS-prefetch gebruiken met verschillende toepassingen en services
+title: DNS van het gebruik Prefetch met Verschillende Toepassingen en de Diensten
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 1%
+source-wordcount: '370'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Nochtans, kunt u DNS prefetch met uw toepassingen van het Experience Cloud manue
 
 De volgende voorbeelden tonen u hoe te om DNS prefetch vraag aan verschillende te maken [!DNL Experience Cloud] toepassingen en services. Voor sommige prefetch-aanroepen is uw [!DNL Adobe] Organisatie-id of informatie over trackingserver. In deze voorbeelden wordt de code in *cursief* vertegenwoordigt een variabele placeholder. U vervangt die code door uw eigen code [!DNL Adobe] partner identiteitskaart, klantencode, of het volgen serverinformatie, etc.
 
-* **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
+* **Analyse:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
   Voeg een afzonderlijke tag toe voor elke DNS-naam als u niet-beveiligde en veilige trackingservers gebruikt.
 

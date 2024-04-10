@@ -1,27 +1,27 @@
 ---
 description: Leer hoe u kenmerkregels gebruikt om een publiek te maken en een samengesteld publiek in Adobe Experience Cloud te definiëren.
 solution: Experience Cloud
-title: Een doelgroep maken
+title: Een publiek maken
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 2%
+source-wordcount: '481'
+ht-degree: 0%
 
 ---
 
-# Een doelgroep maken
+# Een publiek maken
 
 Leer hoe te om attributenregels te gebruiken om een publiek tot stand te brengen en een samengesteld publiek in Experience Cloud te bepalen.
 
 Dit artikel helpt u begrijpen hoe te:
 
-* Een doelgroep maken
+* Een publiek maken
 * Een regel maken
 * Regels gebruiken om een samengesteld publiek te definiëren
 
@@ -40,7 +40,7 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 * De sectie Home &amp; Garden is afgeleid van paginagegevens of onbewerkte analysegegevens.
 * Chrome- en Safari-gebruikers afgeleid van een [!DNL Adobe Analytics] segment [gepubliceerd](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) aan de [!DNL Experience Cloud].
 
-   ![De regels voor een samengesteld publiek maken](assets/audience_create.png)
+  ![De regels voor een samengesteld publiek maken](assets/audience_create.png)
 
 **Een publiek maken**
 
@@ -55,7 +55,7 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
    * **[!UICONTROL Real-Time Analytics Data:]** (of Raw-gegevens) Dit zijn kenmerkgegevens die zijn afgeleid van Real-Time Analytics-afbeeldingsaanvragen en die gegevens bevatten zoals eVars en gebeurtenissen. U moet een rapportreeks selecteren wanneer het gebruiken van deze attributenbron, en de dimensie of de gebeurtenis bepalen om te omvatten. Deze selectie van de rapportreeks verstrekt de veranderlijke structuur die door de rapportreeks wordt gebruikt.
    >[!NOTE]
    >
-   >Als gevolg van caching, vereisen de geschrapte rapportreeksen in Analytics 12 uur alvorens de schrapping in de Experience Cloud wordt getoond.
+   >Als gevolg van caching, vereisen de geschrapte rapportreeksen in Analytics 12 uur alvorens de schrapping in Experience Cloud wordt getoond.
 
    * **[!UICONTROL Experience Cloud:]** Kenmerkgegevens die zijn afgeleid van de [!DNL Experience Cloud] bronnen. Dit kunnen bijvoorbeeld gegevens zijn van publiekssegmenten waarin u creeert [!DNL Analytics]of gegevens van [!DNL Audience Manager].
 
@@ -69,7 +69,7 @@ Onder [!UICONTROL Rules], de *`Home & Garden`* kenmerkselecties:
 
 * **[!UICONTROL Attribute Source:]** Onbewerkte analysegegevens
 * **[!UICONTROL Report Suite:]** Report Suite 31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
+* DIMENSION = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
 
 ![Kenmerkselecties in Audience Library](assets/home_garden.png)
 

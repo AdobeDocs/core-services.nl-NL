@@ -1,7 +1,7 @@
 ---
-description: Meer informatie over de nieuwste functies, opmerkingen bij de release en bekende problemen met de services van het Experience Cloud, zoals Customer Attributes, Publiek en gebruikersbeheer.
+description: Meer informatie over de nieuwste functies, opmerkingen bij de release en bekende problemen met services voor Experiencen Cloud, zoals klantkenmerken, soorten publiek en gebruikersbeheer.
 solution: Experience Cloud
-title: Opmerkingen bij de Cumulatieve release
+title: Cumulatieve versieaantekeningen voor interface van Experience Cloud
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '4678'
+source-wordcount: '4670'
 ht-degree: 3%
 
 ---
@@ -259,8 +259,8 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 **Bekende problemen**
 
-* Klanten kunnen zich niet aanmelden bij Report Builder als ze via het Experience Cloud SSO inloggen bij Analytics. Dit probleem is niet van invloed op klanten die oude analysegegevens gebruiken.
-* Bekende kwestie met de &quot;Verbinding aan de functie van het Rapport&quot;in Analytics. Klanten die zich via het Experience Cloud aanmelden bij Analytics, worden voor Analytics naar een niet-SSO-aanmeldingspagina geleid wanneer ze een rapport proberen te delen.
+* Klanten kunnen zich niet aanmelden bij Report Builder als ze via Experience Cloud SSO inloggen bij Analytics. Dit probleem is niet van invloed op klanten die oude analysegegevens gebruiken.
+* Bekende kwestie met de &quot;Verbinding aan de functie van het Rapport&quot;in Analytics. Klanten die zich via Experience Cloud aanmelden bij Analytics, worden naar een niet-SSO-aanmeldingspagina geleid voor Analytics wanneer ze een rapport proberen te delen.
 
 ## Release 15.9 - 10 september 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
@@ -279,7 +279,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 **Bekend probleem**
 
-Een bekende kwestie veroorzaakt dubbele auto-geproduceerde rekeningen om in Audience Manager worden gecreeerd, en hen automatisch aan de identiteit van het Experience Cloud van een gebruiker te verbinden. Dit probleem doet zich voor als u naar de Audience Manager wilt navigeren voordat u uw accounts koppelt. De Adobe adviseert dat u uw rekeningen van de Audience Manager aan het Experience Cloud alvorens aan Audience Manager verbindt te navigeren. (MAC-25640)
+Een bekende kwestie veroorzaakt dubbele auto-geproduceerde rekeningen om in Audience Manager worden gecreeerd, en hen automatisch aan de identiteit van het Experience Cloud van een gebruiker te verbinden. Dit probleem doet zich voor als u naar de Audience Manager wilt navigeren voordat u uw accounts koppelt. De Adobe adviseert dat u uw rekeningen van de Audience Manager aan Experience Cloud alvorens aan Audience Manager verbindt te navigeren. (MAC-25640)
 
 ## Release 15.6.1 - 11 juni 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -338,7 +338,7 @@ Geen informatie beschikbaar
 
 **Bekende problemen**
 
-* Het koppelen en ontkoppelen van uw dynamische organisatie voor tagbeheer aan het Experience Cloud werkt niet voor nieuwe organisaties van Experiencen Cloud. Adobe werkt eraan dit probleem op te lossen en de normale functionaliteit te herstellen met de release van mei. Als u problemen ondervindt bij het aanmelden bij dynamisch tagbeheer via het Experience Cloud, kunt u de oudere aanmelding gebruiken op [!DNL dtm.adobe.com].
+* Het koppelen en ontkoppelen van uw dynamische organisatie voor tagbeheer aan Experience Cloud werkt niet voor nieuwe organisaties van Experiencen Cloud. Adobe werkt eraan dit probleem op te lossen en de normale functionaliteit te herstellen met de release van mei. Als u problemen ondervindt bij het aanmelden bij dynamisch tagbeheer via een Experience Cloud, kunt u de oudere aanmelding gebruiken op [!DNL dtm.adobe.com].
 * Een bekend probleem is dat het delen van het publiek wordt verhinderd door het rapporteren van suites die niet het eigendom zijn van de gekoppelde account Analytics. Er wordt gewerkt aan corrigerende maatregelen
 
 ## Release 15.3.2 - 19 maart 2015 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -353,7 +353,7 @@ Geen informatie beschikbaar
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Klantkenmerken </p> </td> 
-   <td colname="col2"> <p>Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in het Experience Cloud uploaden. Nadat de gegevens zijn geüpload, kunt u <span class="uicontrol"> Bezoekerprofiel</span> &gt; <span class="uicontrol"> Klantkenmerken</span> rapporten in Analytics. </p> <p>U kunt de geüploade gegevens ook gebruiken als een publiekssegment in <span class="keyword"> Adobe Target</span>. </p> <p>Zie <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Klantkenmerken</a> productdocumentatie. </p> <p> Voor informatie over het moderniseren van uw toepassingen voor de kerndiensten, zie <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Uw toepassingen inschakelen voor kernservices</a>. </p> </td> 
+   <td colname="col2"> <p>Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in Experience Cloud uploaden. Nadat de gegevens zijn geüpload, kunt u <span class="uicontrol"> Bezoekerprofiel</span> &gt; <span class="uicontrol"> Klantkenmerken</span> rapporten in Analytics. </p> <p>U kunt de geüploade gegevens ook gebruiken als een publiekssegment in <span class="keyword"> Adobe Target</span>. </p> <p>Zie <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Klantkenmerken</a> productdocumentatie. </p> <p> Voor informatie over het moderniseren van uw toepassingen voor de kerndiensten, zie <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Uw toepassingen inschakelen voor kernservices</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -374,7 +374,7 @@ Geen informatie beschikbaar
   </tr> 
   <tr> 
    <td colname="col1"> <p>Toewijzing van één naar veel </p> </td> 
-   <td colname="col2"> <p>Wanneer het verbinden van toepassingsrekeningen in het Experience Cloud, als u veelvoudige toepassingen en organisaties hebt, kunt u veelvoudige producten en de diensten aan één enkele organisatie nu in kaart brengen. </p> </td> 
+   <td colname="col2"> <p>Wanneer het verbinden van toepassingsrekeningen in Experience Cloud, als u veelvoudige toepassingen en organisaties hebt, kunt u veelvoudige producten en de diensten aan één enkele organisatie nu in kaart brengen. </p> </td> 
   </tr> 
     <tr> 
    <td colname="col1"> <p>Documentatie-updates - Core Services </p> </td> 
@@ -423,13 +423,13 @@ Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Clou
 * Wijzigingen in groepen en machtigingen die zijn aangebracht in Gebruikersbeheer, worden pas na een nieuwe aanmelding van kracht.
 * Sommige gebruikers kunnen problemen ondervinden bij het uploaden van grote bestandstypen naar Experience Cloud Assets.
 * Gebruikers ontbreken mogelijk koppelingen op hun Experiencen Cloud kaarten vanuit Advertising Cloud.
-* Sommige administratieve gebruikers kunnen problemen ervaren die hun rekeningen verbinden na het goedkeuren van een uitnodiging om zich bij de Experience Cloud aan te sluiten.
+* Sommige administratieve gebruikers zouden kwesties kunnen ervaren die hun rekeningen verbinden na het goedkeuren van een uitnodiging om zich bij Experience Cloud aan te sluiten.
 * De interface van het Experience Cloud kan in prestaties verminderen wanneer in parallel gebruik door veelvoudige gebruikers.
 * Sommige gebruikers kunnen een verouderd element verwijderen in plaats van een foutmelding te ontvangen.
 * Sommige gebruikers kunnen problemen ondervinden wanneer ze zich gelijktijdig aanmelden bij twee browsers met dezelfde Adobe ID.
 * Sommige gebruikers kunnen een gebruiker van het Creative Cloud aan een gedeelde omslag niet opnieuw toevoegen nadat de gebruiker van het Creative Cloud is geschrapt.
 * Sommige gebruikers ondervinden mogelijk een vertraging in het bericht dat optreedt wanneer een map van het Experience Cloud naar het Creative Cloud wordt gedeeld.
-* Sommige gebruikers kunnen problemen ondervinden bij het delen van een map tussen het Experience Cloud en het Creative Cloud.
+* Sommige gebruikers kunnen problemen ondervinden bij het delen van een map tussen Experience Cloud en Creative Cloud.
 * Sommige gebruikers kunnen problemen ondervinden bij het maken van een publiek in een Analytics-rapportensuite nadat het gedeelde publiek is ingeschakeld.
 * Sommige gebruikers kunnen problemen hebben met het uploaden van middelen naar een board.
 
@@ -588,7 +588,7 @@ Nieuwe functies en oplossingen in het dialoogvenster [!DNL Adobe Experience Clou
 * De [!DNL Search&Promote] koppeling is niet beschikbaar in het dialoogvenster [!UICONTROL Organizations & Product Access] pagina.
 * Filters die zijn toegepast op trended-rapporten van [!DNL Analytics] niet worden toegepast op kaarten in de [!DNL Experience Cloud].
 * Sommige gebruikers kunnen hun account voor publieksbeheer niet koppelen aan hun [!DNL Experience Cloud] account.
-* U wordt afgemeld na 15 minuten inactiviteit. Ook, logout op één plaats meldt u uit het Experience Cloud.
+* U wordt afgemeld na 15 minuten inactiviteit. Ook, logout op één plaats meldt u uit Experience Cloud.
 * Sommige gebruikers van de Uitwisseling kunnen hun namen in de commentaren vinden om een lange koordidentiteitskaart in plaats van hun namen te zijn
 
 **Oplossingen**

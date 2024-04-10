@@ -1,16 +1,16 @@
 ---
 description: Moderniseer uw Adobe Analytics- en Adobe Target-toepassingen voor services voor meerdere toepassingen. Leer hoe u de services voor Experiencen Cloud gaat gebruiken.
 solution: Experience Cloud
-title: Toepassingen inschakelen voor services voor meerdere toepassingen
+title: Uw Toepassingen inschakelen voor services voor toepassingen tussen verschillende toepassingen
 index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als u onlangs Experience Cloud gebruikend Experience Platform markeringen uitvoe
 
 Bestaande klanten kunnen hun toepassingsimplementaties moderniseren en Experience Cloud implementeren. Zo kunt u de kenmerken van de klant en de publieksfuncties in Adobe Analytics, Audience Manager en Adobe Target gebruiken. Voor deze implementatie gaat u als volgt te werk:
 
-1. [Deelnemen aan het Experience Cloud en beheerder worden](#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Deelnemen aan Experience Cloud en beheerder worden](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementeer de Experience Cloud ID Service](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [Kaart rapportsuites aan een organisatie van de Experience Cloud toe](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Uw AppMeasurement Analytics bijwerken](#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -32,7 +32,7 @@ Bestaande klanten kunnen hun toepassingsimplementaties moderniseren en Experienc
 
 ## Deelnemen aan het Experience Cloud en beheerder worden {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Wat u moet doen om zich bij het Experience Cloud aan te sluiten:
+Wat u moet doen om zich bij Experience Cloud aan te sluiten:
 
 1. Zorg ervoor dat u de juiste Adobe Analytics- of Adobe Target-SKU&#39;s hebt.
 
@@ -46,7 +46,7 @@ Wat u moet doen om zich bij het Experience Cloud aan te sluiten:
 1. Moderniseer uw implementatie en krijg provisioned een beheerder.
 
    * Voer de onderstaande stappen uit in [Implementeer de [!UICONTROL Experience Cloud ID Service]](core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
-   * Neem contact op met uw accountmanager en start het inrichtingsproces voor het Experience Cloud.
+   * Neem contact op met uw accountmanager en start het inrichtingsproces voor Experience Cloud.
 
 1. Gebruikers en producten beheren in de [!UICONTROL Admin Console].
 
@@ -73,13 +73,13 @@ U hebt waarschijnlijk gebruikers die al lid zijn van toepassingsgroepen, zoals e
 
 Wanneer u deze groepen toewijst aan de ondernemingsgroepen van het Experience Cloud, moeten die gebruikers hun geloofsbrieven van de toepassingsrekening aan hun Adobe ID manueel verbinden.
 
-Zie [Accounts koppelen in de Experience Cloud](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
+Zie [Accounts koppelen in Experience Cloud](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
 
 >[!NOTE]
 >
 >Nadat ondernemingen en toepassingsgroepen in kaart zijn gebracht, worden de nieuwe gebruikers automatisch verbonden. (De geloofsbrieven van de Oplossing worden automatisch gecreeerd en met hun Adobe ID verbonden.)
 
-In de volgende secties wordt beschreven hoe u uw implementatie kunt moderniseren. Door de implementatie te moderniseren, zijn de kernservices in de Experience Cloud mogelijk.
+In de volgende secties wordt beschreven hoe u uw implementatie kunt moderniseren. Door de implementatie te moderniseren, zijn de kernservices in Experience Cloud mogelijk.
 
 ## Implementeer de [!UICONTROL Experience Cloud ID Service] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
@@ -107,7 +107,7 @@ Als onderdeel van het opzetten van de Experience Cloud-id-service raadt de Adobe
 
 In Adobe Target `mbox3rdpartyid` moet de klant-id ophalen en verzenden naar [!DNL Target]. (Zie [Werken met klantkenmerken](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=en) in [!DNL Target].)
 
-Wanneer een bezoeker op uw website voor authentiek verklaart, of anders zich identificeert, moet uw implementatie de klantenidentiteitskaart van CRM van die persoon aan de pagina of app blootstellen. Vervolgens kunt u de juiste functieaanroep gebruiken om uw klant-id te synchroniseren met het Experience Cloud. Deze synchronisatie slaat de klant-id van CRM van de bezoeker op in het Experience Cloud en activeert de attributen van die klant voor gebruik in het Experience Cloud.
+Wanneer een bezoeker op uw website voor authentiek verklaart, of anders zich identificeert, moet uw implementatie de klantenidentiteitskaart van CRM van die persoon aan de pagina of app blootstellen. Vervolgens kunt u de juiste functieaanroep gebruiken om uw klant-id te synchroniseren met het Experience Cloud. Deze synchronisatie slaat de klant-id van CRM van de bezoeker in Experience Cloud op en activeert de attributen van die klant voor gebruik in Experience Cloud.
 
 Bijvoorbeeld, veronderstel dat Bob identiteitskaart van de Klant heeft `52mc210tr42` in uw CRM-systeem. Wanneer het Loodje op uw plaats voor authentiek verklaart, moet u deze identiteitskaart op de pagina blootstellen, en identiteitskaart gebruiken om het op één van twee manieren te synchroniseren:
 
@@ -202,7 +202,7 @@ Profiteer van de volgende functies.
 
 ### [!UICONTROL People] > [!UICONTROL Customer Attributes]
 
-Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in het Experience Cloud uploaden. Gebruik de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
+Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in Experience Cloud uploaden. Gebruik de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
 Zie [Klantkenmerken](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 

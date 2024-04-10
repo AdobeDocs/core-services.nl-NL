@@ -1,24 +1,24 @@
 ---
-description: Leer hoe u klantkenmerkgegevens uploadt via FTP naar de Experience Cloud.
+description: Leer hoe u klantkenmerkgegevens uploadt via FTP naar Experience Cloud.
 solution: Experience Cloud
-title: Upload het bestand met klantkenmerkgegevens via FTP
+title: Upload het bestand met kenmerkgegevens van de klant via FTP
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # Optioneel - Het gegevensbestand uploaden via FTP
 
-Als u niet uploadt gebruikend belemmering-en-daling, kunt u de gegevens van Attributen van de Klant via FTP aan de Experience Cloud uploaden.
+Als u niet uploadt via slepen en neerzetten, kunt u gegevens van kenmerk Klant uploaden via FTP naar Experience Cloud.
 
-U kunt de gegevens uploaden nadat u een bron van Kenmerken van de Klant en een rekening van FTP in de Experience Cloud creeert. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten in `.csv` formaat, met een tweede formaat `.fin` om aan te geven dat het uploaden is voltooid.
+U kunt de gegevens uploaden nadat u een bron van Kenmerken van de Klant en een rekening van FTP in Experience Cloud creeert. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten in `.csv` formaat, met een tweede formaat `.fin` om aan te geven dat het uploaden is voltooid.
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,7 @@ Het uploaden van bestanden naar de FTP-site met klantkenmerken kan worden uitgev
 
    Controleer of u bent aangemeld bij uw FTP-site op `ftp.adobe.com/<sftpname>`.
 
-1. Selecteer **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
+1. Selecteren **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
 1. Een `.fin` zodat het bestand kan worden opgehaald.
 

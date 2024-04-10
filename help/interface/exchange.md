@@ -7,23 +7,23 @@ feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 5%
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
 
 # Exchange Marketplace
 
-De Exchange Marketplace is één doel waar u extensies voor Digital Marketing kunt zoeken, selecteren, betalen en downloaden via apps. Apps omvatten gegevensschakelaars, douaneconfiguraties aan Adobe basisproduct, derdetoepassingen, en rapporten.
+De Exchange Marketplace is één doel waar u extensies voor Digital Marketing kunt zoeken, selecteren, betalen en downloaden via apps. De toepassingen omvatten gegevensschakelaars, douaneconfiguraties aan het kernproduct van de Adobe, derdetoepassingen, en rapporten.
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Help]** > **[!UICONTROL Exchange]**
 
 * SDK&#39;s downloaden, documentatie lezen en toepassingen ter controle naar Digital Marketing verzenden.
 
-* Klanten kunnen de extensies voor Digital Marketing doorzoeken, selecteren en installeren.
+* Klanten kunnen extensies voor Digital Marketing zoeken, selecteren en installeren.
 
 * Beheerders kunnen gedownloade toepassingen configureren.
 
@@ -31,7 +31,7 @@ De Exchange Marketplace is één doel waar u extensies voor Digital Marketing ku
 
 * Wijs toepassingen af of keur deze goed.
 
-* Publiceren in de Experience Cloud.
+* Publiceren in Experience Cloud.
 
 * Zoeken en filteren op categorie, bedrijf, type, gebruiker en meer.
 

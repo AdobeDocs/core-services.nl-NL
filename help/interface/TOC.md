@@ -1,19 +1,19 @@
 ---
 role: User,Admin
-user-guide-title: Handleiding voor interfaceonderdelen van Experience Cloud Central
-breadcrumb-title: Handleiding voor interfaceonderdelen van Experience Cloud Central
-title: Handleiding voor interfaceonderdelen van Experience Cloud Central
+user-guide-title: Experience Cloud interface en beleidsgids
+breadcrumb-title: Experience Cloud interface en beleidsgids
+title: Experience Cloud Interface and Administration Guide
 description: Meer informatie over de interface van Experiencen Cloud en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en share Experience Cloud Assets configureren.
 index: true
-source-git-commit: 6586616d6ce861daa500ad3126b0815e6f1632e0
+source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 11%
+ht-degree: 4%
 
 ---
 
 
-# Handleiding voor interfaceonderdelen van Experience Cloud Central {#interface}
+# Experience Cloud interface en beleidsgids {#interface}
 
 + [Handleiding voor interfaceonderdelen van Experience Cloud Central](experience-cloud.md)
 + Experience Cloud {#services}

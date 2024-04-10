@@ -1,7 +1,7 @@
 ---
 description: Leer hoe Adobe Analytics cookies gebruikt om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies.
 solution: Experience Cloud,Analytics
-title: "First-party cookies "
+title: Eerste cookies
 index: y
 snippet: y
 feature: Cookies
@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 0%

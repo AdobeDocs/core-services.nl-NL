@@ -1,23 +1,23 @@
 ---
 description: Meer informatie over Experience Cloud-elementen die u kunt delen in verschillende toepassingen.
 solution: Experience Cloud
-title: Overzicht van activa
+title: Overzicht van elementen
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 3%
 
 ---
 
-# Overzicht van Experience Cloud-middelen
+# Overzicht van Experiencen Cloud
 
-Experience Cloud-middelen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u in alle toepassingen kunt delen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop] bestand, dia&#39;s in een [!DNL PowerPoint] bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
+Experience Cloud-elementen bieden één gecentraliseerde opslagplaats voor marketingklare middelen die u kunt delen tussen verschillende toepassingen. Middelen zijn digitale documenten, afbeeldingen, video of audio (of een deel daarvan) die meerdere uitvoeringen kunnen hebben en subelementen kunnen bevatten (bijvoorbeeld lagen in een [!DNL Photoshop] bestand, dia&#39;s in een [!DNL PowerPoint] bestand, pagina&#39;s in een PDF, bestanden in een ZIP).
 
 De diensten van activa omvatten:
 
@@ -27,12 +27,12 @@ De diensten van activa omvatten:
 Het gebruik van middelen verbetert de consistentie en de naleving van het merk, en versnelt de tijd aan markt. U kunt workflows stroomlijnen in toepassingen:
 
 * **[!DNL Adobe Target]**: Maak ervaringen voor A/B- en multivariatietests.
-* **[!DNL Ad Cloud]**: Eenheden ontwikkelen op verschillende kanalen en campagnes
+* **[!DNL Ad Cloud]**: Ontwikkel ad-eenheden langs verschillende kanalen en campagnes
 * **[!DNL Adobe Campaign]**: Plaats elementen in e-mailbulletins en campagnes.
 
 In [!UICONTROL Experience Cloud Assets]kunt u:
 
-* [Navigeren naar Experience Cloud-elementen](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
+* [Navigeren naar elementen van Experience Cloud](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [De werkbalk openen](experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
 * [Elementen bewerken](experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Zoeken naar elementen](experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
@@ -41,9 +41,9 @@ In [!UICONTROL Experience Cloud Assets]kunt u:
 * [Elementeigenschappen weergeven](experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Gebruiksrapporten uitvoeren](experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
 
-## Navigeren naar Experience Cloud-elementen {#section_3657039DD3524F2AA88753BFF4781125}
+## Navigeren naar elementen van Experience Cloud {#section_3657039DD3524F2AA88753BFF4781125}
 
-![Navigeren naar Experience Cloud-elementen](assets/asset-nav.png)
+![Navigeren naar elementen van Experience Cloud](assets/asset-nav.png)
 
 ## De werkbalk openen {#section_EC2E401D225148818F3753248556BE6B}
 
@@ -89,7 +89,7 @@ Selecteren **[!UICONTROL Views]** > **[!UICONTROL Image]** om de volledige eleme
 
 U kunt kiezen tussen de kaartweergave met eigenschappen, de lijstweergave en de kolomweergave, zodat u uw elementen gemakkelijker kunt vinden.
 
-Selecteren **[!UICONTROL Views]** > **[!UICONTROL Properties]** om de eigenschappen van een element weer te geven:
+Selecteren **[!UICONTROL Views]** > **[!UICONTROL Properties]** de eigenschappen van een element weergeven:
 
 ![Elementeigenschappen weergeven](assets/asset-properties.png)
 
@@ -97,6 +97,6 @@ Selecteren **[!UICONTROL Views]** > **[!UICONTROL Properties]** om de eigenschap
 
 Zie het aantal gebruikers, de gebruikte opslagruimte en het totale aantal middelen.
 
-Selecteer **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+Selecteren **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![Gebruiksrapporten uitvoeren](assets/assets-usage-report.png)

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
+source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -25,11 +25,11 @@ Help: [Uw toepassingen inschakelen voor Platform Services](core-services.md#conc
 
 Beschrijft hoe te:
 
-* Verricht uw bedrijf in de Experience Cloud.
+* Verstrek uw bedrijf in Experience Cloud.
 * Hiermee kunt u beheerder worden.
 * [Implementeer de Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
 * Uw [!DNL Analytics] en [!DNL Target] implementaties via [!UICONTROL Platform Data Collection].
-* Beginnen met services voor Experiencen Cloud zoals [!UICONTROL Customer Attributes] en [!UICONTROL Audiences].
+* Beginnen met services voor Experiencen Cloud zoals [[!DNL Customer Attributes]](attributes.md) en [[!DNL Audience Library]](audience-library.md).
 
 Oplossingen of services:
 
@@ -53,7 +53,7 @@ Zie [Experience Cloud-id-service](https://experienceleague.adobe.com/docs/id-ser
 
 Help: [Soorten publiek](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Soorten publiek maken en beheren in de Experience Cloud [!UICONTROL Audience Library]. De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worden afgeleid, zoals:
+Soorten publiek in Experience Cloud maken en beheren [!UICONTROL Audience Library]. De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worden afgeleid, zoals:
 
 * Nieuwe in het dialoogvenster [!DNL Experience Cloud].
 * Van [!DNL Analytics] segmenten gepubliceerd naar de [!DNL Experience Cloud].
@@ -69,7 +69,7 @@ Soorten publiek maken en beheren in de Experience Cloud [!UICONTROL Audience Lib
 
 Help: [Klantkenmerken](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in het Experience Cloud uploaden. Gebruik de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
+Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in Experience Cloud uploaden. Gebruik de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
 **Toepasselijke oplossingen of services**
 
@@ -80,7 +80,7 @@ Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relati
 
 Help: [Mappen Experiencen Cloud delen met Creative Cloud](creative-cloud.md)
 
-Deel mappen en elementen tussen het Experience Cloud en het Creative Cloud. Gedeelde elementen samenwerken, annoteren en deze gebruiken in Experiencen Cloud toepassingen zoals [!DNL Social] en [!DNL Target].
+Mappen en elementen delen tussen Experience Cloud en Creative Cloud. Gedeelde elementen samenwerken, annoteren en deze gebruiken in Experiencen Cloud toepassingen zoals [!DNL Social] en [!DNL Target].
 
 **Toepasselijke toepassingen of services**
 
@@ -114,7 +114,7 @@ Werken met gegevens van Experience Cloud toepassingen of andere externe systemen
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-Help: [Adobe Target integreren met het Experience Cloud](audience-library.md)
+Help: [Adobe Target integreren met Experience Cloud](audience-library.md)
 
 Integreer Adobe Target met Adobe Analytics en andere toepassingen van het Experience Cloud om het gebruik van de zelfde gegevens, het publiek, de attributen, en metriek in beide toepassingen toe te laten.
 

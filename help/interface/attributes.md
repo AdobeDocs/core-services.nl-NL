@@ -1,36 +1,40 @@
 ---
-title: Klantkenmerken
-description: Meer informatie over de Customer Attributes in Experience Cloud. Ontdek hoe u Customer Attribute-gegevens kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
+title: "[!DNL Customer Attributes]"
+description: Meer informatie over [!DNL Customer Attributes] in Experience Cloud. Ontdek hoe u klantkenmerkgegevens kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
+source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 7%
+source-wordcount: '427'
+ht-degree: 2%
 
 ---
 
-# Klantkenmerken in Experience Cloud
+# [!DNL Customer Attributes] in Experience Cloud
 
-[!UICONTROL Customer Attributes] in Experience Cloud kunt u uw vastgelegde bedrijfsgegevens uploaden vanuit een CRM-database (Customer relationship management). U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in de Experience Cloud en vervolgens de gegevens in Adobe Analytics en Adobe Target gebruiken.
+[!DNL Customer Attributes] in Experience Cloud laat u toe om uw gevangen ondernemingsgegevens van een gegevensbestand van het het relatiebeheer van de klant (CRM) te uploaden. U kunt de gegevens in een gegevensbron van het klantenattribuut in Experience Cloud uploaden, dan gebruiken binnen [!DNL Adobe Analytics] en [!DNL Adobe Target].
 
-Navigeer naar deze functie om deze functie te zoeken **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+## Zoek de [!DNL Customer Attributes] functie
+
+1. Meld u aan bij het Experience Cloud.
+
+1. Navigeren naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
 ![Overzicht van klantkenmerken](assets/custom_reports.png)
 
-## Vereisten voor het uploaden van klantkenmerken {#section_BD38693AFBF34926BA28E964963B4EA0}
+## Vereisten voor uploaden [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
 
 * **Oplossing ingeschakeld:** [Laat uw oplossingen voor de diensten van het Experience Platform toe](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 * **Groepslidmaatschap:** Gebruikers moeten lid zijn van de [Klantkenmerken, groep](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
 
-  Als u wilt weten of uw bedrijf toegang heeft tot Customer Attributes, kunt u [!DNL Experience Cloud] beheerder moet zich aanmelden bij de [Experience Cloud](https://experience.adobe.com). Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Indien *Klantkenmerken* wordt weergegeven als een van de [!UICONTROL Product Profiles], bent u klaar om te beginnen.
+  Als u wilt weten of uw bedrijf toegang heeft tot Customer Attributes, kunt u [!DNL Experience Cloud] beheerder moet zich aanmelden bij de [Experience Cloud](https://experience.adobe.com). Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Indien *[!DNL Customer Attributes]* wordt weergegeven als een van de [!UICONTROL product profiles], bent u klaar om te beginnen.
 
-  De gebruikers die aan de Attributen van de Klant worden toegevoegd zien [!UICONTROL Customer Attributes] menu-item links van de interface Experience Cloud.
+  Gebruikers die worden toegevoegd aan [!DNL Customer Attributes] zie [!UICONTROL Customer Attributes] menu-item links van de interface van het Experience Cloud.
 
 * **Adobe Target** `at.js` (elke versie) of `mbox.js` versie 58 of hoger is vereist voor Klantkenmerken.
 
@@ -50,7 +54,7 @@ Zie [Klantkenmerkgegevens uploaden](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934
 
 ## Voorbeelden van klantkenmerken in Analytics en Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
-Nadat de gegevens in de Experience Cloud verblijven, kunt u het aanpassen en het aan oplossingen voor rapportering, segmentatie, activiteiten, en campagnes delen.
+Nadat de gegevens in Experience Cloud verblijven, kunt u het aanpassen en het aan oplossingen voor rapportering, segmentatie, activiteiten, en campagnes delen.
 
 Bijvoorbeeld:
 

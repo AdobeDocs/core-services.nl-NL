@@ -3,9 +3,9 @@ description: Meer informatie over persoonlijke leervoorkeuren in Experience Clou
 solution: Experience Cloud
 title: Voorkeuren voor persoonlijk leren van Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 8d62b535e0a11879477d5310575d9cf8332b3d5f
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,7 @@ U kunt ervoor kiezen om u nuttige inhoud te bieden die op uw werk in uw producte
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
-
 U kunt uw selecties op elk gewenst moment bijwerken in de sectie Productgegevensgebruik en -verzameling in uw [Voorkeursinstellingen gebruiker](https://experience.adobe.com/preferences/).
-
-
-
-
 
 ## Aanbevolen training en ondersteuning voor producten en services van uw Adobe
 
@@ -53,8 +48,6 @@ Ontvang relevante beste praktijken, uiteinden &amp; trucs, nuttige lopen door, e
   </tr>
 </tbody>
 </table>
-
-
 
 ## Persoonlijke informatie over producten, services, evenementen en promoties van Adoben
 
@@ -85,9 +78,6 @@ Ontvang op elk van deze drie manieren op maat gemaakte mogelijkheden voor leerge
 
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
-
-
 
 ## Zie voorbeelden van hoe deze aangepaste het leren informatie zou kunnen kijken.
 

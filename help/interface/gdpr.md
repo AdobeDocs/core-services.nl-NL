@@ -1,21 +1,21 @@
 ---
-title: 'Klantkenmerken Ondersteuning voor algemene gegevensbeschermingsverordening '
+title: "[!DNL Customer Attributes] Steun voor de algemene verordening inzake gegevensbescherming"
 description: Meer informatie over Customer Attributes Support for General Data Protection Regulation
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
-# Klantenkenmerkondersteuning voor algemene gegevensbeschermingsverordening
+# [!DNL Customer Attributes] steun voor de algemene verordening inzake gegevensbescherming
 
-In deze pagina wordt beschreven hoe [!UICONTROL Customer Attributes] ondersteunt algemene gegevensbeschermingsverordening (GDPR).
+Deze pagina beschrijft hoe [!DNL Customer Attributes] ondersteunt algemene gegevensbeschermingsverordening (GDPR).
 
 >[!IMPORTANT]
 >
@@ -25,36 +25,36 @@ De [Algemene verordening inzake gegevensbescherming](https://business.adobe.com/
 
 Adobe Experience Cloud treedt op als een gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
-In dit document wordt beschreven hoe [!UICONTROL Customer Attributes] ondersteunt de toegangsrechten voor GDPR-gegevens en verwijderingsrechten van de betrokkenen via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service.
+In dit document wordt beschreven hoe [!DNL Customer Attributes] ondersteunt de toegangsrechten voor GDPR-gegevens en verwijderingsrechten van de betrokkenen via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service.
 
 Voor meer informatie over wat GDPR voor uw zaken betekent, zie [GDPR en uw bedrijf](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Vereiste installatie voor het verzenden van aanvragen voor [!UICONTROL Customer Attributes]
+## Vereiste installatie voor het verzenden van aanvragen voor [!DNL Customer Attributes]
 
-Om verzoeken om tot gegevens toegang te hebben en te schrappen voor [!UICONTROL Customer Attributes]moet u:
+Om verzoeken om tot gegevens toegang te hebben en te schrappen voor [!DNL Customer Attributes], moet u:
 
 1. Vermeld het volgende:
 
-   * [Organisatie-id](#organizations.md)
+   * [Organisatie-ID](#organizations.md)
    * Alias-id van CRS-gegevensbron waarop u wilt reageren
    * CRM-id van het profiel waarop u wilt reageren
 
-   Uw [organisatie-id](#organizations.md) is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Contact opnemen met de klantenservice van Adobe op `gdprsupport@adobe.com` als u de id niet kunt vinden.
+   Uw [organisatie-id](#organizations.md) is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Contact opnemen met de klantenservice van de Adobe op `gdprsupport@adobe.com` als u de id niet kunt vinden.
 
-1. In [!UICONTROL Privacy Service], kunt u verzoeken om toegang en om verwijdering indienen bij Klantkenmerken en de status van bestaande aanvragen controleren.
+1. In [!UICONTROL Privacy Service], kunt u verzoeken om toegang en om verwijdering verzenden naar [!DNL Customer Attributes]en controleert u de status van bestaande verzoeken.
 
-## Vereiste veldwaarden in [!UICONTROL Customer Attributes] JSON-verzoeken
+## Vereiste veldwaarden in [!DNL Customer Attributes] JSON-verzoeken
 
 &quot;bedrijfcontext&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;waarde&quot;: &lt;*uw IMS Org ID-waarde*>
+* &quot;value&quot;: &lt;*uw IMS Org ID-waarde*>
 
 &quot;gebruikers&quot;:
 
 * &quot;key&quot;: &lt;*gewoonlijk de naam van de klant*>
 
-* &quot;actie&quot;: ofwel **toegang** of **delete**
+* &quot;actie&quot;: **toegang** of **delete**
 
 * &quot;gebruikers-id&#39;s&quot;:
 
@@ -62,9 +62,9 @@ Om verzoeken om tot gegevens toegang te hebben en te schrappen voor [!UICONTROL 
 
    * &quot;type&quot;: **integrationCode**
 
-   * &quot;waarde&quot;: &lt;*CRM-id*>
+   * &quot;value&quot;: &lt;*CRM-id*>
 
-* &quot;include&quot;: **CRS** (dit is het product van de Adobe dat op het verzoek van toepassing is)
+* &quot;include&quot;: **CRS** (dit is het Adobe product dat van toepassing is op het verzoek)
 
 * &quot;verordening&quot;: **gdpr** (dit is de privacyverordening die van toepassing is op het verzoek)
 
@@ -105,8 +105,8 @@ Om verzoeken om tot gegevens toegang te hebben en te schrappen voor [!UICONTROL 
 ```
 attributes:
 {
-"value”:<*value*>,
-"key”:<*key*>,
-"displayName”:<*displayName*>
+"value":<*value*>,
+"key":<*key*>,
+"displayName":<*displayName*>
 }
 ```

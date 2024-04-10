@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '719'
 ht-degree: 1%
 
 ---
 
 # Veelgestelde vragen over Experience Cloud
 
-Meer informatie over browserondersteuning en veelgestelde vragen en antwoorden voor beheerders in het Experience Cloud.
+Meer informatie over browserondersteuning en veelgestelde vragen en antwoorden voor beheerders in Experience Cloud.
 
 ## Welke browsers worden ondersteund in Experience Cloud?
 
@@ -31,7 +31,7 @@ Meer informatie over browserondersteuning en veelgestelde vragen en antwoorden v
 
 Als uw implementatie niet is ingericht voor kernservices, raadpleegt u [Uw toepassingen inschakelen voor kernservices](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), waarin wordt beschreven hoe:
 
-1. [Deelnemen aan het Experience Cloud en beheerder worden](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Deelnemen aan Experience Cloud en beheerder worden](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [De Experience Cloud-id-service implementeren met Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
 1. [Kaartrapportsets aan een Experience Cloud-organisatie](core-services.md#concept_apg_zq2_rw)
 1. [(Alleen analyse) Moderniseer uw AppMeasurement Analytics](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -62,10 +62,10 @@ De functionaliteit die door de interface van het Experience Cloud wordt verstrek
 
 ## Wat is _provisioning?_
 
-Onder voorziening in de Experience Cloud wordt verstaan:
+Onder voorziening in Experience Cloud wordt verstaan:
 
 * Uw gebruikers kunnen zich aanmelden bij de [!DNL Experience Cloud] en toepassingen koppelen.
-* Ze kunnen de functies gebruiken die beschikbaar zijn via het Experience Cloud, zoals Personen.
+* Ze kunnen de functies gebruiken die beschikbaar zijn via Experience Cloud, zoals Personen.
 * U kunt bereid worden om uw toepassing-specifieke login proces terug te trekken.
 * U kunt toegangsbeheer voor toepassingen behouden.
 
@@ -77,7 +77,7 @@ Onder voorziening in de Experience Cloud wordt verstaan:
 
 * **Belangrijk:** Analysebeheerders, zie [Gebruikers voor analyse beheren in de Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en) over het migreren van gebruikers-id&#39;s van Analytics Admin Tools naar de Admin Console.
 
-## Wat doe ik als iemand zich niet bij het Experience Cloud kan aanmelden?
+## Wat moet ik doen als iemand zich niet bij het Experience Cloud kan aanmelden?
 
 Beheerders van Admin Consoles kunnen toegang verlenen aan gebruikers. Gebruikers worden per e-mail verzonden met aanmeldingsinstructies.
 
@@ -95,7 +95,7 @@ Zie [Gebruikersaccounts beheren](organizations.md#topic_C31CB834F109465A82ED57FF
 
 ## Wat is een organisatie?
 
-An [organisatie](organizations.md) is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en om enig teken-binnen in het Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en toepassingen van het Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben.
+An [organisatie](organizations.md) is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en om enig teken-binnen in Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en toepassingen van het Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben.
 
 ## Waar kan ik mijn IMS organisatie ID vinden?
 
@@ -103,7 +103,7 @@ Zie [Uw organisatie-id weergeven](organizations.md) voor meer informatie.
 
 ## Wat moet ik doen als een van mijn gebruikers mijn bedrijf verlaat?
 
-Hun toegang moet uit de toepassing zelf worden verwijderd. Zij zullen niet tot het product van het Experience Cloud of door directe login kunnen toegang hebben. U moet ze ook op het niveau van het Experience Cloud verwijderen.
+Hun toegang moet uit de toepassing zelf worden verwijderd. Zij zullen niet tot het product van Experience Cloud of door directe login kunnen toegang hebben. U moet ze ook op het niveau van het Experience Cloud verwijderen.
 
 ## Wat is een Adobe ID?
 
