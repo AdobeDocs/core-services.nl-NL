@@ -1,5 +1,5 @@
 ---
-description: Meer informatie over Experience Cloud-elementen die u kunt delen in verschillende toepassingen.
+description: Meer informatie over Experience Cloud-assets die u in verschillende applicaties kunt delen.
 solution: Experience Cloud
 title: Overzicht van elementen
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c

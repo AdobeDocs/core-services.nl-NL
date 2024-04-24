@@ -1,6 +1,6 @@
 ---
 title: Gebruikers en producten beheren
-description: Meld u aan bij de Admin Console en beheer gebruikersmachtigingen en producten voor Experiencen Cloud (productprofielen). Leer over het delegeren van beheerdersrechten aan Experience Cloud-gebruikers en over browserondersteuning voor Experience Cloud.
+description: Meld u aan bij de Admin Console en beheer gebruikersmachtigingen en producten voor Experience Cloud-gebruikers (productprofielen). Leer meer over het delegeren van beheerdersrechten aan Experience Cloud-gebruikers en over browserondersteuning voor Experience Cloud.
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1538'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 

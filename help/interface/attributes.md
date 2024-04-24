@@ -1,6 +1,6 @@
 ---
 title: "[!DNL Customer Attributes]"
-description: Meer informatie over [!DNL Customer Attributes] in Experience Cloud. Ontdek hoe u klantkenmerkgegevens kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
+description: Meer informatie over [!DNL Customer Attributes] in Experience Cloud. Ontdek hoe u gegevens voor klantkenmerken kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 06c51428244c67fdb871d4039888aa2517048d2b
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
