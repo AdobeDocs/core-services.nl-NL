@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud-interface en -beheerhandleiding
 title: Experience Cloud Interface and Administration Guide
 description: Meer informatie over de interface van Experiencen Cloud en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en share Experience Cloud Assets configureren.
 index: true
-source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
+source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 9%
+source-wordcount: '248'
+ht-degree: 16%
 
 ---
 
@@ -16,63 +16,64 @@ ht-degree: 9%
 # Experience Cloud-interface en -beheerhandleiding {#interface}
 
 + [Handleiding voor interfaceonderdelen van Experience Cloud Central](experience-cloud.md)
+
 + Experience Cloud {#services}
-   + [Experience Cloud](core-services-landing.md)
-   + [Unified Search in Experience Cloud](search-experience-cloud.md)
-   + [Implementatie voor services voor meerdere toepassingen inschakelen](core-services.md)
-   + [Voorkeuren voor persoonlijk leren van Experience Cloud](personalized-learning-preferences.md)
-   + Experience Cloud Audience Library {#audiences}
-      + [Experience Cloud publiek](audience-library.md)
-      + [Een publiek maken](t-audience-create.md)
-      + [Een publiekssegment Analytics publiceren](t-publish-audience-segment.md)
-   + Kenmerken Experience Cloud klant {#customer-attributes}
-      + [Klantkenmerken in Experience Cloud](attributes.md)
-      + [Veelgestelde vragen over Customer Attributes](faq-crs.md)
-      + [Gegevensbestand en gegevensbronnen voor klantkenmerken](crs-data-file.md)
-      + [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](t-crs-usecase.md)
-      + [Optioneel - Het gegevensbestand uploaden via FTP](t-upload-attributes-ftp.md)
-      + [Het schema valideren](validate-schema.md)
-      + [Abonnementen configureren](subscription.md)
-      + [Het schema bijwerken](t-update-schema.md)
-      + [Steun voor algemene gegevensbeschermingsverordening](gdpr.md)
-      + [Ondersteuning voor de California Consumer Privacy Act](ccpa.md)
-      + [Privacyoverwegingen voor klantkenmerken](privacy-mac.md)
-   + Experience Cloud-elementen {#assets}
-      + [Overzicht van Experiencen Cloud](experience-cloud-assets.md)
-      + [Mappen en elementen van Experiencen Cloud delen met Creative Cloud](creative-cloud.md)
-      + [Gebruikers van Creatives Cloud beheren](t-admin-add-cc-user.md)
-      + [Een map met Experiencen Cloud delen](t-share-creative-cloud.md)
-      + [Middelen uploaden naar een gedeelde map vanuit de browser Creative Cloud](t-upload-asset-cc.md)
-      + [Middelen uploaden naar een gedeelde map vanaf het bureaublad van het Creative Cloud](t-cc-asset-upload-thor.md)
-      + [Vereisten voor het delen van elementbestanden](assets-file-reqs.md)
-      + [Gedrag van gedeelde mappen](asset-behavior.md)
+   + [Experience Cloud](services/overview.md)
+   + [Aan de slag](services/getting-started.md)
+   + Assets {#assets}
+      + [Overzicht van Experiencen Cloud](services/assets/experience-cloud-assets.md)
+      + [Mappen en elementen van Experiencen Cloud delen met Creative Cloud](services/assets/creative-cloud.md)
+      + [Gebruikers van Creatives Cloud beheren](services/assets/manage-cc-users.md)
+      + [Een map met Experiencen Cloud delen](services/assets/share.md)
+      + [Middelen uploaden naar een gedeelde map](services/assets/upload.md)
+      + [Vereisten voor het delen van elementbestanden](services/assets/file-reqs.md)
+      + [Gedrag van gedeelde mappen](services/assets/behavior.md)
+   + Auditiebibliotheek {#audiences}
+      + [Overzicht](services/audiences/overview.md)
+      + [Een publiek maken](services/audiences/create.md)
+   + [Exchange](services/exchange.md)
+   + Klantkenmerken {#customer-attributes}
+      + [Overzicht](services/customer-attributes/attributes.md)
+      + [Veelgestelde vragen over Customer Attributes](services/customer-attributes/faq-crs.md)
+      + [Gegevensbestand en gegevensbronnen voor klantkenmerken](services/customer-attributes/crs-data-file.md)
+      + [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](services/customer-attributes/t-crs-usecase.md)
+      + [Optioneel - Het gegevensbestand uploaden via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Het schema valideren](services/customer-attributes/validate-schema.md)
+      + [Abonnementen configureren](services/customer-attributes/subscription.md)
+      + [Het schema bijwerken](services/customer-attributes/t-update-schema.md)
+      + [Steun voor algemene gegevensbeschermingsverordening](services/customer-attributes/gdpr.md)
+      + [Ondersteuning voor de California Consumer Privacy Act](services/customer-attributes/ccpa.md)
+      + [Privacyoverwegingen voor klantkenmerken](services/customer-attributes/privacy-mac.md)
+   + [Triggers](services/triggers.md)
+
++ Experiencen Cloud {#features}
+   + [Accountvoorkeuren](features/account-preferences.md)
+   + [Unified Search](features/search.md)
+   + [Persoonlijk leren](features/personalized-learning.md)
+
 + Toediening van Experience Cloud {#administration}
-   + [Gebruikersidentiteit en producten van Experiencen Cloud beheren (Admin Console)](admin-getting-started.md)
-   + [Gebruikersgegevens van Experiencen Cloud weergeven (Admin Tool)](admin-tool-experience-cloud.md)
-   + [Veelgestelde vragen](faq.md)
-   + [Organisaties en accountkoppelingen](organizations.md)
-   + [Upgrade uitvoeren naar Analytics Premium en het Experience Cloud](upgrade-to-analytics-premium.md)
-   + [Experience Cloud-integraties](marketing-cloud-integrations.md)
-   + [DNS-prefetch gebruiken met verschillende toepassingen en services](dns-prefetch.md)
-   + Cookies Experiencen Cloud {#ec-cookies}
-      + [Overzicht van Experiencen Cloud cookies](cookies-privacy.md)
-      + [Eerste cookies in Experience Cloud](cookies-first-party.md)
-      + [Analysecookies](cookies-analytics.md)
-      + [Cookies Audience Managers](cookies-am.md)
-      + [[!UICONTROL Data Connectors] cookies](cookies-dc.md)
-      + [[!UICONTROL Data Workbench] cookies](cookies-insight.md)
-      + [Cookies Experiencen Cloud](cookies-mc.md)
-      + [Cookies Adoben Advertising](cookies-advertising-cloud.md)
-      + [[!DNL Scene7] cookies](cookies-s7.md)
-      + [[!DNL Search and Promote] cookies](cookies-snp.md)
-      + [[!DNL Target] cookies](cookies-target.md)
-      + [Privacy-instellingen voor browsercookies inschakelen](browser-cookie-settings.md)
-      + [Hoe de veranderingen in derdekoekjessteun klanten beïnvloeden](cookies-thirdparty.md)
-+ [Experience Cloud-triggers](triggers.md)
-+ Opmerkingen bij de release voor gebruikersinterface van Experience Cloud {#release-notes}
-   + [De nota&#39;s van de versie voor centrale interfacecomponenten](release-notes.md)
-   + [Opmerkingen bij de release voor alle Experiencen Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
+   + [Gebruikersgegevens van Experiencen Cloud weergeven (Admin Tool)](administration/admin-tool-experience-cloud.md)
+   + [Organisaties en accountkoppelingen](administration/organizations.md)
+   + [Experience Cloud-integraties](administration/integrations.md)
+
++ Gegevensverzameling Experience Cloud {#data-collection}
+   + [Certificaatprogramma met beheerde Adobe](data-collection/adobe-managed-cert.md)
+   + [IP-adressen](data-collection/ip-addresses.md)
+   + [Domeinen](data-collection/domains.md)
+   + Cookies {#cookies}
+      + [Overzicht van cookies](data-collection/cookies/overview.md)
+      + [Reclamecookies](data-collection/cookies/advertising.md)
+      + [Analysecookies](data-collection/cookies/analytics.md)
+      + [Cookies Audience Managers](data-collection/cookies/audience-manager.md)
+      + [Cookies Experiencen Cloud](data-collection/cookies/experience-cloud.md)
+      + [Doelcookies](data-collection/cookies/target.md)
+      + [Web SDK-cookies](data-collection/cookies/web-sdk.md)
+   + [Regionale gegevensverzameling](data-collection/rdc.md)
+   + [DNS-prefetch gebruiken](data-collection/dns-prefetch.md)
+
 + Meer bronnen {#more-resources}
-   + [Forum](https://experienceleaguecommunities.adobe.com/)
-   + [Terminologie](terms.md)
-   + [Documentatie-updates](doc-updates.md)
+   + [Aanvullende informatie](more-resources/release-notes.md)
+   + [Documentatie-updates](more-resources/doc-updates.md)
+   + [Veelgestelde vragen](more-resources/faq.md)
+   + [Terminologie](more-resources/terms.md)
+
