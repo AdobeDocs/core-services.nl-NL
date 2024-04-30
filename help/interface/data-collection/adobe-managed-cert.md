@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Van de volgende clients is bekend dat ze geen verbinding kunnen maken met de bev
 
 +++Welke HTTPS-certificaattypen worden ondersteund?
 
-De Adobe steunt zowel RSA als ECC certificaattypes om aan verschillende klantenbehoeften te voldoen. RSA-certificaten worden meer ondersteund voor clients, maar ECC-certificaten gebruiken minder verwerking aan zowel de server- als de clientzijde. Voor Adobe-beheerde certificaten, zowel RSA als ECC worden verstrekt. Voor klant-beheerde certificaten, zowel worden RSA als ECC geadviseerd. Moderne clients ondersteunen zowel RSA als ECC. De volgende cliënten steunen typisch slechts certificaten RSA:
+De Adobe steunt zowel RSA als ECC certificaattypes om aan verschillende klantenbehoeften te voldoen. RSA-certificaten worden meer ondersteund voor clients, maar ECC-certificaten gebruiken minder verwerking aan zowel de server- als de clientzijde. Voor Adobe-beheerde certificaten, zowel RSA als ECC worden verstrekt. Voor klant-beheerde certificaten, wordt RSA vereist en ECC wordt geadviseerd. Moderne clients ondersteunen zowel RSA als ECC. De volgende cliënten steunen typisch slechts certificaten RSA:
 
 * Windows Vista en eerder (laatst bijgewerkt in 2012)
 * Windows Phone 8.0 en eerder (laatst bijgewerkt in 2014)
