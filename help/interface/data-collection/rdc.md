@@ -2,9 +2,9 @@
 title: Regionale gegevensverzameling
 description: Informatie over regionale gegevensverzameling
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 01851c4d66cbaf1a68961b86926e8cc2c310d1ec
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ De regionale distributiesector omvat momenteel de volgende locaties (afhankelijk
 | RDC-type | Centra voor gegevensverzameling |
 | --- | --- |
 | Algemeen (standaard) | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
-| Wereldwijd + China* | China*, Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+| Wereldwijd + China* | Beijing*, Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
 | Alleen Amerika | Oregon, Virginia |
 | Alleen Europa | Ierland, Parijs |
 | Alleen Azië-Stille Oceaan | Mumbai, Singapore, Tokio, Sydney |
@@ -41,6 +41,7 @@ Gegevensverzameling van derden omvat cookiedomeinen die niet overeenkomen met uw
 
 | RDC-type | Centra voor gegevensverzameling |
 | --- | --- |
-| Standaard | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney, China* |
+| Standaard | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+| Standaard + China* | Beijing*, Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
 
 {style="table-layout:auto"}
