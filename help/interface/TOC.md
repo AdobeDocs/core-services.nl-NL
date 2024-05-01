@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud-interface en -beheerhandleiding
 title: Experience Cloud Interface and Administration Guide
 description: Meer informatie over de interface van Experiencen Cloud en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en share Experience Cloud Assets configureren.
 index: true
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 16%
+source-wordcount: '227'
+ht-degree: 18%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 16%
 
 + [Handleiding voor interfaceonderdelen van Experience Cloud Central](experience-cloud.md)
 
-+ Experience Cloud {#services}
-   + [Experience Cloud](services/overview.md)
++ Services {#services}
+   + [Overzicht](services/overview.md)
    + [Aan de slag](services/getting-started.md)
    + Assets {#assets}
-      + [Overzicht van Experiencen Cloud](services/assets/experience-cloud-assets.md)
-      + [Mappen en elementen van Experiencen Cloud delen met Creative Cloud](services/assets/creative-cloud.md)
+      + [Overzicht](services/assets/experience-cloud-assets.md)
+      + [Mappen en middelen delen met Creative Cloud](services/assets/creative-cloud.md)
       + [Gebruikers van Creatives Cloud beheren](services/assets/manage-cc-users.md)
-      + [Een map met Experiencen Cloud delen](services/assets/share.md)
+      + [Een elementmap delen](services/assets/share.md)
       + [Middelen uploaden naar een gedeelde map](services/assets/upload.md)
       + [Vereisten voor het delen van elementbestanden](services/assets/file-reqs.md)
       + [Gedrag van gedeelde mappen](services/assets/behavior.md)
@@ -46,17 +46,17 @@ ht-degree: 16%
       + [Privacyoverwegingen voor klantkenmerken](services/customer-attributes/privacy-mac.md)
    + [Triggers](services/triggers.md)
 
-+ Experiencen Cloud {#features}
++ Functies {#features}
    + [Accountvoorkeuren](features/account-preferences.md)
    + [Unified Search](features/search.md)
    + [Persoonlijk leren](features/personalized-learning.md)
 
-+ Toediening van Experience Cloud {#administration}
-   + [Gebruikersgegevens van Experiencen Cloud weergeven (Admin Tool)](administration/admin-tool-experience-cloud.md)
++ Beheer {#administration}
+   + [Gebruikersgegevens weergeven (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisaties en accountkoppelingen](administration/organizations.md)
-   + [Experience Cloud-integraties](administration/integrations.md)
+   + [Integraties](administration/integrations.md)
 
-+ Gegevensverzameling Experience Cloud {#data-collection}
++ Gegevensverzameling {#data-collection}
    + [Certificaatprogramma met beheerde Adobe](data-collection/adobe-managed-cert.md)
    + [IP-adressen](data-collection/ip-addresses.md)
    + [Domeinen](data-collection/domains.md)
