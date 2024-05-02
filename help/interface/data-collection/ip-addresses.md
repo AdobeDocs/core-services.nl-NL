@@ -1,8 +1,7 @@
 ---
 title: IP adressen die door Adobe Experience Cloud worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die uit Adobe voortkomen, gebruik deze lijst om uw firewallmontages bij te werken.
-exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
+source-git-commit: 6ef38a303e19f5b18be9e61819d3aff03faeedd4
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 2%
