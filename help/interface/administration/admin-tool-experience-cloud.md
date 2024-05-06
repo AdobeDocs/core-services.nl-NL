@@ -1,6 +1,6 @@
 ---
 title: Gebruikers en gebruikersgegevens weergeven
-description: Meer informatie over het Admin Tool in Experience Cloud. Bekijk een sorteerbare en filterbare lijst met alle gebruikers en beleidsregels van het Experience Cloud.
+description: Meer informatie over de beheerderstool in Experience Cloud. Bekijk een sorteerbare en filterbare lijst met alle gebruikers en beleidsregels van Experience Cloud.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
