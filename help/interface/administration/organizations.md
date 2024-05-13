@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ U kunt uw toegewezen organisatie-id zoeken voor ondersteuningsdoeleinden. U kunt
 
 De organisatie-id is de id die is gekoppeld aan uw bedrijf voor het geleverde Experience Cloud. Deze id bestaat uit een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet worden opgenomen) `@AdobeOrg`.
 
-U kunt uw organisatie-id samen met andere accountgegevens weergeven met een sneltoets **Ctrl+i** vanaf elke pagina op `https://experience.adobe.com`.
+U kunt uw organisatie-id samen met andere accountgegevens weergeven met de sneltoets **Ctrl+i** vanaf elke pagina op `https://experience.adobe.com`.
 
 **Uw organisatie-id weergeven**
 
@@ -45,7 +45,7 @@ U kunt uw organisatie-id samen met andere accountgegevens weergeven met een snel
 
    ![Toegewezen organisatie-id](../assets/assigned-organization.png)
 
-1. Onder **[!UICONTROL User Information]**, zoek naar **[!UICONTROL Current Org ID]** en u ziet de organisatie-id.
+1. Onder **[!UICONTROL User Information]**, zoek naar **[!UICONTROL Current Org ID]** en u kunt de organisatie-id zoeken.
 
    Beheerders kunnen zich ook aanmelden bij de Admin Console (navigeer naar [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) en bekijk uw organisatie-id in de URL.
 
@@ -87,7 +87,7 @@ Selecteer in uw profiel **[!UICONTROL Edit Profile]**.
 
 ![Profiel bewerken](../assets/edit-profile.png)
 
-Bij Standaardorganisatie en -bestemmingspagina kunt u uw aanmeldingservaring aanpassen.
+Onder **[!UICONTROL Default Organization & Landing Page]** kunt u uw aanmeldingservaring aanpassen.
 
 ![Standaardpagina voor organisatie en landing](../assets/default-organization.png)
 
