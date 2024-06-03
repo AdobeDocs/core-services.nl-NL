@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+source-git-commit: cdb969ba98f023162297efbd1be320b509c74c32
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1919'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ De diensten van het Experience Cloud (zoals de Dienst van identiteitskaart van h
 
 ## Uw AppMeasurement Analytics bijwerken {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Als u Analytics gebruikt, verifieer dat u op regionale gegevensinzameling (RDC) bent. Als uw gegevensverzamelingsdomein `omtrdc.net`of als uw CNAME is toegewezen aan `omtrdc.net`, u bent op RDC. Zie [Overschakelen naar de RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html) voor meer informatie . Als u cookies van de eerste fabrikant gebruikt, raadpleegt u [CNAME en de dienst van identiteitskaart van het Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html) voor informatie over gegevensverzameling CNAMEs en dwars-domein het volgen.
+Als u cookies van de eerste fabrikant gebruikt, raadpleegt u [CNAME en de dienst van identiteitskaart van het Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html) voor informatie over gegevensverzameling CNAMEs en dwars-domein het volgen.
 
 U wordt aangeraden de analytische implementatie te moderniseren door uw JavaScript-bibliotheken bij te werken, inclusief de API voor bezoekers. De eenvoudige manier om te verwezenlijken is het toevoegen van een [Adobe Analytics-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) in Experience Platform Data Collection.
 
