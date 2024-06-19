@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: e7c4085f41c674826ddc097a01a24ff9ab6aae2c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Analytics gebruikt cookies om nieuwe bezoekers anoniem te definiëren, hulp bij 
 | **`s_sq`** | Sessie | 100-200 bytes | Eerste partij | Wordt gebruikt door Activity Map. Deze bevat informatie over de vorige koppeling waarop de bezoeker heeft geklikt. Ingesteld door JavaScript. |
 | **`s_vi`** | 2 jaar | 44 bytes | Eerste partij, of `*.omtrdc.net` (derde) | Hiermee worden een unieke bezoeker-id en een unieke tijdstempel opgeslagen. Instellen op HTTP-reactie. Elke bezoekersidentiteitskaart wordt geassocieerd met een bezoekersprofiel op de servers van de Adobe. Bezoekersprofielen worden na 1 jaar inactiviteit verwijderd, ongeacht de vervaldatum van de cookie van de bezoeker. De `Secure` markering ingesteld als `SameSite` is &quot;Geen&quot; en verbinding is HTTPS. `SameSite` is standaard &quot;Lax&quot; voor cookies van de eerste partij. `SameSite` is &quot;Geen&quot; bij gebruik van cookies van derden, zoals op `omtrdc.net` of `2o7.net`. Set `SameSite` aan &quot;niets&quot;wanneer het gebruiken van één enkele NAAM om veelvoudige domeinen of eigenschappen te volgen. |
 | **`s_fid`** | 2 jaar | 33 bytes | Eerste partij | Hiermee slaat u de fallback-unieke bezoeker-id en het tijdstempel op. Instellen door JavaScript als de standaard `s_vi` cookie kan niet worden ingesteld vanwege cookie-beperkingen van derden. Niet gebruikt voor cookie-implementaties van de eerste fabrikant. |
+| **`s_ac`** | Meteen | 1 byte | Eerste partij | Helpt het correcte domein te bepalen om de koekjes van het AppMeasurement te plaatsen. Bevat de statische waarde `"1"`. Zodra deze cookie is ingesteld, wordt deze direct verwijderd. |
 
 {style="table-layout:auto"}
 
