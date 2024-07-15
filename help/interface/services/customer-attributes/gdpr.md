@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Customer Attributes] Steun voor de algemene verordening inzake gegevensbescherming"
+title: "[!DNL Customer Attributes] Ondersteuning voor algemene gegevensbeschermingsverordening"
 description: Meer informatie over Customer Attributes Support for General Data Protection Regulation
 feature: Customer Attributes
 topic: Administration
@@ -13,53 +13,53 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Customer Attributes] steun voor de algemene verordening inzake gegevensbescherming
+# [!DNL Customer Attributes] ondersteuning voor algemene gegevensbeschermingsverordening
 
-Deze pagina beschrijft hoe [!DNL Customer Attributes] ondersteunt algemene gegevensbeschermingsverordening (GDPR).
+Op deze pagina wordt beschreven hoe [!DNL Customer Attributes] General Data Protection Regulation (GDPR) ondersteunt.
 
 >[!IMPORTANT]
 >
 >De inhoud van dit document is geen juridisch advies of is bedoeld ter vervanging van juridisch advies. Raadpleeg uw juridisch adviseur voor advies over de GDPR.
 
-De [Algemene verordening inzake gegevensbescherming](https://business.adobe.com/privacy/general-data-protection-regulation.html), een wet die van kracht is op 25 mei 2018, geeft alle personen (betrokkenen) binnen de grenzen van de Europese Unie (EU) controle op hun persoonsgegevens. Het vereenvoudigt ook de regelgeving voor het internationale bedrijfsleven. Deze wet is van toepassing op alle ondernemingen (voor de verwerking van persoonsgegevens verantwoordelijke personen) die goederen of diensten aanbieden, het gedrag van personen binnen de grenzen van de EU volgen of persoonsgegevens verzamelen op het tijdstip waarop hun persoonsgegevens worden verwerkt, ongeacht de bedrijfslocatie van de voor de verwerking verantwoordelijke.
+De [ Algemene Verordening van de Bescherming van Gegevens ](https://business.adobe.com/privacy/general-data-protection-regulation.html), een wet in werking 25 mei, 2018, geeft alle individuen (betrokkenen) binnen de grenzen van de Europese Unie (EU) controle van hun persoonsgegevens. Het vereenvoudigt ook de regelgeving voor het internationale bedrijfsleven. Deze wet is van toepassing op alle ondernemingen (voor de verwerking van persoonsgegevens verantwoordelijke personen) die goederen of diensten aanbieden, het gedrag van personen binnen de grenzen van de EU volgen of persoonsgegevens verzamelen op het tijdstip waarop hun persoonsgegevens worden verwerkt, ongeacht de bedrijfslocatie van de voor de verwerking verantwoordelijke.
 
 Adobe Experience Cloud treedt op als een gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
-In dit document wordt beschreven hoe [!DNL Customer Attributes] ondersteunt de toegangsrechten voor GDPR-gegevens en verwijderingsrechten van de betrokkenen via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service.
+In dit document wordt beschreven hoe [!DNL Customer Attributes] de toegang tot en het verwijderen van GDPR-gegevens van de betrokkenen via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service ondersteunt.
 
-Voor meer informatie over wat GDPR voor uw zaken betekent, zie [GDPR en uw bedrijf](https://business.adobe.com/privacy/general-data-protection-regulation.html).
+Voor meer informatie over wat GDPR voor uw zaken betekent, zie [ GDPR en Uw Zaken ](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Vereiste installatie voor het verzenden van aanvragen voor [!DNL Customer Attributes]
+## Vereiste instellingen voor het verzenden van aanvragen voor [!DNL Customer Attributes]
 
-Om verzoeken om tot gegevens toegang te hebben en te schrappen voor [!DNL Customer Attributes], moet u:
+Als u verzoeken wilt indienen om gegevens voor [!DNL Customer Attributes] te openen en te verwijderen, moet u:
 
 1. Vermeld het volgende:
 
    * [Organisatie-ID](../../administration/organizations.md)
-   * Alias-id van CRS-gegevensbron waarop u wilt reageren
+   * Alias-id van CRS Data Source waarop u wilt reageren
    * CRM-id van het profiel waarop u wilt reageren
 
-   Uw [organisatie-id](../../administration/organizations.md) is een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Contact opnemen met de klantenservice van de Adobe op `gdprsupport@adobe.com` als u de id niet kunt vinden.
+   Uw [ organisatieidentiteitskaart ](../../administration/organizations.md) is een 24 karakter alfanumeriek koord dat met @AdobeOrg wordt toegevoegd. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Neem contact op met de klantenservice van de Adobe op `gdprsupport@adobe.com` als u de id niet kunt vinden.
 
-1. In [!UICONTROL Privacy Service], kunt u verzoeken om toegang en om verwijdering verzenden naar [!DNL Customer Attributes]en controleert u de status van bestaande verzoeken.
+1. In [!UICONTROL Privacy Service] kunt u aanvragen voor toegang en verwijderen indienen bij [!DNL Customer Attributes] en de status van bestaande aanvragen controleren.
 
-## Vereiste veldwaarden in [!DNL Customer Attributes] JSON-verzoeken
+## Vereiste veldwaarden in [!DNL Customer Attributes] JSON-aanvragen
 
 &quot;bedrijfcontext&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;value&quot;: &lt;*uw IMS Org ID-waarde*>
+* &quot;waarde&quot;: &lt;*uw waarde van identiteitskaart IMS die van de Org*>
 
 &quot;gebruikers&quot;:
 
-* &quot;key&quot;: &lt;*gewoonlijk de naam van de klant*>
-* &quot;actie&quot;: **toegang** of **delete**
+* &quot;sleutel&quot;: &lt;*gewoonlijk de naam van de klant*>
+* &quot;actie&quot;: of **toegang** of **schrapping**
 * &quot;gebruikers-id&#39;s&quot;:
-   * &quot;namespace&quot;: &lt;*Alias-id van CRS-gegevensbron*>
+   * &quot;namespace&quot;: &lt;*identiteitskaart van de Alias van Gegevens van CRS Source*>
    * &quot;type&quot;: **integrationCode**
-   * &quot;value&quot;: &lt;*CRM-id*>
-* &quot;include&quot;: **CRS** (dit is het Adobe product dat van toepassing is op het verzoek)
-* &quot;verordening&quot;: **gdpr** (dit is de privacyverordening die van toepassing is op het verzoek)
+   * &quot;waarde&quot;: &lt;*identiteitskaart van CRM*>
+* &quot;omvat&quot;: **CRS** (dat het product van de Adobe is dat op het verzoek van toepassing is)
+* &quot;verordening&quot;: **gdpr** (die de privacyverordening is die op het verzoek van toepassing is)
 
 ## Voorbeeld van JSON-aanvraag
 

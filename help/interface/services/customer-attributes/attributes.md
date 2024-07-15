@@ -1,6 +1,6 @@
 ---
 title: "[!DNL Customer Attributes]"
-description: Meer informatie over [!DNL Customer Attributes] in Experience Cloud. Ontdek hoe u gegevens voor klantkenmerken kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
+description: Leer over  [!DNL Customer Attributes]  in Experience Cloud. Ontdek hoe u gegevens voor klantkenmerken kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -16,27 +16,27 @@ ht-degree: 5%
 
 # [!DNL Customer Attributes] in Experience Cloud
 
-[!DNL Customer Attributes] in Experience Cloud laat u toe om uw gevangen ondernemingsgegevens van een gegevensbestand van het het relatiebeheer van de klant (CRM) te uploaden. U kunt de gegevens in een gegevensbron van het klantenattribuut in Experience Cloud uploaden, dan gebruiken binnen [!DNL Adobe Analytics] en [!DNL Adobe Target].
+[!DNL Customer Attributes] in Experience Cloud biedt u de mogelijkheid om uw vastgelegde bedrijfsgegevens te uploaden vanuit een CRM-database (customer relationship management). U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in Experience Cloud en vervolgens de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target] gebruiken.
 
-## Zoek de [!DNL Customer Attributes] functie
+## De functie [!DNL Customer Attributes] zoeken
 
 1. Meld u aan bij het Experience Cloud.
 
-1. Navigeren naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
+1. Navigeer naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]** .
 
-![Overzicht van klantkenmerken](assets/custom_reports.png)
+![ Overzicht van de Attributen van de Klant ](assets/custom_reports.png)
 
 ## Vereisten voor uploaden [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **Groepslidmaatschap:** Gebruikers die klantkenmerkgegevens willen uploaden, moeten lid zijn van de groep Klantkenmerken. U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
+* **het lidmaatschap van de Groep:** om de gegevens van Attributen van de Klant te uploaden, moeten de gebruikers lid van de groep van Attributen van de Klant zijn. U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
 
-  Als u wilt weten of uw bedrijf toegang heeft tot Customer Attributes, kunt u [!DNL Experience Cloud] beheerder moet zich aanmelden bij de [Experience Cloud](https://experience.adobe.com). Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Indien *[!DNL Customer Attributes]* wordt weergegeven als een van de [!UICONTROL product profiles], bent u klaar om te beginnen.
+  Om te weten of uw bedrijf toegang tot de Attributen van de Klant heeft, zou uw [!DNL Experience Cloud] beheerder in het [ Experience Cloud ](https://experience.adobe.com) moeten registreren. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Als *[!DNL Customer Attributes]* wordt weergegeven als een van de [!UICONTROL product profiles] , kunt u beginnen.
 
-  Gebruikers die worden toegevoegd aan [!DNL Customer Attributes] zie [!UICONTROL Customer Attributes] menu-item links van de interface van het Experience Cloud.
+  Gebruikers die aan [!DNL Customer Attributes] worden toegevoegd, zien het [!UICONTROL Customer Attributes] menu-item links van de interface van het Experience Cloud.
 
-* **Adobe Target** `at.js` (elke versie) of `mbox.js` versie 58 of hoger is vereist voor Klantkenmerken.
+* **Adobe Target** `at.js` (om het even welke versie) of `mbox.js` versie 58 of recenter wordt vereist voor de Attributen van de Klant.
 
-  Zie [Hoe te opstellen bij.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
+  Zie [ hoe te om at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html) op te stellen.
 
 ## Wat zijn bedrijfsklantgegevens? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -44,11 +44,11 @@ Bedrijfsgegevens bevinden zich in andere systemen. Het kan complex zijn en versc
 
 De volgende afbeelding is een voorbeeld van een gegevensbestand met abonneegegevens voor producten, waaronder id&#39;s van leden, producten met de naam, producten die het meest worden gestart, enzovoort.
 
-![Wat zijn bedrijfsklantgegevens?](assets/01_crs_usecase.png)
+![ wat gegevens van ondernemingsklanten is?](assets/01_crs_usecase.png)
 
-Nadat u het gegevensbestand creeert, kunt u het aan de bron van Attributen van de Klant uploaden die u binnen creeert **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
+Nadat u het gegevensbestand creeert, kunt u het aan de bron van Attributen van de Klant uploaden die u in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]** creeert.
 
-Zie [Klantkenmerkgegevens uploaden](t-crs-usecase.md) om deze workflow te leren.
+Zie [ gegevens van het Attribuut van de Klant uploaden ](t-crs-usecase.md) om dit werkschema te leren.
 
 ## Voorbeelden van klantkenmerken in Analytics en Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 

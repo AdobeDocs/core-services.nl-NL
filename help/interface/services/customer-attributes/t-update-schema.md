@@ -18,5 +18,5 @@ ht-degree: 0%
 
 Hoe te om attributen in het schema te schrappen en te vervangen.
 
-1. Op de [!UICONTROL Edit Customer Attribute Source] pagina, verwijder de **[!UICONTROL Target]** of **[!UICONTROL Analytics]** abonnement (onder **[!UICONTROL Configure Subscriptions]**).
-1. [Een nieuw gegevensbestand met bijgewerkte velden uploaden](t-crs-usecase.md).
+1. Verwijder op de pagina [!UICONTROL Edit Customer Attribute Source] het abonnement **[!UICONTROL Target]** of **[!UICONTROL Analytics]** (onder **[!UICONTROL Configure Subscriptions]** ).
+1. [ upload een nieuw gegevensdossier met bijgewerkte gebieden ](t-crs-usecase.md).

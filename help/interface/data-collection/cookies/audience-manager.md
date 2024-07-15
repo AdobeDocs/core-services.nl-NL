@@ -31,19 +31,19 @@ Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende funct
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Doel</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> Hiermee stelt u dit cookie zo in dat een unieke id wordt toegewezen aan een sitebezoeker. De <span class="wintitle"> demdex </span> koekjeshulp <span class="keyword"> Audience Manger </span> basisfuncties uit te voeren, zoals bezoekersidentificatie, id-synchronisatie, segmentatie, modellering, rapportage enzovoort. </p> </td> 
+   <td colname="col1"> <p> <b> Doel </b> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt dit cookie zo in dat een unieke id wordt toegewezen aan een sitebezoeker. Het <span class="wintitle"> demdex </span> -cookie helpt <span class="keyword"> Audience Manger </span> basisfuncties uit te voeren, zoals bezoekersidentificatie, id-synchronisatie, segmentatie, modellering, rapportage, enzovoort. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Inhoud</b> </p> </td> 
-   <td colname="col2"> <p>De <span class="wintitle"> demdex </span> cookie bevat een unieke gebruikersnaam (UUID), zoals in het onderstaande voorbeeld wordt getoond: </p> <p> <span class="codeph"> 0615130422776972043303923517820449977 </span> </p> <p>Zie ook: <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external"> Index van id's in Audience Manager </a>. </p> </td> 
+   <td colname="col1"> <p> <b> Inhoud </b> </p> </td> 
+   <td colname="col2"> <p>Het cookie <span class="wintitle"> demdex </span> bevat een unieke gebruikersnaam (UUID), zoals in het onderstaande voorbeeld wordt getoond: </p> <p> <span class="codeph"> 0615130422776972043303923517820449977 </span> </p> <p>Zie ook <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external"> Index van id's in Audience Manager </a> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Overige kenmerken</b> </p> </td> 
+   <td colname="col1"> <p> <b> Andere Attributen </b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
-      <li id="li_40C30A06A12449A4A8748621223CA71B">Levensduur: De <span class="wintitle"> demdex </span> cookie heeft een time-to-live (TTL) interval van 180 dagen. De TTL wordt teruggesteld aan 180 dagen op elke gebruikersinteractie met een partnerwebsite. Het cookie verloopt als een gebruiker niet binnen het TTL-interval terug naar uw site komt. </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met een <span class="codeph"> Geen Adobe Target </span> tekenreeks als een gebruiker gegevensverzameling uitschakelt. In dit geval wordt de cookie-TTL ingesteld op 10 jaar. </li> 
+      <li id="li_40C30A06A12449A4A8748621223CA71B">Levensduur: het cookie <span class="wintitle"> demdex </span> heeft een time-to-live (TTL) interval van 180 dagen. De TTL wordt teruggesteld aan 180 dagen op elke gebruikersinteractie met een partnerwebsite. Het cookie verloopt als een gebruiker niet binnen het TTL-interval terug naar uw site komt. </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met de tekenreeks <span class="codeph"> Niet Adobe Target </span> als een gebruiker de gegevensverzameling uitschakelt. In dit geval wordt de cookie-TTL ingesteld op 10 jaar. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -60,23 +60,23 @@ Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende funct
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Doel</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> plaatst dit koekje om de laatste tijd te registreren het een vraag van de gegevenssynchronisatie maakte. </p> </td> 
+   <td colname="col1"> <p> <b> Doel </b> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt dit cookie zo in dat het de laatste keer opneemt dat het een aanroep naar gegevenssynchronisatie heeft uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Inhoud</b> </p> </td> 
-   <td colname="col2"> <p>De <span class="wintitle"> dextp </span> cookie bevat de naam of id van een gegevensaanbieder en een UNIX UTC-tijdstempel die is opgemaakt als door pipe gescheiden tekenreeksen. In de voorbeelden: <i>cursief</i> vertegenwoordigt een variabele placeholder. </p> <p> 
+   <td colname="col1"> <p> <b> Inhoud </b> </p> </td> 
+   <td colname="col2"> <p>Het <span class="wintitle"> dextp </span> -cookie bevat een naam of id van een gegevensaanbieder en een UNIX UTC-tijdstempel die is opgemaakt als door pipe gescheiden tekenreeksen. In de voorbeelden, <i> cursief </i> vertegenwoordigt veranderlijke placeholder. </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">Oude stijl: <span class="codeph"> <span class="varname"> naam gegevensaanbieder hier </span>-1490307822097| <span class="varname"> naam gegevensaanbieder hier </span>-149030782038 </span> </li> 
-      <li id="li_79E7000E82DB4ADA9E9887B017343B2D">Nieuwe stijl: <span class="codeph"> 21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|42 0-1-1490307822038| </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">Oude stijl: <span class="codeph"> <span class="varname"> naam gegevensaanbieder hier </span> -1490307822097| <span class="varname"> naam gegevensaanbieder hier </span> -1490307822038 </span> </li> 
+      <li id="li_79E7000E82DB4ADA9E9887B017343B2D">Nieuwe stijl: <span class="codeph"> 21-1-1490307821616|544-1-1490307821793|3-1-149030782185 2|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>Zie ook de onderstaande sectie over de syntaxis van dextp-gegevens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Overige kenmerken</b> </p> </td> 
+   <td colname="col1"> <p> <b> Andere Attributen </b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
-      <li id="li_91A68C44E53840379C2ACDED25468735">Levensduur: De <span class="wintitle"> dextp </span> cookie heeft een time-to-live (TTL) interval van 180 dagen. </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met een <span class="codeph"> Geen Adobe Target </span> tekenreeks als een gebruiker gegevensverzameling uitschakelt. In dit geval wordt de cookie-TTL ingesteld op 10 jaar. </li> 
+      <li id="li_91A68C44E53840379C2ACDED25468735">Levensduur: het cookie <span class="wintitle"> dextp </span> heeft een time-to-live (TTL) interval van 180 dagen. </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met de tekenreeks <span class="codeph"> Niet Adobe Target </span> als een gebruiker de gegevensverzameling uitschakelt. In dit geval wordt de cookie-TTL ingesteld op 10 jaar. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -84,7 +84,7 @@ Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende funct
 
 Syntaxis gegevens dextp Cookie:
 
-In de volgende tabel worden de elementen in een `dextp` cookie naar locatie in de gegevenstekenreeks.
+De volgende tabel bevat een lijst met en definieert de elementen in een `dextp` -cookie op locatie in de gegevenstekenreeks.
 
 <table id="table_BE00604B97F24F5A94AA4F566063D785"> 
  <thead> 
@@ -95,12 +95,12 @@ In de volgende tabel worden de elementen in een `dextp` cookie naar locatie in d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Eerste of tweede</b> </p> </td> 
-   <td colname="col2"> <p>De positie van de naam of id van de gegevensaanbieder hangt af van de vraag of de cookie de nieuwe of oude opmaak gebruikt. </p> <p> <b>Opmaak van oude stijl:</b> </p> <p> 
+   <td colname="col1"> <p> <b> Eerste of Tweede </b> </p> </td> 
+   <td colname="col2"> <p>De positie van de naam of id van de gegevensaanbieder hangt af van de vraag of de cookie de nieuwe of oude opmaak gebruikt. </p> <p> <b> Oude stijl het formatteren:</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
       <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">Syntaxis: <span class="codeph"> <span class="varname"> naam gegevensaanbieder </span> - <span class="varname"> UNIX UTC-tijdstempel </span> </span> </li> 
       <li id="li_7CD8B101156140F49EA97B18E9591402">Voorbeeld: <span class="codeph"> dataProvider1 - 1490307822038 </span> </li> 
-     </ul> </p> <p>De cookie van de oude stijl identificeert de gegevensaanbieder met een leesbare naam. </p> <p> <b>Nieuwe stijlopmaak:</b> </p> <p> 
+     </ul> </p> <p>De cookie van de oude stijl identificeert de gegevensaanbieder met een leesbare naam. </p> <p> <b> Nieuwe stijl het formatteren:</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
       <li id="li_29C4B52E398B4EA28944980A15B05A57">Syntaxis: <span class="codeph"> <span class="varname"> gegevensaanbieder-id </span> - 1|2 - <span class="varname"> UNIX UTC-tijdstempel </span> </span> </li> 
       <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">Voorbeeld: <span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
@@ -111,13 +111,13 @@ In de volgende tabel worden de elementen in een `dextp` cookie naar locatie in d
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Laatste</b> </p> </td> 
+   <td colname="col1"> <p> <b> Laatste </b> </p> </td> 
    <td colname="col2"> <p>De laatste positie bevat een UNIX UTC-tijdstempel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**dst Cookie**
+**dst Koekje**
 
 <table id="table_83AE9B6350C6408BAECD9FCF33022B98"> 
  <thead> 
@@ -128,23 +128,23 @@ In de volgende tabel worden de elementen in een `dextp` cookie naar locatie in d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Doel</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt deze cookie in wanneer er een fout optreedt bij het verzenden van gegevens naar een <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external"> doel </a>. </p> </td> 
+   <td colname="col1"> <p> <b> Doel </b> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt dit cookie in wanneer er een fout optreedt bij het verzenden van gegevens naar een <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external"> doel </a> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Inhoud</b> </p> </td> 
-   <td colname="col2"> <p> De <span class="wintitle"> DST </span> cookie bevat sets van doel-id's en UNIX-tijdstempels die zijn opgemaakt als door pipe gescheiden tekenreeksen. In de voorbeelden: <i>cursief</i> vertegenwoordigt een variabele placeholder. </p> <p> 
+   <td colname="col1"> <p> <b> Inhoud </b> </p> </td> 
+   <td colname="col2"> <p> Het <span class="wintitle"> DST </span> -cookie bevat sets doel-id's en UNIX-tijdstempels die zijn opgemaakt als door pipe gescheiden tekenreeksen. In de voorbeelden, <i> cursief </i> vertegenwoordigt veranderlijke placeholder. </p> <p> 
      <ul id="ul_CE98076A02DA413486C1D341E9806889"> 
       <li id="li_850209D956644749B98C7A208C825C15">Syntaxis: <span class="codeph"> <span class="varname"> doel-id </span> - <span class="varname"> UNIX UTC-tijdstempel </span> </span> </li> 
-      <li id="li_4A22152C70844733982230EBF7B9EB78">Voorbeeld: <span class="codeph"> 067797-1490349684|1010788-1490349692|1067797-149034962 </span> </li> 
+      <li id="li_4A22152C70844733982230EBF7B9EB78">Voorbeeld: <span class="codeph"> 067797-1490349684|1010788-1490349692|1067797-1490349 92 </span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Overige kenmerken</b> </p> </td> 
+   <td colname="col1"> <p> <b> Andere Attributen </b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
-      <li id="li_4E665114C63246FBA32A4E19984D2693">Levensduur: De <span class="wintitle"> dst </span> cookie heeft een time-to-live (TTL) interval van 180 dagen. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met een <span class="codeph"> Geen Adobe Target </span> tekenreeks als een gebruiker gegevensverzameling uitschakelt. </li> 
+      <li id="li_4E665114C63246FBA32A4E19984D2693">Levensduur: het cookie <span class="wintitle"> dst </span> heeft een time-to-live (TTL) interval van 180 dagen. </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Uitschakelen: <span class="keyword"> Audience Manager </span> herstelt de cookie met de tekenreeks <span class="codeph"> Niet Adobe Target </span> als een gebruiker de gegevensverzameling uitschakelt. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -152,4 +152,4 @@ In de volgende tabel worden de elementen in een `dextp` cookie naar locatie in d
 
 **_dp Cookie**
 
-Deze cookie is tijdelijk. [!DNL Audience Manager] pogingen om de `_dp` cookie om te bepalen of andere cookies in het domein demdex.net kunnen worden ingesteld in een context van derden. Wanneer `_dp` is ingesteld, bevat deze de waarde 1. [!DNL Audience Manager] leest deze waarde en verwijdert het cookie onmiddellijk. Als de `_dp` cookie niet aanwezig is, [!DNL Audience Manager] weet dat het geen cookies kan instellen.
+Deze cookie is tijdelijk. [!DNL Audience Manager] probeert het `_dp` -cookie in te stellen om te bepalen of het andere cookies in het domein demdex.net kan instellen in een context van derden. Wanneer `_dp` is ingesteld, bevat deze de waarde 1. [!DNL Audience Manager] leest deze waarde en verwijdert het cookie onmiddellijk. Als het `_dp` -cookie niet aanwezig is, weet [!DNL Audience Manager] dat het geen cookies kan instellen.

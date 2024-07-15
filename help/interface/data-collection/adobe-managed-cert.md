@@ -26,11 +26,11 @@ Als u momenteel uw eigen certificaten beheert, bent u verantwoordelijk voor het 
 
 Ga als volgt te werk om een nieuw certificaat voor gegevensverzameling van de eerste partij te implementeren:
 
-1. Download en vul de [Formulier voor eerste domeinaanvraag](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. De download en vult de [ vorm van het eerste-partijdomeinverzoek ](cookies/assets/First_Party_Domain_Request_Form.xlsx) uit
 
 1. Open een kaartje met de Zorg van de Klant van de Adobe die om de inzameling van de eerste-partijgegevens over het Adobe-beheerde certificaatprogramma verzoekt te plaatsen.
 
-1. Op het ontvangen van het kaartje, voorziet de vertegenwoordiger van de Adobe u van een verslag CNAME. Deze verslagen moeten op DNS server van uw bedrijf worden gevormd alvorens de Adobe het certificaat namens u kan kopen. De hostnaam `data.example.com` punten naar `hiodsibxvip01.data.adobedc.net`.
+1. Op het ontvangen van het kaartje, voorziet de vertegenwoordiger van de Adobe u van een verslag CNAME. Deze verslagen moeten op DNS server van uw bedrijf worden gevormd alvorens de Adobe het certificaat namens u kan kopen. De hostnaam `data.example.com` verwijst bijvoorbeeld naar `hiodsibxvip01.data.adobedc.net` .
 
 1. Wanneer de CNAME-record op de servers van uw organisatie is geïnstalleerd, werkt de Adobe samen met DigiCert om een certificaat aan te schaffen en te installeren op servers voor gegevensverzameling van Adoben.
 
@@ -38,19 +38,19 @@ Ga als volgt te werk om een nieuw certificaat voor gegevensverzameling van de ee
 
 Nadat Adobe het certificaat heeft geïnstalleerd, kunt u een van de volgende methoden gebruiken om te controleren of het werkt.
 
-+++**Browservalidatie**
++++**Browser bevestiging**
 
-Met elke browser kunt u controleren of een certificaat correct is geïnstalleerd. Typ uw NAAM met `_check` als het pad naar de adresbalk. Bijvoorbeeld:
+Met elke browser kunt u controleren of een certificaat correct is geïnstalleerd. Typ uw NAAM met `_check` als weg in de adresbar. Bijvoorbeeld:
 
 `data.example.com/_check`
 
-Als alles werkt, wordt in de browser `SUCCESS`. Als het certificaat niet correct is geïnstalleerd, krijgt u een beveiligingswaarschuwing.
+Als alles werkt, wordt in de browser `SUCCESS` weergegeven. Als het certificaat niet correct is geïnstalleerd, krijgt u een beveiligingswaarschuwing.
 
 +++
 
-+++**Opdrachtregel (`curl`)**
++++**lijn van het Bevel (`curl`)**
 
-De meeste moderne besturingssystemen hebben al [`curl`](https://curl.se) geïnstalleerd.
+De meeste moderne werkende systemen hebben reeds [`curl` ](https://curl.se) geïnstalleerd.
 
 Typ het volgende op de opdrachtregel:
 
@@ -58,15 +58,15 @@ Typ het volgende op de opdrachtregel:
 curl data.example.com/_check
 ```
 
-Als alles correct werkt, keert de console terug `SUCCESS`.
+Als alles correct werkt, keert de console `SUCCESS` terug.
 
 >[!TIP]
 >
->U kunt de `-k` markering om de veiligheidswaarschuwing onbruikbaar te maken om met het oplossen van problemen te helpen.
+>U kunt de markering `-k` gebruiken om de beveiligingswaarschuwing uit te schakelen voor hulp bij het oplossen van problemen.
 
 +++
 
-+++**Opdrachtregel (`nslookup`)**
++++**lijn van het Bevel (`nslookup`)**
 
 Typ het volgende op de opdrachtregel:
 
@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 Nadat u hebt bevestigd dat het certificaat correct werkt, kunt u de Adobe-implementatie bijwerken en deze waarden gebruiken.
 
-* Voor Adobe Analytics AppMeasurement-implementaties werkt u de [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) configuratievariabele. Als u een bestaande implementatie hebt, raadpleegt u [Bezoekersmigratie](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) voor aanvullende stappen om te voorkomen dat bestaande bezoekers worden geteld als nieuwe bezoekers.
-* Voor Web SDK-implementaties werkt u de [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) eigenschap binnen de [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) gebruiken.
+* Voor de implementaties van het AppMeasurement van Adobe Analytics, werk de [`trackingServer` ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) configuratievariabele bij. Als u een bestaande implementatie hebt, zie {de migratie van 0} Bezoeker ](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) voor extra stappen op hoe te om bestaande bezoekers te verhinderen als nieuwe bezoekers worden geteld.[
+* Voor de implementaties van SDK van het Web, werk het [`edgeDomain` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) bezit binnen het [`configure` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) bevel bij.
 
 ## Onderhoud en verlengingen
 
@@ -141,10 +141,10 @@ Nee. Adobe biedt deze service zonder extra kosten aan alle Adobe Experience Clou
 
 De Adobe biedt twee niveaus van de neerzetveiligheid aan om aan verschillende klantenbehoeften voor veiligheid op de inzameling van eerstepartijgegevens te voldoen. Deze niveaus bepalen welke encryptiealgoritmen voor verbindingen HTTPS met de servers van de Adobe worden gesteund. De Adobe herziet en werkt regelmatig de reeks gesteunde algoritmen bij die op huidige veiligheidspraktijken worden gebaseerd. Neem contact op met de klantenservice als u de beveiligingsinstellingen van de ontvanger wilt wijzigen.
 
-* **Standaard** vereist TLS 1.2 of hoger en minimaal 128-bits codering. Het is ontworpen om de breedste apparaatcompatibiliteit te bieden en tegelijkertijd een veilige codering te behouden.
-* **Hoog** Voor cijferbeveiligingsniveau is TLS 1.2 of hoger vereist en wordt ondersteuning voor zwakkere ciphers verwijderd. Het is ontworpen voor klanten die de sterkste encryptie willen en zich niet zorgen maken over steun voor oudere apparaten.
+* **Standaard** vereist TLS 1.2 of nieuwer en minstens encryptie met 128 bits. Het is ontworpen om de breedste apparaatcompatibiliteit te bieden en tegelijkertijd een veilige codering te behouden.
+* **Hoog** het niveau van de cipierveiligheid vereist TLS 1.2 of nieuwer en verwijdert steun voor zwakkere ciphers. Het is ontworpen voor klanten die de sterkste encryptie willen en zich niet zorgen maken over steun voor oudere apparaten.
 
-Van de volgende clients is bekend dat ze geen verbinding kunnen maken met de beveiliging van het script ingesteld op **Hoog**:
+De volgende cliënten zijn gekend om niet met cipher veiligheid te kunnen verbinden die aan **Hoog** wordt geplaatst:
 
 * Windows 8.1 en eerder (laatst bijgewerkt in 2018)
 * Windows Phone 8.1 en eerder (laatst bijgewerkt in 2016)

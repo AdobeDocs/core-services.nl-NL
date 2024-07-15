@@ -1,7 +1,7 @@
 ---
 description: Leer hoe u mappen en elementen kunt delen tussen Experience Cloud en Creative Cloud.
 solution: Experience Cloud
-title: Mappen en middelen voor Experiencen Cloud delen met Creative Cloud
+title: Experiencen Cloud en Assets delen met Creative Cloud
 feature: Assets
 topic: Administration
 role: Admin
@@ -26,10 +26,10 @@ Mappen en elementen delen tussen Experience Cloud en Creative Cloud. Samenwerken
 * Geniet van meer bedrijfsbeveiliging
 * U kunt eenvoudig bestanden delen, opslaan en verzenden tussen creatieve en marketingmedewerkers
 
-Voordat gebruikers van het Creative Cloud toegang hebben tot elementen, moeten ze in het Experience Cloud worden gewhitelliseerd. Zie [Gebruikers van Creatives Cloud beheren](manage-cc-users.md).
+Voordat gebruikers van het Creative Cloud toegang hebben tot elementen, moeten ze in het Experience Cloud worden gewhitelliseerd. Zie [ de gebruikers van het Creative Cloud beheren ](manage-cc-users.md).
 
 ## Over het delen van elementen met Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
-Bij het maken van activiteiten in [!DNL Adobe Target]kunt u een gedeeld afbeeldingselement gebruiken wanneer u afbeeldingen in het dialoogvenster [!UICONTROL Offers Library].
+Wanneer u activiteiten maakt in [!DNL Adobe Target] , kunt u een gedeeld afbeeldingselement gebruiken wanneer u afbeeldingen in de [!UICONTROL Offers Library] omwisselt.
 
-Zie [Biedt bibliotheek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in [!DNL Target] Help.
+Zie [ Bibliotheek van Aanbiedingen ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in [!DNL Target] Hulp.

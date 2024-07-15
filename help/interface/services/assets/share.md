@@ -19,47 +19,47 @@ ht-degree: 0%
 
 Een map met Experiencen Cloud-elementen delen met gebruikers van Creatives Cloud.
 
-1. Selecteer in een map met middelen de optie **[!UICONTROL Share to Creative Cloud]**.
+1. Selecteer **[!UICONTROL Share to Creative Cloud]** in een map met middelen.
 
-   ![Delen naar Creative Cloud](../../assets/asset-share-cc.png)
-1. Zoek op de pagina Delen naar Creative Cloud naar de gebruiker en selecteer vervolgens **[!UICONTROL Add]**.
+   ![ Aandeel aan Creative Cloud ](../../assets/asset-share-cc.png)
+1. Zoek op de pagina Delen naar Creative Cloud naar de gebruiker en selecteer vervolgens **[!UICONTROL Add]** .
 
-   ![Een gebruiker van een Creative Cloud toevoegen](../../assets/asset-share-cc-page.png)
+   ![ voeg een gebruiker van het Creative Cloud toe ](../../assets/asset-share-cc-page.png)
 
 1. Selecteer **[!UICONTROL Share]**.
-1. De [!DNL Creative Cloud] (of navigeer naar de [!UICONTROL Creative Cloud Files] (in een browser) en zoek naar de melding van een aanvraag.
+1. Start het bureaublad van [!DNL Creative Cloud] (of navigeer naar de pagina van [!UICONTROL Creative Cloud Files] in een browser) en zoek de aanvraagmelding.
 
-   ![Verzoek om aanmelding](../../assets/cc_share_request.png)
-1. Open het verzoek en selecteer **[!UICONTROL Accept]**.
+   ![ Bericht van het Verzoek ](../../assets/cc_share_request.png)
+1. Open de aanvraag en selecteer vervolgens **[!UICONTROL Accept]** .
 
-   ![Aanvraag accepteren](../../assets/cc_share_accept.png)
-1. Selecteer **[!UICONTROL Open Folder]** (of **[!UICONTROL View on Web]**).
+   ![ Accepteer verzoek ](../../assets/cc_share_accept.png)
+1. Selecteer **[!UICONTROL Open Folder]** (of **[!UICONTROL View on Web]** ) om de inhoud van mappen te openen.
 
-   ![Weergeven op web](../../assets/creative_cloud_open_folder.png)
+   ![ Mening op Web ](../../assets/creative_cloud_open_folder.png)
 1. Voeg verder opmerkingen toe op het gedeelde element:
 
-   In Creative Cloud kunt u in een afbeelding selecteren en vervolgens **[!UICONTROL Activity]** om een opmerking aan de afbeelding toe te voegen. Opmerkingen worden gesynchroniseerd op de elementen in het dialoogvenster [!DNL Creative Cloud] en [!DNL Experience Cloud].
+   In Creative Cloud kunt u een afbeelding selecteren en vervolgens **[!UICONTROL Activity]** selecteren om een opmerking aan de afbeelding toe te voegen. Opmerkingen worden gesynchroniseerd op de elementen in de [!DNL Creative Cloud] en [!DNL Experience Cloud] .
 
-   ![Een opmerking toevoegen aan de afbeelding](../../assets/asset_comment_cc.png)
+   ![ voeg een commentaar op het beeld ](../../assets/asset_comment_cc.png) toe
 
    Selecteer in Experience Cloud een afbeelding en selecteer vervolgens het tijdlijnpictogram om een opmerking aan de afbeelding toe te voegen. Opmerkingen worden gesynchroniseerd op de elementen in het Creative Cloud en het Experience Cloud.
 
-   ![Een opmerking toevoegen aan de afbeelding](../../assets/asset_comment_mac.png)
+   ![ voeg een commentaar op het beeld ](../../assets/asset_comment_mac.png) toe
 
-1. Als u een map niet meer wilt delen, selecteert u **[!UICONTROL Share Using Creative Cloud]** (vergelijkbaar met [Stap 3](share.md)), dan verwijdert u gebruikers door X te selecteren, dan selecteren **[!UICONTROL Share]**.
+1. Om een omslag los te maken, selecteer **[!UICONTROL Share Using Creative Cloud]** (gelijkend op [ Stap 3 ](share.md)), dan verwijder gebruikers door X te selecteren, dan selecteren **[!UICONTROL Share]**.
 
-![Delen van een map opheffen](../../assets/asset_remove_user.png)
+![ Unshare een omslag ](../../assets/asset_remove_user.png)
 
 Nadat u alle gebruikers van het Creative Cloud hebt verwijderd, wordt de map niet meer gedeeld en hebben de gebruikers van het Creative Cloud geen toegang meer.
 
-Meer manieren om een gedeeld element te gebruiken zijn het laden of omwisselen van elementen in de [Biedt bibliotheek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target voor afbeeldingen in activiteiten.
+Meer manieren om gedeelde activa te gebruiken omvatten het laden of het ruilen van activa in de [ Bibliotheek van Aanbiedingen ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target voor beelden in activiteiten.
 
 Nadat u een map naar het Creative Cloud hebt gedeeld, ziet u het logo van het Creative Cloud in de map.
 
-![Het logo van het Creative Cloud in de map](../../assets/asset-cc-logo.png)
+![ embleem van het Creative Cloud op de omslag ](../../assets/asset-cc-logo.png)
 
 Verwante hulp:
 
-* [Help bij Creative Cloud - Bestanden beheren en synchroniseren](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
-* [Help bij Creative Cloud - Samenwerken met anderen](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Help bij Creative Cloud - Veelgestelde vragen over samenwerking](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [ Creative Cloud Help - beheer en synchroniseer dossiers ](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
+* [ Hulp van het Creative Cloud - werk met anderen samen ](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
+* [ Hulp van het Creative Cloud - de Veelgestelde vragen van Collaboration ](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)

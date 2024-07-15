@@ -19,7 +19,7 @@ Experience Cloud gebruikt de volgende hosts om de toepassing te leveren, de pres
 
 Naast de hieronder vermelde domeinen, hebben de individuele producten van Adobe Experience Cloud hun eigen domeinen die zij gebruiken:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [ Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
 
 | Technologie | Domeinen |

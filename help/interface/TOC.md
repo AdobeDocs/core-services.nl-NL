@@ -3,7 +3,7 @@ role: User,Admin
 user-guide-title: Experience Cloud-interface en -beheerhandleiding
 breadcrumb-title: Experience Cloud-interface en -beheerhandleiding
 title: Experience Cloud Interface and Administration Guide
-description: Meer informatie over de interface van Experiencen Cloud en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en share Experience Cloud Assets configureren.
+description: Meer informatie over de interface van Experiencen Cloud en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en Share Experience Cloud Assets configureren.
 index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
@@ -28,7 +28,7 @@ ht-degree: 18%
       + [Middelen uploaden naar een gedeelde map](services/assets/upload.md)
       + [Vereisten voor het delen van elementbestanden](services/assets/file-reqs.md)
       + [Gedrag van gedeelde mappen](services/assets/behavior.md)
-   + Auditiebibliotheek {#audiences}
+   + Audientiebibliotheek {#audiences}
       + [Overzicht](services/audiences/overview.md)
       + [Een publiek maken](services/audiences/create.md)
    + [Exchange](services/exchange.md)
@@ -62,7 +62,7 @@ ht-degree: 18%
    + [Domeinen](data-collection/domains.md)
    + Cookies {#cookies}
       + [Overzicht van cookies](data-collection/cookies/overview.md)
-      + [Reclamecookies](data-collection/cookies/advertising.md)
+      + [Advertising cookies](data-collection/cookies/advertising.md)
       + [Analysecookies](data-collection/cookies/analytics.md)
       + [Cookies Audience Managers](data-collection/cookies/audience-manager.md)
       + [Cookies Experiencen Cloud](data-collection/cookies/experience-cloud.md)

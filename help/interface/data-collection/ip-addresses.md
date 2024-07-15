@@ -1,10 +1,11 @@
 ---
 title: IP adressen die door Adobe Experience Cloud worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die uit Adobe voortkomen, gebruik deze lijst om uw firewallmontages bij te werken.
-source-git-commit: 6ef38a303e19f5b18be9e61819d3aff03faeedd4
+exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
+source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +19,7 @@ Sommige firewallconfiguraties blokkeren IP-adressen die afkomstig zijn van gegev
 
 Naast de IP hieronder vermelde adresblokken, hebben de individuele producten van Adobe Experience Cloud hun eigen IP adressen die zij gebruiken:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [ Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
 ## Alle IP van de Adobe adresblokken
@@ -39,7 +40,7 @@ De volgende lijst behandelt alle Adobe-bezeten IP adressen. Deze lijst omvat all
 
 ## Adobe Experience Cloud-gegevensverzameling en FTP IP-adresblokken
 
-Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan, kunt u de volgende lijst van verwijzingen voorzien. Dit omvat:
+Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan, kunt u de volgende lijst van verwijzingen voorzien. Het omvat:
 
 * Servers voor gegevensverzameling voor alle producten van de Experience Cloud
 * FTP-servers voor alle Experience Cloud producten

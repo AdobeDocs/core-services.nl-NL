@@ -21,7 +21,7 @@ U kunt ervoor kiezen Adobe toe te staan om u nuttige inhoud te bieden die op uw 
 
 [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
-U kunt uw selecties op elk gewenst moment bijwerken in de sectie Productgegevensgebruik en -verzameling in uw [Voorkeursinstellingen gebruiker](https://experience.adobe.com/preferences/).
+U kunt uw selecties op elk ogenblik in de sectie van het Gebruik van de Gegevens van het Product en van de Inzameling in uw [ Montages van de Voorkeur van de Gebruiker ](https://experience.adobe.com/preferences/) bijwerken.
 
 ## Aanbevolen training en ondersteuning voor producten en services van uw Adobe
 

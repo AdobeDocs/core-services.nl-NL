@@ -52,7 +52,7 @@ Experience Cloud ondersteunt voorkeurstalen voor elke gebruiker, zoals ingesteld
 * Spaans
 * Taiwanees
 
-Terwijl de toepassingsteams aan globale taalsteun worden geëngageerd, niet worden alle toepassingen aangeboden in alle hierboven vermelde talen. Als uw primaire taal niet in een toepassing van het Experience Cloud wordt gesteund, kunt u een secundaire taal aan gebrek ook plaatsen aan wanneer toepasselijk. Dit kan worden gedaan in [Gebruikersvoorkeuren voor Experiencen Cloud](https://experience.adobe.com/preferences).
+Terwijl de toepassingsteams aan globale taalsteun worden geëngageerd, niet worden alle toepassingen aangeboden in alle hierboven vermelde talen. Als uw primaire taal niet in een toepassing van het Experience Cloud wordt gesteund, kunt u een secundaire taal aan gebrek ook plaatsen aan wanneer toepasselijk. Dit kan in [ de gebruikersvoorkeur van het Experience Cloud worden gedaan ](https://experience.adobe.com/preferences).
 
 +++
 
@@ -72,7 +72,7 @@ De functionaliteit die door de interface van het Experience Cloud wordt verstrek
 
 De Klantenservice van de Adobe kan een imitatieverzoek indienen waarvoor u een e-mail van het merk Adobe (zie hieronder) ontvangt die uw uitdrukkelijke toestemming vraagt. De toegang wordt voor een beperkte tijd verleend. Zodra verleend, kan de toegang door u op elk ogenblik worden ingetrokken. de Adobe geeft een overzicht van alle acties van de vertegenwoordigers van de Adobe .
 
-![Ondersteuning voor Adobe](../assets/support-email.png)
+![ Geval van de Steun van de Adobe ](../assets/support-email.png)
 
 +++
 
@@ -89,11 +89,11 @@ Onder voorziening in Experience Cloud wordt verstaan:
 
 +++Hoe kan ik gebruikers en productprofielen beheren?
 
-* Zie de [Gebruikershandleiding voor Admin Console](https://helpx.adobe.com/nl/enterprise/admin-guide.html) voor hulp.
+* Zie de [ Gids van de Gebruiker van de Admin Console ](https://helpx.adobe.com/nl/enterprise/admin-guide.html) voor hulp.
 
-* Gebruikersrechten en productbeheer worden uitgevoerd in het [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (productkoppeling).
+* De rechten van de gebruiker en het productbeheer worden uitgevoerd in [ Adobe Admin Console ](https://adminconsole.adobe.com/enterprise) (productverbinding).
 
-* **Belangrijk:** Analysebeheerders, zie [Gebruikers voor analyse beheren in de Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) over het migreren van gebruikers-id&#39;s van Analytics Admin Tools naar de Admin Console.
+* **Belangrijk:** de beheerders van Analytics, zie [ de Gebruikers van Analytics in de Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) over het migreren van gebruiker IDs van Hulpmiddelen Admin van Analytics aan de Admin Console leiden.
 
 +++
 
@@ -101,7 +101,7 @@ Onder voorziening in Experience Cloud wordt verstaan:
 
 Beheerders van Admin Consoles kunnen toegang verlenen aan gebruikers. Gebruikers worden per e-mail verzonden met aanmeldingsinstructies.
 
-Mogelijk moet u [Contact opnemen met de Adobe](https://experienceleague.adobe.com/?support-solution=General#support) om te controleren of uw bedrijf volledig is ingericht.
+U zou [ Steun van de Adobe van het Contact ](https://experienceleague.adobe.com/?support-solution=General#support) kunnen moeten moeten verifiëren dat uw bedrijf volledig provisioned is geweest.
 
 +++
 
@@ -109,25 +109,25 @@ Mogelijk moet u [Contact opnemen met de Adobe](https://experienceleague.adobe.co
 
 Sommige gebruikers moeten mogelijk hun toepassingsaccount (Analytics) koppelen aan de Adobe ID of de Enterprise ID.
 
-Zie [Een toepassingsaccount koppelen aan een Adobe ID](../administration/organizations.md).
+Zie [ Verbinding een toepassingsrekening aan een Adobe ID ](../administration/organizations.md).
 
 +++
 
 +++Hoe kan ik gebruikersaccountprofielen en -organisaties beheren?
 
-Zie [Gebruikersaccounts beheren](../administration/organizations.md).
+Zie [ gebruikersrekeningen beheren ](../administration/organizations.md).
 
 +++
 
 +++Wat is een organisatie?
 
-An [organisatie](../administration/organizations.md) is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en om enig teken-binnen in Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en toepassingen van het Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben.
+Een [ organisatie ](../administration/organizations.md) is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en enige sign-on in Experience Cloud te controleren. De organisatie functioneert als een login bedrijf dat alle producten en toepassingen van het Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben.
 
 +++
 
 +++Waar kan ik mijn IMS organisatie-id vinden?
 
-Zie [Uw organisatie-id weergeven](../administration/organizations.md) voor meer informatie.
+Zie [ Mening uw organisatieidentiteitskaart ](../administration/organizations.md) voor details.
 
 +++
 
@@ -139,7 +139,7 @@ Hun toegang moet uit de toepassing zelf worden verwijderd. Zij zullen niet tot h
 
 +++Wat is een Adobe ID?
 
-Zie [Identiteitstypen](https://helpx.adobe.com/enterprise/using/identity.html).
+Zie [ Types van Identiteit ](https://helpx.adobe.com/enterprise/using/identity.html).
 
 +++
 

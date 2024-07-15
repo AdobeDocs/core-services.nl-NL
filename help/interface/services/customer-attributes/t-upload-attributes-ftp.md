@@ -18,29 +18,29 @@ ht-degree: 0%
 
 Als u niet uploadt via slepen en neerzetten, kunt u gegevens van kenmerk Klant uploaden via FTP naar Experience Cloud.
 
-U kunt de gegevens uploaden nadat u een bron van Kenmerken van de Klant en een rekening van FTP in Experience Cloud creeert. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten in `.csv` formaat, met een tweede formaat `.fin` om aan te geven dat het uploaden is voltooid.
+U kunt de gegevens uploaden nadat u een bron van Kenmerken van de Klant en een rekening van FTP in Experience Cloud creeert. U maakt één FTP-account per kenmerkbron. De geüploade bestanden worden opgeslagen in de hoofdmap van dat account. De gegevens moeten de `.csv` -indeling hebben, met een tweede `.fin` -bestand om aan te geven dat het uploaden is voltooid.
 
 >[!IMPORTANT]
 >
->Controleren [Gegevensbestandsvereisten voor het uploaden van klantkenmerken](crs-data-file.md) voordat u het bestand uploadt.
+>De het dossiervereisten van het overzicht [ Gegevens voor het uploaden van de Attributen van de Klant ](crs-data-file.md) alvorens het dossier te uploaden.
 
 Het uploaden van bestanden naar de FTP-site met klantkenmerken kan worden uitgevoerd via FTP of SFTP:
 
 * U hebt een client nodig die SFTP-verbindingen ondersteunt.
-* U kunt verbinding maken met SFTP via gebruikersnaam/wachtwoord of zonder wachtwoord, zoals beschreven [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
+* U kunt met SFTP verbinden gebruikend of gebruikersbenaming/wachtwoord of gebruikend geen wachtwoord, zoals die [ hier ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html) wordt beschreven.
 
-**Het gegevensbestand uploaden via FTP**
+**om het gegevensdossier via FTP te uploaden**
 
-1. [Een bron voor klantkenmerken maken en het gegevensbestand uploaden...](t-crs-usecase.md).
+1. [ creeer een bron van de Attributen van de Klant en upload het gegevensbestand... ](t-crs-usecase.md).
 
-   Controleer of u bent aangemeld bij uw FTP-site op `ftp.adobe.com/<sftpname>`.
+   Controleer of u bent aangemeld bij uw FTP-site op `ftp.adobe.com/<sftpname>` .
 
-1. Selecteren **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
+1. Selecteer **[!UICONTROL Actions]** > **[!UICONTROL File Upload]** .
 
-1. Een `.fin` zodat het bestand kan worden opgehaald.
+1. Upload een `.fin` -bestand, zodat het bestand kan worden opgehaald.
 
-   Het bestandstype `.fin` is door de gebruiker gemaakt en geeft aan dat het uploaden is voltooid. Het kan een leeg notebookbestand zijn. Als u bijvoorbeeld uploadt `crs123.csv`, uploadt u ook `crs123.fin`.
+   Het bestandstype `.fin` wordt door de gebruiker gemaakt en geeft aan dat het uploaden is voltooid. Het kan een leeg notebookbestand zijn. Als u bijvoorbeeld `crs123.csv` uploadt, uploadt u ook `crs123.fin` .
 
-   Als het uploaden is voltooid, worden beide bestanden verplaatst naar een map met de naam **verwerkt**.
+   Als uploaden succesvol is, worden beide dossiers verplaatst naar een omslag genoemd **verwerkt**.
 
-   Zie [Gegevensbestandsvereisten voor het uploaden van klantkenmerken](crs-data-file.md) voor belangrijke informatie over bestandsnamen en -structuur.
+   Zie [ de dossiervereisten van Gegevens voor het uploaden van de Attributen van de Klant ](crs-data-file.md) voor belangrijke informatie over dossiernamen en structuur.

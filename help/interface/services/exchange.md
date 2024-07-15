@@ -7,13 +7,13 @@ feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 77e56cbe-92b6-4b18-ba13-e8178369e57c
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Exchange
 
@@ -31,8 +31,8 @@ De Exchange Marketplace is één doel waar u extensies voor Digital Marketing ku
 
 * Wijs toepassingen af of keur deze goed.
 
-* Publiceren in Experience Cloud.
+* Publish in Experience Cloud.
 
 * Zoeken en filteren op categorie, bedrijf, type, gebruiker en meer.
 
-Zie [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) voor meer informatie .
+Zie ](https://exchange.adobe.com/experiencecloud.html) de Uitwisseling van het Experience Cloud 0} {voor meer informatie.[

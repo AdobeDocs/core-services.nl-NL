@@ -6,7 +6,8 @@ feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -18,23 +19,23 @@ ht-degree: 0%
 Voorkeuren voor Experiencen Cloud zijn meldingen, abonnementen en waarschuwingen. In het menu met accountvoorkeuren kunt u het volgende doen:
 
 * Geef een donker thema op (niet alle toepassingen ondersteunen dit thema)
-* Zoeken naar [Organisaties](../administration/organizations.md)
+* Onderzoek naar [ Organisaties ](../administration/organizations.md)
 * Afmelden
 * Accountvoorkeuren, meldingen en abonnementen configureren
 
-Selecteer **[!UICONTROL Preferences]** via uw accountmenu ![voorkeuren](../assets/preferences-icon-sm.png).
+Om voorkeur te beheren, selecteer **[!UICONTROL Preferences]** van uw rekeningsmenu ![ voorkeur ](../assets/preferences-icon-sm.png).
 
-![Gebruikersprofiel en accountvoorkeuren](../assets/preferences-page.png)
+![ gebruikersprofiel en rekeningsvoorkeur ](../assets/preferences-page.png)
 
-Aan [!UICONTROL Experience Cloud preferences]kunt u de volgende functies configureren:
+Op [!UICONTROL Experience Cloud preferences] kunt u de volgende functies configureren:
 
 | Functie | Beschrijving |
 |--- |--- |
-| Standaard [organisatie](../administration/organizations.md) | Selecteer de organisatie die u wilt zien wanneer u het Experience Cloud start. |
+| Standaard [ organisatie ](../administration/organizations.md) | Selecteer de organisatie die u wilt zien wanneer u het Experience Cloud start. |
 | [!UICONTROL Product data collection] | Selecteer welke technologieën Adobe kan gebruiken om gegevens te verzamelen over hoe u uw producten van de Adobe gebruikt. |
-| [!UICONTROL Personalized learning recommendations and promotions] | Selecteer waar u wilt ontvangen [persoonlijke hulp](personalized-learning.md) voor uw Adobe producten. Deze Help is beschikbaar via e-mail, in-product, en de Gemeenschappen van de Experience League. |
-| [!UICONTROL Subscriptions] | Selecteer de producten en categorieën waarop u zich wilt abonneren. Meldingen in de [!UICONTROL Notifications] popover en in uw e-mail. |
-| [!UICONTROL Priority] | Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd. Deze categorieën worden gemarkeerd met een [!UICONTROL High] -tag en kan worden geconfigureerd voor levering zoals waarschuwingen. |
+| [!UICONTROL Personalized learning recommendations and promotions] | Selecteer waar u [ gepersonaliseerde hulp ](personalized-learning.md) voor uw producten van de Adobe zou willen ontvangen. Deze Help is beschikbaar via e-mail, in-product, en de Gemeenschappen van de Experience League. |
+| [!UICONTROL Subscriptions] | Selecteer de producten en categorieën waarop u zich wilt abonneren. Meldingen in de pop-up [!UICONTROL Notifications] en in uw e-mail. |
+| [!UICONTROL Priority] | Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd. Deze categorieën zijn gemarkeerd met een tag [!UICONTROL High] en kunnen worden geconfigureerd voor levering zoals waarschuwingen. |
 | [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
 | E-mails | Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.) |
 
@@ -42,6 +43,6 @@ Aan [!UICONTROL Experience Cloud preferences]kunt u de volgende functies configu
 
 ## Meldingen en aankondigingen {#notifications}
 
-Selecteren **[!UICONTROL Notifications]** op de hoogte worden gebracht van relevante en uitvoerbare updates, waaronder productreleases, onderhoudskennisgevingen, gedeelde items en goedkeuringsverzoeken.
+Selecteer **[!UICONTROL Notifications]** om u te waarschuwen voor relevante en activeerbare updates, zoals productreleases, onderhoudsmeldingen, gedeelde items en goedkeuringsaanvragen.
 
-![Meldingen en aankondigingen](../assets/notifications-menu-small.png)
+![ Meldingen en Mededelingen ](../assets/notifications-menu-small.png)

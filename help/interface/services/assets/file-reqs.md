@@ -1,5 +1,5 @@
 ---
-title: Bestandsvereisten voor het delen van elementen
+title: Bestandsvereisten voor delen van Assets
 description: Meer informatie over toegestane bestandstypen en groottebeperkingen voor het delen van elementen tussen Adobe Experience Cloud en Creative Cloud.
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
@@ -21,7 +21,7 @@ Bestandstypen en groottebeperkingen zijn toegestaan voor het delen van elementen
 
 ## Bestandstypen die zijn toegestaan voor uploaden {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
-Bestandstypen die u kunt uploaden, zijn de meeste afbeeldingen, documenten en multimedia. Zie [Ondersteunde indelingen](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) voor informatie over bestandsindelingen in [!DNL Experience Cloud] Elementen.
+Bestandstypen die u kunt uploaden, zijn de meeste afbeeldingen, documenten en multimedia. Zie [ Gesteunde Vormen ](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) voor informatie over dossierformaten in [!DNL Experience Cloud] Assets.
 
 ## Beperkingen inzake bestandsgrootte {#section_410ED8E24DBD4136830AE679C6B10D88}
 
