@@ -1,15 +1,15 @@
 ---
 title: Accountvoorkeuren en -meldingen
-description: Meer informatie over gebruikersprofielen en accountvoorkeuren in Experience Cloud. Abonneer u op productmeldingen en ontvang productwaarschuwingen.
+description: Meer informatie over gebruikersprofielen en accountvoorkeuren in Experience Cloud. Abonneer u op productmeldingen en ontvang productwaarschuwingen. Meer informatie over ondersteuning van browsers en talen.
 solution: Experience Cloud
 feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
+source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
@@ -46,6 +46,22 @@ Op [!UICONTROL Experience Cloud preferences] kunt u de volgende functies configu
 Selecteer **[!UICONTROL Notifications]** om u te waarschuwen voor relevante en activeerbare updates, zoals productreleases, onderhoudsmeldingen, gedeelde items en goedkeuringsaanvragen.
 
 ![ Meldingen en Mededelingen ](../assets/notifications-menu-small.png)
+
+## Browserondersteuning in Experience Cloud {#browser}
+
+Voor de beste prestaties is Experience Cloud geoptimaliseerd voor de populairste browsers, inclusief de nieuwste versie, plus de twee vorige versies.
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+Als uw browser niet in de lijst wordt vermeld, wordt deze mogelijk wel ondersteund, maar wordt u aangeraden een van de vermelde browsers te gebruiken.
+
+>[!NOTE]
+>
+>Niet alle toepassingen die op het domein van het Experience Cloud worden uitgevoerd steunen alle browsers. Raadpleeg de documentatie bij een bepaalde toepassing als u dit niet zeker weet.
 
 ## Taalondersteuning in Experience Cloud {#languages}
 
