@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
+source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 0%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -46,3 +46,20 @@ Op [!UICONTROL Experience Cloud preferences] kunt u de volgende functies configu
 Selecteer **[!UICONTROL Notifications]** om u te waarschuwen voor relevante en activeerbare updates, zoals productreleases, onderhoudsmeldingen, gedeelde items en goedkeuringsaanvragen.
 
 ![ Meldingen en Mededelingen ](../assets/notifications-menu-small.png)
+
+## Taalondersteuning in Experience Cloud {#languages}
+
+Experience Cloud ondersteunt voorkeurstalen voor elke gebruiker, zoals ingesteld in de voorkeuren voor uw gebruikersaccount voor Adobe. Momenteel worden de volgende talen ondersteund:
+
+* Chinees
+* Engels
+* Frans
+* Duits
+* Italiaans
+* Japans
+* Koreaans
+* Portugees
+* Spaans
+* Taiwanees
+
+Hoewel al het toepassingsteam aan globale taalsteun wordt geëngageerd, niet worden alle toepassingen aangeboden in alle hierboven vermelde talen. Als uw primaire taal niet in een toepassing van het Experience Cloud wordt gesteund, kunt u een secundaire taal aan gebrek ook plaatsen aan wanneer toepasselijk. Dit kan in [ de gebruikersvoorkeur van het Experience Cloud worden gedaan ](https://experience.adobe.com/preferences).
