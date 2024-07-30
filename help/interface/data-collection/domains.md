@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: a15918f0-c03b-4d32-a254-47f46023b127
-source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
+source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,7 @@ Naast de hieronder vermelde domeinen, hebben de individuele producten van Adobe 
 
 * [ Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
+* [ Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | Technologie | Domeinen |
 | --- | --- |
@@ -28,4 +29,4 @@ Naast de hieronder vermelde domeinen, hebben de individuele producten van Adobe 
 | Adobe Identity Management Service (IMS) | `adobelogin.com` |
 | Lettertypen | `typekit.net` |
 | Gegevensverzameling (voor productprestaties en -gebruik) | `adobedtm.com` |
-| Geniet van inzicht (voor productbegeleiding en hulp) | `esp.aptrinsic.com` |
+| Geniet van inzicht (voor productbegeleiding en hulp) | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |

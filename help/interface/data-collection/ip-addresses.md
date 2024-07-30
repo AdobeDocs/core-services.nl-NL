@@ -2,9 +2,9 @@
 title: IP adressen die door Adobe Experience Cloud worden gebruikt
 description: Als de firewall van uw organisatie IP adressen blokkeert die uit Adobe voortkomen, gebruik deze lijst om uw firewallmontages bij te werken.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
+source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,7 @@ Naast de IP hieronder vermelde adresblokken, hebben de individuele producten van
 
 * [ Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [ Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
 ## Alle IP van de Adobe adresblokken
 
