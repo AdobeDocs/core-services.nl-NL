@@ -1,14 +1,14 @@
 ---
 description: Moderniseer uw Adobe Analytics- en Adobe Target-toepassingen voor services voor meerdere toepassingen. Leer hoe u de services voor Experiencen Cloud gaat gebruiken.
 solution: Experience Cloud
-title: Aan de slag met services voor Experiencen Cloud
+title: Aan de slag met Experience Cloud Services
 index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: cdb969ba98f023162297efbd1be320b509c74c32
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Experience Cloud-id in de mbox-aanvraag:
 
 Nadat u de Dienst van identiteitskaart van het Experience Cloud opstelt, ontvangen de nieuwe bezoekers niet meer een identiteitskaart van het Experience Cloud van Analytics van uw server van de gegevensinzameling. Als gedeelten van uw site de id-service nog niet hebben geïmplementeerd en bezoekers naar deze secties bladeren, wordt de Experience Cloud-id niet herkend en krijgen bezoekers een oudere Analytics-bezoeker-id toegewezen. Dit kan mogelijke problemen veroorzaken, zoals dubbele bezoeken en onjuiste toewijzing.
 
-Als de ondersteuningssectie van uw site bijvoorbeeld in een aparte CMS wordt beheerd, hebt u mogelijk een ander JavaScript-bestand voor Analytics voor deze sectie. Als u de Experience Cloud-id op uw hoofdsite implementeert voordat u de id-service op de ondersteuningssite implementeert, ontvangen nieuwe bezoekers een oude Analytics-id wanneer ze de ondersteuningssectie bezoeken. Bezoeken die beide secties van de site beslaan, worden als verschillende bezoeken gerapporteerd.
+Als de ondersteuningssectie van uw site bijvoorbeeld in een aparte CMS wordt beheerd, hebt u mogelijk een ander Analytics JavaScript-bestand voor deze sectie. Als u de Experience Cloud-id op uw hoofdsite implementeert voordat u de id-service op de ondersteuningssite implementeert, ontvangen nieuwe bezoekers een oude Analytics-id wanneer ze de ondersteuningssectie bezoeken. Bezoeken die beide secties van de site beslaan, worden als verschillende bezoeken gerapporteerd.
 
 Het opstellen van de Dienst van identiteitskaart van het Experience Cloud op plaatsen die veelvoudige dossiers van JavaScript of andere technologieën (zoals Flash) gebruiken kan coördinatiekwesties veroorzaken. Deze problemen doen zich voor omdat u de Experience Cloud-id-service voor alle delen van uw site tegelijk moet inschakelen. Door een respijtperiode te configureren, blijven nieuwe bezoekers een Analytics-bezoeker-id ontvangen van de ID-service. Bezoekers kunnen consistent worden geïdentificeerd op gedeelten van uw site die niet zijn bijgewerkt voor gebruik van de bezoekersidentiteitsservice.
 

@@ -1,15 +1,15 @@
 ---
-description: Leer over centrale interfacecomponenten voor Experience Cloud. Deze hulp omvat gebruiker en productbeheer in de Admin Console, toelatend toepassingen voor de diensten van het Experience Cloud, en krijg hulp op de Bibliotheek van de Publiek, de Attributen van de Klant, Experience Cloud Assets, en meer.
-title: Help en documentatie bij de interface van Experiencen Cloud
+description: Leer over centrale interfacecomponenten voor Experience Cloud. Krijg hulp op gebruiker en productbeleid in de Admin Console, laat toepassingen voor de diensten van het Experience Cloud toe. Hulp bij Audience Library, Customer Attributes, Experience Cloud Assets en meer.
+title: Interface-documentatie Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
