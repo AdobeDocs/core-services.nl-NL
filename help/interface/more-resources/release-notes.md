@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2227bc64f5f294692df5c3c1419a5e376f0d136
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '5013'
+source-wordcount: '5044'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,13 @@ Voor een lijst van documentupdates, zie [ de updates van de Documentatie ](doc-u
 
 Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van de Versie van 0} Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl).[
 
-<!-- ## September 2024
+## 2 september 2024
 
-You can configure Slack notifications for Experience Cloud. -->
+| Functie | Beschrijving |
+| -----------| ---------- |
+| Slacks | U kunt uw accountvoorkeuren configureren om meldingen van Experiencen Cloud naar de Slack te verzenden. Zie {de berichten van de Slack 0} _in [ Voorkeur ](../features/account-preferences.md) hulp voor details._ |
+
+Zie {het Hulpmiddel van Admin van het Experience Cloud 0} ](../administration/admin-tool-experience-cloud.md)[
 
 <!-- ## July - August 2023
 

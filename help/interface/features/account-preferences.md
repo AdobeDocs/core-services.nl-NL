@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: d541fd7522e7333b1e5163f61d97f2fcea164877
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -45,34 +45,33 @@ Selecteer **[!UICONTROL Notifications]** om u te waarschuwen voor relevante en a
 
 ![ Meldingen en Mededelingen ](../assets/notifications-menu-small.png)
 
-<!-- ## [!DNL Slack] notifications
+## [!DNL Slack] meldingen
 
-Releasing: **September 2, 2024**
+Versie: **2 September, 2024**
 
-You can configure your account preferences to send Experience Cloud notifications to Slack.
+U kunt uw accountvoorkeuren configureren om meldingen van Experiencen Cloud naar de Slack te verzenden.
 
-**Prerequisites**
+**Vereisten**
 
-* You must have an Experience Cloud account
-* You must have a [!DNL Slack] account
-* You must be a part of at least one [!DNL Slack] workspace
+* U moet een Experience Cloud-account hebben
+* U moet een [!DNL Slack] -account hebben
+* U moet onderdeel zijn van minstens één [!DNL Slack] -werkruimte
 
-### To configure Slack notifications
+### Om de berichten van de Slack te vormen
 
-1. Sign in to Experience Cloud.
+1. Meld u aan bij het Experience Cloud.
 
-1. Click your account icon, then click **[!UICONTROL Preferences]**.
+1. Klik op het accountpictogram en klik vervolgens op **[!UICONTROL Preferences]** .
 
-1. Under [!DNL Slack], click **[!UICONTROL Add to Slack]**.
+1. Klik onder [!DNL Slack] op **[!UICONTROL Add to Slack]** .
 
-1. When [!DNL Slack] opens, click **[!UICONTROL Allow]**.
+1. Klik op **[!UICONTROL Allow]** wanneer [!DNL Slack] wordt geopend.
 
-1. In Experience Cloud Preferences, navigate to **[!UICONTROL Notifications]**.
+1. Navigeer in Voorkeuren Experience Cloud naar **[!UICONTROL Notifications]** .
 
-   [Slack notifications](../assets/slack.png)
+[Slacks](../assets/slack.png)
 
-1. Enable [!DNL Slack] notifications for your desired products and categories.
- -->
+1. Schakel [!DNL Slack] -meldingen in voor de gewenste producten en categorieën.
 
 ## Browserondersteuning in Experience Cloud {#browser}
 
