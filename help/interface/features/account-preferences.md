@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
+source-git-commit: df6bff60d4eb2cac74bc83546affa9c6b212d76e
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
@@ -69,7 +69,7 @@ U kunt uw accountvoorkeuren configureren om meldingen van Experiencen Cloud naar
 
 1. Navigeer in Voorkeuren Experience Cloud naar **[!UICONTROL Notifications]** .
 
-[Slacks](../assets/slack.png)
+   ![ de berichten van de Slack ](../assets/slack.png)
 
 1. Schakel [!DNL Slack] -meldingen in voor de gewenste producten en categorieën.
 

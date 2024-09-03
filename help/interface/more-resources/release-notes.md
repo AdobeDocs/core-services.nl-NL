@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
+source-git-commit: e9f6283e6ecd52be12f97f031785e24c2a15c9e9
 workflow-type: tm+mt
-source-wordcount: '5044'
+source-wordcount: '5039'
 ht-degree: 4%
 
 ---
@@ -29,8 +29,6 @@ Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van d
 | Functie | Beschrijving |
 | -----------| ---------- |
 | Slacks | U kunt uw accountvoorkeuren configureren om meldingen van Experiencen Cloud naar de Slack te verzenden. Zie {de berichten van de Slack 0} _in [ Voorkeur ](../features/account-preferences.md) hulp voor details._ |
-
-Zie {het Hulpmiddel van Admin van het Experience Cloud 0} ](../administration/admin-tool-experience-cloud.md)[
 
 <!-- ## July - August 2023
 
