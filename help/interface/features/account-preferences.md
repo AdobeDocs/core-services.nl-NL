@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -73,27 +73,15 @@ U kunt uw accountvoorkeuren zo configureren dat meldingen van Experiencen Cloud 
 
 **om aan de berichten van de Slack in te tekenen**
 
-1. Navigeer aan Experience Cloud [ voorkeur ](https://experience.adobe.com/preferences)
+1. Navigeer aan Experience Cloud [ voorkeur ](https://experience.adobe.com/preferences).
 
 1. Zoek [!DNL Slack] en klik vervolgens op **[!UICONTROL Add to Slack]** .
 
    ![ toevoegen aan Slack ](../assets/add-to-slack.png)
 
-   Als [!DNL Slack] is geïnstalleerd, wordt de toepassing geopend en wordt een bericht met het verzoek om toestemming weergegeven.
+   Als [!DNL Slack] is geïnstalleerd, wordt de toepassing geopend en wordt een bericht met het verzoek om toestemming weergegeven. Als de Slack niet geïnstalleerd is, moet u [ toestemming ](#slack-troubleshoot) verzoeken.
 
-   * Klik op **[!UICONTROL Allow]**.
-
-   Als [!DNL Slack] niet geïnstalleerd is, a _Verzoek om_ berichtvertoningen te installeren:
-
-   ![ Integratie van de Slack van het verzoek ](../assets/slack-request.png)
-
-   * Kies in de Slack de werkruimte in de rechterbovenhoek van de toepassing.
-
-   * Klik op **[!UICONTROL Submit]** als u goedkeuring van een toepassing wilt aanvragen voor het Slack-werkruimtenbeheer.
-
-   * U ontvangt een melding in [!DNL Slack] nadat de aanvraag is goedgekeurd.
-
-   * Nadat u [!DNL Slack] goedkeuring hebt ontvangen, gaat u terug naar het Experience Cloud **[!UICONTROL Notifications]** en klikt u op **[!UICONTROL Add to Slack]** .
+1. Klik op **[!UICONTROL Allow]**.
 
 1. Schakel onder **[!UICONTROL Notifications]** [!DNL Slack] -meldingen in voor de gewenste producten en categorieën.
 
@@ -101,9 +89,25 @@ U kunt uw accountvoorkeuren zo configureren dat meldingen van Experiencen Cloud 
 
    Updates voor meldingen worden automatisch opgeslagen.
 
+### Toestemming aanvragen in Slack {#slack-troubleshoot}
+
+Als [!DNL Slack] niet geïnstalleerd is, a _Verzoek om_ berichtvertoningen te installeren wanneer de Slack opent nadat u **[!UICONTROL Add to Slack]** klikt.
+
+![ Integratie van de Slack van het verzoek ](../assets/slack-request.png)
+
+**om toestemmingen in Slack** te verzoeken
+
+1. Kies in de Slack de werkruimte in de rechterbovenhoek van de toepassing.
+
+1. Klik op **[!UICONTROL Submit]** als u goedkeuring van een toepassing wilt aanvragen voor het Slack-werkruimtenbeheer.
+
+1. U ontvangt een melding in [!DNL Slack] nadat de aanvraag is goedgekeurd.
+
+1. Nadat u [!DNL Slack] goedkeuring ontvangt, terugkeer aan Experience Cloud **[!UICONTROL Notifications]** en [ onderteken aan Slack ](#slack-notifications) (hierboven beschreven).
+
 ### Wat u ziet in [!DNL Slack]
 
-In meldingen voor Slacks wordt de volgende informatie weergegeven:
+Na het met succes integreren van Slack, tonen de berichten van de Slack de volgende informatie:
 
 * Het persoonlijke bericht zal van de toepassingsnaam _Adobe Experience Cloud_ worden ontvangen.
 * Het bericht bevat het productlogo voor de specifieke toepassing, zoals Adobe Experience Platform, Adobe Experience Manager, enzovoort.
