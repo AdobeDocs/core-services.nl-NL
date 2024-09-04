@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud-interface en -beheerhandleiding
 title: Experience Cloud Interface and Administration Guide
 description: Meer informatie over de interface van Experiencen Cloud en voorkeuren voor gebruikersaccounts. Leer hoe u naar zakelijke objecten kunt zoeken en gebruikers en producten kunt beheren. Klantkenmerken, Audience Library, cookies en Share Experience Cloud Assets configureren.
 index: true
-source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '235'
 ht-degree: 18%
 
 ---
@@ -47,14 +47,15 @@ ht-degree: 18%
    + [Triggers](services/triggers.md)
 
 + Functies {#features}
-   + [Accountvoorkeuren](features/account-preferences.md)
+   + [Meldingen en accountvoorkeuren](features/account-preferences.md)
    + [Unified Search](features/search.md)
    + [Persoonlijk leren](features/personalized-learning.md)
+   + [Browserondersteuning en taalondersteuning](browser-language.md)
 
 + Beheer {#administration}
    + [Gebruikersgegevens weergeven (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisaties en accountkoppelingen](administration/organizations.md)
-   + [Integraties](administration/integrations.md)
+   + [Experience Cloud-integraties](administration/integrations.md)
 
 + Gegevensverzameling {#data-collection}
    + [Certificaatprogramma met beheerde Adobe](data-collection/adobe-managed-cert.md)
