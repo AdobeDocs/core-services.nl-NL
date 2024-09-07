@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
+source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ U kunt uw accountvoorkeuren zo configureren dat meldingen van Experiencen Cloud 
 
 ### Toestemming aanvragen in Slack {#slack-troubleshoot}
 
-Als [!DNL Slack] niet geïnstalleerd is, a _Verzoek om_ berichtvertoningen te installeren wanneer de Slack opent nadat u **[!UICONTROL Add to Slack]** klikt.
+Als [!DNL Slack] niet is geïnstalleerd, wordt een _[!UICONTROL Request to install]_-bericht weergegeven wanneer de Slack wordt geopend nadat u op **[!UICONTROL Add to Slack]**hebt geklikt.
 
 ![ Integratie van de Slack van het verzoek ](../assets/slack-request.png)
 
