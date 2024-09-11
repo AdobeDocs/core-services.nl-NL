@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
+source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ In de voorkeuren kunt u:
 
 * Onderzoek naar [ Organisaties ](../administration/organizations.md)
 * Geef een donker thema op (niet alle toepassingen ondersteunen dit thema).
-* Gebruikersvoorkeuren, meldingen en abonnementen configureren.
+* Configureer accountvoorkeuren, meldingen en abonnementen voor gebruikers.
 * Afmelden bij Experience Cloud.
 
 ## Voorkeuren beheren
@@ -58,22 +58,17 @@ Meldingen via e-mail en Slack zijn handig voor situaties waarin u niet bent aang
 
 ### Abonneren op [!DNL Slack] meldingen {#slack}
 
->[!NOTE]
->
->De berichten van de Slack zullen vrijgeven: **11 September, 2024**
-
-
 U kunt uw accountvoorkeuren zo configureren dat meldingen van Experiencen Cloud naar een [!DNL Slack] -kanaal worden verzonden.
 
 **Vereisten**
 
 * Je moet een Experience Cloud account hebben.
-* U moet een [!DNL Slack] account hebben. Uw beheerder van de Slack laat de integratie van het Experience Cloud met Slack toe.
+* U moet een [!DNL Slack] account hebben. Uw [!DNL Slack] -beheerder schakelt de integratie van het Experience Cloud met [!DNL Slack] in.
 * U moet onderdeel zijn van ten minste één [!DNL Slack] -werkruimte.
 
-**om aan de berichten van de Slack in te tekenen**
+**om aan [!DNL Slack] berichten** in te schrijven
 
-1. Navigeer aan Experience Cloud [ voorkeur ](https://experience.adobe.com/preferences).
+1. Navigeer aan Experience Cloud [ Voorkeur ](https://experience.adobe.com/preferences).
 
 1. Zoek [!DNL Slack] en klik vervolgens op **[!UICONTROL Add to Slack]** .
 
@@ -89,34 +84,34 @@ U kunt uw accountvoorkeuren zo configureren dat meldingen van Experiencen Cloud 
 
    Updates voor meldingen worden automatisch opgeslagen.
 
-### Toestemming aanvragen in Slack {#slack-troubleshoot}
+### Machtiging aanvragen in [!DNL Slack] (problemen oplossen) {#slack-troubleshoot}
 
-Als [!DNL Slack] niet is geïnstalleerd, wordt een _[!UICONTROL Request to install]_-bericht weergegeven wanneer de Slack wordt geopend nadat u op **[!UICONTROL Add to Slack]**hebt geklikt.
+Als [!DNL Slack] niet is geïnstalleerd, wordt een _[!UICONTROL Request to install]_-bericht weergegeven wanneer de Slack wordt geopend nadat u op **[!UICONTROL Add to Slack]**hebt geklikt. Bijvoorbeeld:
 
-![ Integratie van de Slack van het verzoek ](../assets/slack-request.png)
+![ Integratie van de Slack van het verzoek ](../assets/slack-workspace.png)
 
 **om toestemmingen in Slack** te verzoeken
 
-1. Kies in de Slack de werkruimte in de rechterbovenhoek van de toepassing.
+1. Selecteer in [!DNL Slack] de werkruimte in het menu **[!UICONTROL Workspace]** (rechterbovenhoek).
 
-1. Klik op **[!UICONTROL Submit]** als u goedkeuring van een toepassing wilt aanvragen voor het Slack-werkruimtenbeheer.
+1. Klik op **[!UICONTROL Submit]** om goedkeuring van de toepassing aan te vragen voor het [!DNL Slack] -werkruimtebeheer.
 
 1. U ontvangt een melding in [!DNL Slack] nadat de aanvraag is goedgekeurd.
 
-1. Nadat u [!DNL Slack] goedkeuring ontvangt, terugkeer aan Experience Cloud **[!UICONTROL Notifications]** en [ onderteken aan Slack ](#slack-notifications) (hierboven beschreven).
+1. Nadat u [!DNL Slack] goedkeuring ontvangt, terugkeer aan Experience Cloud **[!UICONTROL Notifications]** en volg de stappen aan [ intekenen aan Slack ](#slack-notifications) (hierboven beschreven).
 
 ### Wat u ziet in [!DNL Slack]
 
-Na het met succes integreren van Slack, tonen de berichten van de Slack de volgende informatie:
+Nadat [!DNL Slack] met succes is geïntegreerd, geven de [!DNL Slack] -meldingen de volgende informatie weer:
 
-* Het persoonlijke bericht zal van de toepassingsnaam _Adobe Experience Cloud_ worden ontvangen.
-* Het bericht bevat het productlogo voor de specifieke toepassing, zoals Adobe Experience Platform, Adobe Experience Manager, enzovoort.
+* Het persoonlijke bericht zal van de toepassingsnaam _Adobe[!DNL Experience Cloud]_ worden ontvangen.
+* Het bericht bevat het productlogo voor de specifieke toepassing, zoals Adobe [!DNL Experience Platform], Adobe [!DNL Experience Manager] enzovoort.
 * Een koppeling om alle meldingen op het Experience Cloud weer te geven.
 * Een koppeling voor het beheren van berichtgevingsvoorkeuren op Experience Cloud.
 
 ## Weergeven [!UICONTROL notifications] en aankondigingen in Experience Cloud {#view-notifications}
 
-In de kopbal van het Experience Cloud, kunt u berichten bekijken waaraan u [ ](#notifications) intekende, evenals meningsaankondigingen.
+In de [!DNL Experience Cloud] kopbal, kunt u berichten bekijken waaraan u [ ](#notifications) intekende, evenals meningsaankondigingen.
 
 1. Klik op het belpictogram in de koptekst. ![ Meldingen en Mededelingen ](../assets/bell-icon.png)
 

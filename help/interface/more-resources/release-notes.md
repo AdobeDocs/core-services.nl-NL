@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e9f6283e6ecd52be12f97f031785e24c2a15c9e9
+source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
 workflow-type: tm+mt
 source-wordcount: '5039'
 ht-degree: 4%
@@ -24,7 +24,7 @@ Voor een lijst van documentupdates, zie [ de updates van de Documentatie ](doc-u
 
 Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van de Versie van 0} Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl).[
 
-## 2 september 2024
+## 10 september 2024
 
 | Functie | Beschrijving |
 | -----------| ---------- |
