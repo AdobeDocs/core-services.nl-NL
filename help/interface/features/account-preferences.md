@@ -7,16 +7,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: 9a6833139a0fb8eed8a10daeda34f354a7133f17
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
 
 # Accountvoorkeuren en -meldingen {#preferences}
 
-Om de voorkeur van het Experience Cloud te vinden, klik uw **[!UICONTROL User Account]** ![ voorkeur ](../assets/preferences-icon-sm.png) pictogram, dan klik **[!UICONTROL Preferences]**.
+Om de voorkeur van het Experience Cloud te vinden, klik uw **[!UICONTROL User Account]** ![ voorkeur ](../assets/preferences-icon-sm.png) pictogram in de kopbal, dan klik **[!UICONTROL Preferences]**.
+
+![ voorkeur ](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
 Op de pagina [!UICONTROL Experience Cloud preferences] kunt u de volgende accountfuncties beheren:
 
