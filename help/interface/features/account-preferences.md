@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 0%
+source-wordcount: '595'
+ht-degree: 1%
 
 ---
 
 # Accountvoorkeuren en -meldingen {#preferences}
 
-Experience Cloud [ voorkeur ](https://experience.adobe.com/preferences) omvat berichten (in-app, e-mail, en [!DNL Slack]), abonnementen, en alarm.
+Om de voorkeur van het Experience Cloud te vinden, klik uw **[!UICONTROL User Account]** ![ voorkeur ](../assets/preferences-icon-sm.png) pictogram, dan klik **[!UICONTROL Preferences]**.
 
-In de voorkeuren kunt u:
-
-* Onderzoek naar [ Organisaties ](../administration/organizations.md)
-* Geef een donker thema op (niet alle toepassingen ondersteunen dit thema).
-* Configureer accountvoorkeuren, meldingen en abonnementen voor gebruikers.
-* Afmelden bij Experience Cloud.
-
-## Voorkeuren beheren
-
-Om voorkeur te beheren, selecteer **[!UICONTROL Preferences]** van uw rekeningsmenu ![ voorkeur ](../assets/preferences-icon-sm.png).
-
-Op [!UICONTROL Experience Cloud preferences] kunt u de volgende functies configureren:
+Op de pagina [!UICONTROL Experience Cloud preferences] kunt u de volgende accountfuncties beheren:
 
 | Functie | Beschrijving |
 |--- |--- |
-| Standaard [ organisatie ](../administration/organizations.md) | Selecteer de organisatie die u wilt zien wanneer u het Experience Cloud start. |
+| Profiel | Werk uw [ Profiel van de Rekening van de Adobe ](https://account.adobe.com/profile) bij. <p>Uw profielfoto en naam worden weergegeven wanneer u zich aanmeldt bij Adobe.com, producten en services van de Adobe opneemt en op openbare sites zoals [!DNL Behance] . |
+| Algemeen | Selecteer een [ organisatie ](../administration/organizations.md).<p>Dit is de standaardorganisatie die wordt gebruikt wanneer u zich aanmeldt bij een Experience Cloud. |
 | [!UICONTROL Product data collection] | Selecteer welke technologieën Adobe kan gebruiken om gegevens te verzamelen over hoe u uw producten van de Adobe gebruikt. |
-| [ Meldingen ](#notifications-and-announcements) | Laat [!UICONTROL in-app], [!UICONTROL email], of [ Slack ](#slack-notifications) berichten toe. |
+| Meldingen | Vorm hoe en wanneer u product [ berichten ](#subscribe-to-notifications-in-experience-cloud) en alarm zou willen: <ul><li>Selecteer de producten waarop u zich wilt abonneren voor waarschuwingen</li><li>Vorm het type van bericht ([!UICONTROL in-app], [!UICONTROL email], of [ Slack ](#slack-notifications))</li><li>Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.)</li><li>Bepaal de waakzame prioriteit. In-app-waarschuwingen worden een paar seconden in de rechterbovenhoek van uw venster weergegeven. U kunt ook opgeven of waarschuwingen moeten worden weergegeven totdat u ze verwijdert.</li></ul> |
 | [!UICONTROL Personalized learning recommendations and promotions] | Selecteer waar u [ gepersonaliseerde hulp ](personalized-learning.md) voor uw producten van de Adobe zou willen ontvangen. Deze Help is beschikbaar via e-mail, in-product, en de Gemeenschappen van de Experience League. |
-| [!UICONTROL Subscriptions] | Selecteer de producten en categorieën waarop u zich wilt abonneren. Meldingen in de pop-up [!UICONTROL Notifications] en in uw e-mail. |
-| [!UICONTROL Priority] | Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd. Deze categorieën zijn gemarkeerd met een tag [!UICONTROL High] en kunnen worden geconfigureerd voor levering zoals waarschuwingen. |
-| [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
-| E-mails | Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.) |
 
 ## Abonneren op meldingen in Experience Cloud {#notifications}
 

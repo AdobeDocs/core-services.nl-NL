@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 Vanuit de koptekst van Experience Cloud kunt u:
 
-* Toegang tot uw toepassingen en services
+* Heb toegang tot al uw toepassingen en de diensten van het Experience Cloud
 * Zoek in het menu Help naar productdocumentatie, zelfstudies en communityartikelen. Resultaten weergeven in Experience League.
 * Zakelijke objecten zoeken op algemene wijze met een algemene zoekopdracht (alleen voor gebruikers van Experience Platforms) in het veld Zoeken.
-* Uw accountvoorkeuren beheren (waarschuwingen, meldingen en abonnementen)
+* Beheer uw rekening [ voorkeur ](features/account-preferences.md) (alarm, berichten, en abonnementen)
 
 ## Aanmelden bij Experience Cloud {#signin}
 
@@ -68,35 +68,21 @@ Via het menu [!UICONTROL Help] hebt u ook toegang tot:
 * **[!UICONTROL Status]:** ga naar `https://status.adobe.com/experience_cloud` en controleer de operationele status van het product en [!UICONTROL Manage Subscriptions] .
 * **[!UICONTROL Developer Connection]:** Navigatie naar `adobe.io` en zoek de documentatie voor ontwikkelaars.
 
-## Gebruikersprofiel en accountvoorkeuren {#preferences}
+## Uw gebruikersprofiel beheren
 
-Voorkeuren voor Experiencen Cloud zijn meldingen, abonnementen en waarschuwingen. In het menu met accountvoorkeuren kunt u het volgende doen:
+In het menu van het gebruikersprofiel kunt u:
 
 * Geef een donker thema op (niet alle toepassingen ondersteunen dit thema)
-* Onderzoek naar [ Organisaties ](administration/organizations.md)
+* Beheer Experience Cloud [ Voorkeur ](features/account-preferences.md)
+* Selecteer of onderzoek naar een [ Organisatie ](administration/organizations.md)
+* Weergeven [!UICONTROL Legal Notices]
 * Afmelden
 * Accountvoorkeuren, meldingen en abonnementen configureren
 
-Om voorkeur te beheren, selecteer **[!UICONTROL Preferences]** van uw rekeningsmenu ![ voorkeur ](assets/preferences-icon-sm.png).
+## Meldingen en aankondigingen in producten weergeven {#notifications}
 
-![ gebruikersprofiel en rekeningsvoorkeur ](assets/preferences-page.png)
-
-Op [!UICONTROL Experience Cloud preferences] kunt u de volgende functies configureren:
-
-| Functie | Beschrijving |
-|--- |--- |
-| Standaard [ organisatie ](administration/organizations.md) | Selecteer de organisatie die u wilt zien wanneer u het Experience Cloud start. |
-| [!UICONTROL Product data collection] | Selecteer welke technologieën Adobe kan gebruiken om gegevens te verzamelen over hoe u uw producten van de Adobe gebruikt. |
-| [!UICONTROL Personalized learning recommendations and promotions] | Selecteer waar u persoonlijke hulp voor uw Adobe wilt ontvangen. Deze Help is beschikbaar via e-mail, in-product, en de Gemeenschappen van de Experience League. [ leer meer.](features/personalized-learning.md) |
-| [!UICONTROL Subscriptions] | Selecteer de producten en categorieën waarop u zich wilt abonneren. Meldingen in de pop-up [!UICONTROL Notifications] en in uw e-mail. |
-| [!UICONTROL Priority] | Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd. Deze categorieën zijn duidelijk met een Hoog markering en kunnen voor levering zoals alarm worden gevormd. |
-| [!UICONTROL Alerts] | Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser. Er worden enkele seconden waarschuwingen weergegeven in de rechterbovenhoek van het venster. |
-| E-mails | Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.) |
-
-{style="table-layout:auto"}
-
-## Meldingen en aankondigingen {#notifications}
-
-Selecteer **[!UICONTROL Notifications]** om u te waarschuwen voor relevante en activeerbare updates, zoals productreleases, onderhoudsmeldingen, gedeelde items en goedkeuringsaanvragen.
+Klik op het belpictogram om meldingen en aankondigingen weer te geven. Aankondigingen kunnen relevante en actiefuncties zijn, zoals productreleases, onderhoudsmeldingen, gedeelde items en goedkeuringsaanvragen.
 
 ![ Meldingen en Mededelingen ](assets/notifications-menu-small.png)
+
+Om berichten en alarm te beheren, zie [ voorkeur en berichten van de Rekening ](features/account-preferences.md)
