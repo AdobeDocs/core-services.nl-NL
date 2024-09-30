@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1ca98d86c3559bf82c33c4fa3c7ec04bde26f1d8
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 1%
+source-wordcount: '697'
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ Teken binnen en verifieer dat u in de juiste [ organisatie ](organizations.md) b
 
    ![ verifieer uw organisatie ](assets/organizations-menu.png)
 
-   Om te verifiëren dat u aan uw correcte [ organisatie ](organizations.md) het programma hebt geopend, klik op uw profielavatar om organisatienaam te zien. Als u toegang hebt tot meer dan één organisatie, kunt u ook bekijken en op een andere organisatie in de kopbalbar schakelen.
+   Om te verifiëren dat u aan uw correcte [ organisatie ](organizations.md) het programma hebt geopend, klik **[!UICONTROL Profile]** om organisatienaam te zien. Als u toegang hebt tot meerdere organisaties, kunt u ook de kiezer van **[!UICONTROL Organization]** gebruiken om een andere organisatie weer te geven en naar een andere organisatie te schakelen.
 
    Als uw organisatie Federated IDs gebruikt, staat het Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder het worden vereist om uw e-mailadres en wachtwoord in te gaan. Voeg `#/sso:@domain` aan Experience Cloud URL (`https://experience.adobe.com`) toe om deze taak te verwezenlijken.
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 3%
+source-wordcount: '525'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ De organisatie functioneert als een login bedrijf dat alle producten en toepassi
 
 ![ Organisaties van de Experience Cloud ](../assets/organizations-menu.png)
 
-Om te controleren dat u zich bij uw correcte organisatie hebt aangemeld, klikt u op uw profielavatar om de naam van de organisatie te zien. Als u toegang hebt tot meer dan één organisatie, kunt u ook een andere organisatie in de kopbalbar bekijken en schakelen.
+Als u wilt controleren of u zich hebt aangemeld bij de juiste organisatie, klikt u op **[!UICONTROL Profile]** om de standaardorganisatienaam weer te geven. Als u toegang hebt tot meer dan één organisatie, kunt u ook een andere organisatie in de kopbalbar bekijken en schakelen.
 
 ## Federatieve id&#39;s
 
@@ -33,7 +33,7 @@ Stel bijvoorbeeld voor een organisatie met federatieve id&#39;s en het domein `a
 
 ## Uw organisatie-id weergeven {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-U kunt uw toegewezen organisatie-id zoeken voor ondersteuningsdoeleinden. Met het menu **[!UICONTROL Organization]** kunt u controleren of u zich in de juiste organisatie bevindt of kunt u schakelen tussen organisaties.
+U kunt uw toegewezen organisatie-id zoeken voor ondersteuningsdoeleinden. Met de kiezer **[!UICONTROL Organization]** in de header kunt u controleren of u zich in de juiste organisatie bevindt of kunt u schakelen tussen organisaties.
 
 De organisatie-id is de id die is gekoppeld aan uw bedrijf voor het geleverde Experience Cloud. Deze id is een alfanumerieke tekenreeks van 24 tekens, gevolgd door (en moet omvatten) `@AdobeOrg` .
 
@@ -65,31 +65,30 @@ Typisch, verlenen de beheerders van het Experience Cloud toegang tot toepassinge
 
 1. Meld u aan met uw Adobe ID of Enterprise ID.
 
-1. Selecteer de toepassingskiezer. ( ![ menu ](../assets/menu-icon.png)).
+1. Klik op **[!UICONTROL Application selector]** . ( ![ menu ](../assets/menu-icon.png)).
 
    ![ Verbinding een toepassingsrekening aan een Adobe ID ](../assets/solutions-active.png)
 
    De toepassingen waartoe u toegang hebt, zijn gekleurd.
 
-1. Selecteer de gewenste toepassing.
+1. Klik op de gewenste toepassing.
 
-   ![ selecteer de gewenste toepassing ](../assets/analytics-link-accounts.png)
+   ![ klik uw toepassing ](../assets/analytics-link-accounts.png)
 
    Dit type bericht wordt weergegeven als u deel uitmaakt van de desbetreffende groep (en toestemming hebt voor de toepassing) maar nog geen koppeling hebt gemaakt tussen uw accountgegevens en uw Adobe ID.
 
-1. Selecteer **[!UICONTROL Link Account]** en geef vervolgens uw referenties op.
+1. Klik op **[!UICONTROL Link Account]** en geef vervolgens uw referenties op.
 
-## Een standaardorganisatie en -openingspagina opgeven {#concept_6A191B42A9874A9780882903BA18F071}
+## Een standaardorganisatie opgeven {#concept_6A191B42A9874A9780882903BA18F071}
 
-U kunt een standaardorganisatie en openingspagina opgeven die u wilt gebruiken wanneer u zich aanmeldt.
+U kunt een standaardorganisatie opgeven die moet worden gebruikt wanneer u zich aanmeldt.
 
-Selecteer **[!UICONTROL Edit Profile]** in uw profiel.
+1. Klik in de koptekst op **[!UICONTROL Profile]** en klik vervolgens op Voorkeuren.
+
+1. Selecteer onder [!UICONTROL General] een standaardorganisatie.
+
 
 ![ geef Profiel ](../assets/edit-profile.png) uit
-
-Onder **[!UICONTROL Default Organization & Landing Page]** kunt u uw aanmeldingservaring aanpassen.
-
-![ Standaardorganisatie &amp; het Landing Pagina ](../assets/default-organization.png)
 
 ## Problemen met het koppelen van accounts oplossen {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 

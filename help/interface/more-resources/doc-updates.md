@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 2%
 
 Informatie over updates van productdocumentatie van de Experience Cloud.
 
-<!-- **9 September 2024**
+**September 2024**
 
-Added help about [subscribing to Slack notifications](../features/account-preferences.md#subscribe-to-slack-notifications). -->
+Toegevoegde hulp over [ die aan Slack berichten ](../features/account-preferences.md#subscribe-to-slack-notifications) intekent.
+
+Bijgewerkte [ gebruikersvoorkeur ](../features/account-preferences.md).
 
 **26 April 2024**
 
@@ -54,7 +56,7 @@ Bijgewerkt het [ beleid FAQ ](faq.md) met informatie over hoe de Steun van de Ad
 
 | Functie | Beschrijving |
 | ------- | ------- |
-| Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Doelen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
+| Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Bestemmingen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
 | Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd voorkeuren in te dienen voor de manier waarop Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, leervideo&#39;s en meer, op basis van de gebruiksgegevens van uw Experience Cloud-product. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences> . |
 
 **24 Augustus 2021**

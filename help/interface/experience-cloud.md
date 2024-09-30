@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Teken binnen en verifieer dat u in de juiste [ organisatie ](administration/orga
 
    **verifieer uw organisatie**
 
-   Om te verifiëren dat u aan uw correcte [ organisatie ](administration/organizations.md) het programma hebt geopend, klik op uw profielavatar om organisatienaam te zien. Als u toegang hebt tot meer dan één organisatie, kunt u ook bekijken en op een andere organisatie in de kopbalbar schakelen.
+   De [ organisatie ](administration/organizations.md) wordt getoond in de interfacekop.
 
    Als uw organisatie Federated IDs gebruikt, staat het Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder het worden vereist om uw e-mailadres en wachtwoord in te gaan. Voeg `#/sso:@domain` aan Experience Cloud URL (`https://experience.adobe.com`) toe om deze taak te verwezenlijken.
 
@@ -57,7 +57,7 @@ Om tot de toepassingen en de diensten van het Experience Cloud toegang te hebben
 
 ## Hulp en ondersteuning {#support}
 
-Het leren van de toegang en de hulp die het pictogram van de Hulp (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
+Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
 
 ![ krijg hulp en steun ](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ Via het menu [!UICONTROL Help] hebt u ook toegang tot:
 
 ## Uw gebruikersprofiel beheren
 
-In het menu van het gebruikersprofiel kunt u:
+In het menu [!UICONTROL Profile] kunt u:
 
 * Geef een donker thema op (niet alle toepassingen ondersteunen dit thema)
 * Beheer Experience Cloud [ Voorkeur ](features/account-preferences.md)

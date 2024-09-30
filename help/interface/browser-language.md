@@ -6,9 +6,10 @@ feature: Account Preferences
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---
@@ -35,9 +36,9 @@ Experience Cloud ondersteunt voorkeurstalen voor elke gebruiker en voor een secu
 
 Ondersteunde talen weergeven:
 
-1. In Experience Cloud, navigeer aan **[!UICONTROL Profile]** > [ Voorkeur ](https://experience.adobe.com/preferences).
+1. In Experience Cloud, klik **[!UICONTROL Profile]** > [ Voorkeur ](https://experience.adobe.com/preferences).
 
-1. Klik in de [!UICONTROL Profile] op de taalkoppeling.
+1. Klik onder **[!UICONTROL Profile]** op de taalkoppeling.
 
 1. Selecteer in **[!UICONTROL Select language]** een taal in het menu **[!UICONTROL First language]** .
 
