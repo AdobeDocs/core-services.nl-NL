@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
+source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
 workflow-type: tm+mt
-source-wordcount: '5039'
+source-wordcount: '5094'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,13 @@ Voor een lijst van documentupdates, zie [ de updates van de Documentatie ](doc-u
 
 Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van de Versie van 0} Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl).[
 
-## 10 september 2024
+## donderdag 2 oktober 2024
+
+| Functie | Beschrijving |
+| -----------| ---------- |
+| Aanpasbare woning | Klik op de openingspagina van het Experience Cloud op **[!UICONTROL Edit]** . In de modus [!UICONTROL Edit] kunt u de startpagina van uw Experience Cloud aanpassen met toegang tot een widgetbibliotheek en aangepaste achtergronden. De modus [!UICONTROL Edit] biedt naadloze, intuïtieve besturingselementen voor het verplaatsen, vergroten/verkleinen en beheren van widgets, waaronder acties in grote hoeveelheden en aanpassingen van de layout, voor een meer esthetische en op maat gemaakte ervaring. |
+
+## woensdag 10 september 2024
 
 | Functie | Beschrijving |
 | -----------| ---------- |
@@ -99,7 +105,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Functie | Beschrijving |
 | ------- | ------- |
-| Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Doelen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
+| Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Bestemmingen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
 | Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd voorkeuren in te dienen voor de manier waarop Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, leervideo&#39;s en meer, op basis van de gebruiksgegevens van uw Experience Cloud-product. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences> . |
 
 {style="table-layout:auto"}
