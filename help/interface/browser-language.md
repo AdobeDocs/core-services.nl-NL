@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 5%
 
 ---
 
@@ -32,9 +32,28 @@ Als uw browser niet in de lijst wordt vermeld, wordt deze mogelijk wel ondersteu
 
 ## Taalondersteuning in Experience Cloud {#languages}
 
-Experience Cloud ondersteunt voorkeurstalen voor elke gebruiker en voor een secundaire taal.
+De gebruikersinterface van het Experience Cloud is beschikbaar in de volgende talen:
 
-Ondersteunde talen weergeven:
+* Engels (Verenigde Staten)
+* Frans (Frankrijk)
+* Duits (Duitsland)
+* Italiaans (Italië)
+* Spaans (Spanje)
+* Portugees (Brazilië)
+* Japans
+* Koreaans
+* Traditioneel Chinees
+* Vereenvoudigd Chinees
+
+Bovendien kan landspecifieke opmaak (zoals datums, tijden, kalenders, getallen) ook beschikbaar zijn in verschillende talen die worden ondersteund door de gebruikersinterface:
+
+* Engels (Israël)
+* Engels (Verenigd Koninkrijk)
+* Spaans (Mexico)
+* Spaans (Latijns Amerika)
+* Frans (Canada)
+
+**om een standaardtaal** te specificeren
 
 1. In Experience Cloud, klik **[!UICONTROL Profile]** > [ Voorkeur ](https://experience.adobe.com/preferences).
 
@@ -42,6 +61,6 @@ Ondersteunde talen weergeven:
 
 1. Selecteer in **[!UICONTROL Select language]** een taal in het menu **[!UICONTROL First language]** .
 
-   Hoewel alle toepassingsteams zich hebben geëngageerd voor wereldwijde taalondersteuning, worden niet alle toepassingen aangeboden in alle hierboven vermelde talen. Als uw primaire taal niet in een toepassing van het Experience Cloud wordt gesteund, kunt u een secundaire taal aan gebrek ook plaatsen aan wanneer toepasselijk.
+   Terwijl alle toepassingsteams aan globale taalsteun worden geëngageerd, niet worden alle toepassingen aangeboden in alle talen die in de interface worden vermeld. Als uw primaire taal niet in een toepassing van het Experience Cloud wordt gesteund, kunt u een secundaire standaardtaal plaatsen wanneer toepasselijk.
 
 1. Klik op **[!UICONTROL Save]**.
