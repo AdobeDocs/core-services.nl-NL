@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -71,11 +71,15 @@ Voer deze stappen op de Create Nieuwe pagina van Source van Attributen van de Kl
 
    * **[!UICONTROL Description:]** (Optioneel) Een beschrijving van de bron van het gegevenskenmerk.
 
-   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de Attributen van de Klant, zoals een specifiek systeem van CRM. [!UICONTROL Alias ID] is een unieke id die wordt gebruikt in uw Source-code voor klantkenmerken. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die wordt ingevoerd in het veld [!UICONTROL Alias ID] voor een kenmerkbron van een klant in Experience Cloud, moet overeenkomen met de waarden die worden doorgegeven vanuit de implementatie (via Platform Data Collection of JavaScript van de Mobile SDK).
+   * **[!UICONTROL Alias ID:]** Vertegenwoordigt een bron van de gegevens van de Attributen van de Klant, zoals een specifiek systeem van CRM. [!UICONTROL Alias ID] is een unieke id die wordt gebruikt in uw [!UICONTROL Customer Attribute Source] -code. De id moet uniek zijn, in kleine letters en zonder spaties. De waarde die wordt ingevoerd in het veld [!UICONTROL Alias ID] voor een kenmerkbron van een klant in Experience Cloud, moet overeenkomen met de waarden die worden doorgegeven vanuit de implementatie (via Platform Data Collection of JavaScript van de Mobile SDK).
+
+     >[!IMPORTANT]
+     >
+     >Als u een gegevensbron verwijdert die aan een Alias-id is gekoppeld, maakt u de Alias-id niet beschikbaar, omdat de Alias-id in meerdere services wordt opgeslagen en wordt gebruikt om profielen tussen deze id&#39;s toe te wijzen.
 
      De alias-id komt overeen met bepaalde gebieden waar u extra waarden voor de klant-id instelt. Bijvoorbeeld:
 
-      * **Dynamisch markeringsbeheer:** identiteitskaart van de Alias beantwoordt aan de *waarde van de Code van de Integratie* onder [!UICONTROL Customer Settings], in het [ hulpmiddel van de Dienst van identiteitskaart van de Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl).
+      * **Markeringen:** identiteitskaart van de Alias beantwoordt aan de *waarde van de Code van de Integratie* onder [!UICONTROL Customer Settings], in het [ hulpmiddel van de Dienst van identiteitskaart van de Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl).
 
       * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ Klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) die u met elke bezoeker kunt associëren.
 
