@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud-interface en -beheerhandleiding
 title: Experience Cloud Interface and Administration Guide
 description: Meer informatie over de interface, cookies en accountvoorkeuren van Experiencen Cloud. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Deel Experience Cloud Assets.
 index: true
-source-git-commit: 009c387189d928d3807326939fa56461325011f1
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 18%
@@ -47,7 +47,7 @@ ht-degree: 18%
    + [Triggers](services/triggers.md)
 
 + Functies {#features}
-   + [Meldingen en accountvoorkeuren](features/account-preferences.md)
+   + [Accountvoorkeuren en -meldingen](features/account-preferences.md)
    + [Unified Search](features/search.md)
    + [Persoonlijk leren](features/personalized-learning.md)
    + [Browserondersteuning en taalondersteuning](browser-language.md)
@@ -68,7 +68,7 @@ ht-degree: 18%
       + [Cookies Audience Managers](data-collection/cookies/audience-manager.md)
       + [Cookies Experiencen Cloud](data-collection/cookies/experience-cloud.md)
       + [Doelcookies](data-collection/cookies/target.md)
-      + [Web SDK-cookies](data-collection/cookies/web-sdk.md)
+      + [Web SDK cookies](data-collection/cookies/web-sdk.md)
    + [Regionale gegevensverzameling](data-collection/rdc.md)
    + [DNS-prefetch gebruiken](data-collection/dns-prefetch.md)
 

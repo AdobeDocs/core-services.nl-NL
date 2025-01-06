@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '5094'
+source-wordcount: '5141'
 ht-degree: 4%
 
 ---
@@ -23,6 +23,10 @@ Eigenschappen, versienota&#39;s, en bekende kwesties voor de Componenten van de 
 Voor een lijst van documentupdates, zie [ de updates van de Documentatie ](doc-updates.md).
 
 Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van de Versie van 0} Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl).[
+
+## November 2024
+
+Om het gemakkelijker te maken om de voorkeur van de het productgegevens van de Experience Cloud te controleren, stroomden wij onze Experience Cloud voorkeurspagina om dubbele opties te verwijderen. Met deze vereenvoudiging, hebben wij huidige gebruikersvoorkeur behouden, en de klanten kunnen hun voorkeur op elk ogenblik op [ voorkeur van het Experience Cloud ](https://experience.adobe.com/preferences) bijwerken.
 
 ## donderdag 2 oktober 2024
 
@@ -244,8 +248,8 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 | Functie | Beschrijving |
 |--- |--- |
-| Toewijzing van de bulkrapportsuite | In Beleid > de Afbeelding van de Reeks van het Rapport, kunt u veelvoudige rapportreeksen nu selecteren, dan hen aan een organisatie in kaart brengen. (Eerder moest u ze afzonderlijk toewijzen.)  <br> het rapportreeksen van de afbeelding aan één enkele organisatiehulp laat dwars-toepassingseigenschappen en de diensten in Experience Cloud toe. |
-| Updates voor soorten publiek in de Experience Cloud | **Toepassend de Reeksen van het Rapport**<br> u kunt een rapportreeks op al uw [ publieksregels ](../services/audiences/create.md) nu toepassen. (Eerder, moest u een rapportreeks in elke regeldefinitie specificeren.) <br>**Props en de Variabelen**<br> u kunnen nu de steunen van Analytics en standaardvariabelen (naast eVars en gebeurtenissen) in publiek in real time omvatten. |
+| Toewijzing van de bulkrapportsuite | In Beleid > de Afbeelding van de Reeks van het Rapport, kunt u veelvoudige rapportreeksen nu selecteren, dan hen aan een organisatie in kaart brengen. (Eerder, moest u hen individueel in kaart brengen.) <br> het rapportreeksen van de afbeelding aan één enkele organisatiehulp laat dwars-toepassingseigenschappen en de diensten in Experience Cloud toe. |
+| Updates voor soorten publiek in de Experience Cloud | **Toepassend de Reeksen van het Rapport**<br> u kunt een rapportreeks op al uw [ publieksregels ](../services/audiences/create.md) nu toepassen. (Eerder, moest u een rapportreeks in elke regeldefinitie specificeren.) <br>**Props en Variabelen**<br> u kunt de steunen van Analytics en standaardvariabelen (naast eVars en gebeurtenissen) in publiek in real time nu omvatten. |
 
 {style="table-layout:auto"}
 

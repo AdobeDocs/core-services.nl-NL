@@ -1,5 +1,5 @@
 ---
-description: Informatie over updates voor de Help van het Experience Cloud.
+description: Leer waar de documentatieupdates voor de gemeenschappelijke interfacecomponenten van Experience Cloud voorkomen.
 solution: Experience Cloud
 title: Documentatie-updates
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
+source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 2%
+source-wordcount: '580'
+ht-degree: 3%
 
 ---
 
-# Documentatie-updates - Experience Cloud
+# Documentatie-updates voor Experience Cloud
 
-Informatie over updates van productdocumentatie van de Experience Cloud.
+Leer waar de documentatieupdates voor de centrale interface en het beleid van Experience Cloud voorkomen.
+
+**November 2024**
+
+Updates aan [ het gebruiksgegevens van het Product ](../features/account-preferences.md) en [ Gepersonaliseerd Leren ](../features/personalized-learning.md).
 
 **September 2024**
 
@@ -98,7 +102,7 @@ Bijgewerkt [ bevestigt hostname door:sturen ](../data-collection/adobe-managed-c
 
 Toegevoegde [ de gebruikersdetails van het Experience Cloud van de Mening (Hulpmiddel Admin) ](../administration/admin-tool-experience-cloud.md).
 
-**Bijgewerkt: 9/5/2018**
+**Bijgewerkt: 5-9-2018**
 
 Toegevoegd hoe te om een Attribuut van de Klant te schrappen. Zie [ (Facultatief) Update het schema (schrappingsattributen) ](../services/customer-attributes/t-crs-usecase.md).
 

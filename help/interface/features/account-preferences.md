@@ -1,16 +1,16 @@
 ---
 title: Accountvoorkeuren en -meldingen
-description: Meer informatie over gebruikersprofielen en accountvoorkeuren in Experience Cloud. Abonneren op productmeldingen voor e-mail en  [!DNL Slack] en productwaarschuwingen instellen.
+description: Meer informatie over gebruikersprofielen, accountvoorkeuren en productgebruiksgegevens in Experience Cloud. Abonneren op productmeldingen voor e-mail en  [!DNL Slack] en productwaarschuwingen instellen.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 2%
+source-wordcount: '788'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,23 @@ Op de pagina [!UICONTROL Experience Cloud preferences] kunt u de volgende accoun
 
 | Functie | Beschrijving |
 |--- |--- |
-| Profiel | Werk uw [ Profiel van de Rekening van de Adobe ](https://account.adobe.com/profile) bij. <p>Uw profielfoto en naam worden weergegeven wanneer u zich aanmeldt bij Adobe.com, producten en services van de Adobe opneemt en op openbare sites zoals [!DNL Behance] . |
-| Algemeen | Selecteer een [ organisatie ](../administration/organizations.md).<p>Dit is de standaardorganisatie die wordt gebruikt wanneer u zich aanmeldt bij een Experience Cloud. |
-| [!UICONTROL Product data collection] | Selecteer welke technologieën Adobe kan gebruiken om gegevens te verzamelen over hoe u uw producten van de Adobe gebruikt. |
-| Meldingen | Vorm hoe en wanneer u product [ berichten ](#subscribe-to-notifications-in-experience-cloud) en alarm zou willen: <ul><li>Selecteer de producten waarop u zich wilt abonneren voor waarschuwingen</li><li>Vorm het type van bericht ([!UICONTROL in-app], [!UICONTROL email], of [ Slack ](#slack-notifications))</li><li>Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.)</li><li>Bepaal de waakzame prioriteit. In-app-waarschuwingen worden een paar seconden in de rechterbovenhoek van uw venster weergegeven. U kunt ook opgeven of waarschuwingen moeten worden weergegeven totdat u ze verwijdert.</li></ul> |
-| [!UICONTROL Personalized learning recommendations and promotions] | Selecteer waar u [ gepersonaliseerde hulp ](personalized-learning.md) voor uw producten van de Adobe zou willen ontvangen. Deze Help is beschikbaar via e-mail, in-product, en de Gemeenschappen van de Experience League. |
+| [!UICONTROL Profile] | Werk uw [ Profiel van de Rekening van de Adobe ](https://account.adobe.com/profile) bij. <p>Uw profielfoto en naam worden weergegeven wanneer u zich aanmeldt bij Adobe.com, producten en services van de Adobe opneemt en op openbare sites zoals [!DNL Behance] . |
+| [!UICONTROL General] | Selecteer een [ organisatie ](../administration/organizations.md).<p>Dit is de standaardorganisatie die wordt gebruikt wanneer u zich aanmeldt bij een Experience Cloud. |
+| [!UICONTROL Product usage data] | U kunt bepalen welke gegevens van het productgebruik met Adobe worden gedeeld wanneer het gebruiken van de toepassingen van het Experience Cloud. Dit zijn gegevens over hoe u onze producten gebruikt, niet de inhoud of de gegevens van uw organisatie zelf. De Adobe gebruikt deze informatie om onze producten te helpen verbeteren, u van verbeterde in-product steun te voorzien, en uw ervaring en mededelingen van ons te personaliseren. <p>Meer leren, zie {de gebruiksgegevens van het 0} Product ](#product-usage-data) (op deze pagina).[ |
+| [!UICONTROL Notifications] | Vorm hoe en wanneer u product [ berichten ](#subscribe-to-notifications-in-experience-cloud) en alarm zou willen: <ul><li>Selecteer de producten waarop u zich wilt abonneren voor waarschuwingen</li><li>Vorm het type van bericht ([!UICONTROL in-app], [!UICONTROL email], of [ Slack ](#slack-notifications))</li><li>Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.)</li><li>Bepaal de waakzame prioriteit. In-app-waarschuwingen worden een paar seconden in de rechterbovenhoek van uw venster weergegeven. U kunt ook opgeven of waarschuwingen moeten worden weergegeven totdat u ze verwijdert.</li></ul> |
+
+## [!UICONTROL Product usage data] {#product-usage-data}
+
+De gegevens van het productgebruik die u verkiest met Adobe te delen omvatten de volgende soorten informatie over hoe u gebruikt en met de toepassingen van de Adobe in wisselwerking staat:
+
+* Browser- en apparaatinformatie, zoals apparaatmodel en besturingssysteem, software- en hardwareinformatie, browser- en apparaatinstellingen, unieke id&#39;s (zoals IP-adres, cookie-id of apparaat-id), hoeveelheid geïnstalleerd geheugen, taalinstellingen en schermresolutie;
+* De manier waarop u communiceert met Adobe Experience Cloud-toepassingen, inclusief de functies die u gebruikt en de opties die u selecteert.
+* Adobe van productinformatie, zoals versienummer;
+* Informatie over uw inhoud en documenten, zoals het aantal pagina&#39;s en unieke id&#39;s, maar niet de inhoud zelf;
+* Informatie over het gebruik van inhoud, zoals hoe vaak u toegang hebt tot inhoud en hoe u werkt met uw inhoud in de app.
+* Logbestanden met vastlopen en fouten.
+
+De Adobe gebruikt deze informatie om onze producten te helpen verbeteren, u van steun zowel in-product als via klantenzorg voorzien, en uw ervaring en mededelingen van ons te personaliseren. Leer meer over [ gepersonaliseerde ervaringen ](personalized-learning.md).
 
 ## Abonneren op meldingen in Experience Cloud {#notifications}
 

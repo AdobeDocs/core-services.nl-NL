@@ -1,103 +1,89 @@
 ---
-description: Meer informatie over persoonlijke leervoorkeuren in Experience Cloud. Hierdoor kunnen klanten gepersonaliseerde hulp en promoties ontvangen via e-mail, in hun Adobe Experience Cloud-producten en binnen de Adobe Experience League-gemeenschappen op basis van hun verbruiksgegevens.
+description: Ontvang persoonlijke hulp en bevorderingen via e-mail, in uw producten van het Experience Cloud, en binnen de Gemeenschappen van de Experience League die op uw Gegevens van het Gebruik worden gebaseerd.
 solution: Experience Cloud
 title: Voorkeuren voor persoonlijk leren van Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # Aanbevelingen en promoties voor gepersonaliseerd leren
 
-U kunt ervoor kiezen Adobe toe te staan om u nuttige inhoud te bieden die op uw werk in uw producten van de Adobe is afgestemd. Selecteer uw voorkeuren uit de onderstaande opties en u krijgt leergegevens die relevant zijn voor:
+Adobe biedt u nuttige inhoud die op u is afgestemd op uw werk in uw producten van de Adobe. Gegevens over productgebruik geven aan hoe we deze context aan u kunnen aanpassen. U kunt binnen kiezen of uit het delen van uw gegevens van het productgebruik op de [ voorkeur van het Experience Cloud ](https://experience.adobe.com/preferences) pagina.
 
-* Uw vaardigheidsniveau en rol
-* Uw workflows
-* Functies die u waarschijnlijk zult gebruiken
-* En meer!
+<!-- ## Personalized training and support recommendations for your Adobe products and services
 
-[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
-U kunt uw selecties op elk ogenblik in de sectie van het Gebruik van de Gegevens van het Product en van de Inzameling in uw [ Montages van de Voorkeur van de Gebruiker ](https://experience.adobe.com/preferences/) bijwerken.
-
-## Aanbevolen training en ondersteuning voor producten en services van uw Adobe
-
-Ontvang relevante beste praktijken, uiteinden &amp; trucs, nuttige lopen door, en meer gebaseerd op uw gebruik van uw producten van de Adobe op elk van deze drie manieren...
+Receive relevant best practices, tips & tricks, helpful walk throughs, and more based on your use of your Adobe products in each of these three ways...
 
 <table>
 <tbody>
   <tr>
-    <td>In uw Adobe producten...<br></td>
-    <td>Zie pop-ups en knopinfo voor hulp in real time.</td>
-    <td rowspan="3">Dit kan... <ul><li>Stapsgewijze handleidingen en handige tips van Adobe-experts</li> 
-    <li>Videozelfstudies en informatieve analyses</li> 
-    <li>Diepgaande opleiding en onderwijs</li> 
-    <li>Recommendations voor video's en berichten</li>
+    <td>In your Adobe products...<br></td>
+    <td>See pop ups and tool tips for real-time help.</td>
+    <td rowspan="3">This could include... <ul><li>Step-by-step guides and helpful tips from Adobe experts</li> 
+    <li>Video tutorials and informational walkthroughs</li> 
+    <li>In-depth training and education</li> 
+    <li>Recommendations for videos and posts</li>
     </ul></td>
   </tr>
   <tr>
-    <td>In e-mailberichten verzendt de Adobe u...</td>
-    <td>Leerinhoud bekijken die betrekking heeft op uw werk in uw product(en).</td>
+    <td>In email Adobe sends you...</td>
+    <td>Seeing learning content that relates to your work in your product(s).</td>
   </tr>
   <tr>
-    <td>In de Experience League Gemeenschappen..</td>
-    <td>Zie persoonlijke aanbevelingen voor artikelen en artikelen op basis van wat u nu doet.</td>
+    <td>In the Experience League Communities..</td>
+    <td>See personalized recommendations for posts and articles based on what you're doing now.</td>
   </tr>
 </tbody>
 </table>
 
-## Persoonlijke informatie over producten, services, evenementen en promoties van Adoben
+## Personalized information about Adobe products, services, events, and promotions
 
-Ontvang op elk van deze drie manieren op maat gemaakte mogelijkheden voor leergebeurtenissen, onderzoekssessies en integratie op basis van uw werk...
+Receive tailored opportunities for learning events, research sessions, and integrations based on your work in each of these three ways...
 
 <table>
 <tbody>
   <tr>
-    <td>In uw Adobe producten...<br></td>
-    <td>Zie pop-ups en knopinfo voor uitnodigingen en mogelijkheden die voor u van belang zijn.</td>
-    <td rowspan="3">Dit kan... <ul>
-    <li>Uitnodigingen voor educatieve webinars en evenementen</li> 
-    <li>Mogelijkheden om invoer te testen en te geven voor toekomstige versies van de functies die u gebruikt</li>
-    <li>Tips voor het gebruik van integratie tussen producten die u bezit</li> 
-    <li>Belangrijkste kenmerken van de belangrijkste sessies op de conferentie van de Adobe Summit op basis van uw werk</li>
+    <td>In your Adobe products...<br></td>
+    <td>See pop ups and tool tips for invitations and opportunities relevant to you.</td>
+    <td rowspan="3">This could include... <ul>
+    <li>Invitations to educational webinars and events</li> 
+    <li>Opportunities to test and give input on future releases of the features you use</li>
+    <li>Tips to use integrations between products you own</li> 
+    <li>Highlights for key sessions at the Adobe Summit conference based on your work</li>
     </ul></td>
   </tr>
   <tr>
-    <td>In e-mailberichten verzendt de Adobe u...</td>
-    <td>Krijg geschikte informatie van Adobe over extra het leren kansen.</td>
+    <td>In email Adobe sends you...</td>
+    <td>Get timely information from Adobe about additional learning opportunities.</td>
   </tr>
   <tr>
-    <td>In de Experience League Gemeenschappen..</td>
-    <td>Zie gepersonaliseerde aanbevelingen voor gebeurtenissen en de diensten om uw het leren te verbeteren.</td>
+    <td>In the Experience League Communities..</td>
+    <td>See personalized recommendations for events and services to enhance your learning.</td>
   </tr>
 </tbody>
 </table>
 
+ -->
 
-[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->
 
-## Zie voorbeelden van hoe deze aangepaste het leren informatie zou kunnen kijken.
-
+## Voorbeelden van hoe de aangepaste het leren informatie zou kunnen kijken
 
 ### In uw producten van de Adobe
 
 ![](../assets/personalized-learning-in-product.gif){width="800"}
 
-
-
 ### In e-mailberichten verzendt de Adobe u
 
 ![](../assets/personalized-learning-email.png){width="400"}
-
-
 
 ### In de Experience League
 
 ![](../assets/personalized-learning-communities.png){width="800"}
 
 
-
-[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->
