@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
+source-git-commit: df8f418907c3b7044b70547ee1b7c5117d1cf8a6
 workflow-type: tm+mt
 source-wordcount: '5218'
 ht-degree: 4%
@@ -29,7 +29,7 @@ Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van d
 | Datum | Functie | Beschrijving |
 | -----------| -----------| ---------- |
 | Januari 9 | Productgebruiksgegevens | Om het gemakkelijker te maken om de voorkeur van de het productgebruiksgegevens van het Experience Cloud te controleren, stroomden wij onze Experience Cloud [ Voorkeur ](../features/account-preferences.md#product-usage-data) pagina om dubbele opties te verwijderen. Met deze vereenvoudiging, hebben wij huidige gebruikersvoorkeur behouden, en u kunt uw voorkeur op elk ogenblik op [ voorkeur van het Experience Cloud ](https://experience.adobe.com/preferences) bijwerken. |
-| 30 januari (geplande releasedatum) | Spectrum 2 | Het toepassingskader van het Experience Cloud, dat de kopbalbar en de component omvat die van de kopbalbar worden betreden, evenals linkernavigatiespoor voor bepaalde toepassingen zullen aan Spectrum 2, het recentste ontwerpsysteem van de Adobe worden bijgewerkt. Dit vernieuwde ontwerp bevat een bijgewerkte iconografie, maar heeft dezelfde functionaliteit. Verschillende elementen in de koptekst worden echter opnieuw gepositioneerd en uitgelijnd met andere Adobe-sites en -toepassingen. |
+| 30 januari (geplande releasedatum) | Spectrum 2 | Het toepassingsframe van het Experience Cloud, dat de headerbalk bevat en de componenten die via de kopbalk kunnen worden geopend, en de linkernavigatiespoor voor bepaalde toepassingen worden bijgewerkt naar Spectrum 2, het meest recente ontwerpsysteem van de Adobe. Dit vernieuwde ontwerp bevat een bijgewerkte iconografie, maar heeft dezelfde functionaliteit. Verschillende elementen in de koptekst worden echter opnieuw gepositioneerd en uitgelijnd met andere Adobe-sites en -toepassingen. |
 
 ## donderdag 2 oktober 2024
 
