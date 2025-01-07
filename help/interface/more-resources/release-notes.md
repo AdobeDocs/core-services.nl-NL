@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
 workflow-type: tm+mt
-source-wordcount: '5141'
+source-wordcount: '5218'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,12 @@ Voor een lijst van documentupdates, zie [ de updates van de Documentatie ](doc-u
 
 Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van de Versie van 0} Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl).[
 
-## November 2024
+## Januari 2025
 
-Om het gemakkelijker te maken om de voorkeur van de het productgegevens van de Experience Cloud te controleren, stroomden wij onze Experience Cloud voorkeurspagina om dubbele opties te verwijderen. Met deze vereenvoudiging, hebben wij huidige gebruikersvoorkeur behouden, en de klanten kunnen hun voorkeur op elk ogenblik op [ voorkeur van het Experience Cloud ](https://experience.adobe.com/preferences) bijwerken.
+| Datum | Functie | Beschrijving |
+| -----------| -----------| ---------- |
+| Januari 9 | Productgebruiksgegevens | Om het gemakkelijker te maken om de voorkeur van de het productgebruiksgegevens van het Experience Cloud te controleren, stroomden wij onze Experience Cloud [ Voorkeur ](../features/account-preferences.md#product-usage-data) pagina om dubbele opties te verwijderen. Met deze vereenvoudiging, hebben wij huidige gebruikersvoorkeur behouden, en u kunt uw voorkeur op elk ogenblik op [ voorkeur van het Experience Cloud ](https://experience.adobe.com/preferences) bijwerken. |
+| 30 januari (geplande releasedatum) | Spectrum 2 | Het toepassingskader van het Experience Cloud, dat de kopbalbar en de component omvat die van de kopbalbar worden betreden, evenals linkernavigatiespoor voor bepaalde toepassingen zullen aan Spectrum 2, het recentste ontwerpsysteem van de Adobe worden bijgewerkt. Dit vernieuwde ontwerp bevat een bijgewerkte iconografie, maar heeft dezelfde functionaliteit. Verschillende elementen in de koptekst worden echter opnieuw gepositioneerd en uitgelijnd met andere Adobe-sites en -toepassingen. |
 
 ## donderdag 2 oktober 2024
 
