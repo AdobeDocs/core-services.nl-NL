@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Teken binnen en verifieer dat u in de juiste [ organisatie ](administration/orga
 
 Nadat u zich hebt aangemeld bij Experience Cloud, hebt u vanuit de uniforme header snel toegang tot al uw toepassingen, services en organisaties.
 
-Om tot de toepassingen en de diensten van het Experience Cloud toegang te hebben die voor u binnen uw organisatie worden voorzien, ga het menu van de toepassingsselecteur ![ ](assets/menu-icon.png).
+Om tot de toepassingen en de diensten van het Experience Cloud toegang te hebben die voor u binnen uw organisatie worden voorzien, ga het menu van de toepassingsselecteur ![ ](assets/apps-icon.png).
 
 ![ toepassingen van het Experience Cloud van de Toegang ](assets/platform-core-services.png)
 

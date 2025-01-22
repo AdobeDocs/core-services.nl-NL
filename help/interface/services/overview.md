@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b3484afe7ed1e015030f73ea0a25b921c32d81dd
+source-git-commit: fcebe4c0c356ef1f8d8756203f9ff7348b91f2b1
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 Deze documentatie is van toepassing op eigenschappen van de verenigde kopbal in Experience Cloud, zoals de [!DNL People] dienst ([!DNL Audience Library] en [!DNL Customer Attributes]), gebruiker en productbeheer voor Experience Cloud, koekjes, rekeningsvoorkeur, berichten, etc.
 
 Als u deze services in Experience Cloud wilt openen, selecteert u de optie **[!UICONTROL Application Selector]**
-![ de selecteur van de Diensten ](../assets/menu-icon.png).
+![ de selecteur van de Diensten ](../assets/apps-icon.png).
 
 ![ de diensten van het Experience Cloud ](../assets/platform-core-services.png)
 
