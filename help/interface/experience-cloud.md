@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e06568253b81742912b99bdf6e94c282abe2d429
+source-git-commit: 7bb32ff62b11cdc3fa5df9d14a9481d5ada657ab
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [ Experience Cloud ](https://experience.adobe.com) is de geïntegreerde familie van de Adobe van digitale marketing toepassingen, producten, en de diensten. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
 
-![ Experience Cloud ](assets/landing.png){width="100" zoomable="yes"}
+![ Experience Cloud ](assets/landing.png)
 
 Vanuit de koptekst van Experience Cloud kunt u:
 
@@ -37,7 +37,7 @@ Teken binnen en verifieer dat u in de juiste [ organisatie ](administration/orga
 1. Typ uw wachtwoord.
 1. Controleer of u zich in de juiste organisatie bevindt.
 
-   ![ verifieer dat u in de juiste organisatie ](assets/organizations-menu.png){width="100" zoomable="yes"} bent
+   ![ verifieer dat u in de juiste organisatie ](assets/organizations-menu.png) bent
 
    **verifieer uw organisatie**
 
@@ -53,13 +53,13 @@ Nadat u zich hebt aangemeld bij Experience Cloud, hebt u vanuit de uniforme head
 
 Om tot de toepassingen en de diensten van het Experience Cloud toegang te hebben die voor u binnen uw organisatie worden voorzien, ga het menu van de toepassingsselecteur ![ ](assets/apps-icon.png).
 
-![ toepassingen van het Experience Cloud van de Toegang ](assets/platform-core-services.png){width="100" zoomable="yes"}
+![ toepassingen van het Experience Cloud van de Toegang ](assets/platform-core-services.png)
 
 ## Hulp en ondersteuning {#support}
 
 Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
 
-![ krijg hulp en steun ](assets/search-menu.png){width="100" zoomable="yes"}
+![ krijg hulp en steun ](assets/search-menu.png)
 
 Via het menu [!UICONTROL Help] hebt u ook toegang tot:
 
@@ -83,6 +83,6 @@ In het menu [!UICONTROL Profile] kunt u:
 
 Klik op het belpictogram om meldingen en aankondigingen weer te geven. Aankondigingen kunnen relevante en actiefuncties zijn, zoals productreleases, onderhoudsmeldingen, gedeelde items en goedkeuringsaanvragen.
 
-![ Meldingen en Mededelingen ](assets/notifications-menu-small.png){width="100" zoomable="yes"}
+![ Meldingen en Mededelingen ](assets/notifications-menu-small.png)
 
 Om berichten en alarm te beheren, zie [ voorkeur en berichten van de Rekening ](features/account-preferences.md)
