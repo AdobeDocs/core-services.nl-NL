@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1185'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Deze pagina toont volledige lijst van gebruikers met toegang tot Experience Clou
 
 | Element | Beschrijving |
 |---|---|
-| [!UICONTROL Name] | De voornaam en achternaam van de gebruiker. U kunt deze kolom sorteren van A tot Z en van Z tot A. Selecteer de naam van een gebruiker om meer details over de gebruiker te zien. |
+| [!UICONTROL Name] | De voornaam en achternaam van de gebruiker. U kunt deze kolom sorteren van A naar Z en Z naar A. Klik op de naam van een gebruiker voor meer informatie over de gebruiker. |
 | [!UICONTROL Email] | Het e-mailadres dat aan de gebruiker is gekoppeld. Kolom kan A->Z, Z->A worden gesorteerd. |
 | [!UICONTROL ID Type] | Het identiteitstype voor de account van de gebruiker. Filter kan worden toegepast op weergavespecifieke id-typen. Zie [ identiteitstypes beheren ](https://helpx.adobe.com/enterprise/using/identity.html) voor meer informatie. |
 | [!UICONTROL Solutions] | Overzicht van de toepassingen van het Experience Cloud waartoe de gebruiker toegang heeft. U kunt filters toepassen op een kleinere lijst met gebruikers met specifieke toegang tot de toepassing. |
@@ -49,7 +49,7 @@ U kunt de kolommen doorzoeken, sorteren of filteren om de gebruikerslijst aan te
 
 * Zoeken naar gebruikers op naam of e-mail. Zoekopdrachten komen overeen met de tekenreeks die u typt.
 * Sorteer de kolom door waarden op te nemen of af te nemen. Deze sortering is van toepassing op kolommen [!UICONTROL Name,] [!UICONTROL Email,] en [!UICONTROL Last Login] .
-* Selecteer het pictogram **[!UICONTROL Filter By]** als u meerdere filters wilt toepassen op gebruikers met specifieke criteria. Wanneer meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten e-maildomein `AND` ID TYPE `AND` -oplossing.
+* Als u meerdere filters wilt toepassen op gebruikers met specifieke criteria, klikt u op **[!UICONTROL Filter By]** . Wanneer meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten e-maildomein `AND` ID TYPE `AND` -oplossing.
 
 | Element | Beschrijving |
 |---------|----------|
@@ -59,7 +59,7 @@ U kunt de kolommen doorzoeken, sorteren of filteren om de gebruikerslijst aan te
 
 ## Gebruikersgegevens weergeven
 
-Selecteer op de pagina [!UICONTROL Users] de e-mail van de gebruiker om de gegevens van de gebruiker weer te geven.
+Klik op de e-mail van de gebruiker op de pagina [!UICONTROL Users] om de gegevens van de gebruiker weer te geven.
 
 ![ de gebruikersdetails van de Mening in Admin Console ](../assets/admin-tool-user-details.png)
 
@@ -113,7 +113,7 @@ U kunt de kolommen zoeken, sorteren of filteren om de lijst met beleidsregels aa
 
 * Zoek naar productprofielen op naam. Zoekopdrachten komen overeen met de tekenreeks die u typt.
 * Sorteer de kolom door waarden op te nemen of af te nemen. Deze sortering is van toepassing op kolommen [!UICONTROL product profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] en [!UICONTROL Number of Developers,] .
-* Selecteer het pictogram **[!UICONTROL Filter By]** om meerdere filters toe te passen op productprofielen met specifieke criteria. Wanneer meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten Groepen aan de `AND` Instance `AND` -oplossing.
+* Klik op het pictogram **[!UICONTROL Filter By]** om meerdere filters toe te passen op productprofielen met specifieke criteria. Wanneer meerdere filtercategorieën worden toegepast, bevatten zoekopdrachten Groepen aan de `AND` Instance `AND` -oplossing.
 
 | Element | Beschrijving |
 |---------|----------|

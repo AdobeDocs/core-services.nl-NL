@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -22,8 +22,8 @@ Het Experience Cloud biedt beheerhulpmiddelen voor het beheer van goedgekeurde g
 >
 >U moet een beheerder zijn om deze procedure uit te voeren.
 
-1. Selecteer **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]** in Experience Cloud.
-1. Selecteer **[!UICONTROL Creative Cloud Asset Sharing]**.
-1. Selecteer **[!UICONTROL Add New User]** .  ![ voeg nieuwe gebruiker ](../../assets/mac_add_icon.png) toe
+1. Klik in Experience Cloud op **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]** .
+1. Klik op **[!UICONTROL Creative Cloud Asset Sharing]**.
+1. Klik op **[!UICONTROL Add New User]** .  ![ voeg nieuwe gebruiker ](../../assets/mac_add_icon.png) toe
 1. Typ een e-mail, weergavenaam, titel en voeg desgewenst een Avatar toe.
-1. Selecteer **[!UICONTROL Create]**.
+1. Klik op **[!UICONTROL Create]**.

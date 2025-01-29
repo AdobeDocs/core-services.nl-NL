@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -44,8 +44,8 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 
 **om een publiek** te creëren
 
-1. Selecteer in de sectie [!DNL Experience Cloud] onder [!DNL Experience Platform] de optie **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
-1. Selecteer op de pagina [!UICONTROL Audiences] de optie **[!UICONTROL New]** . ![ toevoegen ](assets/add_icon_small.png)
+1. Klik in de lus [!DNL Experience Cloud] onder [!DNL Experience Platform] op **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
+1. Klik op de pagina [!UICONTROL Audiences] op **[!UICONTROL New]** . ![ toevoegen ](assets/add_icon_small.png)
 
    ![ Resultaat van de Stap ](assets/audience_create_new.png)
 
@@ -59,7 +59,7 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 
    * **[!UICONTROL Experience Cloud:]** Kenmerkgegevens die zijn afgeleid van de [!DNL Experience Cloud] -bronnen. Dit kunnen bijvoorbeeld gegevens zijn van publiekssegmenten die u maakt in [!DNL Analytics] , of gegevens van [!DNL Audience Manager] .
 
-1. Definieer de publieksregels en selecteer vervolgens **[!UICONTROL Save].**
+1. Bepaal publieksregels, dan klik **[!UICONTROL Save].**
 
 >[!NOTE]
 >

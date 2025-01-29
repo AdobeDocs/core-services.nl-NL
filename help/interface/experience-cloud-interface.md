@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Hoewel al het toepassingsteam aan globale taalsteun wordt geëngageerd, niet wor
 Teken binnen en verifieer dat u in de juiste [ organisatie ](organizations.md) bent.
 
 1. Navigeer aan [ Adobe Experience Cloud ](https://experience.adobe.com).
-1. Selecteer **[!UICONTROL Sign in with an Adobe ID]**.
+1. Klik op **[!UICONTROL Sign in with an Adobe ID]**.
 1. Controleer of u zich in de juiste organisatie bevindt.
 
    ![ verifieer uw organisatie ](assets/organizations-menu.png)
@@ -74,7 +74,7 @@ Teken binnen en verifieer dat u in de juiste [ organisatie ](organizations.md) b
 
 Nadat u zich hebt aangemeld bij Experience Cloud, hebt u vanuit de uniforme header snel toegang tot al uw toepassingen, services en organisaties.
 
-Selecteer het menu van de toepassingsselecteur ![ ](assets/menu-icon.png) om tot de diensten van het Experience Cloud toegang te hebben die u bezit.
+Klik de toepassingsselecteur ![ menu ](assets/menu-icon.png) om tot de diensten van het Experience Cloud toegang te hebben die u bezit.
 
 ![ toepassingen van het Experience Cloud van de Toegang ](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ In het menu met accountvoorkeuren kunt u het volgende doen:
 
 Voorkeuren voor Experiencen Cloud zijn meldingen, abonnementen en waarschuwingen.
 
-Selecteer **[!UICONTROL Preferences]** van uw rekeningsmenu ![ voorkeur ](assets/preferences-icon-sm.png) om voorkeur te beheren.
+* Klik **[!UICONTROL Preferences]** van uw rekeningsmenu ![ voorkeur ](assets/preferences-icon-sm.png) om voorkeur te beheren.
 
 ![ beheer Experience Cloud ](assets/preferences-page.png)
 
@@ -122,7 +122,7 @@ Op [!UICONTROL Experience Cloud preferences] kunt u de volgende functies configu
 
 ## Meldingen en aankondigingen {#notifications}
 
-Selecteer **[!UICONTROL Notifications]** om meldingen weer te geven die belangrijk zijn voor u, en aankondigingen van Adobe.
+Klik op **[!UICONTROL Notifications]** om meldingen weer te geven die belangrijk zijn voor u, en om aankondigingen van Adobe weer te geven.
 
 ![ Meldingen en Mededelingen ](assets/notifications-menu-small.png)
 
