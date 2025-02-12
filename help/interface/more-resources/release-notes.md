@@ -1,7 +1,7 @@
 ---
-description: Meer informatie over de nieuwste functies, opmerkingen bij de release en bekende problemen met services voor Experiencen Cloud, zoals klantkenmerken, soorten publiek en gebruikersbeheer.
+description: Meer informatie over de nieuwste functies, opmerkingen bij releases en bekende problemen voor Experience Cloud-services, zoals klantkenmerken, publiek en gebruikersbeheer.
 solution: Experience Cloud
-title: Cumulatieve versieaantekeningen voor interface van Experience Cloud
+title: Cumulatieve opmerkingen bij de release voor Experience Cloud Interface
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -9,39 +9,44 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1182'
 ht-degree: 9%
 
 ---
 
 # Opmerkingen bij de Cumulatieve release
 
-Eigenschappen, versienota&#39;s, en bekende kwesties voor de Componenten van de Interface van het Experience Cloud Centrale.
+Functies, opmerkingen bij de release en bekende problemen met de Experience Cloud Central Interface-componenten.
 
 Voor een lijst van documentupdates, zie [ de updates van de Documentatie ](doc-updates.md).
 
 Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van de Versie van 0} Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl).[
 
+## Februari 2025
+
+| Datum | Functie | Beschrijving |
+| -----------| -----------| ---------- |
+| 13 februari (geplande uitzetdatum) | Spectrum 2 | Het Experience Cloud-toepassingsframe, dat de headerbalk bevat en de componenten die via de headerbalk kunnen worden geopend, en de linkernavigatiespoor voor bepaalde toepassingen worden bijgewerkt naar Spectrum 2, Adobe, het nieuwste ontwerpsysteem. Dit vernieuwde ontwerp bevat een bijgewerkte iconografie, maar heeft dezelfde functionaliteit. Verschillende elementen in de koptekst worden echter opnieuw gepositioneerd, zodat ze kunnen worden uitgelijnd met andere Adobe-sites en -toepassingen. |
+
 ## Januari 2025
 
 | Datum | Functie | Beschrijving |
 | -----------| -----------| ---------- |
-| Januari 9 | Productgebruiksgegevens | Om het gemakkelijker te maken om de voorkeur van de het productgebruiksgegevens van het Experience Cloud te controleren, stroomden wij onze Experience Cloud [ Voorkeur ](../features/account-preferences.md#product-usage-data) pagina om dubbele opties te verwijderen. Met deze vereenvoudiging, hebben wij huidige gebruikersvoorkeur behouden, en u kunt uw voorkeur op elk ogenblik op [ voorkeur van het Experience Cloud ](https://experience.adobe.com/preferences) bijwerken. |
-| 5 februari (geplande releasedatum) | Spectrum 2 | Het toepassingsframe van het Experience Cloud, dat de headerbalk bevat en de componenten die via de kopbalk kunnen worden geopend, en de linkernavigatiespoor voor bepaalde toepassingen worden bijgewerkt naar Spectrum 2, het meest recente ontwerpsysteem van de Adobe. Dit vernieuwde ontwerp bevat een bijgewerkte iconografie, maar heeft dezelfde functionaliteit. Verschillende elementen in de koptekst worden echter opnieuw gepositioneerd en uitgelijnd met andere Adobe-sites en -toepassingen. |
+| Januari 9 | Productgebruiksgegevens | Om het gemakkelijker te maken om de voorkeur van de het productgebruiksgegevens van Experience Cloud te controleren, stroomlijnden wij onze Experience Cloud [ Voorkeur ](../features/account-preferences.md#product-usage-data) pagina om dubbele opties te verwijderen. Met deze vereenvoudiging, hebben wij huidige gebruikersvoorkeur behouden, en u kunt uw voorkeur op elk ogenblik op [ voorkeur van Experience Cloud ](https://experience.adobe.com/preferences) bijwerken. |
 
 ## donderdag 2 oktober 2024
 
 | Functie | Beschrijving |
 | -----------| ---------- |
-| Aanpasbare woning | Klik op de openingspagina van het Experience Cloud op **[!UICONTROL Edit]** . In de modus [!UICONTROL Edit] kunt u de startpagina van uw Experience Cloud aanpassen met toegang tot een widgetbibliotheek en aangepaste achtergronden. De modus [!UICONTROL Edit] biedt naadloze, intuïtieve besturingselementen voor het verplaatsen, vergroten/verkleinen en beheren van widgets, waaronder acties in grote hoeveelheden en aanpassingen van de layout, voor een meer esthetische en op maat gemaakte ervaring. |
+| Aanpasbare woning | Klik op de openingspagina van Experience Cloud op **[!UICONTROL Edit]** . In de modus [!UICONTROL Edit] kunt u de Experience Cloud-startpagina aanpassen met toegang tot een widgetbibliotheek en aangepaste achtergronden. De modus [!UICONTROL Edit] biedt naadloze, intuïtieve besturingselementen voor het verplaatsen, vergroten/verkleinen en beheren van widgets, waaronder acties in grote hoeveelheden en aanpassingen van de layout, voor een meer esthetische en op maat gemaakte ervaring. |
 
 ## woensdag 10 september 2024
 
 | Functie | Beschrijving |
 | -----------| ---------- |
-| Slacks | U kunt uw accountvoorkeuren configureren om meldingen van Experiencen Cloud naar de Slack te verzenden. Zie {de berichten van de Slack 0} _in [ Voorkeur ](../features/account-preferences.md) hulp voor details._ |
+| Slack-berichten | U kunt uw accountvoorkeuren zo configureren dat Experience Cloud-berichten naar Slack worden verzonden. Zie _Slack berichten_ in [ Voorkeur ](../features/account-preferences.md) hulp voor details. |
 
 <!-- ## July - August 2023
 
@@ -85,7 +90,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Functie | Beschrijving |
 | ------- |-------|
-| Via de zoekbalk hebt u via Experience Platform en Journey Optimizer toegang tot [!UICONTROL Recents] | Gebruikers hebben via de uniforme zoekbalk toegang tot objecten die onlangs zijn geopend vanaf elke pagina van AEP en AJO. |
+| Toegang tot [!UICONTROL Recents] in Experience Platform en Journey Optimizer via de zoekbalk | Gebruikers hebben via de uniforme zoekbalk toegang tot objecten die onlangs zijn geopend vanaf elke pagina van AEP en AJO. |
 
 {style="table-layout:auto"}
 
@@ -93,8 +98,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Functie | Beschrijving |
 | ------- |-------|
-| Sneltoetsen (**[!UICONTROL Recents]**) toegevoegd aan [ Experience Cloud ](https://experience.adobe.com/home) huis | U kunt tot kortere weg tot uw meest recente het werk van Journey Optimizer en van het Experience Platform onder de nieuwe _1} rubriek van Recenten {op de het landen pagina toegang hebben._ Deze update bevat ook algemene verbeteringen voor de lay-out en de responssnelheid. |
-| **[!UICONTROL Sandboxes]** naar de kopbalk verplaatst | De zandbakindicator is nu geïntegreerd binnen de kopbal voor alle de interfacetoepassingen van het Experience Platform. Zie [ Sandboxes ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) in Experience Platform voor meer informatie. |
+| Sneltoetsen (**[!UICONTROL Recents]**) toegevoegd aan [ Experience Cloud ](https://experience.adobe.com/home) huis | U kunt tot kortere weg tot uw meest recente werk van Journey Optimizer en van Experience Platform onder de nieuwe _1} rubriek van Recenten {op de het landen pagina toegang hebben._ Deze update bevat ook algemene verbeteringen voor de lay-out en de responssnelheid. |
+| **[!UICONTROL Sandboxes]** naar de kopbalk verplaatst | De sandboxindicator is nu geïntegreerd in de header voor alle Experience Platform-interfacetoepassingen. Zie [ Sandboxes ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) in Experience Platform voor meer informatie. |
 
 {style="table-layout:auto"}
 
@@ -102,8 +107,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Functie | Beschrijving |
 | ------- | ------- |
-| Startpagina | De homepage van de voettekstinformatie van het Experience Cloud is verplaatst naar de kaart van het gebruikersprofiel, met inbegrip van Juridische Mededelingen en taalselectie in Voorkeur. |
-| AEP-dashboards | [!DNL Helios Lite] bevat grafiekaanbevelingen in de workflow voor het maken van Experience Platforms-widgets. Op basis van een gegevensselectie (momenteel één variabele gegevensselectie) raadt [!DNL Helios] een geschikte visualisatie aan om de gegevensselectie te begeleiden. |
+| Startpagina | De homepage van de voettekstinformatie van Experience Cloud is verplaatst naar de kaart van het gebruikersprofiel, met inbegrip van Juridische Mededelingen en taalselectie in Voorkeur. |
+| AEP-dashboards | [!DNL Helios Lite] bevat grafiekaanbevelingen in de workflow voor het maken van Experience Platform-widgets. Op basis van een gegevensselectie (momenteel één variabele gegevensselectie) raadt [!DNL Helios] een geschikte visualisatie aan om de gegevensselectie te begeleiden. |
 | AEP-dashboards | [!DNL Instory] biedt op ML gebaseerde geschreven commentaar en bijschriften voor grafieken. Het simuleert grafieken op de pagina AEP-dashboards met relevante opsommingstekens die belangrijke wijzigingen en incidenten in de grafische gegevens aangeven. |
 
 {style="table-layout:auto"}
@@ -112,8 +117,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Functie | Beschrijving |
 | ------- | ------- |
-| Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Bestemmingen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
-| Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd voorkeuren in te dienen voor de manier waarop Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, leervideo&#39;s en meer, op basis van de gebruiksgegevens van uw Experience Cloud-product. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences> . |
+| Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update zoekt u met algemene zoekopdrachten nu naar Experience League-inhoud en de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Bestemmingen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
+| Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd om voorkeuren voor te leggen voor hoe Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, instructievideo&#39;s en meer, op basis van uw Experience Cloud-productgebruiksgegevens. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences> . |
 
 {style="table-layout:auto"}
 
@@ -127,14 +132,14 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## Juli 2021
 
-Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer, aanbiedingen en Experience League. Eerder was deze functie alleen beschikbaar voor gebruikers in de Experience Platform.
+Unified Search wordt bijgewerkt en beschikbaar voor Journey Optimizer, aanbiedingen en Experience League. Eerder was deze functie alleen beschikbaar voor Experience Platform-gebruikers.
 
 ## Juni 2021
 
 | Functie | Datum | Beschrijving |
 | ------- | ------- | ------- |
-| Single Sign-On-ondersteuning voor Adobe-id&#39;s | vrijdag 17 juni 2021 | Als u Federated IDs gebruikt, kunt u binnen aan Experience Cloud ondertekenen zonder het moeten een e-mailadres of een wachtwoord ingaan. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` toe aan de URL van het Experience Cloud. <br> bijvoorbeeld, veronderstel dat u het domein `adobecustomer.com` bezit en in Adobe Analytics wilt ondertekenen. De URL is: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics` . |
-| Experience League zoeken | woensdag 1 juni 2021 | Het zoeken naar documentatie van Experiencen League is verbeterd. Navigeer aan [ Experience League ](https://experienceleague.adobe.com/docs/) en gebruik het **[!UICONTROL Search]** gebied om van leerprogramma&#39;s, documentatie, cursussen, en meer de plaats te bepalen. |
+| Single Sign-On-ondersteuning voor id&#39;s met Adobe-federatie | vrijdag 17 juni 2021 | Als u Federatieve id&#39;s gebruikt, kunt u zich aanmelden bij Experience Cloud zonder een e-mailadres of wachtwoord in te voeren. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` toe aan de Experience Cloud-URL. <br> bijvoorbeeld, veronderstel dat u het domein `adobecustomer.com` bezit en in Adobe Analytics wilt ondertekenen. De URL is: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics` . |
+| Experience League Search | woensdag 1 juni 2021 | Het zoeken naar Experience League-documentatie is verbeterd. Navigeer aan [ Experience League ](https://experienceleague.adobe.com/docs/) en gebruik het **[!UICONTROL Search]** gebied om van leerprogramma&#39;s, documentatie, cursussen, en meer de plaats te bepalen. |
 
 {style="table-layout:auto"}
 
@@ -142,9 +147,9 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 | Functie | Beschrijving |
 | ------- | ------- |
-| Koptekst en navigatie Experience Cloud | Adobe Experience Cloud-updates bevatten een wijziging in het lichte thema voor de koptekst. U kunt gemakkelijk terugschakelen naar donker thema en een koppeling maken om extra voorkeuren te bepalen vanuit de gebruikersavatar in de koptekst van het Experience Cloud. Hoewel niet alle toepassingen in Experience Cloud thema&#39;s ondersteunen, opent deze functie toekomstige themaondersteuning. |
-| Globale zoekopdracht in Experience Cloud | Met deze versie, staat het globale onderzoek van het Experience Cloud u toe om het even welke [ Experience League ](https://experienceleague.adobe.com/#home) documentatie, cursussen, en leerprogramma&#39;s te zoeken. (Momenteel is de algemene zoekopdracht alleen beschikbaar voor gebruikers in de Experience Platform. Met algemene zoekopdracht naar [!UICONTROL Platform] kunt u zoeken naar elk willekeurig bedrijfsobject in het Experience Cloud, zoals segmenten, gegevenssets, schema&#39;s en meer.) |
-| Taalvoorkeuren voor Experience Cloud | Deze update omvat de capaciteit om uw aangewezen talen in Experience Cloud [ Voorkeur ](https://experience.adobe.com/preferences) te plaatsen. |
+| Experience Cloud Header &amp; Navigation | Adobe Experience Cloud-updates bevatten een wijziging in het lichte thema voor de koptekst. U kunt gemakkelijk terugschakelen naar een donker thema en een koppeling maken om extra voorkeuren in de Experience Cloud-koptekst in te stellen via de gebruikersavatar. Hoewel niet alle toepassingen in Experience Cloud ondersteuning bieden voor thema&#39;s, opent deze functie toekomstige themaondersteuning. |
+| Experience Cloud Global Search | Met deze versie, staat het globale onderzoek van Experience Cloud u toe om het even welke ](https://experienceleague.adobe.com/#home) documentatie van 0} Experience League {te zoeken, cursussen, en leerprogramma&#39;s. [ (Momenteel is de algemene zoekopdracht alleen beschikbaar voor Experience Platform-gebruikers. Met algemene zoekopdracht naar [!UICONTROL Platform] kunt u zoeken naar elk willekeurig bedrijfsobject in Experience Cloud, zoals segmenten, gegevenssets, schema&#39;s en meer.) |
+| Voorkeuren voor Experience Cloud-talen | Deze update omvat de capaciteit om uw aangewezen talen in de Voorkeur van Experience Cloud [ ](https://experience.adobe.com/preferences) te plaatsen. |
 
 {style="table-layout:auto"}
 
@@ -152,7 +157,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 | Functie | Beschrijving |
 | -----------| ---------- |
-| Beheer - beleidsregels | Deze pagina toont volledige lijst van het beleid van het Experience Cloud in uw organisatie. Het verstrekt informatie over producten, instanties, gebruikers, en ontwikkelaars. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de lijst met beleidsregels. Zie [Help voor de Experience Cloud-beheertool](../administration/admin-tool-experience-cloud.md) voor meer informatie. |
+| Beheer - beleidsregels | Op deze pagina wordt een volledige lijst met Experience Cloud-beleidsregels in uw organisatie weergegeven. Het verstrekt informatie over producten, instanties, gebruikers, en ontwikkelaars. U kunt zoeken, sorteren en filteren op aangepaste weergaven van de lijst met beleidsregels. Zie [Help voor de Experience Cloud-beheertool](../administration/admin-tool-experience-cloud.md) voor meer informatie. |
 
 {style="table-layout:auto"}
 
@@ -165,7 +170,7 @@ Unified Search wordt bijgewerkt zodat deze beschikbaar is voor Journey Optimizer
 
 | Functie | Beschrijving |
 | -----------| ---------- |
-| Beheer - Gebruikersgegevens weergeven | Beheerders kunnen een sorteerbare en filterbare lijst met alle gebruikers van het Experience Cloud en hun gegevens weergeven in het nieuwe Admin Tool. De details van de gebruiker omvatten de het producttoegang van een gebruiker, rollen, en laatste betreden informatie. Zie [Help voor de Experience Cloud-beheertool](../administration/admin-tool-experience-cloud.md) voor meer informatie. |
+| Beheer - Gebruikersgegevens weergeven | Beheerders kunnen een sorteerbare en filterbare lijst met alle Experience Cloud-gebruikers en hun gegevens weergeven in het nieuwe Admin Tool. De details van de gebruiker omvatten de het producttoegang van een gebruiker, rollen, en laatste betreden informatie. Zie [Help voor de Experience Cloud-beheertool](../administration/admin-tool-experience-cloud.md) voor meer informatie. |
 
 {style="table-layout:auto"}
 
