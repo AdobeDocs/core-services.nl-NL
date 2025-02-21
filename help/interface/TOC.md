@@ -3,11 +3,11 @@ role: User,Admin
 user-guide-title: Experience Cloud-interface en -beheerhandleiding
 breadcrumb-title: Experience Cloud-interface en -beheerhandleiding
 title: Experience Cloud Interface and Administration Guide
-description: Meer informatie over de interface, cookies en accountvoorkeuren van Experiencen Cloud. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Deel Experience Cloud Assets.
+description: Meer informatie over Experience Cloud-interface, cookies en accountvoorkeuren. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Experience Cloud Assets delen.
 index: true
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6ec16a14407f5b41178cf5e4fdc6ee6e57bf3f80
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 18%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 18%
    + Assets {#assets}
       + [Overzicht](services/assets/experience-cloud-assets.md)
       + [Mappen en middelen delen met Creative Cloud](services/assets/creative-cloud.md)
-      + [Gebruikers van Creatives Cloud beheren](services/assets/manage-cc-users.md)
+      + [Creative Cloud-gebruikers beheren](services/assets/manage-cc-users.md)
       + [Een elementmap delen](services/assets/share.md)
       + [Middelen uploaden naar een gedeelde map](services/assets/upload.md)
       + [Vereisten voor het delen van elementbestanden](services/assets/file-reqs.md)
@@ -53,20 +53,21 @@ ht-degree: 18%
    + [Browserondersteuning en taalondersteuning](browser-language.md)
 
 + Beheer {#administration}
+   + [Gebruiker en productbeheer](administration/admin-console.md)
    + [Gebruikersgegevens weergeven (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisaties en accountkoppelingen](administration/organizations.md)
    + [Experience Cloud-integraties](administration/integrations.md)
 
 + Gegevensverzameling {#data-collection}
-   + [Certificaatprogramma met beheerde Adobe](data-collection/adobe-managed-cert.md)
+   + [Door Adobe beheerd certificaatprogramma](data-collection/adobe-managed-cert.md)
    + [IP-adressen](data-collection/ip-addresses.md)
    + [Domeinen](data-collection/domains.md)
    + Cookies {#cookies}
       + [Overzicht van cookies](data-collection/cookies/overview.md)
       + [Advertising cookies](data-collection/cookies/advertising.md)
       + [Analysecookies](data-collection/cookies/analytics.md)
-      + [Cookies Audience Managers](data-collection/cookies/audience-manager.md)
-      + [Cookies Experiencen Cloud](data-collection/cookies/experience-cloud.md)
+      + [Audience Manager cookies](data-collection/cookies/audience-manager.md)
+      + [Experience Cloud cookies](data-collection/cookies/experience-cloud.md)
       + [Doelcookies](data-collection/cookies/target.md)
       + [Web SDK cookies](data-collection/cookies/web-sdk.md)
    + [Regionale gegevensverzameling](data-collection/rdc.md)

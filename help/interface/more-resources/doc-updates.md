@@ -1,5 +1,5 @@
 ---
-description: Leer waar de documentatieupdates voor de gemeenschappelijke interfacecomponenten van Experience Cloud voorkomen.
+description: Leer waar de documentatie updates voor de gemeenschappelijke interfacecomponenten van Experience Cloud voorkomen.
 solution: Experience Cloud
 title: Documentatie-updates
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
+source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '605'
 ht-degree: 3%
 
 ---
 
 # Documentatie-updates voor Experience Cloud
 
-Leer waar de documentatieupdates voor de centrale interface en het beleid van Experience Cloud voorkomen.
+Leer waar de documentatie updates voor de centrale interface en het beleid van Experience Cloud voorkomen.
+
+**Februari 2025**
+
+Toegevoegde [ beheert gebruikers en producten in Experience Cloud ](../administration/admin-console.md). Op deze pagina kunnen beheerders gebruikers- en productbeheerhelp (Admin Console) voor alle toepassingen vinden.
 
 **November 2024**
 
@@ -24,7 +28,7 @@ Updates aan [ het gebruiksgegevens van het Product ](../features/account-prefere
 
 **September 2024**
 
-Toegevoegde hulp over [ die aan Slack berichten ](../features/account-preferences.md#subscribe-to-slack-notifications) intekent.
+Toegevoegde hulp over [ het intekenen aan de berichten van Slack ](../features/account-preferences.md#subscribe-to-slack-notifications).
 
 Bijgewerkte [ gebruikersvoorkeur ](../features/account-preferences.md).
 
@@ -46,22 +50,22 @@ Updates aan hoe u uw [ organisatieidentiteitskaart ](../administration/organizat
 
 **12 December 2022**
 
-Bijgewerkt het [ beleid FAQ ](faq.md) met informatie over hoe de Steun van de Adobe tot uw de wolkenmilieu van de Adobe kan toegang hebben om een kwestie problemen op te lossen.
+Bijgewerkt [ beleid FAQ ](faq.md) met informatie over hoe de Steun van Adobe tot uw de wolkenmilieu van Adobe kan toegang hebben om een kwestie problemen op te lossen.
 
 **28 Oktober 2021**
 
 | Functie | Beschrijving |
 | ------- | ------- |
-| Startpagina | De homepage van de voettekstinformatie van het Experience Cloud is verplaatst naar de kaart van het gebruikersprofiel, met inbegrip van Juridische Mededelingen en taalselectie in Voorkeur. |
-| AEP-dashboards | [!DNL Helios Lite] bevat grafiekaanbevelingen in de workflow voor het maken van Experience Platforms-widgets. Op basis van een gegevensselectie (momenteel één variabele gegevensselectie), wordt aanbevolen de gegevens op gepaste wijze te visualiseren. |
+| Startpagina | De homepage van de voettekstinformatie van Experience Cloud is verplaatst naar de kaart van het gebruikersprofiel, met inbegrip van Juridische Mededelingen en taalselectie in Voorkeur. |
+| AEP-dashboards | [!DNL Helios Lite] bevat grafiekaanbevelingen in de workflow voor het maken van Experience Platform-widgets. Op basis van een gegevensselectie (momenteel één variabele gegevensselectie), wordt aanbevolen de gegevens op gepaste wijze te visualiseren. |
 | AEP-dashboards | [!DNL Instory] biedt op ML gebaseerde geschreven commentaar en bijschriften voor grafieken. Het simuleert grafieken op de pagina AEP-dashboards met relevante opsommingstekens die belangrijke wijzigingen en incidenten in de grafische gegevens aangeven. |
 
 **13 Oktober 2021**
 
 | Functie | Beschrijving |
 | ------- | ------- |
-| Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update wordt nu met algemene zoekopdrachten gezocht naar inhoud op het Experience League en naar de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Bestemmingen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
-| Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd voorkeuren in te dienen voor de manier waarop Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, leervideo&#39;s en meer, op basis van de gebruiksgegevens van uw Experience Cloud-product. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences> . |
+| Unified Search | Het verenigde Onderzoek blijft objecttypes aan de onderzoeksindex toevoegen. In deze update zoekt u met algemene zoekopdrachten nu naar Experience League-inhoud en de volgende Journey Optimizer-objecttypen: <ul><li>Gegevenssets</li><li>Bestemmingen</li><li>Zoekopdrachten</li><li>Schema&#39;s</li><li>Segmenten</li><li>Bronnen</li><li>Aanbiedingen</li><li>Onderdelen</li><li>Berichten</li><li>Journeys</li></ul> |
+| Goedkeuring van productgebruiksgegevens | Als u zich voor het eerst aanmeldt, wordt u gevraagd om voorkeuren voor te leggen voor hoe Adobe u nuttige, gepersonaliseerde inhoud kan bieden, zoals zelfstudies, hulplijnen, snelle tips, aanbevelingen, instructievideo&#39;s en meer, op basis van uw Experience Cloud-productgebruiksgegevens. Dit verzoek bevat ook een update van uw voorkeuren voor het verzamelen en gebruiken van deze gegevens op <https://experience.adobe.com/preferences> . |
 
 **24 Augustus 2021**
 
@@ -81,7 +85,7 @@ Bijgewerkt [ het landen pagina ](../experience-cloud.md) met nieuwe hulp bij de 
 
 **19 Augustus 2020**
 
-De bijgewerkte [ gebruikersdetails van het Experience Cloud van de Mening (Hulpmiddel Admin) ](../administration/admin-tool-experience-cloud.md) met de informatie van het Beleid.
+De bijgewerkte [ gebruikersdetails van de Mening Experience Cloud (Hulpmiddel Admin) ](../administration/admin-tool-experience-cloud.md) met de informatie van het Beleid.
 
 **19 Mei 2020**
 
@@ -100,7 +104,7 @@ Bijgewerkt [ bevestigt hostname door:sturen ](../data-collection/adobe-managed-c
 
 **20 februari 2020**
 
-Toegevoegde [ de gebruikersdetails van het Experience Cloud van de Mening (Hulpmiddel Admin) ](../administration/admin-tool-experience-cloud.md).
+Toegevoegde [ gebruikersdetails van de Mening Experience Cloud (Hulpmiddel Admin) ](../administration/admin-tool-experience-cloud.md).
 
 **Bijgewerkt: 5-9-2018**
 
@@ -128,7 +132,7 @@ Bijgewerkt de definitie van Ruwe Gegevens van Analytics in [ creeer een publiek 
 
 **9 Mei 2016**
 
-Toegevoegde [ Integraties van het Experience Cloud ](../administration/integrations.md), een afronding van integratiedocumentatie.
+Toegevoegde [ Integraties van Experience Cloud ](../administration/integrations.md), een round-up van integratiedocumentatie.
 
 **11 Februari 2016**
 
@@ -136,11 +140,11 @@ Toegevoegde [ Experience Cloud Assets ](../services/assets/experience-cloud-asse
 
 **15 Januari 2015**
 
-Gebruikers met toegevoegd Experience Cloud kunnen nu mappen delen naar het Creative Cloud en elementen en opmerkingen synchroniseren over de twee wolken. Zie [ Activa delen ](../services/assets/creative-cloud.md).
+Extra Experience Cloud-gebruikers kunnen nu mappen delen naar de Creative Cloud en elementen en opmerkingen synchroniseren over de twee wolken. Zie [ Activa delen ](../services/assets/creative-cloud.md).
 
 **17 juli 2014**
 
-Toegevoegde [ Veelgestelde vragen van het Experience Cloud ](faq.md) voor beheerders.
+Toegevoegde [ Veelgestelde vragen van Experience Cloud ](faq.md) voor beheerders.
 
 **22 Mei 2014**
 
