@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
+source-git-commit: f83ddfe82a55c6b88cf35a14b030d9b82c17f16d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 4%
+source-wordcount: '572'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,10 @@ De organisatie werkt als een login bedrijf dat alle producten en toepassingen va
 ![ de Organisaties van Experience Cloud ](../assets/organizations-menu.png)
 
 Als u wilt controleren of u zich hebt aangemeld bij de juiste organisatie, klikt u op **[!UICONTROL Profile]** om de standaardorganisatienaam weer te geven. Als u toegang hebt tot meer dan één organisatie, kunt u ook een andere organisatie in de kopbalbar bekijken en schakelen.
+
+>[!NOTE]
+>
+>Door te schakelen tussen organisaties hebt u toegang tot de Admin Console voor die specifieke organisatie. Als u de gewenste organisatie niet ziet vermeld, kunt u toegang van een beheerder in die organisatie moeten verzoeken. (Als u meerdere beheerconsoles moet samenvoegen, vraagt u de Adobe-klantenondersteuning om hulp.)
 
 ## Federatieve id&#39;s
 
