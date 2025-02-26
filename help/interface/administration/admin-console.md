@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
+source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '786'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,43 @@ Deze pagina bevat specifiek informatie voor Experience Cloud-beheerders, met kop
 Voor algemene hulp van het identiteitsbeheer toepasselijk op alle toepassingen van Adobe, zie de [ gids van de Onderneming en van teamadmin ](https://helpx.adobe.com/nl/enterprise/admin-guide.html).
 
 In de volgende secties vindt u koppelingen naar bronnen in de Help van Admin Console.
+
+## Administratieve taken in Admin Console
+
+De Admin Console biedt drie primaire administratieve taken, elk met specifieke niveaus van toegang en verantwoordelijkheid:
+
+**beheerder van het Systeem:** Volledige toegang - beheert alle aspecten van de console.
+
+Belangrijkste verantwoordelijkheden:
+
+* Gebruikers toevoegen, verwijderen en beheren.
+* Productlicenties toewijzen en intrekken.
+* Identiteitsinstellingen en verificatie configureren.
+* Factureringsgegevens weergeven en beheren.
+* Stel aanvullende beheerders en gedelegeerde rollen in.
+
+  **Best voor:** de beheerders of het team van IT leiden die het milieu van Adobe van de volledige organisatie controleren.
+
+**de beheerder van het Product:** product-specifiek beheer - controleert toegang en toestemmingen voor specifieke producten van Adobe.
+
+Belangrijkste verantwoordelijkheden:
+
+* Licenties toewijzen en beheren voor een specifiek product.
+* Productprofielen maken en beheren.
+* Voeg of verwijder gebruikers binnen toegewezen producten toe.
+
+  **Best voor:** Teams/gebruikers die specifieke software zoals Marketo Engage of Adobe Creative Cloud beheren.
+
+**de profielbeheerder van het Product:** Korrelig rolbeheer - concentreert zich op het beheren van gebruikersgroepen en toestemmingen binnen een product.
+
+* Belangrijkste verantwoordelijkheden:
+* Productprofielen maken en beheren.
+* Machtigingen en functietoegang toewijzen binnen profielen.
+* Voeg gebruikers toe of verwijder gebruikers binnen profielen.
+
+  **Best voor:** de leiden van het Departement of teammanagers die kleinere groepen met gespecialiseerde behoeften controleren
+
+  Beheerders kunnen rollen combineren voor meer flexibiliteit, afhankelijk van organisatorische vereisten.
 
 ## Admin Console instellen
 
