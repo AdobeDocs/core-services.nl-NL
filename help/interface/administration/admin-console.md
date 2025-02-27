@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
+source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '716'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Voor algemene hulp van het identiteitsbeheer toepasselijk op alle toepassingen v
 
 De Admin Console biedt drie primaire administratieve taken, elk met specifieke niveaus van toegang en verantwoordelijkheid:
 
-| Help-koppeling | Beschrijving |
+| Rol | Beschrijving |
 | ------- | ------- |
 | Systeembeheerder | Volledige toegang - Beheert alle aspecten van de console. <br> Belangrijkste verantwoordelijkheden: <br><ul><li>Gebruikers toevoegen, verwijderen en beheren.</li><li>Productlicenties toewijzen en intrekken.</li><li>Identiteitsinstellingen en verificatiemontages configureren</li><li>Factureringsgegevens weergeven en beheren.</li><li>Stel aanvullende beheerders en gedelegeerde rollen in.</li></ul> **Best voor:** de beheerders of het team van IT leiden die het milieu van Adobe van de volledige organisatie controleren. |
 | Productbeheerder | Product-specifiek beheer - controleert toegang en toestemmingen voor specifieke producten van Adobe.<br> Zeer belangrijke verantwoordelijkheden:<ul><li>Licenties toewijzen en beheren voor een specifiek product.</li><li>Productprofielen maken en beheren.</li><li>Voeg of verwijder gebruikers binnen toegewezen producten toe.</li></ul>   **Best voor:** Teams/gebruikers die specifieke software zoals Marketo Engage of Adobe Creative Cloud beheren. |
@@ -37,7 +37,7 @@ Om identiteit en productvergunningen voor de toepassingen van Experience Cloud t
 
 Hier zijn middelen u zou kunnen nodig hebben wanneer het worden begonnen als beheerder in Admin Console:
 
-### Taken instellen
+### Bronnen instellen
 
 | Help-koppeling | Beschrijving |
 | ------- | ------- |
