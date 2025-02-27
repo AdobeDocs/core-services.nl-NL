@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
+source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '717'
 ht-degree: 2%
 
 ---
@@ -21,78 +21,46 @@ Deze pagina bevat specifiek informatie voor Experience Cloud-beheerders, met kop
 
 Voor algemene hulp van het identiteitsbeheer toepasselijk op alle toepassingen van Adobe, zie de [ gids van de Onderneming en van teamadmin ](https://helpx.adobe.com/nl/enterprise/admin-guide.html).
 
-In de volgende secties vindt u koppelingen naar bronnen in de Help van Admin Console.
-
 ## Administratieve taken in Admin Console
 
 De Admin Console biedt drie primaire administratieve taken, elk met specifieke niveaus van toegang en verantwoordelijkheid:
 
-**beheerder van het Systeem:** Volledige toegang - beheert alle aspecten van de console.
+| Help-koppeling | Beschrijving |
+| ------- | ------- |
+| Systeembeheerder | Volledige toegang - Beheert alle aspecten van de console. <br> Belangrijkste verantwoordelijkheden: <br><ul><li>Gebruikers toevoegen, verwijderen en beheren.</li><li>Productlicenties toewijzen en intrekken.</li><li>Identiteitsinstellingen en verificatiemontages configureren</li><li>Factureringsgegevens weergeven en beheren.</li><li>Stel aanvullende beheerders en gedelegeerde rollen in.</li></ul> **Best voor:** de beheerders of het team van IT leiden die het milieu van Adobe van de volledige organisatie controleren. |
+| Productbeheerder | Product-specifiek beheer - controleert toegang en toestemmingen voor specifieke producten van Adobe.<br> Zeer belangrijke verantwoordelijkheden:<ul><li>Licenties toewijzen en beheren voor een specifiek product.</li><li>Productprofielen maken en beheren.</li><li>Voeg of verwijder gebruikers binnen toegewezen producten toe.</li></ul>   **Best voor:** Teams/gebruikers die specifieke software zoals Marketo Engage of Adobe Creative Cloud beheren. |
+| Beheerder van productprofiel | Korrelig rolbeheer - concentreert zich op het beheren van gebruikersgroepen en toestemmingen binnen een product.<br> Zeer belangrijke Verantwoordelijkheden:<ul><li>Productprofielen maken en beheren.</li><li>Machtigingen en functietoegang toewijzen binnen profielen.</li><li>Voeg gebruikers toe of verwijder gebruikers binnen profielen.</li></ul> **Best voor:** de leiden van het Departement of teammanagers die kleinere groepen met gespecialiseerde behoeften controleren. <br> Beheerders kunnen rollen combineren voor meer flexibiliteit, afhankelijk van organisatorische vereisten. |
 
-Belangrijkste verantwoordelijkheden:
-
-* Gebruikers toevoegen, verwijderen en beheren.
-* Productlicenties toewijzen en intrekken.
-* Identiteitsinstellingen en verificatie configureren.
-* Factureringsgegevens weergeven en beheren.
-* Stel aanvullende beheerders en gedelegeerde rollen in.
-
-  **Best voor:** de beheerders of het team van IT leiden die het milieu van Adobe van de volledige organisatie controleren.
-
-**de beheerder van het Product:** product-specifiek beheer - controleert toegang en toestemmingen voor specifieke producten van Adobe.
-
-Belangrijkste verantwoordelijkheden:
-
-* Licenties toewijzen en beheren voor een specifiek product.
-* Productprofielen maken en beheren.
-* Voeg of verwijder gebruikers binnen toegewezen producten toe.
-
-  **Best voor:** Teams/gebruikers die specifieke software zoals Marketo Engage of Adobe Creative Cloud beheren.
-
-**de profielbeheerder van het Product:** Korrelig rolbeheer - concentreert zich op het beheren van gebruikersgroepen en toestemmingen binnen een product.
-
-* Belangrijkste verantwoordelijkheden:
-* Productprofielen maken en beheren.
-* Machtigingen en functietoegang toewijzen binnen profielen.
-* Voeg gebruikers toe of verwijder gebruikers binnen profielen.
-
-  **Best voor:** de leiden van het Departement of teammanagers die kleinere groepen met gespecialiseerde behoeften controleren
-
-  Beheerders kunnen rollen combineren voor meer flexibiliteit, afhankelijk van organisatorische vereisten.
-
-## Admin Console instellen
+## Admin Console voor Experience Cloud
 
 Om identiteit en productvergunningen voor de toepassingen van Experience Cloud te beheren, navigeer aan [ Admin Console ](https://adminconsole.adobe.com/enterprise/).
 
-* [ de identiteit van de opstelling en enig teken-op ](https://helpx.adobe.com/enterprise/using/set-up-identity.html) - leer hoe te opstelling uw gebruikers&#39; rekeningen met verschillende types van identiteitskaart met of zonder enige sign-on (SSO). Stel SSO in voor Adobe-software, configureer SAML-instellingen en doorloop de meest voorkomende vragen en fouten.
+Hier zijn middelen u zou kunnen nodig hebben wanneer het worden begonnen als beheerder in Admin Console:
 
-* [ de organisatie van de opstelling via foldervertrouwen ](https://helpx.adobe.com/enterprise/using/directory-trust.html) - het foldervertrouwen van het Gebruik om uw gebruikers tegen een domein voor authentiek te verklaren dat reeds door een andere organisatie wordt geclaimd.
+### Taken instellen
 
-  Zie [ Organisaties in Experience Cloud ](organizations.md) voor informatie over organisaties.
+| Help-koppeling | Beschrijving |
+| ------- | ------- |
+| [ de identiteit van de opstelling en enig teken-op ](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | **[!UICONTROL  Admin Console]** > **[!UICONTROL Settings]** <br> Leer hoe u gebruikersaccounts instelt met verschillende id-typen met of zonder SSO (Single Sign-On). Stel SSO in voor Adobe-software, configureer SAML-instellingen en doorloop de meest voorkomende vragen en fouten. |
+| [ de organisatie van de opstelling via foldervertrouwen ](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Verifieer uw gebruikers tegen een domein dat reeds door een andere organisatie wordt geclaimd. Voor informatie over het vinden van en het schakelen van organisaties, zie [ Organisaties in Experience Cloud ](organizations.md). |
+| [ de montages van de Authentificatie (onderneming) ](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console ondersteunt verschillende wachtwoordbeveiligingsniveaus en -beleid om de veiligheid en beveiliging te waarborgen. U kunt opgeven dat een beveiligingsniveau voor wachtwoorden moet worden gebruikt voor alle gebruikers in uw organisatie. |
+| [ De contacten van de Privacy en van de veiligheid ](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Bescherm de gegevens van uw organisatie en gebruikers. Als zich een beveiligingsincident met onze softwareoplossingen voordoet, worden meldingen verzonden naar de juiste compatibiliteitsagenten. Ondernemingen hebben personeel dat een specifieke rol speelt op het gebied van gegevensbescherming, integriteit en andere nalevingskwesties. Daarom is contactinformatie voor dergelijk personeel van essentieel belang om te helpen snelle kennisgeving in het geval van een veiligheidsincident te verzekeren. |
 
-* [ de montages van de Authentificatie (onderneming) ](https://helpx.adobe.com/enterprise/using/authentication-settings.html) - Admin Console steunt verscheidene niveaus en beleid van de wachtwoordbescherming om veiligheid en veiligheid te verzekeren. U kunt opgeven dat een beveiligingsniveau voor wachtwoorden moet worden gebruikt voor alle gebruikers in uw organisatie. Adobe Customer Care biedt drie beveiligingsniveaus.
+### Gebruikersbeheer
 
-* [ de contacten van de Privacy en van de veiligheid ](https://helpx.adobe.com/enterprise/using/security-contacts.html) - Adobe benadrukt het beschermen van de gegevens van uw organisatie en gebruikers. In het geval van een veiligheidsincident met onze softwareoplossingen, worden de meldingen verzonden naar de aangewezen nalevingsambtenaren.
+| Help-koppeling | Beschrijving |
+| ------- | ------- |
+| [ beheer veelvoudige gebruikers ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br> Leer hoe u meerdere gebruikers kunt beheren via CSV-bulkupload naar de Admin Console. |
+| [ Types van Identiteit ](https://helpx.adobe.com/enterprise/using/identity.html) | De types van identiteit staan de organisatie verschillende niveaus van controle over de rekeningen en de gegevens van de gebruikers toe. Uw keuze van het identiteitsmodel is van invloed op de manier waarop uw organisatie elementen opslaat en deelt. Terwijl Federated ID- en Enterprise ID-modellen door de organisatie worden gemaakt en beheerd, worden Adobe-id&#39;s door de persoon gemaakt en beheerd. |
+| [ het Hulpmiddel van de Synchronisatie van de Gebruiker ](https://helpx.adobe.com/enterprise/using/user-sync.html) (MOET) | Het Adobe-hulpprogramma voor gebruikerssynchronisatie is een bureaubladtoepassing waarmee de synchronisatie van gebruikersgegevens tussen het identiteitsbeheersysteem van een organisatie (zoals Active Directory) en Adobe Admin Console wordt geautomatiseerd. Met dit hulpprogramma kunnen beheerders provisioning, updates en deactivering van gebruikers in Adobe-producten stroomlijnen. |
+| [ de gebruikersdetails van de Mening (Hulpmiddel Admin) ](admin-tool-experience-cloud.md) | Bekijk een sorteerbare en filterbare lijst met alle Experience Cloud-gebruikers en -beleidsregels met informatie in de [!UICONTROL Admin Tool] . |
 
-  Ondernemingen hebben hun eigen personeel dat een specifieke rol speelt op het gebied van gegevensbescherming, integriteit en andere nalevingskwesties. Daarom is contactinformatie voor dergelijk personeel van essentieel belang om te helpen snelle kennisgeving in het geval van een veiligheidsincident te verzekeren.
+### Rapporten en logboeken
 
-## Gebruikersbeheer
+| Help-koppeling | Beschrijving |
+| ------- |------- |
+| [ Logboek van de Controle ](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Alle in de Admin Console aangebrachte wijzigingen bijhouden. |
 
-* [ beheer veelvoudige gebruikers ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) BulkCSV uploadt - Leer hoe te om veelvoudige gebruikers via Csv bulkupload op Adobe Admin Console te beheren.
-
-* [ Types van Identiteit ](https://helpx.adobe.com/enterprise/using/identity.html) - De types van Identiteit staan de organisatie verschillende niveaus van controle over de rekeningen en de gegevens van gebruikers toe. Uw keuze van het identiteitsmodel is van invloed op de manier waarop uw organisatie elementen opslaat en deelt. Terwijl Federated ID- en Enterprise ID-modellen door de organisatie worden gemaakt en beheerd, worden Adobe-id&#39;s door de persoon gemaakt en beheerd.
-
-* [ het Hulpmiddel van de Synchronisatie van de Gebruiker van de Gebruiker 1} (MOET) - het Hulpmiddel van de Synchronisatie van de Gebruiker van Adobe is een Desktoptoepassing die wordt gebruikt om het proces te automatiseren om gebruikersgegevens tussen het systeem van het identiteitsbeheer van een organisatie (als Actieve Folder) en Adobe Adobe Admin Console te synchroniseren. ](https://helpx.adobe.com/enterprise/using/user-sync.html) Met dit hulpprogramma kunnen beheerders provisioning, updates en deactivering van gebruikers in Adobe-producten stroomlijnen.
-
-  Met het hulpprogramma Gebruikerssynchronisatie kunnen organisaties het beheer van gebruikersaccounts en licenties vereenvoudigen door gebruikersgegevens (zoals rollen, groepen en toegangsrechten) automatisch te synchroniseren tussen hun directoryservice en Adobe-systemen. Dit instrument is met name handig voor bedrijven met grote teams. Het draagt bij tot het behoud van consistentie en veiligheid en zorgt ervoor dat gebruikers alleen toegang hebben tot de producten en diensten waarop zij recht hebben.
-
-* [ de gebruikersdetails van de Mening (Hulpmiddel Admin) ](admin-tool-experience-cloud.md) - de Beheerders kunnen een sorteerbare en filterbare lijst van alle gebruikers en beleid van Experience Cloud met details in [!UICONTROL Admin Tool] bekijken.
-
-## Rapporten en logboeken
-
-* [ Logboek van de Controle ](https://helpx.adobe.com/enterprise/using/audit-logs.html) om alle veranderingen te volgen die in Admin Console worden aangebracht.
-
-Voor hulp die niet in de voorafgaande plaatsen wordt beschreven, doorblader de [ gids van de Onderneming en van teamadmin ](https://helpx.adobe.com/nl/enterprise/admin-guide.html).
 
 ## Toepassingsspecifieke bronnen
 
@@ -140,3 +108,5 @@ Met deze koppelingen vindt u beheerinformatie voor specifieke Experience Cloud-t
 * [ Adobe Pass ](https://experienceleague.adobe.com/en/docs/pass/aiq-help/get-started)
 * [ Doel ](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target)
 * [ Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
+
+Het grootste deel van Admin Consol hulp voor alle toepassingen van Adobe wordt gedocumenteerd in [ gids van de Onderneming en van teamadmin ](https://helpx.adobe.com/nl/enterprise/admin-guide.html).
