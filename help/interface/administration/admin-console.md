@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
+source-git-commit: 77841faeb5b005e4913408edb3e9cfbbdfc8961d
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 2%
@@ -40,7 +40,7 @@ Hier zijn middelen u zou kunnen nodig hebben wanneer het worden begonnen als beh
 ### Bronnen instellen
 
 | Help-koppeling | Beschrijving |
-| ------- | ------- |
+| ------- | ------ |
 | [ de identiteit van de opstelling en enig teken-op ](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | **[!UICONTROL  Admin Console]** > **[!UICONTROL Settings]** <br> Leer hoe u gebruikersaccounts instelt met verschillende id-typen met of zonder SSO (Single Sign-On). Stel SSO in voor Adobe-software, configureer SAML-instellingen en doorloop de meest voorkomende vragen en fouten. |
 | [ de organisatie van de opstelling via foldervertrouwen ](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Verifieer uw gebruikers tegen een domein dat reeds door een andere organisatie wordt geclaimd. Voor informatie over het vinden van en het schakelen van organisaties, zie [ Organisaties in Experience Cloud ](organizations.md). |
 | [ de montages van de Authentificatie (onderneming) ](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console ondersteunt verschillende wachtwoordbeveiligingsniveaus en -beleid om de veiligheid en beveiliging te waarborgen. U kunt opgeven dat een beveiligingsniveau voor wachtwoorden moet worden gebruikt voor alle gebruikers in uw organisatie. |
