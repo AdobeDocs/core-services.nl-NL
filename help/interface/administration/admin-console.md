@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 77841faeb5b005e4913408edb3e9cfbbdfc8961d
+source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Hier zijn middelen u zou kunnen nodig hebben wanneer het worden begonnen als beh
 
 | Help-koppeling | Beschrijving |
 | ------- | ------ |
-| [ de identiteit van de opstelling en enig teken-op ](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | **[!UICONTROL  Admin Console]** > **[!UICONTROL Settings]** <br> Leer hoe u gebruikersaccounts instelt met verschillende id-typen met of zonder SSO (Single Sign-On). Stel SSO in voor Adobe-software, configureer SAML-instellingen en doorloop de meest voorkomende vragen en fouten. |
+| [ de identiteit van de opstelling en enig teken-op ](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Settings]** <br> Leer hoe u gebruikersaccounts instelt met verschillende id-typen met of zonder SSO (Single Sign-On). Stel SSO in voor Adobe-software, configureer SAML-instellingen en doorloop de meest voorkomende vragen en fouten. |
 | [ de organisatie van de opstelling via foldervertrouwen ](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Verifieer uw gebruikers tegen een domein dat reeds door een andere organisatie wordt geclaimd. Voor informatie over het vinden van en het schakelen van organisaties, zie [ Organisaties in Experience Cloud ](organizations.md). |
 | [ de montages van de Authentificatie (onderneming) ](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console ondersteunt verschillende wachtwoordbeveiligingsniveaus en -beleid om de veiligheid en beveiliging te waarborgen. U kunt opgeven dat een beveiligingsniveau voor wachtwoorden moet worden gebruikt voor alle gebruikers in uw organisatie. |
 | [ De contacten van de Privacy en van de veiligheid ](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Bescherm de gegevens van uw organisatie en gebruikers. Als zich een beveiligingsincident met onze softwareoplossingen voordoet, worden meldingen verzonden naar de juiste compatibiliteitsagenten. Ondernemingen hebben personeel dat een specifieke rol speelt op het gebied van gegevensbescherming, integriteit en andere nalevingskwesties. Daarom is contactinformatie voor dergelijk personeel van essentieel belang om te helpen snelle kennisgeving in het geval van een veiligheidsincident te verzekeren. |
