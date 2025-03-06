@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van d
 
 | Datum | Bijwerken | Beschrijving |
 | -----------| -----------| ---------- |
-| vrijdag 6 maart 2025 | Klik met de rechtermuisknop op menuopties | Experience Cloud-frameoplossing voor koptekstnavigatie zodat u met de rechtermuisknop kunt klikken op de vervolgkeuzemenu-functies van de browser. Hiermee wordt een probleem opgelost dat in februari is geïntroduceerd in het Spectrum 2-ontwerpsysteem. |
+| vrijdag 6 maart 2025 | Klikken met rechtermuisknop op menuoptie herstellen | Met de Experience Cloud-tabbladen voor kopnavigatie kunt u nu met de rechtermuisknop klikken en de keuzemenu&#39;s in de browser gebruiken. Hiermee wordt een probleem opgelost dat in februari is geïntroduceerd in het Spectrum 2-ontwerpsysteem. |
 
 ## Februari 2025
 
