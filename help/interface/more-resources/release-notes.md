@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
+source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 9%
+source-wordcount: '1217'
+ht-degree: 10%
 
 ---
 
@@ -24,11 +24,17 @@ Voor een lijst van documentupdates, zie [ de updates van de Documentatie ](doc-u
 
 Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van de Versie van 0} Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl).[
 
+## Maart 2025
+
+| Datum | Bijwerken | Beschrijving |
+| -----------| -----------| ---------- |
+| vrijdag 6 maart 2025 | Klik met de rechtermuisknop op menuopties | Experience Cloud-frameoplossing voor koptekstnavigatie zodat u met de rechtermuisknop kunt klikken op de vervolgkeuzemenu-functies van de browser. Hiermee wordt een probleem opgelost dat in februari is geïntroduceerd in het Spectrum 2-ontwerpsysteem. |
+
 ## Februari 2025
 
 | Datum | Functie | Beschrijving |
 | -----------| -----------| ---------- |
-| 13 februari (geplande uitzetdatum) | Spectrum 2 | Het Experience Cloud-toepassingsframe, dat de headerbalk bevat en de componenten die via de headerbalk kunnen worden geopend, en de linkernavigatiespoor voor bepaalde toepassingen worden bijgewerkt naar Spectrum 2, Adobe, het nieuwste ontwerpsysteem. Dit vernieuwde ontwerp bevat een bijgewerkte iconografie, maar heeft dezelfde functionaliteit. Verschillende elementen in de koptekst worden echter opnieuw gepositioneerd, zodat ze kunnen worden uitgelijnd met andere Adobe-sites en -toepassingen. |
+| Februari 13 | Spectrum 2 | Het Experience Cloud-toepassingsframe, dat de headerbalk bevat en de componenten die via de headerbalk kunnen worden geopend, en de linkernavigatiespoor voor bepaalde toepassingen worden bijgewerkt naar Spectrum 2, Adobe, het nieuwste ontwerpsysteem. Dit vernieuwde ontwerp bevat een bijgewerkte iconografie, maar heeft dezelfde functionaliteit. Verschillende elementen in de koptekst worden echter opnieuw gepositioneerd, zodat ze kunnen worden uitgelijnd met andere Adobe-sites en -toepassingen. |
 
 ## Januari 2025
 
@@ -90,7 +96,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Functie | Beschrijving |
 | ------- |-------|
-| Toegang tot [!UICONTROL Recents] in Experience Platform en Journey Optimizer via de zoekbalk | Gebruikers hebben via de uniforme zoekbalk toegang tot objecten die onlangs zijn geopend vanaf elke pagina van AEP en AJO. |
+| Toegang tot [!UICONTROL Recents] in Experience Platform en Journey Optimizer via de zoekbalk | Gebruikers hebben via de uniforme zoekbalk toegang tot onlangs geopende objecten op elke pagina van AEP en AJO. |
 
 {style="table-layout:auto"}
 
