@@ -1,14 +1,14 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud-interface en -beheerhandleiding
-breadcrumb-title: Experience Cloud-interface en -beheerhandleiding
-title: Experience Cloud Interface and Administration Guide
+user-guide-title: Experience Cloud-interface en -beheer
+breadcrumb-title: Experience Cloud-interface en -beheer
+title: Experience Cloud Interface en Beheer
 description: Meer informatie over Experience Cloud-interface, cookies en accountvoorkeuren. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Experience Cloud Assets delen.
 index: true
-source-git-commit: e88d23143e29040a8baf49108be35f8f766aed5e
+source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 13%
+source-wordcount: '229'
+ht-degree: 8%
 
 ---
 
