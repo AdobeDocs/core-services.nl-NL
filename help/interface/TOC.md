@@ -5,17 +5,17 @@ breadcrumb-title: Experience Cloud-interface en -beheerhandleiding
 title: Experience Cloud Interface and Administration Guide
 description: Meer informatie over Experience Cloud-interface, cookies en accountvoorkeuren. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Experience Cloud Assets delen.
 index: true
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
+source-git-commit: e88d23143e29040a8baf49108be35f8f766aed5e
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 18%
+source-wordcount: '232'
+ht-degree: 13%
 
 ---
 
 
-# Experience Cloud-interface en -beheerhandleiding {#interface}
+# Experience Cloud-interface en -beheer {#interface}
 
-+ [Handleiding voor interfaceonderdelen van Experience Cloud Central](experience-cloud.md)
++ [Experience Cloud-interface en -beheer](experience-cloud.md)
 
 + Services {#services}
    + [Overzicht](services/overview.md)
