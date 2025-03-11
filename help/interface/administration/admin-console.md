@@ -1,6 +1,6 @@
 ---
 title: Licentiebeheer voor gebruikers en producten
-description: Gebruikers en productlicenties beheren in Admin Console for Experience Cloud-toepassingen.
+description: Gebruikers en productlicenties beheren in Admin Console voor Experience Cloud-toepassingen.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
 source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
