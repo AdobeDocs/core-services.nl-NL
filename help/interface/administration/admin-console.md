@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
+source-git-commit: ce65c5292caaa4a24945e2119e78fd97a7d84109
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '737'
 ht-degree: 5%
 
 ---
 
 # Gebruikersbeheer en productlicenties
 
-Deze pagina bevat specifiek informatie voor Experience Cloud-beheerders, met koppelingen naar algemene documentatie over gebruikers en productbeheer.
+U kunt gebruikers en productvergunningen in Adobe [ Admin Console ](https://adminconsole.adobe.com/enterprise/) beheren. Voor algemene hulp van het identiteitsbeheer toepasselijk op alle toepassingen van Adobe, zie de [ gids van de Onderneming en van teamadmin ](https://helpx.adobe.com/nl/enterprise/admin-guide.html).
 
-Voor algemene hulp van het identiteitsbeheer toepasselijk op alle toepassingen van Adobe, zie de [ gids van de Onderneming en van teamadmin ](https://helpx.adobe.com/nl/enterprise/admin-guide.html).
+Deze pagina verstrekt informatie specifiek nuttig voor de beheerders van Experience Cloud, bepaalt rollen, en verzekert verbindingen met gemeenschappelijke gebruikers en productbeheeronderwerpen in de ondernemingsgids.
 
 ## Administratieve taken in Admin Console
 
