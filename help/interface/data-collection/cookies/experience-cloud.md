@@ -1,5 +1,5 @@
 ---
-description: Leer hoe de dienst van identiteitskaart wordt opgeslagen en gebruikt over de toepassingen van het Experience Cloud.
+description: Leer hoe de id-service wordt opgeslagen en gebruikt in Experience Cloud-toepassingen.
 solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Cookies Experiencen Cloud
+# Experience Cloud cookies
 
-Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die in alle Experiencen Cloud wordt gebruikt. Deze koekjes zijn specifiek op de toegang tot van Adobe Experience Cloud toepassingen op [ experience.adobe.com ](https://experience.adobe.com) van toepassing.
+Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die in Experience Cloud-toepassingen wordt gebruikt. Deze koekjes zijn specifiek op de toegang tot van Adobe Experience Cloud toepassingen op [ experience.adobe.com ](https://experience.adobe.com) van toepassing.
 
 **Naam van het Koekje: s_ecid**
 
@@ -58,7 +58,7 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die in al
 
 **Naam cookie: AMCV_##@AdobeOrg**
 
-De [ Dienst van identiteitskaart van het Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html) gebruikt JavaScript om een unieke bezoekersidentiteitskaart in een `AMCV_###@AdobeOrg` koekje op het domein van de huidige website op te slaan, waar `###` een willekeurige koord van karakters, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` vertegenwoordigt
+De [ Dienst van identiteitskaart van Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html) gebruikt JavaScript om een unieke bezoekersidentiteitskaart in een `AMCV_###@AdobeOrg` koekje op het domein van de huidige website op te slaan, waar `###` een willekeurige koord van karakters, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` vertegenwoordigt
 
 Zie ook, [ Cookies en de Dienst van identiteitskaart ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
@@ -72,11 +72,11 @@ Zie ook, [ Cookies en de Dienst van identiteitskaart ](https://experienceleague.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opgeslagen informatie </p> </td> 
-   <td colname="col2"> <p> Unieke bezoeker-id's die worden gebruikt door Experience Cloud-oplossingen. </p> </td> 
+   <td colname="col2"> <p> Unieke bezoeker-id's die door Experience Cloud Solutions worden gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Verlopen </p> </td> 
-   <td colname="col2"> <p> 2 jaar </p> </td> 
+   <td colname="col2"> <p> 13 maanden </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Gebruik </p> </td> 
