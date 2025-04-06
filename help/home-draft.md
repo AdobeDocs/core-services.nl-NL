@@ -1,31 +1,153 @@
 ---
-description: Leer over centrale interfacecomponenten voor Experience Cloud. Krijg hulp op gebruiker en productbeleid in de Admin Console, laat toepassingen voor de diensten van het Experience Cloud toe. Hulp bij Audience Library, Customer Attributes, Experience Cloud Assets en meer.
-title: Interface-documentatie Experience Cloud
+description: Meer informatie over centrale interfacecomponenten voor Experience Cloud. Hulp bij gebruikers- en productbeheer in de Admin Console en schakel toepassingen voor Experience Cloud-services in. Hulp nodig bij Audience Library, Customer Attributes, Experience Cloud Assets en meer.
+title: Experience Cloud Interface-documentatie
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 10%
+source-wordcount: '896'
+ht-degree: 8%
 
 ---
 
-# Overzicht van de centrale interface van Experience Cloud
+# Overzicht centrale Experience Cloud-interface
 
-[ Experience Cloud ](https://experience.adobe.com) is de geïntegreerde familie van de Adobe van digitale marketing toepassingen, producten, en de diensten. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
+[ Experience Cloud ](https://experience.adobe.com) is Adobe geïntegreerde familie van digitale marketing toepassingen, producten, en de diensten. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services.
 
 ![ Experience Cloud ](assets/landing.png)
 
-Vanuit de koptekst van Experience Cloud kunt u:
+Vanuit de koptekst van Experience Cloud kunt u het volgende doen:
 
-* Heb toegang tot al uw toepassingen en de diensten van het Experience Cloud
+* Al uw Experience Cloud-toepassingen en -services openen
 * Zoek in het menu Help naar productdocumentatie, zelfstudies en communityartikelen. Resultaten weergeven in Experience League.
-* Zakelijke objecten zoeken op algemene wijze met een algemene zoekopdracht (alleen voor gebruikers van Experience Platforms) in het veld Zoeken.
+* Zakelijke objecten zoeken op algemene wijze met een algemene zoekopdracht (alleen voor Experience Platform-gebruikers) in het veld Zoeken.
 * Beheer uw rekening [ voorkeur ](features/account-preferences.md) (alarm, berichten, en abonnementen)
+
+
+Gepulseerd uit GSPM:
+
+## Mogelijkheden verkennen
+
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+   <td valign="top">
+      <a href="../user-guide/effective-prompts.md">
+      <img alt="Rechterchthoek" src="../assets/icons/icon-chevronRight.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/effective-prompts.md">
+         <strong> schrijf Efficiënte Herinneringen </strong>
+         </a>
+      </div>
+      <p>
+         <em> de beschrijvende herinneringen van het ambt die digitale ervaringen op merk produceren.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/create/overview.md">
+      <img alt="Penseel" src="../assets/icons/icon-create.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/create/overview.md">
+         <strong> creeer Ervaringen </strong>
+         </a>
+      </div>
+      <p>
+         <em> creeer prestaties, e-mails van het merk en de advertenties van Meta.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/approvals/overview.md">
+      <img alt="Vinkje" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/approvals/overview.md">
+         <strong> Overzicht &amp; keurt goed </strong>
+         </a>
+      </div>
+      <p>
+         <em> ordent de gestroomlijnde overzicht en goedkeuring van marketing activa.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/content/overview.md">
+      <img alt="Raster" src="../assets/icons/icon-images.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/content/overview.md">
+         <strong> beheert Inhoud </strong>
+         </a>
+      </div>
+      <p>
+         <em> vind, beheer, en hergebruik inhoud terwijl het handhaven van merkrichtlijnen.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/insights/overview.md">
+      <img alt="Diagram" src="../assets/icons/icon-dataAnalytics.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/insights/overview.md">
+         <strong> Inzichten van de Mening </strong>
+         </a>
+      </div>
+      <p>
+         <em> analyseer de inhoudsdoeltreffendheid van betaalde media kanalen.</em>
+      </p>
+   </td>
+</tr>
+</table>
+
+## Leer hoe u
+
+<table style="table-layout:fixed">
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/guidelines/add-guidelines.md">
+      <img alt="Richtlijnen toevoegen" src="../assets/card-guidelines.png">
+      <strong> voeg richtlijnen </strong> toe
+      </a>
+   </div>
+   <p>
+      <em> leer hoe te om richtlijnen-merken, Producten, en personas-aan GenStudio for Performance Marketing toe te voegen.</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-email-experience.md">
+      <img alt="Ideeën, boeken, potlood, computer" src="../assets/card-create-assets.png">
+      <strong> creeer een e-mailervaring </strong>
+      </a>
+   </div>
+   <p>
+      <em> Leer hoe te om een ervaring van het on-brand e-mail tot stand te brengen.</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-meta-ad.md">
+      <img alt="Personen die bestanden naar een map verplaatsen" src="../assets/card-manage-content.png">
+      <strong> creeer een Meta en ervaring </strong>
+      </a>
+   </div>
+   <p>
+      <em> Leer hoe te om een merk-gericht Meta en ervaring tot stand te brengen.</em>
+   </p>
+</td>
+</table>
+
+
+(Einde van GSPM)
+
+
+
+
+
+
 
 ## Aanmelden bij Experience Cloud {#signin}
 
@@ -43,17 +165,17 @@ Teken binnen en verifieer dat u in de juiste [ organisatie ](administration/orga
 
    De [ organisatie ](administration/organizations.md) wordt getoond in de interfacekop.
 
-   Als uw organisatie Federated IDs gebruikt, staat het Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder het worden vereist om uw e-mailadres en wachtwoord in te gaan. Voeg `#/sso:@domain` aan Experience Cloud URL (`https://experience.adobe.com`) toe om deze taak te verwezenlijken.
+   Als uw organisatie Federated IDs gebruikt, staat Experience Cloud u toe om binnen met enige aanmelding van uw organisatie te ondertekenen zonder het worden vereist om uw e-mailadres en wachtwoord in te gaan. Voeg `#/sso:@domain` aan Experience Cloud URL (`https://experience.adobe.com`) toe om deze taak te verwezenlijken.
 
    Stel bijvoorbeeld voor een organisatie met federatieve id&#39;s en het domein `adobecustomer.com` de URL-koppeling in op `https://experience.adobe.com/#/sso:@adobecustomer.com` . U kunt ook rechtstreeks naar een specifieke toepassing gaan door een bladwijzer te maken van deze URL, die bij het toepassingspad wordt gevoegd. (Bijvoorbeeld voor Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics` .)
 
-## Toegang tot Experience Cloud-toepassingen {#navigation}
+## Experience Cloud-toepassingen openen {#navigation}
 
 Nadat u zich hebt aangemeld bij Experience Cloud, hebt u vanuit de uniforme header snel toegang tot al uw toepassingen, services en organisaties.
 
-Om tot de toepassingen en de diensten van het Experience Cloud toegang te hebben die voor u binnen uw organisatie worden voorzien, ga het menu van de toepassingsselecteur ![ ](assets/menu-icon.png).
+Om tot de toepassingen en de diensten van Experience Cloud toegang te hebben die voor u binnen uw organisatie worden voorzien, ga de toepassingsselecteur ![ menu ](assets/menu-icon.png).
 
-![ toepassingen van het Experience Cloud van de Toegang ](assets/platform-core-services.png)
+![ de toepassingen van Experience Cloud van de Toegang ](assets/platform-core-services.png)
 
 ## Hulp en ondersteuning {#support}
 
@@ -63,8 +185,8 @@ Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](a
 
 Via het menu [!UICONTROL Help] hebt u ook toegang tot:
 
-* **[!UICONTROL Support]:** maak een ondersteuningsticket of neem contact op met de Twitter [!UICONTROL Support] .
-* **[!UICONTROL Feedback]:** Deel feedback over uw ervaringen met Experiencen Cloud. Je feedback wordt gebruikt om de producten en services van de Adobe te verbeteren.
+* **[!UICONTROL Support]:** maak een ondersteuningsticket of neem contact op met Twitter [!UICONTROL Support] .
+* **[!UICONTROL Feedback]:** Deel feedback over je Experience Cloud-ervaring. Je feedback wordt gebruikt om producten en services van Adobe te verbeteren.
 * **[!UICONTROL Status]:** ga naar `https://status.adobe.com/experience_cloud` en controleer de operationele status van het product en [!UICONTROL Manage Subscriptions] .
 * **[!UICONTROL Developer Connection]:** Navigatie naar `adobe.io` en zoek de documentatie voor ontwikkelaars.
 
@@ -90,13 +212,13 @@ Om berichten en alarm te beheren, zie [ voorkeur en berichten van de Rekening ](
 
 ## Nieuwe functies
 
-Leer over de recentste verhogingen aan de centrale interfacecomponenten van het Experience Cloud.
+Leer meer over de nieuwste verbeteringen aan de centrale interfacecomponenten van Experience Cloud.
 
 >[!BEGINTABS]
 
->[!TAB  integratie van de Slack met Experience Cloud ]
+>[!TAB  de integratie van Slack met Experience Cloud ]
 
-U kunt uw accountvoorkeuren zo configureren dat meldingen van Experiencen Cloud naar een [!DNL Slack] -kanaal worden verzonden.
+U kunt uw accountvoorkeuren zo configureren dat Experience Cloud-berichten naar een [!DNL Slack] -kanaal worden verzonden.
 
 [!BADGE Bèta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Meer informatie over Slack"}
 
@@ -188,5 +310,5 @@ In 2024 komt er een versie met enkele belangrijke wijzigingen voor de service FC
 
 ## Aanvullende bronnen
 
-[ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html) {target="_blank"} - [ de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html) {target="_blank"} - [ Tutorials ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html) {target="_blank"} - [[!DNL Adobe Campaign]  automatiseringsgids ](https://experienceleague.adobe.com/docs/campaign/automation/home.html) {target="_blank"} - [ Controlebord voor Campagne v8 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl) {target="_blank"}
+[ Adobe Campaign v8 de Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html) {target="_blank"} - [ de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html) {target="_blank"} - [ Zelfstudies ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html) {target="_blank"} - [[!DNL Adobe Campaign]  automatiseringsgids ](https://experienceleague.adobe.com/docs/campaign/automation/home.html) {target="_blank"} - [ Controlebord voor Campagne v8 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl) {target="_blank"}
 
