@@ -9,9 +9,9 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: bc1f602df5a4b6f2d6eb9a3b00f2756a09d97e2b
+source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1664'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,10 @@ Alle antwoorden op productkennis zijn verifieerbaar en worden aangehaald met kop
 
 ## Experience Cloud-toepassingen die gebruikmaken van AI
 
-Subhead-versie (onvoltooid)...
+>[!TIP]
+>
+>Subhead-versie (alleen een begin)...
+
 
 * [GenStudio for Performance Marketing](#gspm)
 * [Experience Manager Sites (Cloud Service)](#aem-sites)
@@ -83,9 +86,12 @@ Zie [ Beeld ](https://experienceleague.adobe.com/en/docs/experience-manager-clou
 
 
 
-Tabelversie...
-
 ## Experience Cloud-toepassingen die gebruikmaken van AI
+
+>[!TIP]
+>
+>Tabelversie...
+
 
 Leer hoe Experience Cloud-toepassingen generatieve AI of AI Assistant gebruiken en of Adobe Firefly wordt ondersteund.
 
