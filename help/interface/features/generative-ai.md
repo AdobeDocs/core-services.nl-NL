@@ -9,13 +9,13 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
+exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
+source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 3%
+source-wordcount: '1808'
+ht-degree: 2%
 
 ---
-
 
 # AI in Experience Cloud-toepassingen
 
@@ -83,6 +83,26 @@ Nadat u variaties hebt gemaakt, kunt u de inhoud van uw website gebruiken en het
 Zie [ Beeld ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image) produceren.
 
 **Verenigbaarheid met Adobe Firefly:** ja
+
+## Adobe Journey Optimizer
+
+Journey Optimizer gebruikt [ Medewerker AI ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) met twee klassen van vragen:
+
+**de kennis van het Product** - vraagt de gegevensopslag van Adobe (zoals het productdocumentatie van Experience League) voor product insight. Deze output is klantgewaarmerkt. Voorbeeld:
+
+* Hoeveel levende activiteiten kan ik in één zandbak van Adobe Journey Optimizer hebben?
+
+**Operationele Inzichten (Beta)** - vraagt een klant-specifieke operationele opslag van inzichten die gecentraliseerde operationele gegevens over Reizen bevat, die door de zandbak van de klant wordt verdeeld. Hiermee worden metagegevens alleen door zakelijke objecten opgehaald en worden geen gegevens in de sandbox geopend.
+
+* Hoeveel reizen zijn er gemaakt in de afgelopen zeven dagen?
+
+De uitvoer van de operationele inzichten is afhankelijk van metagegevens die uit de zakelijke objecten van de klant zijn gehaald.
+
+De reizen is het enige voorwerp beschikbaar voor AI Medewerker in Journey Optimizer, en de meta-gegevens worden getrokken uit de huidige zandbak.
+
+Zie [ Werk met de Medewerker AI ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) en [ Gereedheid van het Gebied ](https://fieldreadiness-adobe.highspot.com/items/6661f1c132683fd5e6a8adf4?lfrm=srp.1#11) voor meer.
+
+**Verenigbaarheid met Adobe Firefly:** Nr
 
 
 
