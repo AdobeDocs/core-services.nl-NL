@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: fb9d3c45beca38e1ca372b24565946bf1a1da839
+source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 2%
+source-wordcount: '1371'
+ht-degree: 1%
 
 ---
 
@@ -44,12 +44,20 @@ De antwoorden van Experience League op productkennis zijn verifieerbaar en worde
 * [AI Assistant in Journey Optimizer](#journey-optimizer)
 * [Adobe Journey Optimizer Prime en Ultimate](#ajo-prime-ultimate)
 * [Journey Optimizer B2B-editie](#ajo-b2b)
+* [AI Assistant in Journey Optimizer Prime en Ultimate](#ajo-prime-ultimate)
+* [AI Assistant in Journey Optimizer B2B edition](#ajo-b2b)
+* [AI Assistant in Campagne Managed Cloud Services](#campaign-cs)
+* [AI Assistant in Customer Journey Analytics](#cja)
+* [Intelligente bijschriften in Customer Journey Analytics](#cja-captions)
+* [AI Assistant in Real-Time CDP](#rtcdp)
+* [Dynamic Chat in Marketo](#marketo)
+* [AI Assistant in Workfront](#workfront)
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[ GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) is een generatief AI-gedreven platform dat u toelaat om, campagneactiva tot stand te brengen te leveren en te optimaliseren. Zijn generatieve AI mogelijkheden transformeren hoe de marketing inhoud wordt gecreeerd, herzien, gedeeld, en geanalyseerd.
+[ GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) is geen eigenschap maar een generatief AI-gedreven platform. Zijn generatieve AI mogelijkheden transformeren hoe de marketing inhoud wordt gecreeerd, herzien, gedeeld, en geanalyseerd.
 
-De eigenschap _GenStudio for Performance Marketing creeert_ (of, eenvoudig _creeert_) staat marketers en verdeelde teams toe om krachtige, merkervaringen tot stand te brengen. U kunt inhoud genereren voor:
+Op [ creeer ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview) huis, kunt u high-Performance, ervaringen on-brand tot stand brengen. Inhoud genereren voor:
 
 * E-mails
 * Metaadvertenties
@@ -93,7 +101,7 @@ Voorbeeld:
 
 * _Hoeveel levende activiteiten kan ik in één zandbak van Adobe Journey Optimizer hebben?_
 
-**Operationele Inzichten (Beta)** - vraagt een klant-specifieke operationele opslag van inzichten die gecentraliseerde operationele gegevens over Reizen bevat, die door de zandbak van de klant wordt verdeeld. Deze functie haalt alleen metagegevens van zakelijke objecten en heeft geen toegang tot gegevens in de sandbox.
+**Operationele Inzichten (Beta)** - AI Medewerker vraagt een klant-specifieke operationele opslag van inzichten die gecentraliseerde operationele gegevens over Reizen bevat, die door de zandbak van de klant wordt verdeeld. Deze functie haalt alleen metagegevens van zakelijke objecten en heeft geen toegang tot gegevens in de sandbox.
 
 Voorbeeld:
 
@@ -105,7 +113,7 @@ _de Reizen_ is het enige voorwerp beschikbaar voor AI Medewerker in Journey Opti
 
 **Compatibel met Adobe Firefly:** Nr
 
-## Journey Optimizer Prime en Ultimate {#ajo-prime-ultimate}
+## AI Assistant in Journey Optimizer Prime en Ultimate {#ajo-prime-ultimate}
 
 Journey Optimizer Prime en Ultimate gebruiken [ AI Medewerker voor de Versneller van de Inhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) om pro-actieve suggesties van de inhoudsvariatie voor tekst en beelden te brengen.
 
@@ -117,33 +125,27 @@ Deze eigenschap is beschikbaar voor [ e-mail ](https://experienceleague.adobe.co
 
 ## AI Assistant in Journey Optimizer B2B edition {#ajo-b2b}
 
-Journey Optimizer B2B edition gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant) om u met productkennis te helpen, die op uw herinneringen van de productkennis wordt gebaseerd.
+Journey Optimizer B2B edition gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) om u met productkennis te helpen, die op uw herinneringen van de productkennis wordt gebaseerd.
 
 **de kennis van het Product** - vraagt de gegevensopslag van Adobe (zoals het productdocumentatie van Experience League) voor product insight. Deze output is klantgewaarmerkt.
 
 * **Input:** hoe verzend ik een e-mail in een rekeningsreis?
 
-* **Output:** de impulsen van de Kennis van het Product van Experience League (openbare documentatie). [Meer informatie...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)
+* **Output:** de impulsen van de Kennis van het Product van Experience League (openbare documentatie). [Meer informatie...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/question-guidance)
 
 **Compatibel met Adobe Firefly:** Nr
 
-## Campagne Managed Cloud Services
+## AI Assistant in Campagne Managed Cloud Services {#campaign-cs}
 
-De campagne Beheerde Diensten van de Wolk gebruikt [ AI Medewerker voor de Versneller van de Inhoud ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs) auto-produceert gepersonaliseerde, het in dienst nemen, en efficiënte inhoud die op het marketing doel met inhoud wordt gebaseerd die voor merk geschetste stijlen, lay-outs, toon, en meer over kanalen zoals E-mail, SMS, Duw wordt geoptimaliseerd.
-
-* **E-mail** - produceer een volledige e-mail, tekst slechts of beeld slechts. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content)
-
-* **SMS** - produceer volledige SMS of slechts tekst. [Meer informatie...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms)
-
-* **duw** - creeer het dwingen overseinen en produceer inhoud. [Meer informatie...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push)
+De campagne Beheerde Diensten van de Wolk gebruikt [ AI Medewerker voor de Versneller van de Inhoud ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs). Met deze functie kunt u automatisch gepersonaliseerde, aantrekkelijke en effectieve inhoud genereren op basis van uw marketingdoelstelling, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, tinten en meer met een merknaam. U kunt het over kanalen als [ e-mail ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content) gebruiken, [ SMS ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms), en [ duw ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push).
 
 **Nota:** de Output van de Versneller van de Inhoud in de Campagne Beheerde Diensten van de Wolk wordt bevestigd.
 
 **Compatibel met Adobe Firefly:** ja
 
-## Customer Journey Analytics - AI-assistent
+## AI Assistant in Customer Journey Analytics {#cja}
 
-CJA gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant) om u te helpen productkennis en inzichten van Experience League ontdekken.
+Customer Journey Analytics gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant) om u te helpen productkennis en inzichten van Experience League ontdekken.
 
 **herinnering van het Voorbeeld:** hoe ik berekende metrisch bouwt?
 
@@ -153,29 +155,17 @@ Ervaren gebruikers kunnen de Medewerker van AI gebruiken om geavanceerdere gebru
 
 **Compatibel met Adobe Firefly:** Nr
 
-## Customer Journey Analytics - Intelligente bijschriften
+## Intelligente bijschriften in Customer Journey Analytics {#cja-captions}
 
-[ Intelligente Bijschriften ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) verstrekt natuurlijk-taalinzichten voor lijnvisualisaties in Workspace visualisaties.
-
-**input van het Voorbeeld:** De visualisaties van de Lijn. De titels worden auto-geproduceerd gebaseerd op dergelijke lijnvisualisaties wanneer u **Intelligente titels** klikt.
-
-**Output:** Auto-geproduceerde natuurlijk-taaltitels.
+[ Intelligente Bijschriften ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) in Customer Journey Analytics verstrekken natuurlijk-taalinzichten voor de het vaakst gebruikte beelden van Workspace.
 
 **Compatibel met Adobe Firefly:** Nr
 
-## Real-Time CDP
+## AI Assistant in Real-Time CDP {#rtcdp}
 
-Real-Time CDP gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) om u te helpen productkennis en inzichten van Experience League ontdekken. Het vraagt een gegevensbestand en vertaalt gegevens van het gegevensbestand in een mens-leesbaar antwoord.
+Real-Time CDP gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) om u te helpen productkennis en inzichten van Experience League ontdekken. [ krijgt uiteinden ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions) op het stellen van vragen.
 
-Er zijn twee vraagklassen beschikbaar:
-
-**de kennis van het Product** - vraagt de gegevensopslag van Adobe (zoals het productdocumentatie van Experience League) voor product insight. Deze output is klantgewaarmerkt.
-
-Bijvoorbeeld:
-
-* _hoe wordt de profielrijkdom berekend?_
-
-**Operationele Inzichten (Beta)** - vraagt een klant-specifieke operationele opslag van inzichten die gecentraliseerde operationele gegevens bevat, die door de zandbak van AEP van de klant worden verdeeld. Hiermee worden alleen metagegevens opgehaald van Attributen, Soorten publiek, Dataflows, Datasets, Doelen, Schema&#39;s en Bronnen. De gegevens in de sandbox zijn niet toegankelijk.
+Het biedt ook operationele inzichten (in bèta). De Medewerker van AI vraagt een klant-specifieke operationele opslag van inzichten die gecentraliseerde operationele gegevens bevat, die door de zandbak van AEP van de klant worden verdeeld. Het trekt meta-gegevens slechts van Attributen, Soorten publiek, Dataflows, Datasets, Doelen, Schema&#39;s, en Bronnen, en heeft geen toegang tot gegevens binnen de zandbak.
 
 Voor een query over een publiek heeft [!DNL AI Assistant] bijvoorbeeld toegang tot de naam van het publiek en andere bijbehorende metagegevens, maar heeft  geen toegang tot de profielen in dat publiek.
 
@@ -189,12 +179,11 @@ Voor meer voorbeelden, zie de _Kennis van het Product_ en _Operationele Inzichte
 
 **Compatibel met Firefly:** Nr
 
-
-## Marketo
+## Dynamic Chat in Marketo {#marketo}
 
 [ Dynamic Chat ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview) leidt tot AI-bijgewoonde gesprekken met aangepaste en vooraf goedgekeurde vragen en antwoorden, evenals gesprekssamenvatting |<ul><li> **produceer Vragen:** verstrek URLs waarvan de inhoud wordt gehaald en gebruikt om vragen/reacties te produceren. </li><li> **Samenvatting van de Gesprek:** produceert een samenvatting van een praatjegesprek. </li></ul> [ leer meer... ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | Nee |
 
-## Workfront
+## AI Assistant in Workfront {#workfront}
 
 [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) in Workfront helpt u uw werk verwezenlijken door in-app informatie en suggesties in een natuurlijk-taalgesprek aan te bieden. AI Assistant biedt de volgende functionaliteit: vat projecten/taken/problemen/documenten samen, geeft instructies of referentiegegevens die uit de Workfront-documentatie in Experience League zijn gehaald, genereert of verfijnt formules voor berekende aangepaste velden.  | <ul><li>**vat de Input van het Project samen:** vat dit project samen </li><li> **vat de Output van het Project samen:** Keert korte beschrijvingen van het doel en de status van het project terug, geeft voorbeelden van taken die worden voltooid en die nog in behandeling zijn, en verstrekt sommige extra details en nota&#39;s.</li><li> **produceer/verfijnen de Input van de Formule:** &quot;herschrijf deze formule om de ongeldige uitdrukkingsfout te verwijderen.&quot; </li><li> **produceer/verfijnen de Output van de Formule:** Gegenereerde of verfijnde formule. </li></ul>**Nota:** De Medewerker AI kan een paar ogenblikken nemen om de herziene formule, afhankelijk van de grootte en de ingewikkeldheid van de formule te produceren. | Nee  |
 
