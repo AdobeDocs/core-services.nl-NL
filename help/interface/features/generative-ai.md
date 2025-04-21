@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
+source-git-commit: 4c0e9ef974ab31a7d82a61c3a69f7d76389774f9
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 1%
+source-wordcount: '1314'
+ht-degree: 2%
 
 ---
 
@@ -77,7 +77,7 @@ Nadat u variaties hebt gemaakt, kunt u de inhoud op uw website gebruiken en het 
 
 ### Invoer- en uitvoervelden
 
-**Input:** de gebieden van de Input omvatten:
+Invoervelden zijn:
 
 * Aantal te genereren variaties
 * Publiek Source
@@ -85,9 +85,9 @@ Nadat u variaties hebt gemaakt, kunt u de inhoud op uw website gebruiken en het 
 * Aanvullende context
 * Door de klant gestuurde vragen
 
-**Output:** Gegenereerde Inhoud/het Exemplaar van de Markt. U kunt ook afbeeldingen genereren in Adobe Express met behulp van de generatieve AI-mogelijkheden van Firefly.
+De output is geproduceerde inhoud of marktexemplaar.
 
-Zie [ Beeld ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image) produceren om meer te leren.
+U kunt ook afbeeldingen genereren in Adobe Express met behulp van de generatieve AI-mogelijkheden van Firefly. [Meer informatie...](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)
 
 **Compatibel met Adobe Firefly:** ja
 
@@ -145,7 +145,7 @@ De campagne Beheerde Diensten van de Wolk gebruikt [ AI Medewerker voor de Versn
 
 ## AI Assistant in Customer Journey Analytics {#cja}
 
-Customer Journey Analytics gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant) om u te helpen productkennis en inzichten van Experience League ontdekken.
+Customer Journey Analytics gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) om u te helpen productkennis en inzichten van Experience League ontdekken.
 
 **herinnering van het Voorbeeld:** hoe ik berekende metrisch bouwt?
 
@@ -173,7 +173,7 @@ Bijvoorbeeld:
 
 * Invoer: _hoeveel datasets heb ik?_
 
-* Reactie: _de Operationele output van Inzichten hangt van meta-gegevens af die van bedrijfsobjecten van de Klant (Attributen, Soorten publiek, Dataflows, Datasets, Doelen, Schema&#39;s, en Bronnen) worden getrokken, en omvat een verbinding aan specifieke pagina UI die gevraagde gegevens bevat._
+* Reactie: De uitvoer van operationele inzichten is afhankelijk van de metagegevens die uit de zakelijke objecten van de klant zijn opgehaald (kenmerken, soorten publiek, gegevensstromen, gegevenssets, doelen, schema&#39;s en bronnen) en bevat een koppeling naar een specifieke UI-pagina met opgevraagde gegevens.
 
 Voor meer voorbeelden, zie de _Kennis van het Product_ en _Operationele Inzichten_ inputlijsten in [ AI Medewerker in Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
@@ -181,12 +181,22 @@ Voor meer voorbeelden, zie de _Kennis van het Product_ en _Operationele Inzichte
 
 ## Dynamic Chat in Marketo {#marketo}
 
-[ Dynamic Chat ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview) leidt tot AI-bijgewoonde gesprekken met aangepaste en vooraf goedgekeurde vragen en antwoorden, evenals gesprekssamenvatting |<ul><li> **produceer Vragen:** verstrek URLs waarvan de inhoud wordt gehaald en gebruikt om vragen/reacties te produceren. </li><li> **Samenvatting van de Gesprek:** produceert een samenvatting van een praatjegesprek. </li></ul> [ leer meer... ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | Nee |
+Met de generatieve AI-functies in Adobe Dynamic Chat kunt u de productiviteit van uw verkoopagenten optimaliseren, inzicht krijgen in de intentie van uw websitebezoeker en op een veilige manier op bezoekersvragen reageren. U kunt de vragen, de antwoorden, en de gesprekssamenvatting vooraf goedkeuren. [Meer informatie...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+
+**Compatibel met Firefly:** Nr
 
 ## AI Assistant in Workfront {#workfront}
 
-[ AI Medewerker ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) in Workfront helpt u uw werk verwezenlijken door in-app informatie en suggesties in een natuurlijk-taalgesprek aan te bieden. AI Assistant biedt de volgende functionaliteit: vat projecten/taken/problemen/documenten samen, geeft instructies of referentiegegevens die uit de Workfront-documentatie in Experience League zijn gehaald, genereert of verfijnt formules voor berekende aangepaste velden.  | <ul><li>**vat de Input van het Project samen:** vat dit project samen </li><li> **vat de Output van het Project samen:** Keert korte beschrijvingen van het doel en de status van het project terug, geeft voorbeelden van taken die worden voltooid en die nog in behandeling zijn, en verstrekt sommige extra details en nota&#39;s.</li><li> **produceer/verfijnen de Input van de Formule:** &quot;herschrijf deze formule om de ongeldige uitdrukkingsfout te verwijderen.&quot; </li><li> **produceer/verfijnen de Output van de Formule:** Gegenereerde of verfijnde formule. </li></ul>**Nota:** De Medewerker AI kan een paar ogenblikken nemen om de herziene formule, afhankelijk van de grootte en de ingewikkeldheid van de formule te produceren. | Nee  |
+Met AI Assistant in Workfront kunt u uw werk uitvoeren door informatie en suggesties in de app te bieden. U kunt:
 
+* Hiermee krijgt u samenvattingen van sommige objecten, zodat u de intentie of details van het object op een hoog niveau kunt bekijken.
+* Stel vragen en laat [!DNL AI Assistant] antwoorden zoeken op Experience League.
+* Krijg geproduceerde formules op uw herinneringen worden gebaseerd die. U kunt fouten in uw ongeldige douaneuitdrukkingen op berekende gebieden ook oplossen.
+* Zoek projecten, taken en problemen.
+
+[Meer informatie...](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+
+**Compatibel met Firefly:** Nr
 
 <!-- ## Experience Cloud applications that use AI
 
