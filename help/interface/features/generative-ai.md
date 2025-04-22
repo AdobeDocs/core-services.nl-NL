@@ -7,18 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: aad561869cdfa7ddbc66b296d0a46c8f49f83d94
+source-git-commit: b94bf94368312b3ed64a559da946a1be8ccb3c18
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 2%
+source-wordcount: '1118'
+ht-degree: 3%
 
 ---
 
-# AI in Experience Cloud-toepassingen
-
-Op deze pagina krijgt u meer inzicht in generatieve AI en hoe u deze kunt gebruiken in Experience Cloud-toepassingen. Leer welke productfuncties generatieve AI, AI Assistant gebruiken en of Adobe Firefly wordt ondersteund.
-
-## Over generatieve AI en AI Assistant
+# AI in Experience Cloud-producten
 
 Generatieve AI is een soort kunstmatige intelligentie die meer doet dan alleen vragen beantwoorden. Het _leidt tot_ inhoud en _antwoordt_ aan uw _herinneringen_ (vragen en verklaringen).
 
@@ -28,11 +24,13 @@ Generatieve AI is een soort kunstmatige intelligentie die meer doet dan alleen v
 
 Als je nog geen ervaring hebt met Experience Cloud, kun je snel met generatieve AI productkennis opdoen. Als ervaren gebruiker, kunt u operationele inzichten in seconden eerder dan uren ontdekken.
 
-### AI-assistent
+**Ongeveer AI Medewerker**
 
-[ AI Medewerker ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing) is een gesprekshulpmiddel dat in Experience Platform en verwante toepassingen wordt gesteund. Gebruik het om uw werkschema&#39;s te versnellen, uw productkennis te verbeteren, problemen op te lossen, of door informatie te zoeken. In bepaalde toepassingen, laat AI Medewerker u operationele inzichten onmiddellijk ontdekken.
+AI Assistant is een conversatiegereedschap dat wordt ondersteund in Experience Platform en verwante toepassingen. Gebruik het om uw werkschema&#39;s te versnellen, uw productkennis te verbeteren, problemen op te lossen, of door informatie te zoeken. In bepaalde toepassingen, laat AI Medewerker u operationele inzichten onmiddellijk ontdekken.
 
 De antwoorden van Experience League op productkennis zijn verifieerbaar en worden met koppelingen genoemd. Leer over de types van [ op doelstelling-gebaseerde herinneringen ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) om de meesten uit AI Medewerker te krijgen.
+
+[Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -44,7 +42,9 @@ In AI Assistant, security is the priority:
 * It's audit-ready: Responses are attributable to source documents.
 * Enterprise controls are in place to manage who has AI access in the company. -->
 
-## Toepassingen met functies die ondersteuning bieden voor AI
+## Beschikbaarheid van AI in Experience Cloud-producten
+
+Leer meer over ondersteuning voor generatieve AI of AI Assistant in Experience Cloud-producten en of Adobe Firefly wordt ondersteund.
 
 * [GenStudio for Performance Marketing](#gspm)
 * [Variaties genereren in AEM Sites (Cloud Service)](#aem-sites)
@@ -62,135 +62,99 @@ In AI Assistant, security is the priority:
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[ GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) is een generatief AI-gedreven platform met mogelijkheden die kunnen transformeren hoe de marketing inhoud wordt gecreeerd, herzien, gedeeld en geanalyseerd.
+GenStudio for Performance Marketing is een AI-platform dat u de mogelijkheid biedt om marketinginhoud te genereren en te beheren die voldoet aan uw merkstandaarden en voldoet aan uw bedrijfsbeleid. Inhoud genereren voor e-mails, metagegevens, LinkedIn-advertenties, weergaveadvertenties en banners.
 
-Op [ creeer ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview) huis, kunt u high-Performance, ervaringen on-brand tot stand brengen. Inhoud genereren voor:
+U kunt GenStudio for Performance Marketing ook trainen op uw merk met voorbeelden, beschrijvingen van klantenpersonen en producten, en merkrichtlijnen.
 
-* E-mails
-* Metaadvertenties
-* LinkedIn-advertenties
-* Advertenties weergeven
-* Banners
+[Meer informatie](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
 
-U kunt GenStudio for Performance Marketing ook trainen op uw merk met voorbeelden, beschrijvingen van klantenpersonen en producten, en merkrichtlijnen. [Meer informatie...](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview)
-
-**Compatibel met Adobe Firefly:** Gepland
+Verenigbaarheid met Adobe Firefly: **Gepland**
 
 ### Variaties genereren in Experience Manager Sites {#aem-sites}
 
-[ produceer Variaties ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations) in AEM Sites gebruik generatieve AI om inhoudvariaties tot stand te brengen die op herinneringen worden gebaseerd. Deze herinneringen worden of verstrekt door [ Adobe ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#get-started) of gecreeerd en door [ gebruikers ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#create-prompt) geleid.
+Bij Variaties genereren in AEM Sites wordt gebruikgemaakt van generatieve AI om inhoudvariaties te maken op basis van aanwijzingen. Deze aanwijzingen zijn afkomstig van Adobe of zijn gemaakt en beheerd door u.
 
-Nadat u variaties hebt gemaakt, kunt u de inhoud op uw website gebruiken en het succes ervan meten met de functie Experimenteren in Edge Delivery Services.
+Nadat u variaties hebt gemaakt, kunt u de inhoud op uw website gebruiken en het succes ervan meten met de functie Experimenteren in Edge Delivery Services. U kunt ook afbeeldingen genereren in Adobe Express met behulp van de generatieve AI-mogelijkheden van Firefly.
 
-### Invoer- en uitvoervelden
+[Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)
 
-Invoervelden zijn:
-
-* Aantal te genereren variaties
-* Publiek Source
-* Doelgroep publiek
-* Aanvullende context
-* Door de klant gestuurde vragen
-
-De output is geproduceerde inhoud of marktexemplaar.
-
-U kunt ook afbeeldingen genereren in Adobe Express met behulp van de generatieve AI-mogelijkheden van Firefly. [Meer informatie...](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)
-
-**Compatibel met Adobe Firefly:** ja
+Verenigbaarheid met Adobe Firefly: **ja**
 
 ## AI Assistant in Journey Optimizer {#journey-optimizer}
 
-In Journey Optimizer kunt u met AI Assistant productkennis en operationele inzichten opdoen.
+In Journey Optimizer gebruikt u AI Assistant om productkennis en operationele inzichten op te doen. Bijvoorbeeld, vraag _hoeveel levende activiteiten ik in één zandbak van Journey Optimizer kan hebben?_ Je ontvangt je antwoord meteen van Experience League en andere Adobe-gegevenswinkels.
 
-**de kennis van het Product:** AI Medewerker vraagt de gegevensopslag van Adobe (zoals het productdocumentatie van Experience League) voor product insight. De output is klantgewaarmerkt.
+AI Assistant helpt ook met operationele inzichten (bèta). U kunt bijvoorbeeld snel leren hoeveel reizen er de afgelopen zeven dagen zijn gemaakt.
 
-Voorbeeld:
+Voor operationele inzichten, vraagt de Medewerker van AI een klant-specifieke gegevensopslag. De gegevensopslag bevat gecentraliseerde, operationele gegevens over [!UICONTROL Journeys]. Deze functie is onduidelijk voor de klant en haalt alleen metagegevens van zakelijke objecten op. Er worden geen gegevens in uw sandbox geopend.
 
-* _Hoeveel levende activiteiten kan ik in één zandbak van Adobe Journey Optimizer hebben?_
+[Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant).
 
-**Operationele Inzichten (Beta)** - AI Medewerker vraagt een klant-specifieke operationele opslag van inzichten die gecentraliseerde operationele gegevens over Reizen bevat, die door de zandbak van de klant wordt verdeeld. Deze functie haalt alleen metagegevens van zakelijke objecten en heeft geen toegang tot gegevens in de sandbox.
-
-Voorbeeld:
-
-* _hoeveel Reizen in de laatste zeven dagen zijn gecreeerd?_
-
-De uitvoer van de operationele inzichten is afhankelijk van metagegevens die uit de zakelijke objecten van de klant zijn gehaald. Deze output is klantgewaarmerkt.
-
-_de Reizen_ is het enige voorwerp beschikbaar voor AI Medewerker in Journey Optimizer, en de meta-gegevens worden getrokken uit de huidige zandbak. [ leer meer... ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant).
-
-**Compatibel met Adobe Firefly:** Nr
+Verenigbaarheid met Adobe Firefly: **Nr**
 
 ## AI Assistant in Journey Optimizer Prime en Ultimate {#ajo-prime-ultimate}
 
-Journey Optimizer Prime en Ultimate gebruiken [ AI Medewerker voor de Versneller van de Inhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) om pro-actieve suggesties van de inhoudsvariatie voor tekst en beelden te brengen.
+Journey Optimizer Prime en Ultimate gebruiken AI Assistant voor Content Accelerator om suggesties voor het variëren van proactieve inhoud voor tekst en afbeeldingen te introduceren.
 
-Deze eigenschap is beschikbaar voor [ e-mail ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-email), [ duw berichten ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-push), [ Web-pagina ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-web), [ inhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-experimentation), en [ SMS ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-sms) kanalen. Deze biedt snel gebaseerde tekst en het genereren van afbeeldingen.
+Deze functie is beschikbaar voor e-mail, pushberichten, webpagina&#39;s, inhoud en SMS-kanalen. Deze biedt snel gebaseerde tekst en het genereren van afbeeldingen. Uitvoer van Content Accelerator in AJO Prime en Ultimate is gegarandeerd.
 
-**Nota:** de Output van de Versneller van de Inhoud in AJO Prime en Ultimate wordt gecompenseerd.
+[Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
-**Compatibel met Adobe Firefly:** ja
+Verenigbaarheid met Adobe Firefly: **ja**
 
 ## AI Assistant in Journey Optimizer B2B edition {#ajo-b2b}
 
-Journey Optimizer B2B edition gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) om u met productkennis te helpen, die op uw herinneringen van de productkennis wordt gebaseerd.
+Journey Optimizer B2B edition gebruikt AI Assistant om u te helpen met productkennis.
 
-**de kennis van het Product** - vraagt de gegevensopslag van Adobe (zoals het productdocumentatie van Experience League) voor product insight. Deze output is klantgewaarmerkt.
+[Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
-* **Input:** hoe verzend ik een e-mail in een rekeningsreis?
-
-* **Output:** de impulsen van de Kennis van het Product van Experience League (openbare documentatie). [Meer informatie...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/question-guidance)
-
-**Compatibel met Adobe Firefly:** Nr
+Verenigbaarheid met Adobe Firefly: **Nr**
 
 ## AI Assistant in Campagne Managed Cloud Services {#campaign-cs}
 
-De campagne Beheerde Diensten van de Wolk gebruikt [ AI Medewerker voor de Versneller van de Inhoud ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs). Met deze functie kunt u automatisch gepersonaliseerde, aantrekkelijke en effectieve inhoud genereren op basis van uw marketingdoelstelling, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, tinten en meer met een merknaam. U kunt het over kanalen als [ e-mail ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content) gebruiken, [ SMS ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms), en [ duw ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push).
+Campagne Managed Cloud Services gebruikt AI Assistant voor Inhoud versnellen. Met deze functie kunt u automatisch gepersonaliseerde, aantrekkelijke en effectieve inhoud genereren op basis van uw marketingdoelstelling, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, tinten en meer met een merknaam. U kunt het gebruiken over kanalen zoals e-mail, SMS, en duw.
 
 **Nota:** de Output van de Versneller van de Inhoud in de Campagne Beheerde Diensten van de Wolk wordt bevestigd.
 
-**Compatibel met Adobe Firefly:** ja
+[Meer informatie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
+
+Verenigbaarheid met Adobe Firefly: **ja**
 
 ## AI Assistant in Customer Journey Analytics {#cja}
 
-Customer Journey Analytics gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) om u te helpen productkennis en inzichten van Experience League ontdekken.
+Customer Journey Analytics gebruikt AI Assistant om u te helpen productkennis en -inzichten van Experience League te ontdekken. Als u een nieuwe gebruiker bent, leert u snel de concepten van Customer Journey Analytics en neemt u uzelf op voor producten en functies.
 
-**herinnering van het Voorbeeld:** hoe ik berekende metrisch bouwt?
+Ervaren gebruikers krijgen geavanceerde gebruiksgevallen of leren strategieën om taken snel uit te voeren. Begrijp concepten, los problemen op, of onderzoek naar informatie.
 
-De nieuwe gebruikers kunnen het gebruiken om de concepten van Customer Journey Analytics te leren en zich aan boord te nemen aan producten en eigenschappen die u niet kent.
+[Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Ervaren gebruikers kunnen de Medewerker van AI gebruiken om geavanceerdere gebruiksgevallen of uiteinden en trucs voor te stellen en taken in een snel tempo uit te voeren. Begrijp concepten, los problemen op, of onderzoek naar informatie. [Meer informatie...](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant#knowledge)
-
-**Compatibel met Adobe Firefly:** Nr
+Verenigbaarheid met Adobe Firefly: **Nr**
 
 ## Intelligente bijschriften in Customer Journey Analytics {#cja-captions}
 
-[ Intelligente Bijschriften ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) in Customer Journey Analytics verstrekken natuurlijk-taalinzichten voor de het vaakst gebruikte beelden van Workspace.
+Intelligente bijschriften in Customer Journey Analytics bieden inzichten in de natuurlijke taal voor de meest gebruikte Workspace-visualisaties. Intelligente bijschriften zijn ideaal voor analisten die verhalen en context nodig hebben om met andere gebruikers te delen. Zakelijke gebruikers kunnen het gebruiken om snel op hoog niveau onderweg te ontdekken.
 
-**Compatibel met Adobe Firefly:** Nr
+[Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+
+Verenigbaarheid met Adobe Firefly: **Nr**
 
 ## AI Assistant in Real-Time CDP {#rtcdp}
 
-Real-Time CDP gebruikt [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) om u te helpen productkennis en inzichten van Experience League ontdekken. [ krijgt uiteinden ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions) op het stellen van vragen.
+Real-Time CDP gebruikt AI Assistant om u te helpen met productkennis van Experience League. Het biedt ook operationele inzichten (in bèta). De Medewerker van AI vraagt een klant-specifieke operationele opslag van inzichten die gecentraliseerde operationele gegevens bevat, die in uw zandbak van AEP worden verdeeld. Het systeem trekt meta-gegevens slechts van Attributen, Soorten publiek, Dataflows, Datasets, Doelen, Schema&#39;s, en Bronnen, en heeft geen toegang tot gegevens binnen de zandbak.
 
-Het biedt ook operationele inzichten (in bèta). De Medewerker van AI vraagt een klant-specifieke operationele opslag van inzichten die gecentraliseerde operationele gegevens bevat, die door de zandbak van AEP van de klant worden verdeeld. Het trekt meta-gegevens slechts van Attributen, Soorten publiek, Dataflows, Datasets, Doelen, Schema&#39;s, en Bronnen, en heeft geen toegang tot gegevens binnen de zandbak.
+Als u bijvoorbeeld een query uitvoert naar een publiek, heeft [!DNL AI Assistant] toegang tot de naam van het publiek en andere bijbehorende metagegevens, maar heeft  geen toegang tot de profielen in dat publiek.
 
-Voor een query over een publiek heeft [!DNL AI Assistant] bijvoorbeeld toegang tot de naam van het publiek en andere bijbehorende metagegevens, maar heeft  geen toegang tot de profielen in dat publiek.
+[Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
-Bijvoorbeeld:
-
-* Invoer: _hoeveel datasets heb ik?_
-
-* Reactie: De uitvoer van operationele inzichten is afhankelijk van de metagegevens die uit de zakelijke objecten van de klant zijn opgehaald (kenmerken, soorten publiek, gegevensstromen, gegevenssets, doelen, schema&#39;s en bronnen) en bevat een koppeling naar een specifieke UI-pagina met opgevraagde gegevens.
-
-Voor meer voorbeelden, zie de _Kennis van het Product_ en _Operationele Inzichten_ inputlijsten in [ AI Medewerker in Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
-
-**Compatibel met Firefly:** Nr
+Verenigbaarheid met Adobe Firefly: **Nr**
 
 ## Dynamic Chat in Marketo {#marketo}
 
-Met de generatieve AI-functies in Adobe Dynamic Chat kunt u de productiviteit van uw verkoopagenten optimaliseren, inzicht krijgen in de intentie van uw websitebezoeker en op een veilige manier op bezoekersvragen reageren. U kunt de vragen, de antwoorden, en de gesprekssamenvatting vooraf goedkeuren. [Meer informatie...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+Met de generatieve AI-functies in Adobe Dynamic Chat kunt u de productiviteit van uw verkoopagenten optimaliseren, inzicht krijgen in de intentie van uw websitebezoeker en op een veilige manier op bezoekersvragen reageren. U kunt de vragen, de antwoorden, en de gesprekssamenvatting vooraf goedkeuren.
 
-**Compatibel met Firefly:** Nr
+[Meer informatie](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+
+Verenigbaarheid met Adobe Firefly: **Nr**
 
 ## AI Assistant in Workfront {#workfront}
 
@@ -201,6 +165,6 @@ Met AI Assistant in Workfront kunt u uw werk uitvoeren door informatie en sugges
 * Krijg geproduceerde formules op uw herinneringen worden gebaseerd die. U kunt fouten in uw ongeldige douaneuitdrukkingen op berekende gebieden ook oplossen.
 * Zoek projecten, taken en problemen.
 
-[Meer informatie...](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+[Meer informatie](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
-**Compatibel met Firefly:** Nr
+Verenigbaarheid met Adobe Firefly: **Nr**
