@@ -1,15 +1,15 @@
 ---
 title: AI in Experience Cloud-toepassingen
-description: Leer hoe Experience Cloud-toepassingen generatieve AI en AI Assistant gebruiken.
+description: Leer meer over generatieve AI en hoe Experience Cloud-toepassingen genAI en AI Assistant gebruiken.
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 7060cc75e06a00dd06475958f94b03ceaf39ae62
+source-git-commit: aad561869cdfa7ddbc66b296d0a46c8f49f83d94
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1313'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,16 @@ Als je nog geen ervaring hebt met Experience Cloud, kun je snel met generatieve 
 
 De antwoorden van Experience League op productkennis zijn verifieerbaar en worden met koppelingen genoemd. Leer over de types van [ op doelstelling-gebaseerde herinneringen ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) om de meesten uit AI Medewerker te krijgen.
 
+<!-- **Your data remains yours**
+
+In AI Assistant, security is the priority:
+
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company. -->
+
 ## Toepassingen met functies die ondersteuning bieden voor AI
 
 * [GenStudio for Performance Marketing](#gspm)
@@ -52,7 +62,7 @@ De antwoorden van Experience League op productkennis zijn verifieerbaar en worde
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[ GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) is geen eigenschap maar een generatief AI-gedreven platform. Zijn generatieve AI mogelijkheden transformeren hoe de marketing inhoud wordt gecreeerd, herzien, gedeeld, en geanalyseerd.
+[ GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) is een generatief AI-gedreven platform met mogelijkheden die kunnen transformeren hoe de marketing inhoud wordt gecreeerd, herzien, gedeeld en geanalyseerd.
 
 Op [ creeer ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview) huis, kunt u high-Performance, ervaringen on-brand tot stand brengen. Inhoud genereren voor:
 
