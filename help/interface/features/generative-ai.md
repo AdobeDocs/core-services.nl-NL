@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: cadc0d7eaaa9acb868f96561c2a562d9d29fc9ac
+source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1169'
 ht-degree: 2%
 
 ---
@@ -36,15 +36,16 @@ Generatieve AI is een soort kunstmatige intelligentie die meer doet dan alleen v
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
-**Uw gegevens blijven van u**
+<!-- **Your data remains yours**
 
-In AI Assistant is beveiliging de prioriteit:
+In AI Assistant, security is the priority:
 
-* De gegevens van de klant worden niet gebruikt om taalmodellen op te leiden.
-* AI Assistant kijkt alleen naar de documenten die u eraan geeft. U hebt de controle.
-* Uw personen kunnen AI Assistant alleen gebruiken voor documenten die ze kunnen openen.
-* Het is klaar voor controle: de reacties zijn toe te schrijven aan brondocumenten.
-* De controles van de onderneming zijn op zijn plaats om te leiden wie AI toegang in het bedrijf heeft.
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company.
+ -->
 
 ## Beschikbaarheid van AI in Experience Cloud-producten
 
