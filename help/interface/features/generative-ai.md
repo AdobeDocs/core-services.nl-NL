@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 835bcd684384d1c8809fba062c9e9d8edd4de535
+source-git-commit: c97ace2c192517a49a01c4247d9f6b4220e0514d
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -136,7 +136,13 @@ Verenigbaarheid met Adobe Firefly: **Nr**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
-Intelligente bijschriften in [!DNL Customer Journey Analytics] bieden inzicht in de natuurlijke taal voor de meest gebruikte Workspace-visualisaties. Intelligente bijschriften zijn ideaal voor analisten die verhalen en context nodig hebben om met andere gebruikers te delen. Zakelijke gebruikers kunnen het gebruiken om snel op hoog niveau onderweg te ontdekken.
+U kunt _Intelligente Bijschriften_ in [!DNL Customer Journey Analytics] gebruiken om natuurlijk-taalinzichten voor de het vaakst gebruikte Workspace visualisaties te krijgen. Intelligente bijschriften zijn ideaal voor analisten die verhalen en context nodig hebben om met andere gebruikers te delen. Zakelijke gebruikers kunnen het gebruiken om snel op hoog niveau onderweg te ontdekken.
+
+Bijvoorbeeld:
+
+* **Input:** in CJA, stel een gesteunde visualisatie (met inbegrip van Lijn, Gebied, Stroom, of Vallout) in werking, dan klik **[!UICONTROL Intelligent captions]**.
+
+* **Output:** de mening auto-geproduceerde, natuurlijk-taaltitels die context en zeer belangrijke taken tonen. Vervolgens kunt u acties ondernemen met betrekking tot de gegenereerde gegevens, zoals controleren, kopiëren en delen met uw organisatie. [ zie hoe ](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
