@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
+source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1144'
 ht-degree: 2%
 
 ---
 
 # AI in Experience Cloud-producten
 
-Deze pagina helpt u te leren welke producten generatieve AI [!DNL AI Assistant] ondersteunen en of Adobe Firefly compatibel is. U vindt ook koppelingen naar productspecifieke Help-bronnen over het gebruik van AI in Experience Cloud.
+Deze pagina helpt u te leren welke producten generatieve AI [!DNL AI Assistant] ondersteunen en of Adobe Firefly compatibel is. U vindt ook koppelingen naar informatie over het gebruik van AI in Experience Cloud-toepassingen.
 
 **Ongeveer Generatieve AI**
 
@@ -28,11 +28,11 @@ Generatieve AI is een soort kunstmatige intelligentie die meer doet dan alleen v
 
 **wat is [!DNL AI Assistant]?**
 
-[!DNL AI Assistant] is een conversatiegereedschap dat wordt ondersteund in Experience Platform en verwante toepassingen. Gebruik het om _productkennis_ snel te bereiken en, in gesteunde toepassingen, _operationele inzichten_ bijna onmiddellijk te bereiken.
+[!DNL AI Assistant] is een conversatiegereedschap dat wordt ondersteund in Experience Platform en verwante toepassingen. Gebruik het om _productkennis_ en, in gesteunde producten snel te bereiken, _operationele inzichten_ bijna onmiddellijk.
 
-* **Kennis van het Product:** de kennis van het Product verwijst naar concepten en onderwerpen die in de documentatie van Experience League worden gebaseerd. De antwoorden van Experience League zijn controleerbaar en worden met links genoemd. Leer over de types van [ op doelstelling-gebaseerde herinneringen ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) om het meeste uit [!DNL AI Assistant] te krijgen.
+* **de kennis van het Product:** de kennis van het Product verwijst naar concepten en onderwerpen die in de documentatie van Experience League worden gegrond. Leer hoe te om efficiënte, [ op doelstelling-gebaseerde herinneringen ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) tot stand te brengen om het meeste uit [!DNL AI Assistant] te krijgen. Alle antwoorden van Experience League zijn controleerbaar en worden met links genoemd.
 
-* **Operationele Inzichten:** de Operationele inzichten verwijzen naar antwoordenAI Medewerker produceert over uw voorwerpen van meta- gegevens (attributen, publiek, dataflows, datasets, bestemmingen, reizen, schema&#39;s, en bronnen), met inbegrip van tellingen, raadplegingen, en lijneffect. Met AI Assistant kunt u operationele inzichten in seconden in plaats van uren detecteren.
+* **Operationele inzichten:** [ Operationele inzichten ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) verwijzen naar geproduceerde reacties over uw meta-gegevensvoorwerpen (attributen, publiek, dataflows, datasets, etc.). Met AI Assistant kunt u in seconden bereiken wat anders uren of dagen kan duren.
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
@@ -49,7 +49,7 @@ In AI Assistant, security is the priority:
 
 ## Beschikbaarheid van AI in Experience Cloud-producten
 
-Meer informatie over ondersteuning voor generatieve AI of [!DNL AI Assistant] in Experience Cloud-producten. Ondersteuning voor Adobe Firefly wordt ook aangegeven.
+Leer hoe de volgende Experience Cloud-toepassingen generatieve AI of [!DNL AI Assistant] ondersteunen. Ondersteuning voor Adobe Firefly wordt ook aangegeven.
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager Sites]](#aem-sites)
@@ -70,7 +70,7 @@ U kunt GenStudio for Performance Marketing ook trainen op uw merk met voorbeelde
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
 
-Verenigbaarheid met Adobe Firefly: **ja**
+De verenigbaarheid van Adobe Firefly: **ja**
 
 ## Adobe [!DNL Experience Manager Sites] {#aem-sites}
 
@@ -90,9 +90,10 @@ Invoervelden zijn:
 
 De output is geproduceerde inhoud of marktexemplaar.
 
+De verenigbaarheid van Adobe Firefly: **ja**
+
 [ leer meer over produceer Variaties ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
-Verenigbaarheid met Adobe Firefly: **ja**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
@@ -114,7 +115,7 @@ Hier volgt een voorbeeldinput voor operationele inzichten:
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant).
 
-Verenigbaarheid met Adobe Firefly: **Nr**
+De verenigbaarheid van Adobe Firefly: **Nr**
 
 ### AI Assistant voor het genereren van inhoud (AJO Prime en Ultimate) {#ajo-prime}
 
@@ -124,7 +125,7 @@ Deze functie is beschikbaar voor e-mail, pushberichten, webpagina&#39;s, inhoud 
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
-Verenigbaarheid met Adobe Firefly: **ja**
+De verenigbaarheid van Adobe Firefly: **ja**
 
 ## [!DNL Journey Optimizer B2B Edition] {#ajo-b2b}
 
@@ -138,7 +139,7 @@ Voorbeeld-invoer:
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
-Verenigbaarheid met Adobe Firefly: **Nr**
+De verenigbaarheid van Adobe Firefly: **Nr**
 
 ## [!DNL Campaign] Beheerde cloudservices {#campaign-cs}
 
@@ -148,7 +149,7 @@ Met Campagne Managed Cloud Services wordt [!DNL AI Assistant] gebruikt voor het 
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
-Verenigbaarheid met Adobe Firefly: **ja**
+De verenigbaarheid van Adobe Firefly: **ja**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
@@ -162,7 +163,7 @@ Ervaren gebruikers krijgen geavanceerde gebruiksgevallen of leren strategieën o
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Verenigbaarheid met Adobe Firefly: **Nr**
+De verenigbaarheid van Adobe Firefly: **Nr**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
@@ -176,7 +177,7 @@ Bijvoorbeeld:
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
-Verenigbaarheid met Adobe Firefly: **Nr**
+De verenigbaarheid van Adobe Firefly: **Nr**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
@@ -186,7 +187,7 @@ Als u bijvoorbeeld een query uitvoert naar een publiek, heeft [!DNL AI Assistant
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
-Verenigbaarheid met Adobe Firefly: **Nr**
+De verenigbaarheid van Adobe Firefly: **Nr**
 
 ## [!DNL Marketo] {#marketo}
 
@@ -194,7 +195,7 @@ Met de generatieve AI-functies in Adobe Dynamic Chat kunt u de productiviteit va
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
-Verenigbaarheid met Adobe Firefly: **Nr**
+De verenigbaarheid van Adobe Firefly: **Nr**
 
 ## [!DNL Workfront] {#workfront}
 
@@ -207,4 +208,4 @@ Verenigbaarheid met Adobe Firefly: **Nr**
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
-Verenigbaarheid met Adobe Firefly: **Nr**
+De verenigbaarheid van Adobe Firefly: **Nr**
