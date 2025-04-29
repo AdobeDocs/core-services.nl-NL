@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
+source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1151'
 ht-degree: 2%
 
 ---
 
-# AI in Experience Cloud-producten
+# Generatieve AI in Experience Cloud-producten
 
 Deze pagina helpt u te leren welke producten generatieve AI [!DNL AI Assistant] ondersteunen en of Adobe Firefly compatibel is. U vindt ook koppelingen naar informatie over het gebruik van AI in Experience Cloud-toepassingen.
 
@@ -57,7 +57,6 @@ Leer hoe de volgende Experience Cloud-toepassingen generatieve AI of [!DNL AI As
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] Beheerde cloudservices](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
-* [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
 * [[!DNL Marketo]](#marketo)
 * [[!DNL Workfront]](#workfront)
@@ -153,9 +152,11 @@ De verenigbaarheid van Adobe Firefly: **ja**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics gebruikt [!DNL AI Assistant] om u te helpen productkennis en -inzichten van Experience League te ontdekken.
+Customer Journey Analytics biedt [!DNL AI Assistant] voor productkennis en -inzichten en [!UICONTROL Intelligent Captions] voor Workspace-visualisaties.
 
-Als u een nieuwe gebruiker bent, leert u snel de concepten van Customer Journey Analytics en neemt u uzelf op voor producten en functies. Bijvoorbeeld:
+**AI Medewerker**
+
+Kennis en inzichten van producten van Experience League ontdekken. Als u een nieuwe gebruiker bent, leert u snel de concepten van Customer Journey Analytics en neemt u uzelf op voor producten en functies. Bijvoorbeeld:
 
 * _hoe ik een e-mail in een rekeningsreis verzend?_
 
@@ -163,9 +164,7 @@ Ervaren gebruikers krijgen geavanceerde gebruiksgevallen of leren strategieën o
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-De verenigbaarheid van Adobe Firefly: **Nr**
-
-## [!DNL Customer Journey Analytics] {#cja-captions}
+**Intelligente Bijschriften**
 
 U kunt _Intelligente Bijschriften_ in [!DNL Customer Journey Analytics] gebruiken om natuurlijk-taalinzichten voor de het vaakst gebruikte Workspace visualisaties te krijgen. Intelligente bijschriften zijn ideaal voor analisten die verhalen en context nodig hebben om met andere gebruikers te delen. Zakelijke gebruikers kunnen het gebruiken om snel op hoog niveau onderweg te ontdekken.
 
