@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
+source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1163'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Meer informatie over ondersteuning voor generatieve AI of [!DNL AI Assistant] in
 * [[!DNL Experience Manager Sites]](#aem-sites)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
-* [[!DNL Campaign] Managed Services (Campagne v8 Web)](#campaign-cs)
+* [[!DNL Campaign] Beheerde cloudservices](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
 * [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
@@ -140,9 +140,9 @@ Voorbeeld-invoer:
 
 Verenigbaarheid met Adobe Firefly: **Nr**
 
-## [!DNL Campaign] Managed Services (Campagne v8 Web) {#campaign-cs}
+## [!DNL Campaign] Beheerde cloudservices {#campaign-cs}
 
-Campagne v8 (Campagne Managed Cloud Services) gebruikt [!DNL AI Assistant] voor het genereren van inhoud. Met deze functie kunt u automatisch gepersonaliseerde, aantrekkelijke en effectieve inhoud genereren op basis van uw marketingdoelstelling, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, tinten en meer met een merknaam. U kunt het gebruiken over kanalen zoals e-mail, SMS, en duw.
+Met Campagne Managed Cloud Services wordt [!DNL AI Assistant] gebruikt voor het genereren van inhoud. Met deze functie kunt u automatisch gepersonaliseerde, aantrekkelijke en effectieve inhoud genereren op basis van uw marketingdoelstelling, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, tinten en meer met een merknaam. U kunt het gebruiken over kanalen zoals e-mail, SMS, en duw.
 
 **Nota:** de Output van inhoudsgeneratie in de Beheerde Diensten van de Wolk van de Campagne wordt bevestigd.
 
