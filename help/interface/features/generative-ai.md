@@ -1,22 +1,22 @@
 ---
 title: AI in Experience Cloud-toepassingen
-description: Leer over generatieve AI en hoe de toepassingen van Experience Cloud genAI en  [!DNL AI Assistant] gebruiken.
+description: Leer over generatieve AI (GenAI) en hoe de toepassingen van Experience Cloud gebruiken GenAI en  [!DNL AI Assistant].
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
+source-git-commit: 47d3a948511714ea0ce682c205eb29118d36ce62
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1412'
 ht-degree: 2%
 
 ---
 
 # Generatieve AI in Experience Cloud-producten
 
-Deze pagina helpt u te leren welke producten generatieve AI [!DNL AI Assistant] ondersteunen en of Adobe Firefly compatibel is. U vindt ook koppelingen naar informatie over het gebruik van AI in Experience Cloud-toepassingen.
+Op deze pagina kunt u zien welke producten generatieve AI (GenAI), [!DNL AI Assistant] ondersteunen en of Adobe Firefly compatibel is. U vindt ook koppelingen naar informatie over verschillende manieren waarop u AI kunt gebruiken in Experience Cloud-toepassingen.
 
 **Ongeveer Generatieve AI**
 
@@ -34,7 +34,7 @@ Generatieve AI is een soort kunstmatige intelligentie die meer doet dan alleen v
 
 * **Operationele inzichten:** [ Operationele inzichten ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) verwijzen naar geproduceerde reacties over uw meta-gegevensvoorwerpen (attributen, publiek, dataflows, datasets, etc.). Met AI Assistant kunt u in seconden bereiken wat anders uren of dagen kan duren.
 
-[Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[ Leer over Medewerker AI ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -52,7 +52,7 @@ In AI Assistant, security is the priority:
 Leer hoe de volgende Experience Cloud-toepassingen generatieve AI of [!DNL AI Assistant] ondersteunen. Ondersteuning voor Adobe Firefly wordt ook aangegeven.
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
-* [[!DNL Experience Manager Sites]](#aem-sites)
+* [[!DNL Experience Manager]](#aem)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] Beheerde cloudservices](#campaign-cs)
@@ -71,7 +71,11 @@ U kunt GenStudio for Performance Marketing ook trainen op uw merk met voorbeelde
 
 De verenigbaarheid van Adobe Firefly: **ja**
 
-## Adobe [!DNL Experience Manager Sites] {#aem-sites}
+## Adobe [!DNL Experience Manager] {#aem}
+
+In de volgende secties wordt een korte beschrijving gegeven van generatieve AI in AEM-toepassingen.
+
+### Experience Manager Sites
 
 In AEM Sites kunt u _[!UICONTROL Generate Variations]_gebruiken. Deze functie gebruikt generatieve kunstmatige intelligentie om inhoudvariaties te creëren die op uw inputherinneringen worden gebaseerd. Prompts worden geleverd door Adobe of gemaakt en beheerd door u.
 
@@ -93,6 +97,15 @@ De verenigbaarheid van Adobe Firefly: **ja**
 
 [ leer meer over produceer Variaties ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
+### Experience Manager Assets
+
+[!UICONTROL Content Hub] is beschikbaar als onderdeel van [!DNL Experience Manager Assets as a Cloud Service] voor het democratiseren van de toegang tot online-inhoud voor organisaties en hun zakelijke partners. Het richt zich op het distribueren van middelen voor activering op schaal en het creëren van varianten van on-brand-inhoud met het oog op verbeterde marketingflexibiliteit.
+
+In Content Hub kunt u inhoud maken met Adobe Express (als u Adobe Express-rechten hebt). U kunt bestaande inhoud bewerken met eenvoudige gereedschappen, merkvariaties produceren met sjablonen en merkelementen en inhoud maken met de nieuwste GenAI-mogelijkheden van [!DNL Adobe Firefly] .
+
+[Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+
+De verenigbaarheid van Adobe Firefly: **ja**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
@@ -152,7 +165,11 @@ De verenigbaarheid van Adobe Firefly: **ja**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics biedt [!DNL AI Assistant] voor productkennis en -inzichten en [!UICONTROL Intelligent Captions] voor Workspace-visualisaties.
+Met Customer Journey Analytics kunt u op de volgende manieren generatieve AI gebruiken:
+
+* [!DNL AI Assistant] voor productkennis en -inzichten
+* [!UICONTROL Intelligent Captions] in Workspace-visualisaties
+* AI en GenAI om metagegevens van elk element automatisch toe te wijzen in [!DNL Content Analytics]
 
 **AI Medewerker**
 
@@ -176,6 +193,12 @@ Bijvoorbeeld:
 
 [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
+**Content Analytics**
+
+Content Analytics gebruikt AI en GenAI om automatisch metagegevens van elk element toe te wijzen, zoals onderwerpen, scènes, voorgrondkleuren, enzovoort. Een kenmerk is een door AI toegewezen metagegevenstag waarmee wordt beschreven wat zich in een element of ervaring bevindt.
+
+Voorgrond `color: red` is bijvoorbeeld een automatisch toegewezen kenmerk. Met behulp van de visualisaties kunt u bepalen welke kenmerken van uw elementen het meest bijdragen aan de conversie. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+
 De verenigbaarheid van Adobe Firefly: **Nr**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
@@ -189,6 +212,21 @@ Als u bijvoorbeeld een query uitvoert naar een publiek, heeft [!DNL AI Assistant
 De verenigbaarheid van Adobe Firefly: **Nr**
 
 ## [!DNL Marketo] {#marketo}
+
+In Marketo is generatieve AI beschikbaar in Interactieve Webinars en Dynamic Chat.
+
+**Interactieve Webinars**
+
+Produceer automatisch hoofdstukken en samenvattingen voor uw geregistreerde webinars, die hen toegankelijker en gemakkelijker maken om voor uw publiek te navigeren. Functies:
+
+* Automatisch hoofdstuk genereren
+* Door AI gegenereerde tekstsamenvatting
+* Bewerkbare inhoud - gegenereerde hoofdstukken en samenvattingen wijzigen
+* Eenvoudige integratie - Voeg hoofdstukken en samenvattingen toe aan uw bestemmingspagina&#39;s door de HTML-code naar de webpagina-editor van uw keuze te kopiëren
+
+[Meer informatie](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+
+**Dynamic Chat**
 
 Met de generatieve AI-functies in Adobe Dynamic Chat kunt u de productiviteit van uw verkoopagenten optimaliseren, inzicht krijgen in de intentie van uw websitebezoeker en op een veilige manier op bezoekersvragen reageren. U kunt de vragen, de antwoorden, en de gesprekssamenvatting vooraf goedkeuren.
 
