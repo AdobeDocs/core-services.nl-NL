@@ -81,7 +81,7 @@ Voer deze stappen op de Create Nieuwe pagina van Source van Attributen van de Kl
 
       * **Markeringen:** identiteitskaart van de Alias beantwoordt aan de *waarde van de Code van de Integratie* onder [!UICONTROL Customer Settings], in het [ hulpmiddel van de Dienst van identiteitskaart van de Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl).
 
-      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ Klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) die u met elke bezoeker kunt associëren.
+      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ Klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) die u met elke bezoeker kunt associëren.
 
         Bijvoorbeeld, *&quot;crm_id&quot;* in:
 
@@ -89,13 +89,13 @@ Voer deze stappen op de Create Nieuwe pagina van Source van Attributen van de Kl
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers:herkenningstekens ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html).
+      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers:herkenningstekens ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=nl-NL).
 
         Bijvoorbeeld:
 
         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html).
+      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=nl-NL).
 
         Bijvoorbeeld:
 
@@ -164,4 +164,4 @@ In [!DNL Target], kunt u een Attribuut van de Klant van de [!UICONTROL Visitor P
 
 ![ de Attributen van de Klant van het Gebruik in Adobe Target ](assets/crs-add-attribute-target.png)
 
-Zie [ Creërend een Nieuw Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) in [!DNL Target] hulp.
+Zie [ Creërend een Nieuw Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=nl-NL) in [!DNL Target] hulp.

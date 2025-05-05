@@ -52,7 +52,7 @@ Een map met Experiencen Cloud-elementen delen met gebruikers van Creatives Cloud
 
 Nadat u alle gebruikers van het Creative Cloud hebt verwijderd, wordt de map niet meer gedeeld en hebben de gebruikers van het Creative Cloud geen toegang meer.
 
-Meer manieren om gedeelde activa te gebruiken omvatten het laden of het ruilen van activa in de [ Bibliotheek van Aanbiedingen ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target voor beelden in activiteiten.
+Meer manieren om gedeelde activa te gebruiken omvatten het laden of het ruilen van activa in de [ Bibliotheek van Aanbiedingen ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=nl-NL) in Adobe Target voor beelden in activiteiten.
 
 Nadat u een map naar het Creative Cloud hebt gedeeld, ziet u het logo van het Creative Cloud in de map.
 
@@ -60,6 +60,6 @@ Nadat u een map naar het Creative Cloud hebt gedeeld, ziet u het logo van het Cr
 
 Verwante hulp:
 
-* [ Creative Cloud Help - beheer en synchroniseer dossiers ](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
-* [ Hulp van het Creative Cloud - werk met anderen samen ](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [ Hulp van het Creative Cloud - de Veelgestelde vragen van Collaboration ](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [ Creative Cloud Help - beheer en synchroniseer dossiers ](https://helpx.adobe.com/nl/creative-cloud/help/sync-creative-cloud-files.html)
+* [ Hulp van het Creative Cloud - werk met anderen samen ](https://helpx.adobe.com/nl/creative-cloud/help/collaboration.html)
+* [ Hulp van het Creative Cloud - de Veelgestelde vragen van Collaboration ](https://helpx.adobe.com/nl/creative-cloud/help/collaboration-faq.html)

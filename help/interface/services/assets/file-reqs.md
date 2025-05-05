@@ -21,7 +21,7 @@ Bestandstypen en groottebeperkingen zijn toegestaan voor het delen van elementen
 
 ## Bestandstypen die zijn toegestaan voor uploaden {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
-Bestandstypen die u kunt uploaden, zijn de meeste afbeeldingen, documenten en multimedia. Zie [ Gesteunde Vormen ](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) voor informatie over dossierformaten in [!DNL Experience Cloud] Assets.
+Bestandstypen die u kunt uploaden, zijn de meeste afbeeldingen, documenten en multimedia. Zie [ Gesteunde Vormen ](https://helpx.adobe.com/nl/experience-manager/brand-portal/using/brand-portal-supported-formats.html) voor informatie over dossierformaten in [!DNL Experience Cloud] Assets.
 
 ## Beperkingen inzake bestandsgrootte {#section_410ED8E24DBD4136830AE679C6B10D88}
 

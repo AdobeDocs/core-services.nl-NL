@@ -99,7 +99,7 @@ Onder voorziening in Experience Cloud wordt verstaan:
 
 * De rechten van de gebruiker en het productbeheer worden uitgevoerd in [ Adobe Admin Console ](https://adminconsole.adobe.com/enterprise) (productverbinding).
 
-* **Belangrijk:** de beheerders van Analytics, zie [ de Gebruikers van Analytics in de Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) over het migreren van gebruiker IDs van Hulpmiddelen Admin van Analytics aan de Admin Console leiden.
+* **Belangrijk:** de beheerders van Analytics, zie [ de Gebruikers van Analytics in de Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=nl-NL) over het migreren van gebruiker IDs van Hulpmiddelen Admin van Analytics aan de Admin Console leiden.
 
 +++
 
@@ -107,7 +107,7 @@ Onder voorziening in Experience Cloud wordt verstaan:
 
 Beheerders van Admin Consoles kunnen toegang verlenen aan gebruikers. Gebruikers worden per e-mail verzonden met aanmeldingsinstructies.
 
-U zou [ Steun van de Adobe van het Contact ](https://experienceleague.adobe.com/?support-solution=General#support) kunnen moeten moeten verifiëren dat uw bedrijf volledig provisioned is geweest.
+U zou [ Steun van de Adobe van het Contact ](https://experienceleague.adobe.com/nl?support-solution=General#support) kunnen moeten moeten verifiëren dat uw bedrijf volledig provisioned is geweest.
 
 +++
 
@@ -145,7 +145,7 @@ Hun toegang moet uit de toepassing zelf worden verwijderd. Zij zullen niet tot h
 
 +++Wat is een Adobe ID?
 
-Zie [ Types van Identiteit ](https://helpx.adobe.com/enterprise/using/identity.html).
+Zie [ Types van Identiteit ](https://helpx.adobe.com/nl/enterprise/using/identity.html).
 
 +++
 

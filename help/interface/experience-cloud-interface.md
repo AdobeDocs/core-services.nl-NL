@@ -80,7 +80,7 @@ Klik de toepassingsselecteur ![ menu ](assets/menu-icon.png) om tot de diensten 
 
 ## Zoeken en ondersteunen in Experience Cloud {#search-support}
 
-Het onderzoek van het Experience Cloud staat u toe om naar hulp (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/#home) te zoeken.
+Het onderzoek van het Experience Cloud staat u toe om naar hulp (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/nl#home) te zoeken.
 
 ![ Onderzoek en steun in Experience Cloud ](assets/search-menu.png)
 

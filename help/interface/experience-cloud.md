@@ -57,7 +57,7 @@ Om tot de toepassingen en de diensten van Experience Cloud toegang te hebben die
 
 ## Hulp en ondersteuning {#support}
 
-Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
+Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/nl#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
 
 ![ krijg hulp en steun ](assets/search-menu.png)
 

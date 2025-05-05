@@ -20,7 +20,7 @@ Adobe Advertising (voorheen Adobe Advertising Cloud) gebruikt cookies om gebeurt
 
 >[!NOTE]
 >
->De markering van Javascript van de bèta-Adobe Advertising die de [ identiteitskaart van Adobe Experience Cloud (ECID) Dienst ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) gebruikt leidt tot eerste-partij [ Experience Cloud ](experience-cloud.md) `s_ecid` koekjes, niet de koekjes van de Adobe Advertising.
+>De markering van Javascript van de bèta-Adobe Advertising die de [ identiteitskaart van Adobe Experience Cloud (ECID) Dienst ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=nl-NL) gebruikt leidt tot eerste-partij [ Experience Cloud ](experience-cloud.md) `s_ecid` koekjes, niet de koekjes van de Adobe Advertising.
 
 | Naam cookie | Verlopen | Grootte | Locatie | Beschrijving |
 | --- | --- | --- | --- | --- |

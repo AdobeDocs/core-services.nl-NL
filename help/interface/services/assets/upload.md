@@ -19,7 +19,7 @@ U kunt middelen uploaden door de Desktop van het Creative Cloud of door browser 
 
 ## Middelen uploaden naar een gedeelde map vanuit de browser Creative Cloud
 
-Zie [ https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html ](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html) voor de hulp van het Creative Cloud.
+Zie [ https://helpx.adobe.com/nl/creative-cloud/help/sync-creative-cloud-files.html ](https://helpx.adobe.com/nl/creative-cloud/help/sync-creative-cloud-files.html) voor de hulp van het Creative Cloud.
 
 1. Start de [!DNL Creative Cloud] -browser en navigeer naar [!UICONTROL Creative Cloud Files] .
 1. Open de gedeelde map.

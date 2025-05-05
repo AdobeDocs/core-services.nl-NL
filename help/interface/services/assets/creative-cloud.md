@@ -32,4 +32,4 @@ Voordat gebruikers van het Creative Cloud toegang hebben tot elementen, moeten z
 
 Wanneer u activiteiten maakt in [!DNL Adobe Target] , kunt u een gedeeld afbeeldingselement gebruiken wanneer u afbeeldingen in de [!UICONTROL Offers Library] omwisselt.
 
-Zie [ Bibliotheek van Aanbiedingen ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in [!DNL Target] Hulp.
+Zie [ Bibliotheek van Aanbiedingen ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=nl-NL) in [!DNL Target] Hulp.

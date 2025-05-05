@@ -100,5 +100,5 @@ Hulp bij problemen die het gevolg zijn van het koppelen van accounts.
 
 Het koppelen van accounts mislukt doorgaans omdat de Adobe ID is gekoppeld aan een vorige gebruiker. Wanneer het koppelen van een account mislukt, kunt u:
 
-* [ de Steun van Adobe van het Contact ](https://experienceleague.adobe.com/?support-solution=General#support).
+* [ de Steun van Adobe van het Contact ](https://experienceleague.adobe.com/nl?support-solution=General#support).
 * Open uw toepassing met de standaardaanmeldingsnaam terwijl het probleem wordt opgelost.

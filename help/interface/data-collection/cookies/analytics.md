@@ -34,4 +34,4 @@ Analytics gebruikt cookies om nieuwe bezoekers anoniem te definiëren, hulp bij 
 
 ## Cookies ingesteld op plug-ins
 
-Sommige implementaties maken gebruik van plug-ins. Dit zijn codefragmenten met aanvullende functionaliteit voor Analytics. Met deze plug-ins kunt u cookies instellen die niet hierboven worden vermeld. Zie [ overzicht van de stop-ins van Analytics ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) voor een lijst van beschikbare stop-ins en welke koekjes die zij plaatsen.
+Sommige implementaties maken gebruik van plug-ins. Dit zijn codefragmenten met aanvullende functionaliteit voor Analytics. Met deze plug-ins kunt u cookies instellen die niet hierboven worden vermeld. Zie [ overzicht van de stop-ins van Analytics ](https://experienceleague.adobe.com/nl/docs/analytics/implementation/vars/plugins/impl-plugins) voor een lijst van beschikbare stop-ins en welke koekjes die zij plaatsen.

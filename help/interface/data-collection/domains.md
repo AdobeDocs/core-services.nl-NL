@@ -19,9 +19,9 @@ Experience Cloud gebruikt de volgende hosts om de toepassing te leveren, de pres
 
 Naast de hieronder vermelde domeinen, hebben de individuele producten van Adobe Experience Cloud hun eigen domeinen die zij gebruiken:
 
-* [ Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
-* [ Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [ Adobe Analytics ](https://experienceleague.adobe.com/nl/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/technotes/domains)
+* [ Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | Technologie | Domeinen |
 | --- | --- |

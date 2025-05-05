@@ -39,7 +39,7 @@ Deze pagina toont volledige lijst van gebruikers met toegang tot Experience Clou
 |---|---|
 | [!UICONTROL Name] | De voornaam en achternaam van de gebruiker. U kunt deze kolom sorteren van A naar Z en Z naar A. Klik op de naam van een gebruiker voor meer informatie over de gebruiker. |
 | [!UICONTROL Email] | Het e-mailadres dat aan de gebruiker is gekoppeld. Kolom kan A->Z, Z->A worden gesorteerd. |
-| [!UICONTROL ID Type] | Het identiteitstype voor de account van de gebruiker. Filter kan worden toegepast op weergavespecifieke id-typen. Zie [ identiteitstypes beheren ](https://helpx.adobe.com/enterprise/using/identity.html) voor meer informatie. |
+| [!UICONTROL ID Type] | Het identiteitstype voor de account van de gebruiker. Filter kan worden toegepast op weergavespecifieke id-typen. Zie [ identiteitstypes beheren ](https://helpx.adobe.com/nl/enterprise/using/identity.html) voor meer informatie. |
 | [!UICONTROL Solutions] | Overzicht van de toepassingen van het Experience Cloud waartoe de gebruiker toegang heeft. U kunt filters toepassen op een kleinere lijst met gebruikers met specifieke toegang tot de toepassing. |
 | [!UICONTROL Last Login] | Tijd en datum van de meest recente gebruikersaanmelding bij het Experience Cloud. Deze kolom kan worden gesorteerd op oplopende of aflopende datums. <br> **Belangrijk:** vanaf 13 Januari, 2020 zullen de laatste login van een gebruiker gegevens 365 dagen worden bewaard. Deze informatie is bedoeld om de huidige aanmeldingsactiviteiten in Experience Cloud te tonen en niet om actie te ondernemen tegen inactieve accounts vóór 13 januari 2020. |
 
@@ -73,7 +73,7 @@ In deze sectie wordt een overzicht van de gebruikersaccount weergegeven, waarond
 * Naam
 * Email
 * Gebruikersnaam (gebruikersnamen van Federated ID-accounts kunnen verschillen van die van het e-mailadres)
-* [ Type van identiteitskaart ](https://helpx.adobe.com/enterprise/using/identity.html)
+* [ Type van identiteitskaart ](https://helpx.adobe.com/nl/enterprise/using/identity.html)
 * Land
 * Laatste aanmelding
 

@@ -27,7 +27,7 @@ U kunt de gegevens uploaden nadat u een bron van Kenmerken van de Klant en een r
 Het uploaden van bestanden naar de FTP-site met klantkenmerken kan worden uitgevoerd via FTP of SFTP:
 
 * U hebt een client nodig die SFTP-verbindingen ondersteunt.
-* U kunt met SFTP verbinden gebruikend of gebruikersbenaming/wachtwoord of gebruikend geen wachtwoord, zoals die [ hier ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html) wordt beschreven.
+* U kunt met SFTP verbinden gebruikend of gebruikersbenaming/wachtwoord of gebruikend geen wachtwoord, zoals die [ hier ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=nl-NL) wordt beschreven.
 
 **om het gegevensdossier via FTP te uploaden**
 
