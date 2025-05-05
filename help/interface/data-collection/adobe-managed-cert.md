@@ -94,7 +94,7 @@ Aliases: smetrics.example.com
 
 Nadat u hebt bevestigd dat het certificaat correct werkt, kunt u de Adobe-implementatie bijwerken en deze waarden gebruiken.
 
-* Voor de implementaties van het AppMeasurement van Adobe Analytics, werk de [`trackingServer` ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) configuratievariabele bij. Als u een bestaande implementatie hebt, zie {de migratie van 0} Bezoeker ](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) voor extra stappen op hoe te om bestaande bezoekers te verhinderen als nieuwe bezoekers worden geteld.[
+* Voor de implementaties van het AppMeasurement van Adobe Analytics, werk de [`trackingServer` ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) configuratievariabele bij. Als u een bestaande implementatie hebt, zie {de migratie van 0} Bezoeker [&#128279;](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) voor extra stappen op hoe te om bestaande bezoekers te verhinderen als nieuwe bezoekers worden geteld.
 * Voor de implementaties van SDK van het Web, werk het [`edgeDomain` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) bezit binnen het [`configure` ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) bevel bij.
 
 ## Onderhoud en verlengingen

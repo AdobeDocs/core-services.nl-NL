@@ -35,4 +35,4 @@ De Exchange Marketplace is één doel waar u extensies voor Digital Marketing ku
 
 * Zoeken en filteren op categorie, bedrijf, type, gebruiker en meer.
 
-Zie ](https://exchange.adobe.com/experiencecloud.html) de Uitwisseling van het Experience Cloud 0} {voor meer informatie.[
+Zie [&#128279;](https://exchange.adobe.com/experiencecloud.html) de Uitwisseling van het Experience Cloud 0&rbrace; &lbrace;voor meer informatie.

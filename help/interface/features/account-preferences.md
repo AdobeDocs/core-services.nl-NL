@@ -26,7 +26,7 @@ Op de pagina [!UICONTROL Experience Cloud preferences] kunt u de volgende accoun
 |--- |--- |
 | [!UICONTROL Profile] | Werk uw [ Profiel van de Rekening van de Adobe ](https://account.adobe.com/profile) bij. <p>Uw profielfoto en naam worden weergegeven wanneer u zich aanmeldt bij Adobe.com, producten en services van de Adobe opneemt en op openbare sites zoals [!DNL Behance] . |
 | [!UICONTROL General] | Selecteer een [ organisatie ](../administration/organizations.md).<p>Dit is de standaardorganisatie die wordt gebruikt wanneer u zich aanmeldt bij een Experience Cloud. |
-| [!UICONTROL Product usage data] | U kunt bepalen welke gegevens van het productgebruik met Adobe worden gedeeld wanneer het gebruiken van de toepassingen van het Experience Cloud. Dit zijn gegevens over hoe u onze producten gebruikt, niet de inhoud of de gegevens van uw organisatie zelf. De Adobe gebruikt deze informatie om onze producten te helpen verbeteren, u van verbeterde in-product steun te voorzien, en uw ervaring en mededelingen van ons te personaliseren. <p>Meer leren, zie {de gebruiksgegevens van het 0} Product ](#product-usage-data) (op deze pagina).[ |
+| [!UICONTROL Product usage data] | U kunt bepalen welke gegevens van het productgebruik met Adobe worden gedeeld wanneer het gebruiken van de toepassingen van het Experience Cloud. Dit zijn gegevens over hoe u onze producten gebruikt, niet de inhoud of de gegevens van uw organisatie zelf. De Adobe gebruikt deze informatie om onze producten te helpen verbeteren, u van verbeterde in-product steun te voorzien, en uw ervaring en mededelingen van ons te personaliseren. <p>Meer leren, zie {de gebruiksgegevens van het 0} Product [&#128279;](#product-usage-data) (op deze pagina). |
 | [!UICONTROL Notifications] | Vorm hoe en wanneer u product [ berichten ](#subscribe-to-notifications-in-experience-cloud) en alarm zou willen: <ul><li>Selecteer de producten waarop u zich wilt abonneren voor waarschuwingen</li><li>Vorm het type van bericht ([!UICONTROL in-app], [!UICONTROL email], of [ Slack ](#slack-notifications))</li><li>Geef de frequentie op waarmee je e-mailberichten wilt ontvangen. (Niet verzonden, onmiddellijk, dagelijks of wekelijks.)</li><li>Bepaal de waakzame prioriteit. In-app-waarschuwingen worden een paar seconden in de rechterbovenhoek van uw venster weergegeven. U kunt ook opgeven of waarschuwingen moeten worden weergegeven totdat u ze verwijdert.</li></ul> |
 
 ## [!UICONTROL Product usage data] {#product-usage-data}
@@ -86,7 +86,7 @@ U kunt uw accountvoorkeuren zo configureren dat meldingen van Experiencen Cloud 
 
 ### Machtiging aanvragen in [!DNL Slack] (problemen oplossen) {#slack-troubleshoot}
 
-Als [!DNL Slack] niet is geïnstalleerd, wordt een _[!UICONTROL Request to install]_-bericht weergegeven wanneer de Slack wordt geopend nadat u op **[!UICONTROL Add to Slack]**hebt geklikt. Bijvoorbeeld:
+Als [!DNL Slack] niet is geïnstalleerd, wordt een _[!UICONTROL Request to install]_-bericht weergegeven wanneer de Slack wordt geopend nadat u op **[!UICONTROL Add to Slack]**&#x200B;hebt geklikt. Bijvoorbeeld:
 
 ![ Integratie van de Slack van het verzoek ](../assets/slack-workspace.png)
 
@@ -111,7 +111,7 @@ Nadat [!DNL Slack] met succes is geïntegreerd, geven de [!DNL Slack] -meldingen
 
 ## Weergeven [!UICONTROL notifications] en aankondigingen in Experience Cloud {#view-notifications}
 
-In de [!DNL Experience Cloud] kopbal, kunt u berichten bekijken waaraan u [ ](#notifications) intekende, evenals meningsaankondigingen.
+In de [!DNL Experience Cloud] kopbal, kunt u berichten bekijken waaraan u [&#128279;](#notifications) intekende, evenals meningsaankondigingen.
 
 1. Klik op het belpictogram in de koptekst. ![ Meldingen en Mededelingen ](../assets/bell-icon.png)
 

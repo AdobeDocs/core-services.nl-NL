@@ -69,7 +69,7 @@ Bijgewerkt [ beleid FAQ ](faq.md) met informatie over hoe de Steun van Adobe tot
 
 **24 Augustus 2021**
 
-De bijgewerkte ](../experience-cloud.md) pagina van de Componenten van 0} Centrale (het landen van deze gids pagina). [ Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
+De bijgewerkte [&#128279;](../experience-cloud.md) pagina van de Componenten van 0&rbrace; Centrale (het landen van deze gids pagina).  Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
 
 **6 Augustus 2021**
 

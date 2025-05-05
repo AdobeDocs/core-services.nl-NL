@@ -185,7 +185,7 @@ Profiteer van de volgende functies.
 
 Als u gegevens van ondernemingsklanten in een gegevensbestand van het het relatiebeheer van de klant (CRM) vangt, kunt u de gegevens in een gegevensbron van de Attributen van de Klant in Experience Cloud uploaden. Gebruik na het uploaden de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target] .
 
-Zie {de Attributen van 0} Klant ](customer-attributes/attributes.md) voor meer informatie.[
+Zie {de Attributen van 0} Klant [&#128279;](customer-attributes/attributes.md) voor meer informatie.
 
 ### [!UICONTROL People] > [!UICONTROL Audience Library]
 

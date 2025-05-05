@@ -70,7 +70,7 @@ Met zoekalgoritmen worden eerst de meest relevante records weergegeven. De volgo
 * Gebruikersmachtigingen voor toegang tot objecten
 * Overeenkomend percentage
 * Exacte overeenkomsten
-* In de sectie _[!UICONTROL Top Results]_worden de 30 bovenste resultaten weergegeven.
+* In de sectie _[!UICONTROL Top Results]_&#x200B;worden de 30 bovenste resultaten weergegeven.
 
 Klik op een van de volgende opties om uw zoekopdracht te verfijnen:
 
