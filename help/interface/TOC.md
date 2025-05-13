@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud-interface en -beheer
 title: Experience Cloud Interface en Beheer
 description: Meer informatie over Experience Cloud-interface, cookies en accountvoorkeuren. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Experience Cloud Assets delen.
 index: true
-source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
+source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 18%
+source-wordcount: '236'
+ht-degree: 20%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 18%
       + [Middelen uploaden naar een gedeelde map](services/assets/upload.md)
       + [Vereisten voor het delen van elementbestanden](services/assets/file-reqs.md)
       + [Gedrag van gedeelde mappen](services/assets/behavior.md)
-   + Audientiebibliotheek {#audiences}
+   + Auditiebibliotheek {#audiences}
       + [Overzicht](services/audiences/overview.md)
       + [Een publiek maken](services/audiences/create.md)
    + [Exchange](services/exchange.md)
@@ -59,7 +59,7 @@ ht-degree: 18%
    + [Organisaties en accountkoppelingen](administration/organizations.md)
    + [Experience Cloud-integraties](administration/integrations.md)
 
-+ Gegevensverzameling {#data-collection}
++ Dataverzameling {#data-collection}
    + [Door Adobe beheerd certificaatprogramma](data-collection/adobe-managed-cert.md)
    + [IP-adressen](data-collection/ip-addresses.md)
    + [Domeinen](data-collection/domains.md)
@@ -74,7 +74,7 @@ ht-degree: 18%
    + [Regionale gegevensverzameling](data-collection/rdc.md)
    + [DNS-prefetch gebruiken](data-collection/dns-prefetch.md)
 
-+ Meer bronnen {#more-resources}
++ Opmerkingen en bronnen vrijgeven {#more-resources}
    + [Aanvullende informatie](more-resources/release-notes.md)
    + [Documentatie-updates](more-resources/doc-updates.md)
    + [Veelgestelde vragen](more-resources/faq.md)
