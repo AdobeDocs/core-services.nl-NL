@@ -1,31 +1,31 @@
 ---
 title: IP Adressen die door Experience Cloud worden gebruikt
-description: Als de firewall van uw organisatie IP adressen blokkeert die uit Adobe voortkomen, gebruik deze lijst om uw firewallmontages bij te werken.
+description: Als de firewall van uw organisatie IP-adressen blokkeert die afkomstig zijn van Adobe, gebruikt u deze lijst om uw firewallinstellingen bij te werken.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
+source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
 
 # IP adressen die door Experience Cloud worden gebruikt
 
-Sommige firewallconfiguraties blokkeren IP-adressen die afkomstig zijn van gegevensverzamelingsservers of servers van de Adobe die verantwoordelijk zijn voor de toegang tot gegevens. U kunt deze lijst met bereiken gebruiken om de firewallinstellingen van uw organisatie te wijzigen, zodat u toegang hebt en gegevens kunt verzenden vanuit uw organisatie. Deze pagina omvat zowel binnenkomende systemen (zoals gegevensinzameling) als uitgaande systemen (zoals gegevensvoer in Adobe Analytics) die de Adobe gebruikt.
+Sommige firewallconfiguraties blokkeren IP-adressen die afkomstig zijn van Adobe-servers voor gegevensverzameling of servers die verantwoordelijk zijn voor de toegang tot gegevens. U kunt deze lijst met bereiken gebruiken om de firewallinstellingen van uw organisatie te wijzigen, zodat u toegang hebt en gegevens kunt verzenden vanuit uw organisatie. Deze pagina omvat zowel binnenkomende systemen (zoals gegevensinzameling) als uitgaande systemen (zoals gegevensvoer in Adobe Analytics) die Adobe gebruikt.
 
 >[!IMPORTANT]
 >
->Hoewel de Adobe zijn best doet om dit document huidig te houden, kan het niet garanderen dat de lijst van IP waaiers het zelfde blijft. Mogelijke veranderingen omvatten groei en uitbreiding van de zaken, vereist een register van Internet veranderingen in IP van de Adobe adresruimte, of een dienstverlener van Internet houdt werkend op.
+>Hoewel Adobe zijn best doet om dit document huidig te houden, kan het niet garanderen dat de lijst van IP waaiers het zelfde blijft. Mogelijke veranderingen omvatten groei en uitbreiding van de zaken, vereist een register van Internet veranderingen in Adobe IP adresruimte, of een dienstverlener van Internet houdt werkend op.
 
 Naast de IP hieronder vermelde adresblokken, hebben de individuele producten van Adobe Experience Cloud hun eigen IP adressen die zij gebruiken:
 
-* [ Adobe Analytics ](https://experienceleague.adobe.com/nl/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/technotes/ip-addresses)
-* [ Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [ Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [ Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
-## Alle IP van de Adobe adresblokken
+## Alle Adobe IP-adresblokken
 
-De volgende lijst behandelt alle Adobe-bezeten IP adressen. Deze lijst omvat alle Adobe werknemersbureaus en gegevenscentra die door Adobe globaal worden in werking gesteld. Hieronder vallen geen diensten die op openbare wolken worden gehost.
+De volgende lijst behandelt alle IP van Adobe-Bezit adressen. Deze tabel bevat alle Adobe-werknemerskantoren en datacenters die wereldwijd door Adobe worden uitgevoerd. Hieronder vallen geen diensten die op openbare wolken worden gehost.
 
 | IP-blok (CIDR-notatie) |
 | --- |
@@ -43,8 +43,8 @@ De volgende lijst behandelt alle Adobe-bezeten IP adressen. Deze lijst omvat all
 
 Als uw organisatie verkiest om specifieke IP adreswaaiers toe te staan, kunt u de volgende lijst van verwijzingen voorzien. Het omvat:
 
-* Servers voor gegevensverzameling voor alle producten van de Experience Cloud
-* FTP-servers voor alle Experience Cloud producten
+* Servers voor gegevensverzameling voor alle Experience Cloud-producten
+* FTP-servers voor alle Experience Cloud-producten
 
 Alle IP waaiers in deze sectie zijn inbegrepen in de bovengenoemde lijst.
 
@@ -55,7 +55,6 @@ Alle IP waaiers in deze sectie zijn inbegrepen in de bovengenoemde lijst.
 | California | `63.140.32.0/23` |
 | California | `63.140.34.0/24` |
 | Frankrijk | `63.140.62.0/23` |
-| India | `66.117.20.0/24` |
 | India | `66.117.22.0/23` |
 | Japan | `130.248.169.0/23` |
 | Japan | `63.140.50.0/23` |
@@ -64,6 +63,7 @@ Alle IP waaiers in deze sectie zijn inbegrepen in de bovengenoemde lijst.
 | Londen | `185.34.188.0/22` |
 | Londen | `130.248.152.0/22` |
 | Londen | `130.248.244.0/23` |
+| Ohio | `66.117.20.0/24` |
 | Oregon | `66.235.132.0/22` |
 | Oregon | `130.248.130.0/23` |
 | Oregon | `130.248.150.0/24` |
@@ -93,6 +93,7 @@ De Adobe Experience Cloud biedt ook beperkte ondersteuning voor IPv6. Deze IP bl
 | India | `2406:da1a:f34:6a00::/56` |
 | Ierland | `2a05:d018:309:600::/56` |
 | Japan | `2406:da14:b07:ab00::/56` |
+| Ohio | `2600:1f16:130f:7d00::/56` |
 | Oregon | `2600:1f14:1eb:7d00::/56` |
 | Oregon | `2600:1f14:9d3:2b00::/56` |
 | Singapore | `2406:da18:6e8:1e00::/56` |
@@ -103,4 +104,4 @@ De Adobe Experience Cloud biedt ook beperkte ondersteuning voor IPv6. Deze IP bl
 
 >[!TIP]
 >
->FTP-verbindingen voor Adobe Analytics-exportfuncties (waaronder Data Warehouse- en gegevensfeeds) zijn alleen afkomstig van IPv4-adressen in de locaties Londen, Oregon en Singapore.
+>FTP-verbindingen voor Adobe Analytics-exportfuncties (waaronder Data Warehouse en gegevensfeeds) zijn alleen afkomstig van IPv4-adressen in de locaties Londen, Oregon en Singapore.
