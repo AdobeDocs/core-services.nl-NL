@@ -58,9 +58,9 @@ Adobe Experience Cloud gebruikt cookies om een bezoeker-id op te slaan die in Ex
 
 **Naam cookie: AMCV_##@AdobeOrg**
 
-De [ Dienst van identiteitskaart van Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html) gebruikt JavaScript om een unieke bezoekersidentiteitskaart in een `AMCV_###@AdobeOrg` koekje op het domein van de huidige website op te slaan, waar `###` een willekeurige koord van karakters, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` vertegenwoordigt
+De [ Dienst van identiteitskaart van Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) gebruikt JavaScript om een unieke bezoekersidentiteitskaart in een `AMCV_###@AdobeOrg` koekje op het domein van de huidige website op te slaan, waar `###` een willekeurige koord van karakters, zoals `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` vertegenwoordigt
 
-Zie ook, [ Cookies en de Dienst van identiteitskaart ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Zie ook, [ Cookies en de Dienst van identiteitskaart ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
