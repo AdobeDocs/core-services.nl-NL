@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >De informatie in dit artikel is op [[!DNL Target]  at.js slechts de bibliotheek van JavaScript ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} van toepassing.
 >
->Voor informatie over koekjes die in een [!DNL Target] implementatie gebruikend [[!DNL Adobe Experience Platform Web SDK] worden gebruikt ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}, zie &quot;gebruiken de [!DNL Adobe Experience Platform Web SDK] koekjes? Zo ja, welke cookies gebruikt zij?&quot; in [ Veelgestelde vragen in de het overzichtsgids van SDK van het Platform van DNL ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
+>Voor informatie over koekjes die in een [!DNL Target] implementatie gebruikend [[!DNL Adobe Experience Platform Web SDK] worden gebruikt ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}, zie &quot;gebruiken de [!DNL Adobe Experience Platform Web SDK] koekjes? Zo ja, welke cookies gebruikt zij?&quot; in [[!DNL Veelgestelde vragen in de het overzichtsgids van SDK van het Platform van &#x200B;]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
 >
 >U kunt de instellingen die in dit artikel worden besproken, indien nodig wijzigen, behalve voor de duur van de cookie. [ raadpleeg uw accountvertegenwoordiger ](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} wanneer het veranderen van koekjesmontages.
 >
