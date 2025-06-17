@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud-interface en -beheer
 title: Experience Cloud Interface en Beheer
 description: Meer informatie over Experience Cloud-interface, cookies en accountvoorkeuren. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Experience Cloud Assets delen.
 index: true
-source-git-commit: ed5c14269fdb1bc83b0c06107e55336c9bc2ae9e
+source-git-commit: 1a6acca32b4975f8e35f7d2630f976b8b36fb043
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 20%
 
 ---
@@ -48,7 +48,8 @@ ht-degree: 20%
 
 + Functies {#features}
    + [Accountvoorkeuren en -meldingen](features/account-preferences.md)
-   + [Generatieve AI in Experience Cloud-toepassingen](features/generative-ai.md)
+   + [Generatieve AI](features/generative-ai.md)
+   + [Agentic AI](features/agentic-ai.md)
    + [Unified Search](features/search.md)
    + [Persoonlijk leren](features/personalized-learning.md)
    + [Browserondersteuning en taalondersteuning](browser-language.md)
