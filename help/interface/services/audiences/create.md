@@ -53,6 +53,7 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 1. Selecteer onder [!UICONTROL Rules] een kenmerkbron:
 
    * **[!UICONTROL Real-Time Analytics Data:]** (of Raw-gegevens) Dit zijn kenmerkgegevens die zijn afgeleid van Real-Time Analytics-afbeeldingsaanvragen en die gegevens bevatten zoals eVars en gebeurtenissen. U moet een rapportreeks selecteren wanneer het gebruiken van deze attributenbron, en de dimensie of de gebeurtenis bepalen om te omvatten. Deze selectie van de rapportreeks verstrekt de veranderlijke structuur die door de rapportreeks wordt gebruikt.
+
    >[!NOTE]
    >
    >Als gevolg van caching, vereisen de geschrapte rapportreeksen in Analytics 12 uur alvorens de schrapping in Experience Cloud wordt getoond.

@@ -107,7 +107,7 @@ Onder voorziening in Experience Cloud wordt verstaan:
 
 Admin Console-beheerders kunnen toegang verlenen aan gebruikers. Gebruikers worden per e-mail verzonden met aanmeldingsinstructies.
 
-U zou de Steun van Adobe van het Contact ](https://experienceleague.adobe.com/?support-solution=General#support) kunnen moeten [ contacteren om te verifiëren dat uw bedrijf volledig provisioned is geweest.
+U zou de Steun van Adobe van het Contact [&#128279;](https://experienceleague.adobe.com/?support-solution=General#support) kunnen moeten  contacteren om te verifiëren dat uw bedrijf volledig provisioned is geweest.
 
 +++
 
