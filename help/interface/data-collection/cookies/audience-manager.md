@@ -36,7 +36,7 @@ Audience Manager vertrouwt op een paar eenvoudige cookies om verschillende funct
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> Inhoud </b> </p> </td> 
-   <td colname="col2"> <p>Het cookie <span class="wintitle"> demdex </span> bevat een unieke gebruikersnaam (UUID), zoals in het onderstaande voorbeeld wordt getoond: </p> <p> <span class="codeph"> 0615130422776972043303923517820449977 </span> </p> <p>Zie ook <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external"> Index van id's in Audience Manager </a> . </p> </td> 
+   <td colname="col2"> <p>Het cookie <span class="wintitle"> demdex </span> bevat een unieke gebruikersnaam (UUID), zoals in het onderstaande voorbeeld wordt getoond: </p> <p> <span class="codeph"> 0615130422776972043303923517820449977 </span> </p> <p>Zie ook <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=nl-NL" format="https" scope="external"> Index van id's in Audience Manager </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> Andere attributen </b> </p> </td> 
@@ -129,7 +129,7 @@ De volgende tabel bevat een lijst met en definieert de elementen in een `dextp` 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b> Doel </b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt dit cookie in wanneer er een fout optreedt bij het verzenden van gegevens naar een <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external"> doel </a> . </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt dit cookie in wanneer er een fout optreedt bij het verzenden van gegevens naar een <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=nl-NL" format="https" scope="external"> doel </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> Inhoud </b> </p> </td> 
