@@ -91,7 +91,7 @@ In de volgende secties wordt een korte beschrijving gegeven van generatieve AI i
 
 ### Experience Manager Sites
 
-In AEM Sites kunt u _[!UICONTROL Generate Variations]_gebruiken. Deze functie gebruikt generatieve kunstmatige intelligentie om inhoudvariaties te creëren die op uw inputherinneringen worden gebaseerd. Prompts worden geleverd door Adobe of gemaakt en beheerd door u.
+In AEM Sites kunt u _[!UICONTROL Generate Variations]_&#x200B;gebruiken. Deze functie gebruikt generatieve kunstmatige intelligentie om inhoudvariaties te creëren die op uw inputherinneringen worden gebaseerd. Prompts worden geleverd door Adobe of gemaakt en beheerd door u.
 
 Na het creëren van variaties, kunt u de inhoud op uw website gebruiken en zijn succes meten gebruikend de [ eigenschap van de Experimentatie ](https://www.aem.live/docs/experimentation) in Edge Delivery Services. U kunt ook afbeeldingen genereren in Adobe Express met behulp van de generatieve AI-mogelijkheden van Firefly.
 
