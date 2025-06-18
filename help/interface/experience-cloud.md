@@ -1,5 +1,5 @@
 ---
-description: Meer informatie over centrale interfacecomponenten voor Experience Cloud. Hulp bij gebruikers- en productbeheer in de Admin Console en schakel toepassingen voor Experience Cloud-services in. Hulp nodig bij Audience Library, Customer Attributes, Experience Cloud Assets en meer.
+description: Meer informatie over centrale interfacecomponenten voor Experience Cloud. Hulp bij gebruikers- en productbeheer in de Admin Console en schakel toepassingen voor Experience Cloud-services in. Hulp nodig bij Audience Library, Customer attributes, Experience Cloud Assets en meer.
 title: Experience Cloud Interface en Beheer
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -57,7 +57,7 @@ Om tot de toepassingen en de diensten van Experience Cloud toegang te hebben die
 
 ## Hulp en ondersteuning {#support}
 
-Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/nl#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
+Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
 
 ![ krijg hulp en steun ](assets/search-menu.png)
 

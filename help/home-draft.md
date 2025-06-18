@@ -1,5 +1,5 @@
 ---
-description: Meer informatie over centrale interfacecomponenten voor Experience Cloud. Hulp bij gebruikers- en productbeheer in de Admin Console en schakel toepassingen voor Experience Cloud-services in. Hulp nodig bij Audience Library, Customer Attributes, Experience Cloud Assets en meer.
+description: Meer informatie over centrale interfacecomponenten voor Experience Cloud. Hulp bij gebruikers- en productbeheer in de Admin Console en schakel toepassingen voor Experience Cloud-services in. Hulp bij Audience Library, klantkenmerken, Experience Cloud Assets en meer.
 title: Experience Cloud Interface-documentatie
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 8%
@@ -179,7 +179,7 @@ Om tot de toepassingen en de diensten van Experience Cloud toegang te hebben die
 
 ## Hulp en ondersteuning {#support}
 
-Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/nl#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
+Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
 
 ![ krijg hulp en steun ](assets/search-menu.png)
 
@@ -220,7 +220,7 @@ Leer meer over de nieuwste verbeteringen aan de centrale interfacecomponenten va
 
 U kunt uw accountvoorkeuren zo configureren dat Experience Cloud-berichten naar een [!DNL Slack] -kanaal worden verzonden.
 
-[!BADGE Bèta]{type=Informative url="https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#notifications" tooltip="Meer informatie over Slack"}
+[!BADGE Bèta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Meer informatie over Slack"}
 
 
 >[!TAB  Nieuw Gebruikersinterface van het Web van de Campagne ]
@@ -310,5 +310,5 @@ In 2024 komt er een versie met enkele belangrijke wijzigingen voor de service FC
 
 ## Aanvullende bronnen
 
-[ Adobe Campaign v8 de Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}  - [ de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=nl-NL){target="_blank"}  - [ Zelfstudies ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=nl-NL){target="_blank"}  - [[!DNL Adobe Campaign]  automatiseringsgids ](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=nl-NL){target="_blank"}  - [ Controlebord voor Campagne v8 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"} 
+[ Adobe Campaign v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [ de gebruikersinterfacedocumentatie van het Web van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign]  automatiseringsgids ](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [ Controlebord voor Campagne v8 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl){target="_blank"}
 

@@ -1,5 +1,5 @@
 ---
-description: Meer informatie over Audience Manager cookies in Adobe Experience Cloud.
+description: Meer weten over Audience Manager cookies in Adobe Experience Cloud?
 keywords: cookies
 solution: Experience Cloud, Audience Manager
 title: Audience Manager Cookies
@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
 
 ---
 
-# Cookies Audience Managers{#audience-manager-cookies}
+# Audience Manager cookies{#audience-manager-cookies}
 
-Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende functies uit te voeren. Dit zijn onder andere het toewijzen van id&#39;s, het opnemen van gegevensaanroepen, het bijhouden van fouten en het testen om te controleren of cookies kunnen worden ingesteld. In deze sectie worden de verschillende cookies vermeld en beschreven die door de Audience Manager zijn ingesteld.
+Audience Manager vertrouwt op een paar eenvoudige cookies om verschillende functies uit te voeren. Dit zijn onder andere het toewijzen van id&#39;s, het opnemen van gegevensaanroepen, het bijhouden van fouten en het testen om te controleren of cookies kunnen worden ingesteld. In deze sectie worden de verschillende cookies vermeld en beschreven die door Audience Manager zijn ingesteld.
 
 **demdex Cookie**
 
@@ -36,10 +36,10 @@ Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende funct
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> Inhoud </b> </p> </td> 
-   <td colname="col2"> <p>Het cookie <span class="wintitle"> demdex </span> bevat een unieke gebruikersnaam (UUID), zoals in het onderstaande voorbeeld wordt getoond: </p> <p> <span class="codeph"> 0615130422776972043303923517820449977 </span> </p> <p>Zie ook <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=nl-NL" format="https" scope="external"> Index van id's in Audience Manager </a> . </p> </td> 
+   <td colname="col2"> <p>Het cookie <span class="wintitle"> demdex </span> bevat een unieke gebruikersnaam (UUID), zoals in het onderstaande voorbeeld wordt getoond: </p> <p> <span class="codeph"> 0615130422776972043303923517820449977 </span> </p> <p>Zie ook <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external"> Index van id's in Audience Manager </a> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b> Andere Attributen </b> </p> </td> 
+   <td colname="col1"> <p> <b> Andere attributen </b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">Levensduur: het cookie <span class="wintitle"> demdex </span> heeft een time-to-live (TTL) interval van 180 dagen. De TTL wordt teruggesteld aan 180 dagen op elke gebruikersinteractie met een partnerwebsite. Het cookie verloopt als een gebruiker niet binnen het TTL-interval terug naar uw site komt. </li> 
@@ -61,7 +61,7 @@ Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende funct
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b> Doel </b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt dit cookie zo in dat het de laatste keer opneemt dat het een aanroep naar gegevenssynchronisatie heeft uitgevoerd. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt dit cookie zo in dat het de laatste keer dat het een aanroep naar gegevenssynchronisatie heeft uitgevoerd, opneemt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> Inhoud </b> </p> </td> 
@@ -72,7 +72,7 @@ Audience Manager vertrouwt op een paar eenvoudige koekjes om verschillende funct
      </ul> </p> <p>Zie ook de onderstaande sectie over de syntaxis van dextp-gegevens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b> Andere Attributen </b> </p> </td> 
+   <td colname="col1"> <p> <b> Andere attributen </b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">Levensduur: het cookie <span class="wintitle"> dextp </span> heeft een time-to-live (TTL) interval van 180 dagen. </li> 
@@ -129,7 +129,7 @@ De volgende tabel bevat een lijst met en definieert de elementen in een `dextp` 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b> Doel </b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt dit cookie in wanneer er een fout optreedt bij het verzenden van gegevens naar een <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=nl-NL" format="https" scope="external"> doel </a> . </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> stelt dit cookie in wanneer er een fout optreedt bij het verzenden van gegevens naar een <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external"> doel </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> Inhoud </b> </p> </td> 
@@ -140,7 +140,7 @@ De volgende tabel bevat een lijst met en definieert de elementen in een `dextp` 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b> Andere Attributen </b> </p> </td> 
+   <td colname="col1"> <p> <b> Andere attributen </b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">Levensduur: het cookie <span class="wintitle"> dst </span> heeft een time-to-live (TTL) interval van 180 dagen. </li> 

@@ -1,44 +1,44 @@
 ---
-title: "[!DNL Customer Attributes]"
-description: Leer over  [!DNL Customer Attributes]  in Experience Cloud. Ontdek hoe u gegevens voor klantkenmerken kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
+title: '[!DNL Customer attributes]'
+description: Leer over  [!DNL customer attributes]  in Experience Cloud. Ontdek hoe u gegevens voor klantkenmerken kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '422'
 ht-degree: 5%
 
 ---
 
-# [!DNL Customer Attributes] in Experience Cloud
+# [!DNL Customer attributes] in Experience Cloud
 
-[!DNL Customer Attributes] in Experience Cloud biedt u de mogelijkheid om uw vastgelegde bedrijfsgegevens te uploaden vanuit een CRM-database (customer relationship management). U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in Experience Cloud en vervolgens de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target] gebruiken.
+[!DNL Customer attributes] in Experience Cloud kunt u vastgelegde bedrijfsgegevens uploaden vanuit een CRM-database (Customer relationship management). U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in Experience Cloud en vervolgens de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target] gebruiken.
 
-## De functie [!DNL Customer Attributes] zoeken
+## De functie [!DNL customer attributes] zoeken
 
-1. Meld u aan bij het Experience Cloud.
+1. Login aan [!DNL Experience Cloud] en selecteert het menu ![ menu ](assets/menu-icon.png) pictogram.
 
-1. Navigeer naar **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]** .
+1. Selecteer **[!UICONTROL Customer Attributes]**.
 
-![ Overzicht van de Attributen van de Klant ](assets/custom_reports.png)
+![ overzicht van de attributen van de Klant ](assets/custom_reports.png)
 
-## Vereisten voor uploaden [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
+## Vereisten voor uploaden [!DNL customer attributes] {#prerequisites}
 
-* **het lidmaatschap van de Groep:** om de gegevens van Attributen van de Klant te uploaden, moeten de gebruikers lid van de groep van Attributen van de Klant zijn. U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
+* **het lidmaatschap van de Groep:** om de gegevens van de klantenattributen te uploaden, moeten de gebruikers lid van de groep van de Attributen van de Klant zijn. U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
 
-  Om te weten of uw bedrijf toegang tot de Attributen van de Klant heeft, zou uw [!DNL Experience Cloud] beheerder in het [ Experience Cloud ](https://experience.adobe.com) moeten registreren. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Als *[!DNL Customer Attributes]* wordt weergegeven als een van de [!UICONTROL product profiles] , kunt u beginnen.
+  Om te weten of uw bedrijf toegang tot klantenattributen heeft, zou uw [!DNL Experience Cloud] beheerder in [ Experience Cloud ](https://experience.adobe.com) moeten registreren. Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products]** . Als *[!DNL Customer Attributes]* wordt weergegeven als een van de [!UICONTROL product profiles] , kunt u beginnen.
 
-  Gebruikers die aan [!DNL Customer Attributes] worden toegevoegd, zien het [!UICONTROL Customer Attributes] menu-item links van de interface van het Experience Cloud.
+  Gebruikers die aan [!DNL Customer Attributes] zijn toegevoegd, zien de [!UICONTROL Customer Attributes] -menuoptie aan de linkerkant van de Experience Cloud-interface.
 
-* **Adobe Target** `at.js` (om het even welke versie) of `mbox.js` versie 58 of recenter wordt vereist voor de Attributen van de Klant.
+* **Adobe Target** `at.js` (om het even welke versie) of `mbox.js` versie 58 of recenter wordt vereist voor klantenattributen.
 
-  Zie [ hoe te om at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=nl-NL) op te stellen.
+  Zie [ hoe te om at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html) op te stellen.
 
-## Wat zijn bedrijfsklantgegevens? {#section_6F34C29F11414842AA57D2B1248FA3C6}
+## Wat zijn bedrijfsklantgegevens? {#enterprise_data}
 
 Bedrijfsgegevens bevinden zich in andere systemen. Het kan complex zijn en verschillende dingen betekenen voor verschillende mensen. Deze gegevens kunnen informatie omvatten zoals lidmaatschap, loyaliteitsniveau, leeftijd, geslacht, producten bezeten, belangen, en de Waarde van het Leven.
 
@@ -46,13 +46,13 @@ De volgende afbeelding is een voorbeeld van een gegevensbestand met abonneegegev
 
 ![ wat gegevens van ondernemingsklanten is?](assets/01_crs_usecase.png)
 
-Nadat u het gegevensbestand creeert, kunt u het aan de bron van Attributen van de Klant uploaden die u in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]** creeert.
+Nadat u het gegevensbestand hebt gemaakt, kunt u het uploaden naar de kenmerkbron van de klant die u maakt in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer attributes]** .
 
-Zie [ gegevens van het Attribuut van de Klant uploaden ](t-crs-usecase.md) om dit werkschema te leren.
+Zie [ de gegevens van het klantenattribuut van de Upload ](t-crs-usecase.md) om dit werkschema te leren.
 
-## Voorbeelden van klantkenmerken in Analytics en Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Voorbeelden van klantkenmerken in Analytics en Target {#examples}
 
-Nadat de gegevens in Experience Cloud verblijven, kunt u het aanpassen en het aan oplossingen voor rapportering, segmentatie, activiteiten, en campagnes delen.
+Nadat de gegevens in Experience Cloud zijn opgeslagen, kunt u deze aanpassen en delen met oplossingen voor rapportage, segmentatie, activiteiten en campagnes.
 
 Bijvoorbeeld:
 

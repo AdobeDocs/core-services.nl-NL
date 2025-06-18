@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 3%
@@ -58,7 +58,7 @@ Bijgewerkt [ beleid FAQ ](faq.md) met informatie over hoe de Steun van Adobe tot
 | ------- | ------- |
 | Startpagina | De homepage van de voettekstinformatie van Experience Cloud is verplaatst naar de kaart van het gebruikersprofiel, met inbegrip van Juridische Mededelingen en taalselectie in Voorkeur. |
 | AEP-dashboards | [!DNL Helios Lite] bevat grafiekaanbevelingen in de workflow voor het maken van Experience Platform-widgets. Op basis van een gegevensselectie (momenteel één variabele gegevensselectie), wordt aanbevolen de gegevens op gepaste wijze te visualiseren. |
-| AEP-dashboards | [!DNL Instory] biedt op ML gebaseerde geschreven commentaar en bijschriften voor grafieken. Het simuleert grafieken op de pagina AEP-dashboards met relevante opsommingstekens die belangrijke wijzigingen en incidenten in de grafische gegevens aangeven. |
+| AEP-dashboards | [!DNL Instory] biedt op ML gebaseerde geschreven commentaar en bijschriften voor grafieken. Het simuleert grafieken op de pagina van de Dashboards van AEP met relevante bulletpoints die belangrijke veranderingen en incidenten in de grafietgegevens roepen. |
 
 **13 Oktober 2021**
 
@@ -69,7 +69,7 @@ Bijgewerkt [ beleid FAQ ](faq.md) met informatie over hoe de Steun van Adobe tot
 
 **24 Augustus 2021**
 
-De bijgewerkte [&#128279;](../experience-cloud.md) pagina van de Componenten van 0&rbrace; Centrale (het landen van deze gids pagina).  Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
+De bijgewerkte ](../experience-cloud.md) pagina van de Componenten van 0} Centrale (het landen van deze gids pagina). [ Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
 
 **6 Augustus 2021**
 
@@ -108,11 +108,11 @@ Toegevoegde [ gebruikersdetails van de Mening Experience Cloud (Hulpmiddel Admin
 
 **Bijgewerkt: 5-9-2018**
 
-Toegevoegd hoe te om een Attribuut van de Klant te schrappen. Zie [ (Facultatief) Update het schema (schrappingsattributen) ](../services/customer-attributes/t-crs-usecase.md).
+Toegevoegd hoe te om een klantenattribuut te schrappen. Zie [ (Facultatief) Update het schema (schrappingsattributen) ](../services/customer-attributes/t-crs-usecase.md).
 
 **8 Juni 2018**
 
-Bijgewerkt [ Ongeveer gegevensdossier en gegevensbronnen voor de Attributen van de Klant ](../services/customer-attributes/crs-data-file.md) met informatie over het uploaden van veelvoudige dossiers.
+Bijgewerkt [ Ongeveer gegevensdossier en gegevensbronnen voor klantenattributen ](../services/customer-attributes/crs-data-file.md) met informatie over het uploaden van veelvoudige dossiers.
 
 **6 Juni 2018**
 

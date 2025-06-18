@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Een publiek maken
 
-Leer hoe te om attributenregels te gebruiken om een publiek tot stand te brengen en een samengesteld publiek in Experience Cloud te bepalen.
+Leer hoe u kenmerkregels gebruikt om een publiek te maken en een samengesteld publiek in Experience Cloud te definiëren.
 
 Dit artikel helpt u begrijpen hoe te:
 
@@ -53,12 +53,11 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 1. Selecteer onder [!UICONTROL Rules] een kenmerkbron:
 
    * **[!UICONTROL Real-Time Analytics Data:]** (of Raw-gegevens) Dit zijn kenmerkgegevens die zijn afgeleid van Real-Time Analytics-afbeeldingsaanvragen en die gegevens bevatten zoals eVars en gebeurtenissen. U moet een rapportreeks selecteren wanneer het gebruiken van deze attributenbron, en de dimensie of de gebeurtenis bepalen om te omvatten. Deze selectie van de rapportreeks verstrekt de veranderlijke structuur die door de rapportreeks wordt gebruikt.
-
    >[!NOTE]
    >
    >Als gevolg van caching, vereisen de geschrapte rapportreeksen in Analytics 12 uur alvorens de schrapping in Experience Cloud wordt getoond.
 
-   * **[!UICONTROL Experience Cloud:]** Kenmerkgegevens die zijn afgeleid van de [!DNL Experience Cloud] -bronnen. Dit kunnen bijvoorbeeld gegevens zijn van publiekssegmenten die u maakt in [!DNL Analytics] , of gegevens van [!DNL Audience Manager] .
+   * **[!UICONTROL Experience Cloud:]** -kenmerkgegevens die zijn afgeleid van de [!DNL Experience Cloud] -bronnen. Dit kunnen bijvoorbeeld gegevens zijn van publiekssegmenten die u maakt in [!DNL Analytics] , of gegevens van [!DNL Audience Manager] .
 
 1. Bepaal publieksregels, dan klik **[!UICONTROL Save].**
 
@@ -85,12 +84,12 @@ Voor vergelijking, zou u een *OF* regel kunnen toevoegen om alle bezoekers aan e
 
 ![ OF regel voor een publiek ](assets/audiences_rule_patio.png)
 
-De resulterende regel is een gedefinieerd publiek dat Chrome &amp; Safari-gebruikers omvat die Home &amp; Garden hebben bezocht. Het segment Patio &amp; Furniture biedt extra inzicht in alle bezoekers die dat gedeelte van de site bezoeken.
+De resulterende regel is een gedefinieerd publiek dat Chrome &amp; Safari-gebruikers omvat die Home &amp; Garden hebben bezocht. Het segment Patio &amp; Furniture biedt extra insight aan alle bezoekers die dat gedeelte van de site bezoeken.
 
 ![ Gedefinieerd publiek in Experience Cloud ](assets/defined_audience.png)
 
 * **Historische Schatting:** (Gestippelde cirkel) vertegenwoordigt regels die op [!DNL Analytics] gegevens worden gecreeerd.
-* **Ware Publiek:** (Ononderbroken cirkel) om het even welke gecreeerde regel die 30 dagen van gegevens van Audience Manager heeft. Wanneer de gegevens van de Audience Manager 30 dagen bereiken, wordt de lijn stevig en vertegenwoordigt daadwerkelijke aantallen.
+* **Ware Publiek:** (Ononderbroken cirkel) om het even welke gecreeerde regel die 30 dagen van gegevens van Audience Manager heeft. Wanneer de Audience Manager-gegevens 30 dagen hebben bereikt, wordt de regel effen en staat deze voor werkelijke getallen.
 
 Nadat de gegevensinzameling voor de gespecificeerde periode voltooit, combineren de cirkels om een bepaald publiek te tonen.
 

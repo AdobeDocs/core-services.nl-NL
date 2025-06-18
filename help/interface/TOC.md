@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud-interface en -beheer
 title: Experience Cloud Interface en Beheer
 description: Meer informatie over Experience Cloud-interface, cookies en accountvoorkeuren. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Experience Cloud Assets delen.
 index: true
-source-git-commit: 1a6acca32b4975f8e35f7d2630f976b8b36fb043
+source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 20%
@@ -34,7 +34,7 @@ ht-degree: 20%
    + [Exchange](services/exchange.md)
    + Klantkenmerken {#customer-attributes}
       + [Overzicht](services/customer-attributes/attributes.md)
-      + [Veelgestelde vragen over Customer Attributes](services/customer-attributes/faq-crs.md)
+      + [Veelgestelde vragen over klantkenmerken](services/customer-attributes/faq-crs.md)
       + [Gegevensbestand en gegevensbronnen voor klantkenmerken](services/customer-attributes/crs-data-file.md)
       + [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](services/customer-attributes/t-crs-usecase.md)
       + [Optioneel - Het gegevensbestand uploaden via FTP](services/customer-attributes/t-upload-attributes-ftp.md)

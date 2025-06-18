@@ -1,21 +1,21 @@
 ---
-title: "[!DNL Customer Attributes] Ondersteuning voor algemene gegevensbeschermingsverordening"
-description: Meer informatie over Customer Attributes Support for General Data Protection Regulation
+title: '[!DNL Customer attributes] Ondersteuning voor algemene gegevensbeschermingsverordening'
+description: Meer informatie over ondersteuning van klantkenmerken voor algemene gegevensbeschermingsverordening
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
-# [!DNL Customer Attributes] ondersteuning voor algemene gegevensbeschermingsverordening
+# [!DNL Customer attributes] ondersteuning voor algemene gegevensbeschermingsverordening
 
-Op deze pagina wordt beschreven hoe [!DNL Customer Attributes] General Data Protection Regulation (GDPR) ondersteunt.
+Op deze pagina wordt beschreven hoe [!DNL customer attributes] General Data Protection Regulation (GDPR) ondersteunt.
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ De [ Algemene Verordening van de Bescherming van Gegevens ](https://business.ado
 
 Adobe Experience Cloud treedt op als een gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
-In dit document wordt beschreven hoe [!DNL Customer Attributes] de toegang tot en het verwijderen van GDPR-gegevens van de betrokkenen via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service ondersteunt.
+In dit document wordt beschreven hoe [!DNL customer attributes] de toegang tot en het verwijderen van GDPR-gegevens van de betrokkenen via de Adobe Experience Platform Privacy Service API en de gebruikersinterface van Privacy Service ondersteunt.
 
 Voor meer informatie over wat GDPR voor uw zaken betekent, zie [ GDPR en Uw Zaken ](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Vereiste instellingen voor het verzenden van aanvragen voor [!DNL Customer Attributes]
+## Vereiste instellingen voor het verzenden van aanvragen voor [!DNL customer attributes]
 
-Als u verzoeken wilt indienen om gegevens voor [!DNL Customer Attributes] te openen en te verwijderen, moet u:
+Als u verzoeken wilt indienen om gegevens voor [!DNL customer attributes] te openen en te verwijderen, moet u:
 
 1. Vermeld het volgende:
 
@@ -39,11 +39,11 @@ Als u verzoeken wilt indienen om gegevens voor [!DNL Customer Attributes] te ope
    * Alias-id van CRS Data Source waarop u wilt reageren
    * CRM-id van het profiel waarop u wilt reageren
 
-   Uw [ organisatieidentiteitskaart ](../../administration/organizations.md) is een 24 karakter alfanumeriek koord dat met @AdobeOrg wordt toegevoegd. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Neem contact op met de klantenservice van de Adobe op `gdprsupport@adobe.com` als u de id niet kunt vinden.
+   Uw [ organisatieidentiteitskaart ](../../administration/organizations.md) is een 24 karakter alfanumeriek koord dat met @AdobeOrg wordt toegevoegd. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Neem via `gdprsupport@adobe.com` contact op met de klantenservice van Adobe als u de id niet kunt vinden.
 
-1. In [!UICONTROL Privacy Service] kunt u aanvragen voor toegang en verwijderen indienen bij [!DNL Customer Attributes] en de status van bestaande aanvragen controleren.
+1. In [!UICONTROL Privacy Service] kunt u aanvragen voor toegang en verwijderen indienen bij [!DNL customer attributes] en de status van bestaande aanvragen controleren.
 
-## Vereiste veldwaarden in [!DNL Customer Attributes] JSON-aanvragen
+## Vereiste veldwaarden in [!DNL customer attributes] JSON-aanvragen
 
 &quot;bedrijfcontext&quot;:
 
@@ -58,7 +58,7 @@ Als u verzoeken wilt indienen om gegevens voor [!DNL Customer Attributes] te ope
    * &quot;namespace&quot;: &lt;*identiteitskaart van de Alias van Gegevens van CRS Source*>
    * &quot;type&quot;: **integrationCode**
    * &quot;waarde&quot;: &lt;*identiteitskaart van CRM*>
-* &quot;omvat&quot;: **CRS** (dat het product van de Adobe is dat op het verzoek van toepassing is)
+* &quot;omvat&quot;: **CRS** (dat het product van Adobe is dat op het verzoek van toepassing is)
 * &quot;verordening&quot;: **gdpr** (die de privacyverordening is die op het verzoek van toepassing is)
 
 ## Voorbeeld van JSON-aanvraag

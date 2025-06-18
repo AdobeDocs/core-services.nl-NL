@@ -1,21 +1,21 @@
 ---
-title: Customer Attributes Support for California Consumer Privacy Act
-description: Meer informatie over Customer Attributes-ondersteuning voor California Consumer Privacy Act
+title: Klantenkenmerk ondersteuning voor de California Consumer Privacy Act
+description: Meer informatie over ondersteuning voor klantkenmerken voor de California Consumer Privacy Act
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
-# Customer Attributes support for California Consumer Privacy Act
+# Klantenkenmerk ondersteuning voor de California Consumer Privacy Act
 
-Op deze pagina wordt de ondersteuning van de California Consumer Privacy Act (CCPA) door [!UICONTROL Customer Attributes] beschreven.
+Op deze pagina wordt [!UICONTROL customer attributes] support for the California Consumer Privacy Act (CCPA) beschreven.
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,15 @@ De CCPA is de nieuwe privacywet van Californië, die 1 januari 2020 van kracht i
 
 Als bedrijf, bepaalt u de persoonlijke gegevens die Adobe Experience Cloud verwerkt en namens u opslaat.
 
-Als uw dienstverlener, verleent Adobe Experience Cloud steun voor uw zaken om zijn verplichtingen uit hoofde van CCPA te vervullen die op het gebruik van de producten en de diensten van de Experience Cloud van toepassing zijn. Deze ondersteuning omvat het beheren van verzoeken om toegang tot en verwijdering van persoonlijke gegevens.
+Als uw dienstverlener, verleent Adobe Experience Cloud steun voor uw zaken om aan zijn verplichtingen uit hoofde van CCPA te voldoen die op het gebruik van de producten en de diensten van Experience Cloud van toepassing zijn. Deze ondersteuning omvat het beheren van verzoeken om toegang tot en verwijdering van persoonlijke gegevens.
 
-In dit document wordt beschreven hoe [!UICONTROL Customer Attributes] de toegangsrechten en verwijderingsrechten voor CCPA-gegevens van de betrokkenen ondersteunt via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van de Privacy Service.
+In dit document wordt beschreven hoe [!UICONTROL customer attributes] de toegangsrechten en verwijderingsrechten voor CCPA-gegevens van de betrokkenen ondersteunt via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van Privacy Service.
 
-Voor meer informatie over de diensten van de Privacy van de Adobe voor CCPA, zie het [ Centrum van de Privacy van de Adobe ](https://www.adobe.com/privacy/ccpa.html).
+Voor meer informatie over de diensten van de Privacy van Adobe voor CCPA, zie het [ Centrum van de Privacy van Adobe ](https://www.adobe.com/privacy/ccpa.html).
 
-## Vereiste instellingen voor het verzenden van aanvragen voor [!UICONTROL Customer Attributes]
+## Vereiste instellingen voor het verzenden van aanvragen voor [!UICONTROL customer attributes]
 
-Als u verzoeken wilt indienen om gegevens voor [!UICONTROL Customer Attributes] te openen en te verwijderen, moet u:
+Als u verzoeken wilt indienen om gegevens voor [!UICONTROL customer attributes] te openen en te verwijderen, moet u:
 
 1. Vermeld het volgende:
 
@@ -41,11 +41,11 @@ Als u verzoeken wilt indienen om gegevens voor [!UICONTROL Customer Attributes] 
    * Alias-id van CRS Data Source waarop u wilt reageren
    * CRM-id van het profiel waarop u wilt reageren
 
-   Uw organisatie-id bestaat uit een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Neem contact op met de klantenservice van de Adobe op `gdprsupport@adobe.com` als u de id niet kunt vinden.
+   Uw organisatie-id bestaat uit een alfanumerieke tekenreeks van 24 tekens die wordt toegevoegd met @AdobeOrg. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Neem via `gdprsupport@adobe.com` contact op met de klantenservice van Adobe als u de id niet kunt vinden.
 
-1. In [!UICONTROL Privacy Service] kunt u verzoeken om toegang en om verwijdering verzenden naar Klantkenmerken en de status van bestaande aanvragen controleren.
+1. In [!UICONTROL Privacy Service] kunt u verzoeken om toegang en om verwijdering verzenden naar klantkenmerken en de status van bestaande aanvragen controleren.
 
-## Vereiste veldwaarden in [!UICONTROL Customer Attributes] JSON-verzoeken
+## Vereiste veldwaarden in [!UICONTROL customer attributes] JSON-verzoeken
 
 &quot;bedrijfcontext&quot;:
 
@@ -60,7 +60,7 @@ Als u verzoeken wilt indienen om gegevens voor [!UICONTROL Customer Attributes] 
    * &quot;namespace&quot;: &lt;*identiteitskaart van de Alias van Gegevens van CRS Source*>
    * &quot;type&quot;: **integrationCode**
    * &quot;waarde&quot;: &lt;*identiteitskaart van CRM*>
-* &quot;omvat&quot;: **CRS** (dat het product van de Adobe is dat op het verzoek van toepassing is)
+* &quot;omvat&quot;: **CRS** (dat het product van Adobe is dat op het verzoek van toepassing is)
 * &quot;verordening&quot;: **ccpa** (die de privacyverordening is die op het verzoek van toepassing is)
 
 ## Voorbeeld van JSON-aanvraag
