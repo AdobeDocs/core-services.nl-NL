@@ -19,10 +19,10 @@ Sommige firewallconfiguraties blokkeren IP-adressen die afkomstig zijn van Adobe
 
 Naast de IP hieronder vermelde adresblokken, hebben de individuele producten van Adobe Experience Cloud hun eigen IP adressen die zij gebruiken:
 
-* [ Adobe Analytics ](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
-* [ Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [ Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [ Adobe Analytics ](https://experienceleague.adobe.com/nl/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/technotes/ip-addresses)
+* [ Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [ Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Alle Adobe IP-adresblokken
 
