@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 589d08609e6d60667cc3c26b9e9594e5389b338e
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 10%
@@ -22,7 +22,13 @@ Functies, opmerkingen bij de release en bekende problemen met de Experience Clou
 
 Voor een lijst van documentupdates, zie [ de updates van de Documentatie ](doc-updates.md).
 
-Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van de Versie van 0} Experience Cloud [&#128279;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl).
+Voor versienota&#39;s die alle toepassingen behandelen, zie {de Nota&#39;s van de Versie van 0} Experience Cloud [.](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl)
+
+<!-- ## August 2025
+
+| Date | Update  | Description  |
+| -----------| -----------| ---------- |
+| August 7, 2025 | Support for restricted IP address | For organizations that have implemented IP address restrictions in Admin Console, Experience Cloud will respect those restrictions on the `experience.adobe.com` domain at login and new page loads in that organization.  | -->
 
 ## Maart 2025
 
@@ -60,21 +66,21 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=nl-NL) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=nl-NL), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=nl-NL), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl-NL), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl-NL), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl-NL), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=nl-NL), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=nl-NL).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=nl-NL) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## Mei 2023
 
-* In het [!DNL Experience Cloud] **[!UICONTROL Help]** menu, is het inhoudsonderzoek bijgewerkt aan filter door toepassing in de [ Experience League ](https://experienceleague.adobe.com/nl#home) onderzoeksresultaten.
+* In het [!DNL Experience Cloud] **[!UICONTROL Help]** menu, is het inhoudsonderzoek bijgewerkt aan filter door toepassing in de [ Experience League ](https://experienceleague.adobe.com/#home) onderzoeksresultaten.
 
 ## Juli 2022
 
@@ -104,8 +110,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Functie | Beschrijving |
 | ------- |-------|
-| Sneltoetsen (**[!UICONTROL Recents]**) toegevoegd aan [ Experience Cloud ](https://experience.adobe.com/home) huis | U kunt tot kortere weg tot uw meest recente werk van Journey Optimizer en van Experience Platform onder de nieuwe _1&rbrace; rubriek van Recenten &lbrace;op de het landen pagina toegang hebben._ Deze update bevat ook algemene verbeteringen voor de lay-out en de responssnelheid. |
-| **[!UICONTROL Sandboxes]** naar de kopbalk verplaatst | De sandboxindicator is nu geïntegreerd in de header voor alle Experience Platform-interfacetoepassingen. Zie [ Sandboxes ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=nl-NL) in Experience Platform voor meer informatie. |
+| Sneltoetsen (**[!UICONTROL Recents]**) toegevoegd aan [ Experience Cloud ](https://experience.adobe.com/home) huis | U kunt tot kortere weg tot uw meest recente werk van Journey Optimizer en van Experience Platform onder de nieuwe _1} rubriek van Recenten {op de het landen pagina toegang hebben._ Deze update bevat ook algemene verbeteringen voor de lay-out en de responssnelheid. |
+| **[!UICONTROL Sandboxes]** naar de kopbalk verplaatst | De sandboxindicator is nu geïntegreerd in de header voor alle Experience Platform-interfacetoepassingen. Zie [ Sandboxes ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) in Experience Platform voor meer informatie. |
 
 {style="table-layout:auto"}
 
@@ -145,7 +151,7 @@ Unified Search wordt bijgewerkt en beschikbaar voor Journey Optimizer, aanbiedin
 | Functie | Datum | Beschrijving |
 | ------- | ------- | ------- |
 | Single Sign-On-ondersteuning voor id&#39;s met Adobe-federatie | vrijdag 17 juni 2021 | Als u Federatieve id&#39;s gebruikt, kunt u zich aanmelden bij Experience Cloud zonder een e-mailadres of wachtwoord in te voeren. Als u deze functie wilt gebruiken, voegt u `#/sso:@domain` toe aan de Experience Cloud-URL. <br> bijvoorbeeld, veronderstel dat u het domein `adobecustomer.com` bezit en in Adobe Analytics wilt ondertekenen. De URL is: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics` . |
-| Experience League Search | woensdag 1 juni 2021 | Het zoeken naar Experience League-documentatie is verbeterd. Navigeer aan [ Experience League ](https://experienceleague.adobe.com/docs/?lang=nl-NL) en gebruik het **[!UICONTROL Search]** gebied om van leerprogramma&#39;s, documentatie, cursussen, en meer de plaats te bepalen. |
+| Experience League Search | woensdag 1 juni 2021 | Het zoeken naar Experience League-documentatie is verbeterd. Navigeer aan [ Experience League ](https://experienceleague.adobe.com/docs/) en gebruik het **[!UICONTROL Search]** gebied om van leerprogramma&#39;s, documentatie, cursussen, en meer de plaats te bepalen. |
 
 {style="table-layout:auto"}
 
@@ -154,8 +160,8 @@ Unified Search wordt bijgewerkt en beschikbaar voor Journey Optimizer, aanbiedin
 | Functie | Beschrijving |
 | ------- | ------- |
 | Experience Cloud Header &amp; Navigation | Adobe Experience Cloud-updates bevatten een wijziging in het lichte thema voor de koptekst. U kunt gemakkelijk terugschakelen naar een donker thema en een koppeling maken om extra voorkeuren in de Experience Cloud-koptekst in te stellen via de gebruikersavatar. Hoewel niet alle toepassingen in Experience Cloud ondersteuning bieden voor thema&#39;s, opent deze functie toekomstige themaondersteuning. |
-| Experience Cloud Global Search | Met deze versie, staat het globale onderzoek van Experience Cloud u toe om het even welke [&#128279;](https://experienceleague.adobe.com/nl#home) documentatie van 0&rbrace; Experience League &lbrace;te zoeken, cursussen, en leerprogramma&#39;s.  (Momenteel is de algemene zoekopdracht alleen beschikbaar voor Experience Platform-gebruikers. Met algemene zoekopdracht naar [!UICONTROL Platform] kunt u zoeken naar elk willekeurig bedrijfsobject in Experience Cloud, zoals segmenten, gegevenssets, schema&#39;s en meer.) |
-| Voorkeuren voor Experience Cloud-talen | Deze update omvat de capaciteit om uw aangewezen talen in de Voorkeur van Experience Cloud [&#128279;](https://experience.adobe.com/preferences) te plaatsen. |
+| Experience Cloud Global Search | Met deze versie, staat het globale onderzoek van Experience Cloud u toe om het even welke [ documentatie van 0} Experience League {te zoeken, cursussen, en leerprogramma&#39;s. ](https://experienceleague.adobe.com/#home) (Momenteel is de algemene zoekopdracht alleen beschikbaar voor Experience Platform-gebruikers. Met algemene zoekopdracht naar [!UICONTROL Platform] kunt u zoeken naar elk willekeurig bedrijfsobject in Experience Cloud, zoals segmenten, gegevenssets, schema&#39;s en meer.) |
+| Voorkeuren voor Experience Cloud-talen | Deze update omvat de capaciteit om uw aangewezen talen in de Voorkeur van Experience Cloud [ ](https://experience.adobe.com/preferences) te plaatsen. |
 
 {style="table-layout:auto"}
 
@@ -254,7 +260,7 @@ Unified Search wordt bijgewerkt en beschikbaar voor Journey Optimizer, aanbiedin
 |--- |--- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [customer attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=nl-NL).|
+|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -398,7 +404,7 @@ Unified Search wordt bijgewerkt en beschikbaar voor Journey Optimizer, aanbiedin
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=nl-NL) page from displaying in Japanese.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Fixed an issue preventing the use of Japanese text in comments between the [!DNL Creative Cloud] and the [!DNL Experience Cloud].
 
 ## April 2015
