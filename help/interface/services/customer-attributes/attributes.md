@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Customer attributes]'
-description: Leer over  [!DNL customer attributes]  in Experience Cloud. Ontdek hoe u gegevens voor klantkenmerken kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
+description: Leer over  [!DNL customer attributes]  in Experience Cloud. Ontdek hoe u gegevens over klantkenmerken kunt uploaden voor gebruik in Adobe Analytics en Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 * **Adobe Target** `at.js` (om het even welke versie) of `mbox.js` versie 58 of recenter wordt vereist voor klantenattributen.
 
-  Zie [ hoe te om at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=nl-NL) op te stellen.
+  Zie [ hoe te om at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html) op te stellen.
 
 ## Wat zijn bedrijfsklantgegevens? {#enterprise_data}
 
