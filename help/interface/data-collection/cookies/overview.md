@@ -22,7 +22,7 @@ Adobe Experience Cloud gebruikt cookies om informatie bij te houden die niet van
 
 Sommige browsers en anti-spyware hulpmiddelen blokkeren derdekoekjes. Adobe beschikt over manieren om ervoor te zorgen dat cookies nog steeds werken, zelfs als cookies worden geblokkeerd. Hoe dit werkt, hangt af van het feit of u de Experience Platform Identity Service (ECID) of oudere Analytics-cookies (zoals het `s_vi` -cookie) gebruikt:
 
-* [ de Dienst van de Identiteit van Experience Cloud ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): De ECID Dienst plaatst altijd eerste-partijkoekjes, of uw inzamelingsdomein uw plaatsomein aanpast. Het gebruikt JavaScript om de cookie op het domein van uw site te plaatsen.
+* [ de Dienst van de Identiteit van Experience Cloud ](https://experienceleague.adobe.com/nl/docs/id-service/using/intro/overview): De ECID Dienst plaatst altijd eerste-partijkoekjes, of uw inzamelingsdomein uw plaatsomein aanpast. Het gebruikt JavaScript om de cookie op het domein van uw site te plaatsen.
 
 * [ Verouderde herkenningstekens van Analytics ](analytics.md) (zoals het `s_vi` koekje): Of de koekjes eerste of derde van uw opstelling afhankelijk zijn:
 
