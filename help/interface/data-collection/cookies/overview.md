@@ -3,47 +3,49 @@ description: Leer hoe oplossingen en services in Adobe Experience Cloud cookies 
 title: Hoe cookies worden gebruikt in Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: d6dc659104b3b24b60495cd97adb21ebb3962fc7
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
 
-# Cookies gebruikt in Experience Cloud
+# In Experience Cloud gebruikte cookies
 
-Veel services in de Adobe Experience Cloud gebruiken cookies. Een cookie is een klein stukje gegevens dat door een website aan een webbrowser wordt gepresenteerd. De browser slaat dit stukje gegevens op, zodat een website zo nodig naar de gegevens kan verwijzen. Deze handeling wordt uitgevoerd bij elke volgende aanvraag voor pagina&#39;s en afbeeldingen.
+Adobe Experience Cloud gebruikt cookies. Een cookie is een klein stukje gegevens dat een website naar uw browser verzendt, die het opslaat voor later gebruik. Met cookies kan de website dingen onthouden wanneer u opnieuw een bezoek brengt of van pagina naar pagina gaat. Met cookies kunt u bezoeken volgen en het ene apparaat apart van het andere vertellen.
 
-Er worden cookies geleverd om tijdens en soms tussen bezoeken aan een website informatie te bewaren. Met cookies kunnen apparaten op unieke wijze worden onderscheiden van andere browsers die de site weergeven.
-
-De wetten, de verordeningen, en de zelfreguleringsprincipes vereisen u om toestemming van bezoekers te verkrijgen alvorens u informatie op een computer of een ander Web verbonden apparaat kunt opslaan of terugwinnen. Adobe stelt voor dat u met de juridische adviseur van uw organisatie controleert welke wetten, regels, en principes uw gebruik van koekjes controleren.
+Wetten vereisen vaak dat u toestemming krijgt voordat u cookies op iemands apparaat opslaat of gebruikt. Adobe raadt u aan contact op te nemen met uw juridische team om te weten welke regels van toepassing zijn.
 
 ## Cookies van eerste bedrijven
 
-Adobe Experience Cloud-services gebruiken cookies om informatie te verschaffen over variabelen en componenten die niet aanwezig zijn tussen afbeeldingsaanvragen en browsersessies. Waar mogelijk gebruikt de Adobe cookies van de eerste partij om activiteiten op uw site op te nemen. Als u activiteit wilt opnemen op verschillende sites, zoals andere domeinen die u hebt, zijn cookies van andere bedrijven vereist.
+Adobe Experience Cloud gebruikt cookies om informatie bij te houden die niet van toepassing is tussen paginaweergaven of browsersessies. Indien mogelijk gebruikt Adobe cookies van de eerste partij (gekoppeld aan uw eigen website). Voor het bijhouden van activiteiten op meerdere sites of domeinen die u bezit, zijn cookies van andere bedrijven nodig.
 
-Veel browsers en antispywaretoepassingen zijn ontworpen om cookies van derden af te wijzen en te verwijderen. Adobe zorgt ervoor dat cookies altijd kunnen worden ingesteld, zelfs als cookies van derden worden geblokkeerd. Het specifieke gedrag varieert afhankelijk van het feit of u de Verouderde herkenningstekens van de Identiteitsdienst van het Experience Platform (de Dienst van de Identiteit) of van de Analyse (zoals het `s_vi` koekje) gebruikt:
+Sommige browsers en anti-spyware hulpmiddelen blokkeren derdekoekjes. Adobe beschikt over manieren om ervoor te zorgen dat cookies nog steeds werken, zelfs als cookies worden geblokkeerd. Hoe dit werkt, hangt af van het feit of u de Experience Platform Identity Service (ECID) of oudere Analytics-cookies (zoals het `s_vi` -cookie) gebruikt:
 
-* De [ Dienst van de Identiteit van het Experience Platform (de Dienst ECID) ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=nl-NL) plaatst automatisch de koekjes van de eerste partij ongeacht of uw inzamelingsdomein uw plaatsdomein aanpast. Als deze niet overeenkomen, gebruikt de Identity Service JavaScript om cookies in te stellen op het domein van uw site.
-* Als u [ Verouderde herkenningstekens van Analytics ](analytics.md) (zoals het `s_vi` koekje) gebruikt, hangt het van af hoe u uw server van de gegevensinzameling hebt gevormd. Als de server van de gegevensinzameling het domein van uw plaats aanpast, dan worden de koekjes geplaatst als eerste-partij. Als de verzamelingsserver niet overeenkomt met uw huidige domein, worden cookies ingesteld als derde. Als cookies van andere leveranciers in dit geval worden geblokkeerd, stelt Analytics een fallback-id (`s_fid`) in in plaats van de standaard `s_vi` -cookie.
+* [ de Dienst van de Identiteit van Experience Cloud ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): De ECID Dienst plaatst altijd eerste-partijkoekjes, of uw inzamelingsdomein uw plaatsomein aanpast. Het gebruikt JavaScript om de cookie op het domein van uw site te plaatsen.
 
-Als u zou willen ervoor zorgen dat uw inzamelingsserver het domein van uw plaats aanpast, kunt u een implementatie gebruiken CNAME die het door:sturen van een douanedomein toelaat dat in uw implementatie CNAME aan de inzamelingsservers van de Adobe wordt gespecificeerd. Deze taak impliceert veranderingen in DNS montages van uw bedrijf om een alias van CNAME aan het richten aan een Adobe ontvangen domein te vormen. Gelieve te merken op dat terwijl diverse producten van de Adobe het gebruiken van een CNAME steunen, in alle gevallen CNAME wordt gebruikt om tot een vertrouwd op eerste-partijeindpunt voor een specifieke klant te leiden en door die klant wordt bezeten. Als u veelvoudige domeinen controleert, kunnen zij één enkel eindpunt CNAME gebruiken om gebruikers over hun domeinen te volgen, maar waar het plaatsdomein niet de het domeinkoekjes van CNAME aanpast worden geplaatst als derde.
+* [ Verouderde herkenningstekens van Analytics ](analytics.md) (zoals het `s_vi` koekje): Of de koekjes eerste of derde van uw opstelling afhankelijk zijn:
+
+   * Als uw gegevensverzamelingsserver overeenkomt met het domein van uw site, zijn cookies van de eerste partij.
+   * Als het niet overeenkomt, zijn cookies van derden. Als cookies van derden worden geblokkeerd, stelt Adobe een fallback-cookie (`s_fid`) in plaats van de gebruikelijke cookie.
+
+Om ervoor te zorgen dat uw inzamelingsserver het domein van uw plaats aanpast, kunt u de opstelling van de a **NAAM** gebruiken. Hierbij moet u uw DNS-instellingen bijwerken zodat een aangepast domein (u hebt) naar Adobe-servers wordt gewijs. Hierdoor wordt de volgende cookie weergegeven als een eerderangs cookie. Terwijl één CNAME over veelvoudige domeinen kan werken, zal om het even welk domein dat niet CNAME aanpast nog derdekoekjes plaatsen.
 
 >[!NOTE]
 >
->Ongeacht of uw inzamelingsdomein uw plaatsdomein aanpast, maakt het programma van de Preventie van het Intelligente Volgen van de Apple (ITP) de eerste partijkoekjes door Adobe worden geplaatst kortstondig op browsers die door ITP worden geregeerd, die Safari op macOS en alle browsers op iOS en iPadOS omvatten. Vanaf november 2020 hebben cookies die via CNAME zijn ingesteld, dezelfde vervaldatum als cookies die via JavaScript zijn ingesteld. Deze vervaldatum kan worden gewijzigd.
+>Met Apple Intelligent Tracking Prevention (ITP) wordt de duur van Adobe-cookies van de eerste partij beperkt, zelfs als uw verzamelingsdomein overeenkomt met uw sitedomein. ITP is van invloed op Safari op macOS en op alle browsers op iOS en iPadOS. Sinds november 2020 verlopen cookies die met CNAME zijn ingesteld net zo snel als cookies die met JavaScript zijn ingesteld. Deze termijn kan in de toekomst veranderen.
+
+Hier volgt een vereenvoudigde versie van de tekst:
 
 ## Cookies en privacy
 
-Het handhaven van klantenprivacy en gegevensveiligheid zijn hoogste prioriteiten bij Adobe. Adobe neemt deel aan meerdere privacyorganisaties en werkt samen met privacytoezichthouders en zelfreguleringsbeginselen. Deze samenwerking omvat het Digital Advertising Alliance AdChoices-programma om klanten informatie te verschaffen over hoe hun informatie wordt gebruikt en over het gebruik ervan.
+Adobe neemt privacy en gegevensbeveiliging serieus. Het werkt met privacyorganisaties, regelgevers en programma&#39;s zoals AdChoices om mensen controle te geven over hoe hun gegevens worden gebruikt.
 
-De meeste cookies die door Experiencen Cloud worden ingesteld, bevatten geen persoonlijk identificeerbare informatie. Deze cookies en bijbehorende gegevens zijn beveiligd en worden alleen gebruikt voor bedrijfsrapporten en voor relevante inhoud en advertenties. De gegevens zijn niet beschikbaar voor derden of andere klanten van de Adobe, tenzij ze in geaggregeerde industrieverslagen worden gebruikt. In [!DNL Digital Marketing Insight Report] worden bijvoorbeeld geaggregeerde en anonieme gegevens geanalyseerd door detailhandelaren.
+In de meeste cookies van Adobe Experience Cloud worden geen persoonlijke gegevens opgeslagen. Zij zijn veilig en slechts gebruikt door uw bedrijf-voor rapportering, inhoud, en reclame. Adobe deelt deze gegevens niet met andere klanten of derden, behalve in anonieme rapporten voor de hele branche (zoals Digital Marketing Insight Reports).
 
-Adobe voegt geen browser-vlakke informatie over bedrijven samen. Om de privacy en veiligheid van de gegevens van klanten te beschermen, bieden sommige diensten binnen de Experience Cloud bedrijven de capaciteit om een afzonderlijke reeks koekjes voor elke gevolgde plaats te gebruiken. Sommige aanbiedingen bieden klanten ook de mogelijkheid om hun eigen domeinnaam als eigenaar van het cookie te gebruiken. Deze praktijk leidt tot een extra laag van privacy en veiligheid, aangezien het tot de koekjes van het Experience Cloud *eerste partijkoekjes* maakt, die permanent tot de plaats van het bedrijf behoren.
+Adobe combineert browsergegevens niet tussen verschillende bedrijven. Om privacy te beschermen, laten sommige hulpmiddelen van Adobe elke website zijn eigen reeks koekjes gebruiken. Sommige gebruikers kunnen ook uw eigen domein voor cookies gebruiken, waardoor ze van de eerste partij een betere beveiliging krijgen.
 
-Cookies kunnen alleen de gegevens opslaan en verstrekken die eerder in de cookies zijn opgeslagen. Ze kunnen geen code uitvoeren of toegang krijgen tot andere informatie die op de computer is opgeslagen. Webbrowsers beperken ook de toegang tot cookiegegevens. Browsers voeren een beveiligingsbeleid voor cookies in dat alle gegevens van cookies alleen beschikbaar maakt voor de website die de informatie oorspronkelijk heeft ingesteld.
-
-Gegevens in cookies die zijn ingesteld vanaf de website Adobe.com kunnen bijvoorbeeld niet worden bekeken door andere websites dan Adobe.com.
+Cookies kunnen alleen gegevens opslaan die eerder in de cookies zijn opgeslagen. Ze kunnen geen code uitvoeren of andere gegevens lezen op uw apparaat. Webbrowsers staan alleen toe dat cookies worden gelezen door de website die ze instelt. Bijvoorbeeld, slechts kan Adobe.com koekjes lezen het plaatst.
 
 In het volgende diagram wordt het gebruik van cookies voor een standaardafbeeldingsaanvraag geïllustreerd:
 
