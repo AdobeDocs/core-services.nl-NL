@@ -32,13 +32,13 @@ Analytics gebruikt cookies om nieuwe bezoekers anoniem te definiëren, hulp bij 
 
 ## Cookies ingesteld op plug-ins
 
-Sommige implementaties maken gebruik van plug-ins. Dit zijn codefragmenten die aanvullende functionaliteit bieden voor Analytics. Deze plug-ins kunnen cookies instellen die hierboven niet worden vermeld. Zie [ het overzicht van stop-ins van Analytics ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) voor een lijst van beschikbare stop-ins en welke koekjes die zij plaatsen.
+Sommige implementaties maken gebruik van plug-ins. Dit zijn codefragmenten die aanvullende functionaliteit bieden voor Analytics. Deze plug-ins kunnen cookies instellen die hierboven niet worden vermeld. Zie [ het overzicht van stop-ins van Analytics ](https://experienceleague.adobe.com/nl/docs/analytics/implementation/vars/plugins/impl-plugins) voor een lijst van beschikbare stop-ins en welke koekjes die zij plaatsen.
 
 ## Gevolgen van het verwijderen van Analytics-cookies
 
 Als een bezoeker zijn of haar Analytics-cookies verwijdert, kunt u het volgende overwegen:
 
-* **de identificatie van de Bezoeker wordt verloren:** wanneer de koekjes worden geschrapt, kan Adobe Analytics terugkerende bezoekers niet erkennen. De volgende keer dat de gebruiker uw site bezoekt, wordt deze geteld als een nieuwe bezoeker. [ dwars-apparaat Analytics ](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview) kan helpen dit effect verlichten.
+* **de identificatie van de Bezoeker wordt verloren:** wanneer de koekjes worden geschrapt, kan Adobe Analytics terugkerende bezoekers niet erkennen. De volgende keer dat de gebruiker uw site bezoekt, wordt deze geteld als een nieuwe bezoeker. [ dwars-apparaat Analytics ](https://experienceleague.adobe.com/nl/docs/analytics/components/cda/overview) kan helpen dit effect verlichten.
 * **de continuïteit van de Zitting is gebroken:** om het even welke op zitting-gebaseerde of multi-bezoek analyse (zoals attributie of omzetting het volgen) wordt onderbroken. Gebeurtenissen en conversies die na het verwijderen van cookies plaatsvinden, kunnen door dezelfde gebruiker niet aan eerdere activiteiten worden gekoppeld.
 * **Personalization en de segmentatie worden beïnvloed:** Segmenten of gepersonaliseerde ervaringen die op de geschiedenis of het gedrag van de bezoeker worden gebaseerd worden teruggesteld, aangezien het vorige gegeven niet meer met hun huidige bezoek wordt geassocieerd.
 * **het dwars-domein volgen wordt onderbroken:** voor derdekoekjes, die hen schrappen verhindert Adobe Analytics gebruikersactiviteit over veelvoudige domeinen te verbinden die u bezit.
