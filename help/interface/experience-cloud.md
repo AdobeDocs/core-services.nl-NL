@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: ab65ddb3bf6887db4fa0b2ffbbef89fc198b191a
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Om tot de toepassingen en de diensten van Experience Cloud toegang te hebben die
 
 ## Hulp en ondersteuning {#support}
 
-Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/nl#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
+Het leren van de toegang en hulp die **[!UICONTROL Help center]** (![ activa ](assets/help-icon.png)) gebruiken in de kopbal, met inbegrip van hulpinhoud (documentatie, leerprogramma&#39;s, en cursussen) op [ Experience League ](https://experienceleague.adobe.com/#home), evenals extra middelen voor individuele toepassingen. U kunt ook feedback voor onbepaalde tijd verzenden en geprioriteerde ondersteuningstickets maken.
 
 ![ krijg hulp en steun ](assets/search-menu.png)
 
@@ -86,3 +86,4 @@ Klik op het belpictogram om meldingen en aankondigingen weer te geven. Aankondig
 ![ Meldingen en Mededelingen ](assets/notifications-menu-small.png)
 
 Om berichten en alarm te beheren, zie [ voorkeur en berichten van de Rekening ](features/account-preferences.md)
+
