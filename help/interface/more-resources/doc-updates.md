@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '614'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 3%
 # Documentatie-updates voor Experience Cloud
 
 Leer waar de documentatie updates voor de centrale interface en het beleid van Experience Cloud voorkomen.
+
+**Augustus 2025**
+
+Toegevoegde informatie over [ terugstellend uw Adobe ID ](../features/account-preferences.md).
 
 **Februari 2025**
 
@@ -69,7 +73,7 @@ Bijgewerkt [ beleid FAQ ](faq.md) met informatie over hoe de Steun van Adobe tot
 
 **24 Augustus 2021**
 
-De bijgewerkte [&#128279;](../experience-cloud.md) pagina van de Componenten van 0&rbrace; Centrale (het landen van deze gids pagina).  Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
+De bijgewerkte [ pagina van de Componenten van 0} Centrale (het landen van deze gids pagina). ](../experience-cloud.md) Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
 
 **6 Augustus 2021**
 
