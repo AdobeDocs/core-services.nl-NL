@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -25,27 +25,27 @@ Beschrijft hoe te:
 
 * Geef je bedrijf in Experience Cloud op.
 * Hiermee kunt u beheerder worden.
-* [ voer de Dienst van identiteitskaart van Experience Cloud uit ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
+* [ voer de Dienst van identiteitskaart van Experience Cloud uit ](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 * Moderniseer uw [!DNL Analytics] - en [!DNL Target] -implementaties via [!UICONTROL Platform Data Collection] .
 * Gebruik Experience Cloud-services zoals [[!DNL customer attributes]](../services/customer-attributes/attributes.md) en [[!DNL Audience Library]](../services/audiences/overview.md) .
 
 Oplossingen of services:
 
-* [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
-* [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=nl-NL)
-* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=nl-NL)
-* [ de Dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL)
+* [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html)
+* [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html)
+* [ de Dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html)
 
 ## Experience Cloud ID Service {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
 De id-service biedt een universele, permanente id die uw bezoekers identificeert in alle toepassingen in Experience Cloud. Het kan de generatiecode van identiteitskaart voor de diensten zoals Analytics, Audience Manager, Adobe Target, videohartslag, en andere toepassingen en producten van Experience Cloud vervangen.
 
-Zie [ de Dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL)
+Zie [ de Dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html)
 
 **Toepasselijke toepassingen of de diensten**
 
-* [ Adobe Analytics ](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=nl-NL)
-* [ Adobe Target ](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=nl-NL)
+* [ Adobe Analytics ](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html)
+* [ Adobe Target ](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)
 
 ## Doelgroepen {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
@@ -53,14 +53,14 @@ Help: [ Soorten publiek ](/help/interface/services/audiences/overview.md)
 
 Soorten publiek maken en beheren in Experience Cloud [!UICONTROL Audience Library] . De soorten publiek kunnen van diverse bronnen tot stand worden gebracht of worden afgeleid, zoals:
 
-* Nieuwe in de [!DNL Experience Cloud] gemaakte.
-* Vanuit [!DNL Analytics] -segmenten gepubliceerd naar de [!DNL Experience Cloud] .
+* Nieuwe functies die zijn gemaakt in [!DNL Experience Cloud] .
+* Van [!DNL Analytics] naar [!DNL Experience Cloud] gepubliceerde segmenten.
 * Van [!DNL Audience Manager].
 
 **Toepasselijke oplossingen of de diensten**
 
-* [ Activiteiten ](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=nl-NL) in Adobe Target
-* [ Segmentatie ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=nl-NL) in Audience Manager
+* [ Activiteiten ](https://experienceleague.adobe.com/docs/target/using/activities/activities.html) in Adobe Target
+* [ Segmentatie ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) in Audience Manager
 * [ de Wolk van de Reclame ](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (vereiste login)
 
 ## Klantkenmerken {#section_6A9EA6847F654F129381869E5016626C}
@@ -88,7 +88,7 @@ Deel mappen en middelen tussen Experience Cloud en Creative Cloud. Samenwerken, 
 
 ## Analyse - AEM Assets-rapportage in Analytics {#section_0A16AE14F128470AA02EFC6457BDCE75}
 
-Help: [ AEM Assets die in Analytics ](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=nl-NL) rapporteert
+Help: [ AEM Assets die in Analytics ](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html) rapporteert
 
 Laat Analytics toe om impressies te verzamelen en op Assets te klikken die bij de Inzichten van de Activa van AEM wordt getoond.
 
@@ -99,15 +99,15 @@ Laat Analytics toe om impressies te verzamelen en op Assets te klikken die bij d
 
 ## Audience Manager-integratie {#section_8FEFE1746E26416EB7E73095BBAD5345}
 
-[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=nl-NL)
+[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
 
 Werken met gegevens van Experience Cloud-toepassingen of andere externe systemen in Audience Manager.
 
 **Toepasselijke toepassingen of de diensten**
 
-* [ Analytics Server-Side door:sturen ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=nl-NL)
-* [ verzendt de Segmenten van Audience Manager naar Analytics ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=nl-NL)
-* [ de Integratie van Gegevens van Adobe Target ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=nl-NL)
+* [ Analytics Server-Side door:sturen ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+* [ verzendt de Segmenten van Audience Manager naar Analytics ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+* [ de Integratie van Gegevens van Adobe Target ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
@@ -119,19 +119,19 @@ Integreer Adobe Target met Adobe Analytics en andere Experience Cloud-toepassing
 
 * Klantattributen: Vorm Adobe Target [ abonnement ](/help/interface/services/customer-attributes/subscription.md) aan klantenattributen
 * Experience Cloud Publiek: [ de Bibliotheek van het publiek van Experience Cloud ](/help/interface/services/audiences/overview.md)
-* Analytics: [ Adobe Analytics als Rapporterende Source voor Adobe Target ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=nl-NL)
-* Audience Manager: [ de Integratie van de Gegevens van Adobe Target met Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=nl-NL)
-* Campagne: [ integreren Adobe Target met Campagne ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=nl-NL)
+* Analytics: [ Adobe Analytics als Rapporterende Source voor Adobe Target ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
+* Audience Manager: [ de Integratie van de Gegevens van Adobe Target met Adobe Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Campagne: [ integreren Adobe Target met Campagne ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
 
 ## Experience Manager-integratie {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-* Videozelfstudies: [ de integraties van Experience Manager ](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html?lang=nl-NL)
+* Videozelfstudies: [ de integraties van Experience Manager ](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-* De documentatie van het product: [ de documentatie van Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=nl-NL)
+* De documentatie van het product: [ de documentatie van Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
 
 ## EXPERIENCE MANAGER - ASSETS {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
-Help: [ Vormend de integratie van AEM Assets met Experience Cloud en Creative Cloud ](https://experienceleague.adobe.com/docs/?lang=nl-NL)
+Help: [ Vormend de integratie van AEM Assets met Experience Cloud en Creative Cloud ](https://experienceleague.adobe.com/docs/)
 
 Synchroniseer uw middelen binnen Adobe Experience Manager (AEM) Assets met Adobe Creative Cloud, en vice versa. U kunt uw elementen ook synchroniseren met Experience Cloud en omgekeerd. U kunt deze synchronisatie instellen via Experience Cloud.
 
@@ -139,13 +139,13 @@ Synchroniseer uw middelen binnen Adobe Experience Manager (AEM) Assets met Adobe
 
 * AEM
 * Creative Cloud
-* [ Experience Cloud ](https://experienceleague.adobe.com/docs/?lang=nl-NL)
+* [ Experience Cloud ](https://experienceleague.adobe.com/docs/)
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
 * Help (vereiste login): [ Integratie met de Oplossingen en de Diensten van Adobe Experience Cloud ](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* [ documentatie van Adobe Advertising ](https://experienceleague.adobe.com/docs/advertising.html?lang=nl-NL) op Experience League
+* [ documentatie van Adobe Advertising ](https://experienceleague.adobe.com/docs/advertising.html) op Experience League
 
 **Toepasselijke toepassingen of de diensten**
 

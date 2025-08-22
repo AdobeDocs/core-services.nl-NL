@@ -1,23 +1,23 @@
 ---
-description: Leer hoe u kenmerkregels gebruikt om een publiek te maken en een samengesteld publiek in Adobe Experience Cloud te definiëren.
+title: Een publiek maken in de Audience Library
+description: Kom te weten hoe te om attributenregels te gebruiken om een scherpe publiek in de Bibliotheek van de Publiek tot stand te brengen. Leer om een regel te vormen en een samengesteld publiek te bepalen.
 solution: Experience Cloud
-title: Een publiek maken
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Een publiek maken
 
-Leer hoe u kenmerkregels gebruikt om een publiek te maken en een samengesteld publiek in Experience Cloud te definiëren.
+In [!UICONTROL Audience Library] kunt u kenmerkregels gebruiken om een publiek te maken en een samengesteld publiek voor delen in Experience Cloud-toepassingen definiëren.
 
 Dit artikel helpt u begrijpen hoe te:
 
@@ -44,21 +44,22 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 
 **om een publiek** te creëren
 
-1. Klik in de lus [!DNL Experience Cloud] onder [!DNL Experience Platform] op **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
-1. Klik op de pagina [!UICONTROL Audiences] op **[!UICONTROL New]** . ![ toevoegen ](assets/add_icon_small.png)
+1. Klik [!DNL Experience Cloud] apps (![ Apps pictogram ](assets/apps-icon.png)), dan klik **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-   ![ Resultaat van de Stap ](assets/audience_create_new.png)
+1. Klik op de pagina [!UICONTROL Audiences] op **[!UICONTROL New]** . ![ Nieuw publiek ](assets/add_icon_small.png)
 
-1. Geef op de pagina [!UICONTROL Create New Audience] een titel en beschrijving op.
-1. Selecteer onder [!UICONTROL Rules] een kenmerkbron:
+   ![Een doelgroep maken](assets/audience_create_new.png)
 
-   * **[!UICONTROL Real-Time Analytics Data:]** (of Raw-gegevens) Dit zijn kenmerkgegevens die zijn afgeleid van Real-Time Analytics-afbeeldingsaanvragen en die gegevens bevatten zoals eVars en gebeurtenissen. U moet een rapportreeks selecteren wanneer het gebruiken van deze attributenbron, en de dimensie of de gebeurtenis bepalen om te omvatten. Deze selectie van de rapportreeks verstrekt de veranderlijke structuur die door de rapportreeks wordt gebruikt.
+1. Vul op de pagina [!UICONTROL Create New Audience] de velden **[!UICONTROL Title]** en **[!UICONTROL Description]** in.
+1. Selecteer onder [!UICONTROL Rules] een referentierapportsuite, gevolgd door een kenmerkbron:
+
+   * **[!UICONTROL Real-Time Analytics Data:]** (of Raw-gegevens) Dit zijn kenmerkgegevens die zijn afgeleid van Real-Time Analytics-afbeeldingsaanvragen. Het omvat eVars en gebeurtenissen. U moet een rapportreeks selecteren wanneer het gebruiken van deze attributenbron, en de dimensie of de gebeurtenis bepalen om te omvatten. Deze selectie van de rapportreeks verstrekt de veranderlijke structuur die door de rapportreeks wordt gebruikt.
 
    >[!NOTE]
    >
    >Als gevolg van caching, vereisen de geschrapte rapportreeksen in Analytics 12 uur alvorens de schrapping in Experience Cloud wordt getoond.
 
-   * **[!UICONTROL Experience Cloud:]** -kenmerkgegevens die zijn afgeleid van de [!DNL Experience Cloud] -bronnen. Dit kunnen bijvoorbeeld gegevens zijn van publiekssegmenten die u maakt in [!DNL Analytics] , of gegevens van [!DNL Audience Manager] .
+   * **[!UICONTROL Experience Cloud:]** -kenmerkgegevens die zijn afgeleid van [!DNL Experience Cloud] -bronnen. Dit kunnen bijvoorbeeld gegevens zijn van publiekssegmenten die u maakt in [!DNL Analytics] , of gegevens van [!DNL Audience Manager] .
 
 1. Bepaal publieksregels, dan klik **[!UICONTROL Save].**
 
@@ -94,4 +95,4 @@ De resulterende regel is een gedefinieerd publiek dat Chrome &amp; Safari-gebrui
 
 Nadat de gegevensinzameling voor de gespecificeerde periode voltooit, combineren de cirkels om een bepaald publiek te tonen.
 
-Nadat het publiek is opgeslagen, is het beschikbaar voor andere toepassingen. U kunt bijvoorbeeld een gedeeld publiek opnemen in een Adobe Target-activiteit.
+Nadat het publiek is opgeslagen, is het beschikbaar voor andere Experience Cloud-toepassingen. Bijvoorbeeld, kunt u een gedeeld publiek in een Adobe Target [ activiteit ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) omvatten.
