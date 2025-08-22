@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ In het volgende voorbeeld ziet u hoe u de regels voor een samengesteld publiek m
 
 1. Bepaal publieksregels, dan klik **[!UICONTROL Save].**
 
+**Voorbeeld: Bepaal regels voor samengesteld publiek**
+
 >[!NOTE]
 >
 >U zou een inzicht in uw implementatievariabelen moeten hebben wanneer het bepalen van publieksregels.
@@ -95,4 +97,4 @@ De resulterende regel is een gedefinieerd publiek dat Chrome &amp; Safari-gebrui
 
 Nadat de gegevensinzameling voor de gespecificeerde periode voltooit, combineren de cirkels om een bepaald publiek te tonen.
 
-Nadat het publiek is opgeslagen, is het beschikbaar voor andere Experience Cloud-toepassingen. Bijvoorbeeld, kunt u een gedeeld publiek in een Adobe Target [ activiteit ](https://experienceleague.adobe.com/nl/docs/target/using/activities/activities) omvatten.
+Nadat het publiek is opgeslagen, is het beschikbaar voor andere Experience Cloud-toepassingen. Bijvoorbeeld, kunt u een gedeeld publiek in een Adobe Target [ activiteit ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) omvatten.
