@@ -110,7 +110,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Functie | Beschrijving |
 | ------- |-------|
-| Sneltoetsen (**[!UICONTROL Recents]**) toegevoegd aan [ Experience Cloud ](https://experience.adobe.com/home) huis | U kunt tot kortere weg tot uw meest recente werk van Journey Optimizer en van Experience Platform onder de nieuwe _1} rubriek van Recenten {op de het landen pagina toegang hebben._ Deze update bevat ook algemene verbeteringen voor de lay-out en de responssnelheid. |
+| Sneltoetsen (**[!UICONTROL Recents]**) toegevoegd aan [ Experience Cloud ](https://experience.adobe.com/home) huis | U kunt tot kortere weg tot uw meest recente werk van Journey Optimizer en van Experience Platform onder de nieuwe _1&rbrace; rubriek van Recenten &lbrace;op de het landen pagina toegang hebben._ Deze update bevat ook algemene verbeteringen voor de lay-out en de responssnelheid. |
 | **[!UICONTROL Sandboxes]** naar de kopbalk verplaatst | De sandboxindicator is nu geïntegreerd in de header voor alle Experience Platform-interfacetoepassingen. Zie [ Sandboxes ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) in Experience Platform voor meer informatie. |
 
 {style="table-layout:auto"}
@@ -160,8 +160,8 @@ Unified Search wordt bijgewerkt en beschikbaar voor Journey Optimizer, aanbiedin
 | Functie | Beschrijving |
 | ------- | ------- |
 | Experience Cloud Header &amp; Navigation | Adobe Experience Cloud-updates bevatten een wijziging in het lichte thema voor de koptekst. U kunt gemakkelijk terugschakelen naar een donker thema en een koppeling maken om extra voorkeuren in de Experience Cloud-koptekst in te stellen via de gebruikersavatar. Hoewel niet alle toepassingen in Experience Cloud ondersteuning bieden voor thema&#39;s, opent deze functie toekomstige themaondersteuning. |
-| Experience Cloud Global Search | Met deze versie, staat het globale onderzoek van Experience Cloud u toe om het even welke [ documentatie van 0} Experience League {te zoeken, cursussen, en leerprogramma&#39;s. ](https://experienceleague.adobe.com/#home) (Momenteel is de algemene zoekopdracht alleen beschikbaar voor Experience Platform-gebruikers. Met algemene zoekopdracht naar [!UICONTROL Platform] kunt u zoeken naar elk willekeurig bedrijfsobject in Experience Cloud, zoals segmenten, gegevenssets, schema&#39;s en meer.) |
-| Voorkeuren voor Experience Cloud-talen | Deze update omvat de capaciteit om uw aangewezen talen in de Voorkeur van Experience Cloud [ ](https://experience.adobe.com/preferences) te plaatsen. |
+| Experience Cloud Global Search | Met deze versie, staat het globale onderzoek van Experience Cloud u toe om het even welke [ documentatie van 0&rbrace; Experience League &lbrace;te zoeken, cursussen, en leerprogramma&#39;s. ](https://experienceleague.adobe.com/#home) (Momenteel is de algemene zoekopdracht alleen beschikbaar voor Experience Platform-gebruikers. Met algemene zoekopdracht naar [!UICONTROL Platform] kunt u zoeken naar elk willekeurig bedrijfsobject in Experience Cloud, zoals segmenten, gegevenssets, schema&#39;s en meer.) |
+| Voorkeuren voor Experience Cloud-talen | Deze update omvat de capaciteit om uw aangewezen talen in de Voorkeur van Experience Cloud [&#128279;](https://experience.adobe.com/preferences) te plaatsen. |
 
 {style="table-layout:auto"}
 
