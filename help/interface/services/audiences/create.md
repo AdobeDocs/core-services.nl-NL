@@ -95,4 +95,4 @@ De resulterende regel is een gedefinieerd publiek dat Chrome &amp; Safari-gebrui
 
 Nadat de gegevensinzameling voor de gespecificeerde periode voltooit, combineren de cirkels om een bepaald publiek te tonen.
 
-Nadat het publiek is opgeslagen, is het beschikbaar voor andere Experience Cloud-toepassingen. Bijvoorbeeld, kunt u een gedeeld publiek in een Adobe Target [ activiteit ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) omvatten.
+Nadat het publiek is opgeslagen, is het beschikbaar voor andere Experience Cloud-toepassingen. Bijvoorbeeld, kunt u een gedeeld publiek in een Adobe Target [ activiteit ](https://experienceleague.adobe.com/nl/docs/target/using/activities/activities) omvatten.
