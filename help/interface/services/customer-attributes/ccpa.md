@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Klantenkenmerk ondersteuning voor de California Consumer Privacy Act
 
-Op deze pagina wordt [!UICONTROL customer attributes] support for the California Consumer Privacy Act (CCPA) beschreven.
+Op deze pagina wordt [!DNL Customer Attributes] support for the California Consumer Privacy Act (CCPA) beschreven.
 
 >[!IMPORTANT]
 >
@@ -27,13 +27,13 @@ Als bedrijf, bepaalt u de persoonlijke gegevens die Adobe Experience Cloud verwe
 
 Als uw dienstverlener, verleent Adobe Experience Cloud steun voor uw zaken om aan zijn verplichtingen uit hoofde van CCPA te voldoen die op het gebruik van de producten en de diensten van Experience Cloud van toepassing zijn. Deze ondersteuning omvat het beheren van verzoeken om toegang tot en verwijdering van persoonlijke gegevens.
 
-In dit document wordt beschreven hoe [!UICONTROL customer attributes] de toegangsrechten en verwijderingsrechten voor CCPA-gegevens van de betrokkenen ondersteunt via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van Privacy Service.
+In dit document wordt beschreven hoe [!DNL Customer Attributes] de toegangsrechten en verwijderingsrechten voor CCPA-gegevens van de betrokkenen ondersteunt via de API van Adobe Experience Platform Privacy Service en de gebruikersinterface van Privacy Service.
 
 Voor meer informatie over de diensten van de Privacy van Adobe voor CCPA, zie het [ Centrum van de Privacy van Adobe ](https://www.adobe.com/privacy/ccpa.html).
 
-## Vereiste instellingen voor het verzenden van aanvragen voor [!UICONTROL customer attributes]
+## Vereiste instellingen voor het verzenden van aanvragen voor [!DNL Customer Attributes]
 
-Als u verzoeken wilt indienen om gegevens voor [!UICONTROL customer attributes] te openen en te verwijderen, moet u:
+Als u verzoeken wilt indienen om gegevens voor [!DNL Customer Attributes] te openen en te verwijderen, moet u:
 
 1. Vermeld het volgende:
 
@@ -45,7 +45,7 @@ Als u verzoeken wilt indienen om gegevens voor [!UICONTROL customer attributes] 
 
 1. In [!UICONTROL Privacy Service] kunt u verzoeken om toegang en om verwijdering verzenden naar klantkenmerken en de status van bestaande aanvragen controleren.
 
-## Vereiste veldwaarden in [!UICONTROL customer attributes] JSON-verzoeken
+## Vereiste veldwaarden in [!DNL Customer Attributes] JSON-verzoeken
 
 &quot;bedrijfcontext&quot;:
 

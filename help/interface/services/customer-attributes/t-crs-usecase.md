@@ -1,33 +1,35 @@
 ---
-description: Maak een kenmerkbron voor klanten en upload deze naar de Adobe Experience Cloud.
+description: Leer een bron voor klantkenmerken maken en deze uploaden naar de Adobe Experience Cloud.
 solution: Experience Cloud
-title: Een klantkenmerk Source maken en het gegevensbestand uploaden
+title: Source-bestand met klantkenmerkgegevens maken en uploaden
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
 
 # Een bron voor klantkenmerken maken en het gegevensbestand uploaden
 
-Maak de bron van klantkenmerken (`.csv` en `.fin` bestanden) en upload de gegevens. U kunt de gegevensbron activeren wanneer u klaar bent. Nadat de gegevensbron actief is, deel de attributengegevens aan Analytics en Doel.
+Maak de bron van klantkenmerken (`.csv` en `.fin` bestanden) en upload de gegevens. U kunt de gegevensbron activeren wanneer u klaar bent. Nadat de gegevensbron actief is, deelt u de kenmerkgegevens naar [!DNL Analytics] en [!DNL Target] .
 
-## workflow met klantkenmerken {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+**de kenmerkenwerkschema van de Klant**
 
 ![ het werkschema van klantenattributen ](assets/crs.png)
 
->[!IMPORTANT]
->
->Om toegang te krijgen tot deze functie, moeten gebruikers worden toegewezen aan het productprofiel van de klantkenmerken (klantkenmerken - Standaardtoegang). Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products]** . Als *klantenattributen* als één van [!UICONTROL product profiles] toont, bent u klaar om te beginnen. Gebruikers die aan de groep met klantkenmerken zijn toegevoegd, zien het [!UICONTROL customer attributes] -menu links van de Experience Cloud-interface.
->
->Gebruikers moeten ook tot groepen op toepassingsniveau behoren (Adobe Analytics of [!DNL Target] ) om de functie voor klantkenmerken te kunnen gebruiken.
+## Vereisten
+
+**toegang van het Product:** om [!DNL Customer Attributes] toegang te hebben, moeten de gebruikers aan het het productprofiel van de Attributen van de Klant (**[!UICONTROL Customer Attributes - Default Access]**) in Admin Console (`adminconsole.adobe.com`) worden toegewezen.
+
+Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products]** . Als *de Attributen van de Klant* als één van de producten (a [!UICONTROL Product profile]) toont, bent u klaar om te beginnen. Gebruikers die aan het productprofiel van de klantkenmerken zijn toegevoegd, zie **[!DNL Customer Attributes]** in de **[!UICONTROL Apps]** -kiezer. (![ het werkschema van klantenattributen ](assets/menu-icon.png))
+
+**de groepen van de Toepassing:** om de **[!DNL Customer Attributes]** eigenschap te gebruiken, moeten de gebruikers ook tot toepassing-vlakke groepen (Adobe [!DNL Analytics] of [!DNL Adobe Target]) behoren.
 
 ## Een gegevensbestand maken {#create-data}
 
@@ -41,10 +43,10 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 
    Voorbeeld bedrijfsklantenbestand:
 
-   ![ dossier van de ondernemingsklant van de steekproef &lbrace;](assets/01_crs_usecase.png)
+   ![ dossier van de ondernemingsklant van de steekproef {](assets/01_crs_usecase.png)
 
 1. Alvorens verder te gaan, herzie de belangrijke informatie in [ Vereisten van het Dossier van Gegevens ](crs-data-file.md), alvorens u het dossier uploadt.
-1. [ creeer een bron van de klantenattributen en upload de gegevens ](t-crs-usecase.md), hieronder beschreven.
+1. [ creeer een bron van de klantenattributen en upload de gegevens ](t-crs-usecase.md#create-source), hieronder beschreven.
 
 ## De kenmerkbron maken en het gegevensbestand uploaden {#create-source}
 
@@ -54,18 +56,15 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
 >
 >Wanneer het creëren van, het wijzigen van, of het schrappen van de bronnen van de klantenattributen, is er een vertraging van maximaal één uur alvorens IDs begint synchroniserend met de nieuwe gegevensbron. U moet beheerdersrechten in Audience Manager hebben om bronnen voor klantkenmerken te maken of te wijzigen. Neem contact op met de klantenservice of consultatie van Audience Manager om beheerrechten te verkrijgen.
 
-1. In [!DNL Experience Cloud], selecteer het menu ![ menu ](assets/menu-icon.png) pictogram.
-1. Selecteer **[!UICONTROL customer attributes]**.
+1. In [!DNL Experience Cloud], klik **[!UICONTROL Apps]** ![ menu ](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-   Op de pagina [!UICONTROL customer attributes] kunt u bestaande bronnen met kenmerkgegevens beheren en bewerken.
-
-   ![ het belangrijkste scherm van klantenattributen ](assets/cust-attr.png)
+   ![ pagina van de Attributen van de Klant ](assets/cust-attr.png)
 
 1. Klik op **[!UICONTROL New]**.
 
-   ![ Resultaat van de Stap ](assets/04_crs_usecase.png)
+   ![ Resultaat van de Stap ](assets/new-customer-attribute-source.png)
 
-1. Configureer op de pagina [!UICONTROL Create customer attribute Source] de volgende velden:
+1. Configureer op de pagina [!UICONTROL Create Customer Attribute Source] de volgende velden:
 
    * **[!UICONTROL Name:]** Een vriendelijke naam voor de bron van het gegevenskenmerk. Voor [!DNL Adobe Target] mogen kenmerknamen geen spaties bevatten. Wanneer een kenmerk met een spatie wordt doorgegeven, negeert [!DNL Target] dit. Andere niet-ondersteunde tekens zijn: `< , >, ', "` .
 
@@ -81,7 +80,7 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
 
       * **Markeringen:** identiteitskaart van de Alias beantwoordt aan de *waarde van de Code van de Integratie* onder [!UICONTROL customer Settings], in het [ hulpmiddel van de Dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl).
 
-      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) die u met elke bezoeker kunt associëren.
+      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) die u met elke bezoeker kunt associëren.
 
         Bijvoorbeeld, *&quot;crm_id&quot;* in:
 
@@ -89,13 +88,13 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers :identifiers ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=nl-NL).
+      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers :identifiers ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html).
 
         Bijvoorbeeld:
 
         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=nl-NL).
+      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html).
 
         Bijvoorbeeld:
 
@@ -103,21 +102,27 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
 
         Zie [ Leveraging veelvoudige gegevensbronnen ](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) voor extra informatie over gegevensverwerking betreffende het gebied van identiteitskaart van de Alias en klant IDs.
 
-   * **[!UICONTROL Namespace Code:]** Gebruik deze waarde om de bron van de klantenattributen te identificeren wanneer het gebruiken van [ IdentityMap ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/identity/overview) als deel van een Implementatie WebSDK van AEP.
+   * **[!UICONTROL Namespace Code:]** Gebruik deze waarde om de bron van de klantenattributen te identificeren wanneer het gebruiken van [ IdentityMap ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) als deel van een Implementatie WebSDK van AEP.
+
+1. Klik op **[!UICONTROL Save]**.
 
 ## Bestand uploaden {#upload}
 
+Het verslag van het klantenattribuut wordt gecreeerd, en u kunt het dossier uploaden door het klantenattribuut uit te geven.
 
-1. Klik op Bestand uploaden.
+1. Klik op de pagina [!DNL Customer Attributes] op de kenmerkbron.
 
-2. Sleep het gegevensbestand `.csv` of `.zip` of `.gzip` naar het venster voor slepen en neerzetten.
+1. Klik op de pagina [!UICONTROL Edit Customer Data Source] op **[!UICONTROL File Upload]** .
+
+   ![ Dossier uploadt en Validatie van het Schema ](assets/file-upload-schema-validation.png)
+
+1. Sleep het gegevensbestand `.csv` of `.zip` of `.gzip` naar het venster voor slepen en neerzetten.
 
 >[!IMPORTANT]
 >
 >Er zijn specifieke gegevensbestandsvereisten. Zie [ Vereisten van het Dossier van Gegevens ](crs-data-file.md) voor meer informatie.
 
 Nadat u het bestand hebt geüpload, worden tabelgegevens weergegeven onder de kop [!UICONTROL File Upload] op deze pagina. U kunt het schema valideren, abonnementen configureren of de FTP instellen.
-
 
 ![ attributen ](assets/file_upload_attributes.png)
 
@@ -139,20 +144,15 @@ Om attributen te schrappen, zie [ (Facultatieve) Update het schema (schrapt attr
 
 Hoe te om attributen te schrappen en attributen in het schema te vervangen.
 
-1. Verwijder op de pagina [!UICONTROL Edit customer attribute Source] het abonnement **[!UICONTROL Target]** of **[!UICONTROL Analytics]** (onder [!UICONTROL Configure Subscriptions] ).
+1. Verwijder op de pagina [!UICONTROL Edit Customer Attribute Source] het abonnement **[!UICONTROL Target]** of **[!UICONTROL Analytics]** (onder **[!UICONTROL Configure Subscriptions]** ).
+
 1. [ upload een nieuw gegevensdossier met bijgewerkte gebieden ](t-crs-usecase.md).
 
 ## Abonnementen configureren en kenmerkbron activeren {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
 Als u een abonnement configureert, wordt de gegevensstroom tussen Experience Cloud en toepassingen ingesteld. Door de kenmerkbron te activeren, kunnen de gegevens naar geabonneerde toepassingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
 
-Zie [ abonnementen ](subscription.md) vormen.
-
-**om een attributenbron** te activeren
-
-Zoek op de pagina [!UICONTROL Create New or Edit customer attribute Source] de kop [!UICONTROL Activate] en klik vervolgens op **[!UICONTROL Active]** .
-
-![ Resultaat van de Stap ](assets/activate_attribute_source.png)
+Zie [ abonnementen vormen en de gegevensbron ](subscription.md) activeren.
 
 ## Kenmerken van klanten gebruiken in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
@@ -170,4 +170,4 @@ In [!DNL Target], kunt u een klantenattribuut van de [!UICONTROL Visitor Profile
 
 ![ de klantenattributen van het Gebruik in Adobe Target ](assets/crs-add-attribute-target.png)
 
-Zie [ Creërend een Nieuw Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=nl-NL) in [!DNL Target] hulp.
+Zie [ Creërend een Nieuw Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) in [!DNL Target] hulp.

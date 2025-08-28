@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
-# Privacyoverwegingen voor [!DNL customer attributes]
+# Privacyoverwegingen voor [!DNL Customer Attributes]
 
 Overwegingen en beste praktijken betreffende persoonlijk identificeerbare informatie (PII) die in Adobe Experience Cloud wordt geupload en gebruikt.
 

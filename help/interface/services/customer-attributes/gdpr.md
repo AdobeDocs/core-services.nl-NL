@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # [!DNL Customer attributes] ondersteuning voor algemene gegevensbeschermingsverordening
 
-Op deze pagina wordt beschreven hoe [!DNL customer attributes] General Data Protection Regulation (GDPR) ondersteunt.
+Op deze pagina wordt beschreven hoe [!DNL Customer Attributes] General Data Protection Regulation (GDPR) ondersteunt.
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ De [ Algemene Verordening van de Bescherming van Gegevens ](https://business.ado
 
 Adobe Experience Cloud treedt op als een gegevensverwerker voor persoonlijke gegevens die het ontvangt en opslaat namens zijn klanten. Als gegevenscontroller bepaalt u de persoonlijke gegevens die Adobe Experience Cloud voor u verwerkt en opslaat.
 
-In dit document wordt beschreven hoe [!DNL customer attributes] de toegang tot en het verwijderen van GDPR-gegevens van de betrokkenen via de Adobe Experience Platform Privacy Service API en de gebruikersinterface van Privacy Service ondersteunt.
+In dit document wordt beschreven hoe [!DNL Customer Attributes] de toegang tot en het verwijderen van GDPR-gegevens van de betrokkenen via de Adobe Experience Platform Privacy Service API en de gebruikersinterface van Privacy Service ondersteunt.
 
 Voor meer informatie over wat GDPR voor uw zaken betekent, zie [ GDPR en Uw Zaken ](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Vereiste instellingen voor het verzenden van aanvragen voor [!DNL customer attributes]
+## Vereiste instellingen voor het verzenden van aanvragen voor [!DNL Customer Attributes]
 
-Als u verzoeken wilt indienen om gegevens voor [!DNL customer attributes] te openen en te verwijderen, moet u:
+Als u verzoeken wilt indienen om gegevens voor [!DNL Customer Attributes] te openen en te verwijderen, moet u:
 
 1. Vermeld het volgende:
 
@@ -41,9 +41,9 @@ Als u verzoeken wilt indienen om gegevens voor [!DNL customer attributes] te ope
 
    Uw [ organisatieidentiteitskaart ](../../administration/organizations.md) is een 24 karakter alfanumeriek koord dat met @AdobeOrg wordt toegevoegd. U hebt de id van de organisatie nodig om aanvragen in te dienen bij de API voor privacy. Neem via `gdprsupport@adobe.com` contact op met de klantenservice van Adobe als u de id niet kunt vinden.
 
-1. In [!UICONTROL Privacy Service] kunt u aanvragen voor toegang en verwijderen indienen bij [!DNL customer attributes] en de status van bestaande aanvragen controleren.
+1. In [!UICONTROL Privacy Service] kunt u aanvragen voor toegang en verwijderen indienen bij [!DNL Customer Attributes] en de status van bestaande aanvragen controleren.
 
-## Vereiste veldwaarden in [!DNL customer attributes] JSON-aanvragen
+## Vereiste veldwaarden in [!DNL Customer Attributes] JSON-aanvragen
 
 &quot;bedrijfcontext&quot;:
 

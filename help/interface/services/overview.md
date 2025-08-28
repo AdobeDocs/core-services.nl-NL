@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b790f79a6e49f2103e6b3c1fcde3a36c1ea5c141
+source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # Experience Cloud-services {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Deze documentatie is van toepassing op functies van de verenigde header in Experience Cloud, zoals de [!DNL People] -service ([!DNL Audience Library] en [!DNL customer attributes] ), gebruikers- en productbeheer voor Experience Cloud, cookies, accountvoorkeuren, meldingen enzovoort.
+Deze documentatie is van toepassing op functies van de verenigde header in Experience Cloud, zoals de [!DNL People] -service ([!DNL Audience Library] en [!DNL Customer Attributes] ), gebruikers- en productbeheer voor Experience Cloud, cookies, accountvoorkeuren, meldingen enzovoort.
 
 Als u deze services wilt openen in Experience Cloud, selecteert u de optie **[!UICONTROL Application Selector]**
 ![ de selecteur van de Diensten ](../assets/apps-icon.png).
@@ -36,4 +36,4 @@ In deze Help worden de volgende producten en services beschreven:
 
 >[!NOTE]
 >
->De documentatie van het product voor [ Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL) is beschikbaar. De technische documentatie voor [!UICONTROL Experience Platform] ontwikkelaars wordt gevonden op [ Adobe Developer ](https://developer.adobe.com/apis).
+>De documentatie van het product voor [ Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) is beschikbaar. De technische documentatie voor [!UICONTROL Experience Platform] ontwikkelaars wordt gevonden op [ Adobe Developer ](https://developer.adobe.com/apis).
