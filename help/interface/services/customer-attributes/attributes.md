@@ -7,36 +7,20 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 5%
+source-wordcount: '304'
+ht-degree: 7%
 
 ---
 
 # [!DNL Customer Attributes] in Experience Cloud
 
-[!DNL Customer Attributes] in Experience Cloud kunt u vastgelegde bedrijfsgegevens uploaden vanuit een CRM-database (Customer relationship management). U kunt de gegevens uploaden naar een gegevensbron voor klantkenmerken in Experience Cloud en vervolgens de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target] gebruiken.
+**[!UICONTROL Apps]** ![ menu ](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-## De functie [!DNL Customer Attributes] zoeken
-
-1. Login aan [!DNL Experience Cloud] en selecteert het menu ![ menu ](assets/menu-icon.png) pictogram.
-
-1. Selecteer **[!DNL Customer Attributes]**.
+[!DNL Customer Attributes] in Experience Cloud kunt u vastgelegde bedrijfsgegevens uploaden vanuit een CRM-database (Customer relationship management). U kunt [ de gegevens ](t-crs-usecase.md) in a [!DNL Customer Attributes] gegevensbron in Experience Cloud uploaden, dan de gegevens in [!DNL Adobe Analytics] en [!DNL Adobe Target] gebruiken.
 
 ![ overzicht van de attributen van de Klant ](assets/custom_reports.png)
-
-## Vereisten voor het uploaden van klantkenmerkgegevens {#prerequisites}
-
-* **het lidmaatschap van de Groep:** om de gegevens van de klantenattributen te uploaden, moeten de gebruikers lid van de groep van de Attributen van de Klant zijn. U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
-
-  Om te weten of uw bedrijf toegang tot klantenattributen heeft, zou uw [!DNL Experience Cloud] beheerder in [ Experience Cloud ](https://experience.adobe.com) moeten registreren. Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products]** . Als *[!DNL Customer Attributes]* wordt weergegeven als een van de [!UICONTROL product profiles] , kunt u beginnen.
-
-  Gebruikers die aan [!DNL Customer Attributes] zijn toegevoegd, zien de [!DNL Customer Attributes] -menuoptie aan de linkerkant van de Experience Cloud-interface.
-
-* **Adobe Target** `at.js` (om het even welke versie) of `mbox.js` versie 58 of recenter wordt vereist voor klantenattributen.
-
-  Zie [ hoe te om at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=nl-NL) op te stellen.
 
 ## Wat zijn bedrijfsklantgegevens? {#enterprise_data}
 
