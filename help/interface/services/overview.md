@@ -36,4 +36,4 @@ In deze Help worden de volgende producten en services beschreven:
 
 >[!NOTE]
 >
->De documentatie van het product voor [ Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) is beschikbaar. De technische documentatie voor [!UICONTROL Experience Platform] ontwikkelaars wordt gevonden op [ Adobe Developer ](https://developer.adobe.com/apis).
+>De documentatie van het product voor [ Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL) is beschikbaar. De technische documentatie voor [!UICONTROL Experience Platform] ontwikkelaars wordt gevonden op [ Adobe Developer ](https://developer.adobe.com/apis).
