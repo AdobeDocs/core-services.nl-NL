@@ -51,7 +51,7 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 
    Voorbeeld bedrijfsklantenbestand:
 
-   ![ dossier van de ondernemingsklant van de steekproef {](assets/01_crs_usecase.png)
+   ![ dossier van de ondernemingsklant van de steekproef &lbrace;](assets/01_crs_usecase.png)
 
 1. Alvorens verder te gaan, herzie de belangrijke informatie in [ Vereisten van het Dossier van Gegevens ](crs-data-file.md), alvorens u het dossier uploadt.
 1. [ creeer een bron van de klantenattributen en upload de gegevens ](t-crs-usecase.md#create-source), hieronder beschreven.
