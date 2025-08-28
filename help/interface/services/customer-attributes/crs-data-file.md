@@ -1,15 +1,15 @@
 ---
-description: Meer informatie over gegevensbestandsvereisten en meerdere gegevensbronnen voor het uploaden van klantkenmerken naar Experience Cloud.
+description: Leer over de vereisten van het gegevensdossier en veelvoudige gegevensbronnen voor het uploaden van gegevens in  [!DNL Customer Attributes]  aan Experience Cloud.
 solution: Experience Cloud
-title: Gegevensbestand en gegevensbronnen
+title: Gegevensbestand en gegevensbronnen van kenmerk van klant
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Hetzelfde bestand wordt weergegeven in een teksteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>klant-id, kolom </p> </td> 
-   <td colname="col2"> <p> De eerste kolom moet een unieke klant-id zijn. De gebruikte id moet overeenkomen met de id die wordt doorgegeven aan de Experience Cloud-id-service. </p> <p>Voor Analytics wordt de id opgeslagen in een prop of eVar. </p> <p>Voor Doel, de setcustomerID waarde. </p> <p> Deze klant-id is de unieke id die uw CRM gebruikt voor elke persoon in uw database. De resterende kolommen zijn attributen die uit uw CRM komen. U kiest hoeveel kenmerken u wilt uploaden. </p> <p>U kunt goed leesbare namen aanbevelen voor de kolomkoppen, maar deze zijn niet vereist. Wanneer u het schema na het uploaden valideert, kunt u vriendelijke namen toewijzen aan de geüploade rijen en kolommen. </p> <p> <b> Ongeveer klant IDs </b> </p> <p>Een onderneming gebruikt doorgaans een klant-id van een CRM-systeem. Deze id wordt ingesteld met de aanroep <span class="codeph"> setcustomerIDs </span> wanneer een persoon zich aanmeldt. Deze id wordt ook gebruikt als de sleutel in het CRM-bestand dat naar Experience Cloud wordt geüpload. Een <a href="t-crs-usecase.md" format="dita" scope="local"> alias-id </a> is een vriendelijke naam voor een gegevensopslag in Audience Manager, waar de aliasgegevens worden opgeslagen. Het systeem verzendt aliassen naar deze gegevensopslag (via setcustomerIDs). Het CRM-bestand wordt toegepast op de gegevens in die gegevensopslag. </p> <p>Zie <span class="codeph"> Customer ID's en verificatiestatussen </span> voor informatie over <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL" format="https" scope="external"> setcustomerID's </a> . </p> </td> 
+   <td colname="col2"> <p> De eerste kolom moet een unieke klant-id zijn. De gebruikte id moet overeenkomen met de id die wordt doorgegeven aan de Experience Cloud-id-service. </p> <p>Voor Analytics wordt de id opgeslagen in een prop of eVar. </p> <p>Voor Doel, de setcustomerID waarde. </p> <p> Deze klant-id is de unieke id die uw CRM gebruikt voor elke persoon in uw database. De resterende kolommen zijn attributen die uit uw CRM komen. U kiest hoeveel kenmerken u wilt uploaden. </p> <p>U kunt goed leesbare namen aanbevelen voor de kolomkoppen, maar deze zijn niet vereist. Wanneer u het schema na het uploaden valideert, kunt u vriendelijke namen toewijzen aan de geüploade rijen en kolommen. </p> <p> <b> Ongeveer klant IDs </b> </p> <p>Een onderneming gebruikt doorgaans een klant-id van een CRM-systeem. Deze id wordt ingesteld met de aanroep <span class="codeph"> setcustomerIDs </span> wanneer een persoon zich aanmeldt. Deze id wordt ook gebruikt als de sleutel in het CRM-bestand dat naar Experience Cloud wordt geüpload. Een <a href="t-crs-usecase.md" format="dita" scope="local"> alias-id </a> is een vriendelijke naam voor een gegevensopslag in Audience Manager, waar de aliasgegevens worden opgeslagen. Het systeem verzendt aliassen naar deze gegevensopslag (via setcustomerIDs). Het CRM-bestand wordt toegepast op de gegevens in die gegevensopslag. </p> <p>Zie <span class="codeph"> Customer ID's en verificatiestatussen </span> voor informatie over <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> setcustomerID's </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Volgende koppen en kolommen </p> </td> 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Zie [ klant IDs en de Staten van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) voor meer informatie.)
+(Zie [ klant IDs en de Staten van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) voor meer informatie.)
 
 In **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]** :
 

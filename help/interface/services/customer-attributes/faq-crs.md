@@ -1,5 +1,5 @@
 ---
-description: Veelgestelde vragen over  [!DNL Customer Attributes]  in Adobe Experience Cloud, voor Adobe Analytics en Adobe Target.
+description: Krijg antwoorden aan vaak gestelde vragen over  [!DNL Customer Attributes]  in Adobe Experience Cloud, voor Adobe Analytics en Adobe Target.
 solution: Experience Cloud
 title: Veelgestelde vragen over  [!DNL Customer Attributes]
 feature: Customer Attributes
@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Richtlijnen en beperkingen bij gebruik van [!DNL Customer Attributes] .
 
 | Probleem | Beschrijving |
 |--- |--- |
-| [!UICONTROL customer attribute] abonnementsbeperkingen | Wanneer u een upgrade uitvoert naar de Analytics Premium, duurt het 24 uur voordat er meer kenmerken beschikbaar zijn. Tijdens deze vertraging wordt mogelijk een [!UICONTROL attribute Subscription Max] -fout weergegeven. |
+| [!DNL Customer Attribute] abonnementsbeperkingen | Wanneer u een upgrade uitvoert naar de Analytics Premium, duurt het 24 uur voordat er meer kenmerken beschikbaar zijn. Tijdens deze vertraging wordt mogelijk een [!UICONTROL attribute Subscription Max] -fout weergegeven. |
 | Meerdere aanmeldingen op hetzelfde apparaat | Als u [!DNL Customer Attributes] gebruikt om klantprofielen te uploaden naar een gegevensbron, raadt Adobe gebruikers aan apparaten niet te delen (wat hetzelfde betekent, dezelfde Experience Cloud-id). De Experience Cloud-id (ECID) blijft bestaan op het apparaat. Door apparaten te delen kan de ECID meerdere gebruikers aan dezelfde ECID koppelen, wat onverwachte resultaten tot gevolg heeft in [!DNL Target] . **Nota:** voor Mobiele, ECID is permanent nadat Mobiele app wordt geïnstalleerd. Installeer de toepassing opnieuw om een nieuwe ECID te genereren. Voor het Web, wordt een nieuwe ECID geproduceerd nadat het browser koekje wordt ontruimd. |
 | Maximale uploadfrequentie per dag | Adobe raadt u aan [!DNL Customer Attributes] slechts eenmaal per dag bij te werken. U moet ten minste 24 uur wachten om een ander bestand met klantprofielgegevens te uploaden voor dezelfde set profielen. |
 | Custom Analytics ID (`s.visitorID`) | Het instellen van een klant-id met `s.visitorID` is een manier om gebruikers in Adobe Analytics te identificeren. Integraties waarin [!DNL Analytics] -gegevens worden geëxporteerd of geïmporteerd met behulp van de ID-service functioneren echter niet wanneer een bezoeker wordt geïdentificeerd met `s.visitorID.`<br> Dit omvat, maar is niet beperkt tot, gedeelde soorten publiek, [!DNL Analytics] voor Adobe Target (A4T) en [!DNL Customer Attributes] .<br> voor deze integraties, wordt het plaatsen van een identiteitskaart van de douaneAnalytics niet gesteund. |
@@ -45,7 +45,7 @@ Richtlijnen en beperkingen bij gebruik van [!DNL Customer Attributes] .
 | **(Alleen Adobe Target)** Kan ik gegevens voor klanten die Adobe Target nog nooit heeft gezien, vooraf laden of uploaden? | Ja. Wanneer de bezoeker voor het eerst een verzoek indient bij Adobe Target, haalt het systeem de bestaande informatie op waarover Adobe beschikt van [!DNL Customer Attributes] en gebruikt het die gegevens voor het richten. **Nota:** het terugwinnen van dit gegeven kan tot 20 min van de eerste interactie van de bezoeker met Adobe Target vergen. |
 | **(Alleen Adobe Target)** Kan ik een superpubliek maken door klantkenmerkgegevens te combineren met gedeelde publieksgegevens? | Nee. Gegevens voor een gedeeld publiek zijn voltooid. |
 | **(Alleen Adobe Target)** Hoe vergelijk [!DNL Customer Attributes] met de Adobe Target-API voor bulkprofielen? | Met de API voor bulkprofielen kunnen Adobe Target-profielen rechtstreeks via de API worden bijgewerkt, voor een afzonderlijk profiel of in bulk. De mogelijkheid is vergelijkbaar met [!DNL Customer Attributes] , met de volgende belangrijke verschillen:<ul><li>De profiel-API is een REST API-aanroep en [!DNL Customer Attributes] gebruikt FTP.</li><li>Adobe Target-profiel-API verzendt alleen gegevens naar Adobe Target in plaats van naar de hele Experience Cloud.</li><li>[!DNL Customer Attributes] biedt een eenvoudige interface voor het maken en beheren van deze externe gegevens.</li></ul> |
-| **(Alleen Adobe Target)** Leidt het uploaden van gegevens van [!DNL Customer Attributes] naar Adobe Target ertoe dat de levensduur van het profiel van de Adobe Target-bezoeker wordt verlengd? | Ja. Zie [ Levensduur van het Profiel van de Bezoeker ](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=nl-NL) in de Hulp van Adobe Target. |
+| **(Alleen Adobe Target)** Leidt het uploaden van gegevens van [!DNL Customer Attributes] naar Adobe Target ertoe dat de levensduur van het profiel van de Adobe Target-bezoeker wordt verlengd? | Ja. Zie [ Levensduur van het Profiel van de Bezoeker ](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html) in de Hulp van Adobe Target. |
 | **(Alleen Adobe Target)** Kan ik me richten op de gegevens die in [!DNL Customer Attributes] zijn geüpload direct nadat de bezoeker door de klant-id is geïdentificeerd? | Ja. Op de servervraag aan Adobe Target, die mbox derdeidentiteitskaart omvat, zijn alle gegevens van het klantenattribuut beschikbaar. |
 | **(Alleen Adobe Target)** Wat vertegenwoordigt de kolom **[!UICONTROL Sync Status]** voor bestanden die zijn geüpload in de kenmerkbron van de klant? | Het aantal records dat door Adobe Target is gepubliceerd en gesynchroniseerd, kan worden weergegeven door het pictogram Synchronisatiestatus te selecteren op basis van een specifiek kenmerkbestand. `Sync %` is een real-time metrisch die het percentage van profielen specificeert die in Adobe Target zijn gesynchroniseerd.<br> **Nota:** het kan tot 24 uren voor attributen aan synchronisatie met Adobe Target vergen. |
 | Wat vertegenwoordigen de meetgegevens voor het uploaden van bestanden in [!DNL Customer Attributes] Source? | U kunt de status controleren van kenmerken die naar [!DNL Customer Attributes] zijn geüpload met behulp van de volgende meetgegevens: <ul><li>Records: Aantal records in het kenmerkbestand.</li><li>**Nieuwe Verslagen:** Aantal nieuwe verslagen aanwezig in het attributendossier.</li> <li>**Bijgewerkte Verslagen:** Aantal verslagen in die in [!DNL Customer Attributes] met bijgewerkte waarden in het dossier bestaan.</li><li>**Alle Gegevens (Verslagen):** Totaal aantal met succes geupload verslagen aan [!DNL Customer Attributes].</li></ul> |

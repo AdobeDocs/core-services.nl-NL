@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
-# [!DNL Customer attributes] ondersteuning voor algemene gegevensbeschermingsverordening
+# [!DNL Customer Attributes] ondersteuning voor algemene gegevensbeschermingsverordening
 
 Op deze pagina wordt beschreven hoe [!DNL Customer Attributes] General Data Protection Regulation (GDPR) ondersteunt.
 

@@ -1,28 +1,28 @@
 ---
-description: Leer hoe te om de abonnementen van de klantenattributen aan Analytics en Doel te vormen, en een gegevensbron te activeren.
+description: Leer hoe te om abonnementen in  [!DNL Customer Attributes]  voor Analytics en Doel te vormen, en een gegevensbron te activeren.
 solution: Experience Cloud
-title: Hoe te om abonnementen te vormen
+title: Hoe te om Abonnementen in te vormen  [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '415'
 ht-degree: 1%
 
 ---
 
 # Abonnementen configureren en de gegevensbron activeren
 
-Abonnementen maken de gegevensstroom van klantkenmerken tussen Experience Cloud en toepassingen ([!DNL Analytics] en [!DNL Target]) mogelijk.
+Met [!DNL Customer Attributes] -abonnementen kan de gegevensstroom van klantkenmerken worden ingesteld tussen Experience Cloud en toepassingen ([!DNL Analytics] en [!DNL Target] ).
 
-Met een Adobe Analytics-abonnement worden bijvoorbeeld kenmerkgegevens in rapporten ingeschakeld. Als u Adobe Target gebruikt, kunt u klantkenmerken uploaden voor doelframes en segmentatie.
+Met een Adobe Analytics-abonnement worden bijvoorbeeld kenmerkgegevens in rapporten ingeschakeld. Als u [!DNL Adobe Target] gebruikt, kunt u klantenattributen voor het richten en segmentatie uploaden.
 
 **om abonnementen te vormen en de gegevensbron te activeren**
 
-1. Zoek de kenmerkbron van uw klant voor bewerking:
+1. Zoek de gegevensbron in [!DNL Customer Attributes] voor bewerking:
 
    In [!DNL Experience Cloud], klik **[!UICONTROL Apps]** ![ menu ](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 

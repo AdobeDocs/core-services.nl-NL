@@ -1,21 +1,21 @@
 ---
-description: Leer een bron voor klantkenmerken maken en deze uploaden naar de Adobe Experience Cloud.
+description: Leer om a  [!DNL Customer Attributes]  gegevensbron tot stand te brengen en het te uploaden aan Experience Cloud.
 solution: Experience Cloud
-title: Source-bestand met klantkenmerkgegevens maken en uploaden
+title: Creeer en upload het Dossier van Source van a [!DNL Customer Attributes]  Gegevens
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
-# Een bron voor klantkenmerken maken en het gegevensbestand uploaden
+# Een gegevensbron maken en het bestand uploaden
 
 Maak de bron van klantkenmerken (`.csv` en `.fin` bestanden) en upload de gegevens. U kunt de gegevensbron activeren wanneer u klaar bent. Nadat de gegevensbron actief is, deelt u de kenmerkgegevens naar [!DNL Analytics] en [!DNL Target] .
 
@@ -43,7 +43,7 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 
    Voorbeeld bedrijfsklantenbestand:
 
-   ![ dossier van de ondernemingsklant van de steekproef &lbrace;](assets/01_crs_usecase.png)
+   ![ dossier van de ondernemingsklant van de steekproef {](assets/01_crs_usecase.png)
 
 1. Alvorens verder te gaan, herzie de belangrijke informatie in [ Vereisten van het Dossier van Gegevens ](crs-data-file.md), alvorens u het dossier uploadt.
 1. [ creeer een bron van de klantenattributen en upload de gegevens ](t-crs-usecase.md#create-source), hieronder beschreven.
@@ -80,7 +80,7 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
 
       * **Markeringen:** identiteitskaart van de Alias beantwoordt aan de *waarde van de Code van de Integratie* onder [!UICONTROL customer Settings], in het [ hulpmiddel van de Dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl).
 
-      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) die u met elke bezoeker kunt associëren.
+      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) die u met elke bezoeker kunt associëren.
 
         Bijvoorbeeld, *&quot;crm_id&quot;* in:
 
@@ -88,13 +88,13 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers :identifiers ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=nl-NL).
+      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers :identifiers ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html).
 
         Bijvoorbeeld:
 
         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=nl-NL).
+      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html).
 
         Bijvoorbeeld:
 
@@ -102,7 +102,7 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
 
         Zie [ Leveraging veelvoudige gegevensbronnen ](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) voor extra informatie over gegevensverwerking betreffende het gebied van identiteitskaart van de Alias en klant IDs.
 
-   * **[!UICONTROL Namespace Code:]** Gebruik deze waarde om de bron van de klantenattributen te identificeren wanneer het gebruiken van [ IdentityMap ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/identity/overview) als deel van een Implementatie WebSDK van AEP.
+   * **[!UICONTROL Namespace Code:]** Gebruik deze waarde om de bron van de klantenattributen te identificeren wanneer het gebruiken van [ IdentityMap ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) als deel van een Implementatie WebSDK van AEP.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -170,4 +170,4 @@ In [!DNL Target], kunt u een klantenattribuut van de [!UICONTROL Visitor Profile
 
 ![ de klantenattributen van het Gebruik in Adobe Target ](assets/crs-add-attribute-target.png)
 
-Zie [ Creërend een Nieuw Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=nl-NL) in [!DNL Target] hulp.
+Zie [ Creërend een Nieuw Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) in [!DNL Target] hulp.
