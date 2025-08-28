@@ -37,7 +37,7 @@ In [!DNL Experience Cloud], klik **[!UICONTROL Apps]** ![ menu ](assets/menu-ico
 
 * **Adobe Target** `at.js` (om het even welke versie) of `mbox.js` versie 58 of recenter wordt vereist voor klantenattributen.
 
-  Zie [ hoe te om at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html) op te stellen.
+  Zie [ hoe te om at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=nl-NL) op te stellen.
 
 ## Een gegevensbestand maken {#create-data}
 
@@ -88,7 +88,7 @@ Voer deze stappen uit op de pagina [!UICONTROL Create Customer Attribute Source]
 
       * **Markeringen:** identiteitskaart van de Alias beantwoordt aan de *waarde van de Code van de Integratie* onder [!UICONTROL customer Settings], in het [ hulpmiddel van de Dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl).
 
-      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) die u met elke bezoeker kunt associëren.
+      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) die u met elke bezoeker kunt associëren.
 
         Bijvoorbeeld, *&quot;crm_id&quot;* in:
 
@@ -96,13 +96,13 @@ Voer deze stappen uit op de pagina [!UICONTROL Create Customer Attribute Source]
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers :identifiers ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html).
+      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers :identifiers ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=nl-NL).
 
         Bijvoorbeeld:
 
         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html).
+      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=nl-NL).
 
         Bijvoorbeeld:
 
@@ -110,7 +110,7 @@ Voer deze stappen uit op de pagina [!UICONTROL Create Customer Attribute Source]
 
         Zie [ Leveraging veelvoudige gegevensbronnen ](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) voor extra informatie over gegevensverwerking betreffende het gebied van identiteitskaart van de Alias en klant IDs.
 
-   * **[!UICONTROL Namespace Code:]** Gebruik deze waarde om de bron van de klantenattributen te identificeren wanneer het gebruiken van [ IdentityMap ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) als deel van een Implementatie WebSDK van AEP.
+   * **[!UICONTROL Namespace Code:]** Gebruik deze waarde om de bron van de klantenattributen te identificeren wanneer het gebruiken van [ IdentityMap ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/identity/overview) als deel van een Implementatie WebSDK van AEP.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -178,4 +178,4 @@ In [!DNL Target], kunt u een klantenattribuut van de [!UICONTROL Visitor Profile
 
 ![ de Attributen van de Klant van het Gebruik in Adobe Target ](assets/crs-add-attribute-target.png)
 
-Zie [ een Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) in [!DNL Target] hulp creëren.
+Zie [ een Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=nl-NL) in [!DNL Target] hulp creëren.
