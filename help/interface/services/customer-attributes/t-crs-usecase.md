@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,25 @@ ht-degree: 0%
 
 Maak de bron van klantkenmerken (`.csv` en `.fin` bestanden) en upload de gegevens. U kunt de gegevensbron activeren wanneer u klaar bent. Nadat de gegevensbron actief is, deelt u de kenmerkgegevens naar [!DNL Analytics] en [!DNL Target] .
 
-**de kenmerkenwerkschema van de Klant**
+**[!DNL Customer Attributes]workflow**
 
 ![ het werkschema van klantenattributen ](assets/crs.png)
 
-## Vereisten
+## Zoeken [!DNL Customer Attributes]
 
-**toegang van het Product:** om [!DNL Customer Attributes] toegang te hebben, moeten de gebruikers aan het het productprofiel van de Attributen van de Klant (**[!UICONTROL Customer Attributes - Default Access]**) in Admin Console (`adminconsole.adobe.com`) worden toegewezen.
+In [!DNL Experience Cloud], klik **[!UICONTROL Apps]** ![ menu ](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products]** . Als *de Attributen van de Klant* als één van de producten (a [!UICONTROL Product profile]) toont, bent u klaar om te beginnen. Gebruikers die aan het productprofiel van de klantkenmerken zijn toegevoegd, zie **[!DNL Customer Attributes]** in de **[!UICONTROL Apps]** -kiezer. (![ het werkschema van klantenattributen ](assets/menu-icon.png))
+## Vereisten voor het gebruik van [!DNL Customer Attributes] {#prerequisites}
 
-**de groepen van de Toepassing:** om de **[!DNL Customer Attributes]** eigenschap te gebruiken, moeten de gebruikers ook tot toepassing-vlakke groepen (Adobe [!DNL Analytics] of [!DNL Adobe Target]) behoren.
+* **het lidmaatschap van de Groep:** om de gegevens te uploaden, moeten de gebruikers lid van de [!DNL Customer Attributes] groep zijn. U moet ook tot een Adobe Analytics-groep of een Adobe Target-groep behoren.
+
+  Om te weten of uw bedrijf toegang tot klantenattributen heeft, zou uw [!DNL Experience Cloud] beheerder in [ Experience Cloud ](https://experience.adobe.com) moeten registreren. Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products]** . Als *[!DNL Customer Attributes]* wordt weergegeven als een van de [!UICONTROL product profiles] , kunt u beginnen.
+
+  Gebruikers die aan [!DNL Customer Attributes] zijn toegevoegd, zien de [!DNL Customer Attributes] -menuoptie aan de linkerkant van de Experience Cloud-interface.
+
+* **Adobe Target** `at.js` (om het even welke versie) of `mbox.js` versie 58 of recenter wordt vereist voor klantenattributen.
+
+  Zie [ hoe te om at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html) op te stellen.
 
 ## Een gegevensbestand maken {#create-data}
 
@@ -43,14 +51,14 @@ Dit gegeven is gegevens van ondernemingsklanten van uw CRM. De gegevens kunnen a
 
    Voorbeeld bedrijfsklantenbestand:
 
-   ![ dossier van de ondernemingsklant van de steekproef &lbrace;](assets/01_crs_usecase.png)
+   ![ dossier van de ondernemingsklant van de steekproef {](assets/01_crs_usecase.png)
 
 1. Alvorens verder te gaan, herzie de belangrijke informatie in [ Vereisten van het Dossier van Gegevens ](crs-data-file.md), alvorens u het dossier uploadt.
 1. [ creeer een bron van de klantenattributen en upload de gegevens ](t-crs-usecase.md#create-source), hieronder beschreven.
 
 ## De kenmerkbron maken en het gegevensbestand uploaden {#create-source}
 
-Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Experience Cloud uit.
+Voer deze stappen uit op de pagina [!UICONTROL Create Customer Attribute Source] in Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -80,7 +88,7 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
 
       * **Markeringen:** identiteitskaart van de Alias beantwoordt aan de *waarde van de Code van de Integratie* onder [!UICONTROL customer Settings], in het [ hulpmiddel van de Dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl).
 
-      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) die u met elke bezoeker kunt associëren.
+      * **Bezoeker API:** identiteitskaart van de Alias beantwoordt aan extra [ klant IDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) die u met elke bezoeker kunt associëren.
 
         Bijvoorbeeld, *&quot;crm_id&quot;* in:
 
@@ -88,13 +96,13 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers :identifiers ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=nl-NL).
+      * **iOS:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ bezoekorSyncIdentifiers :identifiers ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html).
 
         Bijvoorbeeld:
 
         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=nl-NL).
+      * **Android™:** identiteitskaart van de Alias beantwoordt aan *&quot;idType&quot;* in [ syncIdentifiers ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html).
 
         Bijvoorbeeld:
 
@@ -102,7 +110,7 @@ Voer deze stappen op de Create nieuwe de bronpagina van klantenattributen in Exp
 
         Zie [ Leveraging veelvoudige gegevensbronnen ](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) voor extra informatie over gegevensverwerking betreffende het gebied van identiteitskaart van de Alias en klant IDs.
 
-   * **[!UICONTROL Namespace Code:]** Gebruik deze waarde om de bron van de klantenattributen te identificeren wanneer het gebruiken van [ IdentityMap ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/identity/overview) als deel van een Implementatie WebSDK van AEP.
+   * **[!UICONTROL Namespace Code:]** Gebruik deze waarde om de bron van de klantenattributen te identificeren wanneer het gebruiken van [ IdentityMap ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) als deel van een Implementatie WebSDK van AEP.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -154,7 +162,7 @@ Als u een abonnement configureert, wordt de gegevensstroom tussen Experience Clo
 
 Zie [ abonnementen vormen en de gegevensbron ](subscription.md) activeren.
 
-## Kenmerken van klanten gebruiken in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## [!DNL Customer Attributes] -gegevens gebruiken in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
 Met de gegevens die nu beschikbaar zijn in toepassingen zoals Adobe Analytics, kunt u de gegevens rapporteren, analyseren en de juiste actie ondernemen in uw marketingcampagnes.
 
@@ -164,10 +172,10 @@ In het volgende voorbeeld wordt een [!DNL Analytics] -segment weergegeven op bas
 
 Wanneer u een segment publiceert naar Experience Cloud, wordt dit beschikbaar in Experience Cloud Audiences en Audience Manager.
 
-## Kenmerken van klanten gebruiken in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## [!DNL Customer Attributes] -gegevens gebruiken in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
 In [!DNL Target], kunt u een klantenattribuut van de [!UICONTROL Visitor Profile] sectie selecteren wanneer het creëren van een publiek. Alle klantkenmerken hebben het voorvoegsel `crs.` in de lijst. U kunt deze kenmerken desgewenst combineren met andere gegevenskenmerken om een publiek te maken.
 
-![ de klantenattributen van het Gebruik in Adobe Target ](assets/crs-add-attribute-target.png)
+![ de Attributen van de Klant van het Gebruik in Adobe Target ](assets/crs-add-attribute-target.png)
 
-Zie [ Creërend een Nieuw Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=nl-NL) in [!DNL Target] hulp.
+Zie [ een Publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) in [!DNL Target] hulp creëren.
