@@ -42,7 +42,7 @@ Generatieve AI is een type AI die originele inhoud kan maken. Zo kunt u bijvoorb
 
 [!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing" tooltip="Naar AI-assistent"}
 
-[!BADGE  Privacy, veiligheid, en bestuur ]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy" tooltip="GenAI bij Adobe"}
+[!BADGE &#x200B; Privacy, veiligheid, en bestuur &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy" tooltip="GenAI bij Adobe"}
 
 ## Beschikbaarheid van AI in Experience Cloud-producten
 
@@ -101,7 +101,7 @@ AI Assistant ondersteunt AEM as a Cloud Service op de volgende plaatsen:
 
 #### Experience Manager Sites
 
-In AEM Sites kunt u _[!UICONTROL Generate Variations]_gebruiken. Deze functie gebruikt generatieve kunstmatige intelligentie om inhoudvariaties te creëren die op uw inputherinneringen worden gebaseerd. Prompts worden geleverd door Adobe of gemaakt en beheerd door u.
+In AEM Sites kunt u _[!UICONTROL Generate Variations]_&#x200B;gebruiken. Deze functie gebruikt generatieve kunstmatige intelligentie om inhoudvariaties te creëren die op uw inputherinneringen worden gebaseerd. Prompts worden geleverd door Adobe of gemaakt en beheerd door u.
 
 Na het creëren van variaties, kunt u de inhoud op uw website gebruiken en zijn succes meten gebruikend de [ eigenschap van de Experimentatie ](https://www.aem.live/docs/experimentation) in Edge Delivery Services. U kunt ook afbeeldingen genereren in Adobe Express met behulp van de generatieve AI-mogelijkheden van Firefly.
 
