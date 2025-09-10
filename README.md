@@ -1,8 +1,8 @@
 ---
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: d192f4fec8cd150f77d076d3ad749048319cd701
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 71%
+source-wordcount: '397'
+ht-degree: 74%
 
 ---
 # Bijdragen aan een artikel
@@ -15,13 +15,13 @@ Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of
 
 ## Over uw bijdragen aan Adobe-content
 
-Zie de [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Zie de [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen dat u wilt bijdragen:
 
 ### Kleine wijzigingen
 
-Als u kleine updates uit uw goedheid bijdraagt, bezoek het artikel en selecteer **Bewerken** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
+Als u minder belangrijke updates uit de goodness van uw hart bijdraagt, bezoek het artikel en selecteer **uitgeven** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) voor meer informatie.
 
 Kleine correcties of verduidelijkingen die u verzendt voor documentatie en codevoorbeelden in deze repository, worden gedekt door de gebruiksvoorwaarden van Adobe.
 
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Belangrijke wijzigingen van Adobe-medewerkers
 
-Als u een technisch schrijver, programmamanager of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] en het is uw taak om een bijdrage te leveren aan technische artikelen of technische artikelen te schrijven. Gebruik hiervoor de privéopslagruimte op `https://git.corp.adobe.com/AdobeDocs`.
+Als u een technisch schrijver, programmamanager, of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] oplossing bent en het uw baan is om tot technische artikelen bij te dragen of te schrijven, zou u de privé bewaarplaats bij `https://git.corp.adobe.com/AdobeDocs` moeten gebruiken.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -43,7 +43,7 @@ Als u een technisch schrijver, programmamanager of ontwikkelaar van het productt
 
 Community-contributors kunnen de GitHub-interface gebruiken voor eenvoudige bewerkingen of kunnen de repository als beginpunt gebruiken voor belangrijke bijdragen.
 
-Zie de handleiding [Adobe Docs Contributor](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html) voor meer informatie.
+Zie de handleiding [Adobe Docs Contributor](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) voor meer informatie.
 
 ## Markdown gebruiken voor de opmaak van uw onderwerp
 
