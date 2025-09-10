@@ -15,13 +15,13 @@ Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of
 
 ## Over uw bijdragen aan Adobe-content
 
-Zie de [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Zie de [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction).
 
 Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen dat u wilt bijdragen:
 
 ### Kleine wijzigingen
 
-Als u minder belangrijke updates uit de goodness van uw hart bijdraagt, bezoek het artikel en selecteer **uitgeven** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) voor meer informatie.
+Als u minder belangrijke updates uit de goodness van uw hart bijdraagt, bezoek het artikel en selecteer **uitgeven** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction) voor meer informatie.
 
 Kleine correcties of verduidelijkingen die u verzendt voor documentatie en codevoorbeelden in deze repository, worden gedekt door de gebruiksvoorwaarden van Adobe.
 
@@ -43,7 +43,7 @@ Als u een technisch schrijver, programmamanager, of ontwikkelaar van het product
 
 Community-contributors kunnen de GitHub-interface gebruiken voor eenvoudige bewerkingen of kunnen de repository als beginpunt gebruiken voor belangrijke bijdragen.
 
-Zie de handleiding [Adobe Docs Contributor](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) voor meer informatie.
+Zie de handleiding [Adobe Docs Contributor](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction) voor meer informatie.
 
 ## Markdown gebruiken voor de opmaak van uw onderwerp
 
