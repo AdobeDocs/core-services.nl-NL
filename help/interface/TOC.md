@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud-interface en -beheer
 title: Experience Cloud Interface en Beheer
 description: Meer informatie over Experience Cloud-interface, cookies en accountvoorkeuren. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Experience Cloud Assets delen.
 index: true
-source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 20%
+source-wordcount: '205'
+ht-degree: 24%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 20%
    + [Exchange](services/exchange.md)
    + Klantkenmerken {#customer-attributes}
       + [Overzicht](services/customer-attributes/attributes.md)
-      + [Veelgestelde vragen over klantkenmerken](services/customer-attributes/faq-crs.md)
-      + [Gegevensbestand en gegevensbronnen voor klantkenmerken](services/customer-attributes/crs-data-file.md)
-      + [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](services/customer-attributes/t-crs-usecase.md)
-      + [Optioneel - Het gegevensbestand uploaden via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Veelgestelde vragen](services/customer-attributes/faq-crs.md)
+      + [Gegevensbestand en gegevensbronnen](services/customer-attributes/crs-data-file.md)
+      + [Het gegevensbestand maken en uploaden](services/customer-attributes/t-crs-usecase.md)
+      + [Optioneel - Uploaden via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Het schema valideren](services/customer-attributes/validate-schema.md)
       + [Abonnementen configureren en gegevensbron activeren](services/customer-attributes/subscription.md)
       + [Het schema bijwerken](services/customer-attributes/t-update-schema.md)
-      + [Steun voor algemene gegevensbeschermingsverordening](services/customer-attributes/gdpr.md)
-      + [Ondersteuning voor de California Consumer Privacy Act](services/customer-attributes/ccpa.md)
-      + [Privacyoverwegingen voor klantkenmerken](services/customer-attributes/privacy-mac.md)
+      + [Ondersteuning voor GDPR](services/customer-attributes/gdpr.md)
+      + [Ondersteuning voor CCPA](services/customer-attributes/ccpa.md)
+      + [Privacyoverwegingen](services/customer-attributes/privacy-mac.md)
    + [Triggers](services/triggers.md)
 
 + Functies {#features}
@@ -56,7 +56,7 @@ ht-degree: 20%
 + Beheer {#administration}
    + [Gebruikersbeheer en productlicenties](administration/admin-console.md)
    + [Gebruikersgegevens weergeven (Admin Tool)](administration/admin-tool-experience-cloud.md)
-   + [Organisaties en accountkoppelingen](administration/organizations.md)
+   + [Organisaties](administration/organizations.md)
    + [Experience Cloud-integraties](administration/integrations.md)
 
 + Dataverzameling {#data-collection}

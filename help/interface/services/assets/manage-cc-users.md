@@ -1,22 +1,22 @@
 ---
-description: Leer meer over beheerhulpmiddelen voor het beheren van erkende gebruikers van Creatives Cloud in Experience Cloud.
+description: Meer informatie over beheertools voor het beheer van goedgekeurde Creative Cloud-gebruikers in Experience Cloud.
 solution: Experience Cloud
-title: Gebruikers van Creatives Cloud beheren
+title: Creative Cloud-gebruikers beheren in Experience Cloud
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
 
-# Gebruikers van Creatives Cloud beheren
+# Creative Cloud-gebruikers beheren
 
-Het Experience Cloud biedt beheerhulpmiddelen voor het beheer van goedgekeurde gebruikers van Creatives Cloud. Deze gebruikers kunnen op ad-hocbasis worden uitgenodigd voor een campagnemap. Alleen gebruikers die door een beheerder aan de lijst zijn toegevoegd, kunnen worden uitgenodigd voor een campagne. De toegevoegde gebruikers tonen in de auto-volledige gebruikerslijst in Experience Cloud.
+De Experience Cloud biedt beheertools voor het beheer van goedgekeurde Creative Cloud-gebruikers. Deze gebruikers kunnen op ad-hocbasis worden uitgenodigd voor een campagnemap. Alleen gebruikers die door een beheerder aan de lijst zijn toegevoegd, kunnen worden uitgenodigd voor een campagne. De toegevoegde gebruikers worden weergegeven in de lijst met automatisch aangevulde gebruikers in Experience Cloud.
 
 >[!NOTE]
 >
