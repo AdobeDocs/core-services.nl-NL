@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
+source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%
@@ -73,7 +73,7 @@ Bijgewerkt [ beleid FAQ ](faq.md) met informatie over hoe de Steun van Adobe tot
 
 **24 Augustus 2021**
 
-De bijgewerkte [ pagina van de Componenten van 0&rbrace; Centrale (het landen van deze gids pagina). ](../experience-cloud.md) Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
+De bijgewerkte [ pagina van de Componenten van 0} Centrale (het landen van deze gids pagina). ](../experience-cloud.md) Extra ondersteuning voor browser en taal, updates van organisaties, aanmelden en toegevoegde informatie over domeinen.
 
 **6 Augustus 2021**
 
@@ -144,7 +144,7 @@ Toegevoegde [ Experience Cloud Assets ](../services/assets/experience-cloud-asse
 
 **15 Januari 2015**
 
-Extra Experience Cloud-gebruikers kunnen nu mappen delen naar de Creative Cloud en elementen en opmerkingen synchroniseren over de twee wolken. Zie [ Activa delen ](../services/assets/creative-cloud.md).
+Extra Experience Cloud-gebruikers kunnen nu mappen delen naar de Creative Cloud en elementen en opmerkingen synchroniseren over de twee wolken. Zie [ Activa delen ](../services/assets/share.md).
 
 **17 juli 2014**
 

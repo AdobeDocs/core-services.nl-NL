@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud-interface en -beheer
 title: Experience Cloud Interface en Beheer
 description: Meer informatie over Experience Cloud-interface, cookies en accountvoorkeuren. Beheer producten en configureer de service Personen, inclusief klantkenmerken en Audience Library. Experience Cloud Assets delen.
 index: true
-source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
+source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '232'
 ht-degree: 20%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 20%
    + [Aan de slag](services/getting-started.md)
    + Assets {#assets}
       + [Overzicht](services/assets/experience-cloud-assets.md)
-      + [Mappen en middelen delen met Creative Cloud](services/assets/creative-cloud.md)
       + [Creative Cloud-gebruikers beheren](services/assets/manage-cc-users.md)
       + [Een elementmap delen](services/assets/share.md)
       + [Middelen uploaden naar een gedeelde map](services/assets/upload.md)
