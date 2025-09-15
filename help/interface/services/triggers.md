@@ -29,7 +29,7 @@ Bijvoorbeeld:
 
 >[!NOTE]
 >
->Meer informatie over het gebruiken van [!UICONTROL Triggers] is beschikbaar in [ Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html).
+>Meer informatie over het gebruiken van [!UICONTROL Triggers] is beschikbaar in [ Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=nl-NL).
 
 ## Typen triggers
 
@@ -59,7 +59,7 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
    |--- |--- |
    | [!UICONTROL Name] | De vriendelijke naam voor deze trigger. |
    | [!UICONTROL Description] | De beschrijving van deze trigger, hoe u deze gebruikt, enzovoort. |
-   | [!UICONTROL Report Suite] | De Analytics [ rapportreeks ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) die voor deze trekker wordt gebruikt. Deze instelling identificeert de te gebruiken rapportgegevens. |
+   | [!UICONTROL Report Suite] | De Analytics [ rapportreeks ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=nl-NL) die voor deze trekker wordt gebruikt. Deze instelling identificeert de te gebruiken rapportgegevens. |
    | Het bezoek moet <br> Bezoek omvatten moet niet <br> Trekker na geen actie <br> omvatten meta- gegevens | U kunt criteria of gedrag van bezoekers bepalen die u wilt voorkomen, en gedrag dat u niet wilt voorkomen. De regels voor een eenvoudige trigger voor het verlaten van een winkelwagentje kunnen bijvoorbeeld zijn:<ul><li>Bezoek moet het volgende bevatten: [!UICONTROL Cart Addition] (metrisch) en [!UICONTROL Exists] . (U kunt de regel verder verfijnen met een specifieke productweergave of met afmetingen zoals Browsertypen.)</li><li>Bezoek mag het volgende niet bevatten: [!UICONTROL Checkout] .</li><li>Trigger na geen actie gedurende: 10 minuten.</li><li>[!UICONTROL Include Meta Data]: hiermee kunt u een bepaalde [!DNL Campaign] -dimensie of -variabelen toevoegen die relevant zijn voor het gedrag van een bezoeker. Dit veld kan handig zijn voor Adobe Campaign bij het samenstellen van de juiste e-mail voor opnieuw in de handel brengen.</li></ul><br> u kunt [!UICONTROL Any] specificeren, [!UICONTROL And] of [!UICONTROL Or] logica binnen of tussen containers, afhankelijk van de criteria u belangrijk voor de regel bepaalt. |
    | [!UICONTROL Container] | In [!UICONTROL Containers] kunt u regels, voorwaarden of filters instellen en opslaan die een trigger definiëren. Als u wilt dat gebeurtenissen tegelijkertijd plaatsvinden, plaatst u ze in dezelfde container. Met andere woorden, elke container verwerkt onafhankelijk op raakniveau. Bijvoorbeeld, als u twee containers hebt die door de exploitant worden aangesloten van En, kunt u de regels verwachten om te kwalificeren wanneer twee klappen aan de vereisten voldoen. |
    | Nieuwe sessie starten na | Maak een trigger voor het starten en beëindigen van de sessie. |
@@ -67,7 +67,7 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
    {style="table-layout:auto"}
 
 5. Klik op **[!UICONTROL Save]**.
-6. De trekkers van het gebruik voor [ remarketing in real time ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) in [!DNL Adobe Campaign].
+6. De trekkers van het gebruik voor [ remarketing in real time ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=nl-NL) in [!DNL Adobe Campaign].
 
 ## Voorbeeld-triggers
 
