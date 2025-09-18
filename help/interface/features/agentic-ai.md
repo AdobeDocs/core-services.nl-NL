@@ -34,7 +34,7 @@ Met AI-agents (&quot;agentic AI&quot;) in [!DNL Experience Cloud] kunt u uw doel
 | **Journey Agent** | Binnenkort beschikbaar | <ul><li>Adobe Journey Optimizer</li></ul> | Maak, analyseer en optimaliseer klantritten op schaal. |
 | [ Agent van de Steun van het Product ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | Beschikbaar | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Los problemen op, creeer steunkaartjes, en spoorvooruitgang met AI Medewerker. |
 
-[!BADGE  Leer meer op Adobe for Business ]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Ga naar Business.adobe.com"}
+[!BADGE &#x200B; Leer meer op Adobe for Business &#x200B;]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Ga naar Business.adobe.com"}
 
 <!-- 
 * [Product Support Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
