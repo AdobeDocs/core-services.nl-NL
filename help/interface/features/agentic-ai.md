@@ -35,7 +35,7 @@ Meer informatie over de beschikbaarheid van magnetische AI en de ondersteunde to
 | **de Agent van de Experimentatie** <b>* </b> | Binnenkort beschikbaar | <ul><li>AJO Experimentation Accelerator</li></ul> | Automatische analyse om experimenten en groeimogelijkheden te identificeren. |
 | **Journey Agent** | Binnenkort beschikbaar | <ul><li>Adobe Journey Optimizer</li></ul> | Maak, analyseer en optimaliseer klantritten op schaal. |
 
-[!BADGE  Leer meer op Adobe for Business ]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Ga naar Business.adobe.com"}
+[!BADGE &#x200B; Leer meer op Adobe for Business &#x200B;]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Ga naar Business.adobe.com"}
 
 
 
