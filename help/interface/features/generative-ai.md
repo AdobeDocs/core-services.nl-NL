@@ -7,10 +7,10 @@ topic: Artificial Intelligence
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 99ab2eba629e6f90591f2c075997557263cd4d8d
+source-git-commit: 4ce6b7ae75b8fdad478384fbd6d3400c4b852bf3
 workflow-type: tm+mt
-source-wordcount: '2432'
-ht-degree: 6%
+source-wordcount: '2399'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Met Generative AI (genAI) in Experience Cloud kunt u creatieve en cognitieve tak
 
 >[!IMPORTANT]
 >
->Alvorens Experience Cloud generatieve AI eigenschappen te gebruiken, moet u de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) begrijpen en volgen.
+>Alvorens Experience Cloud generatieve AI eigenschappen te gebruiken, moet u de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) begrijpen en volgen.
 
 **wat is genAI?**
 
@@ -36,55 +36,56 @@ Generatieve AI is een type AI die originele inhoud kan maken. Zo kunt u bijvoorb
 
 [!UICONTROL AI Assistant] is een conversationele genAI-tool die in veel Experience Cloud-toepassingen wordt ondersteund. Gebruik het om _productkennis_ en _operationele inzichten_ snel te bereiken, afhankelijk van de toepassing u gebruikt.
 
-* **de kennis van het Product:** de kennis van het Product verwijst naar concepten en onderwerpen die in de documentatie van Experience League worden gegrond. Bijvoorbeeld, gebruik [&#x200B; op doelstelling-gebaseerde herinneringen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home) om over Experience Platform snel te leren. Alle antwoorden van Experience League zijn controleerbaar en worden met links genoemd.
+* **de kennis van het Product:** de kennis van het Product verwijst naar concepten en onderwerpen die in het productdocumentatie van Experience Cloud op Experience League worden gebaseerd. Bijvoorbeeld, gebruik [ op doelstelling-gebaseerde herinneringen ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) om over Experience Platform snel te leren. Alle antwoorden van Experience League zijn controleerbaar en worden met links genoemd.
 
-* **Operationele inzichten:** Bijvoorbeeld, [&#x200B; operationele inzichten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform verwijzen naar geproduceerde reacties over uw meta-gegevensvoorwerpen (attributen, publiek, dataflows, datasets, etc.). Met [!UICONTROL AI Assistant] kunt u in seconden bereiken wat anders uren of dagen kan duren.
+* **Operationele inzichten:** Bijvoorbeeld, [ operationele inzichten ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform verwijzen naar geproduceerde reacties over uw meta-gegevensvoorwerpen (attributen, publiek, dataflows, datasets, etc.). Met [!UICONTROL AI Assistant] kunt u in seconden bereiken wat anders uren of dagen kan duren.
 
 >[!NOTE]
 >
 >Vele toepassingen van Experience Cloud gebruiken _Medewerker AI_ als eigenschapnaam (zoals hieronder beschreven). Deze functie haalt echter alleen informatie voor de specifieke toepassing die u gebruikt. AI Assistant in AEM biedt bijvoorbeeld relevante, nuttige informatie over AEM.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/landing" tooltip="Naar AI-assistent"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing" tooltip="Naar AI-assistent"}
 
-[!BADGE &#x200B; Privacy, veiligheid, en bestuur &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/privacy" tooltip="GenAI bij Adobe"}
+[!BADGE  Privacy, veiligheid, en bestuur ]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy" tooltip="GenAI bij Adobe"}
 
 ## Welke genAI-functies worden ondersteund? {#ai-roundup}
 
-Hier volgt een overzicht van de [!DNL Experience Cloud] -toepassingen die generatieve AI-functies en AI Assistant gebruiken. De verenigbaarheid met [&#x200B; Adobe Firefly &#x200B;](https://business.adobe.com/products/firefly-business/firefly-ai-approach.html) wordt vermeld voor generatieve eigenschappen AI.
+Hier volgt een overzicht van de [!DNL Experience Cloud] -toepassingen die generatieve AI-functies en AI Assistant gebruiken. De verenigbaarheid met [ Adobe Firefly ](https://business.adobe.com/products/firefly-business/firefly-ai-approach.html) wordt vermeld voor generatieve eigenschappen AI.
 
-**Nota:** [!DNL Experience Platform Agents] wordt beschreven in [&#x200B; Aantrekkelijke AI in Experience Cloud &#x200B;](agentic-ai.md).
+### Generatieve AI
 
-<!-- ### Generative AI
-
-| Product | Key AI features | Firefly Compatibility |
+<!-- | Product | Key AI features | Firefly Compatibility |
 |----------------|-----------------|---------|
-| GenStudio for Performance Marketing | Create personalized, on-brand content | Yes|
-| Adobe Experience Manager (Sites, Assets, Dynamic Media, Forms) | Generative AI for content variations, smart tagging, content optimization | Yes|
-| Marketo Engage      | Generative Email Designer, AI for webinars & chat | Yes|
-| Campaign          | Content Accelerator for cross-channel personalization | Yes|
-| Journey Optimizer          | Generative text & image variations, AI-assisted subject lines | No|
-| Real-Time CDP           | Predictive Audiences, AI Assistant support | No|
-| Journey Optimizer        | AI-driven orchestration recommendations |
-| Experience Platform      | AI Assistant for data and schema insights |
-| Customer Journey Analytics       | AI Assistant, intelligent captions, automated content insights |
-| Experience Platform       | Operational insights via AI Assistant |
-| Workfront            | AI-assisted work management and recommendations | -->
+| GenStudio for Performance Marketing | Create personalized, on-brand content | Yes |
+| Adobe Experience Manager (AEM CS) | Generate Variations, Sites Optimizer GenAI, Content Hub, Smart Tags | Yes |
+| Adobe Experience Manager 6.5 | AI Assistant support | Yes |
+| Adobe Experience Manager 6.5 LTS | AI Assistant support | Yes |
+| Adobe Experience Platform | AI Assistant for product knowledge and operational insights | No |
+| Adobe Journey Optimizer | AI Assistant, content generation (Prime/Ultimate) | Yes |
+| Adobe Journey Optimizer B2B Edition | AI Assistant for product knowledge | No |
+| Campaign Managed Cloud Services | Content Accelerator for cross-channel personalization | Yes |
+| Customer Journey Analytics | AI Assistant, Intelligent Captions, Content Analytics | No |
+| Real-Time CDP | AI Assistant for product knowledge and operational insights | No |
+| Marketo | Email Designer, Dynamic Chat, Interactive Webinars | Yes |
+| Workfront | AI Assistant for work management and recommendations | Yes | -->
 
-| **Naam van het Product** | **AI Eigenschappen** | **AI Medewerker** | **de Verenigbaarheid van Firefly** |
-|------------------|-------------------------|------------------|-------------------|
-| **Adobe GenStudio for Performance Marketing** | GenStudio for Performance Marketing is een genAI-toepassing. Het helpt marketing en creatieve teams om gepersonaliseerde, on-brand inhoud tot stand te brengen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home) | Niet van toepassing | Ja |
-| **Adobe Experience Manager as a Cloud Service (AEM CS)** | AI is beschikbaar in:<ul><li>[&#x200B; produceer Variaties &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor) in **AEM Sites**</li><li>[&#x200B; GenAI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-sites-optimizer/content/opportunity-types/overview) in **Sites Optimizer**</li><li>[&#x200B; Content Hub &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) en [&#x200B; Slimme Markeringen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) in **AEM Assets**</li></ul> [&#x200B; Leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem) <br> | AI Assistant is beschikbaar voor: <ul><li>Experience Hub-overzichtspagina<li>Edge Delivery Services</li><li>Sites</li><li>Assets</li><li>Forms</li><li>Dynamische media</li><li>Cloud Manager</li></ul> [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/ai-assistant/ai-assistant-in-aem) | Ja |
-| **Adobe Experience Manager 6.5** | | AI Assistant is beschikbaar voor: <ul><li>Experience Hub-overzichtspagina<li>Edge Delivery Services</li><li>Sites</li><li>Assets</li><li>Forms</li><li>Dynamische media</li><li>Cloud Manager</li></ul> [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | Ja |
-| **Adobe Experience Manager 6.5 LTS** | | AI Assistant is beschikbaar voor: <ul><li>Experience Hub-overzichtspagina<li>Edge Delivery Services</li><li>Sites</li><li>Assets</li><li>Forms</li><li>Dynamische media</li><li>Cloud Manager</li></ul> [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-65-lts/content/ai-assistant/ai-assistant-in-aem) | Ja |
-| **Adobe Experience Platform** | | Beschikbaar voor productkennis en operationele inzichten. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/landing) | Nee |
-| **Adobe Journey Optimizer** | | Beschikbaar voor productkennis en operationele inzichten. [Meer informatie](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/ai-assistant) | Nee |
-| | | _AJO Prime_ en _Ultimate_ bieden [&#x200B; generatie van de Inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) aan om pro-actieve suggesties van de inhoudvariatie voor tekst en beelden te brengen. | Ja |
-| **Adobe Journey Optimizer B2B edition** |  | Beschikbaar voor hulp bij productkennis. [Meer informatie](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | Nee |
-| **[!DNL Campaign]Beheerde cloudservices** |  | Beschikbaar voor Content Accelerator om automatisch persoonlijke, aantrekkelijke en effectieve inhoud te genereren op basis van marketingdoelstellingen op verschillende kanalen, zoals e-mail, SMS en Push. [Meer informatie](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/content/ai-assistant/generative-gs) | Ja |
-| **[!DNL Customer Journey Analytics]** | AI wordt gebruikt met:<ul><li> [&#x200B; Intelligente Bijschriften &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): Voor inzichten over de vaakst gebruikte Workspace visualisaties.</li><li>[&#x200B; Content Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): Om activa automatisch meta-gegevens toe te wijzen.</li></ul> | Beschikbaar voor:<ul><li>[&#x200B; de kennis van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) (Experience League)</li><li>[&#x200B; Agent van de Steun van het Product &#x200B;](agentic-ai.md) </li><li>[&#x200B; Data Insights Agent &#x200B;](agentic-ai.md)</li></ul> | Nee |
-| **Real-Time CDP** |  | Beschikbaar voor productkennis van Experience League. Het biedt ook operationele inzichten. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home) | Nee |
-| **[!DNL Marketo]** | AI is beschikbaar in E-mail Designer (met Firefly), [&#x200B; Dynamic Chat &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en), en [&#x200B; Interactieve Webinars &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en). | Beschikbaar in Marketo Engage [&#x200B; e-mail Designer &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | Ja |
-| **[!DNL Workfront]** |  | Beschikbaar voor informatie en suggesties in de app. [Meer informatie](https://experienceleague.adobe.com/nl/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | Ja |
+| **Naam van het Product** | {de Eigenschappen van 0} Zeer belangrijke GenAI **** | **de Verenigbaarheid van Firefly** |
+|------------------|-------------------------|-------------------|
+| [ Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) | Maak gepersonaliseerde on-brand inhoud met genAI. | Ja |
+| [ Adobe Experience Manager as a Cloud Service (AEM CS) ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI is beschikbaar in:<ul><li>[ produceer Variaties ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor) in **AEM Sites**</li><li>[ GenAI ](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunity-types/overview) in **Sites Optimizer**</li><li>[ Content Hub ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) en [ Slimme Markeringen ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) in **AEM Assets**</li></ul> AI Assistant voor: <ul><li>Experience Hub-overzichtspagina<li>Edge Delivery Services</li><li>Sites</li><li>Assets</li><li>Forms</li><li>Dynamische media</li><li>Cloud Manager</li></ul> | Ja |
+| [ Adobe Experience Manager 6.5 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI Assistant voor: <ul><li>Experience Hub-overzichtspagina<li>Edge Delivery Services</li><li>Sites</li><li>Assets</li><li>Forms</li><li>Dynamische media</li><li>Cloud Manager</li></ul> | Ja |
+| [ Adobe Experience Manager 6.5 LTS ](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/ai-assistant/ai-assistant-in-aem) | AI Assistant voor: <ul><li>Experience Hub-overzichtspagina<li>Edge Delivery Services</li><li>Sites</li><li>Assets</li><li>Forms</li><li>Dynamische media</li><li>Cloud Manager</li></ul> | Ja |
+| [ Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing) | AI Assistant voor productkennis en operationele inzichten. | Nee |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) | AI Assistant voor productkennis en operationele inzichten. | Nee |
+| | _AJO Prime_ en _Ultimate_ bieden [ generatie van de Inhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) aan om pro-actieve suggesties van de inhoudvariatie voor tekst en beelden te brengen. | Ja |
+| [ Adobe Journey Optimizer B2B edition ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | AI Assistant voor productkennis. | Nee |
+| [[!DNL Campaign]  Beheerde Diensten van de Wolk ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs) | Met AI Assistant for Content Accelerator kunt u automatisch persoonlijke, aantrekkelijke en effectieve inhoud genereren op basis van marketingdoelstellingen via verschillende kanalen, zoals e-mail, SMS en Push. | Ja |
+| **[!DNL Customer Journey Analytics]** | GenAI wordt gebruikt met:<ul><li> [ Intelligente Bijschriften ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): Voor inzichten over de vaakst gebruikte Workspace visualisaties.</li><li>[ Content Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): Om activa automatisch meta-gegevens toe te wijzen.</li></ul> AI Assistant voor:<ul><li>[ de kennis van het Product ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[ Agent van de Steun van het Product ](agentic-ai.md) </li><li>[ Data Insights Agent ](agentic-ai.md)</li></ul> | Nee |
+| [ Real-Time CDP ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) | AI Assistant voor productkennis van Experience League. Het biedt ook operationele inzichten. | Nee |
+| **[!DNL Marketo]** | GenAI is beschikbaar in E-mail Designer (met Firefly), [ Dynamic Chat ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en), en [ Interactieve Webinars ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en). <br> AI Medewerker voor Marketo Engage [ E-mail Designer ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | Ja |
+| [ Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | AI Assistant voor informatie en suggesties in de app. | Ja |
+
+**Nota:** [!DNL Experience Platform Agents] wordt beschreven in [ AI agenten in Experience Cloud ](agentic-ai.md).
 
 ## Hoe kan ik generatieve AI gebruiken in Experience Cloud? {#products}
 
@@ -98,7 +99,7 @@ De volgende secties gaan meer in detail over hoe u genAI of AI Medewerker in spe
 
 Prestatiemarkeringen kunnen natuurlijke taalaanwijzingen gebruiken om gepersonaliseerde, merkconforme middelen te genereren. GenStudio for Performance Marketing versnelt de uitvoering van de campagne, schaalt de productie van inhoud zonder de integriteit van het merk in het gedrang te brengen, en biedt prestatieanalyses voor het verbeteren van het totale investeringsrendement.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home" tooltip="Ga naar GenStudio for Performance Marketing"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home" tooltip="Ga naar GenStudio for Performance Marketing"}
 
 +++
 
@@ -112,7 +113,7 @@ In de volgende secties wordt een korte beschrijving gegeven van generatieve AI i
 
 Met Adobe Generative AI for Adobe Experience Manager (AEM) as a Cloud Service kunnen merken krachtige ervaringen creëren met het genereren van zowel kopieën als afbeeldingen in de bewerkingsinterface.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem" tooltip="Ga naar GenAI in AEM CS"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem" tooltip="Ga naar GenAI in AEM CS"}
 
 #### AI Assistant in AEM CS
 
@@ -128,13 +129,13 @@ AI Assistant ondersteunt AEM as a Cloud Service op de volgende plaatsen:
 * Dynamische media
 * Cloud Manager
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/ai-assistant/ai-assistant-in-aem" tooltip="Ga naar AI Assistant in AEM"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-assistant/ai-assistant-in-aem" tooltip="Ga naar AI Assistant in AEM"}
 
 #### Experience Manager Sites
 
-In AEM Sites kunt u _[!UICONTROL Generate Variations]_&#x200B;gebruiken. Deze functie gebruikt generatieve kunstmatige intelligentie om inhoudvariaties te creëren die op uw inputherinneringen worden gebaseerd. Prompts worden geleverd door Adobe of gemaakt en beheerd door u.
+In AEM Sites kunt u _[!UICONTROL Generate Variations]_gebruiken. Deze functie gebruikt generatieve kunstmatige intelligentie om inhoudvariaties te creëren die op uw inputherinneringen worden gebaseerd. Prompts worden geleverd door Adobe of gemaakt en beheerd door u.
 
-Na het creëren van variaties, kunt u de inhoud op uw website gebruiken en zijn succes meten gebruikend de [&#x200B; eigenschap van de Experimentatie &#x200B;](https://www.aem.live/docs/experimentation) in Edge Delivery Services. U kunt ook afbeeldingen genereren in Adobe Express met behulp van de generatieve AI-mogelijkheden van Firefly.
+Na het creëren van variaties, kunt u de inhoud op uw website gebruiken en zijn succes meten gebruikend de [ eigenschap van de Experimentatie ](https://www.aem.live/docs/experimentation) in Edge Delivery Services. U kunt ook afbeeldingen genereren in Adobe Express met behulp van de generatieve AI-mogelijkheden van Firefly.
 
 **Input en outputvoorbeelden**
 
@@ -148,13 +149,13 @@ Invoervelden zijn:
 
 De output is geproduceerde inhoud of marktexemplaar.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor" tooltip="Ga naar Variaties genereren op Experience League"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor" tooltip="Ga naar Variaties genereren op Experience League"}
 
 #### Sites Optimizer {#sites-optimizer}
 
 AEM Sites Optimizer gebruikt generatieve AI om de prestaties en effectiviteit van webervaringen te analyseren en te verbeteren. Deze inzichten worden gegroepeerd in belangrijke opportuniteitsgebieden: Betrokkenheid, Verkeersverwerving, Beveiligingstelling en, Sitegezondheid. Elke categorie benadrukt specifieke manieren om uw plaats te verbeteren, hetzij door bezoekersinteractie te verhogen, ontdekkingsbaarheid te verbeteren, veiligheid te versterken, of plaatsstabiliteit te handhaven.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-manager-sites-optimizer/content/opportunity-types/overview" tooltip="Ga naar Sites Optimizer op Experience League"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunity-types/overview" tooltip="Ga naar Sites Optimizer op Experience League"}
 
 #### Experience Manager Assets {#aem-assets}
 
@@ -166,7 +167,7 @@ In AEM Assets, kunt u generatieve AI in **Content Hub** gebruiken en **AI-Gegene
 
 In Content Hub kunt u inhoud maken met Adobe Express (als u Adobe Express-rechten hebt). U kunt bestaande inhoud bewerken met eenvoudige gereedschappen, merkvariaties produceren met sjablonen en merkelementen en inhoud maken met de nieuwste GenAI-mogelijkheden van [!DNL Adobe Firefly] .
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview" tooltip="Ga naar Content Hub op Experience League"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview" tooltip="Ga naar Content Hub op Experience League"}
 
 **Slimme Markeringen**
 
@@ -174,7 +175,7 @@ In plaats van handmatig in te voeren, kan AI automatisch beschrijvende tags toew
 
 Als het element bijvoorbeeld een afbeelding is, kan AI objecten, scènes, emoties of zelfs merklogo&#39;s identificeren. Het kan relevante markeringen zoals _zonsondergang_, _strand_, _vakantie_, of _het glimlachen_ produceren.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags" tooltip="Meer informatie over slimme tags"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags" tooltip="Meer informatie over slimme tags"}
 
 +++
 
@@ -190,7 +191,7 @@ AI Assistant in Adobe Experience Platform is een chatprogramma waarmee u sneller
 
 AI Assistant is beschikbaar in Experience Platform, Real-Time Customer Data Platform, Adobe Journey Optimizer en Customer Journey Analytics. (Hieronder beschreven)
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/landing" tooltip="AI Assistant in Adobe Experience Platform"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing" tooltip="AI Assistant in Adobe Experience Platform"}
 
 +++
 
@@ -198,7 +199,7 @@ AI Assistant is beschikbaar in Experience Platform, Real-Time Customer Data Plat
 
 +++Details
 
-In [!DNL Journey Optimizer] (AJO), kunt u [&#x200B; AI Medewerker &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/ai-assistant) gebruiken om _productkennis_ en _operationele inzichten_ (bèta) te bereiken.
+In [!DNL Journey Optimizer] (AJO), kunt u [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) gebruiken om _productkennis_ en _operationele inzichten_ (bèta) te bereiken.
 
 #### Voorbeelden van het gebruik van AI Assistant in AJO
 
@@ -214,15 +215,15 @@ Hier volgt een voorbeeldinput voor operationele inzichten:
 
   Voor output, vraagt de Medewerker van AI een klant-specifieke gegevensopslag. De gegevensopslag bevat gecentraliseerde, operationele gegevens over [!UICONTROL Journeys]. Deze functie is onduidelijk voor de klant en haalt alleen metagegevens van zakelijke objecten op. Er worden geen gegevens in uw sandbox geopend.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/ai-assistant" tooltip="Meer informatie over AI Assistant in AJO"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant" tooltip="Meer informatie over AI Assistant in AJO"}
 
 #### AI Assistant voor het genereren van inhoud (AJO Prime en Ultimate) {#ajo-prime}
 
-In AJO _Prime_ en _Ultimate_, kunt u [&#x200B; inhoudsgeneratie &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) voor inhoudsgeneratie gebruiken om pro-actieve suggesties van de inhoudsvariatie voor tekst en beelden te brengen.
+In AJO _Prime_ en _Ultimate_, kunt u [ inhoudsgeneratie ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) voor inhoudsgeneratie gebruiken om pro-actieve suggesties van de inhoudsvariatie voor tekst en beelden te brengen.
 
 Deze functie is beschikbaar voor e-mail, pushberichten, webpagina&#39;s, inhoud en SMS-kanalen. Deze biedt snel gebaseerde tekst en het genereren van afbeeldingen. Uitvoer van het genereren van inhoud in AJO Prime en Ultimate is gegarandeerd.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Meer informatie over AI Assistant in AJO"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Meer informatie over AI Assistant in AJO"}
 
 +++
 
@@ -238,7 +239,7 @@ Voorbeeld-invoer:
 
   De uitvoer van productkennis wordt vanuit Experience League opgehaald.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview" tooltip="Meer informatie over AI Assistant in AJO"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview" tooltip="Meer informatie over AI Assistant in AJO"}
 
 +++
 
@@ -248,9 +249,9 @@ Voorbeeld-invoer:
 
 Met Customer Journey Analytics kunt u op de volgende manieren generatieve AI of AI Assistant gebruiken:
 
-* [&#x200B; AI Medewerker &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) voor productkennis.
-* [&#x200B; Intelligente Bijschriften &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) om zeer belangrijke inzichten voor de vaakst gebruikte Workspace visualisaties in natuurlijke taal te verstrekken.
-* [&#x200B; Content Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/content-analytics/report/report#template) om elk activa automatisch meta-gegevens toe te wijzen.
+* [ AI Medewerker ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) voor productkennis.
+* [ Intelligente Bijschriften ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) om zeer belangrijke inzichten voor de vaakst gebruikte Workspace visualisaties in natuurlijke taal te verstrekken.
+* [ Content Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template) om elk activa automatisch meta-gegevens toe te wijzen.
 
 **AI Medewerker**
 
@@ -260,7 +261,7 @@ Ontdek productkennis van Experience League. Als u een nieuwe gebruiker bent, lee
 
 Ervaren gebruikers krijgen geavanceerde gebruiksgevallen of leren strategieën om taken snel uit te voeren. U kunt concepten snel begrijpen, problemen oplossen, of naar informatie zoeken.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="Meer informatie over AI Assistant in CJA"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="Meer informatie over AI Assistant in CJA"}
 
 **Intelligente Bijschriften**
 
@@ -270,9 +271,9 @@ Bijvoorbeeld:
 
 * **Input:** in CJA, stel een gesteunde visualisatie (met inbegrip van Lijn, Gebied, Grafiek van de Bar, Stroom, of Vallout) in werking, dan klik **[!UICONTROL Intelligent captions]**.
 
-* **Output:** de mening auto-geproduceerde, natuurlijk-taaltitels die context en zeer belangrijke taken tonen. Vervolgens kunt u acties ondernemen met betrekking tot de gegenereerde gegevens, zoals controleren, kopiëren en delen met uw organisatie. [&#x200B; zie hoe &#x200B;](https://video.tv.adobe.com/v/3443144/?quality=12&learn=on#_blank&captions=dut)
+* **Output:** de mening auto-geproduceerde, natuurlijk-taaltitels die context en zeer belangrijke taken tonen. Vervolgens kunt u acties ondernemen met betrekking tot de gegenereerde gegevens, zoals controleren, kopiëren en delen met uw organisatie. [ zie hoe ](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions" tooltip="Meer informatie over intelligente bijschriften"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions" tooltip="Meer informatie over intelligente bijschriften"}
 
 **Content Analytics**
 
@@ -280,7 +281,7 @@ Content Analytics gebruikt AI en GenAI om automatisch metagegevens van elk eleme
 
 Voorgrond `color: red` is bijvoorbeeld een automatisch toegewezen kenmerk. Met behulp van de visualisaties kunt u bepalen welke kenmerken van uw elementen het meest bijdragen aan de conversie.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/content-analytics/report/report#template" tooltip="Meer informatie over Content Analytics"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template" tooltip="Meer informatie over Content Analytics"}
 
 +++
 
@@ -292,7 +293,7 @@ Real-Time CDP gebruikt [!UICONTROL AI Assistant] om u te helpen met productkenni
 
 Als u bijvoorbeeld een query uitvoert naar een publiek, heeft [!UICONTROL AI Assistant] toegang tot de naam van het publiek en andere bijbehorende metagegevens, maar heeft  geen toegang tot de profielen in dat publiek.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home" tooltip="Meer informatie over Real-Time CDP"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home" tooltip="Meer informatie over Real-Time CDP"}
 
 +++
 
@@ -304,7 +305,7 @@ Met Campagne Managed Cloud Services wordt [!UICONTROL AI Assistant] gebruikt voo
 
 **Nota:** de Output van inhoudsgeneratie in de Beheerde Diensten van de Wolk van de Campagne wordt bevestigd.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/content/ai-assistant/generative-gs" tooltip="Meer informatie over AI Assistant in AJO"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs" tooltip="Meer informatie over AI Assistant in AJO"}
 
 +++
 
@@ -323,19 +324,19 @@ Produceer automatisch hoofdstukken en samenvattingen voor uw geregistreerde webi
 * Bewerkbare inhoud - gegenereerde hoofdstukken en samenvattingen wijzigen
 * Eenvoudige integratie - Voeg hoofdstukken en samenvattingen toe aan uw bestemmingspagina&#39;s door de HTML-code naar de webpagina-editor van uw keuze te kopiëren
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai" tooltip="Meer informatie over interactieve webinars"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai" tooltip="Meer informatie over interactieve webinars"}
 
 **Dynamic Chat**
 
 Met de generatieve AI-functies in Adobe Dynamic Chat kunt u de productiviteit van uw verkoopagenten optimaliseren, inzicht krijgen in de intentie van uw websitebezoeker en op een veilige manier op bezoekersvragen reageren. U kunt de vragen, de antwoorden, en de gesprekssamenvatting vooraf goedkeuren. Dynamic Chat bevat zowel een gratis versie als een premiumversie.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview" tooltip="Meer informatie over Dynamic Chat"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview" tooltip="Meer informatie over Dynamic Chat"}
 
 **Email Designer**
 
 [!UICONTROL AI Assistant] in Marketo Engage [!UICONTROL Email Designer] helpt u om hedendaagse, krachtige en intuïtieve e-mails te maken. Dit wordt bereikt door middel van Adobe-generatieve AI-technologie en snelle bibliotheek, samen met Firefly voor het genereren van beelden, die helpen bij het creëren van geschikte inhoud voor een bepaalde groep personen/inkoopgroepen, de fase van de marketingreis, de communicatiestrategie, de toon, enz. U kunt ook speciale merkmiddelen gebruiken om inhoud te maken.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant" tooltip="Meer informatie over Dynamic Chat"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant" tooltip="Meer informatie over Dynamic Chat"}
 
 **GenStudio for Performance Marketing**
 
@@ -354,7 +355,7 @@ Marketo integreert met GenStudio for Performance Marketing
 * Krijg geproduceerde formules op uw herinneringen worden gebaseerd die. U kunt fouten in uw ongeldige douaneuitdrukkingen op berekende gebieden ook oplossen.
 * Zoek projecten, taken en problemen.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/nl/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Meer informatie over AI Assistant in Workfront"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Meer informatie over AI Assistant in Workfront"}
 
 +++
 
@@ -362,7 +363,7 @@ Marketo integreert met GenStudio for Performance Marketing
 
 +++Details
 
-* [&#x200B; Verantwoordelijke AI Middelen op het Centrum van het Vertrouwen &#x200B;](https://www.adobe.com/trust/responsible-ai.html) <!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
+* [ Verantwoordelijke AI Middelen op het Centrum van het Vertrouwen ](https://www.adobe.com/trust/responsible-ai.html) <!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
 
 +++
 

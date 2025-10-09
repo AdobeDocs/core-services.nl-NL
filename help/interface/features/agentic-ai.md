@@ -7,14 +7,14 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 5a63e42c555d40c2676f37f951e32f904c568e32
+source-git-commit: 4ce6b7ae75b8fdad478384fbd6d3400c4b852bf3
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '284'
 ht-degree: 6%
 
 ---
 
-# Agentische AI in Experience Cloud
+# Experience Platform-agenten in Experience Cloud
 
 Adobe Experience Platform Agent Orchestrator en de Platform Agents laten agentische mogelijkheden binnen onze oplossingen toe. U kunt toegang krijgen tot de mogelijkheden van AEP Agent Orchestrator en AEP Agents via::
 
@@ -28,14 +28,14 @@ Meer informatie over de beschikbaarheid van magnetische AI en de ondersteunde to
 
 | Naam agent | Beschikbaarheid | Ondersteunde toepassingen | Mogelijkheden |
 |---|----------|------------|----------|
-| [ Agent van de Steun van het Product ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/new-features/customer-support) | Beschikbaar | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Los problemen op, creeer steunkaartjes, en spoorvooruitgang met AI Medewerker. |
+| [ Agent van de Steun van het Product ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | Beschikbaar | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Los problemen op, creeer steunkaartjes, en spoorvooruitgang met AI Medewerker. |
 | [ Site Optimization Agent ](https://experienceleague.adobe.com/nl/docs/experience-manager-sites-optimizer/content/home) <b>* </b> | Beschikbaar | <ul><li>AEM Sites Optimizer</li></ul> | Gebruikt generatieve AI om websiteverbeteringen te vinden en te lanceren die verkeer, betrokkenheid, en algemene bedrijfsresultaten bevorderen. |
-| [ Data Insights Agent ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Beschikbaar | <ul><li>Customer Journey Analytics</li></ul> | Beantwoord gegevensvragen en maak visualisaties in Analysis Workspace. |
-| **Audience Agent** | Binnenkort beschikbaar | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | Maak en optimaliseer het publiek met de aanwijzingen voor natuurlijke talen. |
-| **de Agent van de Experimentatie** <b>* </b> | Binnenkort beschikbaar | <ul><li>AJO Experimentation Accelerator</li></ul> | Automatische analyse om experimenten en groeimogelijkheden te identificeren. |
-| **Journey Agent** | Binnenkort beschikbaar | <ul><li>Adobe Journey Optimizer</li></ul> | Maak, analyseer en optimaliseer klantritten op schaal. |
+| [ Data Insights Agent ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Beschikbaar | <ul><li>Customer Journey Analytics</li></ul> | Beantwoord gegevensvragen en maak visualisaties in Analysis Workspace. |
+| [ Audience Agent ](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | Beschikbaar | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | Maak en optimaliseer het publiek met de aanwijzingen voor natuurlijke talen. |
+| [ Journey Agent ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | Beschikbaar | <ul><li>Adobe Journey Optimizer</li></ul> | Maak, analyseer en optimaliseer klantritten op schaal. |
+| [ de Agent van de Experimentatie ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Beschikbaar | <ul><li>AJO Experimentation Accelerator</li></ul> | Automatische analyse om experimenten en groeimogelijkheden te identificeren. |
 
-[!BADGE &#x200B; Leer meer op Adobe for Business &#x200B;]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Ga naar Business.adobe.com"}
+[!BADGE  Leer meer op Adobe for Business ]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Ga naar Business.adobe.com"}
 
 
 
