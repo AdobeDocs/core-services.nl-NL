@@ -1,60 +1,12 @@
 ---
-source-git-commit: d192f4fec8cd150f77d076d3ad749048319cd701
+source-git-commit: 159ffe3315c7c1e96af3c52f412e9ddee017e736
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 74%
+source-wordcount: '4'
+ht-degree: 0%
 
 ---
-# Bijdragen aan een artikel
+# ARCHIVED
 
-We accepteren graag de bijdragen van onze community en van Adobe-werknemers van buiten de documentatieteams.
+Gegigreerd naar GHEC
 
-## Adobe Open-Source-gedragscode
-
-Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of de [.NET Foundation-gedragscode](https://dotnetfoundation.org/code-of-conduct) overgenomen. Zie het artikel [Bijdragen](contributing.md) voor meer informatie.
-
-## Over uw bijdragen aan Adobe-content
-
-Zie de [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction).
-
-Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen dat u wilt bijdragen:
-
-### Kleine wijzigingen
-
-Als u minder belangrijke updates uit de goodness van uw hart bijdraagt, bezoek het artikel en selecteer **uitgeven** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction) voor meer informatie.
-
-Kleine correcties of verduidelijkingen die u verzendt voor documentatie en codevoorbeelden in deze repository, worden gedekt door de gebruiksvoorwaarden van Adobe.
-
-### Belangrijke wijzigingen of nieuwe artikelen van leden van de community
-
-Als u deel uitmaakt van de Adobe-community en u een nieuw artikel wilt schrijven of belangrijke veranderingen voorstelt, gebruikt u het tabblad Problemen in de Git-repository om een probleem te melden en een gesprek te beginnen met het documentatieteam. Zodra u met een plan hebt ingestemd, kunt u met een werknemer werken helpen die nieuwe inhoud door een combinatie werk in de openbare en privé bewaarplaatsen brengen.
-
-<!--
-If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
--->
-
-### Belangrijke wijzigingen van Adobe-medewerkers
-
-Als u een technisch schrijver, programmamanager, of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] oplossing bent en het uw baan is om tot technische artikelen bij te dragen of te schrijven, zou u de privé bewaarplaats bij `https://git.corp.adobe.com/AdobeDocs` moeten gebruiken.
-
-<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
-
-## Tools en instellingen
-
-Community-contributors kunnen de GitHub-interface gebruiken voor eenvoudige bewerkingen of kunnen de repository als beginpunt gebruiken voor belangrijke bijdragen.
-
-Zie de handleiding [Adobe Docs Contributor](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction) voor meer informatie.
-
-## Markdown gebruiken voor de opmaak van uw onderwerp
-
-Alle artikelen in deze repository gebruiken een GitHub-markdown. Als u niet vertrouwd bent met markdown, raadpleegt u:
-
-* [Basisprincipes voor markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Afdrukbaar markdown-cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-
-## Labels
-
-In de openbare repository worden geautomatiseerde labels toegewezen om verzoeken op te vragen. Daardoor kunnen we de workflow voor het opvragen van verzoeken beheren en u laten weten wat er met uw opvraagverzoek gebeurt:
-
-* **Wijziging naar auteur verzonden**: de auteur is ingelicht over het opvraagverzoek dat in behandeling is.
-* **klaar-voor-samenvoegen**: gereed voor review door ons revisieteam voor opvraagverzoeken.
+<https://github.com/Adobe-Enterprise-Docs/core-services.en>
